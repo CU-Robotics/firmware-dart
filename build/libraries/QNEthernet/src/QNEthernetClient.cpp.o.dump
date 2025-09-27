@@ -1,0 +1,2430 @@
+
+build/./libraries/QNEthernet/src/QNEthernetClient.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 QNEthernetClient.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv	00000000 .text._ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh	00000000 .text._ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh
+00000000 l    d  .text._ZNK9qindesign7network14EthernetClient16outgoingDiffServEv	00000000 .text._ZNK9qindesign7network14EthernetClient16outgoingDiffServEv
+00000000 l    d  .text._ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv	00000000 .text._ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv
+00000000 l    d  .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev	00000000 .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev
+00000000 l    d  .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev	00000000 .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev
+00000000 l    d  .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	00000000 .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev
+00000000 l    d  .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation	00000000 .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+00000000 l     F .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation	00000020 _ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+00000000 l    d  .text._ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh	00000000 .text._ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh
+00000000 l    d  .text._ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv	00000000 .text._ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv
+00000000 l    d  .text._ZThn16_N9qindesign7network14EthernetClientD1Ev	00000000 .text._ZThn16_N9qindesign7network14EthernetClientD1Ev
+00000000 l    d  .text._ZThn16_N9qindesign7network14EthernetClientD0Ev	00000000 .text._ZThn16_N9qindesign7network14EthernetClientD0Ev
+00000000 l    d  .text._ZN9qindesign7network14EthernetClientD2Ev	00000000 .text._ZN9qindesign7network14EthernetClientD2Ev
+00000000 l    d  .text._ZN9qindesign7network14EthernetClientD0Ev	00000000 .text._ZN9qindesign7network14EthernetClientD0Ev
+00000000 l    d  .text._ZN9qindesign7network14EthernetClientC2Ev	00000000 .text._ZN9qindesign7network14EthernetClientC2Ev
+00000000 l    d  .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE	00000000 .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient19watchPendingConnectEv	00000000 .text._ZN9qindesign7network14EthernetClient19watchPendingConnectEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient9connectedEv	00000000 .text._ZN9qindesign7network14EthernetClient9connectedEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClientcvbEv	00000000 .text._ZN9qindesign7network14EthernetClientcvbEv
+00000000 l    d  .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data	00000000 .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data
+00000000 l     F .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data	00000010 _ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5writeEPKhj	00000000 .text._ZN9qindesign7network14EthernetClient5writeEPKhj
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5writeEh	00000000 .text._ZN9qindesign7network14EthernetClient5writeEh
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient17availableForWriteEv	00000000 .text._ZN9qindesign7network14EthernetClient17availableForWriteEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5flushEv	00000000 .text._ZN9qindesign7network14EthernetClient5flushEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient9availableEv	00000000 .text._ZN9qindesign7network14EthernetClient9availableEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient4readEv	00000000 .text._ZN9qindesign7network14EthernetClient4readEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient4peekEv	00000000 .text._ZN9qindesign7network14EthernetClient4peekEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient4readEPhj	00000000 .text._ZN9qindesign7network14EthernetClient4readEPhj
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt	00000000 .text._ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10setNoDelayEb	00000000 .text._ZN9qindesign7network14EthernetClient10setNoDelayEb
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient9isNoDelayEv	00000000 .text._ZN9qindesign7network14EthernetClient9isNoDelayEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5closeEb	00000000 .text._ZN9qindesign7network14EthernetClient5closeEb
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient4stopEv	00000000 .text._ZN9qindesign7network14EthernetClient4stopEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5closeEv	00000000 .text._ZN9qindesign7network14EthernetClient5closeEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb	00000000 .text._ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient7connectE9IPAddresst	00000000 .text._ZN9qindesign7network14EthernetClient7connectE9IPAddresst
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst	00000000 .text._ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient13connectNoWaitEPKct	00000000 .text._ZN9qindesign7network14EthernetClient13connectNoWaitEPKct
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient7connectEPKct	00000000 .text._ZN9qindesign7network14EthernetClient7connectEPKct
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient11closeOutputEv	00000000 .text._ZN9qindesign7network14EthernetClient11closeOutputEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient5abortEv	00000000 .text._ZN9qindesign7network14EthernetClient5abortEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient9localPortEv	00000000 .text._ZN9qindesign7network14EthernetClient9localPortEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient8remoteIPEv	00000000 .text._ZN9qindesign7network14EthernetClient8remoteIPEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10remotePortEv	00000000 .text._ZN9qindesign7network14EthernetClient10remotePortEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient7localIPEv	00000000 .text._ZN9qindesign7network14EthernetClient7localIPEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt	00000000 .text._ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient12connectionIdEv	00000000 .text._ZN9qindesign7network14EthernetClient12connectionIdEv
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10writeFullyEh	00000000 .text._ZN9qindesign7network14EthernetClient10writeFullyEh
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10writeFullyEPKc	00000000 .text._ZN9qindesign7network14EthernetClient10writeFullyEPKc
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10writeFullyEPKcj	00000000 .text._ZN9qindesign7network14EthernetClient10writeFullyEPKcj
+00000000 l    d  .text._ZN9qindesign7network14EthernetClient10writeFullyEPKhj	00000000 .text._ZN9qindesign7network14EthernetClient10writeFullyEPKhj
+00000000 l    d  .text._ZNK9qindesign7network14EthernetClient6statusEv	00000000 .text._ZNK9qindesign7network14EthernetClient6statusEv
+00000000 l    d  .text.startup._GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev	00000000 .text.startup._GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev
+00000000 l     F .text.startup._GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev	000000c0 _GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .bss._ZL11INADDR_NONE	00000000 .bss._ZL11INADDR_NONE
+00000000 l     O .bss._ZL11INADDR_NONE	00000008 _ZL11INADDR_NONE
+00000000 l    d  .bss._ZN9qindesign7networkL12EthernetInitE	00000000 .bss._ZN9qindesign7networkL12EthernetInitE
+00000000 l     O .bss._ZN9qindesign7networkL12EthernetInitE	00000001 _ZN9qindesign7networkL12EthernetInitE
+00000000 l    d  .bss._ZN9qindesign7networkL8MDNSInitE	00000000 .bss._ZN9qindesign7networkL8MDNSInitE
+00000000 l     O .bss._ZN9qindesign7networkL8MDNSInitE	00000001 _ZN9qindesign7networkL8MDNSInitE
+00000000 l    d  .bss._ZN9qindesign8securityL16randomDeviceInitE	00000000 .bss._ZN9qindesign8securityL16randomDeviceInitE
+00000000 l     O .bss._ZN9qindesign8securityL16randomDeviceInitE	00000001 _ZN9qindesign8securityL16randomDeviceInitE
+00000000 l    d  .rodata._ZTVN9qindesign7network14EthernetClientE	00000000 .rodata._ZTVN9qindesign7network14EthernetClientE
+00000000 l       .group	00000000 _ZN10StaticInitIN9qindesign8security12RandomDeviceEED5Ev
+00000000 l       .group	00000000 _ZN10StaticInitIN9qindesign7network13EthernetClassEED5Ev
+00000000 l       .group	00000000 _ZN10StaticInitIN9qindesign7network9MDNSClassEED5Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv	00000002 _ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh	00000010 _ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh
+00000000 g     F .text._ZNK9qindesign7network14EthernetClient16outgoingDiffServEv	0000000e _ZNK9qindesign7network14EthernetClient16outgoingDiffServEv
+00000000  w    F .text._ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv	00000006 _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv
+00000000  w    F .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev	00000018 _ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign8security12RandomDeviceEE13nifty_counterE
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign8security12RandomDeviceEE2pTE
+00000000  w    F .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev	00000018 _ZN10StaticInitIN9qindesign8security12RandomDeviceEED1Ev
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev	00000028 _ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev
+00000000         *UND*	00000000 _ZN9qindesign7network13EthernetClassD1Ev
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network13EthernetClassEE13nifty_counterE
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network13EthernetClassEE2pTE
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev	00000028 _ZN10StaticInitIN9qindesign7network13EthernetClassEED1Ev
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	00000028 _ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev
+00000000         *UND*	00000000 _ZN9qindesign7network9MDNSClassD1Ev
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network9MDNSClassEE2pTE
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	00000028 _ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev
+00000000 g     F .text._ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh	00000010 _ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh
+00000000 g     F .text._ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv	0000000e _ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv
+00000000 g     F .text._ZThn16_N9qindesign7network14EthernetClientD1Ev	00000068 _ZThn16_N9qindesign7network14EthernetClientD1Ev
+00000000 g     F .text._ZThn16_N9qindesign7network14EthernetClientD0Ev	00000070 _ZThn16_N9qindesign7network14EthernetClientD0Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000 g     F .text._ZN9qindesign7network14EthernetClientD2Ev	00000058 _ZN9qindesign7network14EthernetClientD2Ev
+00000000 g     F .text._ZN9qindesign7network14EthernetClientD2Ev	00000058 _ZN9qindesign7network14EthernetClientD1Ev
+00000000 g     F .text._ZN9qindesign7network14EthernetClientD0Ev	00000060 _ZN9qindesign7network14EthernetClientD0Ev
+00000000 g     F .text._ZN9qindesign7network14EthernetClientC2Ev	0000002c _ZN9qindesign7network14EthernetClientC2Ev
+00000000 g     F .text._ZN9qindesign7network14EthernetClientC2Ev	0000002c _ZN9qindesign7network14EthernetClientC1Ev
+00000000 g     F .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE	00000034 _ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE
+00000000 g     F .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE	00000034 _ZN9qindesign7network14EthernetClientC1ESt10shared_ptrINS0_8internal16ConnectionHolderEE
+00000000 g     F .text._ZN9qindesign7network14EthernetClient19watchPendingConnectEv	0000006c _ZN9qindesign7network14EthernetClient19watchPendingConnectEv
+00000000         *UND*	00000000 _ZN9qindesign7network13EthernetClass4loopEv
+00000000         *UND*	00000000 _ZN9qindesign7network8EthernetE
+00000000 g     F .text._ZN9qindesign7network14EthernetClient9connectedEv	00000084 _ZN9qindesign7network14EthernetClient9connectedEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClientcvbEv	0000008c _ZN9qindesign7network14EthernetClientcvbEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5writeEPKhj	000000a0 _ZN9qindesign7network14EthernetClient5writeEPKhj
+00000000         *UND*	00000000 tcp_write
+00000000         *UND*	00000000 tcp_output
+00000000         *UND*	00000000 err_to_errno
+00000000         *UND*	00000000 __errno
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5writeEh	0000001a _ZN9qindesign7network14EthernetClient5writeEh
+00000000 g     F .text._ZN9qindesign7network14EthernetClient17availableForWriteEv	0000003c _ZN9qindesign7network14EthernetClient17availableForWriteEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5flushEv	00000028 _ZN9qindesign7network14EthernetClient5flushEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient9availableEv	000000a0 _ZN9qindesign7network14EthernetClient9availableEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient4readEv	000000ac _ZN9qindesign7network14EthernetClient4readEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient4peekEv	00000098 _ZN9qindesign7network14EthernetClient4peekEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient4readEPhj	00000124 _ZN9qindesign7network14EthernetClient4readEPhj
+00000000         *UND*	00000000 memmove
+00000000 g     F .text._ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt	00000004 _ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10setNoDelayEb	00000024 _ZN9qindesign7network14EthernetClient10setNoDelayEb
+00000000 g     F .text._ZN9qindesign7network14EthernetClient9isNoDelayEv	00000012 _ZN9qindesign7network14EthernetClient9isNoDelayEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5closeEb	0000012c _ZN9qindesign7network14EthernetClient5closeEb
+00000000         *UND*	00000000 tcp_close
+00000000         *UND*	00000000 sys_now
+00000000         *UND*	00000000 yield
+00000000         *UND*	00000000 tcp_abort
+00000000         *UND*	00000000 tcp_arg
+00000000 g     F .text._ZN9qindesign7network14EthernetClient4stopEv	00000006 _ZN9qindesign7network14EthernetClient4stopEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5closeEv	00000006 _ZN9qindesign7network14EthernetClient5closeEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb	00000104 _ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb
+00000000         *UND*	00000000 _ZN9qindesign7network8internal17ConnectionManager8instanceEv
+00000000         *UND*	00000000 _ZN9qindesign7network8internal17ConnectionManager7connectEPK8ip4_addrt
+00000000 g     F .text._ZN9qindesign7network14EthernetClient7connectE9IPAddresst	00000022 _ZN9qindesign7network14EthernetClient7connectE9IPAddresst
+00000000         *UND*	00000000 _ZN9qindesign7network10get_uint32ERK9IPAddress
+00000000 g     F .text._ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst	00000022 _ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst
+00000000 g     F .text._ZN9qindesign7network14EthernetClient13connectNoWaitEPKct	0000003c _ZN9qindesign7network14EthernetClient13connectNoWaitEPKct
+00000000         *UND*	00000000 _ZN9qindesign7network9DNSClient13getHostByNameEPKcR9IPAddressm
+00000000         *UND*	00000000 _ZTV9IPAddress
+00000000 g     F .text._ZN9qindesign7network14EthernetClient7connectEPKct	00000044 _ZN9qindesign7network14EthernetClient7connectEPKct
+00000000 g     F .text._ZN9qindesign7network14EthernetClient11closeOutputEv	00000038 _ZN9qindesign7network14EthernetClient11closeOutputEv
+00000000         *UND*	00000000 tcp_shutdown
+00000000 g     F .text._ZN9qindesign7network14EthernetClient5abortEv	00000064 _ZN9qindesign7network14EthernetClient5abortEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient9localPortEv	00000028 _ZN9qindesign7network14EthernetClient9localPortEv
+00000000         *UND*	00000000 tcp_tcp_get_tcp_addrinfo
+00000000 g     F .text._ZN9qindesign7network14EthernetClient8remoteIPEv	0000004c _ZN9qindesign7network14EthernetClient8remoteIPEv
+00000000         *UND*	00000000 _ZN9qindesign7network22ip_addr_get_ip4_uint32EPK8ip4_addr
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10remotePortEv	00000028 _ZN9qindesign7network14EthernetClient10remotePortEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient7localIPEv	0000004c _ZN9qindesign7network14EthernetClient7localIPEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt	00000034 _ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt
+00000000 g     F .text._ZN9qindesign7network14EthernetClient12connectionIdEv	00000014 _ZN9qindesign7network14EthernetClient12connectionIdEv
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10writeFullyEh	00000040 _ZN9qindesign7network14EthernetClient10writeFullyEh
+00000000         *UND*	00000000 _ZN9qindesign7network4util10writeFullyER5PrintPKhjSt8functionIFbvEE
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10writeFullyEPKc	00000044 _ZN9qindesign7network14EthernetClient10writeFullyEPKc
+00000000         *UND*	00000000 strlen
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10writeFullyEPKcj	00000034 _ZN9qindesign7network14EthernetClient10writeFullyEPKcj
+00000000 g     F .text._ZN9qindesign7network14EthernetClient10writeFullyEPKhj	00000034 _ZN9qindesign7network14EthernetClient10writeFullyEPKhj
+00000000 g     F .text._ZNK9qindesign7network14EthernetClient6statusEv	0000000e _ZNK9qindesign7network14EthernetClient6statusEv
+00000000         *UND*	00000000 __aeabi_atexit
+00000000         *UND*	00000000 _ZN9qindesign7network9MDNSClassC1Ev
+00000000         *UND*	00000000 _ZN9qindesign7network13EthernetClassC1Ev
+00000000         *UND*	00000000 _ZN9qindesign8security12RandomDeviceC1Ev
+00000000         *UND*	00000000 .hidden __dso_handle
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network9MDNSClassEE3bufE
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign7network13EthernetClassEE3bufE
+00000000         *UND*	00000000 _ZN10StaticInitIN9qindesign8security12RandomDeviceEE3bufE
+00000000 g     O .rodata._ZTVN9qindesign7network14EthernetClientE	00000064 _ZTVN9qindesign7network14EthernetClientE
+
+
+Contents of section .group:
+ 0000 01000000 09000000                    ........        
+Contents of section .group:
+ 0000 01000000 0c000000                    ........        
+Contents of section .group:
+ 0000 01000000 0d000000 0e000000           ............    
+Contents of section .group:
+ 0000 01000000 0f000000 10000000           ............    
+Contents of section .group:
+ 0000 01000000 11000000 12000000           ............    
+Contents of section .text._ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh:
+ 0000 806920b1 406810b1 03680120 99727047  .i .@h...h. .rpG
+Contents of section .text._ZNK9qindesign7network14EthernetClient16outgoingDiffServEv:
+ 0000 806918b1 406808b1 0368987a 704700bf  .i..@h...h.zpG..
+Contents of section .text._ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv:
+ 0000 03685b68 184700bf                    .h[h.G..        
+Contents of section .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev:
+ 0000 034a1368 013b1360 0bb9024a 13607047  .J.h.;.`...J.`pG
+ 0010 00000000 00000000                    ........        
+Contents of section .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev:
+ 0000 074b70b5 1c680546 013c1c60 0cb12846  .Kp..h.F.<.`..(F
+ 0010 70bd044e 3068fff7 feff2846 346070bd  p..N0h....(F4`p.
+ 0020 00000000 00000000                    ........        
+Contents of section .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev:
+ 0000 074b70b5 1c680546 013c1c60 0cb12846  .Kp..h.F.<.`..(F
+ 0010 70bd044e 3068fff7 feff2846 346070bd  p..N0h....(F4`p.
+ 0020 00000000 00000000                    ........        
+Contents of section .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation:
+ 0000 012a02d1 01600020 7047022a 05d0032a  .*...`. pG.*...*
+ 0010 f9d0002a f7d10260 f5e70b68 0360f2e7  ...*...`...h.`..
+Contents of section .text._ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh:
+ 0000 806820b1 406810b1 03680120 99727047  .h .@h...h. .rpG
+Contents of section .text._ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv:
+ 0000 806818b1 406808b1 0368987a 704700bf  .h..@h...h.zpG..
+Contents of section .text._ZThn16_N9qindesign7network14EthernetClientD1Ev:
+ 0000 38b5164b a0f11005 c46803f1 4c0240f8  8..K.....h..L.@.
+ 0010 103c0260 a4b16368 013b6360 83b92368  .<.`..ch.;c`..#h
+ 0020 0f4a9b68 93420dd1 a368013b a3603bb9  .J.h.B...h.;.`;.
+ 0030 22680c49 d3688b42 0cd15368 20469847  "h.I.h.B..Sh F.G
+ 0040 284638bd 20469847 a368013b a360002b  (F8. F.G.h.;.`.+
+ 0050 f6d1ede7 20469847 f2e700bf 08000000  .... F.G........
+ 0060 00000000 00000000                    ........        
+Contents of section .text._ZThn16_N9qindesign7network14EthernetClientD0Ev:
+ 0000 38b5184b a0f11005 c46803f1 4c0240f8  8..K.....h..L.@.
+ 0010 103c0260 a4b16368 013b6360 83b92368  .<.`..ch.;c`..#h
+ 0020 114a9b68 934211d1 a368013b a3603bb9  .J.h.B...h.;.`;.
+ 0030 22680e49 d3688b42 10d15368 20469847  "h.I.h.B..Sh F.G
+ 0040 28462021 fff7feff 284638bd 20469847  (F !....(F8. F.G
+ 0050 a368013b a360002b f2d1e9e7 20469847  .h.;.`.+.... F.G
+ 0060 eee700bf 08000000 00000000 00000000  ................
+Contents of section .text._ZN9qindesign7network14EthernetClientD2Ev:
+ 0000 38b5124b 0446c569 03f14c02 03600261  8..K.F.i..L..`.a
+ 0010 a5b16b68 013b6b60 83b92b68 0c4a9b68  ..kh.;k`..+h.J.h
+ 0020 93420dd1 ab68013b ab603bb9 2b680949  .B...h.;.`;.+h.I
+ 0030 da688a42 07d15b68 28469847 204638bd  .h.B..[h(F.G F8.
+ 0040 28469847 eee72846 9047f7e7 08000000  (F.G..(F.G......
+ 0050 00000000 00000000                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClientD0Ev:
+ 0000 38b5144b 0446c569 03f14c02 03600261  8..K.F.i..L..`.a
+ 0010 a5b16b68 013b6b60 83b92b68 0e4a9b68  ..kh.;k`..+h.J.h
+ 0020 934211d1 ab68013b ab603bb9 2b680b49  .B...h.;.`;.+h.I
+ 0030 da688a42 0bd15b68 28469847 20462021  .h.B..[h(F.G F !
+ 0040 fff7feff 204638bd 28469847 eae72846  .... F8.(F.G..(F
+ 0050 9047f3e7 08000000 00000000 00000000  .G..............
+Contents of section .text._ZN9qindesign7network14EthernetClientC2Ev:
+ 0000 00220949 10b44ff4 7a740273 82758482  .".I..O.zt.s.u..
+ 0010 c0e90124 c0e90622 01f10802 54315df8  ...$..."....T1].
+ 0020 044b0260 01617047 00000000           .K.`.apG....    
+Contents of section .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE:
+ 0000 00220b4b 30b40273 4ff47a74 42608275  .".K0..sO.ztB`.u
+ 0010 d1e90052 03604c33 84608482 0361c0e9  ...R.`L3.`...a..
+ 0020 065212b1 53680133 536030bc 704700bf  .R..Sh.3S`0.pG..
+ 0030 08000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient19watchPendingConnectEv:
+ 0000 82690346 516810b5 49b15278 144982f0  .i.FQh..I.Rx.I..
+ 0010 01020868 9a75fff7 feff0120 10bdc469  ...h.u..... ...i
+ 0020 c0e90611 a4b16368 013b6360 83b92368  ......ch.;c`..#h
+ 0030 0c4a9b68 93420dd1 a368013b a3603bb9  .J.h.B...h.;.`;.
+ 0040 23680949 da688a42 07d15b68 20469847  #h.I.h.B..[h F.G
+ 0050 002010bd 20469847 eee72046 9047f7e7  . .. F.G.. F.G..
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._ZN9qindesign7network14EthernetClient9connectedEv:
+ 0000 38b58369 93b1827d 04465ab9 5a781ab9  8..i...}.FZ.Zx..
+ 0010 d3e90313 99420ed0 174b1868 fff7feff  .....B...K.h....
+ 0020 012038bd fff7feff 034608b9 184638bd  . 8......F...F8.
+ 0030 a3695878 38bdc569 c0e90622 a5b16b68  .iXx8..i..."..kh
+ 0040 013b6b60 83b92b68 0c4a9b68 93420dd1  .;k`..+h.J.h.B..
+ 0050 ab68013b ab603bb9 2b680949 da688a42  .h.;.`;.+h.I.h.B
+ 0060 07d15b68 28469847 002038bd 28469847  ..[h(F.G. 8.(F.G
+ 0070 eee72846 9047f7e7 00000000 00000000  ..(F.G..........
+ 0080 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClientcvbEv:
+ 0000 836970b5 43b1827d 044672b9 5d7835b9  .ip.C..}.Fr.]x5.
+ 0010 d3e90323 9a4210d0 00252846 70bd184b  ...#.B...%(Fp..K
+ 0020 1868fff7 feff2846 70bdfff7 feff0028  .h....(Fp......(
+ 0030 f2d0a369 5d782846 70bdc669 c0e90655  ...i]x(Fp..i...U
+ 0040 002eead0 7368013b 7360002b e5d13368  ....sh.;s`.+..3h
+ 0050 0c4a9b68 93420dd1 b368013b b360002b  .J.h.B...h.;.`.+
+ 0060 dbd13368 0849da68 8a4206d1 5b683046  ..3h.I.h.B..[h0F
+ 0070 9847d2e7 30469847 eee73046 9047cce7  .G..0F.G..0F.G..
+ 0080 00000000 00000000 00000000           ............    
+Contents of section .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data:
+ 0000 08b50068 fff7feff 80f00100 c0b208bd  ...h............
+Contents of section .text._ZN9qindesign7network14EthernetClient5writeEPKhj:
+ 0000 f0b583b0 05460e46 1446fff7 feffc0b1  .....F.F.F......
+ 0010 ad696b68 abb1c4b1 1a68b2f8 6430e3b1  .ikh.....h..d0..
+ 0020 a34239d3 1d4f1046 01233146 a2b2fff7  .B9..O.F.#1F....
+ 0030 feff38bb 38682546 fff7feff 284603b0  ..8.8h%F....(F..
+ 0040 f0bd0025 284603b0 f0bd144b 25461868  ...%(F.....K%F.h
+ 0050 fff7feff 284603b0 f0bd104f 1046fff7  ....(F.....O.F..
+ 0060 feff3868 0190fff7 feff6b68 002be8d0  ..8h......kh.+..
+ 0070 1a68b2f8 6450a542 d5d20198 002ddbd0  .h..dP.B.....-..
+ 0080 2c46d0e7 fff7feff 0446fff7 feff0346  ,F.......F.....F
+ 0090 00253868 1c60cfe7 1c46c3e7 00000000  .%8h.`...F......
+Contents of section .text._ZN9qindesign7network14EthernetClient5writeEh:
+ 0000 00b583b0 0b460122 0df10701 8df80730  .....F.".......0
+ 0010 fff7feff 03b05df8 04fb00bf           ......].....    
+Contents of section .text._ZN9qindesign7network14EthernetClient17availableForWriteEv:
+ 0000 10b50446 fff7feff 80b1a469 63686bb1  ...F.......ichk.
+ 0010 1868b0f8 64305bb1 074b1868 fff7feff  .h..d0[..K.h....
+ 0020 63681bb1 1b68b3f8 640010bd 002010bd  ch...h..d.... ..
+ 0030 fff7feff f0e700bf 00000000           ............    
+Contents of section .text._ZN9qindesign7network14EthernetClient5flushEv:
+ 0000 10b50446 fff7feff 58b1a369 5b6843b1  ...F....X..i[hC.
+ 0010 1868fff7 feff034b bde81040 1868fff7  .h.....K...@.h..
+ 0020 febf10bd 00000000                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClient9availableEv:
+ 0000 10b58469 64b1837d 02463bb9 d4e90303  ...id..}.F;.....
+ 0010 834207d0 181aa368 c01a10bd fff7feff  .B.....h........
+ 0020 002010bd 63788bb1 6368002b f8d0194b  . ..cx..ch.+...K
+ 0030 1868fff7 feff6368 002bf1d0 d3e90120  .h....ch.+..... 
+ 0040 1b69801a 8342ebd2 c01a10bd d469c2e9  .i...B.......i..
+ 0050 0633002c e4d06368 013b6360 002bdfd1  .3.,..ch.;c`.+..
+ 0060 23680d4a 9b689342 0dd1a368 013ba360  #h.J.h.B...h.;.`
+ 0070 002bd5d1 23680949 da688a42 06d15b68  .+..#h.I.h.B..[h
+ 0080 20469847 cce72046 9847eee7 20469047   F.G.. F.G.. F.G
+ 0090 c6e700bf 00000000 00000000 00000000  ................
+Contents of section .text._ZN9qindesign7network14EthernetClient4readEv:
+ 0000 38b58469 2cb3857d 0dbbd4e9 03128a42  8..i,..}.......B
+ 0010 09d0a068 521a431c 9342a360 085c01d3  ...hR.C..B.`.\..
+ 0020 2161a560 38bd6278 b2b16368 8bb11c4b  !a.`8.bx..ch...K
+ 0030 1868fff7 feff6368 5bb11969 d3e90102  .h....ch[..i....
+ 0040 121a9142 05d24a1c 1a61405c 38bdfff7  ...B..J..a@\8...
+ 0050 feff4ff0 ff3038bd c469c0e9 0622002c  ..O..08..i...".,
+ 0060 f7d06368 013b6360 002bf2d1 23680d4a  ..ch.;c`.+..#h.J
+ 0070 9b689342 0dd1a368 013ba360 002be8d1  .h.B...h.;.`.+..
+ 0080 22680949 d3688b42 06d15368 20469847  "h.I.h.B..Sh F.G
+ 0090 dfe72046 9847eee7 20469847 d9e700bf  .. F.G.. F.G....
+ 00a0 00000000 00000000 00000000           ............    
+Contents of section .text._ZN9qindesign7network14EthernetClient4peekEv:
+ 0000 10b58469 e4b1827d c2b9d4e9 03219142  ...i...}.....!.B
+ 0010 02d0a368 d05c10bd 6278a2b1 63687bb1  ...h.\..bx..ch{.
+ 0020 1a4b1868 fff7feff 63684bb1 1969d3e9  .K.h....chK..i..
+ 0030 0102131a 994203d2 405c10bd fff7feff  .....B..@\......
+ 0040 4ff0ff30 10bdc469 c0e90622 002cf7d0  O..0...i...".,..
+ 0050 6368013b 6360002b f2d12368 0c4a9b68  ch.;c`.+..#h.J.h
+ 0060 93420dd1 a368013b a360002b e8d12268  .B...h.;.`.+.."h
+ 0070 0849d368 8b4206d1 53682046 9847dfe7  .I.h.B..Sh F.G..
+ 0080 20469847 eee72046 9847d9e7 00000000   F.G.. F.G......
+ 0090 00000000 00000000                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClient4readEPhj:
+ 0000 2de9f041 856965b3 837d0446 002b32d1  -..A.ie..}.F.+2.
+ 0010 0e469046 d5e90313 8b4214d0 0ab35b1a  .F.F.....B....[.
+ 0020 af68d81b 90421fd3 56bb1744 10469f42  .h...B..V..D.F.B
+ 0030 af6017d3 d5e90332 934218bf 2b610023  .`.....2.B..+a.#
+ 0040 ab60bde8 f0816b78 002b3fd0 6b6843b1  .`....kx.+?.khC.
+ 0050 314b1868 fff7feff b8f1000f 01d06f68  1K.h..........oh
+ 0060 e7b90020 bde8f081 002e52d0 0028ded0  ... ......R..(..
+ 0070 39448046 05e0fff7 feff0020 bde8f081  9D.F....... ....
+ 0080 39443046 4246fff7 feffa169 40468f68  9D0FBF.....i@F.h
+ 0090 d5e90343 47440d46 1b1bc8e7 d7e901c3  ...CGD.F........
+ 00a0 3969a3eb 0c039942 dbd2581a 404528bf  9i.....B..X.@E(.
+ 00b0 40460446 36b16144 30462246 fff7feff  @F.F6.aD0F"F....
+ 00c0 6f683969 21442046 3961cbe7 c569c0e9  oh9i!D F9a...i..
+ 00d0 0633002d c5d06b68 013b6b60 002bc0d1  .3.-..kh.;k`.+..
+ 00e0 2b680e4a 9b689342 0dd1ab68 013bab60  +h.J.h.B...h.;.`
+ 00f0 002bb6d1 2b680a49 da688a42 06d15b68  .+..+h.I.h.B..[h
+ 0100 28469847 ade72846 9847eee7 28469047  (F.G..(F.G..(F.G
+ 0110 a7e7ab60 8ee700bf 00000000 00000000  ...`............
+ 0120 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt:
+ 0000 81827047                             ..pG            
+Contents of section .text._ZN9qindesign7network14EthernetClient10setNoDelayEb:
+ 0000 806970b1 406860b1 026829b1 538b0846  .ip.@h`..h).S..F
+ 0010 43f04003 53837047 538b0120 23f04003  C.@.S.pGS.. #.@.
+ 0020 53837047                             S.pG            
+Contents of section .text._ZN9qindesign7network14EthernetClient9isNoDelayEv:
+ 0000 806928b1 406818b1 0368588b c0f38010  .i(.@h...hX.....
+ 0010 704700bf                             pG..            
+Contents of section .text._ZN9qindesign7network14EthernetClient5closeEb:
+ 0000 2de9f041 856982b0 002d3fd0 6b680446  -..A.i...-?.kh.F
+ 0010 03b3827d 0e46002a 3bd06a78 002a4cd0  ...}.F.*;.jx.*L.
+ 0020 1868fff7 feff0028 42d196b1 fff7feff  .h.....(B.......
+ 0030 a3690546 53b90ce0 fff7feff a38a401b  .i.FS.........@.
+ 0040 984206d2 fff7feff a36913b1 5b78002b  .B.......i..[x.+
+ 0050 f2d10023 e569c4e9 0633bdb1 6b68013b  ...#.i...3..kh.;
+ 0060 6b609bb9 2b682e4a 9b689342 4bd1ab68  k`..+h.J.h.BK..h
+ 0070 013bab60 53b92b68 2a49da68 8a424ad1  .;.`S.+h*I.h.BJ.
+ 0080 5b682846 02b0bde8 f0411847 02b0bde8  [h(F.....A.G....
+ 0090 f0816a78 002adcd0 1868fff7 feff224b  ..jx.*...h...."K
+ 00a0 1868fff7 feff6b68 002bb9d1 0023d1e7  .h....kh.+...#..
+ 00b0 6b681868 fff7feff cbe71868 fff7feff  kh.h.......h....
+ 00c0 20bb6f68 00216960 002fc2d0 3868fff7   .oh.!i`./..8h..
+ 00d0 fefffb69 63b107f1 14083b6a 01a90197  ...ic.....;j....
+ 00e0 40469847 fb691bb1 03224146 40469847  @F.G.i..."AF@F.G
+ 00f0 786818b1 f968091a fff7feff 24213846  xh...h......$!8F
+ 0100 fff7feff cfe72846 9847b0e7 6b681868  ......(F.G..kh.h
+ 0110 fff7feff d5e72846 02b0bde8 f0411047  ......(F.....A.G
+ 0120 00000000 00000000 00000000           ............    
+Contents of section .text._ZN9qindesign7network14EthernetClient4stopEv:
+ 0000 0121fff7 febf00bf                    .!......        
+Contents of section .text._ZN9qindesign7network14EthernetClient5closeEv:
+ 0000 0021fff7 febf00bf                    .!......        
+Contents of section .text._ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb:
+ 0000 f0b585b0 16460446 1d460191 0021fff7  .....F.F.F...!..
+ 0010 fefffff7 feff3346 0146019a 02a8fff7  ......3F.F......
+ 0020 feff0023 e669dde9 0202cde9 0233a061  ...#.i.......3.a
+ 0030 e2611eb1 7368013b 73603bb1 20b185f0  .a..sh.;s`;. ...
+ 0040 0103a375 45bb0120 05b0f0bd 33682b4f  ...uE.. ....3h+O
+ 0050 9b68bb42 4cd1b368 013bb360 002b39d0  .h.BL..h.;.`.+9.
+ 0060 039ebeb1 7368013b 73609bb9 33689b68  ....sh.;s`..3h.h
+ 0070 bb423ad1 b368013b b3605bb9 33682049  .B:..h.;.`[.3h I
+ 0080 da688a42 04d15b68 30469847 a069d5e7  .h.B..[h0F.G.i..
+ 0090 30469047 a069d1e7 fff7feff a3690546  0F.G.i.......i.F
+ 00a0 53b910e0 fff7feff a38a401b 98421ad2  S.........@..B..
+ 00b0 fff7feff a36933b1 5a78002a f2d013b1  .....i3.Zx.*....
+ 00c0 5b78002b bfd12046 0021fff7 feff0020  [x.+.. F.!..... 
+ 00d0 05b0f0bd 33680a49 da688a42 0bd15b68  ....3h.I.h.B..[h
+ 00e0 30469847 bce7a369 e9e73046 9847c1e7  0F.G...i..0F.G..
+ 00f0 30469847 afe73046 9047b1e7 00000000  0F.G..0F.G......
+ 0100 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient7connectE9IPAddresst:
+ 0000 30b585b0 04460846 0192fff7 feff0123  0....F.F.......#
+ 0010 0546019a 03a92046 0395fff7 feff05b0  .F.... F........
+ 0020 30bd00bf                             0...            
+Contents of section .text._ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst:
+ 0000 30b585b0 04460846 0192fff7 feff0023  0....F.F.......#
+ 0010 0546019a 03a92046 0395fff7 feff05b0  .F.... F........
+ 0020 30bd00bf                             0...            
+Contents of section .text._ZN9qindesign7network14EthernetClient13connectNoWaitEPKct:
+ 0000 f0b50d4e 85b00446 15460296 00260846  ...N...F.F...&.F
+ 0010 41f28832 02a90396 fff7feff 50b102a8  A..2........P...
+ 0020 fff7feff 07463346 2a4601a9 20460197  .....F3F*F.. F..
+ 0030 fff7feff 05b0f0bd 08000000           ............    
+Contents of section .text._ZN9qindesign7network14EthernetClient7connectEPKct:
+ 0000 70b586b0 0e4e0023 05461446 084641f2  p....N.#.F.F.FA.
+ 0010 883202a9 cde90263 fff7feff 68b1039b  .2.....c....h...
+ 0020 04a8cde9 0463fff7 feff0646 01232246  .....c.....F.#"F
+ 0030 01a92846 0196fff7 feff06b0 70bd00bf  ..(F........p...
+ 0040 08000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient11closeOutputEv:
+ 0000 10b50446 fff7feff 90b1a469 63687bb1  ...F.......ich{.
+ 0010 1868fff7 feff074b 1868fff7 feff6368  .h.....K.h....ch
+ 0020 33b10122 00211868 bde81040 fff7febf  3..".!.h...@....
+ 0030 10bd00bf 00000000                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClient5abortEv:
+ 0000 83691bb3 5b6870b5 044613b1 1868fff7  .i..[hp..F...h..
+ 0010 feff0023 e569c4e9 0633b5b1 6b68013b  ...#.i...3..kh.;
+ 0020 6b6093b9 2b680d4a 9b689342 0fd1ab68  k`..+h.J.h.B...h
+ 0030 013bab60 4bb92b68 0949da68 8a4209d1  .;.`K.+h.I.h.B..
+ 0040 28465b68 bde87040 184770bd 70472846  (F[h..p@.Gp.pG(F
+ 0050 9847ece7 2846bde8 70401047 00000000  .G..(F..p@.G....
+ 0060 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient9localPortEv:
+ 0000 10b582b0 0446fff7 feff58b1 a3695868  .....F....X..iXh
+ 0010 40b10df1 06030022 01210068 fff7feff  @......".!.h....
+ 0020 bdf80600 02b010bd                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClient8remoteIPEv:
+ 0000 30b50446 83b00846 0d46fff7 feff88b1  0..F...F.F......
+ 0010 ab695a68 72b10023 106801aa 1946fff7  .iZhr..#.h...F..
+ 0020 feff01a8 fff7feff 064bc4e9 00302046  .........K...0 F
+ 0030 03b030bd 044b2046 024a5b68 c4e90023  ..0..K F.J[h...#
+ 0040 03b030bd 08000000 00000000           ..0.........    
+Contents of section .text._ZN9qindesign7network14EthernetClient10remotePortEv:
+ 0000 10b582b0 0446fff7 feff58b1 a3695868  .....F....X..iXh
+ 0010 40b10022 0df10603 00681146 fff7feff  @..".....h.F....
+ 0020 bdf80600 02b010bd                    ........        
+Contents of section .text._ZN9qindesign7network14EthernetClient7localIPEv:
+ 0000 30b50446 83b00846 0d46fff7 feff88b1  0..F...F.F......
+ 0010 ab695a68 72b10023 01211068 01aafff7  .iZhr..#.!.h....
+ 0020 feff01a8 fff7feff 064bc4e9 00302046  .........K...0 F
+ 0030 03b030bd 044b2046 024a5b68 c4e90023  ..0..K F.J[h...#
+ 0040 03b030bd 08000000 00000000           ..0.........    
+Contents of section .text._ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt:
+ 0000 2de9f041 05468846 16461f46 fff7feff  -..A.F.F.F.F....
+ 0010 044640b1 ab695868 40b13b46 32464146  .F@..iXh@.;F2FAF
+ 0020 0068fff7 feff2046 bde8f081 04462046  .h.... F.....F F
+ 0030 bde8f081                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient12connectionIdEv:
+ 0000 83692bb1 587820b1 586810b1 00687047  .i+.Xx .Xh...hpG
+ 0010 18467047                             .FpG            
+Contents of section .text._ZN9qindesign7network14EthernetClient10writeFullyEh:
+ 0000 10b50023 86b00c4c 0c4a8df8 07100df1  ...#...L.J......
+ 0010 07010393 02ab0290 cde90424 0122fff7  ...........$."..
+ 0020 feff049b 04461bb1 02a90322 08469847  .....F.....".F.G
+ 0030 204606b0 10bd00bf 00000000 00000000   F..............
+Contents of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKc:
+ 0000 10b586b0 04460846 0191fff7 feff0023  .....F.F.......#
+ 0010 02460199 20460393 084b0294 0593084b  .F.. F...K.....K
+ 0020 049302ab fff7feff 049b0446 1bb102a9  ...........F....
+ 0030 03220846 98472046 06b010bd 00000000  .".F.G F........
+ 0040 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKcj:
+ 0000 10b50a4b 84b00024 0393094b 01940293  ...K...$...K....
+ 0010 6b460090 fff7feff 029b0446 1bb16946  kF.........F..iF
+ 0020 03220846 98472046 04b010bd 00000000  .".F.G F........
+ 0030 00000000                             ....            
+Contents of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKhj:
+ 0000 10b50a4b 84b00024 0393094b 01940293  ...K...$...K....
+ 0010 6b460090 fff7feff 029b0446 1bb16946  kF.........F..iF
+ 0020 03220846 98472046 04b010bd 00000000  .".F.G F........
+ 0030 00000000                             ....            
+Contents of section .text._ZNK9qindesign7network14EthernetClient6statusEv:
+ 0000 806918b1 406808b1 0368187d 704700bf  .i..@h...h.}pG..
+Contents of section .text.startup._GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev:
+ 0000 1d4a0020 1d491368 10b51d4c c1e90040  .J. .I.h...L...@
+ 0010 591c1160 d3b11b4a 1b491c48 fff7feff  Y..`...J.I.H....
+ 0020 1b4a1368 591c1160 f3b1164a 19491a48  .J.hY..`...J.I.H
+ 0030 fff7feff 194a1368 591c1160 6bb1114a  .....J.hY..`k..J
+ 0040 17491848 bde81040 fff7febf 164c2046  .I.H...@.....L F
+ 0050 fff7feff 154b1c60 dde7154c 2046fff7  .....K.`...L F..
+ 0060 feff144b 1c60eae7 134c2046 fff7feff  ...K.`...L F....
+ 0070 124b1c60 d9e700bf 00000000 00000000  .K.`............
+ 0080 08000000 00000000 00000000 00000000  ................
+ 0090 00000000 00000000 00000000 00000000  ................
+ 00a0 00000000 00000000 00000000 00000000  ................
+ 00b0 00000000 00000000 00000000 00000000  ................
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .rodata._ZTVN9qindesign7network14EthernetClientE:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000 f0ffffff  ................
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv:
+
+00000000 <_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE0EE10_M_disposeEv>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh:
+
+00000000 <_ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh>:
+   0:	6980      	ldr	r0, [r0, #24]
+   2:	b120      	cbz	r0, e <_ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh+0xe>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b110      	cbz	r0, e <_ZN9qindesign7network14EthernetClient19setOutgoingDiffServEh+0xe>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	2001      	movs	r0, #1
+   c:	7299      	strb	r1, [r3, #10]
+   e:	4770      	bx	lr
+
+Disassembly of section .text._ZNK9qindesign7network14EthernetClient16outgoingDiffServEv:
+
+00000000 <_ZNK9qindesign7network14EthernetClient16outgoingDiffServEv>:
+   0:	6980      	ldr	r0, [r0, #24]
+   2:	b118      	cbz	r0, c <_ZNK9qindesign7network14EthernetClient16outgoingDiffServEv+0xc>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b108      	cbz	r0, c <_ZNK9qindesign7network14EthernetClient16outgoingDiffServEv+0xc>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	7a98      	ldrb	r0, [r3, #10]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+
+Disassembly of section .text._ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv:
+
+00000000 <_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE0EE10_M_destroyEv>:
+   0:	6803      	ldr	r3, [r0, #0]
+   2:	685b      	ldr	r3, [r3, #4]
+   4:	4718      	bx	r3
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN10StaticInitIN9qindesign8security12RandomDeviceEED2Ev:
+
+00000000 <_ZN10StaticInitIN9qindesign8security12RandomDeviceEED1Ev>:
+   0:	4a03      	ldr	r2, [pc, #12]	; (10 <_ZN10StaticInitIN9qindesign8security12RandomDeviceEED1Ev+0x10>)
+   2:	6813      	ldr	r3, [r2, #0]
+   4:	3b01      	subs	r3, #1
+   6:	6013      	str	r3, [r2, #0]
+   8:	b90b      	cbnz	r3, e <_ZN10StaticInitIN9qindesign8security12RandomDeviceEED1Ev+0xe>
+   a:	4a02      	ldr	r2, [pc, #8]	; (14 <_ZN10StaticInitIN9qindesign8security12RandomDeviceEED1Ev+0x14>)
+   c:	6013      	str	r3, [r2, #0]
+   e:	4770      	bx	lr
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN10StaticInitIN9qindesign7network13EthernetClassEED2Ev:
+
+00000000 <_ZN10StaticInitIN9qindesign7network13EthernetClassEED1Ev>:
+   0:	4b07      	ldr	r3, [pc, #28]	; (20 <_ZN10StaticInitIN9qindesign7network13EthernetClassEED1Ev+0x20>)
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	681c      	ldr	r4, [r3, #0]
+   6:	4605      	mov	r5, r0
+   8:	3c01      	subs	r4, #1
+   a:	601c      	str	r4, [r3, #0]
+   c:	b10c      	cbz	r4, 12 <_ZN10StaticInitIN9qindesign7network13EthernetClassEED1Ev+0x12>
+   e:	4628      	mov	r0, r5
+  10:	bd70      	pop	{r4, r5, r6, pc}
+  12:	4e04      	ldr	r6, [pc, #16]	; (24 <_ZN10StaticInitIN9qindesign7network13EthernetClassEED1Ev+0x24>)
+  14:	6830      	ldr	r0, [r6, #0]
+  16:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClassD1Ev>
+  1a:	4628      	mov	r0, r5
+  1c:	6034      	str	r4, [r6, #0]
+  1e:	bd70      	pop	{r4, r5, r6, pc}
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev:
+
+00000000 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev>:
+   0:	4b07      	ldr	r3, [pc, #28]	; (20 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x20>)
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	681c      	ldr	r4, [r3, #0]
+   6:	4605      	mov	r5, r0
+   8:	3c01      	subs	r4, #1
+   a:	601c      	str	r4, [r3, #0]
+   c:	b10c      	cbz	r4, 12 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x12>
+   e:	4628      	mov	r0, r5
+  10:	bd70      	pop	{r4, r5, r6, pc}
+  12:	4e04      	ldr	r6, [pc, #16]	; (24 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x24>)
+  14:	6830      	ldr	r0, [r6, #0]
+  16:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClassD1Ev>
+  1a:	4628      	mov	r0, r5
+  1c:	6034      	str	r4, [r6, #0]
+  1e:	bd70      	pop	{r4, r5, r6, pc}
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation:
+
+00000000 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation>:
+   0:	2a01      	cmp	r2, #1
+   2:	d102      	bne.n	a <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0xa>
+   4:	6001      	str	r1, [r0, #0]
+   6:	2000      	movs	r0, #0
+   8:	4770      	bx	lr
+   a:	2a02      	cmp	r2, #2
+   c:	d005      	beq.n	1a <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0x1a>
+   e:	2a03      	cmp	r2, #3
+  10:	d0f9      	beq.n	6 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0x6>
+  12:	2a00      	cmp	r2, #0
+  14:	d1f7      	bne.n	6 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0x6>
+  16:	6002      	str	r2, [r0, #0]
+  18:	e7f5      	b.n	6 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0x6>
+  1a:	680b      	ldr	r3, [r1, #0]
+  1c:	6003      	str	r3, [r0, #0]
+  1e:	e7f2      	b.n	6 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation+0x6>
+
+Disassembly of section .text._ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh:
+
+00000000 <_ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh>:
+   0:	6880      	ldr	r0, [r0, #8]
+   2:	b120      	cbz	r0, e <_ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh+0xe>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b110      	cbz	r0, e <_ZThn16_N9qindesign7network14EthernetClient19setOutgoingDiffServEh+0xe>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	2001      	movs	r0, #1
+   c:	7299      	strb	r1, [r3, #10]
+   e:	4770      	bx	lr
+
+Disassembly of section .text._ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv:
+
+00000000 <_ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv>:
+   0:	6880      	ldr	r0, [r0, #8]
+   2:	b118      	cbz	r0, c <_ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv+0xc>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b108      	cbz	r0, c <_ZThn16_NK9qindesign7network14EthernetClient16outgoingDiffServEv+0xc>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	7a98      	ldrb	r0, [r3, #10]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+
+Disassembly of section .text._ZThn16_N9qindesign7network14EthernetClientD1Ev:
+
+00000000 <_ZThn16_N9qindesign7network14EthernetClientD1Ev>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4b16      	ldr	r3, [pc, #88]	; (5c <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x5c>)
+   4:	f1a0 0510 	sub.w	r5, r0, #16
+   8:	68c4      	ldr	r4, [r0, #12]
+   a:	f103 024c 	add.w	r2, r3, #76	; 0x4c
+   e:	f840 3c10 	str.w	r3, [r0, #-16]
+  12:	6002      	str	r2, [r0, #0]
+  14:	b1a4      	cbz	r4, 40 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x40>
+  16:	6863      	ldr	r3, [r4, #4]
+  18:	3b01      	subs	r3, #1
+  1a:	6063      	str	r3, [r4, #4]
+  1c:	b983      	cbnz	r3, 40 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x40>
+  1e:	6823      	ldr	r3, [r4, #0]
+  20:	4a0f      	ldr	r2, [pc, #60]	; (60 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x60>)
+  22:	689b      	ldr	r3, [r3, #8]
+  24:	4293      	cmp	r3, r2
+  26:	d10d      	bne.n	44 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x44>
+  28:	68a3      	ldr	r3, [r4, #8]
+  2a:	3b01      	subs	r3, #1
+  2c:	60a3      	str	r3, [r4, #8]
+  2e:	b93b      	cbnz	r3, 40 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x40>
+  30:	6822      	ldr	r2, [r4, #0]
+  32:	490c      	ldr	r1, [pc, #48]	; (64 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x64>)
+  34:	68d3      	ldr	r3, [r2, #12]
+  36:	428b      	cmp	r3, r1
+  38:	d10c      	bne.n	54 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x54>
+  3a:	6853      	ldr	r3, [r2, #4]
+  3c:	4620      	mov	r0, r4
+  3e:	4798      	blx	r3
+  40:	4628      	mov	r0, r5
+  42:	bd38      	pop	{r3, r4, r5, pc}
+  44:	4620      	mov	r0, r4
+  46:	4798      	blx	r3
+  48:	68a3      	ldr	r3, [r4, #8]
+  4a:	3b01      	subs	r3, #1
+  4c:	60a3      	str	r3, [r4, #8]
+  4e:	2b00      	cmp	r3, #0
+  50:	d1f6      	bne.n	40 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x40>
+  52:	e7ed      	b.n	30 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x30>
+  54:	4620      	mov	r0, r4
+  56:	4798      	blx	r3
+  58:	e7f2      	b.n	40 <_ZThn16_N9qindesign7network14EthernetClientD1Ev+0x40>
+  5a:	bf00      	nop
+  5c:	00000008 	.word	0x00000008
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZThn16_N9qindesign7network14EthernetClientD0Ev:
+
+00000000 <_ZThn16_N9qindesign7network14EthernetClientD0Ev>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4b18      	ldr	r3, [pc, #96]	; (64 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x64>)
+   4:	f1a0 0510 	sub.w	r5, r0, #16
+   8:	68c4      	ldr	r4, [r0, #12]
+   a:	f103 024c 	add.w	r2, r3, #76	; 0x4c
+   e:	f840 3c10 	str.w	r3, [r0, #-16]
+  12:	6002      	str	r2, [r0, #0]
+  14:	b1a4      	cbz	r4, 40 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x40>
+  16:	6863      	ldr	r3, [r4, #4]
+  18:	3b01      	subs	r3, #1
+  1a:	6063      	str	r3, [r4, #4]
+  1c:	b983      	cbnz	r3, 40 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x40>
+  1e:	6823      	ldr	r3, [r4, #0]
+  20:	4a11      	ldr	r2, [pc, #68]	; (68 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x68>)
+  22:	689b      	ldr	r3, [r3, #8]
+  24:	4293      	cmp	r3, r2
+  26:	d111      	bne.n	4c <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x4c>
+  28:	68a3      	ldr	r3, [r4, #8]
+  2a:	3b01      	subs	r3, #1
+  2c:	60a3      	str	r3, [r4, #8]
+  2e:	b93b      	cbnz	r3, 40 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x40>
+  30:	6822      	ldr	r2, [r4, #0]
+  32:	490e      	ldr	r1, [pc, #56]	; (6c <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x6c>)
+  34:	68d3      	ldr	r3, [r2, #12]
+  36:	428b      	cmp	r3, r1
+  38:	d110      	bne.n	5c <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x5c>
+  3a:	6853      	ldr	r3, [r2, #4]
+  3c:	4620      	mov	r0, r4
+  3e:	4798      	blx	r3
+  40:	4628      	mov	r0, r5
+  42:	2120      	movs	r1, #32
+  44:	f7ff fffe 	bl	0 <_ZdlPvj>
+  48:	4628      	mov	r0, r5
+  4a:	bd38      	pop	{r3, r4, r5, pc}
+  4c:	4620      	mov	r0, r4
+  4e:	4798      	blx	r3
+  50:	68a3      	ldr	r3, [r4, #8]
+  52:	3b01      	subs	r3, #1
+  54:	60a3      	str	r3, [r4, #8]
+  56:	2b00      	cmp	r3, #0
+  58:	d1f2      	bne.n	40 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x40>
+  5a:	e7e9      	b.n	30 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x30>
+  5c:	4620      	mov	r0, r4
+  5e:	4798      	blx	r3
+  60:	e7ee      	b.n	40 <_ZThn16_N9qindesign7network14EthernetClientD0Ev+0x40>
+  62:	bf00      	nop
+  64:	00000008 	.word	0x00000008
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClientD2Ev:
+
+00000000 <_ZN9qindesign7network14EthernetClientD1Ev>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4b12      	ldr	r3, [pc, #72]	; (4c <_ZN9qindesign7network14EthernetClientD1Ev+0x4c>)
+   4:	4604      	mov	r4, r0
+   6:	69c5      	ldr	r5, [r0, #28]
+   8:	f103 024c 	add.w	r2, r3, #76	; 0x4c
+   c:	6003      	str	r3, [r0, #0]
+   e:	6102      	str	r2, [r0, #16]
+  10:	b1a5      	cbz	r5, 3c <_ZN9qindesign7network14EthernetClientD1Ev+0x3c>
+  12:	686b      	ldr	r3, [r5, #4]
+  14:	3b01      	subs	r3, #1
+  16:	606b      	str	r3, [r5, #4]
+  18:	b983      	cbnz	r3, 3c <_ZN9qindesign7network14EthernetClientD1Ev+0x3c>
+  1a:	682b      	ldr	r3, [r5, #0]
+  1c:	4a0c      	ldr	r2, [pc, #48]	; (50 <_ZN9qindesign7network14EthernetClientD1Ev+0x50>)
+  1e:	689b      	ldr	r3, [r3, #8]
+  20:	4293      	cmp	r3, r2
+  22:	d10d      	bne.n	40 <_ZN9qindesign7network14EthernetClientD1Ev+0x40>
+  24:	68ab      	ldr	r3, [r5, #8]
+  26:	3b01      	subs	r3, #1
+  28:	60ab      	str	r3, [r5, #8]
+  2a:	b93b      	cbnz	r3, 3c <_ZN9qindesign7network14EthernetClientD1Ev+0x3c>
+  2c:	682b      	ldr	r3, [r5, #0]
+  2e:	4909      	ldr	r1, [pc, #36]	; (54 <_ZN9qindesign7network14EthernetClientD1Ev+0x54>)
+  30:	68da      	ldr	r2, [r3, #12]
+  32:	428a      	cmp	r2, r1
+  34:	d107      	bne.n	46 <_ZN9qindesign7network14EthernetClientD1Ev+0x46>
+  36:	685b      	ldr	r3, [r3, #4]
+  38:	4628      	mov	r0, r5
+  3a:	4798      	blx	r3
+  3c:	4620      	mov	r0, r4
+  3e:	bd38      	pop	{r3, r4, r5, pc}
+  40:	4628      	mov	r0, r5
+  42:	4798      	blx	r3
+  44:	e7ee      	b.n	24 <_ZN9qindesign7network14EthernetClientD1Ev+0x24>
+  46:	4628      	mov	r0, r5
+  48:	4790      	blx	r2
+  4a:	e7f7      	b.n	3c <_ZN9qindesign7network14EthernetClientD1Ev+0x3c>
+  4c:	00000008 	.word	0x00000008
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClientD0Ev:
+
+00000000 <_ZN9qindesign7network14EthernetClientD0Ev>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4b14      	ldr	r3, [pc, #80]	; (54 <_ZN9qindesign7network14EthernetClientD0Ev+0x54>)
+   4:	4604      	mov	r4, r0
+   6:	69c5      	ldr	r5, [r0, #28]
+   8:	f103 024c 	add.w	r2, r3, #76	; 0x4c
+   c:	6003      	str	r3, [r0, #0]
+   e:	6102      	str	r2, [r0, #16]
+  10:	b1a5      	cbz	r5, 3c <_ZN9qindesign7network14EthernetClientD0Ev+0x3c>
+  12:	686b      	ldr	r3, [r5, #4]
+  14:	3b01      	subs	r3, #1
+  16:	606b      	str	r3, [r5, #4]
+  18:	b983      	cbnz	r3, 3c <_ZN9qindesign7network14EthernetClientD0Ev+0x3c>
+  1a:	682b      	ldr	r3, [r5, #0]
+  1c:	4a0e      	ldr	r2, [pc, #56]	; (58 <_ZN9qindesign7network14EthernetClientD0Ev+0x58>)
+  1e:	689b      	ldr	r3, [r3, #8]
+  20:	4293      	cmp	r3, r2
+  22:	d111      	bne.n	48 <_ZN9qindesign7network14EthernetClientD0Ev+0x48>
+  24:	68ab      	ldr	r3, [r5, #8]
+  26:	3b01      	subs	r3, #1
+  28:	60ab      	str	r3, [r5, #8]
+  2a:	b93b      	cbnz	r3, 3c <_ZN9qindesign7network14EthernetClientD0Ev+0x3c>
+  2c:	682b      	ldr	r3, [r5, #0]
+  2e:	490b      	ldr	r1, [pc, #44]	; (5c <_ZN9qindesign7network14EthernetClientD0Ev+0x5c>)
+  30:	68da      	ldr	r2, [r3, #12]
+  32:	428a      	cmp	r2, r1
+  34:	d10b      	bne.n	4e <_ZN9qindesign7network14EthernetClientD0Ev+0x4e>
+  36:	685b      	ldr	r3, [r3, #4]
+  38:	4628      	mov	r0, r5
+  3a:	4798      	blx	r3
+  3c:	4620      	mov	r0, r4
+  3e:	2120      	movs	r1, #32
+  40:	f7ff fffe 	bl	0 <_ZdlPvj>
+  44:	4620      	mov	r0, r4
+  46:	bd38      	pop	{r3, r4, r5, pc}
+  48:	4628      	mov	r0, r5
+  4a:	4798      	blx	r3
+  4c:	e7ea      	b.n	24 <_ZN9qindesign7network14EthernetClientD0Ev+0x24>
+  4e:	4628      	mov	r0, r5
+  50:	4790      	blx	r2
+  52:	e7f3      	b.n	3c <_ZN9qindesign7network14EthernetClientD0Ev+0x3c>
+  54:	00000008 	.word	0x00000008
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClientC2Ev:
+
+00000000 <_ZN9qindesign7network14EthernetClientC1Ev>:
+   0:	2200      	movs	r2, #0
+   2:	4909      	ldr	r1, [pc, #36]	; (28 <_ZN9qindesign7network14EthernetClientC1Ev+0x28>)
+   4:	b410      	push	{r4}
+   6:	f44f 747a 	mov.w	r4, #1000	; 0x3e8
+   a:	7302      	strb	r2, [r0, #12]
+   c:	7582      	strb	r2, [r0, #22]
+   e:	8284      	strh	r4, [r0, #20]
+  10:	e9c0 2401 	strd	r2, r4, [r0, #4]
+  14:	e9c0 2206 	strd	r2, r2, [r0, #24]
+  18:	f101 0208 	add.w	r2, r1, #8
+  1c:	3154      	adds	r1, #84	; 0x54
+  1e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  22:	6002      	str	r2, [r0, #0]
+  24:	6101      	str	r1, [r0, #16]
+  26:	4770      	bx	lr
+  28:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClientC2ESt10shared_ptrINS0_8internal16ConnectionHolderEE:
+
+00000000 <_ZN9qindesign7network14EthernetClientC1ESt10shared_ptrINS0_8internal16ConnectionHolderEE>:
+   0:	2200      	movs	r2, #0
+   2:	4b0b      	ldr	r3, [pc, #44]	; (30 <_ZN9qindesign7network14EthernetClientC1ESt10shared_ptrINS0_8internal16ConnectionHolderEE+0x30>)
+   4:	b430      	push	{r4, r5}
+   6:	7302      	strb	r2, [r0, #12]
+   8:	f44f 747a 	mov.w	r4, #1000	; 0x3e8
+   c:	6042      	str	r2, [r0, #4]
+   e:	7582      	strb	r2, [r0, #22]
+  10:	e9d1 5200 	ldrd	r5, r2, [r1]
+  14:	6003      	str	r3, [r0, #0]
+  16:	334c      	adds	r3, #76	; 0x4c
+  18:	6084      	str	r4, [r0, #8]
+  1a:	8284      	strh	r4, [r0, #20]
+  1c:	6103      	str	r3, [r0, #16]
+  1e:	e9c0 5206 	strd	r5, r2, [r0, #24]
+  22:	b112      	cbz	r2, 2a <_ZN9qindesign7network14EthernetClientC1ESt10shared_ptrINS0_8internal16ConnectionHolderEE+0x2a>
+  24:	6853      	ldr	r3, [r2, #4]
+  26:	3301      	adds	r3, #1
+  28:	6053      	str	r3, [r2, #4]
+  2a:	bc30      	pop	{r4, r5}
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+  30:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient19watchPendingConnectEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv>:
+   0:	6982      	ldr	r2, [r0, #24]
+   2:	4603      	mov	r3, r0
+   4:	6851      	ldr	r1, [r2, #4]
+   6:	b510      	push	{r4, lr}
+   8:	b149      	cbz	r1, 1e <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x1e>
+   a:	7852      	ldrb	r2, [r2, #1]
+   c:	4914      	ldr	r1, [pc, #80]	; (60 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x60>)
+   e:	f082 0201 	eor.w	r2, r2, #1
+  12:	6808      	ldr	r0, [r1, #0]
+  14:	759a      	strb	r2, [r3, #22]
+  16:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  1a:	2001      	movs	r0, #1
+  1c:	bd10      	pop	{r4, pc}
+  1e:	69c4      	ldr	r4, [r0, #28]
+  20:	e9c0 1106 	strd	r1, r1, [r0, #24]
+  24:	b1a4      	cbz	r4, 50 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x50>
+  26:	6863      	ldr	r3, [r4, #4]
+  28:	3b01      	subs	r3, #1
+  2a:	6063      	str	r3, [r4, #4]
+  2c:	b983      	cbnz	r3, 50 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x50>
+  2e:	6823      	ldr	r3, [r4, #0]
+  30:	4a0c      	ldr	r2, [pc, #48]	; (64 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x64>)
+  32:	689b      	ldr	r3, [r3, #8]
+  34:	4293      	cmp	r3, r2
+  36:	d10d      	bne.n	54 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x54>
+  38:	68a3      	ldr	r3, [r4, #8]
+  3a:	3b01      	subs	r3, #1
+  3c:	60a3      	str	r3, [r4, #8]
+  3e:	b93b      	cbnz	r3, 50 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x50>
+  40:	6823      	ldr	r3, [r4, #0]
+  42:	4909      	ldr	r1, [pc, #36]	; (68 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x68>)
+  44:	68da      	ldr	r2, [r3, #12]
+  46:	428a      	cmp	r2, r1
+  48:	d107      	bne.n	5a <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x5a>
+  4a:	685b      	ldr	r3, [r3, #4]
+  4c:	4620      	mov	r0, r4
+  4e:	4798      	blx	r3
+  50:	2000      	movs	r0, #0
+  52:	bd10      	pop	{r4, pc}
+  54:	4620      	mov	r0, r4
+  56:	4798      	blx	r3
+  58:	e7ee      	b.n	38 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x38>
+  5a:	4620      	mov	r0, r4
+  5c:	4790      	blx	r2
+  5e:	e7f7      	b.n	50 <_ZN9qindesign7network14EthernetClient19watchPendingConnectEv+0x50>
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient9connectedEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient9connectedEv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6983      	ldr	r3, [r0, #24]
+   4:	b193      	cbz	r3, 2c <_ZN9qindesign7network14EthernetClient9connectedEv+0x2c>
+   6:	7d82      	ldrb	r2, [r0, #22]
+   8:	4604      	mov	r4, r0
+   a:	b95a      	cbnz	r2, 24 <_ZN9qindesign7network14EthernetClient9connectedEv+0x24>
+   c:	785a      	ldrb	r2, [r3, #1]
+   e:	b91a      	cbnz	r2, 18 <_ZN9qindesign7network14EthernetClient9connectedEv+0x18>
+  10:	e9d3 1303 	ldrd	r1, r3, [r3, #12]
+  14:	4299      	cmp	r1, r3
+  16:	d00e      	beq.n	36 <_ZN9qindesign7network14EthernetClient9connectedEv+0x36>
+  18:	4b17      	ldr	r3, [pc, #92]	; (78 <_ZN9qindesign7network14EthernetClient9connectedEv+0x78>)
+  1a:	6818      	ldr	r0, [r3, #0]
+  1c:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  20:	2001      	movs	r0, #1
+  22:	bd38      	pop	{r3, r4, r5, pc}
+  24:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient9connectedEv>
+  28:	4603      	mov	r3, r0
+  2a:	b908      	cbnz	r0, 30 <_ZN9qindesign7network14EthernetClient9connectedEv+0x30>
+  2c:	4618      	mov	r0, r3
+  2e:	bd38      	pop	{r3, r4, r5, pc}
+  30:	69a3      	ldr	r3, [r4, #24]
+  32:	7858      	ldrb	r0, [r3, #1]
+  34:	bd38      	pop	{r3, r4, r5, pc}
+  36:	69c5      	ldr	r5, [r0, #28]
+  38:	e9c0 2206 	strd	r2, r2, [r0, #24]
+  3c:	b1a5      	cbz	r5, 68 <_ZN9qindesign7network14EthernetClient9connectedEv+0x68>
+  3e:	686b      	ldr	r3, [r5, #4]
+  40:	3b01      	subs	r3, #1
+  42:	606b      	str	r3, [r5, #4]
+  44:	b983      	cbnz	r3, 68 <_ZN9qindesign7network14EthernetClient9connectedEv+0x68>
+  46:	682b      	ldr	r3, [r5, #0]
+  48:	4a0c      	ldr	r2, [pc, #48]	; (7c <_ZN9qindesign7network14EthernetClient9connectedEv+0x7c>)
+  4a:	689b      	ldr	r3, [r3, #8]
+  4c:	4293      	cmp	r3, r2
+  4e:	d10d      	bne.n	6c <_ZN9qindesign7network14EthernetClient9connectedEv+0x6c>
+  50:	68ab      	ldr	r3, [r5, #8]
+  52:	3b01      	subs	r3, #1
+  54:	60ab      	str	r3, [r5, #8]
+  56:	b93b      	cbnz	r3, 68 <_ZN9qindesign7network14EthernetClient9connectedEv+0x68>
+  58:	682b      	ldr	r3, [r5, #0]
+  5a:	4909      	ldr	r1, [pc, #36]	; (80 <_ZN9qindesign7network14EthernetClient9connectedEv+0x80>)
+  5c:	68da      	ldr	r2, [r3, #12]
+  5e:	428a      	cmp	r2, r1
+  60:	d107      	bne.n	72 <_ZN9qindesign7network14EthernetClient9connectedEv+0x72>
+  62:	685b      	ldr	r3, [r3, #4]
+  64:	4628      	mov	r0, r5
+  66:	4798      	blx	r3
+  68:	2000      	movs	r0, #0
+  6a:	bd38      	pop	{r3, r4, r5, pc}
+  6c:	4628      	mov	r0, r5
+  6e:	4798      	blx	r3
+  70:	e7ee      	b.n	50 <_ZN9qindesign7network14EthernetClient9connectedEv+0x50>
+  72:	4628      	mov	r0, r5
+  74:	4790      	blx	r2
+  76:	e7f7      	b.n	68 <_ZN9qindesign7network14EthernetClient9connectedEv+0x68>
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClientcvbEv:
+
+00000000 <_ZN9qindesign7network14EthernetClientcvbEv>:
+   0:	6983      	ldr	r3, [r0, #24]
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	b143      	cbz	r3, 18 <_ZN9qindesign7network14EthernetClientcvbEv+0x18>
+   6:	7d82      	ldrb	r2, [r0, #22]
+   8:	4604      	mov	r4, r0
+   a:	b972      	cbnz	r2, 2a <_ZN9qindesign7network14EthernetClientcvbEv+0x2a>
+   c:	785d      	ldrb	r5, [r3, #1]
+   e:	b935      	cbnz	r5, 1e <_ZN9qindesign7network14EthernetClientcvbEv+0x1e>
+  10:	e9d3 2303 	ldrd	r2, r3, [r3, #12]
+  14:	429a      	cmp	r2, r3
+  16:	d010      	beq.n	3a <_ZN9qindesign7network14EthernetClientcvbEv+0x3a>
+  18:	2500      	movs	r5, #0
+  1a:	4628      	mov	r0, r5
+  1c:	bd70      	pop	{r4, r5, r6, pc}
+  1e:	4b18      	ldr	r3, [pc, #96]	; (80 <_ZN9qindesign7network14EthernetClientcvbEv+0x80>)
+  20:	6818      	ldr	r0, [r3, #0]
+  22:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  26:	4628      	mov	r0, r5
+  28:	bd70      	pop	{r4, r5, r6, pc}
+  2a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClientcvbEv>
+  2e:	2800      	cmp	r0, #0
+  30:	d0f2      	beq.n	18 <_ZN9qindesign7network14EthernetClientcvbEv+0x18>
+  32:	69a3      	ldr	r3, [r4, #24]
+  34:	785d      	ldrb	r5, [r3, #1]
+  36:	4628      	mov	r0, r5
+  38:	bd70      	pop	{r4, r5, r6, pc}
+  3a:	69c6      	ldr	r6, [r0, #28]
+  3c:	e9c0 5506 	strd	r5, r5, [r0, #24]
+  40:	2e00      	cmp	r6, #0
+  42:	d0ea      	beq.n	1a <_ZN9qindesign7network14EthernetClientcvbEv+0x1a>
+  44:	6873      	ldr	r3, [r6, #4]
+  46:	3b01      	subs	r3, #1
+  48:	6073      	str	r3, [r6, #4]
+  4a:	2b00      	cmp	r3, #0
+  4c:	d1e5      	bne.n	1a <_ZN9qindesign7network14EthernetClientcvbEv+0x1a>
+  4e:	6833      	ldr	r3, [r6, #0]
+  50:	4a0c      	ldr	r2, [pc, #48]	; (84 <_ZN9qindesign7network14EthernetClientcvbEv+0x84>)
+  52:	689b      	ldr	r3, [r3, #8]
+  54:	4293      	cmp	r3, r2
+  56:	d10d      	bne.n	74 <_ZN9qindesign7network14EthernetClientcvbEv+0x74>
+  58:	68b3      	ldr	r3, [r6, #8]
+  5a:	3b01      	subs	r3, #1
+  5c:	60b3      	str	r3, [r6, #8]
+  5e:	2b00      	cmp	r3, #0
+  60:	d1db      	bne.n	1a <_ZN9qindesign7network14EthernetClientcvbEv+0x1a>
+  62:	6833      	ldr	r3, [r6, #0]
+  64:	4908      	ldr	r1, [pc, #32]	; (88 <_ZN9qindesign7network14EthernetClientcvbEv+0x88>)
+  66:	68da      	ldr	r2, [r3, #12]
+  68:	428a      	cmp	r2, r1
+  6a:	d106      	bne.n	7a <_ZN9qindesign7network14EthernetClientcvbEv+0x7a>
+  6c:	685b      	ldr	r3, [r3, #4]
+  6e:	4630      	mov	r0, r6
+  70:	4798      	blx	r3
+  72:	e7d2      	b.n	1a <_ZN9qindesign7network14EthernetClientcvbEv+0x1a>
+  74:	4630      	mov	r0, r6
+  76:	4798      	blx	r3
+  78:	e7ee      	b.n	58 <_ZN9qindesign7network14EthernetClientcvbEv+0x58>
+  7a:	4630      	mov	r0, r6
+  7c:	4790      	blx	r2
+  7e:	e7cc      	b.n	1a <_ZN9qindesign7network14EthernetClientcvbEv+0x1a>
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data:
+
+00000000 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data>:
+   0:	b508      	push	{r3, lr}
+   2:	6800      	ldr	r0, [r0, #0]
+   4:	f7ff fffe 	bl	0 <_ZNSt17_Function_handlerIFbvEZN9qindesign7network14EthernetClient10writeFullyEPKhjEUlvE_E9_M_invokeERKSt9_Any_data>
+   8:	f080 0001 	eor.w	r0, r0, #1
+   c:	b2c0      	uxtb	r0, r0
+   e:	bd08      	pop	{r3, pc}
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5writeEPKhj:
+
+00000000 <_ZN9qindesign7network14EthernetClient5writeEPKhj>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	b083      	sub	sp, #12
+   4:	4605      	mov	r5, r0
+   6:	460e      	mov	r6, r1
+   8:	4614      	mov	r4, r2
+   a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient5writeEPKhj>
+   e:	b1c0      	cbz	r0, 42 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x42>
+  10:	69ad      	ldr	r5, [r5, #24]
+  12:	686b      	ldr	r3, [r5, #4]
+  14:	b1ab      	cbz	r3, 42 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x42>
+  16:	b1c4      	cbz	r4, 4a <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x4a>
+  18:	681a      	ldr	r2, [r3, #0]
+  1a:	f8b2 3064 	ldrh.w	r3, [r2, #100]	; 0x64
+  1e:	b1e3      	cbz	r3, 5a <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x5a>
+  20:	42a3      	cmp	r3, r4
+  22:	d339      	bcc.n	98 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x98>
+  24:	4f1d      	ldr	r7, [pc, #116]	; (9c <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x9c>)
+  26:	4610      	mov	r0, r2
+  28:	2301      	movs	r3, #1
+  2a:	4631      	mov	r1, r6
+  2c:	b2a2      	uxth	r2, r4
+  2e:	f7ff fffe 	bl	0 <tcp_write>
+  32:	bb38      	cbnz	r0, 84 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x84>
+  34:	6838      	ldr	r0, [r7, #0]
+  36:	4625      	mov	r5, r4
+  38:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  3c:	4628      	mov	r0, r5
+  3e:	b003      	add	sp, #12
+  40:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  42:	2500      	movs	r5, #0
+  44:	4628      	mov	r0, r5
+  46:	b003      	add	sp, #12
+  48:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  4a:	4b14      	ldr	r3, [pc, #80]	; (9c <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x9c>)
+  4c:	4625      	mov	r5, r4
+  4e:	6818      	ldr	r0, [r3, #0]
+  50:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  54:	4628      	mov	r0, r5
+  56:	b003      	add	sp, #12
+  58:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  5a:	4f10      	ldr	r7, [pc, #64]	; (9c <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x9c>)
+  5c:	4610      	mov	r0, r2
+  5e:	f7ff fffe 	bl	0 <tcp_output>
+  62:	6838      	ldr	r0, [r7, #0]
+  64:	9001      	str	r0, [sp, #4]
+  66:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  6a:	686b      	ldr	r3, [r5, #4]
+  6c:	2b00      	cmp	r3, #0
+  6e:	d0e8      	beq.n	42 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x42>
+  70:	681a      	ldr	r2, [r3, #0]
+  72:	f8b2 5064 	ldrh.w	r5, [r2, #100]	; 0x64
+  76:	42a5      	cmp	r5, r4
+  78:	d2d5      	bcs.n	26 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x26>
+  7a:	9801      	ldr	r0, [sp, #4]
+  7c:	2d00      	cmp	r5, #0
+  7e:	d0db      	beq.n	38 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x38>
+  80:	462c      	mov	r4, r5
+  82:	e7d0      	b.n	26 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x26>
+  84:	f7ff fffe 	bl	0 <err_to_errno>
+  88:	4604      	mov	r4, r0
+  8a:	f7ff fffe 	bl	0 <__errno>
+  8e:	4603      	mov	r3, r0
+  90:	2500      	movs	r5, #0
+  92:	6838      	ldr	r0, [r7, #0]
+  94:	601c      	str	r4, [r3, #0]
+  96:	e7cf      	b.n	38 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x38>
+  98:	461c      	mov	r4, r3
+  9a:	e7c3      	b.n	24 <_ZN9qindesign7network14EthernetClient5writeEPKhj+0x24>
+  9c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5writeEh:
+
+00000000 <_ZN9qindesign7network14EthernetClient5writeEh>:
+   0:	b500      	push	{lr}
+   2:	b083      	sub	sp, #12
+   4:	460b      	mov	r3, r1
+   6:	2201      	movs	r2, #1
+   8:	f10d 0107 	add.w	r1, sp, #7
+   c:	f88d 3007 	strb.w	r3, [sp, #7]
+  10:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient5writeEh>
+  14:	b003      	add	sp, #12
+  16:	f85d fb04 	ldr.w	pc, [sp], #4
+  1a:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient17availableForWriteEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient17availableForWriteEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient17availableForWriteEv>
+   8:	b180      	cbz	r0, 2c <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x2c>
+   a:	69a4      	ldr	r4, [r4, #24]
+   c:	6863      	ldr	r3, [r4, #4]
+   e:	b16b      	cbz	r3, 2c <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x2c>
+  10:	6818      	ldr	r0, [r3, #0]
+  12:	f8b0 3064 	ldrh.w	r3, [r0, #100]	; 0x64
+  16:	b15b      	cbz	r3, 30 <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x30>
+  18:	4b07      	ldr	r3, [pc, #28]	; (38 <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x38>)
+  1a:	6818      	ldr	r0, [r3, #0]
+  1c:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  20:	6863      	ldr	r3, [r4, #4]
+  22:	b11b      	cbz	r3, 2c <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x2c>
+  24:	681b      	ldr	r3, [r3, #0]
+  26:	f8b3 0064 	ldrh.w	r0, [r3, #100]	; 0x64
+  2a:	bd10      	pop	{r4, pc}
+  2c:	2000      	movs	r0, #0
+  2e:	bd10      	pop	{r4, pc}
+  30:	f7ff fffe 	bl	0 <tcp_output>
+  34:	e7f0      	b.n	18 <_ZN9qindesign7network14EthernetClient17availableForWriteEv+0x18>
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5flushEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient5flushEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient5flushEv>
+   8:	b158      	cbz	r0, 22 <_ZN9qindesign7network14EthernetClient5flushEv+0x22>
+   a:	69a3      	ldr	r3, [r4, #24]
+   c:	685b      	ldr	r3, [r3, #4]
+   e:	b143      	cbz	r3, 22 <_ZN9qindesign7network14EthernetClient5flushEv+0x22>
+  10:	6818      	ldr	r0, [r3, #0]
+  12:	f7ff fffe 	bl	0 <tcp_output>
+  16:	4b03      	ldr	r3, [pc, #12]	; (24 <_ZN9qindesign7network14EthernetClient5flushEv+0x24>)
+  18:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  1c:	6818      	ldr	r0, [r3, #0]
+  1e:	f7ff bffe 	b.w	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  22:	bd10      	pop	{r4, pc}
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient9availableEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient9availableEv>:
+   0:	b510      	push	{r4, lr}
+   2:	6984      	ldr	r4, [r0, #24]
+   4:	b164      	cbz	r4, 20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+   6:	7d83      	ldrb	r3, [r0, #22]
+   8:	4602      	mov	r2, r0
+   a:	b93b      	cbnz	r3, 1c <_ZN9qindesign7network14EthernetClient9availableEv+0x1c>
+   c:	e9d4 0303 	ldrd	r0, r3, [r4, #12]
+  10:	4283      	cmp	r3, r0
+  12:	d007      	beq.n	24 <_ZN9qindesign7network14EthernetClient9availableEv+0x24>
+  14:	1a18      	subs	r0, r3, r0
+  16:	68a3      	ldr	r3, [r4, #8]
+  18:	1ac0      	subs	r0, r0, r3
+  1a:	bd10      	pop	{r4, pc}
+  1c:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient9availableEv>
+  20:	2000      	movs	r0, #0
+  22:	bd10      	pop	{r4, pc}
+  24:	7863      	ldrb	r3, [r4, #1]
+  26:	b18b      	cbz	r3, 4c <_ZN9qindesign7network14EthernetClient9availableEv+0x4c>
+  28:	6863      	ldr	r3, [r4, #4]
+  2a:	2b00      	cmp	r3, #0
+  2c:	d0f8      	beq.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  2e:	4b19      	ldr	r3, [pc, #100]	; (94 <_ZN9qindesign7network14EthernetClient9availableEv+0x94>)
+  30:	6818      	ldr	r0, [r3, #0]
+  32:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  36:	6863      	ldr	r3, [r4, #4]
+  38:	2b00      	cmp	r3, #0
+  3a:	d0f1      	beq.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  3c:	e9d3 2001 	ldrd	r2, r0, [r3, #4]
+  40:	691b      	ldr	r3, [r3, #16]
+  42:	1a80      	subs	r0, r0, r2
+  44:	4283      	cmp	r3, r0
+  46:	d2eb      	bcs.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  48:	1ac0      	subs	r0, r0, r3
+  4a:	bd10      	pop	{r4, pc}
+  4c:	69d4      	ldr	r4, [r2, #28]
+  4e:	e9c2 3306 	strd	r3, r3, [r2, #24]
+  52:	2c00      	cmp	r4, #0
+  54:	d0e4      	beq.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  56:	6863      	ldr	r3, [r4, #4]
+  58:	3b01      	subs	r3, #1
+  5a:	6063      	str	r3, [r4, #4]
+  5c:	2b00      	cmp	r3, #0
+  5e:	d1df      	bne.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  60:	6823      	ldr	r3, [r4, #0]
+  62:	4a0d      	ldr	r2, [pc, #52]	; (98 <_ZN9qindesign7network14EthernetClient9availableEv+0x98>)
+  64:	689b      	ldr	r3, [r3, #8]
+  66:	4293      	cmp	r3, r2
+  68:	d10d      	bne.n	86 <_ZN9qindesign7network14EthernetClient9availableEv+0x86>
+  6a:	68a3      	ldr	r3, [r4, #8]
+  6c:	3b01      	subs	r3, #1
+  6e:	60a3      	str	r3, [r4, #8]
+  70:	2b00      	cmp	r3, #0
+  72:	d1d5      	bne.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  74:	6823      	ldr	r3, [r4, #0]
+  76:	4909      	ldr	r1, [pc, #36]	; (9c <_ZN9qindesign7network14EthernetClient9availableEv+0x9c>)
+  78:	68da      	ldr	r2, [r3, #12]
+  7a:	428a      	cmp	r2, r1
+  7c:	d106      	bne.n	8c <_ZN9qindesign7network14EthernetClient9availableEv+0x8c>
+  7e:	685b      	ldr	r3, [r3, #4]
+  80:	4620      	mov	r0, r4
+  82:	4798      	blx	r3
+  84:	e7cc      	b.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  86:	4620      	mov	r0, r4
+  88:	4798      	blx	r3
+  8a:	e7ee      	b.n	6a <_ZN9qindesign7network14EthernetClient9availableEv+0x6a>
+  8c:	4620      	mov	r0, r4
+  8e:	4790      	blx	r2
+  90:	e7c6      	b.n	20 <_ZN9qindesign7network14EthernetClient9availableEv+0x20>
+  92:	bf00      	nop
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient4readEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient4readEv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6984      	ldr	r4, [r0, #24]
+   4:	b32c      	cbz	r4, 52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+   6:	7d85      	ldrb	r5, [r0, #22]
+   8:	bb0d      	cbnz	r5, 4e <_ZN9qindesign7network14EthernetClient4readEv+0x4e>
+   a:	e9d4 1203 	ldrd	r1, r2, [r4, #12]
+   e:	428a      	cmp	r2, r1
+  10:	d009      	beq.n	26 <_ZN9qindesign7network14EthernetClient4readEv+0x26>
+  12:	68a0      	ldr	r0, [r4, #8]
+  14:	1a52      	subs	r2, r2, r1
+  16:	1c43      	adds	r3, r0, #1
+  18:	4293      	cmp	r3, r2
+  1a:	60a3      	str	r3, [r4, #8]
+  1c:	5c08      	ldrb	r0, [r1, r0]
+  1e:	d301      	bcc.n	24 <_ZN9qindesign7network14EthernetClient4readEv+0x24>
+  20:	6121      	str	r1, [r4, #16]
+  22:	60a5      	str	r5, [r4, #8]
+  24:	bd38      	pop	{r3, r4, r5, pc}
+  26:	7862      	ldrb	r2, [r4, #1]
+  28:	b1b2      	cbz	r2, 58 <_ZN9qindesign7network14EthernetClient4readEv+0x58>
+  2a:	6863      	ldr	r3, [r4, #4]
+  2c:	b18b      	cbz	r3, 52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  2e:	4b1c      	ldr	r3, [pc, #112]	; (a0 <_ZN9qindesign7network14EthernetClient4readEv+0xa0>)
+  30:	6818      	ldr	r0, [r3, #0]
+  32:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  36:	6863      	ldr	r3, [r4, #4]
+  38:	b15b      	cbz	r3, 52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  3a:	6919      	ldr	r1, [r3, #16]
+  3c:	e9d3 0201 	ldrd	r0, r2, [r3, #4]
+  40:	1a12      	subs	r2, r2, r0
+  42:	4291      	cmp	r1, r2
+  44:	d205      	bcs.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  46:	1c4a      	adds	r2, r1, #1
+  48:	611a      	str	r2, [r3, #16]
+  4a:	5c40      	ldrb	r0, [r0, r1]
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient4readEv>
+  52:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  56:	bd38      	pop	{r3, r4, r5, pc}
+  58:	69c4      	ldr	r4, [r0, #28]
+  5a:	e9c0 2206 	strd	r2, r2, [r0, #24]
+  5e:	2c00      	cmp	r4, #0
+  60:	d0f7      	beq.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  62:	6863      	ldr	r3, [r4, #4]
+  64:	3b01      	subs	r3, #1
+  66:	6063      	str	r3, [r4, #4]
+  68:	2b00      	cmp	r3, #0
+  6a:	d1f2      	bne.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  6c:	6823      	ldr	r3, [r4, #0]
+  6e:	4a0d      	ldr	r2, [pc, #52]	; (a4 <_ZN9qindesign7network14EthernetClient4readEv+0xa4>)
+  70:	689b      	ldr	r3, [r3, #8]
+  72:	4293      	cmp	r3, r2
+  74:	d10d      	bne.n	92 <_ZN9qindesign7network14EthernetClient4readEv+0x92>
+  76:	68a3      	ldr	r3, [r4, #8]
+  78:	3b01      	subs	r3, #1
+  7a:	60a3      	str	r3, [r4, #8]
+  7c:	2b00      	cmp	r3, #0
+  7e:	d1e8      	bne.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  80:	6822      	ldr	r2, [r4, #0]
+  82:	4909      	ldr	r1, [pc, #36]	; (a8 <_ZN9qindesign7network14EthernetClient4readEv+0xa8>)
+  84:	68d3      	ldr	r3, [r2, #12]
+  86:	428b      	cmp	r3, r1
+  88:	d106      	bne.n	98 <_ZN9qindesign7network14EthernetClient4readEv+0x98>
+  8a:	6853      	ldr	r3, [r2, #4]
+  8c:	4620      	mov	r0, r4
+  8e:	4798      	blx	r3
+  90:	e7df      	b.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  92:	4620      	mov	r0, r4
+  94:	4798      	blx	r3
+  96:	e7ee      	b.n	76 <_ZN9qindesign7network14EthernetClient4readEv+0x76>
+  98:	4620      	mov	r0, r4
+  9a:	4798      	blx	r3
+  9c:	e7d9      	b.n	52 <_ZN9qindesign7network14EthernetClient4readEv+0x52>
+  9e:	bf00      	nop
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient4peekEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient4peekEv>:
+   0:	b510      	push	{r4, lr}
+   2:	6984      	ldr	r4, [r0, #24]
+   4:	b1e4      	cbz	r4, 40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+   6:	7d82      	ldrb	r2, [r0, #22]
+   8:	b9c2      	cbnz	r2, 3c <_ZN9qindesign7network14EthernetClient4peekEv+0x3c>
+   a:	e9d4 2103 	ldrd	r2, r1, [r4, #12]
+   e:	4291      	cmp	r1, r2
+  10:	d002      	beq.n	18 <_ZN9qindesign7network14EthernetClient4peekEv+0x18>
+  12:	68a3      	ldr	r3, [r4, #8]
+  14:	5cd0      	ldrb	r0, [r2, r3]
+  16:	bd10      	pop	{r4, pc}
+  18:	7862      	ldrb	r2, [r4, #1]
+  1a:	b1a2      	cbz	r2, 46 <_ZN9qindesign7network14EthernetClient4peekEv+0x46>
+  1c:	6863      	ldr	r3, [r4, #4]
+  1e:	b17b      	cbz	r3, 40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  20:	4b1a      	ldr	r3, [pc, #104]	; (8c <_ZN9qindesign7network14EthernetClient4peekEv+0x8c>)
+  22:	6818      	ldr	r0, [r3, #0]
+  24:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  28:	6863      	ldr	r3, [r4, #4]
+  2a:	b14b      	cbz	r3, 40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  2c:	6919      	ldr	r1, [r3, #16]
+  2e:	e9d3 0201 	ldrd	r0, r2, [r3, #4]
+  32:	1a13      	subs	r3, r2, r0
+  34:	4299      	cmp	r1, r3
+  36:	d203      	bcs.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  38:	5c40      	ldrb	r0, [r0, r1]
+  3a:	bd10      	pop	{r4, pc}
+  3c:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient4peekEv>
+  40:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  44:	bd10      	pop	{r4, pc}
+  46:	69c4      	ldr	r4, [r0, #28]
+  48:	e9c0 2206 	strd	r2, r2, [r0, #24]
+  4c:	2c00      	cmp	r4, #0
+  4e:	d0f7      	beq.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  50:	6863      	ldr	r3, [r4, #4]
+  52:	3b01      	subs	r3, #1
+  54:	6063      	str	r3, [r4, #4]
+  56:	2b00      	cmp	r3, #0
+  58:	d1f2      	bne.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  5a:	6823      	ldr	r3, [r4, #0]
+  5c:	4a0c      	ldr	r2, [pc, #48]	; (90 <_ZN9qindesign7network14EthernetClient4peekEv+0x90>)
+  5e:	689b      	ldr	r3, [r3, #8]
+  60:	4293      	cmp	r3, r2
+  62:	d10d      	bne.n	80 <_ZN9qindesign7network14EthernetClient4peekEv+0x80>
+  64:	68a3      	ldr	r3, [r4, #8]
+  66:	3b01      	subs	r3, #1
+  68:	60a3      	str	r3, [r4, #8]
+  6a:	2b00      	cmp	r3, #0
+  6c:	d1e8      	bne.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  6e:	6822      	ldr	r2, [r4, #0]
+  70:	4908      	ldr	r1, [pc, #32]	; (94 <_ZN9qindesign7network14EthernetClient4peekEv+0x94>)
+  72:	68d3      	ldr	r3, [r2, #12]
+  74:	428b      	cmp	r3, r1
+  76:	d106      	bne.n	86 <_ZN9qindesign7network14EthernetClient4peekEv+0x86>
+  78:	6853      	ldr	r3, [r2, #4]
+  7a:	4620      	mov	r0, r4
+  7c:	4798      	blx	r3
+  7e:	e7df      	b.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  80:	4620      	mov	r0, r4
+  82:	4798      	blx	r3
+  84:	e7ee      	b.n	64 <_ZN9qindesign7network14EthernetClient4peekEv+0x64>
+  86:	4620      	mov	r0, r4
+  88:	4798      	blx	r3
+  8a:	e7d9      	b.n	40 <_ZN9qindesign7network14EthernetClient4peekEv+0x40>
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient4readEPhj:
+
+00000000 <_ZN9qindesign7network14EthernetClient4readEPhj>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	6985      	ldr	r5, [r0, #24]
+   6:	b365      	cbz	r5, 62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+   8:	7d83      	ldrb	r3, [r0, #22]
+   a:	4604      	mov	r4, r0
+   c:	2b00      	cmp	r3, #0
+   e:	d132      	bne.n	76 <_ZN9qindesign7network14EthernetClient4readEPhj+0x76>
+  10:	460e      	mov	r6, r1
+  12:	4690      	mov	r8, r2
+  14:	e9d5 1303 	ldrd	r1, r3, [r5, #12]
+  18:	428b      	cmp	r3, r1
+  1a:	d014      	beq.n	46 <_ZN9qindesign7network14EthernetClient4readEPhj+0x46>
+  1c:	b30a      	cbz	r2, 62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  1e:	1a5b      	subs	r3, r3, r1
+  20:	68af      	ldr	r7, [r5, #8]
+  22:	1bd8      	subs	r0, r3, r7
+  24:	4290      	cmp	r0, r2
+  26:	d31f      	bcc.n	68 <_ZN9qindesign7network14EthernetClient4readEPhj+0x68>
+  28:	bb56      	cbnz	r6, 80 <_ZN9qindesign7network14EthernetClient4readEPhj+0x80>
+  2a:	4417      	add	r7, r2
+  2c:	4610      	mov	r0, r2
+  2e:	429f      	cmp	r7, r3
+  30:	60af      	str	r7, [r5, #8]
+  32:	d317      	bcc.n	64 <_ZN9qindesign7network14EthernetClient4readEPhj+0x64>
+  34:	e9d5 3203 	ldrd	r3, r2, [r5, #12]
+  38:	4293      	cmp	r3, r2
+  3a:	bf18      	it	ne
+  3c:	612b      	strne	r3, [r5, #16]
+  3e:	2300      	movs	r3, #0
+  40:	60ab      	str	r3, [r5, #8]
+  42:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  46:	786b      	ldrb	r3, [r5, #1]
+  48:	2b00      	cmp	r3, #0
+  4a:	d03f      	beq.n	cc <_ZN9qindesign7network14EthernetClient4readEPhj+0xcc>
+  4c:	686b      	ldr	r3, [r5, #4]
+  4e:	b143      	cbz	r3, 62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  50:	4b31      	ldr	r3, [pc, #196]	; (118 <_ZN9qindesign7network14EthernetClient4readEPhj+0x118>)
+  52:	6818      	ldr	r0, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  58:	f1b8 0f00 	cmp.w	r8, #0
+  5c:	d001      	beq.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  5e:	686f      	ldr	r7, [r5, #4]
+  60:	b9e7      	cbnz	r7, 9c <_ZN9qindesign7network14EthernetClient4readEPhj+0x9c>
+  62:	2000      	movs	r0, #0
+  64:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  68:	2e00      	cmp	r6, #0
+  6a:	d052      	beq.n	112 <_ZN9qindesign7network14EthernetClient4readEPhj+0x112>
+  6c:	2800      	cmp	r0, #0
+  6e:	d0de      	beq.n	2e <_ZN9qindesign7network14EthernetClient4readEPhj+0x2e>
+  70:	4439      	add	r1, r7
+  72:	4680      	mov	r8, r0
+  74:	e005      	b.n	82 <_ZN9qindesign7network14EthernetClient4readEPhj+0x82>
+  76:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient4readEPhj>
+  7a:	2000      	movs	r0, #0
+  7c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  80:	4439      	add	r1, r7
+  82:	4630      	mov	r0, r6
+  84:	4642      	mov	r2, r8
+  86:	f7ff fffe 	bl	0 <memmove>
+  8a:	69a1      	ldr	r1, [r4, #24]
+  8c:	4640      	mov	r0, r8
+  8e:	688f      	ldr	r7, [r1, #8]
+  90:	e9d5 4303 	ldrd	r4, r3, [r5, #12]
+  94:	4447      	add	r7, r8
+  96:	460d      	mov	r5, r1
+  98:	1b1b      	subs	r3, r3, r4
+  9a:	e7c8      	b.n	2e <_ZN9qindesign7network14EthernetClient4readEPhj+0x2e>
+  9c:	e9d7 c301 	ldrd	ip, r3, [r7, #4]
+  a0:	6939      	ldr	r1, [r7, #16]
+  a2:	eba3 030c 	sub.w	r3, r3, ip
+  a6:	4299      	cmp	r1, r3
+  a8:	d2db      	bcs.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  aa:	1a58      	subs	r0, r3, r1
+  ac:	4540      	cmp	r0, r8
+  ae:	bf28      	it	cs
+  b0:	4640      	movcs	r0, r8
+  b2:	4604      	mov	r4, r0
+  b4:	b136      	cbz	r6, c4 <_ZN9qindesign7network14EthernetClient4readEPhj+0xc4>
+  b6:	4461      	add	r1, ip
+  b8:	4630      	mov	r0, r6
+  ba:	4622      	mov	r2, r4
+  bc:	f7ff fffe 	bl	0 <memmove>
+  c0:	686f      	ldr	r7, [r5, #4]
+  c2:	6939      	ldr	r1, [r7, #16]
+  c4:	4421      	add	r1, r4
+  c6:	4620      	mov	r0, r4
+  c8:	6139      	str	r1, [r7, #16]
+  ca:	e7cb      	b.n	64 <_ZN9qindesign7network14EthernetClient4readEPhj+0x64>
+  cc:	69c5      	ldr	r5, [r0, #28]
+  ce:	e9c0 3306 	strd	r3, r3, [r0, #24]
+  d2:	2d00      	cmp	r5, #0
+  d4:	d0c5      	beq.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  d6:	686b      	ldr	r3, [r5, #4]
+  d8:	3b01      	subs	r3, #1
+  da:	606b      	str	r3, [r5, #4]
+  dc:	2b00      	cmp	r3, #0
+  de:	d1c0      	bne.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  e0:	682b      	ldr	r3, [r5, #0]
+  e2:	4a0e      	ldr	r2, [pc, #56]	; (11c <_ZN9qindesign7network14EthernetClient4readEPhj+0x11c>)
+  e4:	689b      	ldr	r3, [r3, #8]
+  e6:	4293      	cmp	r3, r2
+  e8:	d10d      	bne.n	106 <_ZN9qindesign7network14EthernetClient4readEPhj+0x106>
+  ea:	68ab      	ldr	r3, [r5, #8]
+  ec:	3b01      	subs	r3, #1
+  ee:	60ab      	str	r3, [r5, #8]
+  f0:	2b00      	cmp	r3, #0
+  f2:	d1b6      	bne.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+  f4:	682b      	ldr	r3, [r5, #0]
+  f6:	490a      	ldr	r1, [pc, #40]	; (120 <_ZN9qindesign7network14EthernetClient4readEPhj+0x120>)
+  f8:	68da      	ldr	r2, [r3, #12]
+  fa:	428a      	cmp	r2, r1
+  fc:	d106      	bne.n	10c <_ZN9qindesign7network14EthernetClient4readEPhj+0x10c>
+  fe:	685b      	ldr	r3, [r3, #4]
+ 100:	4628      	mov	r0, r5
+ 102:	4798      	blx	r3
+ 104:	e7ad      	b.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+ 106:	4628      	mov	r0, r5
+ 108:	4798      	blx	r3
+ 10a:	e7ee      	b.n	ea <_ZN9qindesign7network14EthernetClient4readEPhj+0xea>
+ 10c:	4628      	mov	r0, r5
+ 10e:	4790      	blx	r2
+ 110:	e7a7      	b.n	62 <_ZN9qindesign7network14EthernetClient4readEPhj+0x62>
+ 112:	60ab      	str	r3, [r5, #8]
+ 114:	e78e      	b.n	34 <_ZN9qindesign7network14EthernetClient4readEPhj+0x34>
+ 116:	bf00      	nop
+ 118:	00000000 	.word	0x00000000
+ 11c:	00000000 	.word	0x00000000
+ 120:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt:
+
+00000000 <_ZN9qindesign7network14EthernetClient20setConnectionTimeoutEt>:
+   0:	8281      	strh	r1, [r0, #20]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10setNoDelayEb:
+
+00000000 <_ZN9qindesign7network14EthernetClient10setNoDelayEb>:
+   0:	6980      	ldr	r0, [r0, #24]
+   2:	b170      	cbz	r0, 22 <_ZN9qindesign7network14EthernetClient10setNoDelayEb+0x22>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b160      	cbz	r0, 22 <_ZN9qindesign7network14EthernetClient10setNoDelayEb+0x22>
+   8:	6802      	ldr	r2, [r0, #0]
+   a:	b129      	cbz	r1, 18 <_ZN9qindesign7network14EthernetClient10setNoDelayEb+0x18>
+   c:	8b53      	ldrh	r3, [r2, #26]
+   e:	4608      	mov	r0, r1
+  10:	f043 0340 	orr.w	r3, r3, #64	; 0x40
+  14:	8353      	strh	r3, [r2, #26]
+  16:	4770      	bx	lr
+  18:	8b53      	ldrh	r3, [r2, #26]
+  1a:	2001      	movs	r0, #1
+  1c:	f023 0340 	bic.w	r3, r3, #64	; 0x40
+  20:	8353      	strh	r3, [r2, #26]
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient9isNoDelayEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient9isNoDelayEv>:
+   0:	6980      	ldr	r0, [r0, #24]
+   2:	b128      	cbz	r0, 10 <_ZN9qindesign7network14EthernetClient9isNoDelayEv+0x10>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b118      	cbz	r0, 10 <_ZN9qindesign7network14EthernetClient9isNoDelayEv+0x10>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	8b58      	ldrh	r0, [r3, #26]
+   c:	f3c0 1080 	ubfx	r0, r0, #6, #1
+  10:	4770      	bx	lr
+  12:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5closeEb:
+
+00000000 <_ZN9qindesign7network14EthernetClient5closeEb>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	6985      	ldr	r5, [r0, #24]
+   6:	b082      	sub	sp, #8
+   8:	2d00      	cmp	r5, #0
+   a:	d03f      	beq.n	8c <_ZN9qindesign7network14EthernetClient5closeEb+0x8c>
+   c:	686b      	ldr	r3, [r5, #4]
+   e:	4604      	mov	r4, r0
+  10:	b303      	cbz	r3, 54 <_ZN9qindesign7network14EthernetClient5closeEb+0x54>
+  12:	7d82      	ldrb	r2, [r0, #22]
+  14:	460e      	mov	r6, r1
+  16:	2a00      	cmp	r2, #0
+  18:	d03b      	beq.n	92 <_ZN9qindesign7network14EthernetClient5closeEb+0x92>
+  1a:	786a      	ldrb	r2, [r5, #1]
+  1c:	2a00      	cmp	r2, #0
+  1e:	d04c      	beq.n	ba <_ZN9qindesign7network14EthernetClient5closeEb+0xba>
+  20:	6818      	ldr	r0, [r3, #0]
+  22:	f7ff fffe 	bl	0 <tcp_close>
+  26:	2800      	cmp	r0, #0
+  28:	d142      	bne.n	b0 <_ZN9qindesign7network14EthernetClient5closeEb+0xb0>
+  2a:	b196      	cbz	r6, 52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  2c:	f7ff fffe 	bl	0 <sys_now>
+  30:	69a3      	ldr	r3, [r4, #24]
+  32:	4605      	mov	r5, r0
+  34:	b953      	cbnz	r3, 4c <_ZN9qindesign7network14EthernetClient5closeEb+0x4c>
+  36:	e00c      	b.n	52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  38:	f7ff fffe 	bl	0 <sys_now>
+  3c:	8aa3      	ldrh	r3, [r4, #20]
+  3e:	1b40      	subs	r0, r0, r5
+  40:	4298      	cmp	r0, r3
+  42:	d206      	bcs.n	52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  44:	f7ff fffe 	bl	0 <yield>
+  48:	69a3      	ldr	r3, [r4, #24]
+  4a:	b113      	cbz	r3, 52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  4c:	785b      	ldrb	r3, [r3, #1]
+  4e:	2b00      	cmp	r3, #0
+  50:	d1f2      	bne.n	38 <_ZN9qindesign7network14EthernetClient5closeEb+0x38>
+  52:	2300      	movs	r3, #0
+  54:	69e5      	ldr	r5, [r4, #28]
+  56:	e9c4 3306 	strd	r3, r3, [r4, #24]
+  5a:	b1bd      	cbz	r5, 8c <_ZN9qindesign7network14EthernetClient5closeEb+0x8c>
+  5c:	686b      	ldr	r3, [r5, #4]
+  5e:	3b01      	subs	r3, #1
+  60:	606b      	str	r3, [r5, #4]
+  62:	b99b      	cbnz	r3, 8c <_ZN9qindesign7network14EthernetClient5closeEb+0x8c>
+  64:	682b      	ldr	r3, [r5, #0]
+  66:	4a2e      	ldr	r2, [pc, #184]	; (120 <_ZN9qindesign7network14EthernetClient5closeEb+0x120>)
+  68:	689b      	ldr	r3, [r3, #8]
+  6a:	4293      	cmp	r3, r2
+  6c:	d14b      	bne.n	106 <_ZN9qindesign7network14EthernetClient5closeEb+0x106>
+  6e:	68ab      	ldr	r3, [r5, #8]
+  70:	3b01      	subs	r3, #1
+  72:	60ab      	str	r3, [r5, #8]
+  74:	b953      	cbnz	r3, 8c <_ZN9qindesign7network14EthernetClient5closeEb+0x8c>
+  76:	682b      	ldr	r3, [r5, #0]
+  78:	492a      	ldr	r1, [pc, #168]	; (124 <_ZN9qindesign7network14EthernetClient5closeEb+0x124>)
+  7a:	68da      	ldr	r2, [r3, #12]
+  7c:	428a      	cmp	r2, r1
+  7e:	d14a      	bne.n	116 <_ZN9qindesign7network14EthernetClient5closeEb+0x116>
+  80:	685b      	ldr	r3, [r3, #4]
+  82:	4628      	mov	r0, r5
+  84:	b002      	add	sp, #8
+  86:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+  8a:	4718      	bx	r3
+  8c:	b002      	add	sp, #8
+  8e:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  92:	786a      	ldrb	r2, [r5, #1]
+  94:	2a00      	cmp	r2, #0
+  96:	d0dc      	beq.n	52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  98:	6818      	ldr	r0, [r3, #0]
+  9a:	f7ff fffe 	bl	0 <tcp_output>
+  9e:	4b22      	ldr	r3, [pc, #136]	; (128 <_ZN9qindesign7network14EthernetClient5closeEb+0x128>)
+  a0:	6818      	ldr	r0, [r3, #0]
+  a2:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  a6:	686b      	ldr	r3, [r5, #4]
+  a8:	2b00      	cmp	r3, #0
+  aa:	d1b9      	bne.n	20 <_ZN9qindesign7network14EthernetClient5closeEb+0x20>
+  ac:	2300      	movs	r3, #0
+  ae:	e7d1      	b.n	54 <_ZN9qindesign7network14EthernetClient5closeEb+0x54>
+  b0:	686b      	ldr	r3, [r5, #4]
+  b2:	6818      	ldr	r0, [r3, #0]
+  b4:	f7ff fffe 	bl	0 <tcp_abort>
+  b8:	e7cb      	b.n	52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  ba:	6818      	ldr	r0, [r3, #0]
+  bc:	f7ff fffe 	bl	0 <tcp_close>
+  c0:	bb20      	cbnz	r0, 10c <_ZN9qindesign7network14EthernetClient5closeEb+0x10c>
+  c2:	686f      	ldr	r7, [r5, #4]
+  c4:	2100      	movs	r1, #0
+  c6:	6069      	str	r1, [r5, #4]
+  c8:	2f00      	cmp	r7, #0
+  ca:	d0c2      	beq.n	52 <_ZN9qindesign7network14EthernetClient5closeEb+0x52>
+  cc:	6838      	ldr	r0, [r7, #0]
+  ce:	f7ff fffe 	bl	0 <tcp_arg>
+  d2:	69fb      	ldr	r3, [r7, #28]
+  d4:	b163      	cbz	r3, f0 <_ZN9qindesign7network14EthernetClient5closeEb+0xf0>
+  d6:	f107 0814 	add.w	r8, r7, #20
+  da:	6a3b      	ldr	r3, [r7, #32]
+  dc:	a901      	add	r1, sp, #4
+  de:	9701      	str	r7, [sp, #4]
+  e0:	4640      	mov	r0, r8
+  e2:	4798      	blx	r3
+  e4:	69fb      	ldr	r3, [r7, #28]
+  e6:	b11b      	cbz	r3, f0 <_ZN9qindesign7network14EthernetClient5closeEb+0xf0>
+  e8:	2203      	movs	r2, #3
+  ea:	4641      	mov	r1, r8
+  ec:	4640      	mov	r0, r8
+  ee:	4798      	blx	r3
+  f0:	6878      	ldr	r0, [r7, #4]
+  f2:	b118      	cbz	r0, fc <_ZN9qindesign7network14EthernetClient5closeEb+0xfc>
+  f4:	68f9      	ldr	r1, [r7, #12]
+  f6:	1a09      	subs	r1, r1, r0
+  f8:	f7ff fffe 	bl	0 <_ZdlPvj>
+  fc:	2124      	movs	r1, #36	; 0x24
+  fe:	4638      	mov	r0, r7
+ 100:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 104:	e7cf      	b.n	a6 <_ZN9qindesign7network14EthernetClient5closeEb+0xa6>
+ 106:	4628      	mov	r0, r5
+ 108:	4798      	blx	r3
+ 10a:	e7b0      	b.n	6e <_ZN9qindesign7network14EthernetClient5closeEb+0x6e>
+ 10c:	686b      	ldr	r3, [r5, #4]
+ 10e:	6818      	ldr	r0, [r3, #0]
+ 110:	f7ff fffe 	bl	0 <tcp_abort>
+ 114:	e7d5      	b.n	c2 <_ZN9qindesign7network14EthernetClient5closeEb+0xc2>
+ 116:	4628      	mov	r0, r5
+ 118:	b002      	add	sp, #8
+ 11a:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+ 11e:	4710      	bx	r2
+ 120:	00000000 	.word	0x00000000
+ 124:	00000000 	.word	0x00000000
+ 128:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient4stopEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient4stopEv>:
+   0:	2101      	movs	r1, #1
+   2:	f7ff bffe 	b.w	0 <_ZN9qindesign7network14EthernetClient4stopEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5closeEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient5closeEv>:
+   0:	2100      	movs	r1, #0
+   2:	f7ff bffe 	b.w	0 <_ZN9qindesign7network14EthernetClient5closeEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb:
+
+00000000 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	b085      	sub	sp, #20
+   4:	4616      	mov	r6, r2
+   6:	4604      	mov	r4, r0
+   8:	461d      	mov	r5, r3
+   a:	9101      	str	r1, [sp, #4]
+   c:	2100      	movs	r1, #0
+   e:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb>
+  12:	f7ff fffe 	bl	0 <_ZN9qindesign7network8internal17ConnectionManager8instanceEv>
+  16:	4633      	mov	r3, r6
+  18:	4601      	mov	r1, r0
+  1a:	9a01      	ldr	r2, [sp, #4]
+  1c:	a802      	add	r0, sp, #8
+  1e:	f7ff fffe 	bl	0 <_ZN9qindesign7network8internal17ConnectionManager7connectEPK8ip4_addrt>
+  22:	2300      	movs	r3, #0
+  24:	69e6      	ldr	r6, [r4, #28]
+  26:	e9dd 0202 	ldrd	r0, r2, [sp, #8]
+  2a:	e9cd 3302 	strd	r3, r3, [sp, #8]
+  2e:	61a0      	str	r0, [r4, #24]
+  30:	61e2      	str	r2, [r4, #28]
+  32:	b11e      	cbz	r6, 3c <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x3c>
+  34:	6873      	ldr	r3, [r6, #4]
+  36:	3b01      	subs	r3, #1
+  38:	6073      	str	r3, [r6, #4]
+  3a:	b13b      	cbz	r3, 4c <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x4c>
+  3c:	b120      	cbz	r0, 48 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x48>
+  3e:	f085 0301 	eor.w	r3, r5, #1
+  42:	75a3      	strb	r3, [r4, #22]
+  44:	bb45      	cbnz	r5, 98 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x98>
+  46:	2001      	movs	r0, #1
+  48:	b005      	add	sp, #20
+  4a:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  4c:	6833      	ldr	r3, [r6, #0]
+  4e:	4f2b      	ldr	r7, [pc, #172]	; (fc <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xfc>)
+  50:	689b      	ldr	r3, [r3, #8]
+  52:	42bb      	cmp	r3, r7
+  54:	d14c      	bne.n	f0 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xf0>
+  56:	68b3      	ldr	r3, [r6, #8]
+  58:	3b01      	subs	r3, #1
+  5a:	60b3      	str	r3, [r6, #8]
+  5c:	2b00      	cmp	r3, #0
+  5e:	d039      	beq.n	d4 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xd4>
+  60:	9e03      	ldr	r6, [sp, #12]
+  62:	b1be      	cbz	r6, 94 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x94>
+  64:	6873      	ldr	r3, [r6, #4]
+  66:	3b01      	subs	r3, #1
+  68:	6073      	str	r3, [r6, #4]
+  6a:	b99b      	cbnz	r3, 94 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x94>
+  6c:	6833      	ldr	r3, [r6, #0]
+  6e:	689b      	ldr	r3, [r3, #8]
+  70:	42bb      	cmp	r3, r7
+  72:	d13a      	bne.n	ea <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xea>
+  74:	68b3      	ldr	r3, [r6, #8]
+  76:	3b01      	subs	r3, #1
+  78:	60b3      	str	r3, [r6, #8]
+  7a:	b95b      	cbnz	r3, 94 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x94>
+  7c:	6833      	ldr	r3, [r6, #0]
+  7e:	4920      	ldr	r1, [pc, #128]	; (100 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x100>)
+  80:	68da      	ldr	r2, [r3, #12]
+  82:	428a      	cmp	r2, r1
+  84:	d104      	bne.n	90 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x90>
+  86:	685b      	ldr	r3, [r3, #4]
+  88:	4630      	mov	r0, r6
+  8a:	4798      	blx	r3
+  8c:	69a0      	ldr	r0, [r4, #24]
+  8e:	e7d5      	b.n	3c <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x3c>
+  90:	4630      	mov	r0, r6
+  92:	4790      	blx	r2
+  94:	69a0      	ldr	r0, [r4, #24]
+  96:	e7d1      	b.n	3c <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x3c>
+  98:	f7ff fffe 	bl	0 <sys_now>
+  9c:	69a3      	ldr	r3, [r4, #24]
+  9e:	4605      	mov	r5, r0
+  a0:	b953      	cbnz	r3, b8 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xb8>
+  a2:	e010      	b.n	c6 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xc6>
+  a4:	f7ff fffe 	bl	0 <sys_now>
+  a8:	8aa3      	ldrh	r3, [r4, #20]
+  aa:	1b40      	subs	r0, r0, r5
+  ac:	4298      	cmp	r0, r3
+  ae:	d21a      	bcs.n	e6 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xe6>
+  b0:	f7ff fffe 	bl	0 <yield>
+  b4:	69a3      	ldr	r3, [r4, #24]
+  b6:	b133      	cbz	r3, c6 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xc6>
+  b8:	785a      	ldrb	r2, [r3, #1]
+  ba:	2a00      	cmp	r2, #0
+  bc:	d0f2      	beq.n	a4 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xa4>
+  be:	b113      	cbz	r3, c6 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xc6>
+  c0:	785b      	ldrb	r3, [r3, #1]
+  c2:	2b00      	cmp	r3, #0
+  c4:	d1bf      	bne.n	46 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x46>
+  c6:	4620      	mov	r0, r4
+  c8:	2100      	movs	r1, #0
+  ca:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb>
+  ce:	2000      	movs	r0, #0
+  d0:	b005      	add	sp, #20
+  d2:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  d4:	6833      	ldr	r3, [r6, #0]
+  d6:	490a      	ldr	r1, [pc, #40]	; (100 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x100>)
+  d8:	68da      	ldr	r2, [r3, #12]
+  da:	428a      	cmp	r2, r1
+  dc:	d10b      	bne.n	f6 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xf6>
+  de:	685b      	ldr	r3, [r3, #4]
+  e0:	4630      	mov	r0, r6
+  e2:	4798      	blx	r3
+  e4:	e7bc      	b.n	60 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x60>
+  e6:	69a3      	ldr	r3, [r4, #24]
+  e8:	e7e9      	b.n	be <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0xbe>
+  ea:	4630      	mov	r0, r6
+  ec:	4798      	blx	r3
+  ee:	e7c1      	b.n	74 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x74>
+  f0:	4630      	mov	r0, r6
+  f2:	4798      	blx	r3
+  f4:	e7af      	b.n	56 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x56>
+  f6:	4630      	mov	r0, r6
+  f8:	4790      	blx	r2
+  fa:	e7b1      	b.n	60 <_ZN9qindesign7network14EthernetClient7connectEPK8ip4_addrtb+0x60>
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient7connectE9IPAddresst:
+
+00000000 <_ZN9qindesign7network14EthernetClient7connectE9IPAddresst>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b085      	sub	sp, #20
+   4:	4604      	mov	r4, r0
+   6:	4608      	mov	r0, r1
+   8:	9201      	str	r2, [sp, #4]
+   a:	f7ff fffe 	bl	0 <_ZN9qindesign7network10get_uint32ERK9IPAddress>
+   e:	2301      	movs	r3, #1
+  10:	4605      	mov	r5, r0
+  12:	9a01      	ldr	r2, [sp, #4]
+  14:	a903      	add	r1, sp, #12
+  16:	4620      	mov	r0, r4
+  18:	9503      	str	r5, [sp, #12]
+  1a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient7connectE9IPAddresst>
+  1e:	b005      	add	sp, #20
+  20:	bd30      	pop	{r4, r5, pc}
+  22:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst:
+
+00000000 <_ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b085      	sub	sp, #20
+   4:	4604      	mov	r4, r0
+   6:	4608      	mov	r0, r1
+   8:	9201      	str	r2, [sp, #4]
+   a:	f7ff fffe 	bl	0 <_ZN9qindesign7network10get_uint32ERK9IPAddress>
+   e:	2300      	movs	r3, #0
+  10:	4605      	mov	r5, r0
+  12:	9a01      	ldr	r2, [sp, #4]
+  14:	a903      	add	r1, sp, #12
+  16:	4620      	mov	r0, r4
+  18:	9503      	str	r5, [sp, #12]
+  1a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient13connectNoWaitERK9IPAddresst>
+  1e:	b005      	add	sp, #20
+  20:	bd30      	pop	{r4, r5, pc}
+  22:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient13connectNoWaitEPKct:
+
+00000000 <_ZN9qindesign7network14EthernetClient13connectNoWaitEPKct>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	4e0d      	ldr	r6, [pc, #52]	; (38 <_ZN9qindesign7network14EthernetClient13connectNoWaitEPKct+0x38>)
+   4:	b085      	sub	sp, #20
+   6:	4604      	mov	r4, r0
+   8:	4615      	mov	r5, r2
+   a:	9602      	str	r6, [sp, #8]
+   c:	2600      	movs	r6, #0
+   e:	4608      	mov	r0, r1
+  10:	f241 3288 	movw	r2, #5000	; 0x1388
+  14:	a902      	add	r1, sp, #8
+  16:	9603      	str	r6, [sp, #12]
+  18:	f7ff fffe 	bl	0 <_ZN9qindesign7network9DNSClient13getHostByNameEPKcR9IPAddressm>
+  1c:	b150      	cbz	r0, 34 <_ZN9qindesign7network14EthernetClient13connectNoWaitEPKct+0x34>
+  1e:	a802      	add	r0, sp, #8
+  20:	f7ff fffe 	bl	0 <_ZN9qindesign7network10get_uint32ERK9IPAddress>
+  24:	4607      	mov	r7, r0
+  26:	4633      	mov	r3, r6
+  28:	462a      	mov	r2, r5
+  2a:	a901      	add	r1, sp, #4
+  2c:	4620      	mov	r0, r4
+  2e:	9701      	str	r7, [sp, #4]
+  30:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient13connectNoWaitEPKct>
+  34:	b005      	add	sp, #20
+  36:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  38:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient7connectEPKct:
+
+00000000 <_ZN9qindesign7network14EthernetClient7connectEPKct>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	b086      	sub	sp, #24
+   4:	4e0e      	ldr	r6, [pc, #56]	; (40 <_ZN9qindesign7network14EthernetClient7connectEPKct+0x40>)
+   6:	2300      	movs	r3, #0
+   8:	4605      	mov	r5, r0
+   a:	4614      	mov	r4, r2
+   c:	4608      	mov	r0, r1
+   e:	f241 3288 	movw	r2, #5000	; 0x1388
+  12:	a902      	add	r1, sp, #8
+  14:	e9cd 6302 	strd	r6, r3, [sp, #8]
+  18:	f7ff fffe 	bl	0 <_ZN9qindesign7network9DNSClient13getHostByNameEPKcR9IPAddressm>
+  1c:	b168      	cbz	r0, 3a <_ZN9qindesign7network14EthernetClient7connectEPKct+0x3a>
+  1e:	9b03      	ldr	r3, [sp, #12]
+  20:	a804      	add	r0, sp, #16
+  22:	e9cd 6304 	strd	r6, r3, [sp, #16]
+  26:	f7ff fffe 	bl	0 <_ZN9qindesign7network10get_uint32ERK9IPAddress>
+  2a:	4606      	mov	r6, r0
+  2c:	2301      	movs	r3, #1
+  2e:	4622      	mov	r2, r4
+  30:	a901      	add	r1, sp, #4
+  32:	4628      	mov	r0, r5
+  34:	9601      	str	r6, [sp, #4]
+  36:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient7connectEPKct>
+  3a:	b006      	add	sp, #24
+  3c:	bd70      	pop	{r4, r5, r6, pc}
+  3e:	bf00      	nop
+  40:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient11closeOutputEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient11closeOutputEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient11closeOutputEv>
+   8:	b190      	cbz	r0, 30 <_ZN9qindesign7network14EthernetClient11closeOutputEv+0x30>
+   a:	69a4      	ldr	r4, [r4, #24]
+   c:	6863      	ldr	r3, [r4, #4]
+   e:	b17b      	cbz	r3, 30 <_ZN9qindesign7network14EthernetClient11closeOutputEv+0x30>
+  10:	6818      	ldr	r0, [r3, #0]
+  12:	f7ff fffe 	bl	0 <tcp_output>
+  16:	4b07      	ldr	r3, [pc, #28]	; (34 <_ZN9qindesign7network14EthernetClient11closeOutputEv+0x34>)
+  18:	6818      	ldr	r0, [r3, #0]
+  1a:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClass4loopEv>
+  1e:	6863      	ldr	r3, [r4, #4]
+  20:	b133      	cbz	r3, 30 <_ZN9qindesign7network14EthernetClient11closeOutputEv+0x30>
+  22:	2201      	movs	r2, #1
+  24:	2100      	movs	r1, #0
+  26:	6818      	ldr	r0, [r3, #0]
+  28:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  2c:	f7ff bffe 	b.w	0 <tcp_shutdown>
+  30:	bd10      	pop	{r4, pc}
+  32:	bf00      	nop
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient5abortEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient5abortEv>:
+   0:	6983      	ldr	r3, [r0, #24]
+   2:	b31b      	cbz	r3, 4c <_ZN9qindesign7network14EthernetClient5abortEv+0x4c>
+   4:	685b      	ldr	r3, [r3, #4]
+   6:	b570      	push	{r4, r5, r6, lr}
+   8:	4604      	mov	r4, r0
+   a:	b113      	cbz	r3, 12 <_ZN9qindesign7network14EthernetClient5abortEv+0x12>
+   c:	6818      	ldr	r0, [r3, #0]
+   e:	f7ff fffe 	bl	0 <tcp_abort>
+  12:	2300      	movs	r3, #0
+  14:	69e5      	ldr	r5, [r4, #28]
+  16:	e9c4 3306 	strd	r3, r3, [r4, #24]
+  1a:	b1b5      	cbz	r5, 4a <_ZN9qindesign7network14EthernetClient5abortEv+0x4a>
+  1c:	686b      	ldr	r3, [r5, #4]
+  1e:	3b01      	subs	r3, #1
+  20:	606b      	str	r3, [r5, #4]
+  22:	b993      	cbnz	r3, 4a <_ZN9qindesign7network14EthernetClient5abortEv+0x4a>
+  24:	682b      	ldr	r3, [r5, #0]
+  26:	4a0d      	ldr	r2, [pc, #52]	; (5c <_ZN9qindesign7network14EthernetClient5abortEv+0x5c>)
+  28:	689b      	ldr	r3, [r3, #8]
+  2a:	4293      	cmp	r3, r2
+  2c:	d10f      	bne.n	4e <_ZN9qindesign7network14EthernetClient5abortEv+0x4e>
+  2e:	68ab      	ldr	r3, [r5, #8]
+  30:	3b01      	subs	r3, #1
+  32:	60ab      	str	r3, [r5, #8]
+  34:	b94b      	cbnz	r3, 4a <_ZN9qindesign7network14EthernetClient5abortEv+0x4a>
+  36:	682b      	ldr	r3, [r5, #0]
+  38:	4909      	ldr	r1, [pc, #36]	; (60 <_ZN9qindesign7network14EthernetClient5abortEv+0x60>)
+  3a:	68da      	ldr	r2, [r3, #12]
+  3c:	428a      	cmp	r2, r1
+  3e:	d109      	bne.n	54 <_ZN9qindesign7network14EthernetClient5abortEv+0x54>
+  40:	4628      	mov	r0, r5
+  42:	685b      	ldr	r3, [r3, #4]
+  44:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  48:	4718      	bx	r3
+  4a:	bd70      	pop	{r4, r5, r6, pc}
+  4c:	4770      	bx	lr
+  4e:	4628      	mov	r0, r5
+  50:	4798      	blx	r3
+  52:	e7ec      	b.n	2e <_ZN9qindesign7network14EthernetClient5abortEv+0x2e>
+  54:	4628      	mov	r0, r5
+  56:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  5a:	4710      	bx	r2
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient9localPortEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient9localPortEv>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	4604      	mov	r4, r0
+   6:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient9localPortEv>
+   a:	b158      	cbz	r0, 24 <_ZN9qindesign7network14EthernetClient9localPortEv+0x24>
+   c:	69a3      	ldr	r3, [r4, #24]
+   e:	6858      	ldr	r0, [r3, #4]
+  10:	b140      	cbz	r0, 24 <_ZN9qindesign7network14EthernetClient9localPortEv+0x24>
+  12:	f10d 0306 	add.w	r3, sp, #6
+  16:	2200      	movs	r2, #0
+  18:	2101      	movs	r1, #1
+  1a:	6800      	ldr	r0, [r0, #0]
+  1c:	f7ff fffe 	bl	0 <tcp_tcp_get_tcp_addrinfo>
+  20:	f8bd 0006 	ldrh.w	r0, [sp, #6]
+  24:	b002      	add	sp, #8
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient8remoteIPEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient8remoteIPEv>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b083      	sub	sp, #12
+   6:	4608      	mov	r0, r1
+   8:	460d      	mov	r5, r1
+   a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient8remoteIPEv>
+   e:	b188      	cbz	r0, 34 <_ZN9qindesign7network14EthernetClient8remoteIPEv+0x34>
+  10:	69ab      	ldr	r3, [r5, #24]
+  12:	685a      	ldr	r2, [r3, #4]
+  14:	b172      	cbz	r2, 34 <_ZN9qindesign7network14EthernetClient8remoteIPEv+0x34>
+  16:	2300      	movs	r3, #0
+  18:	6810      	ldr	r0, [r2, #0]
+  1a:	aa01      	add	r2, sp, #4
+  1c:	4619      	mov	r1, r3
+  1e:	f7ff fffe 	bl	0 <tcp_tcp_get_tcp_addrinfo>
+  22:	a801      	add	r0, sp, #4
+  24:	f7ff fffe 	bl	0 <_ZN9qindesign7network22ip_addr_get_ip4_uint32EPK8ip4_addr>
+  28:	4b06      	ldr	r3, [pc, #24]	; (44 <_ZN9qindesign7network14EthernetClient8remoteIPEv+0x44>)
+  2a:	e9c4 3000 	strd	r3, r0, [r4]
+  2e:	4620      	mov	r0, r4
+  30:	b003      	add	sp, #12
+  32:	bd30      	pop	{r4, r5, pc}
+  34:	4b04      	ldr	r3, [pc, #16]	; (48 <_ZN9qindesign7network14EthernetClient8remoteIPEv+0x48>)
+  36:	4620      	mov	r0, r4
+  38:	4a02      	ldr	r2, [pc, #8]	; (44 <_ZN9qindesign7network14EthernetClient8remoteIPEv+0x44>)
+  3a:	685b      	ldr	r3, [r3, #4]
+  3c:	e9c4 2300 	strd	r2, r3, [r4]
+  40:	b003      	add	sp, #12
+  42:	bd30      	pop	{r4, r5, pc}
+  44:	00000008 	.word	0x00000008
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10remotePortEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient10remotePortEv>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	4604      	mov	r4, r0
+   6:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient10remotePortEv>
+   a:	b158      	cbz	r0, 24 <_ZN9qindesign7network14EthernetClient10remotePortEv+0x24>
+   c:	69a3      	ldr	r3, [r4, #24]
+   e:	6858      	ldr	r0, [r3, #4]
+  10:	b140      	cbz	r0, 24 <_ZN9qindesign7network14EthernetClient10remotePortEv+0x24>
+  12:	2200      	movs	r2, #0
+  14:	f10d 0306 	add.w	r3, sp, #6
+  18:	6800      	ldr	r0, [r0, #0]
+  1a:	4611      	mov	r1, r2
+  1c:	f7ff fffe 	bl	0 <tcp_tcp_get_tcp_addrinfo>
+  20:	f8bd 0006 	ldrh.w	r0, [sp, #6]
+  24:	b002      	add	sp, #8
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient7localIPEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient7localIPEv>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b083      	sub	sp, #12
+   6:	4608      	mov	r0, r1
+   8:	460d      	mov	r5, r1
+   a:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient7localIPEv>
+   e:	b188      	cbz	r0, 34 <_ZN9qindesign7network14EthernetClient7localIPEv+0x34>
+  10:	69ab      	ldr	r3, [r5, #24]
+  12:	685a      	ldr	r2, [r3, #4]
+  14:	b172      	cbz	r2, 34 <_ZN9qindesign7network14EthernetClient7localIPEv+0x34>
+  16:	2300      	movs	r3, #0
+  18:	2101      	movs	r1, #1
+  1a:	6810      	ldr	r0, [r2, #0]
+  1c:	aa01      	add	r2, sp, #4
+  1e:	f7ff fffe 	bl	0 <tcp_tcp_get_tcp_addrinfo>
+  22:	a801      	add	r0, sp, #4
+  24:	f7ff fffe 	bl	0 <_ZN9qindesign7network22ip_addr_get_ip4_uint32EPK8ip4_addr>
+  28:	4b06      	ldr	r3, [pc, #24]	; (44 <_ZN9qindesign7network14EthernetClient7localIPEv+0x44>)
+  2a:	e9c4 3000 	strd	r3, r0, [r4]
+  2e:	4620      	mov	r0, r4
+  30:	b003      	add	sp, #12
+  32:	bd30      	pop	{r4, r5, pc}
+  34:	4b04      	ldr	r3, [pc, #16]	; (48 <_ZN9qindesign7network14EthernetClient7localIPEv+0x48>)
+  36:	4620      	mov	r0, r4
+  38:	4a02      	ldr	r2, [pc, #8]	; (44 <_ZN9qindesign7network14EthernetClient7localIPEv+0x44>)
+  3a:	685b      	ldr	r3, [r3, #4]
+  3c:	e9c4 2300 	strd	r2, r3, [r4]
+  40:	b003      	add	sp, #12
+  42:	bd30      	pop	{r4, r5, pc}
+  44:	00000008 	.word	0x00000008
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt:
+
+00000000 <_ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	4605      	mov	r5, r0
+   6:	4688      	mov	r8, r1
+   8:	4616      	mov	r6, r2
+   a:	461f      	mov	r7, r3
+   c:	f7ff fffe 	bl	0 <_ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt>
+  10:	4604      	mov	r4, r0
+  12:	b140      	cbz	r0, 26 <_ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt+0x26>
+  14:	69ab      	ldr	r3, [r5, #24]
+  16:	6858      	ldr	r0, [r3, #4]
+  18:	b140      	cbz	r0, 2c <_ZN9qindesign7network14EthernetClient11getAddrInfoEbP8ip4_addrPt+0x2c>
+  1a:	463b      	mov	r3, r7
+  1c:	4632      	mov	r2, r6
+  1e:	4641      	mov	r1, r8
+  20:	6800      	ldr	r0, [r0, #0]
+  22:	f7ff fffe 	bl	0 <tcp_tcp_get_tcp_addrinfo>
+  26:	4620      	mov	r0, r4
+  28:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  2c:	4604      	mov	r4, r0
+  2e:	4620      	mov	r0, r4
+  30:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient12connectionIdEv:
+
+00000000 <_ZN9qindesign7network14EthernetClient12connectionIdEv>:
+   0:	6983      	ldr	r3, [r0, #24]
+   2:	b12b      	cbz	r3, 10 <_ZN9qindesign7network14EthernetClient12connectionIdEv+0x10>
+   4:	7858      	ldrb	r0, [r3, #1]
+   6:	b120      	cbz	r0, 12 <_ZN9qindesign7network14EthernetClient12connectionIdEv+0x12>
+   8:	6858      	ldr	r0, [r3, #4]
+   a:	b110      	cbz	r0, 12 <_ZN9qindesign7network14EthernetClient12connectionIdEv+0x12>
+   c:	6800      	ldr	r0, [r0, #0]
+   e:	4770      	bx	lr
+  10:	4618      	mov	r0, r3
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10writeFullyEh:
+
+00000000 <_ZN9qindesign7network14EthernetClient10writeFullyEh>:
+   0:	b510      	push	{r4, lr}
+   2:	2300      	movs	r3, #0
+   4:	b086      	sub	sp, #24
+   6:	4c0c      	ldr	r4, [pc, #48]	; (38 <_ZN9qindesign7network14EthernetClient10writeFullyEh+0x38>)
+   8:	4a0c      	ldr	r2, [pc, #48]	; (3c <_ZN9qindesign7network14EthernetClient10writeFullyEh+0x3c>)
+   a:	f88d 1007 	strb.w	r1, [sp, #7]
+   e:	f10d 0107 	add.w	r1, sp, #7
+  12:	9303      	str	r3, [sp, #12]
+  14:	ab02      	add	r3, sp, #8
+  16:	9002      	str	r0, [sp, #8]
+  18:	e9cd 2404 	strd	r2, r4, [sp, #16]
+  1c:	2201      	movs	r2, #1
+  1e:	f7ff fffe 	bl	0 <_ZN9qindesign7network4util10writeFullyER5PrintPKhjSt8functionIFbvEE>
+  22:	9b04      	ldr	r3, [sp, #16]
+  24:	4604      	mov	r4, r0
+  26:	b11b      	cbz	r3, 30 <_ZN9qindesign7network14EthernetClient10writeFullyEh+0x30>
+  28:	a902      	add	r1, sp, #8
+  2a:	2203      	movs	r2, #3
+  2c:	4608      	mov	r0, r1
+  2e:	4798      	blx	r3
+  30:	4620      	mov	r0, r4
+  32:	b006      	add	sp, #24
+  34:	bd10      	pop	{r4, pc}
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKc:
+
+00000000 <_ZN9qindesign7network14EthernetClient10writeFullyEPKc>:
+   0:	b510      	push	{r4, lr}
+   2:	b086      	sub	sp, #24
+   4:	4604      	mov	r4, r0
+   6:	4608      	mov	r0, r1
+   8:	9101      	str	r1, [sp, #4]
+   a:	f7ff fffe 	bl	0 <strlen>
+   e:	2300      	movs	r3, #0
+  10:	4602      	mov	r2, r0
+  12:	9901      	ldr	r1, [sp, #4]
+  14:	4620      	mov	r0, r4
+  16:	9303      	str	r3, [sp, #12]
+  18:	4b08      	ldr	r3, [pc, #32]	; (3c <_ZN9qindesign7network14EthernetClient10writeFullyEPKc+0x3c>)
+  1a:	9402      	str	r4, [sp, #8]
+  1c:	9305      	str	r3, [sp, #20]
+  1e:	4b08      	ldr	r3, [pc, #32]	; (40 <_ZN9qindesign7network14EthernetClient10writeFullyEPKc+0x40>)
+  20:	9304      	str	r3, [sp, #16]
+  22:	ab02      	add	r3, sp, #8
+  24:	f7ff fffe 	bl	0 <_ZN9qindesign7network4util10writeFullyER5PrintPKhjSt8functionIFbvEE>
+  28:	9b04      	ldr	r3, [sp, #16]
+  2a:	4604      	mov	r4, r0
+  2c:	b11b      	cbz	r3, 36 <_ZN9qindesign7network14EthernetClient10writeFullyEPKc+0x36>
+  2e:	a902      	add	r1, sp, #8
+  30:	2203      	movs	r2, #3
+  32:	4608      	mov	r0, r1
+  34:	4798      	blx	r3
+  36:	4620      	mov	r0, r4
+  38:	b006      	add	sp, #24
+  3a:	bd10      	pop	{r4, pc}
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKcj:
+
+00000000 <_ZN9qindesign7network14EthernetClient10writeFullyEPKcj>:
+   0:	b510      	push	{r4, lr}
+   2:	4b0a      	ldr	r3, [pc, #40]	; (2c <_ZN9qindesign7network14EthernetClient10writeFullyEPKcj+0x2c>)
+   4:	b084      	sub	sp, #16
+   6:	2400      	movs	r4, #0
+   8:	9303      	str	r3, [sp, #12]
+   a:	4b09      	ldr	r3, [pc, #36]	; (30 <_ZN9qindesign7network14EthernetClient10writeFullyEPKcj+0x30>)
+   c:	9401      	str	r4, [sp, #4]
+   e:	9302      	str	r3, [sp, #8]
+  10:	466b      	mov	r3, sp
+  12:	9000      	str	r0, [sp, #0]
+  14:	f7ff fffe 	bl	0 <_ZN9qindesign7network4util10writeFullyER5PrintPKhjSt8functionIFbvEE>
+  18:	9b02      	ldr	r3, [sp, #8]
+  1a:	4604      	mov	r4, r0
+  1c:	b11b      	cbz	r3, 26 <_ZN9qindesign7network14EthernetClient10writeFullyEPKcj+0x26>
+  1e:	4669      	mov	r1, sp
+  20:	2203      	movs	r2, #3
+  22:	4608      	mov	r0, r1
+  24:	4798      	blx	r3
+  26:	4620      	mov	r0, r4
+  28:	b004      	add	sp, #16
+  2a:	bd10      	pop	{r4, pc}
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network14EthernetClient10writeFullyEPKhj:
+
+00000000 <_ZN9qindesign7network14EthernetClient10writeFullyEPKhj>:
+   0:	b510      	push	{r4, lr}
+   2:	4b0a      	ldr	r3, [pc, #40]	; (2c <_ZN9qindesign7network14EthernetClient10writeFullyEPKhj+0x2c>)
+   4:	b084      	sub	sp, #16
+   6:	2400      	movs	r4, #0
+   8:	9303      	str	r3, [sp, #12]
+   a:	4b09      	ldr	r3, [pc, #36]	; (30 <_ZN9qindesign7network14EthernetClient10writeFullyEPKhj+0x30>)
+   c:	9401      	str	r4, [sp, #4]
+   e:	9302      	str	r3, [sp, #8]
+  10:	466b      	mov	r3, sp
+  12:	9000      	str	r0, [sp, #0]
+  14:	f7ff fffe 	bl	0 <_ZN9qindesign7network4util10writeFullyER5PrintPKhjSt8functionIFbvEE>
+  18:	9b02      	ldr	r3, [sp, #8]
+  1a:	4604      	mov	r4, r0
+  1c:	b11b      	cbz	r3, 26 <_ZN9qindesign7network14EthernetClient10writeFullyEPKhj+0x26>
+  1e:	4669      	mov	r1, sp
+  20:	2203      	movs	r2, #3
+  22:	4608      	mov	r0, r1
+  24:	4798      	blx	r3
+  26:	4620      	mov	r0, r4
+  28:	b004      	add	sp, #16
+  2a:	bd10      	pop	{r4, pc}
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNK9qindesign7network14EthernetClient6statusEv:
+
+00000000 <_ZNK9qindesign7network14EthernetClient6statusEv>:
+   0:	6980      	ldr	r0, [r0, #24]
+   2:	b118      	cbz	r0, c <_ZNK9qindesign7network14EthernetClient6statusEv+0xc>
+   4:	6840      	ldr	r0, [r0, #4]
+   6:	b108      	cbz	r0, c <_ZNK9qindesign7network14EthernetClient6statusEv+0xc>
+   8:	6803      	ldr	r3, [r0, #0]
+   a:	7d18      	ldrb	r0, [r3, #20]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+
+Disassembly of section .text.startup._GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev:
+
+00000000 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev>:
+   0:	4a1d      	ldr	r2, [pc, #116]	; (78 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x78>)
+   2:	2000      	movs	r0, #0
+   4:	491d      	ldr	r1, [pc, #116]	; (7c <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x7c>)
+   6:	6813      	ldr	r3, [r2, #0]
+   8:	b510      	push	{r4, lr}
+   a:	4c1d      	ldr	r4, [pc, #116]	; (80 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x80>)
+   c:	e9c1 4000 	strd	r4, r0, [r1]
+  10:	1c59      	adds	r1, r3, #1
+  12:	6011      	str	r1, [r2, #0]
+  14:	b1d3      	cbz	r3, 4c <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x4c>
+  16:	4a1b      	ldr	r2, [pc, #108]	; (84 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x84>)
+  18:	491b      	ldr	r1, [pc, #108]	; (88 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x88>)
+  1a:	481c      	ldr	r0, [pc, #112]	; (8c <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x8c>)
+  1c:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  20:	4a1b      	ldr	r2, [pc, #108]	; (90 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x90>)
+  22:	6813      	ldr	r3, [r2, #0]
+  24:	1c59      	adds	r1, r3, #1
+  26:	6011      	str	r1, [r2, #0]
+  28:	b1f3      	cbz	r3, 68 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x68>
+  2a:	4a16      	ldr	r2, [pc, #88]	; (84 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x84>)
+  2c:	4919      	ldr	r1, [pc, #100]	; (94 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x94>)
+  2e:	481a      	ldr	r0, [pc, #104]	; (98 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x98>)
+  30:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  34:	4a19      	ldr	r2, [pc, #100]	; (9c <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x9c>)
+  36:	6813      	ldr	r3, [r2, #0]
+  38:	1c59      	adds	r1, r3, #1
+  3a:	6011      	str	r1, [r2, #0]
+  3c:	b16b      	cbz	r3, 5a <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x5a>
+  3e:	4a11      	ldr	r2, [pc, #68]	; (84 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x84>)
+  40:	4917      	ldr	r1, [pc, #92]	; (a0 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xa0>)
+  42:	4818      	ldr	r0, [pc, #96]	; (a4 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xa4>)
+  44:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  48:	f7ff bffe 	b.w	0 <__aeabi_atexit>
+  4c:	4c16      	ldr	r4, [pc, #88]	; (a8 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xa8>)
+  4e:	4620      	mov	r0, r4
+  50:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClassC1Ev>
+  54:	4b15      	ldr	r3, [pc, #84]	; (ac <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xac>)
+  56:	601c      	str	r4, [r3, #0]
+  58:	e7dd      	b.n	16 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x16>
+  5a:	4c15      	ldr	r4, [pc, #84]	; (b0 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xb0>)
+  5c:	4620      	mov	r0, r4
+  5e:	f7ff fffe 	bl	0 <_ZN9qindesign7network13EthernetClassC1Ev>
+  62:	4b14      	ldr	r3, [pc, #80]	; (b4 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xb4>)
+  64:	601c      	str	r4, [r3, #0]
+  66:	e7ea      	b.n	3e <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x3e>
+  68:	4c13      	ldr	r4, [pc, #76]	; (b8 <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xb8>)
+  6a:	4620      	mov	r0, r4
+  6c:	f7ff fffe 	bl	0 <_ZN9qindesign8security12RandomDeviceC1Ev>
+  70:	4b12      	ldr	r3, [pc, #72]	; (bc <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0xbc>)
+  72:	601c      	str	r4, [r3, #0]
+  74:	e7d9      	b.n	2a <_GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev+0x2a>
+  76:	bf00      	nop
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000008 	.word	0x00000008
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+  b4:	00000000 	.word	0x00000000
+  b8:	00000000 	.word	0x00000000
+  bc:	00000000 	.word	0x00000000

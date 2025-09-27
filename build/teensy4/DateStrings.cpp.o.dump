@@ -1,0 +1,164 @@
+
+build/./teensy4/DateStrings.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 DateStrings.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._Z8monthStrh	00000000 .text._Z8monthStrh
+00000000 l    d  .text._Z13monthShortStrh	00000000 .text._Z13monthShortStrh
+00000000 l    d  .text._Z6dayStrh	00000000 .text._Z6dayStrh
+00000000 l    d  .text._Z11dayShortStrh	00000000 .text._Z11dayShortStrh
+00000000 l    d  .bss._ZL6buffer	00000000 .bss._ZL6buffer
+00000000 l     O .bss._ZL6buffer	0000000a _ZL6buffer
+00000000 l    d  .progmem	00000000 .progmem
+00000000 l     O .progmem	00000034 _ZL12monthNames_P
+0000014c l     O .progmem	00000001 _ZL9monthStr0
+00000144 l     O .progmem	00000008 _ZL9monthStr1
+00000138 l     O .progmem	00000009 _ZL9monthStr2
+00000130 l     O .progmem	00000006 _ZL9monthStr3
+00000128 l     O .progmem	00000006 _ZL9monthStr4
+00000124 l     O .progmem	00000004 _ZL9monthStr5
+0000011c l     O .progmem	00000005 _ZL9monthStr6
+00000114 l     O .progmem	00000005 _ZL9monthStr7
+0000010c l     O .progmem	00000007 _ZL9monthStr8
+00000100 l     O .progmem	0000000a _ZL9monthStr9
+000000f8 l     O .progmem	00000008 _ZL10monthStr10
+000000ec l     O .progmem	00000009 _ZL10monthStr11
+000000e0 l     O .progmem	00000009 _ZL10monthStr12
+00000034 l     O .progmem	00000028 _ZL17monthShortNames_P
+0000005c l     O .progmem	00000020 _ZL10dayNames_P
+000000dc l     O .progmem	00000004 _ZL7dayStr0
+000000d4 l     O .progmem	00000007 _ZL7dayStr1
+000000cc l     O .progmem	00000007 _ZL7dayStr2
+000000c4 l     O .progmem	00000008 _ZL7dayStr3
+000000b8 l     O .progmem	0000000a _ZL7dayStr4
+000000ac l     O .progmem	00000009 _ZL7dayStr5
+000000a4 l     O .progmem	00000007 _ZL7dayStr6
+00000098 l     O .progmem	00000009 _ZL7dayStr7
+0000007c l     O .progmem	00000019 _ZL15dayShortNames_P
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z8monthStrh	0000001c _Z8monthStrh
+00000000         *UND*	00000000 strcpy
+00000000 g     F .text._Z13monthShortStrh	00000030 _Z13monthShortStrh
+00000000 g     F .text._Z6dayStrh	0000001c _Z6dayStrh
+00000000 g     F .text._Z11dayShortStrh	00000034 _Z11dayShortStrh
+
+
+Contents of section .text._Z8monthStrh:
+ 0000 0146044a 08b5044b 52f82110 1846fff7  .F.J...KR.!..F..
+ 0010 feff08bd 00000000 00000000           ............    
+Contents of section .text._Z13monthShortStrh:
+ 0000 00eb4003 0849094a 00b501eb 030e31f8  ..@..I.J......1.
+ 0010 03c00021 10469ef8 0230a2f8 00c0d170  ...!.F...0.....p
+ 0020 93705df8 04fb00bf 34000000 00000000  .p].....4.......
+Contents of section .text._Z6dayStrh:
+ 0000 08b5044b 044a03eb 80031046 d96dfff7  ...K.J.....F.m..
+ 0010 feff08bd 00000000 00000000           ............    
+Contents of section .text._Z11dayShortStrh:
+ 0000 0a4900eb 40030a4a 4ff0000c 51fa83f3  .I..@..JO...Q...
+ 0010 82f803c0 104693f8 7cc093f8 7d1093f8  .....F..|...}...
+ 0020 7e3082f8 00c05170 93707047 00000000  ~0....Qp.ppG....
+ 0030 00000000                             ....            
+Contents of section .progmem:
+ 0000 4c010000 44010000 38010000 30010000  L...D...8...0...
+ 0010 28010000 24010000 1c010000 14010000  (...$...........
+ 0020 0c010000 00010000 f8000000 ec000000  ................
+ 0030 e0000000 4572724a 616e4665 624d6172  ....ErrJanFebMar
+ 0040 4170724d 61794a75 6e4a756c 41756753  AprMayJunJulAugS
+ 0050 65704f63 744e6f76 44656300 dc000000  epOctNovDec.....
+ 0060 d4000000 cc000000 c4000000 b8000000  ................
+ 0070 ac000000 a4000000 98000000 45727253  ............ErrS
+ 0080 756e4d6f 6e547565 57656454 68754672  unMonTueWedThuFr
+ 0090 69536174 00000000 53617475 72646179  iSat....Saturday
+ 00a0 00000000 46726964 61790000 54687572  ....Friday..Thur
+ 00b0 73646179 00000000 5765646e 65736461  sday....Wednesda
+ 00c0 79000000 54756573 64617900 4d6f6e64  y...Tuesday.Mond
+ 00d0 61790000 53756e64 61790000 45727200  ay..Sunday..Err.
+ 00e0 44656365 6d626572 00000000 4e6f7665  December....Nove
+ 00f0 6d626572 00000000 4f63746f 62657200  mber....October.
+ 0100 53657074 656d6265 72000000 41756775  September...Augu
+ 0110 73740000 4a756c79 00000000 4a756e65  st..July....June
+ 0120 00000000 4d617900 41707269 6c000000  ....May.April...
+ 0130 4d617263 68000000 46656272 75617279  March...February
+ 0140 00000000 4a616e75 61727900 00        ....January..   
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z8monthStrh:
+
+00000000 <_Z8monthStrh>:
+   0:	4601      	mov	r1, r0
+   2:	4a04      	ldr	r2, [pc, #16]	; (14 <_Z8monthStrh+0x14>)
+   4:	b508      	push	{r3, lr}
+   6:	4b04      	ldr	r3, [pc, #16]	; (18 <_Z8monthStrh+0x18>)
+   8:	f852 1021 	ldr.w	r1, [r2, r1, lsl #2]
+   c:	4618      	mov	r0, r3
+   e:	f7ff fffe 	bl	0 <strcpy>
+  12:	bd08      	pop	{r3, pc}
+  14:	00000000 	.word	0x00000000
+  18:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z13monthShortStrh:
+
+00000000 <_Z13monthShortStrh>:
+   0:	eb00 0340 	add.w	r3, r0, r0, lsl #1
+   4:	4908      	ldr	r1, [pc, #32]	; (28 <_Z13monthShortStrh+0x28>)
+   6:	4a09      	ldr	r2, [pc, #36]	; (2c <_Z13monthShortStrh+0x2c>)
+   8:	b500      	push	{lr}
+   a:	eb01 0e03 	add.w	lr, r1, r3
+   e:	f831 c003 	ldrh.w	ip, [r1, r3]
+  12:	2100      	movs	r1, #0
+  14:	4610      	mov	r0, r2
+  16:	f89e 3002 	ldrb.w	r3, [lr, #2]
+  1a:	f8a2 c000 	strh.w	ip, [r2]
+  1e:	70d1      	strb	r1, [r2, #3]
+  20:	7093      	strb	r3, [r2, #2]
+  22:	f85d fb04 	ldr.w	pc, [sp], #4
+  26:	bf00      	nop
+  28:	00000034 	.word	0x00000034
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z6dayStrh:
+
+00000000 <_Z6dayStrh>:
+   0:	b508      	push	{r3, lr}
+   2:	4b04      	ldr	r3, [pc, #16]	; (14 <_Z6dayStrh+0x14>)
+   4:	4a04      	ldr	r2, [pc, #16]	; (18 <_Z6dayStrh+0x18>)
+   6:	eb03 0380 	add.w	r3, r3, r0, lsl #2
+   a:	4610      	mov	r0, r2
+   c:	6dd9      	ldr	r1, [r3, #92]	; 0x5c
+   e:	f7ff fffe 	bl	0 <strcpy>
+  12:	bd08      	pop	{r3, pc}
+  14:	00000000 	.word	0x00000000
+  18:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z11dayShortStrh:
+
+00000000 <_Z11dayShortStrh>:
+   0:	490a      	ldr	r1, [pc, #40]	; (2c <_Z11dayShortStrh+0x2c>)
+   2:	eb00 0340 	add.w	r3, r0, r0, lsl #1
+   6:	4a0a      	ldr	r2, [pc, #40]	; (30 <_Z11dayShortStrh+0x30>)
+   8:	f04f 0c00 	mov.w	ip, #0
+   c:	fa51 f383 	uxtab	r3, r1, r3
+  10:	f882 c003 	strb.w	ip, [r2, #3]
+  14:	4610      	mov	r0, r2
+  16:	f893 c07c 	ldrb.w	ip, [r3, #124]	; 0x7c
+  1a:	f893 107d 	ldrb.w	r1, [r3, #125]	; 0x7d
+  1e:	f893 307e 	ldrb.w	r3, [r3, #126]	; 0x7e
+  22:	f882 c000 	strb.w	ip, [r2]
+  26:	7051      	strb	r1, [r2, #1]
+  28:	7093      	strb	r3, [r2, #2]
+  2a:	4770      	bx	lr
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000

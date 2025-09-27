@@ -1,0 +1,136 @@
+
+build/./teensy4/rtc.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 rtc.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.rtc_get	00000000 .text.rtc_get
+00000000 l    d  .text.rtc_set	00000000 .text.rtc_set
+00000000 l    d  .text.rtc_compensate	00000000 .text.rtc_compensate
+00000000 l    d  .text._gettimeofday	00000000 .text._gettimeofday
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.rtc_get	00000024 rtc_get
+00000000 g     F .text.rtc_set	00000048 rtc_set
+00000000 g     F .text.rtc_compensate	00000002 rtc_compensate
+00000000  w    F .text._gettimeofday	0000003c _gettimeofday
+
+
+Contents of section .text.rtc_get:
+ 0000 074a506a 936a1946 8446506a 936a9942  .JPj.j.F.FPj.j.B
+ 0010 f9d18445 f7d1db0b 43ea4040 704700bf  ...E....C.@@pG..
+ 0020 00400d40                             .@.@            
+Contents of section .text.rtc_set:
+ 0000 10498b68 23f00113 8b608b68 db07fcd4  .I.h#....`.h....
+ 0010 8b6b0c4a 23f00103 8b63936b d907fcd4  .k.J#....c.k....
+ 0020 c3030849 400c5365 1065936b 43f00103  ...I@.Se.e.kC...
+ 0030 93638b6b db07fcd5 8b6843f0 01138b60  .c.k.....hC....`
+ 0040 704700bf 00400d40                    pG...@.@        
+Contents of section .text.rtc_compensate:
+ 0000 704700bf                             pG..            
+Contents of section .text._gettimeofday:
+ 0000 0d4910b5 4a6a0446 8b6a9c46 96464a6a  .I..Jj.F.j.F.FJj
+ 0010 8b6a9c45 f9d19645 f7d1c3f3 0e0143f6  .j.E...E......C.
+ 0020 095cdb0b 00200cfb 01f143ea 4243490a  .\... ....C.BCI.
+ 0030 2360c4e9 010110bd 00400d40           #`.......@.@    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.rtc_get:
+
+00000000 <rtc_get>:
+   0:	4a07      	ldr	r2, [pc, #28]	; (20 <rtc_get+0x20>)
+   2:	6a50      	ldr	r0, [r2, #36]	; 0x24
+   4:	6a93      	ldr	r3, [r2, #40]	; 0x28
+   6:	4619      	mov	r1, r3
+   8:	4684      	mov	ip, r0
+   a:	6a50      	ldr	r0, [r2, #36]	; 0x24
+   c:	6a93      	ldr	r3, [r2, #40]	; 0x28
+   e:	4299      	cmp	r1, r3
+  10:	d1f9      	bne.n	6 <rtc_get+0x6>
+  12:	4584      	cmp	ip, r0
+  14:	d1f7      	bne.n	6 <rtc_get+0x6>
+  16:	0bdb      	lsrs	r3, r3, #15
+  18:	ea43 4040 	orr.w	r0, r3, r0, lsl #17
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+  20:	400d4000 	.word	0x400d4000
+
+Disassembly of section .text.rtc_set:
+
+00000000 <rtc_set>:
+   0:	4910      	ldr	r1, [pc, #64]	; (44 <rtc_set+0x44>)
+   2:	688b      	ldr	r3, [r1, #8]
+   4:	f023 1301 	bic.w	r3, r3, #65537	; 0x10001
+   8:	608b      	str	r3, [r1, #8]
+   a:	688b      	ldr	r3, [r1, #8]
+   c:	07db      	lsls	r3, r3, #31
+   e:	d4fc      	bmi.n	a <rtc_set+0xa>
+  10:	6b8b      	ldr	r3, [r1, #56]	; 0x38
+  12:	4a0c      	ldr	r2, [pc, #48]	; (44 <rtc_set+0x44>)
+  14:	f023 0301 	bic.w	r3, r3, #1
+  18:	638b      	str	r3, [r1, #56]	; 0x38
+  1a:	6b93      	ldr	r3, [r2, #56]	; 0x38
+  1c:	07d9      	lsls	r1, r3, #31
+  1e:	d4fc      	bmi.n	1a <rtc_set+0x1a>
+  20:	03c3      	lsls	r3, r0, #15
+  22:	4908      	ldr	r1, [pc, #32]	; (44 <rtc_set+0x44>)
+  24:	0c40      	lsrs	r0, r0, #17
+  26:	6553      	str	r3, [r2, #84]	; 0x54
+  28:	6510      	str	r0, [r2, #80]	; 0x50
+  2a:	6b93      	ldr	r3, [r2, #56]	; 0x38
+  2c:	f043 0301 	orr.w	r3, r3, #1
+  30:	6393      	str	r3, [r2, #56]	; 0x38
+  32:	6b8b      	ldr	r3, [r1, #56]	; 0x38
+  34:	07db      	lsls	r3, r3, #31
+  36:	d5fc      	bpl.n	32 <rtc_set+0x32>
+  38:	688b      	ldr	r3, [r1, #8]
+  3a:	f043 1301 	orr.w	r3, r3, #65537	; 0x10001
+  3e:	608b      	str	r3, [r1, #8]
+  40:	4770      	bx	lr
+  42:	bf00      	nop
+  44:	400d4000 	.word	0x400d4000
+
+Disassembly of section .text.rtc_compensate:
+
+00000000 <rtc_compensate>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._gettimeofday:
+
+00000000 <_gettimeofday>:
+   0:	490d      	ldr	r1, [pc, #52]	; (38 <_gettimeofday+0x38>)
+   2:	b510      	push	{r4, lr}
+   4:	6a4a      	ldr	r2, [r1, #36]	; 0x24
+   6:	4604      	mov	r4, r0
+   8:	6a8b      	ldr	r3, [r1, #40]	; 0x28
+   a:	469c      	mov	ip, r3
+   c:	4696      	mov	lr, r2
+   e:	6a4a      	ldr	r2, [r1, #36]	; 0x24
+  10:	6a8b      	ldr	r3, [r1, #40]	; 0x28
+  12:	459c      	cmp	ip, r3
+  14:	d1f9      	bne.n	a <_gettimeofday+0xa>
+  16:	4596      	cmp	lr, r2
+  18:	d1f7      	bne.n	a <_gettimeofday+0xa>
+  1a:	f3c3 010e 	ubfx	r1, r3, #0, #15
+  1e:	f643 5c09 	movw	ip, #15625	; 0x3d09
+  22:	0bdb      	lsrs	r3, r3, #15
+  24:	2000      	movs	r0, #0
+  26:	fb0c f101 	mul.w	r1, ip, r1
+  2a:	ea43 4342 	orr.w	r3, r3, r2, lsl #17
+  2e:	0a49      	lsrs	r1, r1, #9
+  30:	6023      	str	r3, [r4, #0]
+  32:	e9c4 0101 	strd	r0, r1, [r4, #4]
+  36:	bd10      	pop	{r4, pc}
+  38:	400d4000 	.word	0x400d4000

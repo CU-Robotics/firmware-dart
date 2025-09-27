@@ -1,0 +1,66 @@
+
+build/./libraries/SdFat/src/common/FsName.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FsName.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN6FsName5get16Ev	00000000 .text._ZN6FsName5get16Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN6FsName5get16Ev	0000004c _ZN6FsName5get16Ev
+00000000         *UND*	00000000 _ZN5FsUtf6mbToCpEPKcS1_Pm
+
+
+Contents of section .text._ZN6FsName5get16Ev:
+ 0000 10b50446 808982b0 18b10023 a38102b0  ...F.......#....
+ 0010 10bdd4e9 01318b42 f9d201aa 1846fff7  .....1.B.....F..
+ 0020 feff80b1 019b6060 b3f5803f 01d298b2  ......``...?....
+ 0030 ede7980a c3f30903 a0f52150 a3f51053  ..........!P...S
+ 0040 80b2a381 e3e74ff6 ff70e0e7           ......O..p..    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN6FsName5get16Ev:
+
+00000000 <_ZN6FsName5get16Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	8980      	ldrh	r0, [r0, #12]
+   6:	b082      	sub	sp, #8
+   8:	b118      	cbz	r0, 12 <_ZN6FsName5get16Ev+0x12>
+   a:	2300      	movs	r3, #0
+   c:	81a3      	strh	r3, [r4, #12]
+   e:	b002      	add	sp, #8
+  10:	bd10      	pop	{r4, pc}
+  12:	e9d4 3101 	ldrd	r3, r1, [r4, #4]
+  16:	428b      	cmp	r3, r1
+  18:	d2f9      	bcs.n	e <_ZN6FsName5get16Ev+0xe>
+  1a:	aa01      	add	r2, sp, #4
+  1c:	4618      	mov	r0, r3
+  1e:	f7ff fffe 	bl	0 <_ZN5FsUtf6mbToCpEPKcS1_Pm>
+  22:	b180      	cbz	r0, 46 <_ZN6FsName5get16Ev+0x46>
+  24:	9b01      	ldr	r3, [sp, #4]
+  26:	6060      	str	r0, [r4, #4]
+  28:	f5b3 3f80 	cmp.w	r3, #65536	; 0x10000
+  2c:	d201      	bcs.n	32 <_ZN6FsName5get16Ev+0x32>
+  2e:	b298      	uxth	r0, r3
+  30:	e7ed      	b.n	e <_ZN6FsName5get16Ev+0xe>
+  32:	0a98      	lsrs	r0, r3, #10
+  34:	f3c3 0309 	ubfx	r3, r3, #0, #10
+  38:	f5a0 5021 	sub.w	r0, r0, #10304	; 0x2840
+  3c:	f5a3 5310 	sub.w	r3, r3, #9216	; 0x2400
+  40:	b280      	uxth	r0, r0
+  42:	81a3      	strh	r3, [r4, #12]
+  44:	e7e3      	b.n	e <_ZN6FsName5get16Ev+0xe>
+  46:	f64f 70ff 	movw	r0, #65535	; 0xffff
+  4a:	e7e0      	b.n	e <_ZN6FsName5get16Ev+0xe>

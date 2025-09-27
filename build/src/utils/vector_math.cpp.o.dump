@@ -1,0 +1,152 @@
+
+build/./src/utils/vector_math.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 vector_math.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._Z8rotate2DPfS_f	00000000 .text._Z8rotate2DPfS_f
+00000000 l    d  .text._Z13vectorProductPfS_i	00000000 .text._Z13vectorProductPfS_i
+00000000 l    d  .text._Z14crossProduct2DPfS_	00000000 .text._Z14crossProduct2DPfS_
+00000000 l    d  .text._Z22weightedVectorAdditionPfS_ffiS_	00000000 .text._Z22weightedVectorAdditionPfS_ffiS_
+00000000 l    d  .text._Z23nWeightedVectorAdditionPfS_S_S_iS_	00000000 .text._Z23nWeightedVectorAdditionPfS_S_S_iS_
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z8rotate2DPfS_f	0000004c _Z8rotate2DPfS_f
+00000000         *UND*	00000000 cosf
+00000000         *UND*	00000000 sinf
+00000000 g     F .text._Z13vectorProductPfS_i	00000038 _Z13vectorProductPfS_i
+00000000 g     F .text._Z14crossProduct2DPfS_	0000001a _Z14crossProduct2DPfS_
+00000000 g     F .text._Z22weightedVectorAdditionPfS_ffiS_	00000022 _Z22weightedVectorAdditionPfS_ffiS_
+00000000 g     F .text._Z23nWeightedVectorAdditionPfS_S_S_iS_	00000032 _Z23nWeightedVectorAdditionPfS_S_S_iS_
+
+
+Contents of section .text._Z8rotate2DPfS_f:
+ 0000 38b52ded 028bf0ee 408a0446 0d46fff7  8.-.....@..F.F..
+ 0010 feffb0ee 408ab0ee 680afff7 feffd4ed  ....@...h.......
+ 0020 017a94ed 007a67ee c07ae7ee 087ac5ed  .z...zg..z...z..
+ 0030 007a94ed 017ad4ed 007a28ee 078aa7ee  .z...z...z(.....
+ 0040 808a85ed 018abdec 028b38bd           ..........8.    
+Contents of section .text._Z13vectorProductPfS_i:
+ 0000 002a12dd 9fed0a0a 00eb8202 b8eec00a  .*..............
+ 0010 b0ec017a f1ec017a 8242a7ee 270abdee  ...z...z.B..'...
+ 0020 c00af3d1 b8eec00a 70479fed 020a7047  ........pG....pG
+ 0030 00000000 00000000                    ........        
+Contents of section .text._Z14crossProduct2DPfS_:
+ 0000 d0ed016a 91ed000a 90ed007a 20ee660a  ...j.......z .f.
+ 0010 d1ed017a a7ee270a 704700bf           ...z..'.pG..    
+Contents of section .text._Z22weightedVectorAdditionPfS_ffiS_:
+ 0000 002a0ddd 00eb8202 f1ec017a b0ec017a  .*.........z...z
+ 0010 67eea07a 9042e7ee 007ae3ec 017af3d1  g..z.B...z...z..
+ 0020 704700bf                             pG..            
+Contents of section .text._Z23nWeightedVectorAdditionPfS_S_S_iS_:
+ 0000 10b5029c 002c13dd 02eb840e ddf80cc0  .....,..........
+ 0010 f3ec017a b1ec016a f2ec016a 67ee867a  ...z...j...jg..z
+ 0020 b0ec017a 7245e6ee 877aecec 017aefd1  ...zrE...z...z..
+ 0030 10bd00bf                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z8rotate2DPfS_f:
+
+00000000 <_Z8rotate2DPfS_f>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	ed2d 8b02 	vpush	{d8}
+   6:	eef0 8a40 	vmov.f32	s17, s0
+   a:	4604      	mov	r4, r0
+   c:	460d      	mov	r5, r1
+   e:	f7ff fffe 	bl	0 <cosf>
+  12:	eeb0 8a40 	vmov.f32	s16, s0
+  16:	eeb0 0a68 	vmov.f32	s0, s17
+  1a:	f7ff fffe 	bl	0 <sinf>
+  1e:	edd4 7a01 	vldr	s15, [r4, #4]
+  22:	ed94 7a00 	vldr	s14, [r4]
+  26:	ee67 7ac0 	vnmul.f32	s15, s15, s0
+  2a:	eee7 7a08 	vfma.f32	s15, s14, s16
+  2e:	edc5 7a00 	vstr	s15, [r5]
+  32:	ed94 7a01 	vldr	s14, [r4, #4]
+  36:	edd4 7a00 	vldr	s15, [r4]
+  3a:	ee28 8a07 	vmul.f32	s16, s16, s14
+  3e:	eea7 8a80 	vfma.f32	s16, s15, s0
+  42:	ed85 8a01 	vstr	s16, [r5, #4]
+  46:	ecbd 8b02 	vpop	{d8}
+  4a:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text._Z13vectorProductPfS_i:
+
+00000000 <_Z13vectorProductPfS_i>:
+   0:	2a00      	cmp	r2, #0
+   2:	dd12      	ble.n	2a <_Z13vectorProductPfS_i+0x2a>
+   4:	ed9f 0a0a 	vldr	s0, [pc, #40]	; 30 <_Z13vectorProductPfS_i+0x30>
+   8:	eb00 0282 	add.w	r2, r0, r2, lsl #2
+   c:	eeb8 0ac0 	vcvt.f32.s32	s0, s0
+  10:	ecb0 7a01 	vldmia	r0!, {s14}
+  14:	ecf1 7a01 	vldmia	r1!, {s15}
+  18:	4282      	cmp	r2, r0
+  1a:	eea7 0a27 	vfma.f32	s0, s14, s15
+  1e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
+  22:	d1f3      	bne.n	c <_Z13vectorProductPfS_i+0xc>
+  24:	eeb8 0ac0 	vcvt.f32.s32	s0, s0
+  28:	4770      	bx	lr
+  2a:	ed9f 0a02 	vldr	s0, [pc, #8]	; 34 <_Z13vectorProductPfS_i+0x34>
+  2e:	4770      	bx	lr
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z14crossProduct2DPfS_:
+
+00000000 <_Z14crossProduct2DPfS_>:
+   0:	edd0 6a01 	vldr	s13, [r0, #4]
+   4:	ed91 0a00 	vldr	s0, [r1]
+   8:	ed90 7a00 	vldr	s14, [r0]
+   c:	ee20 0a66 	vnmul.f32	s0, s0, s13
+  10:	edd1 7a01 	vldr	s15, [r1, #4]
+  14:	eea7 0a27 	vfma.f32	s0, s14, s15
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+
+Disassembly of section .text._Z22weightedVectorAdditionPfS_ffiS_:
+
+00000000 <_Z22weightedVectorAdditionPfS_ffiS_>:
+   0:	2a00      	cmp	r2, #0
+   2:	dd0d      	ble.n	20 <_Z22weightedVectorAdditionPfS_ffiS_+0x20>
+   4:	eb00 0282 	add.w	r2, r0, r2, lsl #2
+   8:	ecf1 7a01 	vldmia	r1!, {s15}
+   c:	ecb0 7a01 	vldmia	r0!, {s14}
+  10:	ee67 7aa0 	vmul.f32	s15, s15, s1
+  14:	4290      	cmp	r0, r2
+  16:	eee7 7a00 	vfma.f32	s15, s14, s0
+  1a:	ece3 7a01 	vstmia	r3!, {s15}
+  1e:	d1f3      	bne.n	8 <_Z22weightedVectorAdditionPfS_ffiS_+0x8>
+  20:	4770      	bx	lr
+  22:	bf00      	nop
+
+Disassembly of section .text._Z23nWeightedVectorAdditionPfS_S_S_iS_:
+
+00000000 <_Z23nWeightedVectorAdditionPfS_S_S_iS_>:
+   0:	b510      	push	{r4, lr}
+   2:	9c02      	ldr	r4, [sp, #8]
+   4:	2c00      	cmp	r4, #0
+   6:	dd13      	ble.n	30 <_Z23nWeightedVectorAdditionPfS_S_S_iS_+0x30>
+   8:	eb02 0e84 	add.w	lr, r2, r4, lsl #2
+   c:	f8dd c00c 	ldr.w	ip, [sp, #12]
+  10:	ecf3 7a01 	vldmia	r3!, {s15}
+  14:	ecb1 6a01 	vldmia	r1!, {s12}
+  18:	ecf2 6a01 	vldmia	r2!, {s13}
+  1c:	ee67 7a86 	vmul.f32	s15, s15, s12
+  20:	ecb0 7a01 	vldmia	r0!, {s14}
+  24:	4572      	cmp	r2, lr
+  26:	eee6 7a87 	vfma.f32	s15, s13, s14
+  2a:	ecec 7a01 	vstmia	ip!, {s15}
+  2e:	d1ef      	bne.n	10 <_Z23nWeightedVectorAdditionPfS_S_S_iS_+0x10>
+  30:	bd10      	pop	{r4, pc}
+  32:	bf00      	nop

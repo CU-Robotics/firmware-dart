@@ -1,0 +1,437 @@
+
+build/./src/comms/usb_hid.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 usb_hid.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN11CommsPacket6get_idEv	00000000 .text._ZN11CommsPacket6get_idEv
+00000000 l    d  .text._ZN11CommsPacket8get_infoEv	00000000 .text._ZN11CommsPacket8get_infoEv
+00000000 l    d  .text._ZN11CommsPacket6set_idEt	00000000 .text._ZN11CommsPacket6set_idEt
+00000000 l    d  .text._ZN11CommsPacket8set_infoEh	00000000 .text._ZN11CommsPacket8set_infoEh
+00000000 l    d  .text._ZN11CommsPacket16get_target_stateEPA3_f	00000000 .text._ZN11CommsPacket16get_target_stateEPA3_f
+00000000 l    d  .text._ZN11CommsPacket25get_hive_override_requestEv	00000000 .text._ZN11CommsPacket25get_hive_override_requestEv
+00000000 l    d  .text._ZN11CommsPacket23get_hive_override_stateEPA3_f	00000000 .text._ZN11CommsPacket23get_hive_override_stateEPA3_f
+00000000 l    d  .text._ZN11CommsPacket17get_ref_draw_dataEPPc	00000000 .text._ZN11CommsPacket17get_ref_draw_dataEPPc
+00000000 l    d  .text._ZN11CommsPacket8set_timeEd	00000000 .text._ZN11CommsPacket8set_timeEd
+00000000 l    d  .text._ZN11CommsPacket19set_estimated_stateEPA3_f	00000000 .text._ZN11CommsPacket19set_estimated_stateEPA3_f
+00000000 l    d  .text._ZN11CommsPacket15set_sensor_dataEP10SensorData	00000000 .text._ZN11CommsPacket15set_sensor_dataEP10SensorData
+00000000 l    d  .text._ZN11CommsPacket12set_ref_dataEPh	00000000 .text._ZN11CommsPacket12set_ref_dataEPh
+00000000 l    d  .text._ZN8HIDLayerC2Ev	00000000 .text._ZN8HIDLayerC2Ev
+00000000 l    d  .rodata._ZN8HIDLayer4initEv.str1.4	00000000 .rodata._ZN8HIDLayer4initEv.str1.4
+00000000 l    d  .text._ZN8HIDLayer4initEv	00000000 .text._ZN8HIDLayer4initEv
+00000000 l    d  .rodata._ZN8HIDLayer14print_outgoingEv.str1.4	00000000 .rodata._ZN8HIDLayer14print_outgoingEv.str1.4
+00000000 l    d  .text._ZN8HIDLayer14print_outgoingEv	00000000 .text._ZN8HIDLayer14print_outgoingEv
+00000000 l    d  .rodata._ZN8HIDLayer14print_incomingEv.str1.4	00000000 .rodata._ZN8HIDLayer14print_incomingEv.str1.4
+00000000 l    d  .text._ZN8HIDLayer14print_incomingEv	00000000 .text._ZN8HIDLayer14print_incomingEv
+00000000 l    d  .text._ZN8HIDLayer4readEv	00000000 .text._ZN8HIDLayer4readEv
+00000000 l    d  .rodata._ZN8HIDLayer5writeEv.str1.4	00000000 .rodata._ZN8HIDLayer5writeEv.str1.4
+00000000 l    d  .text._ZN8HIDLayer5writeEv	00000000 .text._ZN8HIDLayer5writeEv
+00000000 l    d  .rodata._ZN8HIDLayer4pingEv.str1.4	00000000 .rodata._ZN8HIDLayer4pingEv.str1.4
+00000000 l    d  .text._ZN8HIDLayer4pingEv	00000000 .text._ZN8HIDLayer4pingEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN11CommsPacket6get_idEv	00000004 _ZN11CommsPacket6get_idEv
+00000000 g     F .text._ZN11CommsPacket8get_infoEv	00000004 _ZN11CommsPacket8get_infoEv
+00000000 g     F .text._ZN11CommsPacket6set_idEt	00000006 _ZN11CommsPacket6set_idEt
+00000000 g     F .text._ZN11CommsPacket8set_infoEh	00000004 _ZN11CommsPacket8set_infoEh
+00000000 g     F .text._ZN11CommsPacket16get_target_stateEPA3_f	0000000e _ZN11CommsPacket16get_target_stateEPA3_f
+00000000         *UND*	00000000 memcpy
+00000000 g     F .text._ZN11CommsPacket25get_hive_override_requestEv	00000006 _ZN11CommsPacket25get_hive_override_requestEv
+00000000 g     F .text._ZN11CommsPacket23get_hive_override_stateEPA3_f	00000010 _ZN11CommsPacket23get_hive_override_stateEPA3_f
+00000000 g     F .text._ZN11CommsPacket17get_ref_draw_dataEPPc	00000002 _ZN11CommsPacket17get_ref_draw_dataEPPc
+00000000 g     F .text._ZN11CommsPacket8set_timeEd	00000014 _ZN11CommsPacket8set_timeEd
+00000000 g     F .text._ZN11CommsPacket19set_estimated_stateEPA3_f	0000000a _ZN11CommsPacket19set_estimated_stateEPA3_f
+00000000 g     F .text._ZN11CommsPacket15set_sensor_dataEP10SensorData	0000000c _ZN11CommsPacket15set_sensor_dataEP10SensorData
+00000000 g     F .text._ZN11CommsPacket12set_ref_dataEPh	0000000a _ZN11CommsPacket12set_ref_dataEPh
+00000000 g     F .text._ZN8HIDLayerC2Ev	00000044 _ZN8HIDLayerC2Ev
+00000000         *UND*	00000000 memset
+00000000 g     F .text._ZN8HIDLayerC2Ev	00000044 _ZN8HIDLayerC1Ev
+00000000 g     F .text._ZN8HIDLayer4initEv	0000001c _ZN8HIDLayer4initEv
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN8HIDLayer14print_outgoingEv	00000044 _ZN8HIDLayer14print_outgoingEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000 g     F .text._ZN8HIDLayer14print_incomingEv	00000044 _ZN8HIDLayer14print_incomingEv
+00000000 g     F .text._ZN8HIDLayer4readEv	00000030 _ZN8HIDLayer4readEv
+00000000         *UND*	00000000 usb_rawhid_recv
+00000000 g     F .text._ZN8HIDLayer5writeEv	00000068 _ZN8HIDLayer5writeEv
+00000000         *UND*	00000000 usb_rawhid_send
+00000000 g     F .text._ZN8HIDLayer4pingEv	0000005c _ZN8HIDLayer4pingEv
+00000000         *UND*	00000000 usb_rawhid_available
+
+
+Contents of section .text._ZN11CommsPacket6get_idEv:
+ 0000 40787047                             @xpG            
+Contents of section .text._ZN11CommsPacket8get_infoEv:
+ 0000 c0787047                             .xpG            
+Contents of section .text._ZN11CommsPacket6set_idEt:
+ 0000 a0f80110 704700bf                    ....pG..        
+Contents of section .text._ZN11CommsPacket8set_infoEh:
+ 0000 c1707047                             .ppG            
+Contents of section .text._ZN11CommsPacket16get_target_stateEPA3_f:
+ 0000 0b464ff4 9072011d 1846fff7 febf00bf  .FO..r...F......
+Contents of section .text._ZN11CommsPacket25get_hive_override_requestEv:
+ 0000 90f8a401 704700bf                    ....pG..        
+Contents of section .text._ZN11CommsPacket23get_hive_override_stateEPA3_f:
+ 0000 0b464ff4 907200f2 a5111846 fff7febf  .FO..r.....F....
+Contents of section .text._ZN11CommsPacket17get_ref_draw_dataEPPc:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN11CommsPacket8set_timeEd:
+ 0000 82b00346 6a468ded 000b03ca 58609960  ...FjF......X`.`
+ 0010 02b07047                             ..pG            
+Contents of section .text._ZN11CommsPacket19set_estimated_stateEPA3_f:
+ 0000 4ff49072 0c30fff7 febf00bf           O..r.0......    
+Contents of section .text._ZN11CommsPacket15set_sensor_dataEP10SensorData:
+ 0000 4ff4c872 00f59670 fff7febf           O..r...p....    
+Contents of section .text._ZN11CommsPacket12set_ref_dataEPh:
+ 0000 b42200f5 2f70fff7 febf00bf           ."../p......    
+Contents of section .text._ZN8HIDLayerC2Ev:
+ 0000 10b540f2 ff320021 0446fff7 feff40f2  ..@..2.!.F....@.
+ 0010 ff320021 a018fff7 feff4ff4 c8720021  .2.!......O..r.!
+ 0020 04f2fe70 fff7feff 00220023 04f51a61  ...p.....".#...a
+ 0030 04f5196c 2046cce9 002341e9 0223c1e9  ...l F...#A..#..
+ 0040 002310bd                             .#..            
+Contents of section .rodata._ZN8HIDLayer4initEv.str1.4:
+ 0000 53746172 74696e67 20484944 206c6179  Starting HID lay
+ 0010 657200                               er.             
+Contents of section .text._ZN8HIDLayer4initEv:
+ 0000 08b51221 0348fff7 feff0348 bde80840  ...!.H.....H...@
+ 0010 fff7febf 00000000 00000000           ............    
+Contents of section .rodata._ZN8HIDLayer14print_outgoingEv.str1.4:
+ 0000 4f757467 6f696e67 20706163 6b65743a  Outgoing packet:
+ 0010 00000000 252e3278 2000               ....%.2x .      
+Contents of section .text._ZN8HIDLayer14print_outgoingEv:
+ 0000 f8b50d4e 05461021 0c48fff7 feff3046  ...N.F.!.H....0F
+ 0010 05f2fe34 0a4f05f2 fd75fff7 feff14f8  ...4.O...u......
+ 0020 012f3946 3046fff7 feffa542 f7d10248  ./9F0F.....B...H
+ 0030 bde8f840 fff7febf 00000000 00000000  ...@............
+ 0040 14000000                             ....            
+Contents of section .rodata._ZN8HIDLayer14print_incomingEv.str1.4:
+ 0000 496e636f 6d696e67 20706163 6b65743a  Incoming packet:
+ 0010 00                                   .               
+Contents of section .text._ZN8HIDLayer14print_incomingEv:
+ 0000 f8b50d4e 05461021 0c48fff7 feff3046  ...N.F.!.H....0F
+ 0010 6c1e0b4f 05f2fe35 fff7feff 14f8012f  l..O...5......./
+ 0020 39463046 fff7feff a542f7d1 0248bde8  9F0F.....B...H..
+ 0030 f840fff7 febf00bf 00000000 00000000  .@..............
+ 0040 14000000                             ....            
+Contents of section .text._ZN8HIDLayer4readEv:
+ 0000 10b50021 0446fff7 feff40f2 ff339842  ...!.F....@..3.B
+ 0010 01d00020 10bdd4f8 90390120 d4f89429  ... .....9. ...)
+ 0020 1b1842f1 0002c4f8 9039c4f8 942910bd  ..B......9...)..
+Contents of section .rodata._ZN8HIDLayer5writeEv.str1.4:
+ 0000 436f6d6d 733a2066 61696c65 64207772  Comms: failed wr
+ 0010 69746500                             ite.            
+Contents of section .text._ZN8HIDLayer5writeEv:
+ 0000 ff230021 10b50446 00f2ff30 84f8ff33  .#.!...F...0...3
+ 0010 fff7feff 40f2ff33 98420cd1 d4f89839  ....@..3.B.....9
+ 0020 0120d4f8 9c291b18 42f10002 c4f89839  . ...)..B......9
+ 0030 c4f89c29 10bd1321 0948fff7 feff0948  ...)...!.H.....H
+ 0040 fff7feff d4f8a039 d4f8a429 00200133  .......9...). .3
+ 0050 42f10002 c4f8a039 c4f8a429 10bd00bf  B......9...)....
+ 0060 00000000 00000000                    ........        
+Contents of section .rodata._ZN8HIDLayer4pingEv.str1.4:
+ 0000 4661696c 65642074 6f207365 6e642070  Failed to send p
+ 0010 696e6720 256c6c75 0a00               ing %llu..      
+Contents of section .text._ZN8HIDLayer4pingEv:
+ 0000 70b540f2 ff35134e 0446fff7 feff0346  p.@..5.N.F.....F
+ 0010 00212046 ebb1fff7 feffa842 f5d1d4f8  .! F.......B....
+ 0020 903904f5 1962d4f8 94192046 013341f1  .9...b.... F.3A.
+ 0030 0001c4f8 90395160 fff7feff 0028e4d1  .....9Q`.....(..
+ 0040 04f51a63 31460448 53e90223 fff7feff  ...c1F.HS..#....
+ 0050 dbe770bd 00000000 00000000           ..p.........    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN11CommsPacket6get_idEv:
+
+00000000 <_ZN11CommsPacket6get_idEv>:
+   0:	7840      	ldrb	r0, [r0, #1]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN11CommsPacket8get_infoEv:
+
+00000000 <_ZN11CommsPacket8get_infoEv>:
+   0:	78c0      	ldrb	r0, [r0, #3]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN11CommsPacket6set_idEt:
+
+00000000 <_ZN11CommsPacket6set_idEt>:
+   0:	f8a0 1001 	strh.w	r1, [r0, #1]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN11CommsPacket8set_infoEh:
+
+00000000 <_ZN11CommsPacket8set_infoEh>:
+   0:	70c1      	strb	r1, [r0, #3]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN11CommsPacket16get_target_stateEPA3_f:
+
+00000000 <_ZN11CommsPacket16get_target_stateEPA3_f>:
+   0:	460b      	mov	r3, r1
+   2:	f44f 7290 	mov.w	r2, #288	; 0x120
+   6:	1d01      	adds	r1, r0, #4
+   8:	4618      	mov	r0, r3
+   a:	f7ff bffe 	b.w	0 <memcpy>
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN11CommsPacket25get_hive_override_requestEv:
+
+00000000 <_ZN11CommsPacket25get_hive_override_requestEv>:
+   0:	f890 01a4 	ldrb.w	r0, [r0, #420]	; 0x1a4
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN11CommsPacket23get_hive_override_stateEPA3_f:
+
+00000000 <_ZN11CommsPacket23get_hive_override_stateEPA3_f>:
+   0:	460b      	mov	r3, r1
+   2:	f44f 7290 	mov.w	r2, #288	; 0x120
+   6:	f200 11a5 	addw	r1, r0, #421	; 0x1a5
+   a:	4618      	mov	r0, r3
+   c:	f7ff bffe 	b.w	0 <memcpy>
+
+Disassembly of section .text._ZN11CommsPacket17get_ref_draw_dataEPPc:
+
+00000000 <_ZN11CommsPacket17get_ref_draw_dataEPPc>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN11CommsPacket8set_timeEd:
+
+00000000 <_ZN11CommsPacket8set_timeEd>:
+   0:	b082      	sub	sp, #8
+   2:	4603      	mov	r3, r0
+   4:	466a      	mov	r2, sp
+   6:	ed8d 0b00 	vstr	d0, [sp]
+   a:	ca03      	ldmia	r2!, {r0, r1}
+   c:	6058      	str	r0, [r3, #4]
+   e:	6099      	str	r1, [r3, #8]
+  10:	b002      	add	sp, #8
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN11CommsPacket19set_estimated_stateEPA3_f:
+
+00000000 <_ZN11CommsPacket19set_estimated_stateEPA3_f>:
+   0:	f44f 7290 	mov.w	r2, #288	; 0x120
+   4:	300c      	adds	r0, #12
+   6:	f7ff bffe 	b.w	0 <memcpy>
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN11CommsPacket15set_sensor_dataEP10SensorData:
+
+00000000 <_ZN11CommsPacket15set_sensor_dataEP10SensorData>:
+   0:	f44f 72c8 	mov.w	r2, #400	; 0x190
+   4:	f500 7096 	add.w	r0, r0, #300	; 0x12c
+   8:	f7ff bffe 	b.w	0 <memcpy>
+
+Disassembly of section .text._ZN11CommsPacket12set_ref_dataEPh:
+
+00000000 <_ZN11CommsPacket12set_ref_dataEPh>:
+   0:	22b4      	movs	r2, #180	; 0xb4
+   2:	f500 702f 	add.w	r0, r0, #700	; 0x2bc
+   6:	f7ff bffe 	b.w	0 <memcpy>
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN8HIDLayerC2Ev:
+
+00000000 <_ZN8HIDLayerC1Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	f240 32ff 	movw	r2, #1023	; 0x3ff
+   6:	2100      	movs	r1, #0
+   8:	4604      	mov	r4, r0
+   a:	f7ff fffe 	bl	0 <memset>
+   e:	f240 32ff 	movw	r2, #1023	; 0x3ff
+  12:	2100      	movs	r1, #0
+  14:	18a0      	adds	r0, r4, r2
+  16:	f7ff fffe 	bl	0 <memset>
+  1a:	f44f 72c8 	mov.w	r2, #400	; 0x190
+  1e:	2100      	movs	r1, #0
+  20:	f204 70fe 	addw	r0, r4, #2046	; 0x7fe
+  24:	f7ff fffe 	bl	0 <memset>
+  28:	2200      	movs	r2, #0
+  2a:	2300      	movs	r3, #0
+  2c:	f504 611a 	add.w	r1, r4, #2464	; 0x9a0
+  30:	f504 6c19 	add.w	ip, r4, #2448	; 0x990
+  34:	4620      	mov	r0, r4
+  36:	e9cc 2300 	strd	r2, r3, [ip]
+  3a:	e941 2302 	strd	r2, r3, [r1, #-8]
+  3e:	e9c1 2300 	strd	r2, r3, [r1]
+  42:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN8HIDLayer4initEv:
+
+00000000 <_ZN8HIDLayer4initEv>:
+   0:	b508      	push	{r3, lr}
+   2:	2112      	movs	r1, #18
+   4:	4803      	ldr	r0, [pc, #12]	; (14 <_ZN8HIDLayer4initEv+0x14>)
+   6:	f7ff fffe 	bl	0 <usb_serial_write>
+   a:	4803      	ldr	r0, [pc, #12]	; (18 <_ZN8HIDLayer4initEv+0x18>)
+   c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  10:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  14:	00000000 	.word	0x00000000
+  18:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8HIDLayer14print_outgoingEv:
+
+00000000 <_ZN8HIDLayer14print_outgoingEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4e0d      	ldr	r6, [pc, #52]	; (38 <_ZN8HIDLayer14print_outgoingEv+0x38>)
+   4:	4605      	mov	r5, r0
+   6:	2110      	movs	r1, #16
+   8:	480c      	ldr	r0, [pc, #48]	; (3c <_ZN8HIDLayer14print_outgoingEv+0x3c>)
+   a:	f7ff fffe 	bl	0 <usb_serial_write>
+   e:	4630      	mov	r0, r6
+  10:	f205 34fe 	addw	r4, r5, #1022	; 0x3fe
+  14:	4f0a      	ldr	r7, [pc, #40]	; (40 <_ZN8HIDLayer14print_outgoingEv+0x40>)
+  16:	f205 75fd 	addw	r5, r5, #2045	; 0x7fd
+  1a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  1e:	f814 2f01 	ldrb.w	r2, [r4, #1]!
+  22:	4639      	mov	r1, r7
+  24:	4630      	mov	r0, r6
+  26:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  2a:	42a5      	cmp	r5, r4
+  2c:	d1f7      	bne.n	1e <_ZN8HIDLayer14print_outgoingEv+0x1e>
+  2e:	4802      	ldr	r0, [pc, #8]	; (38 <_ZN8HIDLayer14print_outgoingEv+0x38>)
+  30:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  34:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+  40:	00000014 	.word	0x00000014
+
+Disassembly of section .text._ZN8HIDLayer14print_incomingEv:
+
+00000000 <_ZN8HIDLayer14print_incomingEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4e0d      	ldr	r6, [pc, #52]	; (38 <_ZN8HIDLayer14print_incomingEv+0x38>)
+   4:	4605      	mov	r5, r0
+   6:	2110      	movs	r1, #16
+   8:	480c      	ldr	r0, [pc, #48]	; (3c <_ZN8HIDLayer14print_incomingEv+0x3c>)
+   a:	f7ff fffe 	bl	0 <usb_serial_write>
+   e:	4630      	mov	r0, r6
+  10:	1e6c      	subs	r4, r5, #1
+  12:	4f0b      	ldr	r7, [pc, #44]	; (40 <_ZN8HIDLayer14print_incomingEv+0x40>)
+  14:	f205 35fe 	addw	r5, r5, #1022	; 0x3fe
+  18:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  1c:	f814 2f01 	ldrb.w	r2, [r4, #1]!
+  20:	4639      	mov	r1, r7
+  22:	4630      	mov	r0, r6
+  24:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  28:	42a5      	cmp	r5, r4
+  2a:	d1f7      	bne.n	1c <_ZN8HIDLayer14print_incomingEv+0x1c>
+  2c:	4802      	ldr	r0, [pc, #8]	; (38 <_ZN8HIDLayer14print_incomingEv+0x38>)
+  2e:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  32:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+  40:	00000014 	.word	0x00000014
+
+Disassembly of section .text._ZN8HIDLayer4readEv:
+
+00000000 <_ZN8HIDLayer4readEv>:
+   0:	b510      	push	{r4, lr}
+   2:	2100      	movs	r1, #0
+   4:	4604      	mov	r4, r0
+   6:	f7ff fffe 	bl	0 <usb_rawhid_recv>
+   a:	f240 33ff 	movw	r3, #1023	; 0x3ff
+   e:	4298      	cmp	r0, r3
+  10:	d001      	beq.n	16 <_ZN8HIDLayer4readEv+0x16>
+  12:	2000      	movs	r0, #0
+  14:	bd10      	pop	{r4, pc}
+  16:	f8d4 3990 	ldr.w	r3, [r4, #2448]	; 0x990
+  1a:	2001      	movs	r0, #1
+  1c:	f8d4 2994 	ldr.w	r2, [r4, #2452]	; 0x994
+  20:	181b      	adds	r3, r3, r0
+  22:	f142 0200 	adc.w	r2, r2, #0
+  26:	f8c4 3990 	str.w	r3, [r4, #2448]	; 0x990
+  2a:	f8c4 2994 	str.w	r2, [r4, #2452]	; 0x994
+  2e:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN8HIDLayer5writeEv:
+
+00000000 <_ZN8HIDLayer5writeEv>:
+   0:	23ff      	movs	r3, #255	; 0xff
+   2:	2100      	movs	r1, #0
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
+   8:	f200 30ff 	addw	r0, r0, #1023	; 0x3ff
+   c:	f884 33ff 	strb.w	r3, [r4, #1023]	; 0x3ff
+  10:	f7ff fffe 	bl	0 <usb_rawhid_send>
+  14:	f240 33ff 	movw	r3, #1023	; 0x3ff
+  18:	4298      	cmp	r0, r3
+  1a:	d10c      	bne.n	36 <_ZN8HIDLayer5writeEv+0x36>
+  1c:	f8d4 3998 	ldr.w	r3, [r4, #2456]	; 0x998
+  20:	2001      	movs	r0, #1
+  22:	f8d4 299c 	ldr.w	r2, [r4, #2460]	; 0x99c
+  26:	181b      	adds	r3, r3, r0
+  28:	f142 0200 	adc.w	r2, r2, #0
+  2c:	f8c4 3998 	str.w	r3, [r4, #2456]	; 0x998
+  30:	f8c4 299c 	str.w	r2, [r4, #2460]	; 0x99c
+  34:	bd10      	pop	{r4, pc}
+  36:	2113      	movs	r1, #19
+  38:	4809      	ldr	r0, [pc, #36]	; (60 <_ZN8HIDLayer5writeEv+0x60>)
+  3a:	f7ff fffe 	bl	0 <usb_serial_write>
+  3e:	4809      	ldr	r0, [pc, #36]	; (64 <_ZN8HIDLayer5writeEv+0x64>)
+  40:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  44:	f8d4 39a0 	ldr.w	r3, [r4, #2464]	; 0x9a0
+  48:	f8d4 29a4 	ldr.w	r2, [r4, #2468]	; 0x9a4
+  4c:	2000      	movs	r0, #0
+  4e:	3301      	adds	r3, #1
+  50:	f142 0200 	adc.w	r2, r2, #0
+  54:	f8c4 39a0 	str.w	r3, [r4, #2464]	; 0x9a0
+  58:	f8c4 29a4 	str.w	r2, [r4, #2468]	; 0x9a4
+  5c:	bd10      	pop	{r4, pc}
+  5e:	bf00      	nop
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8HIDLayer4pingEv:
+
+00000000 <_ZN8HIDLayer4pingEv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	f240 35ff 	movw	r5, #1023	; 0x3ff
+   6:	4e13      	ldr	r6, [pc, #76]	; (54 <_ZN8HIDLayer4pingEv+0x54>)
+   8:	4604      	mov	r4, r0
+   a:	f7ff fffe 	bl	0 <usb_rawhid_available>
+   e:	4603      	mov	r3, r0
+  10:	2100      	movs	r1, #0
+  12:	4620      	mov	r0, r4
+  14:	b1eb      	cbz	r3, 52 <_ZN8HIDLayer4pingEv+0x52>
+  16:	f7ff fffe 	bl	0 <usb_rawhid_recv>
+  1a:	42a8      	cmp	r0, r5
+  1c:	d1f5      	bne.n	a <_ZN8HIDLayer4pingEv+0xa>
+  1e:	f8d4 3990 	ldr.w	r3, [r4, #2448]	; 0x990
+  22:	f504 6219 	add.w	r2, r4, #2448	; 0x990
+  26:	f8d4 1994 	ldr.w	r1, [r4, #2452]	; 0x994
+  2a:	4620      	mov	r0, r4
+  2c:	3301      	adds	r3, #1
+  2e:	f141 0100 	adc.w	r1, r1, #0
+  32:	f8c4 3990 	str.w	r3, [r4, #2448]	; 0x990
+  36:	6051      	str	r1, [r2, #4]
+  38:	f7ff fffe 	bl	0 <_ZN8HIDLayer4pingEv>
+  3c:	2800      	cmp	r0, #0
+  3e:	d1e4      	bne.n	a <_ZN8HIDLayer4pingEv+0xa>
+  40:	f504 631a 	add.w	r3, r4, #2464	; 0x9a0
+  44:	4631      	mov	r1, r6
+  46:	4804      	ldr	r0, [pc, #16]	; (58 <_ZN8HIDLayer4pingEv+0x58>)
+  48:	e953 2302 	ldrd	r2, r3, [r3, #-8]
+  4c:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  50:	e7db      	b.n	a <_ZN8HIDLayer4pingEv+0xa>
+  52:	bd70      	pop	{r4, r5, r6, pc}
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000

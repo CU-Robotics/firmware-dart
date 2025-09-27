@@ -1,0 +1,50 @@
+
+build/./libraries/QNEthernet/src/lwip/api/err.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 err.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.err_to_errno	00000000 .text.err_to_errno
+00000000 l    d  .rodata.err_to_errno_table	00000000 .rodata.err_to_errno_table
+00000000 l     O .rodata.err_to_errno_table	00000044 err_to_errno_table
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.err_to_errno	0000001c err_to_errno
+
+
+Contents of section .text.err_to_errno:
+ 0000 00f11003 dbb2102b 04d8034b 404253f8  .......+...K@BS.
+ 0010 20007047 05207047 00000000            .pG. pG....    
+Contents of section .rodata.err_to_errno_table:
+ 0000 00000000 0c000000 69000000 0b000000  ........i.......
+ 0010 76000000 77000000 16000000 0b000000  v...w...........
+ 0020 70000000 78000000 7f000000 80000000  p...x...........
+ 0030 ffffffff 71000000 68000000 80000000  ....q...h.......
+ 0040 05000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.err_to_errno:
+
+00000000 <err_to_errno>:
+   0:	f100 0310 	add.w	r3, r0, #16
+   4:	b2db      	uxtb	r3, r3
+   6:	2b10      	cmp	r3, #16
+   8:	d804      	bhi.n	14 <err_to_errno+0x14>
+   a:	4b03      	ldr	r3, [pc, #12]	; (18 <err_to_errno+0x18>)
+   c:	4240      	negs	r0, r0
+   e:	f853 0020 	ldr.w	r0, [r3, r0, lsl #2]
+  12:	4770      	bx	lr
+  14:	2005      	movs	r0, #5
+  16:	4770      	bx	lr
+  18:	00000000 	.word	0x00000000

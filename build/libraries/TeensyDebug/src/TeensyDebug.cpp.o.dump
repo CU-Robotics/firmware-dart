@@ -1,0 +1,2574 @@
+
+build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 TeensyDebug.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN5Debug17availableForWriteEv	00000000 .text._ZN5Debug17availableForWriteEv
+00000000 l    d  .text._ZN5Debug5flushEv	00000000 .text._ZN5Debug5flushEv
+00000000 l    d  .text._ZN5Debug5writeEPKhj	00000000 .text._ZN5Debug5writeEPKhj
+00000000 l    d  .text._ZN5Print7printlnEmi.isra.0	00000000 .text._ZN5Print7printlnEmi.isra.0
+00000000 l     F .text._ZN5Print7printlnEmi.isra.0	00000016 _ZN5Print7printlnEmi.isra.0
+00000000 l    d  .text._ZN5Print5writeEPKc.isra.0	00000000 .text._ZN5Print5writeEPKc.isra.0
+00000000 l     F .text._ZN5Print5writeEPKc.isra.0	00000020 _ZN5Print5writeEPKc.isra.0
+00000000 l    d  .text._ZN5Debug5writeEh	00000000 .text._ZN5Debug5writeEh
+00000000 l    d  .text._ZN5Print7printlnEPKc.isra.0	00000000 .text._ZN5Print7printlnEPKc.isra.0
+00000000 l     F .text._ZN5Print7printlnEPKc.isra.0	00000024 _ZN5Print7printlnEPKc.isra.0
+00000000 l    d  .text._Z23swdebug_clearBreakpointPv	00000000 .text._Z23swdebug_clearBreakpointPv
+00000000 l    d  .text._Z21swdebug_setBreakpointPv	00000000 .text._Z21swdebug_setBreakpointPv
+00000000 l    d  .text._Z20swdebug_isBreakpointPv	00000000 .text._Z20swdebug_isBreakpointPv
+00000000 l    d  .text._Z17debug_isHardcodedPv	00000000 .text._Z17debug_isHardcodedPv
+00000000 l    d  .text._Z23hcdebug_clearBreakpointi	00000000 .text._Z23hcdebug_clearBreakpointi
+00000000 l    d  .text._Z21hcdebug_setBreakpointi	00000000 .text._Z21hcdebug_setBreakpointi
+00000000 l    d  .text._Z17hcdebug_isEnabledi	00000000 .text._Z17hcdebug_isEnabledi
+00000000 l    d  .text._Z20hcdebug_isBreakpointi	00000000 .text._Z20hcdebug_isBreakpointi
+00000000 l    d  .text._Z22hcdebug_tripBreakpointi	00000000 .text._Z22hcdebug_tripBreakpointi
+00000000 l    d  .text._Z21debug_initBreakpointsv	00000000 .text._Z21debug_initBreakpointsv
+00000000 l    d  .text._Z21debug_clearBreakpointPv	00000000 .text._Z21debug_clearBreakpointPv
+00000000 l    d  .text._Z19debug_setBreakpointPv	00000000 .text._Z19debug_setBreakpointPv
+00000000 l    d  .text._Z18debug_isBreakpointPv	00000000 .text._Z18debug_isBreakpointPv
+00000000 l    d  .text._Z15print_registersv	00000000 .text._Z15print_registersv
+00000000 l    d  .text._Z16instructionWidthPv	00000000 .text._Z16instructionWidthPv
+00000000 l    d  .text._Z14getRegisterNumi	00000000 .text._Z14getRegisterNumi
+00000000 l    d  .text._Z9countBitsi	00000000 .text._Z9countBitsi
+00000000 l    d  .text._Z17instructionReturnPv	00000000 .text._Z17instructionReturnPv
+00000000 l    d  .text._Z17instructionBranchPvPi	00000000 .text._Z17instructionBranchPvPi
+00000000 l    d  .text._Z12debug_actionv	00000000 .text._Z12debug_actionv
+00000000 l    d  .text._Z17setBreakPointNextmm	00000000 .text._Z17setBreakPointNextmm
+00000000 l    d  .text._Z13debug_monitorv	00000000 .text._Z13debug_monitorv
+00000000 l    d  .text._Z14debug_call_isrv	00000000 .text._Z14debug_call_isrv
+00000000 l    d  .text._Z20debug_call_isr_setupv	00000000 .text._Z20debug_call_isr_setupv
+00000000 l    d  .text._Z12call_nmi_isrv	00000000 .text._Z12call_nmi_isrv
+00000000 l    d  .text._Z19call_hard_fault_isrv	00000000 .text._Z19call_hard_fault_isrv
+00000000 l    d  .text._Z24call_memmanage_fault_isrv	00000000 .text._Z24call_memmanage_fault_isrv
+00000000 l    d  .text._Z18call_bus_fault_isrv	00000000 .text._Z18call_bus_fault_isrv
+00000000 l    d  .text._Z20call_usage_fault_isrv	00000000 .text._Z20call_usage_fault_isrv
+00000000 l    d  .text._Z10testOurSVCv	00000000 .text._Z10testOurSVCv
+00000000 l    d  .text._Z10svcall_isrv	00000000 .text._Z10svcall_isrv
+00000000 l    d  .text._Z14svc_call_tablev	00000000 .text._Z14svc_call_tablev
+00000000 l    d  .text._Z17debug_getRegisterPKc	00000000 .text._Z17debug_getRegisterPKc
+00000000 l    d  .text._Z17debug_setRegisterPKcm	00000000 .text._Z17debug_setRegisterPKcm
+00000000 l    d  .text._Z20debug_restoreRunModev	00000000 .text._Z20debug_restoreRunModev
+00000000 l    d  .text._Z11flash_blinki	00000000 .text._Z11flash_blinki
+00000000 l    d  .text._Z16hard_fault_debugi	00000000 .text._Z16hard_fault_debugi
+00000000 l    d  .text.fault_halt	00000000 .text.fault_halt
+00000000 l    d  .text._Z7dumpmemPvi	00000000 .text._Z7dumpmemPvi
+00000000 l    d  .text._Z10debug_initv	00000000 .text._Z10debug_initv
+00000000 l    d  .text._Z11debug_beginP6Stream	00000000 .text._Z11debug_beginP6Stream
+00000000 l    d  .text._ZN5Debug5beginEP6Stream	00000000 .text._ZN5Debug5beginEP6Stream
+00000000 l    d  .text._ZN5Debug13setBreakpointEPv	00000000 .text._ZN5Debug13setBreakpointEPv
+00000000 l    d  .text._ZN5Debug15clearBreakpointEPv	00000000 .text._ZN5Debug15clearBreakpointEPv
+00000000 l    d  .text._ZN5Debug11setCallbackEPFvvE	00000000 .text._ZN5Debug11setCallbackEPFvvE
+00000000 l    d  .text._ZN5Debug11getRegisterEPKc	00000000 .text._ZN5Debug11getRegisterEPKc
+00000000 l    d  .text._ZN5Debug11setRegisterEPKcm	00000000 .text._ZN5Debug11setRegisterEPKcm
+00000000 l    d  .text.startup._GLOBAL__sub_I_sw_breakpoint_addr	00000000 .text.startup._GLOBAL__sub_I_sw_breakpoint_addr
+00000000 l     F .text.startup._GLOBAL__sub_I_sw_breakpoint_addr	00000014 _GLOBAL__sub_I_sw_breakpoint_addr
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .rodata._ZTV5Debug	00000000 .rodata._ZTV5Debug
+00000000 l    d  .bss.debug_crash	00000000 .bss.debug_crash
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .bss.callback	00000000 .bss.callback
+00000000 l    d  .bss.debug	00000000 .bss.debug
+00000000 l    d  .bss.debug_id	00000000 .bss.debug_id
+00000000 l    d  .bss.debug_trace	00000000 .bss.debug_trace
+00000000 l    d  .bss.debugcount	00000000 .bss.debugcount
+00000000 l    d  .bss.debugenabled	00000000 .bss.debugenabled
+00000000 l    d  .bss.debugreset	00000000 .bss.debugreset
+00000000 l    d  .bss.debugrestore	00000000 .bss.debugrestore
+00000000 l    d  .bss.debugstep	00000000 .bss.debugstep
+00000000 l    d  .bss.hc_breakpoint_addr	00000000 .bss.hc_breakpoint_addr
+00000000 l    d  .bss.hc_breakpoint_enabled	00000000 .bss.hc_breakpoint_enabled
+00000000 l    d  .bss.lastpc	00000000 .bss.lastpc
+00000000 l    d  .bss.original_software_isr	00000000 .bss.original_software_isr
+00000000 l    d  .bss.original_svc_isr	00000000 .bss.original_svc_isr
+00000000 l    d  .bss.save_registers	00000000 .bss.save_registers
+00000000 l    d  .bss.save_stack	00000000 .bss.save_stack
+00000000 l    d  .bss.stack	00000000 .bss.stack
+00000000 l    d  .bss.sw_breakpoint_addr	00000000 .bss.sw_breakpoint_addr
+00000000 l    d  .bss.sw_breakpoint_code	00000000 .bss.sw_breakpoint_code
+00000000 l    d  .bss.temp_breakpoint	00000000 .bss.temp_breakpoint
+00000000 l    d  .bss.temp_breakpoint2	00000000 .bss.temp_breakpoint2
+00000000 l    d  .data.hard_fault_debug_text	00000000 .data.hard_fault_debug_text
+00000000 l    d  .data.hc_breakpoint_trip	00000000 .data.hc_breakpoint_trip
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN5Debug17availableForWriteEv	00000004 _ZN5Debug17availableForWriteEv
+00000000  w    F .text._ZN5Debug5flushEv	00000002 _ZN5Debug5flushEv
+00000000  w    F .text._ZN5Debug5writeEPKhj	00000008 _ZN5Debug5writeEPKhj
+00000000         *UND*	00000000 _Z13gdb_out_writePKhj
+00000000         *UND*	00000000 _ZN5Print11printNumberEmhh
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 strlen
+00000000  w    F .text._ZN5Debug5writeEh	00000034 _ZN5Debug5writeEh
+00000000 g     F .text._Z23swdebug_clearBreakpointPv	00000044 _Z23swdebug_clearBreakpointPv
+00000000 g     F .text._Z21swdebug_setBreakpointPv	00000044 _Z21swdebug_setBreakpointPv
+00000000 g     F .text._Z20swdebug_isBreakpointPv	00000024 _Z20swdebug_isBreakpointPv
+00000000 g     F .text._Z17debug_isHardcodedPv	00000014 _Z17debug_isHardcodedPv
+00000000 g     F .text._Z23hcdebug_clearBreakpointi	00000014 _Z23hcdebug_clearBreakpointi
+00000000 g     F .text._Z21hcdebug_setBreakpointi	00000014 _Z21hcdebug_setBreakpointi
+00000000 g     F .text._Z17hcdebug_isEnabledi	0000000c _Z17hcdebug_isEnabledi
+00000000 g     F .text._Z20hcdebug_isBreakpointi	0000000c _Z20hcdebug_isBreakpointi
+00000000 g     F .text._Z22hcdebug_tripBreakpointi	0000000c _Z22hcdebug_tripBreakpointi
+00000000 g     F .text._Z21debug_initBreakpointsv	00000024 _Z21debug_initBreakpointsv
+00000000         *UND*	00000000 memset
+00000000 g     F .text._Z21debug_clearBreakpointPv	00000058 _Z21debug_clearBreakpointPv
+00000000 g     F .text._Z19debug_setBreakpointPv	00000058 _Z19debug_setBreakpointPv
+00000000 g     F .text._Z18debug_isBreakpointPv	00000038 _Z18debug_isBreakpointPv
+00000000 g     F .text._Z15print_registersv	000001d4 _Z15print_registersv
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._Z16instructionWidthPv	0000001e _Z16instructionWidthPv
+00000000 g     F .text._Z14getRegisterNumi	00000048 _Z14getRegisterNumi
+00000000 g     F .text._Z9countBitsi	00000030 _Z9countBitsi
+00000000 g     F .text._Z17instructionReturnPv	00000048 _Z17instructionReturnPv
+00000000 g     F .text._Z17instructionBranchPvPi	00000080 _Z17instructionBranchPvPi
+00000000 g     F .text._Z12debug_actionv	00000038 _Z12debug_actionv
+00000000 g     F .text._Z17setBreakPointNextmm	00000094 _Z17setBreakPointNextmm
+00000000 g     F .text._Z13debug_monitorv	0000018c _Z13debug_monitorv
+00000000 g     F .text._Z14debug_call_isrv	000000e4 _Z14debug_call_isrv
+00000000 g     O .bss.stack	00000004 stack
+00000000 g     O .bss.save_registers	00000044 save_registers
+00000000         *UND*	00000000 yield
+00000000 g     F .text._Z20debug_call_isr_setupv	00000028 _Z20debug_call_isr_setupv
+00000000 g     F .text._Z12call_nmi_isrv	00000064 _Z12call_nmi_isrv
+00000000 g     O .bss.debug_crash	00000004 debug_crash
+00000000 g     O .bss.debug_id	00000004 debug_id
+00000000 g     F .text._Z19call_hard_fault_isrv	00000064 _Z19call_hard_fault_isrv
+00000000 g     F .text._Z24call_memmanage_fault_isrv	00000064 _Z24call_memmanage_fault_isrv
+00000000 g     F .text._Z18call_bus_fault_isrv	00000064 _Z18call_bus_fault_isrv
+00000000 g     F .text._Z20call_usage_fault_isrv	00000064 _Z20call_usage_fault_isrv
+00000000 g     F .text._Z10testOurSVCv	0000004c _Z10testOurSVCv
+00000000 g     F .text._Z10svcall_isrv	00000048 _Z10svcall_isrv
+00000000 g     O .bss.lastpc	00000004 lastpc
+00000000 g     F .text._Z14svc_call_tablev	0000001c _Z14svc_call_tablev
+00000000 g     F .text._Z17debug_getRegisterPKc	000000e0 _Z17debug_getRegisterPKc
+00000000         *UND*	00000000 strcmp
+00000000 g     F .text._Z17debug_setRegisterPKcm	00000110 _Z17debug_setRegisterPKcm
+00000000 g     F .text._Z20debug_restoreRunModev	00000004 _Z20debug_restoreRunModev
+00000000 g     F .text._Z11flash_blinki	00000060 _Z11flash_blinki
+00000000         *UND*	00000000 pinMode
+00000000         *UND*	00000000 digitalWrite
+00000000 g     F .text._Z16hard_fault_debugi	000000e8 _Z16hard_fault_debugi
+00000000 g     F .text.fault_halt	00000004 fault_halt
+00000000 g     F .text._Z7dumpmemPvi	0000005c _Z7dumpmemPvi
+00000000 g     F .text._Z10debug_initv	000000bc _Z10debug_initv
+00000000         *UND*	00000000 _VectorsRam
+00000000         *UND*	00000000 unused_interrupt_vector
+00000000 g     F .text._Z11debug_beginP6Stream	00000018 _Z11debug_beginP6Stream
+00000000         *UND*	00000000 _Z8gdb_initP6Stream
+00000000 g     F .text._ZN5Debug5beginEP6Stream	00000018 _ZN5Debug5beginEP6Stream
+00000000 g     F .text._ZN5Debug13setBreakpointEPv	0000005c _ZN5Debug13setBreakpointEPv
+00000000 g     F .text._ZN5Debug15clearBreakpointEPv	00000058 _ZN5Debug15clearBreakpointEPv
+00000000 g     F .text._ZN5Debug11setCallbackEPFvvE	0000000c _ZN5Debug11setCallbackEPFvvE
+00000000 g     F .text._ZN5Debug11getRegisterEPKc	00000006 _ZN5Debug11getRegisterEPKc
+00000000 g     F .text._ZN5Debug11setRegisterEPKcm	00000008 _ZN5Debug11setRegisterEPKcm
+00000000  w    O .rodata._ZTV5Debug	00000018 _ZTV5Debug
+00000000 g     O .bss.debug	00000108 debug
+00000000 g     O .bss.save_stack	00000004 save_stack
+00000000 g     O .bss.original_svc_isr	00000004 original_svc_isr
+00000000 g     O .bss.original_software_isr	00000004 original_software_isr
+00000000 g     O .bss.temp_breakpoint2	00000004 temp_breakpoint2
+00000000 g     O .bss.temp_breakpoint	00000004 temp_breakpoint
+00000000 g     O .bss.debugreset	00000004 debugreset
+00000000 g     O .bss.debug_trace	00000004 debug_trace
+00000000 g     O .data.hard_fault_debug_text	0000001c hard_fault_debug_text
+00000000 g     O .bss.debugrestore	00000004 debugrestore
+00000000 g     O .bss.debugstep	00000004 debugstep
+00000000 g     O .bss.debugenabled	00000004 debugenabled
+00000000 g     O .bss.debugcount	00000004 debugcount
+00000000 g     O .bss.callback	00000004 callback
+00000000 g     O .data.hc_breakpoint_trip	00000004 hc_breakpoint_trip
+00000000 g     O .bss.hc_breakpoint_enabled	00000080 hc_breakpoint_enabled
+00000000 g     O .bss.hc_breakpoint_addr	00000080 hc_breakpoint_addr
+00000000 g     O .bss.sw_breakpoint_code	00000040 sw_breakpoint_code
+00000000 g     O .bss.sw_breakpoint_addr	00000080 sw_breakpoint_addr
+
+
+Contents of section .group:
+ 0000 01000000 09000000                    ........        
+Contents of section .group:
+ 0000 01000000 0a000000                    ........        
+Contents of section .group:
+ 0000 01000000 0b000000 0c000000           ............    
+Contents of section .group:
+ 0000 01000000 11000000 12000000           ............    
+Contents of section .group:
+ 0000 01000000 71000000 72000000           ....q...r...    
+Contents of section .text._ZN5Debug17availableForWriteEv:
+ 0000 80207047                             . pG            
+Contents of section .text._ZN5Debug5flushEv:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN5Debug5writeEPKhj:
+ 0000 08461146 fff7febf                    .F.F....        
+Contents of section .text._ZN5Print7printlnEmi.isra.0:
+ 0000 10b50446 0023d2b2 fff7feff 2046bde8  ...F.#...... F..
+ 0010 1040fff7 febf00bf                    .@......        
+Contents of section .text._ZN5Print5writeEPKc.isra.0:
+ 0000 69b170b5 05460846 0c46fff7 feff2b68  i.p..F.F.F....+h
+ 0010 02462146 28465b68 bde87040 18477047  .F!F(F[h..p@.GpG
+Contents of section .text._ZN5Debug5writeEh:
+ 0000 03680b4a 5b6800b5 934283b0 8df80710  .h.J[h...B......
+ 0010 07d10121 0df10700 fff7feff 03b05df8  ...!..........].
+ 0020 04fb0122 0df10701 984703b0 5df804fb  ...".....G..]...
+ 0030 00000000                             ....            
+Contents of section .text._ZN5Print7printlnEPKc.isra.0:
+ 0000 38b50446 49b10846 0d46fff7 feff2368  8..FI..F.F....#h
+ 0010 02462946 5b682046 98472046 bde83840  .F)F[h F.G F..8@
+ 0020 fff7febf                             ....            
+Contents of section .text._Z23swdebug_clearBreakpointPv:
+ 0000 10b40e4c 002320f0 010c2246 02e00133  ...L.# ..."F...3
+ 0010 202b0ed0 52f8041b 6145f8d1 084a0020   +..R...aE...J. 
+ 0020 32f81320 44f82300 5df8044b acf80020  2.. D.#.]..K... 
+ 0030 70474ff0 ff305df8 044b7047 00000000  pGO..0]..KpG....
+ 0040 00000000                             ....            
+Contents of section .text._Z21swdebug_setBreakpointPv:
+ 0000 30b40e4c 00232146 02e00133 202b11d0  0..L.#!F...3 +..
+ 0010 51f8042b 002af8d1 20f00101 084d1046  Q..+.*.. ....M.F
+ 0020 0a8844f8 231025f8 13204df6 107230bc  ..D.#.%.. M..r0.
+ 0030 0a807047 4ff0ff30 30bc7047 00000000  ..pGO..00.pG....
+ 0040 00000000                             ....            
+Contents of section .text._Z20swdebug_isBreakpointPv:
+ 0000 074b20f0 010003f1 800101e0 8b4205d0  .K ..........B..
+ 0010 53f8042b 8242f9d1 01207047 00207047  S..+.B... pG. pG
+ 0020 00000000                             ....            
+Contents of section .text._Z17debug_isHardcodedPv:
+ 0000 008800f5 03502f30 80b20128 8cbf0020  .....P/0...(... 
+ 0010 01207047                             . pG            
+Contents of section .text._Z23hcdebug_clearBreakpointi:
+ 0000 00220346 02491046 41f82320 704700bf  .".F.I.FA.# pG..
+ 0010 00000000                             ....            
+Contents of section .text._Z21hcdebug_setBreakpointi:
+ 0000 0246034b 01210020 43f82210 704700bf  .F.K.!. C.".pG..
+ 0010 00000000                             ....            
+Contents of section .text._Z17hcdebug_isEnabledi:
+ 0000 014b53f8 20007047 00000000           .KS. .pG....    
+Contents of section .text._Z20hcdebug_isBreakpointi:
+ 0000 014b53f8 20007047 00000000           .KS. .pG....    
+Contents of section .text._Z22hcdebug_tripBreakpointi:
+ 0000 014b1860 704700bf 00000000           .K.`pG......    
+Contents of section .text._Z21debug_initBreakpointsv:
+ 0000 80220021 054808b5 fff7feff 80220021  .".!.H.......".!
+ 0010 0348bde8 0840fff7 febf00bf 00000000  .H...@..........
+ 0020 00000000                             ....            
+Contents of section .text._Z21debug_clearBreakpointPv:
+ 0000 124ba0f1 20029a42 1dd820f0 010c0023  .K.. ..B.. ....#
+ 0010 10b40f4c 224602e0 0133202b 0ed052f8  ...L"F...3 +..R.
+ 0020 041b6145 f8d10b4a 002032f8 132044f8  ..aE...J. 2.. D.
+ 0030 23005df8 044bacf8 00207047 4ff0ff30  #.]..K... pGO..0
+ 0040 5df8044b 70474ff0 ff307047 e0ff2720  ]..KpGO..0pG..' 
+ 0050 00000000 00000000                    ........        
+Contents of section .text._Z19debug_setBreakpointPv:
+ 0000 124ba0f1 20029a42 1dd80023 30b4104c  .K.. ..B...#0..L
+ 0010 214602e0 0133202b 11d051f8 042b002a  !F...3 +..Q..+.*
+ 0020 f8d120f0 01010b4d 10460a88 44f82310  .. ....M.F..D.#.
+ 0030 25f81320 4df61072 30bc0a80 70474ff0  %.. M..r0...pGO.
+ 0040 ff3030bc 70474ff0 ff307047 e0ff2720  .00.pGO..0pG..' 
+ 0050 00000000 00000000                    ........        
+Contents of section .text._Z18debug_isBreakpointPv:
+ 0000 0b4ba0f1 20029a42 0dd80a4b 20f00100  .K.. ..B...K ...
+ 0010 03f18001 01e08b42 08d053f8 042b9042  .......B..S..+.B
+ 0020 f9d10120 70474ff0 ff307047 00207047  ... pGO..0pG. pG
+ 0030 e0ff2720 00000000                    ..' ....        
+Contents of section .text._Z15print_registersv:
+ 0000 70b5714e 0321714c 714d3046 fff7feff  p.qN.!qLqM0F....
+ 0010 00230a22 29682046 fff7feff 2046fff7  .#.")h F.... F..
+ 0020 feff0321 301dfff7 feff0023 0a226968  ...!0......#."ih
+ 0030 2046fff7 feff2046 fff7feff 032106f1   F.... F.....!..
+ 0040 0800fff7 feff0023 0a22a968 2046fff7  .......#.".h F..
+ 0050 feff2046 fff7feff 032106f1 0c00fff7  .. F.....!......
+ 0060 feff0023 0a22e968 2046fff7 feff2046  ...#.".h F.... F
+ 0070 fff7feff 042106f1 1000fff7 feff0023  .....!.........#
+ 0080 0a222969 2046fff7 feff2046 fff7feff  .")i F.... F....
+ 0090 052106f1 1800fff7 feff0023 10226969  .!.........#."ii
+ 00a0 2046fff7 feff2046 fff7feff 052106f1   F.... F.....!..
+ 00b0 2000fff7 feff0023 1022a969 2046fff7   ......#.".i F..
+ 00c0 feff2046 fff7feff 032106f1 2800fff7  .. F.....!..(...
+ 00d0 feff0023 0a22296a 2046fff7 feff2046  ...#.")j F.... F
+ 00e0 fff7feff 032106f1 2c00fff7 feff0023  .....!..,......#
+ 00f0 0a22696a 2046fff7 feff2046 fff7feff  ."ij F.... F....
+ 0100 032106f1 3000fff7 feff0023 0a22a96a  .!..0......#.".j
+ 0110 2046fff7 feff2046 fff7feff 032106f1   F.... F.....!..
+ 0120 3400fff7 feff0023 0a22e96a 2046fff7  4......#.".j F..
+ 0130 feff2046 fff7feff 032106f1 3800fff7  .. F.....!..8...
+ 0140 feff0023 0a22296b 2046fff7 feff2046  ...#.")k F.... F
+ 0150 fff7feff 032106f1 3c00fff7 feff0023  .....!..<......#
+ 0160 0a22696b 2046fff7 feff2046 fff7feff  ."ik F.... F....
+ 0170 042106f1 4000fff7 feff0023 0a22a96b  .!..@......#.".k
+ 0180 2046fff7 feff2046 fff7feff 042106f1   F.... F.....!..
+ 0190 4800fff7 feff0023 0a22e96b 2046fff7  H......#.".k F..
+ 01a0 feff2046 fff7feff 052106f1 5000fff7  .. F.....!..P...
+ 01b0 feff296c 20460023 1022fff7 feff2046  ..)l F.#.".... F
+ 01c0 bde87040 fff7febf 00000000 00000000  ..p@............
+ 01d0 00000000                             ....            
+Contents of section .text._Z16instructionWidthPv:
+ 0000 038803f4 784003f4 6843b3f5 684f18bf  ....x@..hC..hO..
+ 0010 b0f5704f 0cbf0120 00200130 704700bf  ..pO... . .0pG..
+Contents of section .text._Z14getRegisterNumi:
+ 0000 07281dd8 dfe800f0 070a0d10 13161904  .(..............
+ 0010 0c4bd86a 70470b4b 18687047 094b5868  .K.jpG.K.hpG.KXh
+ 0020 7047084b 98687047 064bd868 7047054b  pG.K.hpG.K.hpG.K
+ 0030 186a7047 034b586a 7047024b 986a7047  .jpG.KXjpG.K.jpG
+ 0040 00207047 00000000                    . pG....        
+Contents of section .text._Z9countBitsi:
+ 0000 00f00101 c0f34003 c0f38002 c0f3c00c  ......@.........
+ 0010 0b44c0f3 40111344 c0f30012 63441344  .D..@..D....cD.D
+ 0020 c0f38012 c0f3c010 0b441344 18447047  .........D.D.DpG
+Contents of section .text._Z17instructionReturnPv:
+ 0000 008808b5 030a462b 08d0bd2b 0cd044f2  ......F+...+..D.
+ 0010 70739842 06d10b4b 586908bd 00f00703  ps.B...KXi......
+ 0020 072b09d0 002008bd c0b2fff7 feff054b  .+... .........K
+ 0030 1b6c53f8 200008bd c0f3c200 bde80840  .lS. ..........@
+ 0040 fff7febf 00000000                    ........        
+Contents of section .text._Z17instructionBranchPvPi:
+ 0000 028802f4 7f4c08b5 bcf58e4f 4ff00003  .....L.....OO...
+ 0010 0b600ed0 02f47841 b1f5404f 28d0b1f5  .`....xA..@O(...
+ 0020 704f0dd0 02f47041 b1f5504f 1bd01846  pO....pA..PO...F
+ 0030 08bdc2f3 c300fff7 feff0123 0b6008bd  ...........#.`..
+ 0040 438802f0 3f02c3f3 0a0303eb c2235209  C...?........#R.
+ 0050 03d06fea c3336fea d333084a 90690430  ..o..3o..3.J.i.0
+ 0060 00eb4300 08bd054b 986940fa 82f008bd  ..C....K.i@.....
+ 0070 024b02f0 7f029869 104408bd 00000000  .K.....i.D......
+Contents of section .text._Z12debug_actionv:
+ 0000 38b50b4d 09210b4c 05f15800 fff7feff  8..M.!.L..X.....
+ 0010 2046fff7 fefffff7 feff05f1 64000421   F..........d..!
+ 0020 fff7feff 2046bde8 3840fff7 febf00bf  .... F..8@......
+ 0030 00000000 00000000                    ........        
+Contents of section .text._Z17setBreakPointNextmm:
+ 0000 30b583b0 05460c46 fff7feff f8b11c4b  0....F.F.......K
+ 0010 04461860 a4f12002 1a4b9a42 15d81a49  .F.`.. ..K.B...I
+ 0020 00230a46 02e00133 202b0ed0 52f8040b  .#.F...3 +..R...
+ 0030 0028f8d1 24f00104 14484df6 10722588  .(..$....HM..r%.
+ 0040 41f82340 20f81350 228003b0 30bd01a9  A.#@ ..P"...0...
+ 0050 2846fff7 feff18b1 0d4a1060 fff7feff  (F.......J.`....
+ 0060 2b8803f4 7842b2f5 704f07d0 03f46843  +...xB..pO....hC
+ 0070 b3f5684f 02d0024b 1c60cbe7 0234fae7  ..hO...K.`...4..
+ 0080 00000000 e0ff2720 00000000 00000000  ......' ........
+ 0090 00000000                             ....            
+Contents of section .text._Z13debug_monitorv:
+ 0000 2de9f041 564ddff8 7c81af69 37f8023c  -..AVM..|..i7..<
+ 0010 be1e03f5 03532f33 9bb2012b 02d9d8f8  .....S/3...+....
+ 0020 0030abb1 2b6c6833 2b644e4b 1b68002b  .0..+lh3+dNK.h.+
+ 0030 00f09380 98474c4c 00252368 c8f80050  .....GLL.%#h...P
+ 0040 002b67d1 494c2068 002843d1 bde8f081  .+g.IL h.(C.....
+ 0050 474aa7f1 2201ae61 12689661 454a9142  GJ.."..a.h.aEJ.B
+ 0060 13d8dff8 24c126f0 01016246 02e00133  ....$.&...bF...3
+ 0070 202b0ad0 52f8044b 8c42f8d1 3e4a0020   +..R..K.B..>J. 
+ 0080 32f81320 4cf82300 0a803c4c 20680028  2.. L.#...<L h.(
+ 0090 46d13b4c 20680028 c4d0a0f1 2002354b  F.;L h.(.... .5K
+ 00a0 9a4214d8 dff8e0c0 20f00100 00236246  .B...... ....#bF
+ 00b0 02e00133 202b0ad0 52f8041b 8142f8d1  ...3 +..R....B..
+ 00c0 2d4a0021 32f81320 4cf82310 02800023  -J.!2.. L.#....#
+ 00d0 2360a7e7 a0f12002 264b9a42 16d8dff8  #`.... .&K.B....
+ 00e0 a8c00023 624602e0 0133202b 0ed052f8  ...#bF...3 +..R.
+ 00f0 041b0029 f8d120f0 01001f4a 01884cf8  ...).. ....J..L.
+ 0100 230022f8 13104df6 10720280 00232360  #."...M..r...##`
+ 0110 bde8f081 39463046 fff7feff 256091e7  ....9F0F....%`..
+ 0120 a0f12002 134b9a42 14d8dff8 5cc020f0  .. ..K.B....\. .
+ 0130 01000023 624602e0 0133202b 0ad052f8  ...#bF...3 +..R.
+ 0140 041b8842 f8d10c4a 002132f8 13204cf8  ...B...J.!2.. L.
+ 0150 23100280 00232360 9be7fff7 feff6ae7  #....##`......j.
+ 0160 00000000 00000000 00000000 00000000  ................
+ 0170 00000000 e0ff2720 00000000 00000000  ......' ........
+ 0180 00000000 00000000 00000000           ............    
+Contents of section .text._Z14debug_call_isrv:
+ 0000 72b63848 c0f800d0 36480168 36480a68  r.8H....6H.h6H.h
+ 0010 02604a68 42608a68 8260ca68 c2600a69  .`JhB`.h.`.h.`.i
+ 0020 02614a69 42618a69 8261ca69 c2610462  .aJiBa.i.a.i.a.b
+ 0030 45628662 c762c0f8 3080c0f8 3490c0f8  Eb.b.b..0...4...
+ 0040 38a0c0f8 3cb00164 62b600b5 4ff0e023  8...<..db...O..#
+ 0050 4022214c c3f88822 2368002b 34d0022b  @"!L..."#h.+4..+
+ 0060 04d1fff7 fefffff7 fefffae7 fff7feff  ................
+ 0070 1a4b0022 19682260 00292cd0 1a605df8  .K.".h"`.),..`].
+ 0080 04cb72b6 17480168 17480268 0a604268  ..r..H.h.H.h.`Bh
+ 0090 4a608268 8a60c268 ca600269 0a614269  J`.h.`.h.`.i.aBi
+ 00a0 4a618269 8a61c269 ca61046a 456a866a  Ja.i.a.i.a.jEj.j
+ 00b0 c76ad0f8 3080d0f8 3490d0f8 38a0d0f8  .j..0...4...8...
+ 00c0 3cb062b6 e6467047 054b1a68 22b15df8  <.b..FpG.K.h".].
+ 00d0 04eb1b68 9f4600bd 00000000 00000000  ...h.F..........
+ 00e0 00000000 00000000 00000000           ............    
+Contents of section .text._Z20debug_call_isr_setupv:
+ 0000 074a4ff0 e0210748 136810b4 01240460  .JO..!.H.h...$.`
+ 0010 23444020 5df8044b 1360c1f8 08027047  #D@ ]..K.`....pG
+ 0020 00000000 00000000                    ........        
+Contents of section .text._Z12call_nmi_isrv:
+ 0000 1848c0f8 00d01748 01681748 0a680260  .H.....H.h.H.h.`
+ 0010 4a684260 8a688260 ca68c260 0a690261  JhB`.h.`.h.`.i.a
+ 0020 4a694261 8a698261 ca69c261 04624562  JiBa.i.a.i.a.bEb
+ 0030 8662c762 c0f83080 c0f83490 c0f838a0  .b.b..0...4...8.
+ 0040 c0f83cb0 016400b5 044b0122 1a60044b  ..<..d...K.".`.K
+ 0050 02221a60 fff7feff 00bd00bf 00000000  .".`............
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._Z19call_hard_fault_isrv:
+ 0000 1848c0f8 00d01748 01681748 0a680260  .H.....H.h.H.h.`
+ 0010 4a684260 8a688260 ca68c260 0a690261  JhB`.h.`.h.`.i.a
+ 0020 4a694261 8a698261 ca69c261 04624562  JiBa.i.a.i.a.bEb
+ 0030 8662c762 c0f83080 c0f83490 c0f838a0  .b.b..0...4...8.
+ 0040 c0f83cb0 016400b5 044b0122 1a60044b  ..<..d...K.".`.K
+ 0050 03221a60 fff7feff 00bd00bf 00000000  .".`............
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._Z24call_memmanage_fault_isrv:
+ 0000 1848c0f8 00d01748 01681748 0a680260  .H.....H.h.H.h.`
+ 0010 4a684260 8a688260 ca68c260 0a690261  JhB`.h.`.h.`.i.a
+ 0020 4a694261 8a698261 ca69c261 04624562  JiBa.i.a.i.a.bEb
+ 0030 8662c762 c0f83080 c0f83490 c0f838a0  .b.b..0...4...8.
+ 0040 c0f83cb0 016400b5 044b0122 1a60044b  ..<..d...K.".`.K
+ 0050 04221a60 fff7feff 00bd00bf 00000000  .".`............
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._Z18call_bus_fault_isrv:
+ 0000 1848c0f8 00d01748 01681748 0a680260  .H.....H.h.H.h.`
+ 0010 4a684260 8a688260 ca68c260 0a690261  JhB`.h.`.h.`.i.a
+ 0020 4a694261 8a698261 ca69c261 04624562  JiBa.i.a.i.a.bEb
+ 0030 8662c762 c0f83080 c0f83490 c0f838a0  .b.b..0...4...8.
+ 0040 c0f83cb0 016400b5 044b0122 1a60044b  ..<..d...K.".`.K
+ 0050 05221a60 fff7feff 00bd00bf 00000000  .".`............
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._Z20call_usage_fault_isrv:
+ 0000 1848c0f8 00d01748 01681748 0a680260  .H.....H.h.H.h.`
+ 0010 4a684260 8a688260 ca68c260 0a690261  JhB`.h.`.h.`.i.a
+ 0020 4a694261 8a698261 ca69c261 04624562  JiBa.i.a.i.a.bEb
+ 0030 8662c762 c0f83080 c0f83490 c0f838a0  .b.b..0...4...8.
+ 0040 c0f83cb0 016400b5 044b0122 1a60044b  ..<..d...K.".`.K
+ 0050 06221a60 fff7feff 00bd00bf 00000000  .".`............
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text._Z10testOurSVCv:
+ 0000 0f4b4df6 10721968 0b8823f0 0f039bb2  .KM..r.h..#.....
+ 0010 934210d0 a1f12002 0a4b9a42 0bd80a4b  .B.... ..K.B...K
+ 0020 21f00101 03f18000 01e09842 05d053f8  !..........B..S.
+ 0030 042b8a42 f9d10120 70470020 704700bf  .+.B... pG. pG..
+ 0040 00000000 e0ff2720 00000000           ......' ....    
+Contents of section .text._Z10svcall_isrv:
+ 0000 0698a0f1 02001049 086000b5 fff7feff  .......I.`......
+ 0010 60b10a4a 01240a48 4ff0e021 13680460  `..J.$.HO..!.h.`
+ 0020 40202344 1360c1f8 080200bd 054b1a68  @ #D.`.......K.h
+ 0030 1ab15df8 04eb1b68 9f4600bd 00000000  ..]....h.F......
+ 0040 00000000 00000000 00000000           ............    
+Contents of section .text._Z14svc_call_tablev:
+ 0000 10df00bf 10df00bf 10df00bf 10df00bf  ................
+ 0010 10df00bf 10df00bf 10df00bf           ............    
+Contents of section .text._Z17debug_getRegisterPKc:
+ 0000 08b50378 722b1fd0 6c2b0ad0 0378702b  ...xr+..l+...xp+
+ 0010 10d14278 632a0dd1 82785ab9 2e4b9869  ..Bxc*...xZ..K.i
+ 0020 08bd4378 722bf1d1 8378002b eed12a4b  ..Cxr+...x.+..*K
+ 0030 586908bd 732b20d1 4378702b 1dd18378  Xi..s+ .Cxp+...x
+ 0040 dbb9254b 186c08bd 83785bb1 4278312a  ..%K.l...x[.Bx1*
+ 0050 05d1312b 3dd0322b 38d0302b 33d04ff0  ..1+=.2+8.0+3.O.
+ 0060 ff3008bd 4378303b 092bf8d8 dfe803f0  .0..Cx0;.+......
+ 0070 2825221f 1c191613 100d1849 fff7feff  (%"........I....
+ 0080 0028ecd1 144bd869 08bd134b 586b08bd  .(...K.i...KXk..
+ 0090 114b186b 08bd104b d86a08bd 0e4b986a  .K.k...K.j...K.j
+ 00a0 08bd0d4b 586a08bd 0b4b186a 08bd0a4b  ...KXj...K.j...K
+ 00b0 d86808bd 084b9868 08bd074b 586808bd  .h...K.h...KXh..
+ 00c0 054b1868 08bd044b 986b08bd 024b1869  .K.h...K.k...K.i
+ 00d0 08bd014b d86b08bd 00000000 6c000000  ...K.k......l...
+Contents of section .text._Z17debug_setRegisterPKcm:
+ 0000 404b0122 10b51a60 0c460378 722b17d0  @K."...`.F.xr+..
+ 0010 6c2b0bd0 0378702b 24d14278 632a21d1  l+...xp+$.Bxc*!.
+ 0020 8278fab9 384b0120 9c6110bd 4378722b  .x..8K. .a..Cxr+
+ 0030 f0d18378 002bedd1 334b1046 596110bd  ...x.+..3K.FYa..
+ 0040 837823b1 41783129 19d01046 10bd4378  .x#.Ax1)...F..Cx
+ 0050 303b092b 19d8dfe8 03f02d4d 4945413d  0;.+......-MIEA=
+ 0060 39353129 732b02d1 4378702b 0fd02749  951)s+..Cxp+..'I
+ 0070 fff7feff 48b9244b 0120dc61 10bd312b  ....H.$K. .a..1+
+ 0080 3cd0322b 0ed0302b 08d00020 10bd8378  <.2+..0+... ...x
+ 0090 002becd1 1c4b0120 1c6410bd 1a4b1046  .+...K. .d...K.F
+ 00a0 9c6310bd 184b1046 1c6110bd 164b0120  .c...K.F.a...K. 
+ 00b0 596310bd 144b0120 196010bd 124b0120  Yc...K. .`...K. 
+ 00c0 196310bd 104b0120 d96210bd 0e4b0120  .c...K. .b...K. 
+ 00d0 996210bd 0c4b0120 596210bd 0a4b0120  .b...K. Yb...K. 
+ 00e0 196210bd 084b0120 d96010bd 064b0120  .b...K. .`...K. 
+ 00f0 996010bd 044b0120 596010bd 024b1046  .`...K. Y`...K.F
+ 0100 dc6310bd 00000000 00000000 6c000000  .c..........l...
+Contents of section .text._Z20debug_restoreRunModev:
+ 0000 00207047                             . pG            
+Contents of section .text._Z11flash_blinki:
+ 0000 30b50023 83b00446 01210d20 0193fff7  0..#...F.!. ....
+ 0010 feff002c 1add0025 44f62062 019b013a  ...,...%D. b...:
+ 0020 03f10103 0193f9d1 01210d20 fff7feff  .........!. ....
+ 0030 44f62061 019b0139 03f10103 0193f9d1  D. a...9........
+ 0040 01350d20 fff7feff ac42e5d1 034a019b  .5. .....B...J..
+ 0050 013a03f1 01030193 f9d1dae7 a0860100  .:..............
+Contents of section .text._Z16hard_fault_debugi:
+ 0000 344c354d 354e05f1 740180b5 07462046  4L5M5N..t....F F
+ 0010 fff7feff 324b2046 53f82710 fff7feff  ....2K FS.'.....
+ 0020 20462946 fff7feff 33681022 20461968   F)F....3h." F.h
+ 0030 fff7feff 2046291d fff7feff 33681022  .... F).....3h."
+ 0040 20465968 fff7feff 204605f1 0801fff7   FYh.... F......
+ 0050 feff3368 10222046 9968fff7 feff2046  ..3h." F.h.... F
+ 0060 05f10c01 fff7feff 33681022 2046d968  ........3h." F.h
+ 0070 fff7feff 204605f1 1001fff7 feff3368  .... F........3h
+ 0080 10222046 1969fff7 feff2046 05f11801  ." F.i.... F....
+ 0090 fff7feff 33681022 20465969 fff7feff  ....3h." FYi....
+ 00a0 204605f1 2001fff7 feff3368 10222046   F.. .....3h." F
+ 00b0 9969fff7 feff2046 05f18001 0124fff7  .i.... F.....$..
+ 00c0 feff3268 07493846 93690c60 02339361  ..2h.I8F.i.`.3.a
+ 00d0 fff7feff 00000000 00000000 00000000  ................
+ 00e0 00000000 00000000                    ........        
+Contents of section .text.fault_halt:
+ 0000 30bffde7                             0...            
+Contents of section .text._Z7dumpmemPvi:
+ 0000 2de9f041 00231022 0d468046 01461048  -..A.#.".F.F.F.H
+ 0010 fff7feff 01210f48 fff7feff 002d12dd  .....!.H.....-..
+ 0020 013d08f1 ff340a4f 0b4e4544 14f8011f  .=...4.O.NED....
+ 0030 00231022 3846fff7 feff0121 3046fff7  .#."8F.....!0F..
+ 0040 feffac42 f2d10248 bde8f041 fff7febf  ...B...H...A....
+ 0050 00000000 94000000 98000000           ............    
+Contents of section .text._Z10debug_initv:
+ 0000 38b54ff0 e0221124 1c48c2f8 9c4d1c49  8.O..".$.H...M.I
+ 0010 c2f8a00d 01201b4b 1b4a0860 1b4d1c49  ..... .K.J.`.M.I
+ 0020 1c4c1d48 9d60dc60 1a615861 1b4a9961  .L.H.`.`.aXa.J.a
+ 0030 d96a9142 20d0dc6a 19494ff0 e02c1948  .j.B ..j.IO..,.H
+ 0040 d9620460 d3f85811 174a1848 1160d021  .b.`..X..J.H.`.!
+ 0050 c3f85801 4023164a 164882f8 46108022  ..X.@#.J.H..F.."
+ 0060 0021ccf8 0831fff7 feff8022 00211248  .!...1.....".!.H
+ 0070 bde83840 fff7febf 0024dde7 25000803  ..8@.....$..%...
+ 0080 00000000 00000000 00000000 00000000  ................
+ 0090 00000000 00000000 00000000 00000000  ................
+ 00a0 00000000 00000000 00000000 00000000  ................
+ 00b0 00e400e0 00000000 00000000           ............    
+Contents of section .text._Z11debug_beginP6Stream:
+ 0000 00b583b0 0190fff7 feff0198 fff7feff  ................
+ 0010 012003b0 5df804fb                    . ..]...        
+Contents of section .text._ZN5Debug5beginEP6Stream:
+ 0000 00b583b0 0191fff7 feff0198 fff7feff  ................
+ 0010 012003b0 5df804fb                    . ..]...        
+Contents of section .text._ZN5Debug13setBreakpointEPv:
+ 0000 134ba1f1 20029a42 1fd80023 10b4114c  .K.. ..B...#...L
+ 0010 224602e0 0133202b 12d052f8 040b0028  "F...3 +..R....(
+ 0020 f8d121f0 01010c4a b1f800c0 44f82310  ..!....J....D.#.
+ 0030 22f813c0 4df61072 5df8044b 0a807047  "...M..r]..K..pG
+ 0040 4ff0ff30 5df8044b 70474ff0 ff307047  O..0]..KpGO..0pG
+ 0050 e0ff2720 00000000 00000000           ..' ........    
+Contents of section .text._ZN5Debug15clearBreakpointEPv:
+ 0000 124ba1f1 20029a42 1cd821f0 01010023  .K.. ..B..!....#
+ 0010 10b40f4c 224602e0 0133202b 0dd052f8  ...L"F...3 +..R.
+ 0020 040b8842 f8d10b4a 002032f8 132044f8  ...B...J. 2.. D.
+ 0030 23005df8 044b0a80 70474ff0 ff305df8  #.]..K..pGO..0].
+ 0040 044b7047 4ff0ff30 704700bf e0ff2720  .KpGO..0pG....' 
+ 0050 00000000 00000000                    ........        
+Contents of section .text._ZN5Debug11setCallbackEPFvvE:
+ 0000 014b1960 704700bf 00000000           .K.`pG......    
+Contents of section .text._ZN5Debug11getRegisterEPKc:
+ 0000 0846fff7 febf00bf                    .F......        
+Contents of section .text._ZN5Debug11setRegisterEPKcm:
+ 0000 08461146 fff7febf                    .F.F....        
+Contents of section .text.startup._GLOBAL__sub_I_sw_breakpoint_addr:
+ 0000 024b0021 024ac3e9 00217047 00000000  .K.!.J...!pG....
+ 0010 08000000                             ....            
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .rodata._ZTV5Debug:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000                    ........        
+Contents of section .rodata:
+ 0000 72303d00 72313d00 72323d00 72333d00  r0=.r1=.r2=.r3=.
+ 0010 7231323d 00000000 6c723d30 78000000  r12=....lr=0x...
+ 0020 70633d30 78000000 72343d00 72353d00  pc=0x...r4=.r5=.
+ 0030 72363d00 72373d00 72383d00 72393d00  r6=.r7=.r8=.r9=.
+ 0040 7231303d 00000000 7231313d 00000000  r10=....r11=....
+ 0050 73703d30 78000000 2a2a2a2a 44454255  sp=0x...****DEBU
+ 0060 47000000 2a2a2a2a 00000000 63707372  G...****....cpsr
+ 0070 00000000 2a2a2a2a 4641554c 54200000  ....****FAULT ..
+ 0080 2a2a2a2a 2a2a2a2a 2a2a2a2a 2a2a2a2a  ****************
+ 0090 00000000 3d000000 3a000000 64656275  ....=...:...debu
+ 00a0 67000000 62726561 6b000000 6e6d6900  g...break...nmi.
+ 00b0 68617264 00000000 6d656d00 62757300  hard....mem.bus.
+ 00c0 75736167 6500                        usage.          
+Contents of section .data.hard_fault_debug_text:
+ 0000 9c000000 a4000000 ac000000 b0000000  ................
+ 0010 b8000000 bc000000 c0000000           ............    
+Contents of section .data.hc_breakpoint_trip:
+ 0000 ffffffff                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5Debug17availableForWriteEv:
+
+00000000 <_ZN5Debug17availableForWriteEv>:
+   0:	2080      	movs	r0, #128	; 0x80
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN5Debug5flushEv:
+
+00000000 <_ZN5Debug5flushEv>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN5Debug5writeEPKhj:
+
+00000000 <_ZN5Debug5writeEPKhj>:
+   0:	4608      	mov	r0, r1
+   2:	4611      	mov	r1, r2
+   4:	f7ff bffe 	b.w	0 <_Z13gdb_out_writePKhj>
+
+Disassembly of section .text._ZN5Print7printlnEmi.isra.0:
+
+00000000 <_ZN5Print7printlnEmi.isra.0>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2300      	movs	r3, #0
+   6:	b2d2      	uxtb	r2, r2
+   8:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+   c:	4620      	mov	r0, r4
+   e:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  12:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN5Print5writeEPKc.isra.0:
+
+00000000 <_ZN5Print5writeEPKc.isra.0>:
+   0:	b169      	cbz	r1, 1e <_ZN5Print5writeEPKc.isra.0+0x1e>
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4605      	mov	r5, r0
+   6:	4608      	mov	r0, r1
+   8:	460c      	mov	r4, r1
+   a:	f7ff fffe 	bl	0 <strlen>
+   e:	682b      	ldr	r3, [r5, #0]
+  10:	4602      	mov	r2, r0
+  12:	4621      	mov	r1, r4
+  14:	4628      	mov	r0, r5
+  16:	685b      	ldr	r3, [r3, #4]
+  18:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  1c:	4718      	bx	r3
+  1e:	4770      	bx	lr
+
+Disassembly of section .text._ZN5Debug5writeEh:
+
+00000000 <_ZN5Debug5writeEh>:
+   0:	6803      	ldr	r3, [r0, #0]
+   2:	4a0b      	ldr	r2, [pc, #44]	; (30 <_ZN5Debug5writeEh+0x30>)
+   4:	685b      	ldr	r3, [r3, #4]
+   6:	b500      	push	{lr}
+   8:	4293      	cmp	r3, r2
+   a:	b083      	sub	sp, #12
+   c:	f88d 1007 	strb.w	r1, [sp, #7]
+  10:	d107      	bne.n	22 <_ZN5Debug5writeEh+0x22>
+  12:	2101      	movs	r1, #1
+  14:	f10d 0007 	add.w	r0, sp, #7
+  18:	f7ff fffe 	bl	0 <_Z13gdb_out_writePKhj>
+  1c:	b003      	add	sp, #12
+  1e:	f85d fb04 	ldr.w	pc, [sp], #4
+  22:	2201      	movs	r2, #1
+  24:	f10d 0107 	add.w	r1, sp, #7
+  28:	4798      	blx	r3
+  2a:	b003      	add	sp, #12
+  2c:	f85d fb04 	ldr.w	pc, [sp], #4
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5Print7printlnEPKc.isra.0:
+
+00000000 <_ZN5Print7printlnEPKc.isra.0>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b149      	cbz	r1, 1a <_ZN5Print7printlnEPKc.isra.0+0x1a>
+   6:	4608      	mov	r0, r1
+   8:	460d      	mov	r5, r1
+   a:	f7ff fffe 	bl	0 <strlen>
+   e:	6823      	ldr	r3, [r4, #0]
+  10:	4602      	mov	r2, r0
+  12:	4629      	mov	r1, r5
+  14:	685b      	ldr	r3, [r3, #4]
+  16:	4620      	mov	r0, r4
+  18:	4798      	blx	r3
+  1a:	4620      	mov	r0, r4
+  1c:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  20:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+
+Disassembly of section .text._Z23swdebug_clearBreakpointPv:
+
+00000000 <_Z23swdebug_clearBreakpointPv>:
+   0:	b410      	push	{r4}
+   2:	4c0e      	ldr	r4, [pc, #56]	; (3c <_Z23swdebug_clearBreakpointPv+0x3c>)
+   4:	2300      	movs	r3, #0
+   6:	f020 0c01 	bic.w	ip, r0, #1
+   a:	4622      	mov	r2, r4
+   c:	e002      	b.n	14 <_Z23swdebug_clearBreakpointPv+0x14>
+   e:	3301      	adds	r3, #1
+  10:	2b20      	cmp	r3, #32
+  12:	d00e      	beq.n	32 <_Z23swdebug_clearBreakpointPv+0x32>
+  14:	f852 1b04 	ldr.w	r1, [r2], #4
+  18:	4561      	cmp	r1, ip
+  1a:	d1f8      	bne.n	e <_Z23swdebug_clearBreakpointPv+0xe>
+  1c:	4a08      	ldr	r2, [pc, #32]	; (40 <_Z23swdebug_clearBreakpointPv+0x40>)
+  1e:	2000      	movs	r0, #0
+  20:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+  24:	f844 0023 	str.w	r0, [r4, r3, lsl #2]
+  28:	f85d 4b04 	ldr.w	r4, [sp], #4
+  2c:	f8ac 2000 	strh.w	r2, [ip]
+  30:	4770      	bx	lr
+  32:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  36:	f85d 4b04 	ldr.w	r4, [sp], #4
+  3a:	4770      	bx	lr
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z21swdebug_setBreakpointPv:
+
+00000000 <_Z21swdebug_setBreakpointPv>:
+   0:	b430      	push	{r4, r5}
+   2:	4c0e      	ldr	r4, [pc, #56]	; (3c <_Z21swdebug_setBreakpointPv+0x3c>)
+   4:	2300      	movs	r3, #0
+   6:	4621      	mov	r1, r4
+   8:	e002      	b.n	10 <_Z21swdebug_setBreakpointPv+0x10>
+   a:	3301      	adds	r3, #1
+   c:	2b20      	cmp	r3, #32
+   e:	d011      	beq.n	34 <_Z21swdebug_setBreakpointPv+0x34>
+  10:	f851 2b04 	ldr.w	r2, [r1], #4
+  14:	2a00      	cmp	r2, #0
+  16:	d1f8      	bne.n	a <_Z21swdebug_setBreakpointPv+0xa>
+  18:	f020 0101 	bic.w	r1, r0, #1
+  1c:	4d08      	ldr	r5, [pc, #32]	; (40 <_Z21swdebug_setBreakpointPv+0x40>)
+  1e:	4610      	mov	r0, r2
+  20:	880a      	ldrh	r2, [r1, #0]
+  22:	f844 1023 	str.w	r1, [r4, r3, lsl #2]
+  26:	f825 2013 	strh.w	r2, [r5, r3, lsl #1]
+  2a:	f64d 7210 	movw	r2, #57104	; 0xdf10
+  2e:	bc30      	pop	{r4, r5}
+  30:	800a      	strh	r2, [r1, #0]
+  32:	4770      	bx	lr
+  34:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  38:	bc30      	pop	{r4, r5}
+  3a:	4770      	bx	lr
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z20swdebug_isBreakpointPv:
+
+00000000 <_Z20swdebug_isBreakpointPv>:
+   0:	4b07      	ldr	r3, [pc, #28]	; (20 <_Z20swdebug_isBreakpointPv+0x20>)
+   2:	f020 0001 	bic.w	r0, r0, #1
+   6:	f103 0180 	add.w	r1, r3, #128	; 0x80
+   a:	e001      	b.n	10 <_Z20swdebug_isBreakpointPv+0x10>
+   c:	428b      	cmp	r3, r1
+   e:	d005      	beq.n	1c <_Z20swdebug_isBreakpointPv+0x1c>
+  10:	f853 2b04 	ldr.w	r2, [r3], #4
+  14:	4282      	cmp	r2, r0
+  16:	d1f9      	bne.n	c <_Z20swdebug_isBreakpointPv+0xc>
+  18:	2001      	movs	r0, #1
+  1a:	4770      	bx	lr
+  1c:	2000      	movs	r0, #0
+  1e:	4770      	bx	lr
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z17debug_isHardcodedPv:
+
+00000000 <_Z17debug_isHardcodedPv>:
+   0:	8800      	ldrh	r0, [r0, #0]
+   2:	f500 5003 	add.w	r0, r0, #8384	; 0x20c0
+   6:	302f      	adds	r0, #47	; 0x2f
+   8:	b280      	uxth	r0, r0
+   a:	2801      	cmp	r0, #1
+   c:	bf8c      	ite	hi
+   e:	2000      	movhi	r0, #0
+  10:	2001      	movls	r0, #1
+  12:	4770      	bx	lr
+
+Disassembly of section .text._Z23hcdebug_clearBreakpointi:
+
+00000000 <_Z23hcdebug_clearBreakpointi>:
+   0:	2200      	movs	r2, #0
+   2:	4603      	mov	r3, r0
+   4:	4902      	ldr	r1, [pc, #8]	; (10 <_Z23hcdebug_clearBreakpointi+0x10>)
+   6:	4610      	mov	r0, r2
+   8:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z21hcdebug_setBreakpointi:
+
+00000000 <_Z21hcdebug_setBreakpointi>:
+   0:	4602      	mov	r2, r0
+   2:	4b03      	ldr	r3, [pc, #12]	; (10 <_Z21hcdebug_setBreakpointi+0x10>)
+   4:	2101      	movs	r1, #1
+   6:	2000      	movs	r0, #0
+   8:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z17hcdebug_isEnabledi:
+
+00000000 <_Z17hcdebug_isEnabledi>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <_Z17hcdebug_isEnabledi+0x8>)
+   2:	f853 0020 	ldr.w	r0, [r3, r0, lsl #2]
+   6:	4770      	bx	lr
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z20hcdebug_isBreakpointi:
+
+00000000 <_Z20hcdebug_isBreakpointi>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <_Z20hcdebug_isBreakpointi+0x8>)
+   2:	f853 0020 	ldr.w	r0, [r3, r0, lsl #2]
+   6:	4770      	bx	lr
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z22hcdebug_tripBreakpointi:
+
+00000000 <_Z22hcdebug_tripBreakpointi>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <_Z22hcdebug_tripBreakpointi+0x8>)
+   2:	6018      	str	r0, [r3, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z21debug_initBreakpointsv:
+
+00000000 <_Z21debug_initBreakpointsv>:
+   0:	2280      	movs	r2, #128	; 0x80
+   2:	2100      	movs	r1, #0
+   4:	4805      	ldr	r0, [pc, #20]	; (1c <_Z21debug_initBreakpointsv+0x1c>)
+   6:	b508      	push	{r3, lr}
+   8:	f7ff fffe 	bl	0 <memset>
+   c:	2280      	movs	r2, #128	; 0x80
+   e:	2100      	movs	r1, #0
+  10:	4803      	ldr	r0, [pc, #12]	; (20 <_Z21debug_initBreakpointsv+0x20>)
+  12:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  16:	f7ff bffe 	b.w	0 <memset>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z21debug_clearBreakpointPv:
+
+00000000 <_Z21debug_clearBreakpointPv>:
+   0:	4b12      	ldr	r3, [pc, #72]	; (4c <_Z21debug_clearBreakpointPv+0x4c>)
+   2:	f1a0 0220 	sub.w	r2, r0, #32
+   6:	429a      	cmp	r2, r3
+   8:	d81d      	bhi.n	46 <_Z21debug_clearBreakpointPv+0x46>
+   a:	f020 0c01 	bic.w	ip, r0, #1
+   e:	2300      	movs	r3, #0
+  10:	b410      	push	{r4}
+  12:	4c0f      	ldr	r4, [pc, #60]	; (50 <_Z21debug_clearBreakpointPv+0x50>)
+  14:	4622      	mov	r2, r4
+  16:	e002      	b.n	1e <_Z21debug_clearBreakpointPv+0x1e>
+  18:	3301      	adds	r3, #1
+  1a:	2b20      	cmp	r3, #32
+  1c:	d00e      	beq.n	3c <_Z21debug_clearBreakpointPv+0x3c>
+  1e:	f852 1b04 	ldr.w	r1, [r2], #4
+  22:	4561      	cmp	r1, ip
+  24:	d1f8      	bne.n	18 <_Z21debug_clearBreakpointPv+0x18>
+  26:	4a0b      	ldr	r2, [pc, #44]	; (54 <_Z21debug_clearBreakpointPv+0x54>)
+  28:	2000      	movs	r0, #0
+  2a:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+  2e:	f844 0023 	str.w	r0, [r4, r3, lsl #2]
+  32:	f85d 4b04 	ldr.w	r4, [sp], #4
+  36:	f8ac 2000 	strh.w	r2, [ip]
+  3a:	4770      	bx	lr
+  3c:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  40:	f85d 4b04 	ldr.w	r4, [sp], #4
+  44:	4770      	bx	lr
+  46:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4a:	4770      	bx	lr
+  4c:	2027ffe0 	.word	0x2027ffe0
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z19debug_setBreakpointPv:
+
+00000000 <_Z19debug_setBreakpointPv>:
+   0:	4b12      	ldr	r3, [pc, #72]	; (4c <_Z19debug_setBreakpointPv+0x4c>)
+   2:	f1a0 0220 	sub.w	r2, r0, #32
+   6:	429a      	cmp	r2, r3
+   8:	d81d      	bhi.n	46 <_Z19debug_setBreakpointPv+0x46>
+   a:	2300      	movs	r3, #0
+   c:	b430      	push	{r4, r5}
+   e:	4c10      	ldr	r4, [pc, #64]	; (50 <_Z19debug_setBreakpointPv+0x50>)
+  10:	4621      	mov	r1, r4
+  12:	e002      	b.n	1a <_Z19debug_setBreakpointPv+0x1a>
+  14:	3301      	adds	r3, #1
+  16:	2b20      	cmp	r3, #32
+  18:	d011      	beq.n	3e <_Z19debug_setBreakpointPv+0x3e>
+  1a:	f851 2b04 	ldr.w	r2, [r1], #4
+  1e:	2a00      	cmp	r2, #0
+  20:	d1f8      	bne.n	14 <_Z19debug_setBreakpointPv+0x14>
+  22:	f020 0101 	bic.w	r1, r0, #1
+  26:	4d0b      	ldr	r5, [pc, #44]	; (54 <_Z19debug_setBreakpointPv+0x54>)
+  28:	4610      	mov	r0, r2
+  2a:	880a      	ldrh	r2, [r1, #0]
+  2c:	f844 1023 	str.w	r1, [r4, r3, lsl #2]
+  30:	f825 2013 	strh.w	r2, [r5, r3, lsl #1]
+  34:	f64d 7210 	movw	r2, #57104	; 0xdf10
+  38:	bc30      	pop	{r4, r5}
+  3a:	800a      	strh	r2, [r1, #0]
+  3c:	4770      	bx	lr
+  3e:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  42:	bc30      	pop	{r4, r5}
+  44:	4770      	bx	lr
+  46:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4a:	4770      	bx	lr
+  4c:	2027ffe0 	.word	0x2027ffe0
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z18debug_isBreakpointPv:
+
+00000000 <_Z18debug_isBreakpointPv>:
+   0:	4b0b      	ldr	r3, [pc, #44]	; (30 <_Z18debug_isBreakpointPv+0x30>)
+   2:	f1a0 0220 	sub.w	r2, r0, #32
+   6:	429a      	cmp	r2, r3
+   8:	d80d      	bhi.n	26 <_Z18debug_isBreakpointPv+0x26>
+   a:	4b0a      	ldr	r3, [pc, #40]	; (34 <_Z18debug_isBreakpointPv+0x34>)
+   c:	f020 0001 	bic.w	r0, r0, #1
+  10:	f103 0180 	add.w	r1, r3, #128	; 0x80
+  14:	e001      	b.n	1a <_Z18debug_isBreakpointPv+0x1a>
+  16:	428b      	cmp	r3, r1
+  18:	d008      	beq.n	2c <_Z18debug_isBreakpointPv+0x2c>
+  1a:	f853 2b04 	ldr.w	r2, [r3], #4
+  1e:	4290      	cmp	r0, r2
+  20:	d1f9      	bne.n	16 <_Z18debug_isBreakpointPv+0x16>
+  22:	2001      	movs	r0, #1
+  24:	4770      	bx	lr
+  26:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  2a:	4770      	bx	lr
+  2c:	2000      	movs	r0, #0
+  2e:	4770      	bx	lr
+  30:	2027ffe0 	.word	0x2027ffe0
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z15print_registersv:
+
+00000000 <_Z15print_registersv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4e71      	ldr	r6, [pc, #452]	; (1c8 <_Z15print_registersv+0x1c8>)
+   4:	2103      	movs	r1, #3
+   6:	4c71      	ldr	r4, [pc, #452]	; (1cc <_Z15print_registersv+0x1cc>)
+   8:	4d71      	ldr	r5, [pc, #452]	; (1d0 <_Z15print_registersv+0x1d0>)
+   a:	4630      	mov	r0, r6
+   c:	f7ff fffe 	bl	0 <usb_serial_write>
+  10:	2300      	movs	r3, #0
+  12:	220a      	movs	r2, #10
+  14:	6829      	ldr	r1, [r5, #0]
+  16:	4620      	mov	r0, r4
+  18:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  1c:	4620      	mov	r0, r4
+  1e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  22:	2103      	movs	r1, #3
+  24:	1d30      	adds	r0, r6, #4
+  26:	f7ff fffe 	bl	0 <usb_serial_write>
+  2a:	2300      	movs	r3, #0
+  2c:	220a      	movs	r2, #10
+  2e:	6869      	ldr	r1, [r5, #4]
+  30:	4620      	mov	r0, r4
+  32:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  36:	4620      	mov	r0, r4
+  38:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  3c:	2103      	movs	r1, #3
+  3e:	f106 0008 	add.w	r0, r6, #8
+  42:	f7ff fffe 	bl	0 <usb_serial_write>
+  46:	2300      	movs	r3, #0
+  48:	220a      	movs	r2, #10
+  4a:	68a9      	ldr	r1, [r5, #8]
+  4c:	4620      	mov	r0, r4
+  4e:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  52:	4620      	mov	r0, r4
+  54:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  58:	2103      	movs	r1, #3
+  5a:	f106 000c 	add.w	r0, r6, #12
+  5e:	f7ff fffe 	bl	0 <usb_serial_write>
+  62:	2300      	movs	r3, #0
+  64:	220a      	movs	r2, #10
+  66:	68e9      	ldr	r1, [r5, #12]
+  68:	4620      	mov	r0, r4
+  6a:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  6e:	4620      	mov	r0, r4
+  70:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  74:	2104      	movs	r1, #4
+  76:	f106 0010 	add.w	r0, r6, #16
+  7a:	f7ff fffe 	bl	0 <usb_serial_write>
+  7e:	2300      	movs	r3, #0
+  80:	220a      	movs	r2, #10
+  82:	6929      	ldr	r1, [r5, #16]
+  84:	4620      	mov	r0, r4
+  86:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  8a:	4620      	mov	r0, r4
+  8c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  90:	2105      	movs	r1, #5
+  92:	f106 0018 	add.w	r0, r6, #24
+  96:	f7ff fffe 	bl	0 <usb_serial_write>
+  9a:	2300      	movs	r3, #0
+  9c:	2210      	movs	r2, #16
+  9e:	6969      	ldr	r1, [r5, #20]
+  a0:	4620      	mov	r0, r4
+  a2:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  a6:	4620      	mov	r0, r4
+  a8:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  ac:	2105      	movs	r1, #5
+  ae:	f106 0020 	add.w	r0, r6, #32
+  b2:	f7ff fffe 	bl	0 <usb_serial_write>
+  b6:	2300      	movs	r3, #0
+  b8:	2210      	movs	r2, #16
+  ba:	69a9      	ldr	r1, [r5, #24]
+  bc:	4620      	mov	r0, r4
+  be:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  c2:	4620      	mov	r0, r4
+  c4:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  c8:	2103      	movs	r1, #3
+  ca:	f106 0028 	add.w	r0, r6, #40	; 0x28
+  ce:	f7ff fffe 	bl	0 <usb_serial_write>
+  d2:	2300      	movs	r3, #0
+  d4:	220a      	movs	r2, #10
+  d6:	6a29      	ldr	r1, [r5, #32]
+  d8:	4620      	mov	r0, r4
+  da:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  de:	4620      	mov	r0, r4
+  e0:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  e4:	2103      	movs	r1, #3
+  e6:	f106 002c 	add.w	r0, r6, #44	; 0x2c
+  ea:	f7ff fffe 	bl	0 <usb_serial_write>
+  ee:	2300      	movs	r3, #0
+  f0:	220a      	movs	r2, #10
+  f2:	6a69      	ldr	r1, [r5, #36]	; 0x24
+  f4:	4620      	mov	r0, r4
+  f6:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  fa:	4620      	mov	r0, r4
+  fc:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 100:	2103      	movs	r1, #3
+ 102:	f106 0030 	add.w	r0, r6, #48	; 0x30
+ 106:	f7ff fffe 	bl	0 <usb_serial_write>
+ 10a:	2300      	movs	r3, #0
+ 10c:	220a      	movs	r2, #10
+ 10e:	6aa9      	ldr	r1, [r5, #40]	; 0x28
+ 110:	4620      	mov	r0, r4
+ 112:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 116:	4620      	mov	r0, r4
+ 118:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 11c:	2103      	movs	r1, #3
+ 11e:	f106 0034 	add.w	r0, r6, #52	; 0x34
+ 122:	f7ff fffe 	bl	0 <usb_serial_write>
+ 126:	2300      	movs	r3, #0
+ 128:	220a      	movs	r2, #10
+ 12a:	6ae9      	ldr	r1, [r5, #44]	; 0x2c
+ 12c:	4620      	mov	r0, r4
+ 12e:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 132:	4620      	mov	r0, r4
+ 134:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 138:	2103      	movs	r1, #3
+ 13a:	f106 0038 	add.w	r0, r6, #56	; 0x38
+ 13e:	f7ff fffe 	bl	0 <usb_serial_write>
+ 142:	2300      	movs	r3, #0
+ 144:	220a      	movs	r2, #10
+ 146:	6b29      	ldr	r1, [r5, #48]	; 0x30
+ 148:	4620      	mov	r0, r4
+ 14a:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 14e:	4620      	mov	r0, r4
+ 150:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 154:	2103      	movs	r1, #3
+ 156:	f106 003c 	add.w	r0, r6, #60	; 0x3c
+ 15a:	f7ff fffe 	bl	0 <usb_serial_write>
+ 15e:	2300      	movs	r3, #0
+ 160:	220a      	movs	r2, #10
+ 162:	6b69      	ldr	r1, [r5, #52]	; 0x34
+ 164:	4620      	mov	r0, r4
+ 166:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 16a:	4620      	mov	r0, r4
+ 16c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 170:	2104      	movs	r1, #4
+ 172:	f106 0040 	add.w	r0, r6, #64	; 0x40
+ 176:	f7ff fffe 	bl	0 <usb_serial_write>
+ 17a:	2300      	movs	r3, #0
+ 17c:	220a      	movs	r2, #10
+ 17e:	6ba9      	ldr	r1, [r5, #56]	; 0x38
+ 180:	4620      	mov	r0, r4
+ 182:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 186:	4620      	mov	r0, r4
+ 188:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 18c:	2104      	movs	r1, #4
+ 18e:	f106 0048 	add.w	r0, r6, #72	; 0x48
+ 192:	f7ff fffe 	bl	0 <usb_serial_write>
+ 196:	2300      	movs	r3, #0
+ 198:	220a      	movs	r2, #10
+ 19a:	6be9      	ldr	r1, [r5, #60]	; 0x3c
+ 19c:	4620      	mov	r0, r4
+ 19e:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 1a2:	4620      	mov	r0, r4
+ 1a4:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 1a8:	2105      	movs	r1, #5
+ 1aa:	f106 0050 	add.w	r0, r6, #80	; 0x50
+ 1ae:	f7ff fffe 	bl	0 <usb_serial_write>
+ 1b2:	6c29      	ldr	r1, [r5, #64]	; 0x40
+ 1b4:	4620      	mov	r0, r4
+ 1b6:	2300      	movs	r3, #0
+ 1b8:	2210      	movs	r2, #16
+ 1ba:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 1be:	4620      	mov	r0, r4
+ 1c0:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+ 1c4:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+ 1c8:	00000000 	.word	0x00000000
+ 1cc:	00000000 	.word	0x00000000
+ 1d0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z16instructionWidthPv:
+
+00000000 <_Z16instructionWidthPv>:
+   0:	8803      	ldrh	r3, [r0, #0]
+   2:	f403 4078 	and.w	r0, r3, #63488	; 0xf800
+   6:	f403 4368 	and.w	r3, r3, #59392	; 0xe800
+   a:	f5b3 4f68 	cmp.w	r3, #59392	; 0xe800
+   e:	bf18      	it	ne
+  10:	f5b0 4f70 	cmpne.w	r0, #61440	; 0xf000
+  14:	bf0c      	ite	eq
+  16:	2001      	moveq	r0, #1
+  18:	2000      	movne	r0, #0
+  1a:	3001      	adds	r0, #1
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+
+Disassembly of section .text._Z14getRegisterNumi:
+
+00000000 <_Z14getRegisterNumi>:
+   0:	2807      	cmp	r0, #7
+   2:	d81d      	bhi.n	40 <_Z14getRegisterNumi+0x40>
+   4:	e8df f000 	tbb	[pc, r0]
+   8:	100d0a07 	.word	0x100d0a07
+   c:	04191613 	.word	0x04191613
+  10:	4b0c      	ldr	r3, [pc, #48]	; (44 <_Z14getRegisterNumi+0x44>)
+  12:	6ad8      	ldr	r0, [r3, #44]	; 0x2c
+  14:	4770      	bx	lr
+  16:	4b0b      	ldr	r3, [pc, #44]	; (44 <_Z14getRegisterNumi+0x44>)
+  18:	6818      	ldr	r0, [r3, #0]
+  1a:	4770      	bx	lr
+  1c:	4b09      	ldr	r3, [pc, #36]	; (44 <_Z14getRegisterNumi+0x44>)
+  1e:	6858      	ldr	r0, [r3, #4]
+  20:	4770      	bx	lr
+  22:	4b08      	ldr	r3, [pc, #32]	; (44 <_Z14getRegisterNumi+0x44>)
+  24:	6898      	ldr	r0, [r3, #8]
+  26:	4770      	bx	lr
+  28:	4b06      	ldr	r3, [pc, #24]	; (44 <_Z14getRegisterNumi+0x44>)
+  2a:	68d8      	ldr	r0, [r3, #12]
+  2c:	4770      	bx	lr
+  2e:	4b05      	ldr	r3, [pc, #20]	; (44 <_Z14getRegisterNumi+0x44>)
+  30:	6a18      	ldr	r0, [r3, #32]
+  32:	4770      	bx	lr
+  34:	4b03      	ldr	r3, [pc, #12]	; (44 <_Z14getRegisterNumi+0x44>)
+  36:	6a58      	ldr	r0, [r3, #36]	; 0x24
+  38:	4770      	bx	lr
+  3a:	4b02      	ldr	r3, [pc, #8]	; (44 <_Z14getRegisterNumi+0x44>)
+  3c:	6a98      	ldr	r0, [r3, #40]	; 0x28
+  3e:	4770      	bx	lr
+  40:	2000      	movs	r0, #0
+  42:	4770      	bx	lr
+  44:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z9countBitsi:
+
+00000000 <_Z9countBitsi>:
+   0:	f000 0101 	and.w	r1, r0, #1
+   4:	f3c0 0340 	ubfx	r3, r0, #1, #1
+   8:	f3c0 0280 	ubfx	r2, r0, #2, #1
+   c:	f3c0 0cc0 	ubfx	ip, r0, #3, #1
+  10:	440b      	add	r3, r1
+  12:	f3c0 1140 	ubfx	r1, r0, #5, #1
+  16:	4413      	add	r3, r2
+  18:	f3c0 1200 	ubfx	r2, r0, #4, #1
+  1c:	4463      	add	r3, ip
+  1e:	4413      	add	r3, r2
+  20:	f3c0 1280 	ubfx	r2, r0, #6, #1
+  24:	f3c0 10c0 	ubfx	r0, r0, #7, #1
+  28:	440b      	add	r3, r1
+  2a:	4413      	add	r3, r2
+  2c:	4418      	add	r0, r3
+  2e:	4770      	bx	lr
+
+Disassembly of section .text._Z17instructionReturnPv:
+
+00000000 <_Z17instructionReturnPv>:
+   0:	8800      	ldrh	r0, [r0, #0]
+   2:	b508      	push	{r3, lr}
+   4:	0a03      	lsrs	r3, r0, #8
+   6:	2b46      	cmp	r3, #70	; 0x46
+   8:	d008      	beq.n	1c <_Z17instructionReturnPv+0x1c>
+   a:	2bbd      	cmp	r3, #189	; 0xbd
+   c:	d00c      	beq.n	28 <_Z17instructionReturnPv+0x28>
+   e:	f244 7370 	movw	r3, #18288	; 0x4770
+  12:	4298      	cmp	r0, r3
+  14:	d106      	bne.n	24 <_Z17instructionReturnPv+0x24>
+  16:	4b0b      	ldr	r3, [pc, #44]	; (44 <_Z17instructionReturnPv+0x44>)
+  18:	6958      	ldr	r0, [r3, #20]
+  1a:	bd08      	pop	{r3, pc}
+  1c:	f000 0307 	and.w	r3, r0, #7
+  20:	2b07      	cmp	r3, #7
+  22:	d009      	beq.n	38 <_Z17instructionReturnPv+0x38>
+  24:	2000      	movs	r0, #0
+  26:	bd08      	pop	{r3, pc}
+  28:	b2c0      	uxtb	r0, r0
+  2a:	f7ff fffe 	bl	0 <_Z17instructionReturnPv>
+  2e:	4b05      	ldr	r3, [pc, #20]	; (44 <_Z17instructionReturnPv+0x44>)
+  30:	6c1b      	ldr	r3, [r3, #64]	; 0x40
+  32:	f853 0020 	ldr.w	r0, [r3, r0, lsl #2]
+  36:	bd08      	pop	{r3, pc}
+  38:	f3c0 00c2 	ubfx	r0, r0, #3, #3
+  3c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  40:	f7ff bffe 	b.w	0 <_Z17instructionReturnPv>
+  44:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z17instructionBranchPvPi:
+
+00000000 <_Z17instructionBranchPvPi>:
+   0:	8802      	ldrh	r2, [r0, #0]
+   2:	f402 4c7f 	and.w	ip, r2, #65280	; 0xff00
+   6:	b508      	push	{r3, lr}
+   8:	f5bc 4f8e 	cmp.w	ip, #18176	; 0x4700
+   c:	f04f 0300 	mov.w	r3, #0
+  10:	600b      	str	r3, [r1, #0]
+  12:	d00e      	beq.n	32 <_Z17instructionBranchPvPi+0x32>
+  14:	f402 4178 	and.w	r1, r2, #63488	; 0xf800
+  18:	f5b1 4f40 	cmp.w	r1, #49152	; 0xc000
+  1c:	d028      	beq.n	70 <_Z17instructionBranchPvPi+0x70>
+  1e:	f5b1 4f70 	cmp.w	r1, #61440	; 0xf000
+  22:	d00d      	beq.n	40 <_Z17instructionBranchPvPi+0x40>
+  24:	f402 4170 	and.w	r1, r2, #61440	; 0xf000
+  28:	f5b1 4f50 	cmp.w	r1, #53248	; 0xd000
+  2c:	d01b      	beq.n	66 <_Z17instructionBranchPvPi+0x66>
+  2e:	4618      	mov	r0, r3
+  30:	bd08      	pop	{r3, pc}
+  32:	f3c2 00c3 	ubfx	r0, r2, #3, #4
+  36:	f7ff fffe 	bl	0 <_Z17instructionBranchPvPi>
+  3a:	2301      	movs	r3, #1
+  3c:	600b      	str	r3, [r1, #0]
+  3e:	bd08      	pop	{r3, pc}
+  40:	8843      	ldrh	r3, [r0, #2]
+  42:	f002 023f 	and.w	r2, r2, #63	; 0x3f
+  46:	f3c3 030a 	ubfx	r3, r3, #0, #11
+  4a:	eb03 23c2 	add.w	r3, r3, r2, lsl #11
+  4e:	0952      	lsrs	r2, r2, #5
+  50:	d003      	beq.n	5a <_Z17instructionBranchPvPi+0x5a>
+  52:	ea6f 33c3 	mvn.w	r3, r3, lsl #15
+  56:	ea6f 33d3 	mvn.w	r3, r3, lsr #15
+  5a:	4a08      	ldr	r2, [pc, #32]	; (7c <_Z17instructionBranchPvPi+0x7c>)
+  5c:	6990      	ldr	r0, [r2, #24]
+  5e:	3004      	adds	r0, #4
+  60:	eb00 0043 	add.w	r0, r0, r3, lsl #1
+  64:	bd08      	pop	{r3, pc}
+  66:	4b05      	ldr	r3, [pc, #20]	; (7c <_Z17instructionBranchPvPi+0x7c>)
+  68:	6998      	ldr	r0, [r3, #24]
+  6a:	fa40 f082 	sxtab	r0, r0, r2
+  6e:	bd08      	pop	{r3, pc}
+  70:	4b02      	ldr	r3, [pc, #8]	; (7c <_Z17instructionBranchPvPi+0x7c>)
+  72:	f002 027f 	and.w	r2, r2, #127	; 0x7f
+  76:	6998      	ldr	r0, [r3, #24]
+  78:	4410      	add	r0, r2
+  7a:	bd08      	pop	{r3, pc}
+  7c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z12debug_actionv:
+
+00000000 <_Z12debug_actionv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4d0b      	ldr	r5, [pc, #44]	; (30 <_Z12debug_actionv+0x30>)
+   4:	2109      	movs	r1, #9
+   6:	4c0b      	ldr	r4, [pc, #44]	; (34 <_Z12debug_actionv+0x34>)
+   8:	f105 0058 	add.w	r0, r5, #88	; 0x58
+   c:	f7ff fffe 	bl	0 <usb_serial_write>
+  10:	4620      	mov	r0, r4
+  12:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  16:	f7ff fffe 	bl	0 <_Z12debug_actionv>
+  1a:	f105 0064 	add.w	r0, r5, #100	; 0x64
+  1e:	2104      	movs	r1, #4
+  20:	f7ff fffe 	bl	0 <usb_serial_write>
+  24:	4620      	mov	r0, r4
+  26:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  2a:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  2e:	bf00      	nop
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z17setBreakPointNextmm:
+
+00000000 <_Z17setBreakPointNextmm>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b083      	sub	sp, #12
+   4:	4605      	mov	r5, r0
+   6:	460c      	mov	r4, r1
+   8:	f7ff fffe 	bl	0 <_Z17setBreakPointNextmm>
+   c:	b1f8      	cbz	r0, 4e <_Z17setBreakPointNextmm+0x4e>
+   e:	4b1c      	ldr	r3, [pc, #112]	; (80 <_Z17setBreakPointNextmm+0x80>)
+  10:	4604      	mov	r4, r0
+  12:	6018      	str	r0, [r3, #0]
+  14:	f1a4 0220 	sub.w	r2, r4, #32
+  18:	4b1a      	ldr	r3, [pc, #104]	; (84 <_Z17setBreakPointNextmm+0x84>)
+  1a:	429a      	cmp	r2, r3
+  1c:	d815      	bhi.n	4a <_Z17setBreakPointNextmm+0x4a>
+  1e:	491a      	ldr	r1, [pc, #104]	; (88 <_Z17setBreakPointNextmm+0x88>)
+  20:	2300      	movs	r3, #0
+  22:	460a      	mov	r2, r1
+  24:	e002      	b.n	2c <_Z17setBreakPointNextmm+0x2c>
+  26:	3301      	adds	r3, #1
+  28:	2b20      	cmp	r3, #32
+  2a:	d00e      	beq.n	4a <_Z17setBreakPointNextmm+0x4a>
+  2c:	f852 0b04 	ldr.w	r0, [r2], #4
+  30:	2800      	cmp	r0, #0
+  32:	d1f8      	bne.n	26 <_Z17setBreakPointNextmm+0x26>
+  34:	f024 0401 	bic.w	r4, r4, #1
+  38:	4814      	ldr	r0, [pc, #80]	; (8c <_Z17setBreakPointNextmm+0x8c>)
+  3a:	f64d 7210 	movw	r2, #57104	; 0xdf10
+  3e:	8825      	ldrh	r5, [r4, #0]
+  40:	f841 4023 	str.w	r4, [r1, r3, lsl #2]
+  44:	f820 5013 	strh.w	r5, [r0, r3, lsl #1]
+  48:	8022      	strh	r2, [r4, #0]
+  4a:	b003      	add	sp, #12
+  4c:	bd30      	pop	{r4, r5, pc}
+  4e:	a901      	add	r1, sp, #4
+  50:	4628      	mov	r0, r5
+  52:	f7ff fffe 	bl	0 <_Z17setBreakPointNextmm>
+  56:	b118      	cbz	r0, 60 <_Z17setBreakPointNextmm+0x60>
+  58:	4a0d      	ldr	r2, [pc, #52]	; (90 <_Z17setBreakPointNextmm+0x90>)
+  5a:	6010      	str	r0, [r2, #0]
+  5c:	f7ff fffe 	bl	0 <_Z17setBreakPointNextmm>
+  60:	882b      	ldrh	r3, [r5, #0]
+  62:	f403 4278 	and.w	r2, r3, #63488	; 0xf800
+  66:	f5b2 4f70 	cmp.w	r2, #61440	; 0xf000
+  6a:	d007      	beq.n	7c <_Z17setBreakPointNextmm+0x7c>
+  6c:	f403 4368 	and.w	r3, r3, #59392	; 0xe800
+  70:	f5b3 4f68 	cmp.w	r3, #59392	; 0xe800
+  74:	d002      	beq.n	7c <_Z17setBreakPointNextmm+0x7c>
+  76:	4b02      	ldr	r3, [pc, #8]	; (80 <_Z17setBreakPointNextmm+0x80>)
+  78:	601c      	str	r4, [r3, #0]
+  7a:	e7cb      	b.n	14 <_Z17setBreakPointNextmm+0x14>
+  7c:	3402      	adds	r4, #2
+  7e:	e7fa      	b.n	76 <_Z17setBreakPointNextmm+0x76>
+  80:	00000000 	.word	0x00000000
+  84:	2027ffe0 	.word	0x2027ffe0
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z13debug_monitorv:
+
+00000000 <_Z13debug_monitorv>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	4d56      	ldr	r5, [pc, #344]	; (160 <_Z13debug_monitorv+0x160>)
+   6:	f8df 817c 	ldr.w	r8, [pc, #380]	; 184 <_Z13debug_monitorv+0x184>
+   a:	69af      	ldr	r7, [r5, #24]
+   c:	f837 3c02 	ldrh.w	r3, [r7, #-2]
+  10:	1ebe      	subs	r6, r7, #2
+  12:	f503 5303 	add.w	r3, r3, #8384	; 0x20c0
+  16:	332f      	adds	r3, #47	; 0x2f
+  18:	b29b      	uxth	r3, r3
+  1a:	2b01      	cmp	r3, #1
+  1c:	d902      	bls.n	24 <_Z13debug_monitorv+0x24>
+  1e:	f8d8 3000 	ldr.w	r3, [r8]
+  22:	b1ab      	cbz	r3, 50 <_Z13debug_monitorv+0x50>
+  24:	6c2b      	ldr	r3, [r5, #64]	; 0x40
+  26:	3368      	adds	r3, #104	; 0x68
+  28:	642b      	str	r3, [r5, #64]	; 0x40
+  2a:	4b4e      	ldr	r3, [pc, #312]	; (164 <_Z13debug_monitorv+0x164>)
+  2c:	681b      	ldr	r3, [r3, #0]
+  2e:	2b00      	cmp	r3, #0
+  30:	f000 8093 	beq.w	15a <_Z13debug_monitorv+0x15a>
+  34:	4798      	blx	r3
+  36:	4c4c      	ldr	r4, [pc, #304]	; (168 <_Z13debug_monitorv+0x168>)
+  38:	2500      	movs	r5, #0
+  3a:	6823      	ldr	r3, [r4, #0]
+  3c:	f8c8 5000 	str.w	r5, [r8]
+  40:	2b00      	cmp	r3, #0
+  42:	d167      	bne.n	114 <_Z13debug_monitorv+0x114>
+  44:	4c49      	ldr	r4, [pc, #292]	; (16c <_Z13debug_monitorv+0x16c>)
+  46:	6820      	ldr	r0, [r4, #0]
+  48:	2800      	cmp	r0, #0
+  4a:	d143      	bne.n	d4 <_Z13debug_monitorv+0xd4>
+  4c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  50:	4a47      	ldr	r2, [pc, #284]	; (170 <_Z13debug_monitorv+0x170>)
+  52:	f1a7 0122 	sub.w	r1, r7, #34	; 0x22
+  56:	61ae      	str	r6, [r5, #24]
+  58:	6812      	ldr	r2, [r2, #0]
+  5a:	6196      	str	r6, [r2, #24]
+  5c:	4a45      	ldr	r2, [pc, #276]	; (174 <_Z13debug_monitorv+0x174>)
+  5e:	4291      	cmp	r1, r2
+  60:	d813      	bhi.n	8a <_Z13debug_monitorv+0x8a>
+  62:	f8df c124 	ldr.w	ip, [pc, #292]	; 188 <_Z13debug_monitorv+0x188>
+  66:	f026 0101 	bic.w	r1, r6, #1
+  6a:	4662      	mov	r2, ip
+  6c:	e002      	b.n	74 <_Z13debug_monitorv+0x74>
+  6e:	3301      	adds	r3, #1
+  70:	2b20      	cmp	r3, #32
+  72:	d00a      	beq.n	8a <_Z13debug_monitorv+0x8a>
+  74:	f852 4b04 	ldr.w	r4, [r2], #4
+  78:	428c      	cmp	r4, r1
+  7a:	d1f8      	bne.n	6e <_Z13debug_monitorv+0x6e>
+  7c:	4a3e      	ldr	r2, [pc, #248]	; (178 <_Z13debug_monitorv+0x178>)
+  7e:	2000      	movs	r0, #0
+  80:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+  84:	f84c 0023 	str.w	r0, [ip, r3, lsl #2]
+  88:	800a      	strh	r2, [r1, #0]
+  8a:	4c3c      	ldr	r4, [pc, #240]	; (17c <_Z13debug_monitorv+0x17c>)
+  8c:	6820      	ldr	r0, [r4, #0]
+  8e:	2800      	cmp	r0, #0
+  90:	d146      	bne.n	120 <_Z13debug_monitorv+0x120>
+  92:	4c3b      	ldr	r4, [pc, #236]	; (180 <_Z13debug_monitorv+0x180>)
+  94:	6820      	ldr	r0, [r4, #0]
+  96:	2800      	cmp	r0, #0
+  98:	d0c4      	beq.n	24 <_Z13debug_monitorv+0x24>
+  9a:	f1a0 0220 	sub.w	r2, r0, #32
+  9e:	4b35      	ldr	r3, [pc, #212]	; (174 <_Z13debug_monitorv+0x174>)
+  a0:	429a      	cmp	r2, r3
+  a2:	d814      	bhi.n	ce <_Z13debug_monitorv+0xce>
+  a4:	f8df c0e0 	ldr.w	ip, [pc, #224]	; 188 <_Z13debug_monitorv+0x188>
+  a8:	f020 0001 	bic.w	r0, r0, #1
+  ac:	2300      	movs	r3, #0
+  ae:	4662      	mov	r2, ip
+  b0:	e002      	b.n	b8 <_Z13debug_monitorv+0xb8>
+  b2:	3301      	adds	r3, #1
+  b4:	2b20      	cmp	r3, #32
+  b6:	d00a      	beq.n	ce <_Z13debug_monitorv+0xce>
+  b8:	f852 1b04 	ldr.w	r1, [r2], #4
+  bc:	4281      	cmp	r1, r0
+  be:	d1f8      	bne.n	b2 <_Z13debug_monitorv+0xb2>
+  c0:	4a2d      	ldr	r2, [pc, #180]	; (178 <_Z13debug_monitorv+0x178>)
+  c2:	2100      	movs	r1, #0
+  c4:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+  c8:	f84c 1023 	str.w	r1, [ip, r3, lsl #2]
+  cc:	8002      	strh	r2, [r0, #0]
+  ce:	2300      	movs	r3, #0
+  d0:	6023      	str	r3, [r4, #0]
+  d2:	e7a7      	b.n	24 <_Z13debug_monitorv+0x24>
+  d4:	f1a0 0220 	sub.w	r2, r0, #32
+  d8:	4b26      	ldr	r3, [pc, #152]	; (174 <_Z13debug_monitorv+0x174>)
+  da:	429a      	cmp	r2, r3
+  dc:	d816      	bhi.n	10c <_Z13debug_monitorv+0x10c>
+  de:	f8df c0a8 	ldr.w	ip, [pc, #168]	; 188 <_Z13debug_monitorv+0x188>
+  e2:	2300      	movs	r3, #0
+  e4:	4662      	mov	r2, ip
+  e6:	e002      	b.n	ee <_Z13debug_monitorv+0xee>
+  e8:	3301      	adds	r3, #1
+  ea:	2b20      	cmp	r3, #32
+  ec:	d00e      	beq.n	10c <_Z13debug_monitorv+0x10c>
+  ee:	f852 1b04 	ldr.w	r1, [r2], #4
+  f2:	2900      	cmp	r1, #0
+  f4:	d1f8      	bne.n	e8 <_Z13debug_monitorv+0xe8>
+  f6:	f020 0001 	bic.w	r0, r0, #1
+  fa:	4a1f      	ldr	r2, [pc, #124]	; (178 <_Z13debug_monitorv+0x178>)
+  fc:	8801      	ldrh	r1, [r0, #0]
+  fe:	f84c 0023 	str.w	r0, [ip, r3, lsl #2]
+ 102:	f822 1013 	strh.w	r1, [r2, r3, lsl #1]
+ 106:	f64d 7210 	movw	r2, #57104	; 0xdf10
+ 10a:	8002      	strh	r2, [r0, #0]
+ 10c:	2300      	movs	r3, #0
+ 10e:	6023      	str	r3, [r4, #0]
+ 110:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+ 114:	4639      	mov	r1, r7
+ 116:	4630      	mov	r0, r6
+ 118:	f7ff fffe 	bl	0 <_Z13debug_monitorv>
+ 11c:	6025      	str	r5, [r4, #0]
+ 11e:	e791      	b.n	44 <_Z13debug_monitorv+0x44>
+ 120:	f1a0 0220 	sub.w	r2, r0, #32
+ 124:	4b13      	ldr	r3, [pc, #76]	; (174 <_Z13debug_monitorv+0x174>)
+ 126:	429a      	cmp	r2, r3
+ 128:	d814      	bhi.n	154 <_Z13debug_monitorv+0x154>
+ 12a:	f8df c05c 	ldr.w	ip, [pc, #92]	; 188 <_Z13debug_monitorv+0x188>
+ 12e:	f020 0001 	bic.w	r0, r0, #1
+ 132:	2300      	movs	r3, #0
+ 134:	4662      	mov	r2, ip
+ 136:	e002      	b.n	13e <_Z13debug_monitorv+0x13e>
+ 138:	3301      	adds	r3, #1
+ 13a:	2b20      	cmp	r3, #32
+ 13c:	d00a      	beq.n	154 <_Z13debug_monitorv+0x154>
+ 13e:	f852 1b04 	ldr.w	r1, [r2], #4
+ 142:	4288      	cmp	r0, r1
+ 144:	d1f8      	bne.n	138 <_Z13debug_monitorv+0x138>
+ 146:	4a0c      	ldr	r2, [pc, #48]	; (178 <_Z13debug_monitorv+0x178>)
+ 148:	2100      	movs	r1, #0
+ 14a:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+ 14e:	f84c 1023 	str.w	r1, [ip, r3, lsl #2]
+ 152:	8002      	strh	r2, [r0, #0]
+ 154:	2300      	movs	r3, #0
+ 156:	6023      	str	r3, [r4, #0]
+ 158:	e79b      	b.n	92 <_Z13debug_monitorv+0x92>
+ 15a:	f7ff fffe 	bl	0 <_Z13debug_monitorv>
+ 15e:	e76a      	b.n	36 <_Z13debug_monitorv+0x36>
+ 160:	00000000 	.word	0x00000000
+ 164:	00000000 	.word	0x00000000
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000000 	.word	0x00000000
+ 170:	00000000 	.word	0x00000000
+ 174:	2027ffe0 	.word	0x2027ffe0
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z14debug_call_isrv:
+
+00000000 <_Z14debug_call_isrv>:
+   0:	b672      	cpsid	i
+   2:	4838      	ldr	r0, [pc, #224]	; (e4 <_Z14debug_call_isrv+0xe4>)
+   4:	f8c0 d000 	str.w	sp, [r0]
+   8:	4836      	ldr	r0, [pc, #216]	; (e4 <_Z14debug_call_isrv+0xe4>)
+   a:	6801      	ldr	r1, [r0, #0]
+   c:	4836      	ldr	r0, [pc, #216]	; (e8 <_Z14debug_call_isrv+0xe8>)
+   e:	680a      	ldr	r2, [r1, #0]
+  10:	6002      	str	r2, [r0, #0]
+  12:	684a      	ldr	r2, [r1, #4]
+  14:	6042      	str	r2, [r0, #4]
+  16:	688a      	ldr	r2, [r1, #8]
+  18:	6082      	str	r2, [r0, #8]
+  1a:	68ca      	ldr	r2, [r1, #12]
+  1c:	60c2      	str	r2, [r0, #12]
+  1e:	690a      	ldr	r2, [r1, #16]
+  20:	6102      	str	r2, [r0, #16]
+  22:	694a      	ldr	r2, [r1, #20]
+  24:	6142      	str	r2, [r0, #20]
+  26:	698a      	ldr	r2, [r1, #24]
+  28:	6182      	str	r2, [r0, #24]
+  2a:	69ca      	ldr	r2, [r1, #28]
+  2c:	61c2      	str	r2, [r0, #28]
+  2e:	6204      	str	r4, [r0, #32]
+  30:	6245      	str	r5, [r0, #36]	; 0x24
+  32:	6286      	str	r6, [r0, #40]	; 0x28
+  34:	62c7      	str	r7, [r0, #44]	; 0x2c
+  36:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  3a:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3e:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  42:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  46:	6401      	str	r1, [r0, #64]	; 0x40
+  48:	b662      	cpsie	i
+  4a:	b500      	push	{lr}
+  4c:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  50:	2240      	movs	r2, #64	; 0x40
+  52:	4c21      	ldr	r4, [pc, #132]	; (d8 <_Z14debug_call_isrv+0xd8>)
+  54:	f8c3 2288 	str.w	r2, [r3, #648]	; 0x288
+  58:	6823      	ldr	r3, [r4, #0]
+  5a:	2b00      	cmp	r3, #0
+  5c:	d034      	beq.n	c8 <_Z14debug_call_isrv+0xc8>
+  5e:	2b02      	cmp	r3, #2
+  60:	d104      	bne.n	6c <_Z14debug_call_isrv+0x6c>
+  62:	f7ff fffe 	bl	0 <yield>
+  66:	f7ff fffe 	bl	0 <yield>
+  6a:	e7fa      	b.n	62 <_Z14debug_call_isrv+0x62>
+  6c:	f7ff fffe 	bl	0 <_Z14debug_call_isrv>
+  70:	4b1a      	ldr	r3, [pc, #104]	; (dc <_Z14debug_call_isrv+0xdc>)
+  72:	2200      	movs	r2, #0
+  74:	6819      	ldr	r1, [r3, #0]
+  76:	6022      	str	r2, [r4, #0]
+  78:	2900      	cmp	r1, #0
+  7a:	d02c      	beq.n	d6 <_Z14debug_call_isrv+0xd6>
+  7c:	601a      	str	r2, [r3, #0]
+  7e:	f85d cb04 	ldr.w	ip, [sp], #4
+  82:	b672      	cpsid	i
+  84:	4817      	ldr	r0, [pc, #92]	; (e4 <_Z14debug_call_isrv+0xe4>)
+  86:	6801      	ldr	r1, [r0, #0]
+  88:	4817      	ldr	r0, [pc, #92]	; (e8 <_Z14debug_call_isrv+0xe8>)
+  8a:	6802      	ldr	r2, [r0, #0]
+  8c:	600a      	str	r2, [r1, #0]
+  8e:	6842      	ldr	r2, [r0, #4]
+  90:	604a      	str	r2, [r1, #4]
+  92:	6882      	ldr	r2, [r0, #8]
+  94:	608a      	str	r2, [r1, #8]
+  96:	68c2      	ldr	r2, [r0, #12]
+  98:	60ca      	str	r2, [r1, #12]
+  9a:	6902      	ldr	r2, [r0, #16]
+  9c:	610a      	str	r2, [r1, #16]
+  9e:	6942      	ldr	r2, [r0, #20]
+  a0:	614a      	str	r2, [r1, #20]
+  a2:	6982      	ldr	r2, [r0, #24]
+  a4:	618a      	str	r2, [r1, #24]
+  a6:	69c2      	ldr	r2, [r0, #28]
+  a8:	61ca      	str	r2, [r1, #28]
+  aa:	6a04      	ldr	r4, [r0, #32]
+  ac:	6a45      	ldr	r5, [r0, #36]	; 0x24
+  ae:	6a86      	ldr	r6, [r0, #40]	; 0x28
+  b0:	6ac7      	ldr	r7, [r0, #44]	; 0x2c
+  b2:	f8d0 8030 	ldr.w	r8, [r0, #48]	; 0x30
+  b6:	f8d0 9034 	ldr.w	r9, [r0, #52]	; 0x34
+  ba:	f8d0 a038 	ldr.w	sl, [r0, #56]	; 0x38
+  be:	f8d0 b03c 	ldr.w	fp, [r0, #60]	; 0x3c
+  c2:	b662      	cpsie	i
+  c4:	46e6      	mov	lr, ip
+  c6:	4770      	bx	lr
+  c8:	4b05      	ldr	r3, [pc, #20]	; (e0 <_Z14debug_call_isrv+0xe0>)
+  ca:	681a      	ldr	r2, [r3, #0]
+  cc:	b122      	cbz	r2, d8 <_Z14debug_call_isrv+0xd8>
+  ce:	f85d eb04 	ldr.w	lr, [sp], #4
+  d2:	681b      	ldr	r3, [r3, #0]
+  d4:	469f      	mov	pc, r3
+  d6:	bd00      	pop	{pc}
+  d8:	00000000 	.word	0x00000000
+  dc:	00000000 	.word	0x00000000
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z20debug_call_isr_setupv:
+
+00000000 <_Z20debug_call_isr_setupv>:
+   0:	4a07      	ldr	r2, [pc, #28]	; (20 <_Z20debug_call_isr_setupv+0x20>)
+   2:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+   6:	4807      	ldr	r0, [pc, #28]	; (24 <_Z20debug_call_isr_setupv+0x24>)
+   8:	6813      	ldr	r3, [r2, #0]
+   a:	b410      	push	{r4}
+   c:	2401      	movs	r4, #1
+   e:	6004      	str	r4, [r0, #0]
+  10:	4423      	add	r3, r4
+  12:	2040      	movs	r0, #64	; 0x40
+  14:	f85d 4b04 	ldr.w	r4, [sp], #4
+  18:	6013      	str	r3, [r2, #0]
+  1a:	f8c1 0208 	str.w	r0, [r1, #520]	; 0x208
+  1e:	4770      	bx	lr
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z12call_nmi_isrv:
+
+00000000 <_Z12call_nmi_isrv>:
+   0:	4818      	ldr	r0, [pc, #96]	; (64 <_Z12call_nmi_isrv+0x64>)
+   2:	f8c0 d000 	str.w	sp, [r0]
+   6:	4817      	ldr	r0, [pc, #92]	; (64 <_Z12call_nmi_isrv+0x64>)
+   8:	6801      	ldr	r1, [r0, #0]
+   a:	4817      	ldr	r0, [pc, #92]	; (68 <_Z12call_nmi_isrv+0x68>)
+   c:	680a      	ldr	r2, [r1, #0]
+   e:	6002      	str	r2, [r0, #0]
+  10:	684a      	ldr	r2, [r1, #4]
+  12:	6042      	str	r2, [r0, #4]
+  14:	688a      	ldr	r2, [r1, #8]
+  16:	6082      	str	r2, [r0, #8]
+  18:	68ca      	ldr	r2, [r1, #12]
+  1a:	60c2      	str	r2, [r0, #12]
+  1c:	690a      	ldr	r2, [r1, #16]
+  1e:	6102      	str	r2, [r0, #16]
+  20:	694a      	ldr	r2, [r1, #20]
+  22:	6142      	str	r2, [r0, #20]
+  24:	698a      	ldr	r2, [r1, #24]
+  26:	6182      	str	r2, [r0, #24]
+  28:	69ca      	ldr	r2, [r1, #28]
+  2a:	61c2      	str	r2, [r0, #28]
+  2c:	6204      	str	r4, [r0, #32]
+  2e:	6245      	str	r5, [r0, #36]	; 0x24
+  30:	6286      	str	r6, [r0, #40]	; 0x28
+  32:	62c7      	str	r7, [r0, #44]	; 0x2c
+  34:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  38:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3c:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  40:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  44:	6401      	str	r1, [r0, #64]	; 0x40
+  46:	b500      	push	{lr}
+  48:	4b04      	ldr	r3, [pc, #16]	; (5c <_Z12call_nmi_isrv+0x5c>)
+  4a:	2201      	movs	r2, #1
+  4c:	601a      	str	r2, [r3, #0]
+  4e:	4b04      	ldr	r3, [pc, #16]	; (60 <_Z12call_nmi_isrv+0x60>)
+  50:	2202      	movs	r2, #2
+  52:	601a      	str	r2, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_Z12call_nmi_isrv>
+  58:	bd00      	pop	{pc}
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z19call_hard_fault_isrv:
+
+00000000 <_Z19call_hard_fault_isrv>:
+   0:	4818      	ldr	r0, [pc, #96]	; (64 <_Z19call_hard_fault_isrv+0x64>)
+   2:	f8c0 d000 	str.w	sp, [r0]
+   6:	4817      	ldr	r0, [pc, #92]	; (64 <_Z19call_hard_fault_isrv+0x64>)
+   8:	6801      	ldr	r1, [r0, #0]
+   a:	4817      	ldr	r0, [pc, #92]	; (68 <_Z19call_hard_fault_isrv+0x68>)
+   c:	680a      	ldr	r2, [r1, #0]
+   e:	6002      	str	r2, [r0, #0]
+  10:	684a      	ldr	r2, [r1, #4]
+  12:	6042      	str	r2, [r0, #4]
+  14:	688a      	ldr	r2, [r1, #8]
+  16:	6082      	str	r2, [r0, #8]
+  18:	68ca      	ldr	r2, [r1, #12]
+  1a:	60c2      	str	r2, [r0, #12]
+  1c:	690a      	ldr	r2, [r1, #16]
+  1e:	6102      	str	r2, [r0, #16]
+  20:	694a      	ldr	r2, [r1, #20]
+  22:	6142      	str	r2, [r0, #20]
+  24:	698a      	ldr	r2, [r1, #24]
+  26:	6182      	str	r2, [r0, #24]
+  28:	69ca      	ldr	r2, [r1, #28]
+  2a:	61c2      	str	r2, [r0, #28]
+  2c:	6204      	str	r4, [r0, #32]
+  2e:	6245      	str	r5, [r0, #36]	; 0x24
+  30:	6286      	str	r6, [r0, #40]	; 0x28
+  32:	62c7      	str	r7, [r0, #44]	; 0x2c
+  34:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  38:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3c:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  40:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  44:	6401      	str	r1, [r0, #64]	; 0x40
+  46:	b500      	push	{lr}
+  48:	4b04      	ldr	r3, [pc, #16]	; (5c <_Z19call_hard_fault_isrv+0x5c>)
+  4a:	2201      	movs	r2, #1
+  4c:	601a      	str	r2, [r3, #0]
+  4e:	4b04      	ldr	r3, [pc, #16]	; (60 <_Z19call_hard_fault_isrv+0x60>)
+  50:	2203      	movs	r2, #3
+  52:	601a      	str	r2, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_Z19call_hard_fault_isrv>
+  58:	bd00      	pop	{pc}
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z24call_memmanage_fault_isrv:
+
+00000000 <_Z24call_memmanage_fault_isrv>:
+   0:	4818      	ldr	r0, [pc, #96]	; (64 <_Z24call_memmanage_fault_isrv+0x64>)
+   2:	f8c0 d000 	str.w	sp, [r0]
+   6:	4817      	ldr	r0, [pc, #92]	; (64 <_Z24call_memmanage_fault_isrv+0x64>)
+   8:	6801      	ldr	r1, [r0, #0]
+   a:	4817      	ldr	r0, [pc, #92]	; (68 <_Z24call_memmanage_fault_isrv+0x68>)
+   c:	680a      	ldr	r2, [r1, #0]
+   e:	6002      	str	r2, [r0, #0]
+  10:	684a      	ldr	r2, [r1, #4]
+  12:	6042      	str	r2, [r0, #4]
+  14:	688a      	ldr	r2, [r1, #8]
+  16:	6082      	str	r2, [r0, #8]
+  18:	68ca      	ldr	r2, [r1, #12]
+  1a:	60c2      	str	r2, [r0, #12]
+  1c:	690a      	ldr	r2, [r1, #16]
+  1e:	6102      	str	r2, [r0, #16]
+  20:	694a      	ldr	r2, [r1, #20]
+  22:	6142      	str	r2, [r0, #20]
+  24:	698a      	ldr	r2, [r1, #24]
+  26:	6182      	str	r2, [r0, #24]
+  28:	69ca      	ldr	r2, [r1, #28]
+  2a:	61c2      	str	r2, [r0, #28]
+  2c:	6204      	str	r4, [r0, #32]
+  2e:	6245      	str	r5, [r0, #36]	; 0x24
+  30:	6286      	str	r6, [r0, #40]	; 0x28
+  32:	62c7      	str	r7, [r0, #44]	; 0x2c
+  34:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  38:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3c:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  40:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  44:	6401      	str	r1, [r0, #64]	; 0x40
+  46:	b500      	push	{lr}
+  48:	4b04      	ldr	r3, [pc, #16]	; (5c <_Z24call_memmanage_fault_isrv+0x5c>)
+  4a:	2201      	movs	r2, #1
+  4c:	601a      	str	r2, [r3, #0]
+  4e:	4b04      	ldr	r3, [pc, #16]	; (60 <_Z24call_memmanage_fault_isrv+0x60>)
+  50:	2204      	movs	r2, #4
+  52:	601a      	str	r2, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_Z24call_memmanage_fault_isrv>
+  58:	bd00      	pop	{pc}
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z18call_bus_fault_isrv:
+
+00000000 <_Z18call_bus_fault_isrv>:
+   0:	4818      	ldr	r0, [pc, #96]	; (64 <_Z18call_bus_fault_isrv+0x64>)
+   2:	f8c0 d000 	str.w	sp, [r0]
+   6:	4817      	ldr	r0, [pc, #92]	; (64 <_Z18call_bus_fault_isrv+0x64>)
+   8:	6801      	ldr	r1, [r0, #0]
+   a:	4817      	ldr	r0, [pc, #92]	; (68 <_Z18call_bus_fault_isrv+0x68>)
+   c:	680a      	ldr	r2, [r1, #0]
+   e:	6002      	str	r2, [r0, #0]
+  10:	684a      	ldr	r2, [r1, #4]
+  12:	6042      	str	r2, [r0, #4]
+  14:	688a      	ldr	r2, [r1, #8]
+  16:	6082      	str	r2, [r0, #8]
+  18:	68ca      	ldr	r2, [r1, #12]
+  1a:	60c2      	str	r2, [r0, #12]
+  1c:	690a      	ldr	r2, [r1, #16]
+  1e:	6102      	str	r2, [r0, #16]
+  20:	694a      	ldr	r2, [r1, #20]
+  22:	6142      	str	r2, [r0, #20]
+  24:	698a      	ldr	r2, [r1, #24]
+  26:	6182      	str	r2, [r0, #24]
+  28:	69ca      	ldr	r2, [r1, #28]
+  2a:	61c2      	str	r2, [r0, #28]
+  2c:	6204      	str	r4, [r0, #32]
+  2e:	6245      	str	r5, [r0, #36]	; 0x24
+  30:	6286      	str	r6, [r0, #40]	; 0x28
+  32:	62c7      	str	r7, [r0, #44]	; 0x2c
+  34:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  38:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3c:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  40:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  44:	6401      	str	r1, [r0, #64]	; 0x40
+  46:	b500      	push	{lr}
+  48:	4b04      	ldr	r3, [pc, #16]	; (5c <_Z18call_bus_fault_isrv+0x5c>)
+  4a:	2201      	movs	r2, #1
+  4c:	601a      	str	r2, [r3, #0]
+  4e:	4b04      	ldr	r3, [pc, #16]	; (60 <_Z18call_bus_fault_isrv+0x60>)
+  50:	2205      	movs	r2, #5
+  52:	601a      	str	r2, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_Z18call_bus_fault_isrv>
+  58:	bd00      	pop	{pc}
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z20call_usage_fault_isrv:
+
+00000000 <_Z20call_usage_fault_isrv>:
+   0:	4818      	ldr	r0, [pc, #96]	; (64 <_Z20call_usage_fault_isrv+0x64>)
+   2:	f8c0 d000 	str.w	sp, [r0]
+   6:	4817      	ldr	r0, [pc, #92]	; (64 <_Z20call_usage_fault_isrv+0x64>)
+   8:	6801      	ldr	r1, [r0, #0]
+   a:	4817      	ldr	r0, [pc, #92]	; (68 <_Z20call_usage_fault_isrv+0x68>)
+   c:	680a      	ldr	r2, [r1, #0]
+   e:	6002      	str	r2, [r0, #0]
+  10:	684a      	ldr	r2, [r1, #4]
+  12:	6042      	str	r2, [r0, #4]
+  14:	688a      	ldr	r2, [r1, #8]
+  16:	6082      	str	r2, [r0, #8]
+  18:	68ca      	ldr	r2, [r1, #12]
+  1a:	60c2      	str	r2, [r0, #12]
+  1c:	690a      	ldr	r2, [r1, #16]
+  1e:	6102      	str	r2, [r0, #16]
+  20:	694a      	ldr	r2, [r1, #20]
+  22:	6142      	str	r2, [r0, #20]
+  24:	698a      	ldr	r2, [r1, #24]
+  26:	6182      	str	r2, [r0, #24]
+  28:	69ca      	ldr	r2, [r1, #28]
+  2a:	61c2      	str	r2, [r0, #28]
+  2c:	6204      	str	r4, [r0, #32]
+  2e:	6245      	str	r5, [r0, #36]	; 0x24
+  30:	6286      	str	r6, [r0, #40]	; 0x28
+  32:	62c7      	str	r7, [r0, #44]	; 0x2c
+  34:	f8c0 8030 	str.w	r8, [r0, #48]	; 0x30
+  38:	f8c0 9034 	str.w	r9, [r0, #52]	; 0x34
+  3c:	f8c0 a038 	str.w	sl, [r0, #56]	; 0x38
+  40:	f8c0 b03c 	str.w	fp, [r0, #60]	; 0x3c
+  44:	6401      	str	r1, [r0, #64]	; 0x40
+  46:	b500      	push	{lr}
+  48:	4b04      	ldr	r3, [pc, #16]	; (5c <_Z20call_usage_fault_isrv+0x5c>)
+  4a:	2201      	movs	r2, #1
+  4c:	601a      	str	r2, [r3, #0]
+  4e:	4b04      	ldr	r3, [pc, #16]	; (60 <_Z20call_usage_fault_isrv+0x60>)
+  50:	2206      	movs	r2, #6
+  52:	601a      	str	r2, [r3, #0]
+  54:	f7ff fffe 	bl	0 <_Z20call_usage_fault_isrv>
+  58:	bd00      	pop	{pc}
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z10testOurSVCv:
+
+00000000 <_Z10testOurSVCv>:
+   0:	4b0f      	ldr	r3, [pc, #60]	; (40 <_Z10testOurSVCv+0x40>)
+   2:	f64d 7210 	movw	r2, #57104	; 0xdf10
+   6:	6819      	ldr	r1, [r3, #0]
+   8:	880b      	ldrh	r3, [r1, #0]
+   a:	f023 030f 	bic.w	r3, r3, #15
+   e:	b29b      	uxth	r3, r3
+  10:	4293      	cmp	r3, r2
+  12:	d010      	beq.n	36 <_Z10testOurSVCv+0x36>
+  14:	f1a1 0220 	sub.w	r2, r1, #32
+  18:	4b0a      	ldr	r3, [pc, #40]	; (44 <_Z10testOurSVCv+0x44>)
+  1a:	429a      	cmp	r2, r3
+  1c:	d80b      	bhi.n	36 <_Z10testOurSVCv+0x36>
+  1e:	4b0a      	ldr	r3, [pc, #40]	; (48 <_Z10testOurSVCv+0x48>)
+  20:	f021 0101 	bic.w	r1, r1, #1
+  24:	f103 0080 	add.w	r0, r3, #128	; 0x80
+  28:	e001      	b.n	2e <_Z10testOurSVCv+0x2e>
+  2a:	4298      	cmp	r0, r3
+  2c:	d005      	beq.n	3a <_Z10testOurSVCv+0x3a>
+  2e:	f853 2b04 	ldr.w	r2, [r3], #4
+  32:	428a      	cmp	r2, r1
+  34:	d1f9      	bne.n	2a <_Z10testOurSVCv+0x2a>
+  36:	2001      	movs	r0, #1
+  38:	4770      	bx	lr
+  3a:	2000      	movs	r0, #0
+  3c:	4770      	bx	lr
+  3e:	bf00      	nop
+  40:	00000000 	.word	0x00000000
+  44:	2027ffe0 	.word	0x2027ffe0
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z10svcall_isrv:
+
+00000000 <_Z10svcall_isrv>:
+   0:	9806      	ldr	r0, [sp, #24]
+   2:	f1a0 0002 	sub.w	r0, r0, #2
+   6:	4910      	ldr	r1, [pc, #64]	; (48 <_Z10svcall_isrv+0x48>)
+   8:	6008      	str	r0, [r1, #0]
+   a:	b500      	push	{lr}
+   c:	f7ff fffe 	bl	0 <_Z10svcall_isrv>
+  10:	b160      	cbz	r0, 2c <_Z10svcall_isrv+0x2c>
+  12:	4a0a      	ldr	r2, [pc, #40]	; (3c <_Z10svcall_isrv+0x3c>)
+  14:	2401      	movs	r4, #1
+  16:	480a      	ldr	r0, [pc, #40]	; (40 <_Z10svcall_isrv+0x40>)
+  18:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+  1c:	6813      	ldr	r3, [r2, #0]
+  1e:	6004      	str	r4, [r0, #0]
+  20:	2040      	movs	r0, #64	; 0x40
+  22:	4423      	add	r3, r4
+  24:	6013      	str	r3, [r2, #0]
+  26:	f8c1 0208 	str.w	r0, [r1, #520]	; 0x208
+  2a:	bd00      	pop	{pc}
+  2c:	4b05      	ldr	r3, [pc, #20]	; (44 <_Z10svcall_isrv+0x44>)
+  2e:	681a      	ldr	r2, [r3, #0]
+  30:	b11a      	cbz	r2, 3a <_Z10svcall_isrv+0x3a>
+  32:	f85d eb04 	ldr.w	lr, [sp], #4
+  36:	681b      	ldr	r3, [r3, #0]
+  38:	469f      	mov	pc, r3
+  3a:	bd00      	pop	{pc}
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z14svc_call_tablev:
+
+00000000 <_Z14svc_call_tablev>:
+   0:	df10      	svc	16
+   2:	bf00      	nop
+   4:	df10      	svc	16
+   6:	bf00      	nop
+   8:	df10      	svc	16
+   a:	bf00      	nop
+   c:	df10      	svc	16
+   e:	bf00      	nop
+  10:	df10      	svc	16
+  12:	bf00      	nop
+  14:	df10      	svc	16
+  16:	bf00      	nop
+  18:	df10      	svc	16
+  1a:	bf00      	nop
+
+Disassembly of section .text._Z17debug_getRegisterPKc:
+
+00000000 <_Z17debug_getRegisterPKc>:
+   0:	b508      	push	{r3, lr}
+   2:	7803      	ldrb	r3, [r0, #0]
+   4:	2b72      	cmp	r3, #114	; 0x72
+   6:	d01f      	beq.n	48 <_Z17debug_getRegisterPKc+0x48>
+   8:	2b6c      	cmp	r3, #108	; 0x6c
+   a:	d00a      	beq.n	22 <_Z17debug_getRegisterPKc+0x22>
+   c:	7803      	ldrb	r3, [r0, #0]
+   e:	2b70      	cmp	r3, #112	; 0x70
+  10:	d110      	bne.n	34 <_Z17debug_getRegisterPKc+0x34>
+  12:	7842      	ldrb	r2, [r0, #1]
+  14:	2a63      	cmp	r2, #99	; 0x63
+  16:	d10d      	bne.n	34 <_Z17debug_getRegisterPKc+0x34>
+  18:	7882      	ldrb	r2, [r0, #2]
+  1a:	b95a      	cbnz	r2, 34 <_Z17debug_getRegisterPKc+0x34>
+  1c:	4b2e      	ldr	r3, [pc, #184]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  1e:	6998      	ldr	r0, [r3, #24]
+  20:	bd08      	pop	{r3, pc}
+  22:	7843      	ldrb	r3, [r0, #1]
+  24:	2b72      	cmp	r3, #114	; 0x72
+  26:	d1f1      	bne.n	c <_Z17debug_getRegisterPKc+0xc>
+  28:	7883      	ldrb	r3, [r0, #2]
+  2a:	2b00      	cmp	r3, #0
+  2c:	d1ee      	bne.n	c <_Z17debug_getRegisterPKc+0xc>
+  2e:	4b2a      	ldr	r3, [pc, #168]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  30:	6958      	ldr	r0, [r3, #20]
+  32:	bd08      	pop	{r3, pc}
+  34:	2b73      	cmp	r3, #115	; 0x73
+  36:	d120      	bne.n	7a <_Z17debug_getRegisterPKc+0x7a>
+  38:	7843      	ldrb	r3, [r0, #1]
+  3a:	2b70      	cmp	r3, #112	; 0x70
+  3c:	d11d      	bne.n	7a <_Z17debug_getRegisterPKc+0x7a>
+  3e:	7883      	ldrb	r3, [r0, #2]
+  40:	b9db      	cbnz	r3, 7a <_Z17debug_getRegisterPKc+0x7a>
+  42:	4b25      	ldr	r3, [pc, #148]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  44:	6c18      	ldr	r0, [r3, #64]	; 0x40
+  46:	bd08      	pop	{r3, pc}
+  48:	7883      	ldrb	r3, [r0, #2]
+  4a:	b15b      	cbz	r3, 64 <_Z17debug_getRegisterPKc+0x64>
+  4c:	7842      	ldrb	r2, [r0, #1]
+  4e:	2a31      	cmp	r2, #49	; 0x31
+  50:	d105      	bne.n	5e <_Z17debug_getRegisterPKc+0x5e>
+  52:	2b31      	cmp	r3, #49	; 0x31
+  54:	d03d      	beq.n	d2 <_Z17debug_getRegisterPKc+0xd2>
+  56:	2b32      	cmp	r3, #50	; 0x32
+  58:	d038      	beq.n	cc <_Z17debug_getRegisterPKc+0xcc>
+  5a:	2b30      	cmp	r3, #48	; 0x30
+  5c:	d033      	beq.n	c6 <_Z17debug_getRegisterPKc+0xc6>
+  5e:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  62:	bd08      	pop	{r3, pc}
+  64:	7843      	ldrb	r3, [r0, #1]
+  66:	3b30      	subs	r3, #48	; 0x30
+  68:	2b09      	cmp	r3, #9
+  6a:	d8f8      	bhi.n	5e <_Z17debug_getRegisterPKc+0x5e>
+  6c:	e8df f003 	tbb	[pc, r3]
+  70:	1f222528 	.word	0x1f222528
+  74:	1316191c 	.word	0x1316191c
+  78:	0d10      	.short	0x0d10
+  7a:	4918      	ldr	r1, [pc, #96]	; (dc <_Z17debug_getRegisterPKc+0xdc>)
+  7c:	f7ff fffe 	bl	0 <strcmp>
+  80:	2800      	cmp	r0, #0
+  82:	d1ec      	bne.n	5e <_Z17debug_getRegisterPKc+0x5e>
+  84:	4b14      	ldr	r3, [pc, #80]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  86:	69d8      	ldr	r0, [r3, #28]
+  88:	bd08      	pop	{r3, pc}
+  8a:	4b13      	ldr	r3, [pc, #76]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  8c:	6b58      	ldr	r0, [r3, #52]	; 0x34
+  8e:	bd08      	pop	{r3, pc}
+  90:	4b11      	ldr	r3, [pc, #68]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  92:	6b18      	ldr	r0, [r3, #48]	; 0x30
+  94:	bd08      	pop	{r3, pc}
+  96:	4b10      	ldr	r3, [pc, #64]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  98:	6ad8      	ldr	r0, [r3, #44]	; 0x2c
+  9a:	bd08      	pop	{r3, pc}
+  9c:	4b0e      	ldr	r3, [pc, #56]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  9e:	6a98      	ldr	r0, [r3, #40]	; 0x28
+  a0:	bd08      	pop	{r3, pc}
+  a2:	4b0d      	ldr	r3, [pc, #52]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  a4:	6a58      	ldr	r0, [r3, #36]	; 0x24
+  a6:	bd08      	pop	{r3, pc}
+  a8:	4b0b      	ldr	r3, [pc, #44]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  aa:	6a18      	ldr	r0, [r3, #32]
+  ac:	bd08      	pop	{r3, pc}
+  ae:	4b0a      	ldr	r3, [pc, #40]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  b0:	68d8      	ldr	r0, [r3, #12]
+  b2:	bd08      	pop	{r3, pc}
+  b4:	4b08      	ldr	r3, [pc, #32]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  b6:	6898      	ldr	r0, [r3, #8]
+  b8:	bd08      	pop	{r3, pc}
+  ba:	4b07      	ldr	r3, [pc, #28]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  bc:	6858      	ldr	r0, [r3, #4]
+  be:	bd08      	pop	{r3, pc}
+  c0:	4b05      	ldr	r3, [pc, #20]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  c2:	6818      	ldr	r0, [r3, #0]
+  c4:	bd08      	pop	{r3, pc}
+  c6:	4b04      	ldr	r3, [pc, #16]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  c8:	6b98      	ldr	r0, [r3, #56]	; 0x38
+  ca:	bd08      	pop	{r3, pc}
+  cc:	4b02      	ldr	r3, [pc, #8]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  ce:	6918      	ldr	r0, [r3, #16]
+  d0:	bd08      	pop	{r3, pc}
+  d2:	4b01      	ldr	r3, [pc, #4]	; (d8 <_Z17debug_getRegisterPKc+0xd8>)
+  d4:	6bd8      	ldr	r0, [r3, #60]	; 0x3c
+  d6:	bd08      	pop	{r3, pc}
+  d8:	00000000 	.word	0x00000000
+  dc:	0000006c 	.word	0x0000006c
+
+Disassembly of section .text._Z17debug_setRegisterPKcm:
+
+00000000 <_Z17debug_setRegisterPKcm>:
+   0:	4b40      	ldr	r3, [pc, #256]	; (104 <_Z17debug_setRegisterPKcm+0x104>)
+   2:	2201      	movs	r2, #1
+   4:	b510      	push	{r4, lr}
+   6:	601a      	str	r2, [r3, #0]
+   8:	460c      	mov	r4, r1
+   a:	7803      	ldrb	r3, [r0, #0]
+   c:	2b72      	cmp	r3, #114	; 0x72
+   e:	d017      	beq.n	40 <_Z17debug_setRegisterPKcm+0x40>
+  10:	2b6c      	cmp	r3, #108	; 0x6c
+  12:	d00b      	beq.n	2c <_Z17debug_setRegisterPKcm+0x2c>
+  14:	7803      	ldrb	r3, [r0, #0]
+  16:	2b70      	cmp	r3, #112	; 0x70
+  18:	d124      	bne.n	64 <_Z17debug_setRegisterPKcm+0x64>
+  1a:	7842      	ldrb	r2, [r0, #1]
+  1c:	2a63      	cmp	r2, #99	; 0x63
+  1e:	d121      	bne.n	64 <_Z17debug_setRegisterPKcm+0x64>
+  20:	7882      	ldrb	r2, [r0, #2]
+  22:	b9fa      	cbnz	r2, 64 <_Z17debug_setRegisterPKcm+0x64>
+  24:	4b38      	ldr	r3, [pc, #224]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  26:	2001      	movs	r0, #1
+  28:	619c      	str	r4, [r3, #24]
+  2a:	bd10      	pop	{r4, pc}
+  2c:	7843      	ldrb	r3, [r0, #1]
+  2e:	2b72      	cmp	r3, #114	; 0x72
+  30:	d1f0      	bne.n	14 <_Z17debug_setRegisterPKcm+0x14>
+  32:	7883      	ldrb	r3, [r0, #2]
+  34:	2b00      	cmp	r3, #0
+  36:	d1ed      	bne.n	14 <_Z17debug_setRegisterPKcm+0x14>
+  38:	4b33      	ldr	r3, [pc, #204]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  3a:	4610      	mov	r0, r2
+  3c:	6159      	str	r1, [r3, #20]
+  3e:	bd10      	pop	{r4, pc}
+  40:	7883      	ldrb	r3, [r0, #2]
+  42:	b123      	cbz	r3, 4e <_Z17debug_setRegisterPKcm+0x4e>
+  44:	7841      	ldrb	r1, [r0, #1]
+  46:	2931      	cmp	r1, #49	; 0x31
+  48:	d019      	beq.n	7e <_Z17debug_setRegisterPKcm+0x7e>
+  4a:	4610      	mov	r0, r2
+  4c:	bd10      	pop	{r4, pc}
+  4e:	7843      	ldrb	r3, [r0, #1]
+  50:	3b30      	subs	r3, #48	; 0x30
+  52:	2b09      	cmp	r3, #9
+  54:	d819      	bhi.n	8a <_Z17debug_setRegisterPKcm+0x8a>
+  56:	e8df f003 	tbb	[pc, r3]
+  5a:	4d2d      	.short	0x4d2d
+  5c:	3d414549 	.word	0x3d414549
+  60:	29313539 	.word	0x29313539
+  64:	2b73      	cmp	r3, #115	; 0x73
+  66:	d102      	bne.n	6e <_Z17debug_setRegisterPKcm+0x6e>
+  68:	7843      	ldrb	r3, [r0, #1]
+  6a:	2b70      	cmp	r3, #112	; 0x70
+  6c:	d00f      	beq.n	8e <_Z17debug_setRegisterPKcm+0x8e>
+  6e:	4927      	ldr	r1, [pc, #156]	; (10c <_Z17debug_setRegisterPKcm+0x10c>)
+  70:	f7ff fffe 	bl	0 <strcmp>
+  74:	b948      	cbnz	r0, 8a <_Z17debug_setRegisterPKcm+0x8a>
+  76:	4b24      	ldr	r3, [pc, #144]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  78:	2001      	movs	r0, #1
+  7a:	61dc      	str	r4, [r3, #28]
+  7c:	bd10      	pop	{r4, pc}
+  7e:	2b31      	cmp	r3, #49	; 0x31
+  80:	d03c      	beq.n	fc <_Z17debug_setRegisterPKcm+0xfc>
+  82:	2b32      	cmp	r3, #50	; 0x32
+  84:	d00e      	beq.n	a4 <_Z17debug_setRegisterPKcm+0xa4>
+  86:	2b30      	cmp	r3, #48	; 0x30
+  88:	d008      	beq.n	9c <_Z17debug_setRegisterPKcm+0x9c>
+  8a:	2000      	movs	r0, #0
+  8c:	bd10      	pop	{r4, pc}
+  8e:	7883      	ldrb	r3, [r0, #2]
+  90:	2b00      	cmp	r3, #0
+  92:	d1ec      	bne.n	6e <_Z17debug_setRegisterPKcm+0x6e>
+  94:	4b1c      	ldr	r3, [pc, #112]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  96:	2001      	movs	r0, #1
+  98:	641c      	str	r4, [r3, #64]	; 0x40
+  9a:	bd10      	pop	{r4, pc}
+  9c:	4b1a      	ldr	r3, [pc, #104]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  9e:	4610      	mov	r0, r2
+  a0:	639c      	str	r4, [r3, #56]	; 0x38
+  a2:	bd10      	pop	{r4, pc}
+  a4:	4b18      	ldr	r3, [pc, #96]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  a6:	4610      	mov	r0, r2
+  a8:	611c      	str	r4, [r3, #16]
+  aa:	bd10      	pop	{r4, pc}
+  ac:	4b16      	ldr	r3, [pc, #88]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  ae:	2001      	movs	r0, #1
+  b0:	6359      	str	r1, [r3, #52]	; 0x34
+  b2:	bd10      	pop	{r4, pc}
+  b4:	4b14      	ldr	r3, [pc, #80]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  b6:	2001      	movs	r0, #1
+  b8:	6019      	str	r1, [r3, #0]
+  ba:	bd10      	pop	{r4, pc}
+  bc:	4b12      	ldr	r3, [pc, #72]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  be:	2001      	movs	r0, #1
+  c0:	6319      	str	r1, [r3, #48]	; 0x30
+  c2:	bd10      	pop	{r4, pc}
+  c4:	4b10      	ldr	r3, [pc, #64]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  c6:	2001      	movs	r0, #1
+  c8:	62d9      	str	r1, [r3, #44]	; 0x2c
+  ca:	bd10      	pop	{r4, pc}
+  cc:	4b0e      	ldr	r3, [pc, #56]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  ce:	2001      	movs	r0, #1
+  d0:	6299      	str	r1, [r3, #40]	; 0x28
+  d2:	bd10      	pop	{r4, pc}
+  d4:	4b0c      	ldr	r3, [pc, #48]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  d6:	2001      	movs	r0, #1
+  d8:	6259      	str	r1, [r3, #36]	; 0x24
+  da:	bd10      	pop	{r4, pc}
+  dc:	4b0a      	ldr	r3, [pc, #40]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  de:	2001      	movs	r0, #1
+  e0:	6219      	str	r1, [r3, #32]
+  e2:	bd10      	pop	{r4, pc}
+  e4:	4b08      	ldr	r3, [pc, #32]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  e6:	2001      	movs	r0, #1
+  e8:	60d9      	str	r1, [r3, #12]
+  ea:	bd10      	pop	{r4, pc}
+  ec:	4b06      	ldr	r3, [pc, #24]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  ee:	2001      	movs	r0, #1
+  f0:	6099      	str	r1, [r3, #8]
+  f2:	bd10      	pop	{r4, pc}
+  f4:	4b04      	ldr	r3, [pc, #16]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  f6:	2001      	movs	r0, #1
+  f8:	6059      	str	r1, [r3, #4]
+  fa:	bd10      	pop	{r4, pc}
+  fc:	4b02      	ldr	r3, [pc, #8]	; (108 <_Z17debug_setRegisterPKcm+0x108>)
+  fe:	4610      	mov	r0, r2
+ 100:	63dc      	str	r4, [r3, #60]	; 0x3c
+ 102:	bd10      	pop	{r4, pc}
+ 104:	00000000 	.word	0x00000000
+ 108:	00000000 	.word	0x00000000
+ 10c:	0000006c 	.word	0x0000006c
+
+Disassembly of section .text._Z20debug_restoreRunModev:
+
+00000000 <_Z20debug_restoreRunModev>:
+   0:	2000      	movs	r0, #0
+   2:	4770      	bx	lr
+
+Disassembly of section .text._Z11flash_blinki:
+
+00000000 <_Z11flash_blinki>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	2300      	movs	r3, #0
+   4:	b083      	sub	sp, #12
+   6:	4604      	mov	r4, r0
+   8:	2101      	movs	r1, #1
+   a:	200d      	movs	r0, #13
+   c:	9301      	str	r3, [sp, #4]
+   e:	f7ff fffe 	bl	0 <pinMode>
+  12:	2c00      	cmp	r4, #0
+  14:	dd1a      	ble.n	4c <_Z11flash_blinki+0x4c>
+  16:	2500      	movs	r5, #0
+  18:	f644 6220 	movw	r2, #20000	; 0x4e20
+  1c:	9b01      	ldr	r3, [sp, #4]
+  1e:	3a01      	subs	r2, #1
+  20:	f103 0301 	add.w	r3, r3, #1
+  24:	9301      	str	r3, [sp, #4]
+  26:	d1f9      	bne.n	1c <_Z11flash_blinki+0x1c>
+  28:	2101      	movs	r1, #1
+  2a:	200d      	movs	r0, #13
+  2c:	f7ff fffe 	bl	0 <digitalWrite>
+  30:	f644 6120 	movw	r1, #20000	; 0x4e20
+  34:	9b01      	ldr	r3, [sp, #4]
+  36:	3901      	subs	r1, #1
+  38:	f103 0301 	add.w	r3, r3, #1
+  3c:	9301      	str	r3, [sp, #4]
+  3e:	d1f9      	bne.n	34 <_Z11flash_blinki+0x34>
+  40:	3501      	adds	r5, #1
+  42:	200d      	movs	r0, #13
+  44:	f7ff fffe 	bl	0 <digitalWrite>
+  48:	42ac      	cmp	r4, r5
+  4a:	d1e5      	bne.n	18 <_Z11flash_blinki+0x18>
+  4c:	4a03      	ldr	r2, [pc, #12]	; (5c <_Z11flash_blinki+0x5c>)
+  4e:	9b01      	ldr	r3, [sp, #4]
+  50:	3a01      	subs	r2, #1
+  52:	f103 0301 	add.w	r3, r3, #1
+  56:	9301      	str	r3, [sp, #4]
+  58:	d1f9      	bne.n	4e <_Z11flash_blinki+0x4e>
+  5a:	e7da      	b.n	12 <_Z11flash_blinki+0x12>
+  5c:	000186a0 	.word	0x000186a0
+
+Disassembly of section .text._Z16hard_fault_debugi:
+
+00000000 <_Z16hard_fault_debugi>:
+   0:	4c34      	ldr	r4, [pc, #208]	; (d4 <_Z16hard_fault_debugi+0xd4>)
+   2:	4d35      	ldr	r5, [pc, #212]	; (d8 <_Z16hard_fault_debugi+0xd8>)
+   4:	4e35      	ldr	r6, [pc, #212]	; (dc <_Z16hard_fault_debugi+0xdc>)
+   6:	f105 0174 	add.w	r1, r5, #116	; 0x74
+   a:	b580      	push	{r7, lr}
+   c:	4607      	mov	r7, r0
+   e:	4620      	mov	r0, r4
+  10:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  14:	4b32      	ldr	r3, [pc, #200]	; (e0 <_Z16hard_fault_debugi+0xe0>)
+  16:	4620      	mov	r0, r4
+  18:	f853 1027 	ldr.w	r1, [r3, r7, lsl #2]
+  1c:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  20:	4620      	mov	r0, r4
+  22:	4629      	mov	r1, r5
+  24:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  28:	6833      	ldr	r3, [r6, #0]
+  2a:	2210      	movs	r2, #16
+  2c:	4620      	mov	r0, r4
+  2e:	6819      	ldr	r1, [r3, #0]
+  30:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  34:	4620      	mov	r0, r4
+  36:	1d29      	adds	r1, r5, #4
+  38:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  3c:	6833      	ldr	r3, [r6, #0]
+  3e:	2210      	movs	r2, #16
+  40:	4620      	mov	r0, r4
+  42:	6859      	ldr	r1, [r3, #4]
+  44:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  48:	4620      	mov	r0, r4
+  4a:	f105 0108 	add.w	r1, r5, #8
+  4e:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  52:	6833      	ldr	r3, [r6, #0]
+  54:	2210      	movs	r2, #16
+  56:	4620      	mov	r0, r4
+  58:	6899      	ldr	r1, [r3, #8]
+  5a:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  5e:	4620      	mov	r0, r4
+  60:	f105 010c 	add.w	r1, r5, #12
+  64:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  68:	6833      	ldr	r3, [r6, #0]
+  6a:	2210      	movs	r2, #16
+  6c:	4620      	mov	r0, r4
+  6e:	68d9      	ldr	r1, [r3, #12]
+  70:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  74:	4620      	mov	r0, r4
+  76:	f105 0110 	add.w	r1, r5, #16
+  7a:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  7e:	6833      	ldr	r3, [r6, #0]
+  80:	2210      	movs	r2, #16
+  82:	4620      	mov	r0, r4
+  84:	6919      	ldr	r1, [r3, #16]
+  86:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  8a:	4620      	mov	r0, r4
+  8c:	f105 0118 	add.w	r1, r5, #24
+  90:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  94:	6833      	ldr	r3, [r6, #0]
+  96:	2210      	movs	r2, #16
+  98:	4620      	mov	r0, r4
+  9a:	6959      	ldr	r1, [r3, #20]
+  9c:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  a0:	4620      	mov	r0, r4
+  a2:	f105 0120 	add.w	r1, r5, #32
+  a6:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  aa:	6833      	ldr	r3, [r6, #0]
+  ac:	2210      	movs	r2, #16
+  ae:	4620      	mov	r0, r4
+  b0:	6999      	ldr	r1, [r3, #24]
+  b2:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  b6:	4620      	mov	r0, r4
+  b8:	f105 0180 	add.w	r1, r5, #128	; 0x80
+  bc:	2401      	movs	r4, #1
+  be:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  c2:	6832      	ldr	r2, [r6, #0]
+  c4:	4907      	ldr	r1, [pc, #28]	; (e4 <_Z16hard_fault_debugi+0xe4>)
+  c6:	4638      	mov	r0, r7
+  c8:	6993      	ldr	r3, [r2, #24]
+  ca:	600c      	str	r4, [r1, #0]
+  cc:	3302      	adds	r3, #2
+  ce:	6193      	str	r3, [r2, #24]
+  d0:	f7ff fffe 	bl	0 <_Z16hard_fault_debugi>
+  d4:	00000000 	.word	0x00000000
+  d8:	00000000 	.word	0x00000000
+  dc:	00000000 	.word	0x00000000
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.fault_halt:
+
+00000000 <fault_halt>:
+   0:	bf30      	wfi
+   2:	e7fd      	b.n	0 <fault_halt>
+
+Disassembly of section .text._Z7dumpmemPvi:
+
+00000000 <_Z7dumpmemPvi>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	2300      	movs	r3, #0
+   6:	2210      	movs	r2, #16
+   8:	460d      	mov	r5, r1
+   a:	4680      	mov	r8, r0
+   c:	4601      	mov	r1, r0
+   e:	4810      	ldr	r0, [pc, #64]	; (50 <_Z7dumpmemPvi+0x50>)
+  10:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  14:	2101      	movs	r1, #1
+  16:	480f      	ldr	r0, [pc, #60]	; (54 <_Z7dumpmemPvi+0x54>)
+  18:	f7ff fffe 	bl	0 <usb_serial_write>
+  1c:	2d00      	cmp	r5, #0
+  1e:	dd12      	ble.n	46 <_Z7dumpmemPvi+0x46>
+  20:	3d01      	subs	r5, #1
+  22:	f108 34ff 	add.w	r4, r8, #4294967295	; 0xffffffff
+  26:	4f0a      	ldr	r7, [pc, #40]	; (50 <_Z7dumpmemPvi+0x50>)
+  28:	4e0b      	ldr	r6, [pc, #44]	; (58 <_Z7dumpmemPvi+0x58>)
+  2a:	4445      	add	r5, r8
+  2c:	f814 1f01 	ldrb.w	r1, [r4, #1]!
+  30:	2300      	movs	r3, #0
+  32:	2210      	movs	r2, #16
+  34:	4638      	mov	r0, r7
+  36:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  3a:	2101      	movs	r1, #1
+  3c:	4630      	mov	r0, r6
+  3e:	f7ff fffe 	bl	0 <usb_serial_write>
+  42:	42ac      	cmp	r4, r5
+  44:	d1f2      	bne.n	2c <_Z7dumpmemPvi+0x2c>
+  46:	4802      	ldr	r0, [pc, #8]	; (50 <_Z7dumpmemPvi+0x50>)
+  48:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+  4c:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  50:	00000000 	.word	0x00000000
+  54:	00000094 	.word	0x00000094
+  58:	00000098 	.word	0x00000098
+
+Disassembly of section .text._Z10debug_initv:
+
+00000000 <_Z10debug_initv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+   6:	2411      	movs	r4, #17
+   8:	481c      	ldr	r0, [pc, #112]	; (7c <_Z10debug_initv+0x7c>)
+   a:	f8c2 4d9c 	str.w	r4, [r2, #3484]	; 0xd9c
+   e:	491c      	ldr	r1, [pc, #112]	; (80 <_Z10debug_initv+0x80>)
+  10:	f8c2 0da0 	str.w	r0, [r2, #3488]	; 0xda0
+  14:	2001      	movs	r0, #1
+  16:	4b1b      	ldr	r3, [pc, #108]	; (84 <_Z10debug_initv+0x84>)
+  18:	4a1b      	ldr	r2, [pc, #108]	; (88 <_Z10debug_initv+0x88>)
+  1a:	6008      	str	r0, [r1, #0]
+  1c:	4d1b      	ldr	r5, [pc, #108]	; (8c <_Z10debug_initv+0x8c>)
+  1e:	491c      	ldr	r1, [pc, #112]	; (90 <_Z10debug_initv+0x90>)
+  20:	4c1c      	ldr	r4, [pc, #112]	; (94 <_Z10debug_initv+0x94>)
+  22:	481d      	ldr	r0, [pc, #116]	; (98 <_Z10debug_initv+0x98>)
+  24:	609d      	str	r5, [r3, #8]
+  26:	60dc      	str	r4, [r3, #12]
+  28:	611a      	str	r2, [r3, #16]
+  2a:	6158      	str	r0, [r3, #20]
+  2c:	4a1b      	ldr	r2, [pc, #108]	; (9c <_Z10debug_initv+0x9c>)
+  2e:	6199      	str	r1, [r3, #24]
+  30:	6ad9      	ldr	r1, [r3, #44]	; 0x2c
+  32:	4291      	cmp	r1, r2
+  34:	d020      	beq.n	78 <_Z10debug_initv+0x78>
+  36:	6adc      	ldr	r4, [r3, #44]	; 0x2c
+  38:	4919      	ldr	r1, [pc, #100]	; (a0 <_Z10debug_initv+0xa0>)
+  3a:	f04f 2ce0 	mov.w	ip, #3758153728	; 0xe000e000
+  3e:	4819      	ldr	r0, [pc, #100]	; (a4 <_Z10debug_initv+0xa4>)
+  40:	62d9      	str	r1, [r3, #44]	; 0x2c
+  42:	6004      	str	r4, [r0, #0]
+  44:	f8d3 1158 	ldr.w	r1, [r3, #344]	; 0x158
+  48:	4a17      	ldr	r2, [pc, #92]	; (a8 <_Z10debug_initv+0xa8>)
+  4a:	4818      	ldr	r0, [pc, #96]	; (ac <_Z10debug_initv+0xac>)
+  4c:	6011      	str	r1, [r2, #0]
+  4e:	21d0      	movs	r1, #208	; 0xd0
+  50:	f8c3 0158 	str.w	r0, [r3, #344]	; 0x158
+  54:	2340      	movs	r3, #64	; 0x40
+  56:	4a16      	ldr	r2, [pc, #88]	; (b0 <_Z10debug_initv+0xb0>)
+  58:	4816      	ldr	r0, [pc, #88]	; (b4 <_Z10debug_initv+0xb4>)
+  5a:	f882 1046 	strb.w	r1, [r2, #70]	; 0x46
+  5e:	2280      	movs	r2, #128	; 0x80
+  60:	2100      	movs	r1, #0
+  62:	f8cc 3108 	str.w	r3, [ip, #264]	; 0x108
+  66:	f7ff fffe 	bl	0 <memset>
+  6a:	2280      	movs	r2, #128	; 0x80
+  6c:	2100      	movs	r1, #0
+  6e:	4812      	ldr	r0, [pc, #72]	; (b8 <_Z10debug_initv+0xb8>)
+  70:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  74:	f7ff bffe 	b.w	0 <memset>
+  78:	2400      	movs	r4, #0
+  7a:	e7dd      	b.n	38 <_Z10debug_initv+0x38>
+  7c:	03080025 	.word	0x03080025
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+  ac:	00000000 	.word	0x00000000
+  b0:	e000e400 	.word	0xe000e400
+  b4:	00000000 	.word	0x00000000
+  b8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z11debug_beginP6Stream:
+
+00000000 <_Z11debug_beginP6Stream>:
+   0:	b500      	push	{lr}
+   2:	b083      	sub	sp, #12
+   4:	9001      	str	r0, [sp, #4]
+   6:	f7ff fffe 	bl	0 <_Z11debug_beginP6Stream>
+   a:	9801      	ldr	r0, [sp, #4]
+   c:	f7ff fffe 	bl	0 <_Z8gdb_initP6Stream>
+  10:	2001      	movs	r0, #1
+  12:	b003      	add	sp, #12
+  14:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text._ZN5Debug5beginEP6Stream:
+
+00000000 <_ZN5Debug5beginEP6Stream>:
+   0:	b500      	push	{lr}
+   2:	b083      	sub	sp, #12
+   4:	9101      	str	r1, [sp, #4]
+   6:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
+   a:	9801      	ldr	r0, [sp, #4]
+   c:	f7ff fffe 	bl	0 <_Z8gdb_initP6Stream>
+  10:	2001      	movs	r0, #1
+  12:	b003      	add	sp, #12
+  14:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text._ZN5Debug13setBreakpointEPv:
+
+00000000 <_ZN5Debug13setBreakpointEPv>:
+   0:	4b13      	ldr	r3, [pc, #76]	; (50 <_ZN5Debug13setBreakpointEPv+0x50>)
+   2:	f1a1 0220 	sub.w	r2, r1, #32
+   6:	429a      	cmp	r2, r3
+   8:	d81f      	bhi.n	4a <_ZN5Debug13setBreakpointEPv+0x4a>
+   a:	2300      	movs	r3, #0
+   c:	b410      	push	{r4}
+   e:	4c11      	ldr	r4, [pc, #68]	; (54 <_ZN5Debug13setBreakpointEPv+0x54>)
+  10:	4622      	mov	r2, r4
+  12:	e002      	b.n	1a <_ZN5Debug13setBreakpointEPv+0x1a>
+  14:	3301      	adds	r3, #1
+  16:	2b20      	cmp	r3, #32
+  18:	d012      	beq.n	40 <_ZN5Debug13setBreakpointEPv+0x40>
+  1a:	f852 0b04 	ldr.w	r0, [r2], #4
+  1e:	2800      	cmp	r0, #0
+  20:	d1f8      	bne.n	14 <_ZN5Debug13setBreakpointEPv+0x14>
+  22:	f021 0101 	bic.w	r1, r1, #1
+  26:	4a0c      	ldr	r2, [pc, #48]	; (58 <_ZN5Debug13setBreakpointEPv+0x58>)
+  28:	f8b1 c000 	ldrh.w	ip, [r1]
+  2c:	f844 1023 	str.w	r1, [r4, r3, lsl #2]
+  30:	f822 c013 	strh.w	ip, [r2, r3, lsl #1]
+  34:	f64d 7210 	movw	r2, #57104	; 0xdf10
+  38:	f85d 4b04 	ldr.w	r4, [sp], #4
+  3c:	800a      	strh	r2, [r1, #0]
+  3e:	4770      	bx	lr
+  40:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  44:	f85d 4b04 	ldr.w	r4, [sp], #4
+  48:	4770      	bx	lr
+  4a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4e:	4770      	bx	lr
+  50:	2027ffe0 	.word	0x2027ffe0
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5Debug15clearBreakpointEPv:
+
+00000000 <_ZN5Debug15clearBreakpointEPv>:
+   0:	4b12      	ldr	r3, [pc, #72]	; (4c <_ZN5Debug15clearBreakpointEPv+0x4c>)
+   2:	f1a1 0220 	sub.w	r2, r1, #32
+   6:	429a      	cmp	r2, r3
+   8:	d81c      	bhi.n	44 <_ZN5Debug15clearBreakpointEPv+0x44>
+   a:	f021 0101 	bic.w	r1, r1, #1
+   e:	2300      	movs	r3, #0
+  10:	b410      	push	{r4}
+  12:	4c0f      	ldr	r4, [pc, #60]	; (50 <_ZN5Debug15clearBreakpointEPv+0x50>)
+  14:	4622      	mov	r2, r4
+  16:	e002      	b.n	1e <_ZN5Debug15clearBreakpointEPv+0x1e>
+  18:	3301      	adds	r3, #1
+  1a:	2b20      	cmp	r3, #32
+  1c:	d00d      	beq.n	3a <_ZN5Debug15clearBreakpointEPv+0x3a>
+  1e:	f852 0b04 	ldr.w	r0, [r2], #4
+  22:	4288      	cmp	r0, r1
+  24:	d1f8      	bne.n	18 <_ZN5Debug15clearBreakpointEPv+0x18>
+  26:	4a0b      	ldr	r2, [pc, #44]	; (54 <_ZN5Debug15clearBreakpointEPv+0x54>)
+  28:	2000      	movs	r0, #0
+  2a:	f832 2013 	ldrh.w	r2, [r2, r3, lsl #1]
+  2e:	f844 0023 	str.w	r0, [r4, r3, lsl #2]
+  32:	f85d 4b04 	ldr.w	r4, [sp], #4
+  36:	800a      	strh	r2, [r1, #0]
+  38:	4770      	bx	lr
+  3a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  3e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  42:	4770      	bx	lr
+  44:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  48:	4770      	bx	lr
+  4a:	bf00      	nop
+  4c:	2027ffe0 	.word	0x2027ffe0
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5Debug11setCallbackEPFvvE:
+
+00000000 <_ZN5Debug11setCallbackEPFvvE>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <_ZN5Debug11setCallbackEPFvvE+0x8>)
+   2:	6019      	str	r1, [r3, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5Debug11getRegisterEPKc:
+
+00000000 <_ZN5Debug11getRegisterEPKc>:
+   0:	4608      	mov	r0, r1
+   2:	f7ff bffe 	b.w	0 <_ZN5Debug11getRegisterEPKc>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5Debug11setRegisterEPKcm:
+
+00000000 <_ZN5Debug11setRegisterEPKcm>:
+   0:	4608      	mov	r0, r1
+   2:	4611      	mov	r1, r2
+   4:	f7ff bffe 	b.w	0 <_ZN5Debug11setRegisterEPKcm>
+
+Disassembly of section .text.startup._GLOBAL__sub_I_sw_breakpoint_addr:
+
+00000000 <_GLOBAL__sub_I_sw_breakpoint_addr>:
+   0:	4b02      	ldr	r3, [pc, #8]	; (c <_GLOBAL__sub_I_sw_breakpoint_addr+0xc>)
+   2:	2100      	movs	r1, #0
+   4:	4a02      	ldr	r2, [pc, #8]	; (10 <_GLOBAL__sub_I_sw_breakpoint_addr+0x10>)
+   6:	e9c3 2100 	strd	r2, r1, [r3]
+   a:	4770      	bx	lr
+   c:	00000000 	.word	0x00000000
+  10:	00000008 	.word	0x00000008

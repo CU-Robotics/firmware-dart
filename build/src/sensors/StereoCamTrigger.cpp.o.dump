@@ -1,0 +1,262 @@
+
+build/./src/sensors/StereoCamTrigger.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 StereoCamTrigger.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_	00000000 .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_
+00000000 l     F .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_	00000006 _ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_
+00000000 l    d  .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_	00000000 .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_
+00000000 l     F .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_	00000006 _ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_
+00000000 l    d  .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_	00000000 .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_
+00000000 l     F .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_	00000002 _ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_
+00000000 l    d  .text._ZN16StereoCamTrigger5startEi.part.0	00000000 .text._ZN16StereoCamTrigger5startEi.part.0
+00000000 l     F .text._ZN16StereoCamTrigger5startEi.part.0	0000005c _ZN16StereoCamTrigger5startEi.part.0
+00000000 l    d  .text._ZN16StereoCamTrigger15track_exposuresEv	00000000 .text._ZN16StereoCamTrigger15track_exposuresEv
+00000000 l    d  .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_	00000000 .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_
+00000000 l     F .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_	00000006 _ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_
+00000000 l    d  .text._ZN16StereoCamTrigger5startEi	00000000 .text._ZN16StereoCamTrigger5startEi
+00000000 l    d  .text._ZN16StereoCamTrigger4stopEv	00000000 .text._ZN16StereoCamTrigger4stopEv
+00000000 l    d  .text._ZN16StereoCamTrigger4initEv	00000000 .text._ZN16StereoCamTrigger4initEv
+00000000 l    d  .text._ZN16StereoCamTrigger29get_latest_exposure_timestampEv	00000000 .text._ZN16StereoCamTrigger29get_latest_exposure_timestampEv
+00000000 l    d  .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IZN16StereoCamTrigger5startEiEUlvE_S5_vEEOT_E2vt	00000000 .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IZN16StereoCamTrigger5startEiEUlvE_S5_vEEOT_E2vt
+00000000 l     O .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IZN16StereoCamTrigger5startEiEUlvE_S5_vEEOT_E2vt	00000010 _ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IZN16StereoCamTrigger5startEiEUlvE_S5_vEEOT_E2vt
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 _ZN13IntervalTimer11beginCyclesEN6teensy16inplace_functionIFvvELj16ELj8EEEm
+00000000 g     F .text._ZN16StereoCamTrigger15track_exposuresEv	00000060 _ZN16StereoCamTrigger15track_exposuresEv
+00000000         *UND*	00000000 digitalWrite
+00000000         *UND*	00000000 micros
+00000000         *UND*	00000000 _ZN5Print11printNumberEmhh
+00000000         *UND*	00000000 F_CPU_ACTUAL
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN16StereoCamTrigger5startEi	0000000a _ZN16StereoCamTrigger5startEi
+00000000 g     F .text._ZN16StereoCamTrigger4stopEv	00000016 _ZN16StereoCamTrigger4stopEv
+00000000         *UND*	00000000 _ZN13IntervalTimer3endEv
+00000000 g     F .text._ZN16StereoCamTrigger4initEv	00000048 _ZN16StereoCamTrigger4initEv
+00000000         *UND*	00000000 pinMode
+00000000 g     F .text._ZN16StereoCamTrigger29get_latest_exposure_timestampEv	00000008 _ZN16StereoCamTrigger29get_latest_exposure_timestampEv
+
+
+Contents of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_:
+ 0000 0b680360 704700bf                    .h.`pG..        
+Contents of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_:
+ 0000 0b680360 704700bf                    .h.`pG..        
+Contents of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN16StereoCamTrigger5startEi.part.0:
+ 0000 134a144b 914230b5 8db00446 00930290  .J.K.B0....F....
+ 0010 05d801eb 4101ca00 013a102a 07d80e4b  ....A....:.*...K
+ 0020 02ad2846 98470023 23730db0 30bd02ad  ..(F.G.##s..0...
+ 0030 08a80693 2946fff7 feff06a9 201dfff7  ....)F...... ...
+ 0040 feff069b 08a8db68 9847009b db68e8e7  .......h.G...h..
+ 0050 aaaaaa0a 00000000 00000000           ............    
+Contents of section .text._ZN16StereoCamTrigger15track_exposuresEv:
+ 0000 38b50446 72b60121 2020fff7 feff1049  8..Fr..!  .....I
+ 0010 104a114b 48681268 a3fb0232 920c02eb  .J.KHh.h...2....
+ 0020 82025200 4b681b1a 9a42fbd8 00212020  ..R.Kh...B...!  
+ 0030 fff7feff 6569fff7 feff6061 61690023  ....ei....`aai.#
+ 0040 0a220648 491bfff7 feff62b6 38bd00bf  .".HI.....b.8...
+ 0050 001000e0 00000000 83de1b43 00000000  ...........C....
+Contents of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_:
+ 0000 0068fff7 febf00bf                    .h......        
+Contents of section .text._ZN16StereoCamTrigger5startEi:
+ 0000 037b03b9 7047fff7 febf00bf           .{..pG......    
+Contents of section .text._ZN16StereoCamTrigger4stopEv:
+ 0000 037b03b1 704710b5 04460430 fff7feff  .{..pG...F.0....
+ 0010 01232373 10bd00bf                    .##s....        
+Contents of section .text._ZN16StereoCamTrigger4initEv:
+ 0000 10b50446 01212020 fff7feff 237b03b9  ...F.!  ....#{..
+ 0010 10bdd4ed 007af7ee 005a2046 f8eee77a  .....z...Z F...z
+ 0020 9fed076b 85eea77a bde81040 b7eec77a  ...k...z...@...z
+ 0030 27ee067b fdeec77b 17ee901a fff7febf  '..{...{........
+ 0040 00000000 80842e41                    .......A        
+Contents of section .text._ZN16StereoCamTrigger29get_latest_exposure_timestampEv:
+ 0000 72b64069 62b67047                    r.@ib.pG        
+Contents of section .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IZN16StereoCamTrigger5startEiEUlvE_S5_vEEOT_E2vt:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_:
+
+00000000 <_ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E0_4_FUNES9_S9_>:
+   0:	680b      	ldr	r3, [r1, #0]
+   2:	6003      	str	r3, [r0, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_:
+
+00000000 <_ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvS9_E1_4_FUNES9_S9_>:
+   0:	680b      	ldr	r3, [r1, #0]
+   2:	6003      	str	r3, [r0, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_:
+
+00000000 <_ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE2_4_FUNES9_>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN16StereoCamTrigger5startEi.part.0:
+
+00000000 <_ZN16StereoCamTrigger5startEi.part.0>:
+   0:	4a13      	ldr	r2, [pc, #76]	; (50 <_ZN16StereoCamTrigger5startEi.part.0+0x50>)
+   2:	4b14      	ldr	r3, [pc, #80]	; (54 <_ZN16StereoCamTrigger5startEi.part.0+0x54>)
+   4:	4291      	cmp	r1, r2
+   6:	b530      	push	{r4, r5, lr}
+   8:	b08d      	sub	sp, #52	; 0x34
+   a:	4604      	mov	r4, r0
+   c:	9300      	str	r3, [sp, #0]
+   e:	9002      	str	r0, [sp, #8]
+  10:	d805      	bhi.n	1e <_ZN16StereoCamTrigger5startEi.part.0+0x1e>
+  12:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+  16:	00ca      	lsls	r2, r1, #3
+  18:	3a01      	subs	r2, #1
+  1a:	2a10      	cmp	r2, #16
+  1c:	d807      	bhi.n	2e <_ZN16StereoCamTrigger5startEi.part.0+0x2e>
+  1e:	4b0e      	ldr	r3, [pc, #56]	; (58 <_ZN16StereoCamTrigger5startEi.part.0+0x58>)
+  20:	ad02      	add	r5, sp, #8
+  22:	4628      	mov	r0, r5
+  24:	4798      	blx	r3
+  26:	2300      	movs	r3, #0
+  28:	7323      	strb	r3, [r4, #12]
+  2a:	b00d      	add	sp, #52	; 0x34
+  2c:	bd30      	pop	{r4, r5, pc}
+  2e:	ad02      	add	r5, sp, #8
+  30:	a808      	add	r0, sp, #32
+  32:	9306      	str	r3, [sp, #24]
+  34:	4629      	mov	r1, r5
+  36:	f7ff fffe 	bl	0 <_ZN16StereoCamTrigger5startEi.part.0>
+  3a:	a906      	add	r1, sp, #24
+  3c:	1d20      	adds	r0, r4, #4
+  3e:	f7ff fffe 	bl	0 <_ZN13IntervalTimer11beginCyclesEN6teensy16inplace_functionIFvvELj16ELj8EEEm>
+  42:	9b06      	ldr	r3, [sp, #24]
+  44:	a808      	add	r0, sp, #32
+  46:	68db      	ldr	r3, [r3, #12]
+  48:	4798      	blx	r3
+  4a:	9b00      	ldr	r3, [sp, #0]
+  4c:	68db      	ldr	r3, [r3, #12]
+  4e:	e7e8      	b.n	22 <_ZN16StereoCamTrigger5startEi.part.0+0x22>
+  50:	0aaaaaaa 	.word	0x0aaaaaaa
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN16StereoCamTrigger15track_exposuresEv:
+
+00000000 <_ZN16StereoCamTrigger15track_exposuresEv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b672      	cpsid	i
+   6:	2101      	movs	r1, #1
+   8:	2020      	movs	r0, #32
+   a:	f7ff fffe 	bl	0 <digitalWrite>
+   e:	4910      	ldr	r1, [pc, #64]	; (50 <_ZN16StereoCamTrigger15track_exposuresEv+0x50>)
+  10:	4a10      	ldr	r2, [pc, #64]	; (54 <_ZN16StereoCamTrigger15track_exposuresEv+0x54>)
+  12:	4b11      	ldr	r3, [pc, #68]	; (58 <_ZN16StereoCamTrigger15track_exposuresEv+0x58>)
+  14:	6848      	ldr	r0, [r1, #4]
+  16:	6812      	ldr	r2, [r2, #0]
+  18:	fba3 3202 	umull	r3, r2, r3, r2
+  1c:	0c92      	lsrs	r2, r2, #18
+  1e:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  22:	0052      	lsls	r2, r2, #1
+  24:	684b      	ldr	r3, [r1, #4]
+  26:	1a1b      	subs	r3, r3, r0
+  28:	429a      	cmp	r2, r3
+  2a:	d8fb      	bhi.n	24 <_ZN16StereoCamTrigger15track_exposuresEv+0x24>
+  2c:	2100      	movs	r1, #0
+  2e:	2020      	movs	r0, #32
+  30:	f7ff fffe 	bl	0 <digitalWrite>
+  34:	6965      	ldr	r5, [r4, #20]
+  36:	f7ff fffe 	bl	0 <micros>
+  3a:	6160      	str	r0, [r4, #20]
+  3c:	6961      	ldr	r1, [r4, #20]
+  3e:	2300      	movs	r3, #0
+  40:	220a      	movs	r2, #10
+  42:	4806      	ldr	r0, [pc, #24]	; (5c <_ZN16StereoCamTrigger15track_exposuresEv+0x5c>)
+  44:	1b49      	subs	r1, r1, r5
+  46:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  4a:	b662      	cpsie	i
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	bf00      	nop
+  50:	e0001000 	.word	0xe0001000
+  54:	00000000 	.word	0x00000000
+  58:	431bde83 	.word	0x431bde83
+  5c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_:
+
+00000000 <_ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_>:
+   0:	6800      	ldr	r0, [r0, #0]
+   2:	f7ff bffe 	b.w	0 <_ZZN6teensy23inplace_function_detail6vtableIvJEEC4IZN16StereoCamTrigger5startEiEUlvE_EENS0_7wrapperIT_EEENUlPvE_4_FUNES9_>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN16StereoCamTrigger5startEi:
+
+00000000 <_ZN16StereoCamTrigger5startEi>:
+   0:	7b03      	ldrb	r3, [r0, #12]
+   2:	b903      	cbnz	r3, 6 <_ZN16StereoCamTrigger5startEi+0x6>
+   4:	4770      	bx	lr
+   6:	f7ff bffe 	b.w	0 <_ZN16StereoCamTrigger5startEi>
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN16StereoCamTrigger4stopEv:
+
+00000000 <_ZN16StereoCamTrigger4stopEv>:
+   0:	7b03      	ldrb	r3, [r0, #12]
+   2:	b103      	cbz	r3, 6 <_ZN16StereoCamTrigger4stopEv+0x6>
+   4:	4770      	bx	lr
+   6:	b510      	push	{r4, lr}
+   8:	4604      	mov	r4, r0
+   a:	3004      	adds	r0, #4
+   c:	f7ff fffe 	bl	0 <_ZN13IntervalTimer3endEv>
+  10:	2301      	movs	r3, #1
+  12:	7323      	strb	r3, [r4, #12]
+  14:	bd10      	pop	{r4, pc}
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN16StereoCamTrigger4initEv:
+
+00000000 <_ZN16StereoCamTrigger4initEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2101      	movs	r1, #1
+   6:	2020      	movs	r0, #32
+   8:	f7ff fffe 	bl	0 <pinMode>
+   c:	7b23      	ldrb	r3, [r4, #12]
+   e:	b903      	cbnz	r3, 12 <_ZN16StereoCamTrigger4initEv+0x12>
+  10:	bd10      	pop	{r4, pc}
+  12:	edd4 7a00 	vldr	s15, [r4]
+  16:	eef7 5a00 	vmov.f32	s11, #112	; 0x3f800000  1.0
+  1a:	4620      	mov	r0, r4
+  1c:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  20:	ed9f 6b07 	vldr	d6, [pc, #28]	; 40 <_ZN16StereoCamTrigger4initEv+0x40>
+  24:	ee85 7aa7 	vdiv.f32	s14, s11, s15
+  28:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  2c:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  30:	ee27 7b06 	vmul.f64	d7, d7, d6
+  34:	eefd 7bc7 	vcvt.s32.f64	s15, d7
+  38:	ee17 1a90 	vmov	r1, s15
+  3c:	f7ff bffe 	b.w	0 <_ZN16StereoCamTrigger4initEv>
+  40:	00000000 	.word	0x00000000
+  44:	412e8480 	.word	0x412e8480
+
+Disassembly of section .text._ZN16StereoCamTrigger29get_latest_exposure_timestampEv:
+
+00000000 <_ZN16StereoCamTrigger29get_latest_exposure_timestampEv>:
+   0:	b672      	cpsid	i
+   2:	6940      	ldr	r0, [r0, #20]
+   4:	b662      	cpsie	i
+   6:	4770      	bx	lr

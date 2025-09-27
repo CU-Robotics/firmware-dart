@@ -1,0 +1,3830 @@
+
+build/./libraries/unity/unity.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 unity.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.UnityPrint.part.0	00000000 .text.UnityPrint.part.0
+00000000 l     F .text.UnityPrint.part.0	00000082 UnityPrint.part.0
+00000000 l    d  .text.UnityAddMsgIfSpecified	00000000 .text.UnityAddMsgIfSpecified
+00000000 l     F .text.UnityAddMsgIfSpecified	00000054 UnityAddMsgIfSpecified
+00000000 l    d  .text.UnityPrintExpectedAndActualStrings	00000000 .text.UnityPrintExpectedAndActualStrings
+00000000 l     F .text.UnityPrintExpectedAndActualStrings	00000064 UnityPrintExpectedAndActualStrings
+00000000 l    d  .text.UnityPrintLen.part.0	00000000 .text.UnityPrintLen.part.0
+00000000 l     F .text.UnityPrintLen.part.0	0000008e UnityPrintLen.part.0
+00000000 l    d  .text.UnityTestResultsBegin	00000000 .text.UnityTestResultsBegin
+00000000 l     F .text.UnityTestResultsBegin	0000008c UnityTestResultsBegin
+00000000 l    d  .text.UnityTestResultsFailBegin	00000000 .text.UnityTestResultsFailBegin
+00000000 l     F .text.UnityTestResultsFailBegin	00000024 UnityTestResultsFailBegin
+00000000 l    d  .text.UnityPrint	00000000 .text.UnityPrint
+00000000 l    d  .text.UnityPrintLen	00000000 .text.UnityPrintLen
+00000000 l    d  .text.UnityPrintNumberByStyle	00000000 .text.UnityPrintNumberByStyle
+00000000 l    d  .text.UnityPrintNumber	00000000 .text.UnityPrintNumber
+00000000 l    d  .text.UnityPrintNumberUnsigned	00000000 .text.UnityPrintNumberUnsigned
+00000000 l    d  .text.UnityPrintNumberHex	00000000 .text.UnityPrintNumberHex
+00000000 l    d  .text.UnityPrintMask	00000000 .text.UnityPrintMask
+00000000 l    d  .rodata.UnityPrintFloat.str1.4	00000000 .rodata.UnityPrintFloat.str1.4
+00000000 l    d  .text.UnityPrintFloat	00000000 .text.UnityPrintFloat
+00000000 l    d  .text.UnityConcludeTest	00000000 .text.UnityConcludeTest
+00000000 l    d  .text.UnityAssertBits	00000000 .text.UnityAssertBits
+00000000 l    d  .text.UnityAssertEqualNumber	00000000 .text.UnityAssertEqualNumber
+00000000 l    d  .text.UnityAssertGreaterOrLessOrEqualNumber	00000000 .text.UnityAssertGreaterOrLessOrEqualNumber
+00000000 l    d  .text.UnityAssertEqualIntArray	00000000 .text.UnityAssertEqualIntArray
+00000000 l    d  .text.UnityAssertWithinFloatArray	00000000 .text.UnityAssertWithinFloatArray
+00000000 l    d  .text.UnityAssertFloatsWithin	00000000 .text.UnityAssertFloatsWithin
+00000000 l    d  .text.UnityAssertFloatsNotWithin	00000000 .text.UnityAssertFloatsNotWithin
+00000000 l    d  .text.UnityAssertGreaterOrLessFloat	00000000 .text.UnityAssertGreaterOrLessFloat
+00000000 l    d  .text.UnityAssertFloatSpecial	00000000 .text.UnityAssertFloatSpecial
+00000000 l    d  .text.UnityAssertNumbersWithin	00000000 .text.UnityAssertNumbersWithin
+00000000 l    d  .text.UnityAssertNumbersArrayWithin	00000000 .text.UnityAssertNumbersArrayWithin
+00000000 l    d  .text.UnityAssertEqualString	00000000 .text.UnityAssertEqualString
+00000000 l    d  .text.UnityAssertEqualStringLen	00000000 .text.UnityAssertEqualStringLen
+00000000 l    d  .text.UnityAssertEqualStringArray	00000000 .text.UnityAssertEqualStringArray
+00000000 l    d  .text.UnityAssertEqualMemory	00000000 .text.UnityAssertEqualMemory
+00000000 l    d  .text.UnityNumToPtr	00000000 .text.UnityNumToPtr
+00000000 l    d  .text.UnityFloatToPtr	00000000 .text.UnityFloatToPtr
+00000000 l    d  .text.UnityFail	00000000 .text.UnityFail
+00000000 l    d  .text.UnityIgnore	00000000 .text.UnityIgnore
+00000000 l    d  .rodata.UnityMessage.str1.4	00000000 .rodata.UnityMessage.str1.4
+00000000 l    d  .text.UnityMessage	00000000 .text.UnityMessage
+00000000 l    d  .text.UnityDefaultTestRun	00000000 .text.UnityDefaultTestRun
+00000000 l    d  .text.UnitySetTestFile	00000000 .text.UnitySetTestFile
+00000000 l    d  .text.UnityBegin	00000000 .text.UnityBegin
+00000000 l    d  .text.UnityEnd	00000000 .text.UnityEnd
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l     O .rodata.UnityStrInf	00000009 UnityStrInf
+00000000 l     O .rodata.UnityStrNegInf	00000012 UnityStrNegInf
+00000000 l     O .rodata.UnityStrNaN	00000004 UnityStrNaN
+00000000 l     O .rodata.UnityStrDet	0000000c UnityStrDet
+00000000 l    d  .bss.Unity	00000000 .bss.Unity
+00000000 l    d  .bss.UnityQuickCompare	00000000 .bss.UnityQuickCompare
+00000000 l     O .bss.UnityQuickCompare	00000004 UnityQuickCompare
+00000000 l    d  .rodata.UnityStrBreaker	00000000 .rodata.UnityStrBreaker
+00000000 l     O .rodata.UnityStrBreaker	00000018 UnityStrBreaker
+00000000 l    d  .rodata.UnityStrByte	00000000 .rodata.UnityStrByte
+00000000 l     O .rodata.UnityStrByte	00000007 UnityStrByte
+00000000 l    d  .rodata.UnityStrDelta	00000000 .rodata.UnityStrDelta
+00000000 l     O .rodata.UnityStrDelta	0000001a UnityStrDelta
+00000000 l    d  .rodata.UnityStrDet	00000000 .rodata.UnityStrDet
+00000000 l    d  .rodata.UnityStrDetail1Name	00000000 .rodata.UnityStrDetail1Name
+00000000 l     O .rodata.UnityStrDetail1Name	0000000a UnityStrDetail1Name
+00000000 l    d  .rodata.UnityStrDetail2Name	00000000 .rodata.UnityStrDetail2Name
+00000000 l     O .rodata.UnityStrDetail2Name	0000000b UnityStrDetail2Name
+00000000 l    d  .rodata.UnityStrElement	00000000 .rodata.UnityStrElement
+00000000 l     O .rodata.UnityStrElement	0000000a UnityStrElement
+00000000 l    d  .rodata.UnityStrErr64	00000000 .rodata.UnityStrErr64
+00000000 l    d  .rodata.UnityStrErrDouble	00000000 .rodata.UnityStrErrDouble
+00000000 l    d  .rodata.UnityStrErrFloat	00000000 .rodata.UnityStrErrFloat
+00000000 l    d  .rodata.UnityStrErrShorthand	00000000 .rodata.UnityStrErrShorthand
+00000000 l    d  .rodata.UnityStrExpected	00000000 .rodata.UnityStrExpected
+00000000 l     O .rodata.UnityStrExpected	0000000b UnityStrExpected
+00000000 l    d  .rodata.UnityStrFail	00000000 .rodata.UnityStrFail
+00000000 l    d  .rodata.UnityStrGt	00000000 .rodata.UnityStrGt
+00000000 l     O .rodata.UnityStrGt	00000015 UnityStrGt
+00000000 l    d  .rodata.UnityStrIgnore	00000000 .rodata.UnityStrIgnore
+00000000 l    d  .rodata.UnityStrInf	00000000 .rodata.UnityStrInf
+00000000 l    d  .rodata.UnityStrInvalidFloatTrait	00000000 .rodata.UnityStrInvalidFloatTrait
+00000000 l     O .rodata.UnityStrInvalidFloatTrait	00000014 UnityStrInvalidFloatTrait
+00000000 l    d  .rodata.UnityStrLt	00000000 .rodata.UnityStrLt
+00000000 l     O .rodata.UnityStrLt	00000012 UnityStrLt
+00000000 l    d  .rodata.UnityStrMemory	00000000 .rodata.UnityStrMemory
+00000000 l     O .rodata.UnityStrMemory	00000012 UnityStrMemory
+00000000 l    d  .rodata.UnityStrNaN	00000000 .rodata.UnityStrNaN
+00000000 l    d  .rodata.UnityStrNegInf	00000000 .rodata.UnityStrNegInf
+00000000 l    d  .rodata.UnityStrNot	00000000 .rodata.UnityStrNot
+00000000 l     O .rodata.UnityStrNot	00000005 UnityStrNot
+00000000 l    d  .rodata.UnityStrNotEqual	00000000 .rodata.UnityStrNotEqual
+00000000 l     O .rodata.UnityStrNotEqual	00000015 UnityStrNotEqual
+00000000 l    d  .rodata.UnityStrNull	00000000 .rodata.UnityStrNull
+00000000 l     O .rodata.UnityStrNull	00000005 UnityStrNull
+00000000 l    d  .rodata.UnityStrNullPointerForActual	00000000 .rodata.UnityStrNullPointerForActual
+00000000 l     O .rodata.UnityStrNullPointerForActual	00000019 UnityStrNullPointerForActual
+00000000 l    d  .rodata.UnityStrNullPointerForExpected	00000000 .rodata.UnityStrNullPointerForExpected
+00000000 l     O .rodata.UnityStrNullPointerForExpected	0000001d UnityStrNullPointerForExpected
+00000000 l    d  .rodata.UnityStrOk	00000000 .rodata.UnityStrOk
+00000000 l    d  .rodata.UnityStrOrEqual	00000000 .rodata.UnityStrOrEqual
+00000000 l     O .rodata.UnityStrOrEqual	0000000d UnityStrOrEqual
+00000000 l    d  .rodata.UnityStrPass	00000000 .rodata.UnityStrPass
+00000000 l    d  .rodata.UnityStrPointless	00000000 .rodata.UnityStrPointless
+00000000 l     O .rodata.UnityStrPointless	00000037 UnityStrPointless
+00000000 l    d  .rodata.UnityStrResultsFailures	00000000 .rodata.UnityStrResultsFailures
+00000000 l     O .rodata.UnityStrResultsFailures	0000000b UnityStrResultsFailures
+00000000 l    d  .rodata.UnityStrResultsIgnored	00000000 .rodata.UnityStrResultsIgnored
+00000000 l     O .rodata.UnityStrResultsIgnored	0000000a UnityStrResultsIgnored
+00000000 l    d  .rodata.UnityStrResultsTests	00000000 .rodata.UnityStrResultsTests
+00000000 l     O .rodata.UnityStrResultsTests	00000008 UnityStrResultsTests
+00000000 l    d  .rodata.UnityStrSpacer	00000000 .rodata.UnityStrSpacer
+00000000 l     O .rodata.UnityStrSpacer	00000003 UnityStrSpacer
+00000000 l    d  .rodata.UnityStrWas	00000000 .rodata.UnityStrWas
+00000000 l     O .rodata.UnityStrWas	00000006 UnityStrWas
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 putchar
+00000000 g     F .text.UnityPrint	00000008 UnityPrint
+00000000 g     F .text.UnityPrintLen	00000008 UnityPrintLen
+00000000 g     F .text.UnityPrintNumberByStyle	00000168 UnityPrintNumberByStyle
+00000000 g     F .text.UnityPrintNumber	00000068 UnityPrintNumber
+00000000 g     F .text.UnityPrintNumberUnsigned	00000054 UnityPrintNumberUnsigned
+00000000 g     F .text.UnityPrintNumberHex	00000034 UnityPrintNumberHex
+00000000 g     F .text.UnityPrintMask	0000003c UnityPrintMask
+00000000 g     F .text.UnityPrintFloat	00000320 UnityPrintFloat
+00000000 g     F .text.UnityConcludeTest	00000044 UnityConcludeTest
+00000000 g     F .text.UnityAssertBits	00000070 UnityAssertBits
+00000000         *UND*	00000000 longjmp
+00000000 g     F .text.UnityAssertEqualNumber	0000006c UnityAssertEqualNumber
+00000000 g     F .text.UnityAssertGreaterOrLessOrEqualNumber	00000118 UnityAssertGreaterOrLessOrEqualNumber
+00000000 g     F .text.UnityAssertEqualIntArray	00000218 UnityAssertEqualIntArray
+00000000 g     F .text.UnityAssertWithinFloatArray	0000025c UnityAssertWithinFloatArray
+00000000 g     F .text.UnityAssertFloatsWithin	0000010c UnityAssertFloatsWithin
+00000000 g     F .text.UnityAssertFloatsNotWithin	00000110 UnityAssertFloatsNotWithin
+00000000 g     F .text.UnityAssertGreaterOrLessFloat	000001ac UnityAssertGreaterOrLessFloat
+00000000 g     F .text.UnityAssertFloatSpecial	00000158 UnityAssertFloatSpecial
+00000000 g     F .text.UnityAssertNumbersWithin	000000a8 UnityAssertNumbersWithin
+00000000 g     F .text.UnityAssertNumbersArrayWithin	000002f4 UnityAssertNumbersArrayWithin
+00000000 g     F .text.UnityAssertEqualString	0000007c UnityAssertEqualString
+00000000 g     F .text.UnityAssertEqualStringLen	000000f0 UnityAssertEqualStringLen
+00000000 g     F .text.UnityAssertEqualStringArray	000001a4 UnityAssertEqualStringArray
+00000000 g     F .text.UnityAssertEqualMemory	000001f4 UnityAssertEqualMemory
+00000000 g     F .text.UnityNumToPtr	00000024 UnityNumToPtr
+00000000 g     F .text.UnityFloatToPtr	0000000c UnityFloatToPtr
+00000000 g     F .text.UnityFail	0000008c UnityFail
+00000000 g     F .text.UnityIgnore	00000050 UnityIgnore
+00000000 g     F .text.UnityMessage	00000038 UnityMessage
+00000000 g     F .text.UnityDefaultTestRun	00000058 UnityDefaultTestRun
+00000000         *UND*	00000000 setjmp
+00000000         *UND*	00000000 setUp
+00000000         *UND*	00000000 tearDown
+00000000 g     F .text.UnitySetTestFile	0000000c UnitySetTestFile
+00000000 g     F .text.UnityBegin	00000020 UnityBegin
+00000000 g     F .text.UnityEnd	000001a0 UnityEnd
+00000000 g     O .rodata.UnityStrErr64	0000001e UnityStrErr64
+00000000 g     O .rodata.UnityStrErrDouble	00000020 UnityStrErrDouble
+00000000 g     O .rodata.UnityStrErrFloat	0000001e UnityStrErrFloat
+00000000 g     O .rodata.UnityStrErrShorthand	00000021 UnityStrErrShorthand
+00000000 g     O .rodata.UnityStrIgnore	00000007 UnityStrIgnore
+00000000 g     O .rodata.UnityStrFail	00000005 UnityStrFail
+00000000 g     O .rodata.UnityStrPass	00000005 UnityStrPass
+00000000 g     O .rodata.UnityStrOk	00000003 UnityStrOk
+00000000 g     O .bss.Unity	00000084 Unity
+
+
+Contents of section .text.UnityPrint.part.0:
+ 0000 38b50446 0078f8b9 28e00d28 32d00a28  8..F.x..(..(2..(
+ 0010 4ff05c00 23d0fff7 feff7820 fff7feff  O.\.#.....x ....
+ 0020 25789f2d 4fea1510 05f00f05 8cbf3730  %x.-O.........70
+ 0030 3030fff7 feff092d 17d905f1 3700fff7  00.....-....7...
+ 0040 feff14f8 010f48b1 a0f12003 5e2bdcd8  ......H... .^+..
+ 0050 fff7feff 14f8010f 0028f5d1 38bdfff7  .........(..8...
+ 0060 feff6e20 fff7feff ebe705f1 3000fff7  ..n ........0...
+ 0070 feffefe7 5c20fff7 feff7220 fff7feff  ....\ ....r ....
+ 0080 dfe700bf                             ....            
+Contents of section .text.UnityAddMsgIfSpecified:
+ 0000 38b5104d 0446ab68 93b10f48 fff7feff  8..M.F.h...H....
+ 0010 0e48fff7 feffa868 08b1fff7 feffeb68  .H.....h.......h
+ 0020 33b10b48 fff7feff e86808b1 fff7feff  3..H.....h......
+ 0030 3cb10548 fff7feff 2046bde8 3840fff7  <..H.... F..8@..
+ 0040 febf38bd 00000000 00000000 00000000  ..8.............
+ 0050 00000000                             ....            
+Contents of section .text.UnityPrintExpectedAndActualStrings:
+ 0000 38b50546 14480c46 fff7feff bdb12720  8..F.H.F......' 
+ 0010 fff7feff 2846fff7 feff2720 fff7feff  ....(F....' ....
+ 0020 0e48fff7 feff94b1 2720fff7 feff2046  .H......' .... F
+ 0030 fff7feff 2720bde8 3840fff7 febf0848  ....' ..8@.....H
+ 0040 fff7feff 0548fff7 feff002c ecd10448  .....H.....,...H
+ 0050 bde83840 fff7febf 00000000 00000000  ..8@............
+ 0060 00000000                             ....            
+Contents of section .text.UnityPrintLen.part.0:
+ 0000 f8b50646 007878b3 0f4669b3 344621e0  ...F.xx..Fi.4F!.
+ 0010 0d2835d0 0a284ff0 5c0026d0 fff7feff  .(5..(O.\.&.....
+ 0020 7820fff7 feff2578 9f2d4fea 151005f0  x ....%x.-O.....
+ 0030 0f058cbf 37303030 fff7feff 092d1ad9  ....7000.....-..
+ 0040 05f13700 fff7feff 14f8010f 60b1a31b  ..7.........`...
+ 0050 bb4209d2 a0f12003 5e2bd9d8 fff7feff  .B.... .^+......
+ 0060 14f8010f 0028f2d1 f8bdfff7 feff6e20  .....(........n 
+ 0070 fff7feff e8e705f1 3000fff7 feffefe7  ........0.......
+ 0080 5c20fff7 feff7220 fff7feff dce700bf  \ ....r ........
+Contents of section .text.UnityTestResultsBegin:
+ 0000 70b50d46 08b1fff7 feff3a20 fff7feff  p..F......: ....
+ 0010 002d2bdb 092d2fd9 012404eb 84046400  .-+..-/..$....d.
+ 0020 b5fbf4f3 092bf8d8 164eb5fb f4f0a6fb  .....+...N......
+ 0030 0023db08 03eb8303 a0eb4300 3030c0b2  .#........C.00..
+ 0040 fff7feff 2346a6fb 0424092b 4fead404  ....#F...$.+O...
+ 0050 ebd83a20 fff7feff 0b4b5868 08b1fff7  ..: .....KXh....
+ 0060 feff3a20 bde87040 fff7febf 6d422d20  ..: ..p@....mB- 
+ 0070 fff7feff 092dcfd8 05f13000 c0b2fff7  .....-....0.....
+ 0080 feffe6e7 cdcccccc 00000000           ............    
+Contents of section .text.UnityTestResultsFailBegin:
+ 0000 08b5064b 01461868 fff7feff 0448fff7  ...K.F.h.....H..
+ 0010 feff3a20 bde80840 fff7febf 00000000  ..: ...@........
+ 0020 00000000                             ....            
+Contents of section .text.UnityPrint:
+ 0000 08b1fff7 febf7047                    ......pG        
+Contents of section .text.UnityPrintLen:
+ 0000 08b1fff7 febf7047                    ......pG        
+Contents of section .text.UnityPrintNumberByStyle:
+ 0000 70b50c46 c9060546 25d5912c 67d0002d  p..F...F%..,g..-
+ 0010 c0f28c80 092d40f2 8e800124 04eb8404  .....-@....$....
+ 0020 6400b5fb f4f3092b f8d84e4e b5fbf4f0  d......+..NN....
+ 0030 a6fb0023 db0803eb 8303a0eb 43003030  ...#........C.00
+ 0040 c0b2fff7 feff2346 a6fb0424 092b4fea  ......#F...$.+O.
+ 0050 d404ebd8 70bda206 1fd50928 6bd90124  ....p......(k..$
+ 0060 04eb8404 6400b5fb f4f3092b f8d83d4e  ....d......+..=N
+ 0070 b5fbf4f0 a6fb0023 db0803eb 8303a0eb  .......#........
+ 0080 43003030 c0b2fff7 feff2346 a6fb0424  C.00......#F...$
+ 0090 092b4fea d404ebd8 70bd3020 fff7feff  .+O.....p.0 ....
+ 00a0 7820fff7 feff04f0 0f014900 08290c46  x ........I..).F
+ 00b0 28bf0824 0029cdd0 013ce4b2 a40025fa  (..$.)...<....%.
+ 00c0 04f3043c 03f00f03 092b03f1 3000c8bf  ...<.....+..0...
+ 00d0 03f13700 fff7feff 231df0d1 70bd2720  ..7.....#...p.' 
+ 00e0 fff7feff a5f12003 5e2b2bd9 0d2d4ff0  ...... .^++..-O.
+ 00f0 5c0031d0 0a2d29d0 fff7feff 7820fff7  \.1..-).....x ..
+ 0100 feffc5f3 03100928 ccbf3730 3030fff7  .......(..7000..
+ 0110 feff05f0 0f000928 ccbf3730 3030fff7  .......(..7000..
+ 0120 feff2720 bde87040 fff7febf 2d206d42  ..' ..p@....- mB
+ 0130 fff7feff 6ee705f1 3000bde8 7040c0b2  ....n...0...p@..
+ 0140 fff7febf 2846fff7 feffeae7 fff7feff  ....(F..........
+ 0150 6e20fff7 feffe4e7 fff7feff 7220fff7  n ..........r ..
+ 0160 feffdee7 cdcccccc                    ........        
+Contents of section .text.UnityPrintNumber:
+ 0000 70b5051e 20db092d 24d90124 04eb8404  p... ..-$..$....
+ 0010 6400b5fb f4f3092b f8d8124e b5fbf4f3  d......+...N....
+ 0020 a6fb0312 d20802eb 8202a3eb 420303f1  ............B...
+ 0030 3000c0b2 fff7feff 2346a6fb 0424092b  0.......#F...$.+
+ 0040 4fead404 ead870bd 6d422d20 fff7feff  O.....p.mB- ....
+ 0050 092ddad8 05f13000 bde87040 c0b2fff7  .-....0...p@....
+ 0060 febf00bf cdcccccc                    ........        
+Contents of section .text.UnityPrintNumberUnsigned:
+ 0000 092870b5 05461dd9 012404eb 84046400  .(p..F...$....d.
+ 0010 b5fbf4f3 092bf8d8 0d4eb5fb f4f3a6fb  .....+...N......
+ 0020 0312d208 02eb8202 a3eb4203 3033d8b2  ..........B.03..
+ 0030 fff7feff 2346a6fb 0424092b 4fead404  ....#F...$.+O...
+ 0040 ebd870bd 3030bde8 7040c0b2 fff7febf  ..p.00..p@......
+ 0050 cdcccccc                             ....            
+Contents of section .text.UnityPrintNumberHex:
+ 0000 082938b5 0c4628bf 082491b1 013c0546  .)8..F(..$...<.F
+ 0010 e4b2a400 25fa04f3 043c03f0 0f03092b  ....%....<.....+
+ 0020 03f13000 c8bf03f1 3700fff7 feff231d  ..0.....7.....#.
+ 0030 f0d138bd                             ..8.            
+Contents of section .text.UnityPrintMask:
+ 0000 f8b52025 4ff00044 06460f46 05e03020  .. %O..D.F.F..0 
+ 0010 6408fff7 feff013d 0bd02642 0ad02742  d......=..&B..'B
+ 0020 4ff03100 f3d0fff7 feff013d 4fea5404  O.1........=O.T.
+ 0030 f3d1f8bd 5820fff7 fefff6e7           ....X ......    
+Contents of section .rodata.UnityPrintFloat.str1.4:
+ 0000 30000000 6e616e00 696e6600           0...nan.inf.    
+Contents of section .text.UnityPrintFloat:
+ 0000 b5eec00a 2de9f041 f1ee10fa 2ded028b  ....-..A....-...
+ 0010 b0ee408a 84b000f1 db80b5ee 408af1ee  ..@.........@...
+ 0020 10fa00f0 cd80b4ee 488af1ee 10fa80f1  ........H.......
+ 0030 5181f0ee c87a9fed aa7af4ee 477af1ee  Q....z...z..Gz..
+ 0040 10fa00f3 b580b7ee 007a0025 cde90055  .........z.%...U
+ 0050 b4eec78a cde90255 f1ee10fa 00f1e380  .......U........
+ 0060 dfeda07a b4eee78a f1ee10fa 40f3b680  ...z........@...
+ 0070 dfed9d7a b4eee78a f1ee10fa 11dd9fed  ...z............
+ 0080 9b7a88ee 078a0a35 b4eee78a f1ee10fa  .z.....5........
+ 0090 f7dcdfed 947ab4ee e78af1ee 10fa40f3  .....z........@.
+ 00a0 1b81b7ee 007adfed 8f6ab2ee 046a27ee  .....z...j...j'.
+ 00b0 067a0135 c8ee077a f4eee67a f1ee10fa  .z.5...z...z....
+ 00c0 f5dc0023 37eea77a bdeec77a 17ee102a  ...#7..z...z...*
+ 00d0 013248bf 01325110 92070ed5 07ee101a  .2H..2Q.........
+ 00e0 f6ee006a b8eec77a 77ee677a f4ee667a  ...j...zw.gz..fz
+ 00f0 f1ee10fa 08bf01f1 ff310b44 7c4a9342  .........1.D|J.B
+ 0100 80f28c80 7b4ad817 82fb0312 c0eba202  ....{J..........
+ 0110 02eb8202 a3eb4202 05f10a01 0a2978d9  ......B......)x.
+ 0120 06350627 92b9734e 734c7449 dff8ecc1  .5.'..sNsLtI....
+ 0130 02e0bceb 720f09d9 86fb0323 013fc0eb  ....r......#.?..
+ 0140 a3034fea e37004fb 0312f2d1 6e460024  ..O..p......nF.$
+ 0150 dff8a0e1 b4468efb 03210134 c0eba101  .....F...!.4....
+ 0160 01eb8102 c817a3eb 42020b46 30320cf8  ........B..F02..
+ 0170 012b0029 efd1a742 edda06eb 0408013c  .+.)...B.......<
+ 0180 18f8010d fff7feff 5cb1a742 f7d12e20  ........\..B... 
+ 0190 013cfff7 feff18f8 010dfff7 feff002c  .<.............,
+ 01a0 f3d1002d 66d104b0 bdec028b bde8f081  ...-f...........
+ 01b0 534804b0 bdec028b bde8f041 fff7febf  SH.........A....
+ 01c0 504804b0 bdec028b bde8f041 fff7febf  PH.........A....
+ 01d0 2d20b1ee 408afff7 feff1ee7 fdeec87a  - ..@..........z
+ 01e0 494917ee 903af8ee e77a8b42 78ee677a  II...:...z.Bx.gz
+ 01f0 3ff768af f2ee046a 03eb8302 27ee267a  ?.h....j....'.&z
+ 0200 013db1eb 420f4fea 4203f5da 67ee877a  .=..B.O.B...g..z
+ 0210 58e76f42 002d5bd0 002583e7 00220135  X.oB.-[..%...".5
+ 0220 3a4b1046 78e7dfed 3a7ab4ee e78af1ee  :K.Fx...:z......
+ 0230 10fa09d5 9fed2d7a 28ee078a 0a3db4ee  ......-z(....=..
+ 0240 e78af1ee 10faf7d4 dfed326a b4eee68a  ..........2j....
+ 0250 f1ee10fa 40d5b7ee 007ab2ee 046a27ee  ....@....z...j'.
+ 0260 067a013d 67ee087a f4eee67a f1ee10fa  .z.=g..z...z....
+ 0270 f5d426e7 6520fff7 feff002d 23db2b20  ..&.e .....-#.+ 
+ 0280 fff7feff 31461c4f a7fb0523 22460134  ....1F.O...#"F.4
+ 0290 db0803eb 8300a5eb 40001d46 3030c0b2  ........@..F00..
+ 02a0 01f8010b 002befd1 012ceddd b41801e0  .....+...,......
+ 02b0 14f8010d fff7feff a642f9d1 04b0bdec  .........B......
+ 02c0 028bbde8 f0812d20 6d42fff7 feffd9e7  ......- mB......
+ 02d0 2f463be7 10486ce7 f0ee487a f1e600bf  /F;..Hl...Hz....
+ 02e0 ffff7f7f 8096184b ca1b0e5a f9021550  .......K...Z...P
+ 02f0 80969800 67666666 cdcccccc 98999919  ....gfff........
+ 0300 08000000 00000000 3f420f00 40420f00  ........?B..@B..
+ 0310 6f12833a 00247449 04000000 99999919  o..:.$tI........
+Contents of section .text.UnityConcludeTest:
+ 0000 10b50e4c 636a53b1 e3690133 e3610023  ...LcjS..i.3.a.#
+ 0010 0a20c4e9 0833bde8 1040fff7 febf236a  . ...3...@....#j
+ 0020 1bb1a369 0133a361 f1e72068 2169fff7  ...i.3.a.. h!i..
+ 0030 feff0348 fff7feff e9e700bf 00000000  ...H............
+ 0040 00000000                             ....            
+Contents of section .text.UnityAssertBits:
+ 0000 70b5184d 044684b0 d5e90806 304305d1  p..M.F......0C..
+ 0010 81ea0200 204206d1 04b070bd 012105f1  .... B....p..!..
+ 0020 2800fff7 feff0898 0191cde9 0223fff7  (............#..
+ 0030 feff0d48 fff7feff 01992046 fff7feff  ...H...... F....
+ 0040 0a48fff7 feff029a 20461146 fff7feff  .H...... F.F....
+ 0050 039b1846 fff7feff 012105f1 28002962  ...F.....!..(.)b
+ 0060 fff7feff 00000000 00000000 00000000  ................
+Contents of section .text.UnityAssertEqualNumber:
+ 0000 f0b5174e 05460c46 83b0d6e9 08019df8  ...N.F.F........
+ 0010 20700843 03d1a542 06d103b0 f0bd0121   p.C...B.......!
+ 0020 06f12800 fff7feff 18460192 fff7feff  ..(......F......
+ 0030 0c48fff7 feff3946 2846fff7 feff0a48  .H....9F(F.....H
+ 0040 fff7feff 39462046 fff7feff 019a1046  ....9F F.......F
+ 0050 fff7feff 012106f1 28003162 fff7feff  .....!..(.1b....
+ 0060 00000000 00000000 00000000           ............    
+Contents of section .text.UnityAssertGreaterOrLessOrEqualNumber:
+ 0000 2de9f047 3d4d1446 1e469df8 2490d5e9  -..G=M.F.F..$...
+ 0010 08231a43 65d18842 07468846 2dd019f0  .#.Ce..B.F.F-...
+ 0020 100f25d0 88424ada 600704f0 040a22d5  ..%..BJ.`.....".
+ 0030 0898fff7 feff3248 fff7feff 40464946  ......2H....@FIF
+ 0040 04f00108 fff7feff a20728d4 2d48fff7  ..........(.-H..
+ 0050 feffb8f1 000f49d1 49463846 fff7feff  ......I.IF8F....
+ 0060 3046fff7 feff0121 27482962 fff7feff  0F.....!'H)b....
+ 0070 8142d9d8 24d3bde8 f087e307 04f00108  .B..$...........
+ 0080 f9d40898 fff7feff 1d48fff7 feff4946  .........H....IF
+ 0090 3846fff7 feffa307 2cd504f0 040a1b48  8F......,......H
+ 00a0 fff7feff 5ffa8af3 002bcfd1 b8f1000f  ...._....+......
+ 00b0 1cd1002c d0d11648 fff7feff cce7dadd  ...,...H........
+ 00c0 a107d8d5 089804f0 040afff7 feff0c48  ...............H
+ 00d0 fff7feff 40464946 04f00108 fff7feff  ....@FIF........
+ 00e0 dde70121 05f12800 fff7feff 0948fff7  ...!..(......H..
+ 00f0 feffb1e7 04f00403 d6e700bf 00000000  ................
+ 0100 00000000 00000000 28000000 00000000  ........(.......
+ 0110 00000000 00000000                    ........        
+Contents of section .text.UnityAssertEqualIntArray:
+ 0000 2de9f04f 7a4e83b0 d6e90854 9df83470  -..OzN.....T..4p
+ 0010 2c439df8 38e00093 40f0d080 002a00f0  ,C..8...@....*..
+ 0020 d8808842 38d00028 54d00029 67d007f0  ...B8..(T..)g...
+ 0030 0f0c1446 07f06003 10e08446 8b466046  ...F..`....F.F`F
+ 0040 51f8048b 5cf8045b 454574d1 bef1010f  Q...\..[EEt.....
+ 0050 3cd04ff0 040c0beb 0c01ecb1 bcf1010f  <.O.............
+ 0060 04f1ff34 1bd0bcf1 020fe6d1 81468b46  ...4.........F.F
+ 0070 48460231 09f10209 bbf90080 b0f90050  HF.1...........P
+ 0080 13b1adb2 1ffa88f8 454549d1 bef1010f  ........EEI.....
+ 0090 e1d10cb1 013ceae7 03b0bde8 f08f8146  .....<.........F
+ 00a0 8b464846 013109f1 01099bf9 008090f9  .FHF.1..........
+ 00b0 005013b1 edb25ffa 88f84545 30d1bef1  .P...._...EE0...
+ 00c0 010fc8d1 002ce7d0 013ce9e7 002ce3d0  .....,...<...,..
+ 00d0 013cb3e7 0c993068 fff7feff 4548fff7  .<....0h....EH..
+ 00e0 feff3a20 fff7feff 4348fff7 feff0098  ..: ....CH......
+ 00f0 fff7feff 01214148 3162fff7 feff0c99  .....!AH1b......
+ 0100 3068fff7 feff3b48 fff7feff 3a20fff7  0h....;H....: ..
+ 0110 feff3b48 fff7feff 0098fff7 feffe9e7  ..;H............
+ 0120 bb0608d5 4feacc01 012000fa 01f10139  ....O.... .....9
+ 0130 0d4008ea 01080c99 30680192 fff7feff  .@......0h......
+ 0140 2c48fff7 feff3a20 fff7feff 2d48fff7  ,H....: ....-H..
+ 0150 feff019a 013a141b 092c34d9 4ff00109  .....:...,4.O...
+ 0160 09eb8909 4fea4909 b4fbf9f2 092af7d8  ....O.I......*..
+ 0170 dff8a0a0 b4fbf9f2 aafb0201 c90801eb  ................
+ 0180 8101a2eb 410202f1 3000c0b2 fff7feff  ....A...0.......
+ 0190 4a46aafb 0919092a 4fead909 ead81a48  JF.....*O......H
+ 01a0 fff7feff 39462846 fff7feff 1748fff7  ....9F(F.....H..
+ 01b0 feff3946 4046fff7 feffade7 012106f1  ..9F@F.......!..
+ 01c0 2800fff7 feff04f1 3000c0b2 fff7feff  (.......0.......
+ 01d0 e5e70c98 fff7feff 0d48fff7 feff0098  .........H......
+ 01e0 fff7feff 012106f1 28003162 fff7feff  .....!..(.1b....
+ 01f0 00000000 00000000 00000000 28000000  ............(...
+ 0200 00000000 00000000 00000000 00000000  ................
+ 0210 00000000 cdcccccc                    ........        
+Contents of section .text.UnityAssertWithinFloatArray:
+ 0000 2de9f047 dff84c82 05460c46 1f460899  -..G..L..F.F.F..
+ 0010 9df82430 d8e90860 304340f0 0181002a  ..$0...`0C@....*
+ 0020 00f0f780 f0eec07a 9fed807a f4ee477a  .......z...z..Gz
+ 0030 f1ee10fa 00f3bf80 b4ee400a f1ee10fa  ..........@.....
+ 0040 80f1e780 a54200f0 b680002d 00f0b580  .....B.....-....
+ 0050 002c00f0 c880b5ee c00af1ee 10fa01d5  .,..............
+ 0060 b1ee400a 561e9fed 725a2246 dfed6f5a  ..@.V...rZ"F..oZ
+ 0070 344695ed 007a9146 f2ec017a 67ee056a  4F...z.F...zg..j
+ 0080 b0eec76a f5eec06a f1ee10fa b4ee656a  ...j...j......ej
+ 0090 48bff1ee 666af1ee 10fa18dd b0eee76a  H...fj.........j
+ 00a0 b4ee656a f1ee10fa 11ddb5ee c07af1ee  ..ej.........z..
+ 00b0 10faf5ee c07a4cbf 4ff0010c 4ff0000c  .....zL.O...O...
+ 00c0 f1ee10fa 4cbf0120 00208445 6dd0b4ee  ....L.. . .Em...
+ 00d0 477af1ee 10fa04d7 f4ee677a f1ee10fa  Gz........gz....
+ 00e0 63d677ee c77a76ee 806af5ee c07af1ee  c.w..zv..j...z..
+ 00f0 10faf5ee c06a48bf f1ee677a f1ee10fa  .....jH...gz....
+ 0100 f4ee677a 48bff1ee 666af1ee 10fa0bd6  ..gzH...fj......
+ 0110 b0eee77a b4ee657a f1ee10fa 04dcf4ee  ...z..ez........
+ 0120 e67af1ee 10fa40dd d8f80000 341bfff7  .z....@.....4...
+ 0130 feff4048 fff7feff 3a20fff7 feff3e48  ..@H....: ....>H
+ 0140 fff7feff 092c5fd9 012606eb 86067600  .....,_..&....v.
+ 0150 b4fbf6f3 092bf8d8 dff8fca0 b4fbf6f3  .....+..........
+ 0160 aafb0312 d20802eb 8202a3eb 420303f1  ............B...
+ 0170 3000c0b2 fff7feff 3346aafb 0626092b  0.......3F...&.+
+ 0180 4fead606 ead82d48 fff7feff 95ed000a  O.....-H........
+ 0190 fff7feff 2a48fff7 feff99ed 000afff7  ....*H..........
+ 01a0 feff3846 fff7feff 17e0012b 08bf0435  ..8F.......+...5
+ 01b0 013cbff4 5eafbde8 f087d8f8 0000fff7  .<..^...........
+ 01c0 feff1c48 fff7feff 3a20fff7 feff1d48  ...H....: .....H
+ 01d0 fff7feff 3846fff7 feff0121 1a48c8f8  ....8F.....!.H..
+ 01e0 2010fff7 feffd8f8 0000fff7 feff1148   ..............H
+ 01f0 fff7feff 3a20fff7 feff1448 fff7feff  ....: .....H....
+ 0200 3846fff7 feffe8e7 3034e0b2 fff7feff  8F......04......
+ 0210 b9e70846 fff7feff 0d48fff7 feffc0e7  ...F.....H......
+ 0220 012108f1 2800fff7 feff00bf ffff7f7f  .!..(...........
+ 0230 acc52737 00000000 00000000 00000000  ..'7............
+ 0240 00000000 00000000 28000000 00000000  ........(.......
+ 0250 00000000 00000000 cdcccccc           ............    
+Contents of section .text.UnityAssertFloatsWithin:
+ 0000 38b53d4c d4e90832 2ded028b 13436dd1  8.=L...2-....Cm.
+ 0010 f0eee07a 9fed397a b0ee608a 0546f0ee  ...z..9z..`..F..
+ 0020 418af4ee 477af1ee 10fa16dd f0eec17a  A...Gz.........z
+ 0030 f4ee477a f1ee10fa 0fddf5ee c00af1ee  ..Gz............
+ 0040 10fab5ee c01a4cbf 01220022 f1ee10fa  ......L.."."....
+ 0050 4cbf0123 00239a42 09d0b4ee 488af1ee  L..#.#.B....H...
+ 0060 10fa07d7 f4ee688a f1ee10fa 02d7bdec  ......h.........
+ 0070 028b38bd 78eec87a f5eec07a f1ee10fa  ..8.x..z...z....
+ 0080 b5eec00a 48bff1ee 677af1ee 10faf4ee  ....H...gz......
+ 0090 677a48bf b1ee400a f1ee10fa 0dd6b0ee  gzH...@.........
+ 00a0 e77adfed 166ab4ee 667af1ee 10fa04dc  .z...j..fz......
+ 00b0 f4eec07a f1ee10fa d9dd0846 fff7feff  ...z.......F....
+ 00c0 0f48fff7 feffb0ee 480afff7 feff0d48  .H......H......H
+ 00d0 fff7feff b0ee680a fff7feff 2846fff7  ......h.....(F..
+ 00e0 feff0121 08482162 fff7feff 012104f1  ...!.H!b.....!..
+ 00f0 2800fff7 feff00bf 00000000 ffff7f7f  (...............
+ 0100 00000000 00000000 28000000           ........(...    
+Contents of section .text.UnityAssertFloatsNotWithin:
+ 0000 30b53e4c 83b0d4e9 08321343 70d1f0ee  0.>L.....2.Cp...
+ 0010 e07a9fed 3b7a0546 f4ee477a f1ee10fa  .z..;z.F..Gz....
+ 0020 16ddf0ee c17af4ee 477af1ee 10fa0fdd  .....z..Gz......
+ 0030 f5eec00a f1ee10fa b5eec01a 4cbf0122  ............L.."
+ 0040 0022f1ee 10fa4cbf 01230023 9a4209d0  ."....L..#.#.B..
+ 0050 f4ee600a f1ee10fa 25d7b4ee 411af1ee  ..`.....%...A...
+ 0060 10fa20d7 08468ded 011acded 000afff7  .. ..F..........
+ 0070 feff2448 fff7feff dded000a b0ee600a  ..$H..........`.
+ 0080 fff7feff 2048fff7 feff9ded 011ab0ee  .... H..........
+ 0090 410afff7 feff2846 fff7feff 01211b48  A.....(F.....!.H
+ 00a0 2162fff7 feff71ee 607af5ee c07af1ee  !b....q.`z...z..
+ 00b0 10fab5ee c00a48bf f1ee677a f1ee10fa  ......H...gz....
+ 00c0 f4ee677a 48bfb1ee 400af1ee 10fa0dd6  ..gzH...@.......
+ 00d0 b0eee77a dfed0a6a b4ee667a f1ee10fa  ...z...j..fz....
+ 00e0 04dcf4ee c07af1ee 10fabbdd 03b030bd  .....z........0.
+ 00f0 012104f1 2800fff7 feff00bf 00000000  .!..(...........
+ 0100 ffff7f7f 00000000 00000000 28000000  ............(...
+Contents of section .text.UnityAssertGreaterOrLessFloat:
+ 0000 70b5624d 0446d5e9 08302ded 028b0343  p.bM.F...0-....C
+ 0010 82b070d1 f4eec00a b0ee408a f1ee10fa  ..p.......@.....
+ 0020 f4eec00a 58bfc4f3 8003f1ee 10fa4ddc  ....X.........M.
+ 0030 a6074bd5 14f00106 00f09280 0123f0ee  ..K..........#..
+ 0040 c87a9fed 537af4ee 477af1ee 10fa06dd  .z..Sz..Gz......
+ 0050 f0eee07a f4ee477a f1ee10fa 3adcb4ee  ...z..Gz....:...
+ 0060 488af1ee 10fa04d7 f4ee600a f1ee10fa  H.........`.....
+ 0070 28d670ee c87a9fed 477a28ee 077af5ee  (.p..z..Gz(..z..
+ 0080 c07af1ee 10fab5ee c07a48bf f1ee677a  .z.......zH...gz
+ 0090 f1ee10fa f4ee677a 48bfb1ee 477af1ee  ......gzH...Gz..
+ 00a0 10fa0dd6 f0eee76a 9fed396a f4ee466a  .......j..9j..Fj
+ 00b0 f1ee10fa 04dcf4ee c77af1ee 10fa01dd  .........z......
+ 00c0 0126ebb9 02b0bdec 028b70bd 14f00106  .&........p.....
+ 00d0 f7d0b4e7 b5eec08a f1ee10fa f5eec00a  ................
+ 00e0 4cbf0126 0026f1ee 10fa4cbf 01200020  L..&.&....L.. . 
+ 00f0 8642b4d1 e6e70121 05f12800 fff7feff  .B.....!..(.....
+ 0100 10460191 cded000a fff7feff 2248fff7  .F.........."H..
+ 0110 feffdded 000ab0ee 600afff7 feff14f0  ........`.......
+ 0120 020f0199 2cd16307 0ed49eb9 b0ee480a  ....,.c.......H.
+ 0130 0091fff7 feff0099 0846fff7 feff0121  .........F.....!
+ 0140 16482962 fff7feff 15480091 fff7feff  .H)b.....H......
+ 0150 0099eae7 13480091 fff7feff 0099e5e7  .....H..........
+ 0160 10460191 cded000a fff7feff 0a48fff7  .F...........H..
+ 0170 feffdded 000ab0ee 600afff7 feff0199  ........`.......
+ 0180 09480091 fff7feff 0099cce7 00000000  .H..............
+ 0190 ffff7f7f acc52737 00000000 28000000  ......'7....(...
+ 01a0 00000000 00000000 00000000           ............    
+Contents of section .text.UnityAssertFloatSpecial:
+ 0000 2de9f041 4c4b86b0 94460546 8e464b4c  -..ALK...F.F.FKL
+ 0010 02f00106 57080df1 18080fcb 08e90f00  ....W...........
+ 0020 d4e90832 13434cd1 bcf1070f 7cd8dfe8  ...2.CL.....|...
+ 0030 0cf01c1c 2d2d3e3e 0404f0ee c07a9fed  ....-->>.....z..
+ 0040 407af4ee 477af1ee 10fab4ee 400ad4bf  @z..Gz......@...
+ 0050 01230023 f1ee10fa 03f00103 68bf0023  .#.#........h..#
+ 0060 b34233d1 06b0bde8 f081f0ee c07a9fed  .B3..........z..
+ 0070 347af4ee 477af1ee 10fa20dd b5eec00a  4z..Gz.... .....
+ 0080 f1ee10fa ccbf0123 0023e9e7 f0eec07a  .......#.#.....z
+ 0090 9fed2b7a f4ee477a f1ee10fa 0fddb5ee  ..+z..Gz........
+ 00a0 c00af1ee 10fa4cbf 01230023 d8e7b4ee  ......L..#.#....
+ 00b0 400af1ee 10fa6cbf 01230023 d0e70023  @.....l..#.#...#
+ 00c0 cee70121 04f12800 fff7feff 70468ded  ...!..(.....pF..
+ 00d0 010afff7 feff1b48 fff7feff 9ded010a  .......H........
+ 00e0 e6b106ab 03eb8707 57f8100c 28b18ded  ........W...(...
+ 00f0 010afff7 feff9ded 010a1348 8ded010a  ...........H....
+ 0100 fff7feff 9ded010a fff7feff 2846fff7  ............(F..
+ 0110 feff0121 0d482162 fff7feff 0c48fff7  ...!.H!b.....H..
+ 0120 feff9ded 010adce7 6fea0c03 094a0027  ........o....J.'
+ 0130 03f00103 029293e7 00000000 00000000  ................
+ 0140 ffff7f7f 00000000 00000000 28000000  ............(...
+ 0150 00000000 00000000                    ........        
+Contents of section .text.UnityAssertNumbersWithin:
+ 0000 f0b5244d 06460c46 83b0d5e9 08109df8  ..$M.F.F........
+ 0010 24700143 14d1f906 0ad4a242 0ad9111b  $p.C.......B....
+ 0020 b14294bf 00210121 296271b9 03b0f0bd  .B...!.!)bq.....
+ 0030 a242f4dc a11ab142 94bf0021 0121f3e7  .B.....B...!.!..
+ 0040 012105f1 2800fff7 feff0898 cde90023  .!..(..........#
+ 0050 fff7feff 1048fff7 feff3946 3046fff7  .....H....9F0F..
+ 0060 feff0e48 fff7feff 39462046 fff7feff  ...H....9F F....
+ 0070 0b48fff7 feff009a 39461046 fff7feff  .H......9F.F....
+ 0080 019b1846 fff7feff 01210648 2962fff7  ...F.....!.H)b..
+ 0090 feff00bf 00000000 00000000 00000000  ................
+ 00a0 00000000 28000000                    ....(...        
+Contents of section .text.UnityAssertNumbersArrayWithin:
+ 0000 2de9f04f b04f85b0 80460193 9df84030  -..O.O...F....@0
+ 0010 9df84490 0293d7e9 084054ea 00030393  ..D......@T.....
+ 0020 40f03781 019b002b 00f03e81 91424ed0  @.7....+..>..BN.
+ 0030 002900f0 ac80002a 00f0be80 029b019c  .).....*........
+ 0040 03f00f0c 03f01000 134618e0 8e461a46  .........F...F.F
+ 0050 13467146 00287cd0 3ef9025b 32f9026b  .FqF.(|.>..[2..k
+ 0060 b54269da a6eb050a d045c0f0 b880b9f1  .Bi......E......
+ 0070 010f00f0 8980039a 3a626344 3cb3bcf1  ........:bcD<...
+ 0080 010f04f1 ff3425d0 bcf1020f ded08c46  .....4%........F
+ 0090 1a461346 61460028 69d05cf8 045b52f8  .F.FaF.(i.\..[R.
+ 00a0 046bb542 46daa6eb 050ef045 34bf4ff0  .k.BF......E4.O.
+ 00b0 010e4ff0 000ec7f8 20e0c0f0 a080b9f1  ..O..... .......
+ 00c0 010f5dd0 4ff0040c 6344002c d7d105b0  ..].O...cD.,....
+ 00d0 bde8f08f 8e461a46 71461346 e0b11ef9  .....F.FqF.F....
+ 00e0 01bb12f9 01ab5d46 d3455646 24daaaeb  ......]F.EVF$...
+ 00f0 0b0ad045 34bf4ff0 010a4ff0 000ac7f8  ...E4.O...O.....
+ 0100 20a06ed3 b9f1010f b7d1002c dfd0013c   .n........,...<
+ 0110 13467146 0028e2d1 9ef80050 16782a46  .FqF.(.....P.x*F
+ 0120 b6467245 1cd3a2eb 0e024245 94bf0022  .FrE......BE..."
+ 0130 012206e0 4ff0040c aa1b4245 94bf0022  ."..O.....BE..."
+ 0140 01223a62 002a4cd1 b9f1010f 95d16144  .":b.*L.......aD
+ 0150 93e7bef8 00501688 2a46b646 7245e2d2  .....P..*F.FrE..
+ 0160 aeeb020e c64594bf 00220122 e9e7dcf8  .....E..."."....
+ 0170 00204ff0 040cd3f8 00e01546 7646ede7  . O........FvF..
+ 0180 002ca4d0 013c84e7 3cb3013c 60e70f99  .,...<..<..<`...
+ 0190 3868fff7 feff4d48 fff7feff 3a20fff7  8h....MH....: ..
+ 01a0 feff4b48 fff7feff 0e98fff7 feff0121  ..KH...........!
+ 01b0 48483962 fff7feff 0f993868 fff7feff  HH9b......8h....
+ 01c0 4248fff7 feff3a20 fff7feff 4248fff7  BH....: ....BH..
+ 01d0 feff0e98 fff7feff e9e73c62 77e70123  ..........<bw..#
+ 01e0 3b62029b 9b060ad5 bcf1040f 07d04fea  ;b............O.
+ 01f0 cc0c0123 03fa0cf3 013b1d40 1e400f99  ...#.....;.@.@..
+ 0200 3868fff7 feff3148 fff7feff 3a20fff7  8h....1H....: ..
+ 0210 feff3248 fff7feff 02994046 fff7feff  ..2H......@F....
+ 0220 2f48fff7 feff019b 013b1c1b 092c35d9  /H.......;...,5.
+ 0230 4ff00108 08eb8808 4fea4808 b4fbf8f3  O.......O.H.....
+ 0240 092bf7d8 dff8a890 b4fbf8f3 a9fb0312  .+..............
+ 0250 d20802eb 8202a3eb 420303f1 3000c0b2  ........B...0...
+ 0260 fff7feff 4346a9fb 0828092b 4fead808  ....CF...(.+O...
+ 0270 ead81c48 fff7feff 029c2846 2146fff7  ...H......(F!F..
+ 0280 feff1948 fff7feff 21463046 fff7feff  ...H....!F0F....
+ 0290 9fe70121 07f12800 fff7feff 04f13000  ...!..(.......0.
+ 02a0 c0b2fff7 feffe4e7 0f98fff7 feff0f48  ...............H
+ 02b0 fff7feff 0e98fff7 feff0121 07f12800  ...........!..(.
+ 02c0 3962fff7 feff00bf 00000000 00000000  9b..............
+ 02d0 00000000 28000000 00000000 00000000  ....(...........
+ 02e0 00000000 00000000 00000000 00000000  ................
+ 02f0 cdcccccc                             ....            
+Contents of section .text.UnityAssertEqualString:
+ 0000 2de9f843 1b4f0e46 9146d7e9 08210a43  -..C.O.F.F...!.C
+ 0010 2bd18046 1846b8f1 000f1dd0 e6b108f1  +..F.F..........
+ 0020 ff3c06f1 ff3ec8f1 010101eb 0c051cf8  .<...>..........
+ 0030 014facb9 725d8ab1 01243c62 fff7feff  .O..r]...$<b....
+ 0040 31464046 fff7feff 4846fff7 feff2146  1F@F....HF....!F
+ 0050 09483c62 fff7feff b045edd1 bde8f883  .H<b.....E......
+ 0060 1ef8015f a542e0d0 e6e70121 07f12800  ..._.B.....!..(.
+ 0070 fff7feff 00000000 28000000           ........(...    
+Contents of section .text.UnityAssertEqualStringLen:
+ 0000 2de9f047 354f9246 9846d7e9 08321343  -..G5O.F.F...2.C
+ 0010 5bd18146 0e460028 3ed00029 3cd0baf1  [..F.F.(>..)<...
+ 0020 000f50d0 0af1ff33 00f1ff3e 01f1ff3c  ..P....3...>...<
+ 0030 c1f10102 0b441ef8 014f02eb 0c05002c  .....D...O.....,
+ 0040 3bd1735d 002b3ed0 01230898 3b62fff7  ;.s].+>..#..;b..
+ 0050 feff2348 fff7feff 2720fff7 feff4846  ..#H....' ....HF
+ 0060 5146fff7 feff2720 fff7feff 1d48fff7  QF....' .....H..
+ 0070 feff7eb3 2720fff7 feff3046 5146fff7  ..~.' ....0FQF..
+ 0080 feff2720 fff7feff 4046fff7 feff0121  ..' ....@F.....!
+ 0090 15483962 fff7feff b14514d0 01230898  .H9b.....E...#..
+ 00a0 3b62fff7 feff0e48 fff7feff b9f1000f  ;b.....H........
+ 00b0 d2d10e48 fff7feff d8e71cf8 015fa542  ...H........._.B
+ 00c0 c2d16345 b7d1bde8 f0870121 07f12800  ..cE.......!..(.
+ 00d0 fff7feff 0548fff7 feffd5e7 00000000  .....H..........
+ 00e0 00000000 00000000 28000000 00000000  ........(.......
+Contents of section .text.UnityAssertEqualStringArray:
+ 0000 2de9f04f dff898a1 83b00c46 01930c99  -..O.......F....
+ 0010 9df834b0 dae90863 1e4340f0 ae809146  ..4....c.C@....F
+ 0020 002a00f0 9a80a042 62d00028 68d0002c  .*.....Bb..(h..,
+ 0030 7cd0bbf1 010fa4f1 040214bf 80464ff0  |............FO.
+ 0040 0008bbf1 010f52f8 045f08bf 50f82680  ......R.._..P.&.
+ 0050 b8f1000f 00d0d5bb a84546d0 0124daf8  .........EF..$..
+ 0060 0000caf8 2040fff7 feff4648 fff7feff  .... @....FH....
+ 0070 3a20fff7 feffa145 21d04348 fff7feff  : .....E!.CH....
+ 0080 092e64d9 04eb8404 6400b6fb f4f3092b  ..d.....d......+
+ 0090 f8d83e4f b6fbf4f3 a7fb0312 d20802eb  ..>O............
+ 00a0 8202a3eb 420303f1 3000c0b2 fff7feff  ....B...0.......
+ 00b0 2346a7fb 0424092b 4fead404 ead84046  #F...$.+O.....@F
+ 00c0 2946fff7 feff0198 fff7feff 28e008f1  )F..........(...
+ 00d0 ff336f1e c8f1010e 0eeb030c 13f8014f  .3o............O
+ 00e0 4cb915f8 0c30002b b8d10136 b145a8d1  L....0.+...6.E..
+ 00f0 03b0bde8 f08f17f8 01cfa445 ecd0ade7  ...........E....
+ 0100 daf80000 fff7feff 1e48fff7 feff3a20  .........H....: 
+ 0110 fff7feff 1e48fff7 feff0198 fff7feff  .....H..........
+ 0120 01211c48 caf82010 fff7feff daf80000  .!.H.. .........
+ 0130 fff7feff 1348fff7 feff3a20 fff7feff  .....H....: ....
+ 0140 1548fff7 feff0198 fff7feff e8e706f1  .H..............
+ 0150 3000c0b2 fff7feff b1e70846 fff7feff  0..........F....
+ 0160 0e48fff7 feff0198 fff7feff 01210af1  .H...........!..
+ 0170 2800caf8 2010fff7 feff0121 0af12800  (... ......!..(.
+ 0180 fff7feff 00000000 00000000 cdcccccc  ................
+ 0190 00000000 28000000 00000000 00000000  ....(...........
+ 01a0 00000000                             ....            
+Contents of section .text.UnityAssertEqualMemory:
+ 0000 2de9f04f dff8e881 83b0d8e9 08459df8  -..O.........E..
+ 0010 38e02c43 40f0d180 002b00f0 c980002a  8.,C@....+.....*
+ 0020 00f0c680 88421dd0 00286dd0 00297dd0  .....B...(m..)}.
+ 0030 03f1ff39 571e8446 4e460a46 3c46e246  ...9W..FNF.F<F.F
+ 0040 15461cf8 01bb12f8 011b8b45 0dd1013c  .F.........E...<
+ 0050 1146651c f3d1013e bef1000f 08bf8446  .Fe....>.......F
+ 0060 721cead1 03b0bde8 f08f0d99 d8f80000  r...............
+ 0070 0193fff7 feff5348 fff7feff 3a20fff7  ......SH....: ..
+ 0080 feff5148 fff7feff 019b012b 5dd13c1b  ..QH.......+].<.
+ 0090 4e48fff7 feff092c 40f28580 012606eb  NH.....,@....&..
+ 00a0 86067600 b4fbf6f3 092bf8d8 484fb4fb  ..v......+..HO..
+ 00b0 f6f3a7fb 0312d208 02eb8202 a3eb4203  ..............B.
+ 00c0 03f13000 c0b2fff7 feff3346 a7fb0626  ..0.......3F...&
+ 00d0 092b4fea d606ead8 3e48fff7 feff4121  .+O.....>H....A!
+ 00e0 9af80000 fff7feff 3b48fff7 feff4121  ........;H....A!
+ 00f0 2878fff7 feff0c98 fff7feff 01213748  (x...........!7H
+ 0100 c8f82010 fff7feff 0d99d8f8 0000fff7  .. .............
+ 0110 feff2c48 fff7feff 3a20fff7 feff3048  ..,H....: ....0H
+ 0120 fff7feff 0c98fff7 feffe7e7 0d99d8f8  ................
+ 0130 0000fff7 feff2348 fff7feff 3a20fff7  ......#H....: ..
+ 0140 feff2848 fff7feff d5e7a9eb 06062648  ..(H..........&H
+ 0150 fff7feff 092e21d9 4ff00109 09eb8909  ......!.O.......
+ 0160 4fea4909 b6fbf9f3 092bf7d8 dff860b0  O.I......+....`.
+ 0170 b6fbf9f3 abfb0312 d20802eb 8202a3eb  ................
+ 0180 420303f1 3000c0b2 fff7feff 4b46abfb  B...0.......KF..
+ 0190 0929092b 4fead909 ead878e7 3036f0b2  .).+O.....x.06..
+ 01a0 fff7feff 73e73034 e0b2fff7 feff93e7  ....s.04........
+ 01b0 0d98fff7 feff0d48 c4e70121 08f12800  .......H...!..(.
+ 01c0 fff7feff 00000000 00000000 00000000  ................
+ 01d0 cdcccccc 00000000 00000000 28000000  ............(...
+ 01e0 00000000 00000000 00000000 00000000  ................
+ 01f0 00000000                             ....            
+Contents of section .text.UnityNumToPtr:
+ 0000 012905d0 022907d0 054b1860 04487047  .)...)...K.`.HpG
+ 0010 034b1870 02487047 014b1880 00487047  .K.p.HpG.K...HpG
+ 0020 00000000                             ....            
+Contents of section .text.UnityFloatToPtr:
+ 0000 014880ed 000a7047 00000000           .H....pG....    
+Contents of section .text.UnityFail:
+ 0000 1c4c08b5 d4e90832 134304d0 012104f1  .L.....2.C...!..
+ 0010 2800fff7 feff0546 2068fff7 feff1648  (......F h.....H
+ 0020 fff7feff 05b33a20 fff7feff a36893b1  ......: .....h..
+ 0030 1248fff7 feffa068 08b1fff7 feffe368  .H.....h.......h
+ 0040 33b10f48 fff7feff e06808b1 fff7feff  3..H.....h......
+ 0050 0c48fff7 feff2b78 202b02d0 2020fff7  .H....+x +..  ..
+ 0060 feff2846 fff7feff 01210748 2162fff7  ..(F.....!.H!b..
+ 0070 feff00bf 00000000 00000000 00000000  ................
+ 0080 00000000 00000000 28000000           ........(...    
+Contents of section .text.UnityIgnore:
+ 0000 104c08b5 d4e90832 134304d0 012104f1  .L.....2.C...!..
+ 0010 2800fff7 feff0546 2068fff7 feff0a48  (......F h.....H
+ 0020 fff7feff 45b13a20 fff7feff 2020fff7  ....E.: ....  ..
+ 0030 feff2846 fff7feff 01210448 6162fff7  ..(F.....!.Hab..
+ 0040 feff00bf 00000000 00000000 28000000  ............(...
+Contents of section .rodata.UnityMessage.str1.4:
+ 0000 494e464f 00                          INFO.           
+Contents of section .text.UnityMessage:
+ 0000 0b4b10b5 04461868 fff7feff 0948fff7  .K...F.h.....H..
+ 0010 feff44b1 3a20fff7 feff2020 fff7feff  ..D.: ....  ....
+ 0020 2046fff7 feff0a20 bde81040 fff7febf   F..... ...@....
+ 0030 00000000 00000000                    ........        
+Contents of section .text.UnityDefaultTestRun:
+ 0000 134b10b5 596082b0 59690024 019003f1  .K..Y`..Yi.$....
+ 0010 28000131 1a61c3e9 02445961 fff7feff  (..1.a...DYa....
+ 0020 38b10c48 fff7feff 60b1fff7 feff02b0  8..H....`.......
+ 0030 10bdfff7 feff019b 98470648 fff7feff  .........G.H....
+ 0040 0028f2d1 fff7feff fff7feff 02b010bd  .(..............
+ 0050 00000000 28000000                    ....(...        
+Contents of section .text.UnitySetTestFile:
+ 0000 014b1860 704700bf 00000000           .K.`pG......    
+Contents of section .text.UnityBegin:
+ 0000 064b0022 18605a60 1a615a62 c3e90522  .K.".`Z`.aZb..."
+ 0010 c3e90722 c3e90222 704700bf 00000000  ..."..."pG......
+Contents of section .text.UnityEnd:
+ 0000 f8b50a20 5e4dfff7 feff5e48 fff7feff  ... ^M....^H....
+ 0010 0a20fff7 feff6e69 002ec0f2 8280092e  . ....ni........
+ 0020 40f28680 012404eb 84046400 b6fbf4f3  @....$....d.....
+ 0030 092bf8d8 544fb6fb f4f0a7fb 0023db08  .+..TO.......#..
+ 0040 03eb8303 a0eb4300 3030c0b2 fff7feff  ......C.00......
+ 0050 2346a7fb 0424092b 4fead404 ebd84b48  #F...$.+O.....KH
+ 0060 fff7feff ae69002e 6ddb092e 71d90124  .....i..m...q..$
+ 0070 04eb8404 6400b6fb f4f3092b f8d8424f  ....d......+..BO
+ 0080 b6fbf4f0 a7fb0023 db0803eb 8303a0eb  .......#........
+ 0090 43003030 c0b2fff7 feff2346 a7fb0424  C.00......#F...$
+ 00a0 092b4fea d404ebd8 3948fff7 feffee69  .+O.....9H.....i
+ 00b0 002e59db 092e5dd9 012404eb 84046400  ..Y...]..$....d.
+ 00c0 b6fbf4f3 092bf8d8 2f4fb6fb f4f0a7fb  .....+../O......
+ 00d0 0023db08 03eb8303 a0eb4300 3030c0b2  .#........C.00..
+ 00e0 fff7feff 2346a7fb 0424092b 4fead404  ....#F...$.+O...
+ 00f0 ebd82848 fff7feff 0a20fff7 feffab69  ..(H..... .....i
+ 0100 3bb92548 fff7feff 0a20fff7 feffa869  ;.%H..... .....i
+ 0110 f8bd2248 fff7feff 0a20fff7 feffa869  .."H..... .....i
+ 0120 f8bd7642 2d20fff7 feff092e 3ff67aaf  ..vB- ......?.z.
+ 0130 06f13000 c0b2fff7 feff1448 fff7feff  ..0........H....
+ 0140 ae69002e 91da7642 2d20fff7 feff092e  .i....vB- ......
+ 0150 8dd806f1 3000c0b2 fff7feff 0c48fff7  ....0........H..
+ 0160 feffee69 002ea5da 76422d20 fff7feff  ...i....vB- ....
+ 0170 092ea1d8 06f13000 c0b2fff7 feffb8e7  ......0.........
+ 0180 00000000 00000000 cdcccccc 00000000  ................
+ 0190 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata.UnityStrBreaker:
+ 0000 2d2d2d2d 2d2d2d2d 2d2d2d2d 2d2d2d2d  ----------------
+ 0010 2d2d2d2d 2d2d2d00                    -------.        
+Contents of section .rodata.UnityStrByte:
+ 0000 20427974 652000                       Byte .         
+Contents of section .rodata.UnityStrDelta:
+ 0000 2056616c 75657320 4e6f7420 57697468   Values Not With
+ 0010 696e2044 656c7461 2000               in Delta .      
+Contents of section .rodata.UnityStrDet:
+ 0000 44657465 726d696e 61746500           Determinate.    
+Contents of section .rodata.UnityStrDetail1Name:
+ 0000 46756e63 74696f6e 2000               Function .      
+Contents of section .rodata.UnityStrDetail2Name:
+ 0000 20417267 756d656e 742000              Argument .     
+Contents of section .rodata.UnityStrElement:
+ 0000 20456c65 6d656e74 2000                Element .      
+Contents of section .rodata.UnityStrErr64:
+ 0000 556e6974 79203634 2d626974 20537570  Unity 64-bit Sup
+ 0010 706f7274 20446973 61626c65 6400      port Disabled.  
+Contents of section .rodata.UnityStrErrDouble:
+ 0000 556e6974 7920446f 75626c65 20507265  Unity Double Pre
+ 0010 63697369 6f6e2044 69736162 6c656400  cision Disabled.
+Contents of section .rodata.UnityStrErrFloat:
+ 0000 556e6974 7920466c 6f617469 6e672050  Unity Floating P
+ 0010 6f696e74 20446973 61626c65 6400      oint Disabled.  
+Contents of section .rodata.UnityStrErrShorthand:
+ 0000 556e6974 79205368 6f727468 616e6420  Unity Shorthand 
+ 0010 53757070 6f727420 44697361 626c6564  Support Disabled
+ 0020 00                                   .               
+Contents of section .rodata.UnityStrExpected:
+ 0000 20457870 65637465 642000              Expected .     
+Contents of section .rodata.UnityStrFail:
+ 0000 4641494c 00                          FAIL.           
+Contents of section .rodata.UnityStrGt:
+ 0000 20746f20 62652067 72656174 65722074   to be greater t
+ 0010 68616e20 00                          han .           
+Contents of section .rodata.UnityStrIgnore:
+ 0000 49474e4f 524500                      IGNORE.         
+Contents of section .rodata.UnityStrInf:
+ 0000 496e6669 6e697479 00                 Infinity.       
+Contents of section .rodata.UnityStrInvalidFloatTrait:
+ 0000 496e7661 6c696420 466c6f61 74205472  Invalid Float Tr
+ 0010 61697400                             ait.            
+Contents of section .rodata.UnityStrLt:
+ 0000 20746f20 6265206c 65737320 7468616e   to be less than
+ 0010 2000                                  .              
+Contents of section .rodata.UnityStrMemory:
+ 0000 204d656d 6f727920 4d69736d 61746368   Memory Mismatch
+ 0010 2e00                                 ..              
+Contents of section .rodata.UnityStrNaN:
+ 0000 4e614e00                             NaN.            
+Contents of section .rodata.UnityStrNegInf:
+ 0000 4e656761 74697665 20496e66 696e6974  Negative Infinit
+ 0010 7900                                 y.              
+Contents of section .rodata.UnityStrNot:
+ 0000 4e6f7420 00                          Not .           
+Contents of section .rodata.UnityStrNotEqual:
+ 0000 20746f20 6265206e 6f742065 7175616c   to be not equal
+ 0010 20746f20 00                           to .           
+Contents of section .rodata.UnityStrNull:
+ 0000 4e554c4c 00                          NULL.           
+Contents of section .rodata.UnityStrNullPointerForActual:
+ 0000 20416374 75616c20 706f696e 74657220   Actual pointer 
+ 0010 77617320 4e554c4c 00                 was NULL.       
+Contents of section .rodata.UnityStrNullPointerForExpected:
+ 0000 20457870 65637465 6420706f 696e7465   Expected pointe
+ 0010 7220746f 20626520 4e554c4c 00        r to be NULL.   
+Contents of section .rodata.UnityStrOk:
+ 0000 4f4b00                               OK.             
+Contents of section .rodata.UnityStrOrEqual:
+ 0000 6f722065 7175616c 20746f20 00        or equal to .   
+Contents of section .rodata.UnityStrPass:
+ 0000 50415353 00                          PASS.           
+Contents of section .rodata.UnityStrPointless:
+ 0000 20596f75 2041736b 6564204d 6520546f   You Asked Me To
+ 0010 20436f6d 70617265 204e6f74 68696e67   Compare Nothing
+ 0020 2c205768 69636820 57617320 506f696e  , Which Was Poin
+ 0030 746c6573 732e00                      tless..         
+Contents of section .rodata.UnityStrResultsFailures:
+ 0000 20466169 6c757265 732000              Failures .     
+Contents of section .rodata.UnityStrResultsIgnored:
+ 0000 2049676e 6f726564 2000                Ignored .      
+Contents of section .rodata.UnityStrResultsTests:
+ 0000 20546573 74732000                     Tests .        
+Contents of section .rodata.UnityStrSpacer:
+ 0000 2e2000                               . .             
+Contents of section .rodata.UnityStrWas:
+ 0000 20576173 2000                         Was .          
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.UnityPrint.part.0:
+
+00000000 <UnityPrint.part.0>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	7800      	ldrb	r0, [r0, #0]
+   6:	b9f8      	cbnz	r0, 48 <UnityPrint.part.0+0x48>
+   8:	e028      	b.n	5c <UnityPrint.part.0+0x5c>
+   a:	280d      	cmp	r0, #13
+   c:	d032      	beq.n	74 <UnityPrint.part.0+0x74>
+   e:	280a      	cmp	r0, #10
+  10:	f04f 005c 	mov.w	r0, #92	; 0x5c
+  14:	d023      	beq.n	5e <UnityPrint.part.0+0x5e>
+  16:	f7ff fffe 	bl	0 <putchar>
+  1a:	2078      	movs	r0, #120	; 0x78
+  1c:	f7ff fffe 	bl	0 <putchar>
+  20:	7825      	ldrb	r5, [r4, #0]
+  22:	2d9f      	cmp	r5, #159	; 0x9f
+  24:	ea4f 1015 	mov.w	r0, r5, lsr #4
+  28:	f005 050f 	and.w	r5, r5, #15
+  2c:	bf8c      	ite	hi
+  2e:	3037      	addhi	r0, #55	; 0x37
+  30:	3030      	addls	r0, #48	; 0x30
+  32:	f7ff fffe 	bl	0 <putchar>
+  36:	2d09      	cmp	r5, #9
+  38:	d917      	bls.n	6a <UnityPrint.part.0+0x6a>
+  3a:	f105 0037 	add.w	r0, r5, #55	; 0x37
+  3e:	f7ff fffe 	bl	0 <putchar>
+  42:	f814 0f01 	ldrb.w	r0, [r4, #1]!
+  46:	b148      	cbz	r0, 5c <UnityPrint.part.0+0x5c>
+  48:	f1a0 0320 	sub.w	r3, r0, #32
+  4c:	2b5e      	cmp	r3, #94	; 0x5e
+  4e:	d8dc      	bhi.n	a <UnityPrint.part.0+0xa>
+  50:	f7ff fffe 	bl	0 <putchar>
+  54:	f814 0f01 	ldrb.w	r0, [r4, #1]!
+  58:	2800      	cmp	r0, #0
+  5a:	d1f5      	bne.n	48 <UnityPrint.part.0+0x48>
+  5c:	bd38      	pop	{r3, r4, r5, pc}
+  5e:	f7ff fffe 	bl	0 <putchar>
+  62:	206e      	movs	r0, #110	; 0x6e
+  64:	f7ff fffe 	bl	0 <putchar>
+  68:	e7eb      	b.n	42 <UnityPrint.part.0+0x42>
+  6a:	f105 0030 	add.w	r0, r5, #48	; 0x30
+  6e:	f7ff fffe 	bl	0 <putchar>
+  72:	e7ef      	b.n	54 <UnityPrint.part.0+0x54>
+  74:	205c      	movs	r0, #92	; 0x5c
+  76:	f7ff fffe 	bl	0 <putchar>
+  7a:	2072      	movs	r0, #114	; 0x72
+  7c:	f7ff fffe 	bl	0 <putchar>
+  80:	e7df      	b.n	42 <UnityPrint.part.0+0x42>
+  82:	bf00      	nop
+
+Disassembly of section .text.UnityAddMsgIfSpecified:
+
+00000000 <UnityAddMsgIfSpecified>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4d10      	ldr	r5, [pc, #64]	; (44 <UnityAddMsgIfSpecified+0x44>)
+   4:	4604      	mov	r4, r0
+   6:	68ab      	ldr	r3, [r5, #8]
+   8:	b193      	cbz	r3, 30 <UnityAddMsgIfSpecified+0x30>
+   a:	480f      	ldr	r0, [pc, #60]	; (48 <UnityAddMsgIfSpecified+0x48>)
+   c:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  10:	480e      	ldr	r0, [pc, #56]	; (4c <UnityAddMsgIfSpecified+0x4c>)
+  12:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  16:	68a8      	ldr	r0, [r5, #8]
+  18:	b108      	cbz	r0, 1e <UnityAddMsgIfSpecified+0x1e>
+  1a:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  1e:	68eb      	ldr	r3, [r5, #12]
+  20:	b133      	cbz	r3, 30 <UnityAddMsgIfSpecified+0x30>
+  22:	480b      	ldr	r0, [pc, #44]	; (50 <UnityAddMsgIfSpecified+0x50>)
+  24:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  28:	68e8      	ldr	r0, [r5, #12]
+  2a:	b108      	cbz	r0, 30 <UnityAddMsgIfSpecified+0x30>
+  2c:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  30:	b13c      	cbz	r4, 42 <UnityAddMsgIfSpecified+0x42>
+  32:	4805      	ldr	r0, [pc, #20]	; (48 <UnityAddMsgIfSpecified+0x48>)
+  34:	f7ff fffe 	bl	0 <UnityAddMsgIfSpecified>
+  38:	4620      	mov	r0, r4
+  3a:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  3e:	f7ff bffe 	b.w	0 <UnityAddMsgIfSpecified>
+  42:	bd38      	pop	{r3, r4, r5, pc}
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityPrintExpectedAndActualStrings:
+
+00000000 <UnityPrintExpectedAndActualStrings>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4605      	mov	r5, r0
+   4:	4814      	ldr	r0, [pc, #80]	; (58 <UnityPrintExpectedAndActualStrings+0x58>)
+   6:	460c      	mov	r4, r1
+   8:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+   c:	b1bd      	cbz	r5, 3e <UnityPrintExpectedAndActualStrings+0x3e>
+   e:	2027      	movs	r0, #39	; 0x27
+  10:	f7ff fffe 	bl	0 <putchar>
+  14:	4628      	mov	r0, r5
+  16:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+  1a:	2027      	movs	r0, #39	; 0x27
+  1c:	f7ff fffe 	bl	0 <putchar>
+  20:	480e      	ldr	r0, [pc, #56]	; (5c <UnityPrintExpectedAndActualStrings+0x5c>)
+  22:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+  26:	b194      	cbz	r4, 4e <UnityPrintExpectedAndActualStrings+0x4e>
+  28:	2027      	movs	r0, #39	; 0x27
+  2a:	f7ff fffe 	bl	0 <putchar>
+  2e:	4620      	mov	r0, r4
+  30:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+  34:	2027      	movs	r0, #39	; 0x27
+  36:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  3a:	f7ff bffe 	b.w	0 <putchar>
+  3e:	4808      	ldr	r0, [pc, #32]	; (60 <UnityPrintExpectedAndActualStrings+0x60>)
+  40:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+  44:	4805      	ldr	r0, [pc, #20]	; (5c <UnityPrintExpectedAndActualStrings+0x5c>)
+  46:	f7ff fffe 	bl	0 <UnityPrintExpectedAndActualStrings>
+  4a:	2c00      	cmp	r4, #0
+  4c:	d1ec      	bne.n	28 <UnityPrintExpectedAndActualStrings+0x28>
+  4e:	4804      	ldr	r0, [pc, #16]	; (60 <UnityPrintExpectedAndActualStrings+0x60>)
+  50:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  54:	f7ff bffe 	b.w	0 <UnityPrintExpectedAndActualStrings>
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityPrintLen.part.0:
+
+00000000 <UnityPrintLen.part.0>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4606      	mov	r6, r0
+   4:	7800      	ldrb	r0, [r0, #0]
+   6:	b378      	cbz	r0, 68 <UnityPrintLen.part.0+0x68>
+   8:	460f      	mov	r7, r1
+   a:	b369      	cbz	r1, 68 <UnityPrintLen.part.0+0x68>
+   c:	4634      	mov	r4, r6
+   e:	e021      	b.n	54 <UnityPrintLen.part.0+0x54>
+  10:	280d      	cmp	r0, #13
+  12:	d035      	beq.n	80 <UnityPrintLen.part.0+0x80>
+  14:	280a      	cmp	r0, #10
+  16:	f04f 005c 	mov.w	r0, #92	; 0x5c
+  1a:	d026      	beq.n	6a <UnityPrintLen.part.0+0x6a>
+  1c:	f7ff fffe 	bl	0 <putchar>
+  20:	2078      	movs	r0, #120	; 0x78
+  22:	f7ff fffe 	bl	0 <putchar>
+  26:	7825      	ldrb	r5, [r4, #0]
+  28:	2d9f      	cmp	r5, #159	; 0x9f
+  2a:	ea4f 1015 	mov.w	r0, r5, lsr #4
+  2e:	f005 050f 	and.w	r5, r5, #15
+  32:	bf8c      	ite	hi
+  34:	3037      	addhi	r0, #55	; 0x37
+  36:	3030      	addls	r0, #48	; 0x30
+  38:	f7ff fffe 	bl	0 <putchar>
+  3c:	2d09      	cmp	r5, #9
+  3e:	d91a      	bls.n	76 <UnityPrintLen.part.0+0x76>
+  40:	f105 0037 	add.w	r0, r5, #55	; 0x37
+  44:	f7ff fffe 	bl	0 <putchar>
+  48:	f814 0f01 	ldrb.w	r0, [r4, #1]!
+  4c:	b160      	cbz	r0, 68 <UnityPrintLen.part.0+0x68>
+  4e:	1ba3      	subs	r3, r4, r6
+  50:	42bb      	cmp	r3, r7
+  52:	d209      	bcs.n	68 <UnityPrintLen.part.0+0x68>
+  54:	f1a0 0320 	sub.w	r3, r0, #32
+  58:	2b5e      	cmp	r3, #94	; 0x5e
+  5a:	d8d9      	bhi.n	10 <UnityPrintLen.part.0+0x10>
+  5c:	f7ff fffe 	bl	0 <putchar>
+  60:	f814 0f01 	ldrb.w	r0, [r4, #1]!
+  64:	2800      	cmp	r0, #0
+  66:	d1f2      	bne.n	4e <UnityPrintLen.part.0+0x4e>
+  68:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  6a:	f7ff fffe 	bl	0 <putchar>
+  6e:	206e      	movs	r0, #110	; 0x6e
+  70:	f7ff fffe 	bl	0 <putchar>
+  74:	e7e8      	b.n	48 <UnityPrintLen.part.0+0x48>
+  76:	f105 0030 	add.w	r0, r5, #48	; 0x30
+  7a:	f7ff fffe 	bl	0 <putchar>
+  7e:	e7ef      	b.n	60 <UnityPrintLen.part.0+0x60>
+  80:	205c      	movs	r0, #92	; 0x5c
+  82:	f7ff fffe 	bl	0 <putchar>
+  86:	2072      	movs	r0, #114	; 0x72
+  88:	f7ff fffe 	bl	0 <putchar>
+  8c:	e7dc      	b.n	48 <UnityPrintLen.part.0+0x48>
+  8e:	bf00      	nop
+
+Disassembly of section .text.UnityTestResultsBegin:
+
+00000000 <UnityTestResultsBegin>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	460d      	mov	r5, r1
+   4:	b108      	cbz	r0, a <UnityTestResultsBegin+0xa>
+   6:	f7ff fffe 	bl	0 <UnityTestResultsBegin>
+   a:	203a      	movs	r0, #58	; 0x3a
+   c:	f7ff fffe 	bl	0 <putchar>
+  10:	2d00      	cmp	r5, #0
+  12:	db2b      	blt.n	6c <UnityTestResultsBegin+0x6c>
+  14:	2d09      	cmp	r5, #9
+  16:	d92f      	bls.n	78 <UnityTestResultsBegin+0x78>
+  18:	2401      	movs	r4, #1
+  1a:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  1e:	0064      	lsls	r4, r4, #1
+  20:	fbb5 f3f4 	udiv	r3, r5, r4
+  24:	2b09      	cmp	r3, #9
+  26:	d8f8      	bhi.n	1a <UnityTestResultsBegin+0x1a>
+  28:	4e16      	ldr	r6, [pc, #88]	; (84 <UnityTestResultsBegin+0x84>)
+  2a:	fbb5 f0f4 	udiv	r0, r5, r4
+  2e:	fba6 2300 	umull	r2, r3, r6, r0
+  32:	08db      	lsrs	r3, r3, #3
+  34:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  38:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  3c:	3030      	adds	r0, #48	; 0x30
+  3e:	b2c0      	uxtb	r0, r0
+  40:	f7ff fffe 	bl	0 <putchar>
+  44:	4623      	mov	r3, r4
+  46:	fba6 2404 	umull	r2, r4, r6, r4
+  4a:	2b09      	cmp	r3, #9
+  4c:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  50:	d8eb      	bhi.n	2a <UnityTestResultsBegin+0x2a>
+  52:	203a      	movs	r0, #58	; 0x3a
+  54:	f7ff fffe 	bl	0 <putchar>
+  58:	4b0b      	ldr	r3, [pc, #44]	; (88 <UnityTestResultsBegin+0x88>)
+  5a:	6858      	ldr	r0, [r3, #4]
+  5c:	b108      	cbz	r0, 62 <UnityTestResultsBegin+0x62>
+  5e:	f7ff fffe 	bl	0 <UnityTestResultsBegin>
+  62:	203a      	movs	r0, #58	; 0x3a
+  64:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  68:	f7ff bffe 	b.w	0 <putchar>
+  6c:	426d      	negs	r5, r5
+  6e:	202d      	movs	r0, #45	; 0x2d
+  70:	f7ff fffe 	bl	0 <putchar>
+  74:	2d09      	cmp	r5, #9
+  76:	d8cf      	bhi.n	18 <UnityTestResultsBegin+0x18>
+  78:	f105 0030 	add.w	r0, r5, #48	; 0x30
+  7c:	b2c0      	uxtb	r0, r0
+  7e:	f7ff fffe 	bl	0 <putchar>
+  82:	e7e6      	b.n	52 <UnityTestResultsBegin+0x52>
+  84:	cccccccd 	.word	0xcccccccd
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityTestResultsFailBegin:
+
+00000000 <UnityTestResultsFailBegin>:
+   0:	b508      	push	{r3, lr}
+   2:	4b06      	ldr	r3, [pc, #24]	; (1c <UnityTestResultsFailBegin+0x1c>)
+   4:	4601      	mov	r1, r0
+   6:	6818      	ldr	r0, [r3, #0]
+   8:	f7ff fffe 	bl	0 <UnityTestResultsFailBegin>
+   c:	4804      	ldr	r0, [pc, #16]	; (20 <UnityTestResultsFailBegin+0x20>)
+   e:	f7ff fffe 	bl	0 <UnityTestResultsFailBegin>
+  12:	203a      	movs	r0, #58	; 0x3a
+  14:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  18:	f7ff bffe 	b.w	0 <putchar>
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityPrint:
+
+00000000 <UnityPrint>:
+   0:	b108      	cbz	r0, 6 <UnityPrint+0x6>
+   2:	f7ff bffe 	b.w	0 <UnityPrint>
+   6:	4770      	bx	lr
+
+Disassembly of section .text.UnityPrintLen:
+
+00000000 <UnityPrintLen>:
+   0:	b108      	cbz	r0, 6 <UnityPrintLen+0x6>
+   2:	f7ff bffe 	b.w	0 <UnityPrintLen>
+   6:	4770      	bx	lr
+
+Disassembly of section .text.UnityPrintNumberByStyle:
+
+00000000 <UnityPrintNumberByStyle>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	460c      	mov	r4, r1
+   4:	06c9      	lsls	r1, r1, #27
+   6:	4605      	mov	r5, r0
+   8:	d525      	bpl.n	56 <UnityPrintNumberByStyle+0x56>
+   a:	2c91      	cmp	r4, #145	; 0x91
+   c:	d067      	beq.n	de <UnityPrintNumberByStyle+0xde>
+   e:	2d00      	cmp	r5, #0
+  10:	f2c0 808c 	blt.w	12c <UnityPrintNumberByStyle+0x12c>
+  14:	2d09      	cmp	r5, #9
+  16:	f240 808e 	bls.w	136 <UnityPrintNumberByStyle+0x136>
+  1a:	2401      	movs	r4, #1
+  1c:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  20:	0064      	lsls	r4, r4, #1
+  22:	fbb5 f3f4 	udiv	r3, r5, r4
+  26:	2b09      	cmp	r3, #9
+  28:	d8f8      	bhi.n	1c <UnityPrintNumberByStyle+0x1c>
+  2a:	4e4e      	ldr	r6, [pc, #312]	; (164 <UnityPrintNumberByStyle+0x164>)
+  2c:	fbb5 f0f4 	udiv	r0, r5, r4
+  30:	fba6 2300 	umull	r2, r3, r6, r0
+  34:	08db      	lsrs	r3, r3, #3
+  36:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  3a:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  3e:	3030      	adds	r0, #48	; 0x30
+  40:	b2c0      	uxtb	r0, r0
+  42:	f7ff fffe 	bl	0 <putchar>
+  46:	4623      	mov	r3, r4
+  48:	fba6 2404 	umull	r2, r4, r6, r4
+  4c:	2b09      	cmp	r3, #9
+  4e:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  52:	d8eb      	bhi.n	2c <UnityPrintNumberByStyle+0x2c>
+  54:	bd70      	pop	{r4, r5, r6, pc}
+  56:	06a2      	lsls	r2, r4, #26
+  58:	d51f      	bpl.n	9a <UnityPrintNumberByStyle+0x9a>
+  5a:	2809      	cmp	r0, #9
+  5c:	d96b      	bls.n	136 <UnityPrintNumberByStyle+0x136>
+  5e:	2401      	movs	r4, #1
+  60:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  64:	0064      	lsls	r4, r4, #1
+  66:	fbb5 f3f4 	udiv	r3, r5, r4
+  6a:	2b09      	cmp	r3, #9
+  6c:	d8f8      	bhi.n	60 <UnityPrintNumberByStyle+0x60>
+  6e:	4e3d      	ldr	r6, [pc, #244]	; (164 <UnityPrintNumberByStyle+0x164>)
+  70:	fbb5 f0f4 	udiv	r0, r5, r4
+  74:	fba6 2300 	umull	r2, r3, r6, r0
+  78:	08db      	lsrs	r3, r3, #3
+  7a:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  7e:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  82:	3030      	adds	r0, #48	; 0x30
+  84:	b2c0      	uxtb	r0, r0
+  86:	f7ff fffe 	bl	0 <putchar>
+  8a:	4623      	mov	r3, r4
+  8c:	fba6 2404 	umull	r2, r4, r6, r4
+  90:	2b09      	cmp	r3, #9
+  92:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  96:	d8eb      	bhi.n	70 <UnityPrintNumberByStyle+0x70>
+  98:	bd70      	pop	{r4, r5, r6, pc}
+  9a:	2030      	movs	r0, #48	; 0x30
+  9c:	f7ff fffe 	bl	0 <putchar>
+  a0:	2078      	movs	r0, #120	; 0x78
+  a2:	f7ff fffe 	bl	0 <putchar>
+  a6:	f004 010f 	and.w	r1, r4, #15
+  aa:	0049      	lsls	r1, r1, #1
+  ac:	2908      	cmp	r1, #8
+  ae:	460c      	mov	r4, r1
+  b0:	bf28      	it	cs
+  b2:	2408      	movcs	r4, #8
+  b4:	2900      	cmp	r1, #0
+  b6:	d0cd      	beq.n	54 <UnityPrintNumberByStyle+0x54>
+  b8:	3c01      	subs	r4, #1
+  ba:	b2e4      	uxtb	r4, r4
+  bc:	00a4      	lsls	r4, r4, #2
+  be:	fa25 f304 	lsr.w	r3, r5, r4
+  c2:	3c04      	subs	r4, #4
+  c4:	f003 030f 	and.w	r3, r3, #15
+  c8:	2b09      	cmp	r3, #9
+  ca:	f103 0030 	add.w	r0, r3, #48	; 0x30
+  ce:	bfc8      	it	gt
+  d0:	f103 0037 	addgt.w	r0, r3, #55	; 0x37
+  d4:	f7ff fffe 	bl	0 <putchar>
+  d8:	1d23      	adds	r3, r4, #4
+  da:	d1f0      	bne.n	be <UnityPrintNumberByStyle+0xbe>
+  dc:	bd70      	pop	{r4, r5, r6, pc}
+  de:	2027      	movs	r0, #39	; 0x27
+  e0:	f7ff fffe 	bl	0 <putchar>
+  e4:	f1a5 0320 	sub.w	r3, r5, #32
+  e8:	2b5e      	cmp	r3, #94	; 0x5e
+  ea:	d92b      	bls.n	144 <UnityPrintNumberByStyle+0x144>
+  ec:	2d0d      	cmp	r5, #13
+  ee:	f04f 005c 	mov.w	r0, #92	; 0x5c
+  f2:	d031      	beq.n	158 <UnityPrintNumberByStyle+0x158>
+  f4:	2d0a      	cmp	r5, #10
+  f6:	d029      	beq.n	14c <UnityPrintNumberByStyle+0x14c>
+  f8:	f7ff fffe 	bl	0 <putchar>
+  fc:	2078      	movs	r0, #120	; 0x78
+  fe:	f7ff fffe 	bl	0 <putchar>
+ 102:	f3c5 1003 	ubfx	r0, r5, #4, #4
+ 106:	2809      	cmp	r0, #9
+ 108:	bfcc      	ite	gt
+ 10a:	3037      	addgt	r0, #55	; 0x37
+ 10c:	3030      	addle	r0, #48	; 0x30
+ 10e:	f7ff fffe 	bl	0 <putchar>
+ 112:	f005 000f 	and.w	r0, r5, #15
+ 116:	2809      	cmp	r0, #9
+ 118:	bfcc      	ite	gt
+ 11a:	3037      	addgt	r0, #55	; 0x37
+ 11c:	3030      	addle	r0, #48	; 0x30
+ 11e:	f7ff fffe 	bl	0 <putchar>
+ 122:	2027      	movs	r0, #39	; 0x27
+ 124:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+ 128:	f7ff bffe 	b.w	0 <putchar>
+ 12c:	202d      	movs	r0, #45	; 0x2d
+ 12e:	426d      	negs	r5, r5
+ 130:	f7ff fffe 	bl	0 <putchar>
+ 134:	e76e      	b.n	14 <UnityPrintNumberByStyle+0x14>
+ 136:	f105 0030 	add.w	r0, r5, #48	; 0x30
+ 13a:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+ 13e:	b2c0      	uxtb	r0, r0
+ 140:	f7ff bffe 	b.w	0 <putchar>
+ 144:	4628      	mov	r0, r5
+ 146:	f7ff fffe 	bl	0 <putchar>
+ 14a:	e7ea      	b.n	122 <UnityPrintNumberByStyle+0x122>
+ 14c:	f7ff fffe 	bl	0 <putchar>
+ 150:	206e      	movs	r0, #110	; 0x6e
+ 152:	f7ff fffe 	bl	0 <putchar>
+ 156:	e7e4      	b.n	122 <UnityPrintNumberByStyle+0x122>
+ 158:	f7ff fffe 	bl	0 <putchar>
+ 15c:	2072      	movs	r0, #114	; 0x72
+ 15e:	f7ff fffe 	bl	0 <putchar>
+ 162:	e7de      	b.n	122 <UnityPrintNumberByStyle+0x122>
+ 164:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityPrintNumber:
+
+00000000 <UnityPrintNumber>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	1e05      	subs	r5, r0, #0
+   4:	db20      	blt.n	48 <UnityPrintNumber+0x48>
+   6:	2d09      	cmp	r5, #9
+   8:	d924      	bls.n	54 <UnityPrintNumber+0x54>
+   a:	2401      	movs	r4, #1
+   c:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  10:	0064      	lsls	r4, r4, #1
+  12:	fbb5 f3f4 	udiv	r3, r5, r4
+  16:	2b09      	cmp	r3, #9
+  18:	d8f8      	bhi.n	c <UnityPrintNumber+0xc>
+  1a:	4e12      	ldr	r6, [pc, #72]	; (64 <UnityPrintNumber+0x64>)
+  1c:	fbb5 f3f4 	udiv	r3, r5, r4
+  20:	fba6 1203 	umull	r1, r2, r6, r3
+  24:	08d2      	lsrs	r2, r2, #3
+  26:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  2a:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+  2e:	f103 0030 	add.w	r0, r3, #48	; 0x30
+  32:	b2c0      	uxtb	r0, r0
+  34:	f7ff fffe 	bl	0 <putchar>
+  38:	4623      	mov	r3, r4
+  3a:	fba6 2404 	umull	r2, r4, r6, r4
+  3e:	2b09      	cmp	r3, #9
+  40:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  44:	d8ea      	bhi.n	1c <UnityPrintNumber+0x1c>
+  46:	bd70      	pop	{r4, r5, r6, pc}
+  48:	426d      	negs	r5, r5
+  4a:	202d      	movs	r0, #45	; 0x2d
+  4c:	f7ff fffe 	bl	0 <putchar>
+  50:	2d09      	cmp	r5, #9
+  52:	d8da      	bhi.n	a <UnityPrintNumber+0xa>
+  54:	f105 0030 	add.w	r0, r5, #48	; 0x30
+  58:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  5c:	b2c0      	uxtb	r0, r0
+  5e:	f7ff bffe 	b.w	0 <putchar>
+  62:	bf00      	nop
+  64:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityPrintNumberUnsigned:
+
+00000000 <UnityPrintNumberUnsigned>:
+   0:	2809      	cmp	r0, #9
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4605      	mov	r5, r0
+   6:	d91d      	bls.n	44 <UnityPrintNumberUnsigned+0x44>
+   8:	2401      	movs	r4, #1
+   a:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+   e:	0064      	lsls	r4, r4, #1
+  10:	fbb5 f3f4 	udiv	r3, r5, r4
+  14:	2b09      	cmp	r3, #9
+  16:	d8f8      	bhi.n	a <UnityPrintNumberUnsigned+0xa>
+  18:	4e0d      	ldr	r6, [pc, #52]	; (50 <UnityPrintNumberUnsigned+0x50>)
+  1a:	fbb5 f3f4 	udiv	r3, r5, r4
+  1e:	fba6 1203 	umull	r1, r2, r6, r3
+  22:	08d2      	lsrs	r2, r2, #3
+  24:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  28:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+  2c:	3330      	adds	r3, #48	; 0x30
+  2e:	b2d8      	uxtb	r0, r3
+  30:	f7ff fffe 	bl	0 <putchar>
+  34:	4623      	mov	r3, r4
+  36:	fba6 2404 	umull	r2, r4, r6, r4
+  3a:	2b09      	cmp	r3, #9
+  3c:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  40:	d8eb      	bhi.n	1a <UnityPrintNumberUnsigned+0x1a>
+  42:	bd70      	pop	{r4, r5, r6, pc}
+  44:	3030      	adds	r0, #48	; 0x30
+  46:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  4a:	b2c0      	uxtb	r0, r0
+  4c:	f7ff bffe 	b.w	0 <putchar>
+  50:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityPrintNumberHex:
+
+00000000 <UnityPrintNumberHex>:
+   0:	2908      	cmp	r1, #8
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	460c      	mov	r4, r1
+   6:	bf28      	it	cs
+   8:	2408      	movcs	r4, #8
+   a:	b191      	cbz	r1, 32 <UnityPrintNumberHex+0x32>
+   c:	3c01      	subs	r4, #1
+   e:	4605      	mov	r5, r0
+  10:	b2e4      	uxtb	r4, r4
+  12:	00a4      	lsls	r4, r4, #2
+  14:	fa25 f304 	lsr.w	r3, r5, r4
+  18:	3c04      	subs	r4, #4
+  1a:	f003 030f 	and.w	r3, r3, #15
+  1e:	2b09      	cmp	r3, #9
+  20:	f103 0030 	add.w	r0, r3, #48	; 0x30
+  24:	bfc8      	it	gt
+  26:	f103 0037 	addgt.w	r0, r3, #55	; 0x37
+  2a:	f7ff fffe 	bl	0 <putchar>
+  2e:	1d23      	adds	r3, r4, #4
+  30:	d1f0      	bne.n	14 <UnityPrintNumberHex+0x14>
+  32:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text.UnityPrintMask:
+
+00000000 <UnityPrintMask>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	2520      	movs	r5, #32
+   4:	f04f 4400 	mov.w	r4, #2147483648	; 0x80000000
+   8:	4606      	mov	r6, r0
+   a:	460f      	mov	r7, r1
+   c:	e005      	b.n	1a <UnityPrintMask+0x1a>
+   e:	2030      	movs	r0, #48	; 0x30
+  10:	0864      	lsrs	r4, r4, #1
+  12:	f7ff fffe 	bl	0 <putchar>
+  16:	3d01      	subs	r5, #1
+  18:	d00b      	beq.n	32 <UnityPrintMask+0x32>
+  1a:	4226      	tst	r6, r4
+  1c:	d00a      	beq.n	34 <UnityPrintMask+0x34>
+  1e:	4227      	tst	r7, r4
+  20:	f04f 0031 	mov.w	r0, #49	; 0x31
+  24:	d0f3      	beq.n	e <UnityPrintMask+0xe>
+  26:	f7ff fffe 	bl	0 <putchar>
+  2a:	3d01      	subs	r5, #1
+  2c:	ea4f 0454 	mov.w	r4, r4, lsr #1
+  30:	d1f3      	bne.n	1a <UnityPrintMask+0x1a>
+  32:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  34:	2058      	movs	r0, #88	; 0x58
+  36:	f7ff fffe 	bl	0 <putchar>
+  3a:	e7f6      	b.n	2a <UnityPrintMask+0x2a>
+
+Disassembly of section .text.UnityPrintFloat:
+
+00000000 <UnityPrintFloat>:
+   0:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+   4:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+   c:	ed2d 8b02 	vpush	{d8}
+  10:	eeb0 8a40 	vmov.f32	s16, s0
+  14:	b084      	sub	sp, #16
+  16:	f100 80db 	bmi.w	1d0 <UnityPrintFloat+0x1d0>
+  1a:	eeb5 8a40 	vcmp.f32	s16, #0.0
+  1e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  22:	f000 80cd 	beq.w	1c0 <UnityPrintFloat+0x1c0>
+  26:	eeb4 8a48 	vcmp.f32	s16, s16
+  2a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2e:	f180 8151 	bvs.w	2d4 <UnityPrintFloat+0x2d4>
+  32:	eef0 7ac8 	vabs.f32	s15, s16
+  36:	ed9f 7aaa 	vldr	s14, [pc, #680]	; 2e0 <UnityPrintFloat+0x2e0>
+  3a:	eef4 7a47 	vcmp.f32	s15, s14
+  3e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  42:	f300 80b5 	bgt.w	1b0 <UnityPrintFloat+0x1b0>
+  46:	eeb7 7a00 	vmov.f32	s14, #112	; 0x3f800000  1.0
+  4a:	2500      	movs	r5, #0
+  4c:	e9cd 5500 	strd	r5, r5, [sp]
+  50:	eeb4 8ac7 	vcmpe.f32	s16, s14
+  54:	e9cd 5502 	strd	r5, r5, [sp, #8]
+  58:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  5c:	f100 80e3 	bmi.w	226 <UnityPrintFloat+0x226>
+  60:	eddf 7aa0 	vldr	s15, [pc, #640]	; 2e4 <UnityPrintFloat+0x2e4>
+  64:	eeb4 8ae7 	vcmpe.f32	s16, s15
+  68:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  6c:	f340 80b6 	ble.w	1dc <UnityPrintFloat+0x1dc>
+  70:	eddf 7a9d 	vldr	s15, [pc, #628]	; 2e8 <UnityPrintFloat+0x2e8>
+  74:	eeb4 8ae7 	vcmpe.f32	s16, s15
+  78:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  7c:	dd11      	ble.n	a2 <UnityPrintFloat+0xa2>
+  7e:	ed9f 7a9b 	vldr	s14, [pc, #620]	; 2ec <UnityPrintFloat+0x2ec>
+  82:	ee88 8a07 	vdiv.f32	s16, s16, s14
+  86:	350a      	adds	r5, #10
+  88:	eeb4 8ae7 	vcmpe.f32	s16, s15
+  8c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  90:	dcf7      	bgt.n	82 <UnityPrintFloat+0x82>
+  92:	eddf 7a94 	vldr	s15, [pc, #592]	; 2e4 <UnityPrintFloat+0x2e4>
+  96:	eeb4 8ae7 	vcmpe.f32	s16, s15
+  9a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  9e:	f340 811b 	ble.w	2d8 <UnityPrintFloat+0x2d8>
+  a2:	eeb7 7a00 	vmov.f32	s14, #112	; 0x3f800000  1.0
+  a6:	eddf 6a8f 	vldr	s13, [pc, #572]	; 2e4 <UnityPrintFloat+0x2e4>
+  aa:	eeb2 6a04 	vmov.f32	s12, #36	; 0x41200000  10.0
+  ae:	ee27 7a06 	vmul.f32	s14, s14, s12
+  b2:	3501      	adds	r5, #1
+  b4:	eec8 7a07 	vdiv.f32	s15, s16, s14
+  b8:	eef4 7ae6 	vcmpe.f32	s15, s13
+  bc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  c0:	dcf5      	bgt.n	ae <UnityPrintFloat+0xae>
+  c2:	2300      	movs	r3, #0
+  c4:	ee37 7aa7 	vadd.f32	s14, s15, s15
+  c8:	eebd 7ac7 	vcvt.s32.f32	s14, s14
+  cc:	ee17 2a10 	vmov	r2, s14
+  d0:	3201      	adds	r2, #1
+  d2:	bf48      	it	mi
+  d4:	3201      	addmi	r2, #1
+  d6:	1051      	asrs	r1, r2, #1
+  d8:	0792      	lsls	r2, r2, #30
+  da:	d50e      	bpl.n	fa <UnityPrintFloat+0xfa>
+  dc:	ee07 1a10 	vmov	s14, r1
+  e0:	eef6 6a00 	vmov.f32	s13, #96	; 0x3f000000  0.5
+  e4:	eeb8 7ac7 	vcvt.f32.s32	s14, s14
+  e8:	ee77 7a67 	vsub.f32	s15, s14, s15
+  ec:	eef4 7a66 	vcmp.f32	s15, s13
+  f0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  f4:	bf08      	it	eq
+  f6:	f101 31ff 	addeq.w	r1, r1, #4294967295	; 0xffffffff
+  fa:	440b      	add	r3, r1
+  fc:	4a7c      	ldr	r2, [pc, #496]	; (2f0 <UnityPrintFloat+0x2f0>)
+  fe:	4293      	cmp	r3, r2
+ 100:	f280 808c 	bge.w	21c <UnityPrintFloat+0x21c>
+ 104:	4a7b      	ldr	r2, [pc, #492]	; (2f4 <UnityPrintFloat+0x2f4>)
+ 106:	17d8      	asrs	r0, r3, #31
+ 108:	fb82 1203 	smull	r1, r2, r2, r3
+ 10c:	ebc0 02a2 	rsb	r2, r0, r2, asr #2
+ 110:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+ 114:	eba3 0242 	sub.w	r2, r3, r2, lsl #1
+ 118:	f105 010a 	add.w	r1, r5, #10
+ 11c:	290a      	cmp	r1, #10
+ 11e:	d978      	bls.n	212 <UnityPrintFloat+0x212>
+ 120:	3506      	adds	r5, #6
+ 122:	2706      	movs	r7, #6
+ 124:	b992      	cbnz	r2, 14c <UnityPrintFloat+0x14c>
+ 126:	4e73      	ldr	r6, [pc, #460]	; (2f4 <UnityPrintFloat+0x2f4>)
+ 128:	4c73      	ldr	r4, [pc, #460]	; (2f8 <UnityPrintFloat+0x2f8>)
+ 12a:	4974      	ldr	r1, [pc, #464]	; (2fc <UnityPrintFloat+0x2fc>)
+ 12c:	f8df c1ec 	ldr.w	ip, [pc, #492]	; 31c <UnityPrintFloat+0x31c>
+ 130:	e002      	b.n	138 <UnityPrintFloat+0x138>
+ 132:	ebbc 0f72 	cmp.w	ip, r2, ror #1
+ 136:	d909      	bls.n	14c <UnityPrintFloat+0x14c>
+ 138:	fb86 2303 	smull	r2, r3, r6, r3
+ 13c:	3f01      	subs	r7, #1
+ 13e:	ebc0 03a3 	rsb	r3, r0, r3, asr #2
+ 142:	ea4f 70e3 	mov.w	r0, r3, asr #31
+ 146:	fb04 1203 	mla	r2, r4, r3, r1
+ 14a:	d1f2      	bne.n	132 <UnityPrintFloat+0x132>
+ 14c:	466e      	mov	r6, sp
+ 14e:	2400      	movs	r4, #0
+ 150:	f8df e1a0 	ldr.w	lr, [pc, #416]	; 2f4 <UnityPrintFloat+0x2f4>
+ 154:	46b4      	mov	ip, r6
+ 156:	fb8e 2103 	smull	r2, r1, lr, r3
+ 15a:	3401      	adds	r4, #1
+ 15c:	ebc0 01a1 	rsb	r1, r0, r1, asr #2
+ 160:	eb01 0281 	add.w	r2, r1, r1, lsl #2
+ 164:	17c8      	asrs	r0, r1, #31
+ 166:	eba3 0242 	sub.w	r2, r3, r2, lsl #1
+ 16a:	460b      	mov	r3, r1
+ 16c:	3230      	adds	r2, #48	; 0x30
+ 16e:	f80c 2b01 	strb.w	r2, [ip], #1
+ 172:	2900      	cmp	r1, #0
+ 174:	d1ef      	bne.n	156 <UnityPrintFloat+0x156>
+ 176:	42a7      	cmp	r7, r4
+ 178:	daed      	bge.n	156 <UnityPrintFloat+0x156>
+ 17a:	eb06 0804 	add.w	r8, r6, r4
+ 17e:	3c01      	subs	r4, #1
+ 180:	f818 0d01 	ldrb.w	r0, [r8, #-1]!
+ 184:	f7ff fffe 	bl	0 <putchar>
+ 188:	b15c      	cbz	r4, 1a2 <UnityPrintFloat+0x1a2>
+ 18a:	42a7      	cmp	r7, r4
+ 18c:	d1f7      	bne.n	17e <UnityPrintFloat+0x17e>
+ 18e:	202e      	movs	r0, #46	; 0x2e
+ 190:	3c01      	subs	r4, #1
+ 192:	f7ff fffe 	bl	0 <putchar>
+ 196:	f818 0d01 	ldrb.w	r0, [r8, #-1]!
+ 19a:	f7ff fffe 	bl	0 <putchar>
+ 19e:	2c00      	cmp	r4, #0
+ 1a0:	d1f3      	bne.n	18a <UnityPrintFloat+0x18a>
+ 1a2:	2d00      	cmp	r5, #0
+ 1a4:	d166      	bne.n	274 <UnityPrintFloat+0x274>
+ 1a6:	b004      	add	sp, #16
+ 1a8:	ecbd 8b02 	vpop	{d8}
+ 1ac:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+ 1b0:	4853      	ldr	r0, [pc, #332]	; (300 <UnityPrintFloat+0x300>)
+ 1b2:	b004      	add	sp, #16
+ 1b4:	ecbd 8b02 	vpop	{d8}
+ 1b8:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+ 1bc:	f7ff bffe 	b.w	0 <UnityPrintFloat>
+ 1c0:	4850      	ldr	r0, [pc, #320]	; (304 <UnityPrintFloat+0x304>)
+ 1c2:	b004      	add	sp, #16
+ 1c4:	ecbd 8b02 	vpop	{d8}
+ 1c8:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+ 1cc:	f7ff bffe 	b.w	0 <UnityPrintFloat>
+ 1d0:	202d      	movs	r0, #45	; 0x2d
+ 1d2:	eeb1 8a40 	vneg.f32	s16, s0
+ 1d6:	f7ff fffe 	bl	0 <putchar>
+ 1da:	e71e      	b.n	1a <UnityPrintFloat+0x1a>
+ 1dc:	eefd 7ac8 	vcvt.s32.f32	s15, s16
+ 1e0:	4949      	ldr	r1, [pc, #292]	; (308 <UnityPrintFloat+0x308>)
+ 1e2:	ee17 3a90 	vmov	r3, s15
+ 1e6:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 1ea:	428b      	cmp	r3, r1
+ 1ec:	ee78 7a67 	vsub.f32	s15, s16, s15
+ 1f0:	f73f af68 	bgt.w	c4 <UnityPrintFloat+0xc4>
+ 1f4:	eef2 6a04 	vmov.f32	s13, #36	; 0x41200000  10.0
+ 1f8:	eb03 0283 	add.w	r2, r3, r3, lsl #2
+ 1fc:	ee27 7a26 	vmul.f32	s14, s14, s13
+ 200:	3d01      	subs	r5, #1
+ 202:	ebb1 0f42 	cmp.w	r1, r2, lsl #1
+ 206:	ea4f 0342 	mov.w	r3, r2, lsl #1
+ 20a:	daf5      	bge.n	1f8 <UnityPrintFloat+0x1f8>
+ 20c:	ee67 7a87 	vmul.f32	s15, s15, s14
+ 210:	e758      	b.n	c4 <UnityPrintFloat+0xc4>
+ 212:	426f      	negs	r7, r5
+ 214:	2d00      	cmp	r5, #0
+ 216:	d05b      	beq.n	2d0 <UnityPrintFloat+0x2d0>
+ 218:	2500      	movs	r5, #0
+ 21a:	e783      	b.n	124 <UnityPrintFloat+0x124>
+ 21c:	2200      	movs	r2, #0
+ 21e:	3501      	adds	r5, #1
+ 220:	4b3a      	ldr	r3, [pc, #232]	; (30c <UnityPrintFloat+0x30c>)
+ 222:	4610      	mov	r0, r2
+ 224:	e778      	b.n	118 <UnityPrintFloat+0x118>
+ 226:	eddf 7a3a 	vldr	s15, [pc, #232]	; 310 <UnityPrintFloat+0x310>
+ 22a:	eeb4 8ae7 	vcmpe.f32	s16, s15
+ 22e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 232:	d509      	bpl.n	248 <UnityPrintFloat+0x248>
+ 234:	ed9f 7a2d 	vldr	s14, [pc, #180]	; 2ec <UnityPrintFloat+0x2ec>
+ 238:	ee28 8a07 	vmul.f32	s16, s16, s14
+ 23c:	3d0a      	subs	r5, #10
+ 23e:	eeb4 8ae7 	vcmpe.f32	s16, s15
+ 242:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 246:	d4f7      	bmi.n	238 <UnityPrintFloat+0x238>
+ 248:	eddf 6a32 	vldr	s13, [pc, #200]	; 314 <UnityPrintFloat+0x314>
+ 24c:	eeb4 8ae6 	vcmpe.f32	s16, s13
+ 250:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 254:	d540      	bpl.n	2d8 <UnityPrintFloat+0x2d8>
+ 256:	eeb7 7a00 	vmov.f32	s14, #112	; 0x3f800000  1.0
+ 25a:	eeb2 6a04 	vmov.f32	s12, #36	; 0x41200000  10.0
+ 25e:	ee27 7a06 	vmul.f32	s14, s14, s12
+ 262:	3d01      	subs	r5, #1
+ 264:	ee67 7a08 	vmul.f32	s15, s14, s16
+ 268:	eef4 7ae6 	vcmpe.f32	s15, s13
+ 26c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 270:	d4f5      	bmi.n	25e <UnityPrintFloat+0x25e>
+ 272:	e726      	b.n	c2 <UnityPrintFloat+0xc2>
+ 274:	2065      	movs	r0, #101	; 0x65
+ 276:	f7ff fffe 	bl	0 <putchar>
+ 27a:	2d00      	cmp	r5, #0
+ 27c:	db23      	blt.n	2c6 <UnityPrintFloat+0x2c6>
+ 27e:	202b      	movs	r0, #43	; 0x2b
+ 280:	f7ff fffe 	bl	0 <putchar>
+ 284:	4631      	mov	r1, r6
+ 286:	4f1c      	ldr	r7, [pc, #112]	; (2f8 <UnityPrintFloat+0x2f8>)
+ 288:	fba7 2305 	umull	r2, r3, r7, r5
+ 28c:	4622      	mov	r2, r4
+ 28e:	3401      	adds	r4, #1
+ 290:	08db      	lsrs	r3, r3, #3
+ 292:	eb03 0083 	add.w	r0, r3, r3, lsl #2
+ 296:	eba5 0040 	sub.w	r0, r5, r0, lsl #1
+ 29a:	461d      	mov	r5, r3
+ 29c:	3030      	adds	r0, #48	; 0x30
+ 29e:	b2c0      	uxtb	r0, r0
+ 2a0:	f801 0b01 	strb.w	r0, [r1], #1
+ 2a4:	2b00      	cmp	r3, #0
+ 2a6:	d1ef      	bne.n	288 <UnityPrintFloat+0x288>
+ 2a8:	2c01      	cmp	r4, #1
+ 2aa:	dded      	ble.n	288 <UnityPrintFloat+0x288>
+ 2ac:	18b4      	adds	r4, r6, r2
+ 2ae:	e001      	b.n	2b4 <UnityPrintFloat+0x2b4>
+ 2b0:	f814 0d01 	ldrb.w	r0, [r4, #-1]!
+ 2b4:	f7ff fffe 	bl	0 <putchar>
+ 2b8:	42a6      	cmp	r6, r4
+ 2ba:	d1f9      	bne.n	2b0 <UnityPrintFloat+0x2b0>
+ 2bc:	b004      	add	sp, #16
+ 2be:	ecbd 8b02 	vpop	{d8}
+ 2c2:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+ 2c6:	202d      	movs	r0, #45	; 0x2d
+ 2c8:	426d      	negs	r5, r5
+ 2ca:	f7ff fffe 	bl	0 <putchar>
+ 2ce:	e7d9      	b.n	284 <UnityPrintFloat+0x284>
+ 2d0:	462f      	mov	r7, r5
+ 2d2:	e73b      	b.n	14c <UnityPrintFloat+0x14c>
+ 2d4:	4810      	ldr	r0, [pc, #64]	; (318 <UnityPrintFloat+0x318>)
+ 2d6:	e76c      	b.n	1b2 <UnityPrintFloat+0x1b2>
+ 2d8:	eef0 7a48 	vmov.f32	s15, s16
+ 2dc:	e6f1      	b.n	c2 <UnityPrintFloat+0xc2>
+ 2de:	bf00      	nop
+ 2e0:	7f7fffff 	.word	0x7f7fffff
+ 2e4:	4b189680 	.word	0x4b189680
+ 2e8:	5a0e1bca 	.word	0x5a0e1bca
+ 2ec:	501502f9 	.word	0x501502f9
+ 2f0:	00989680 	.word	0x00989680
+ 2f4:	66666667 	.word	0x66666667
+ 2f8:	cccccccd 	.word	0xcccccccd
+ 2fc:	19999998 	.word	0x19999998
+ 300:	00000008 	.word	0x00000008
+ 304:	00000000 	.word	0x00000000
+ 308:	000f423f 	.word	0x000f423f
+ 30c:	000f4240 	.word	0x000f4240
+ 310:	3a83126f 	.word	0x3a83126f
+ 314:	49742400 	.word	0x49742400
+ 318:	00000004 	.word	0x00000004
+ 31c:	19999999 	.word	0x19999999
+
+Disassembly of section .text.UnityConcludeTest:
+
+00000000 <UnityConcludeTest>:
+   0:	b510      	push	{r4, lr}
+   2:	4c0e      	ldr	r4, [pc, #56]	; (3c <UnityConcludeTest+0x3c>)
+   4:	6a63      	ldr	r3, [r4, #36]	; 0x24
+   6:	b153      	cbz	r3, 1e <UnityConcludeTest+0x1e>
+   8:	69e3      	ldr	r3, [r4, #28]
+   a:	3301      	adds	r3, #1
+   c:	61e3      	str	r3, [r4, #28]
+   e:	2300      	movs	r3, #0
+  10:	200a      	movs	r0, #10
+  12:	e9c4 3308 	strd	r3, r3, [r4, #32]
+  16:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  1a:	f7ff bffe 	b.w	0 <putchar>
+  1e:	6a23      	ldr	r3, [r4, #32]
+  20:	b11b      	cbz	r3, 2a <UnityConcludeTest+0x2a>
+  22:	69a3      	ldr	r3, [r4, #24]
+  24:	3301      	adds	r3, #1
+  26:	61a3      	str	r3, [r4, #24]
+  28:	e7f1      	b.n	e <UnityConcludeTest+0xe>
+  2a:	6820      	ldr	r0, [r4, #0]
+  2c:	6921      	ldr	r1, [r4, #16]
+  2e:	f7ff fffe 	bl	0 <UnityConcludeTest>
+  32:	4803      	ldr	r0, [pc, #12]	; (40 <UnityConcludeTest+0x40>)
+  34:	f7ff fffe 	bl	0 <UnityConcludeTest>
+  38:	e7e9      	b.n	e <UnityConcludeTest+0xe>
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertBits:
+
+00000000 <UnityAssertBits>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4d18      	ldr	r5, [pc, #96]	; (64 <UnityAssertBits+0x64>)
+   4:	4604      	mov	r4, r0
+   6:	b084      	sub	sp, #16
+   8:	e9d5 0608 	ldrd	r0, r6, [r5, #32]
+   c:	4330      	orrs	r0, r6
+   e:	d105      	bne.n	1c <UnityAssertBits+0x1c>
+  10:	ea81 0002 	eor.w	r0, r1, r2
+  14:	4220      	tst	r0, r4
+  16:	d106      	bne.n	26 <UnityAssertBits+0x26>
+  18:	b004      	add	sp, #16
+  1a:	bd70      	pop	{r4, r5, r6, pc}
+  1c:	2101      	movs	r1, #1
+  1e:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  22:	f7ff fffe 	bl	0 <longjmp>
+  26:	9808      	ldr	r0, [sp, #32]
+  28:	9101      	str	r1, [sp, #4]
+  2a:	e9cd 2302 	strd	r2, r3, [sp, #8]
+  2e:	f7ff fffe 	bl	0 <UnityAssertBits>
+  32:	480d      	ldr	r0, [pc, #52]	; (68 <UnityAssertBits+0x68>)
+  34:	f7ff fffe 	bl	0 <UnityAssertBits>
+  38:	9901      	ldr	r1, [sp, #4]
+  3a:	4620      	mov	r0, r4
+  3c:	f7ff fffe 	bl	0 <UnityAssertBits>
+  40:	480a      	ldr	r0, [pc, #40]	; (6c <UnityAssertBits+0x6c>)
+  42:	f7ff fffe 	bl	0 <UnityAssertBits>
+  46:	9a02      	ldr	r2, [sp, #8]
+  48:	4620      	mov	r0, r4
+  4a:	4611      	mov	r1, r2
+  4c:	f7ff fffe 	bl	0 <UnityAssertBits>
+  50:	9b03      	ldr	r3, [sp, #12]
+  52:	4618      	mov	r0, r3
+  54:	f7ff fffe 	bl	0 <UnityAssertBits>
+  58:	2101      	movs	r1, #1
+  5a:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  5e:	6229      	str	r1, [r5, #32]
+  60:	f7ff fffe 	bl	0 <longjmp>
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertEqualNumber:
+
+00000000 <UnityAssertEqualNumber>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	4e17      	ldr	r6, [pc, #92]	; (60 <UnityAssertEqualNumber+0x60>)
+   4:	4605      	mov	r5, r0
+   6:	460c      	mov	r4, r1
+   8:	b083      	sub	sp, #12
+   a:	e9d6 0108 	ldrd	r0, r1, [r6, #32]
+   e:	f89d 7020 	ldrb.w	r7, [sp, #32]
+  12:	4308      	orrs	r0, r1
+  14:	d103      	bne.n	1e <UnityAssertEqualNumber+0x1e>
+  16:	42a5      	cmp	r5, r4
+  18:	d106      	bne.n	28 <UnityAssertEqualNumber+0x28>
+  1a:	b003      	add	sp, #12
+  1c:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  1e:	2101      	movs	r1, #1
+  20:	f106 0028 	add.w	r0, r6, #40	; 0x28
+  24:	f7ff fffe 	bl	0 <longjmp>
+  28:	4618      	mov	r0, r3
+  2a:	9201      	str	r2, [sp, #4]
+  2c:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  30:	480c      	ldr	r0, [pc, #48]	; (64 <UnityAssertEqualNumber+0x64>)
+  32:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  36:	4639      	mov	r1, r7
+  38:	4628      	mov	r0, r5
+  3a:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  3e:	480a      	ldr	r0, [pc, #40]	; (68 <UnityAssertEqualNumber+0x68>)
+  40:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  44:	4639      	mov	r1, r7
+  46:	4620      	mov	r0, r4
+  48:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  4c:	9a01      	ldr	r2, [sp, #4]
+  4e:	4610      	mov	r0, r2
+  50:	f7ff fffe 	bl	0 <UnityAssertEqualNumber>
+  54:	2101      	movs	r1, #1
+  56:	f106 0028 	add.w	r0, r6, #40	; 0x28
+  5a:	6231      	str	r1, [r6, #32]
+  5c:	f7ff fffe 	bl	0 <longjmp>
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertGreaterOrLessOrEqualNumber:
+
+00000000 <UnityAssertGreaterOrLessOrEqualNumber>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4d3d      	ldr	r5, [pc, #244]	; (fc <UnityAssertGreaterOrLessOrEqualNumber+0xfc>)
+   6:	4614      	mov	r4, r2
+   8:	461e      	mov	r6, r3
+   a:	f89d 9024 	ldrb.w	r9, [sp, #36]	; 0x24
+   e:	e9d5 2308 	ldrd	r2, r3, [r5, #32]
+  12:	431a      	orrs	r2, r3
+  14:	d165      	bne.n	e2 <UnityAssertGreaterOrLessOrEqualNumber+0xe2>
+  16:	4288      	cmp	r0, r1
+  18:	4607      	mov	r7, r0
+  1a:	4688      	mov	r8, r1
+  1c:	d02d      	beq.n	7a <UnityAssertGreaterOrLessOrEqualNumber+0x7a>
+  1e:	f019 0f10 	tst.w	r9, #16
+  22:	d025      	beq.n	70 <UnityAssertGreaterOrLessOrEqualNumber+0x70>
+  24:	4288      	cmp	r0, r1
+  26:	da4a      	bge.n	be <UnityAssertGreaterOrLessOrEqualNumber+0xbe>
+  28:	0760      	lsls	r0, r4, #29
+  2a:	f004 0a04 	and.w	sl, r4, #4
+  2e:	d522      	bpl.n	76 <UnityAssertGreaterOrLessOrEqualNumber+0x76>
+  30:	9808      	ldr	r0, [sp, #32]
+  32:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  36:	4832      	ldr	r0, [pc, #200]	; (100 <UnityAssertGreaterOrLessOrEqualNumber+0x100>)
+  38:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  3c:	4640      	mov	r0, r8
+  3e:	4649      	mov	r1, r9
+  40:	f004 0801 	and.w	r8, r4, #1
+  44:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  48:	07a2      	lsls	r2, r4, #30
+  4a:	d428      	bmi.n	9e <UnityAssertGreaterOrLessOrEqualNumber+0x9e>
+  4c:	482d      	ldr	r0, [pc, #180]	; (104 <UnityAssertGreaterOrLessOrEqualNumber+0x104>)
+  4e:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  52:	f1b8 0f00 	cmp.w	r8, #0
+  56:	d149      	bne.n	ec <UnityAssertGreaterOrLessOrEqualNumber+0xec>
+  58:	4649      	mov	r1, r9
+  5a:	4638      	mov	r0, r7
+  5c:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  60:	4630      	mov	r0, r6
+  62:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  66:	2101      	movs	r1, #1
+  68:	4827      	ldr	r0, [pc, #156]	; (108 <UnityAssertGreaterOrLessOrEqualNumber+0x108>)
+  6a:	6229      	str	r1, [r5, #32]
+  6c:	f7ff fffe 	bl	0 <longjmp>
+  70:	4281      	cmp	r1, r0
+  72:	d8d9      	bhi.n	28 <UnityAssertGreaterOrLessOrEqualNumber+0x28>
+  74:	d324      	bcc.n	c0 <UnityAssertGreaterOrLessOrEqualNumber+0xc0>
+  76:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  7a:	07e3      	lsls	r3, r4, #31
+  7c:	f004 0801 	and.w	r8, r4, #1
+  80:	d4f9      	bmi.n	76 <UnityAssertGreaterOrLessOrEqualNumber+0x76>
+  82:	9808      	ldr	r0, [sp, #32]
+  84:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  88:	481d      	ldr	r0, [pc, #116]	; (100 <UnityAssertGreaterOrLessOrEqualNumber+0x100>)
+  8a:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  8e:	4649      	mov	r1, r9
+  90:	4638      	mov	r0, r7
+  92:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  96:	07a3      	lsls	r3, r4, #30
+  98:	d52c      	bpl.n	f4 <UnityAssertGreaterOrLessOrEqualNumber+0xf4>
+  9a:	f004 0a04 	and.w	sl, r4, #4
+  9e:	481b      	ldr	r0, [pc, #108]	; (10c <UnityAssertGreaterOrLessOrEqualNumber+0x10c>)
+  a0:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  a4:	fa5f f38a 	uxtb.w	r3, sl
+  a8:	2b00      	cmp	r3, #0
+  aa:	d1cf      	bne.n	4c <UnityAssertGreaterOrLessOrEqualNumber+0x4c>
+  ac:	f1b8 0f00 	cmp.w	r8, #0
+  b0:	d11c      	bne.n	ec <UnityAssertGreaterOrLessOrEqualNumber+0xec>
+  b2:	2c00      	cmp	r4, #0
+  b4:	d1d0      	bne.n	58 <UnityAssertGreaterOrLessOrEqualNumber+0x58>
+  b6:	4816      	ldr	r0, [pc, #88]	; (110 <UnityAssertGreaterOrLessOrEqualNumber+0x110>)
+  b8:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  bc:	e7cc      	b.n	58 <UnityAssertGreaterOrLessOrEqualNumber+0x58>
+  be:	ddda      	ble.n	76 <UnityAssertGreaterOrLessOrEqualNumber+0x76>
+  c0:	07a1      	lsls	r1, r4, #30
+  c2:	d5d8      	bpl.n	76 <UnityAssertGreaterOrLessOrEqualNumber+0x76>
+  c4:	9808      	ldr	r0, [sp, #32]
+  c6:	f004 0a04 	and.w	sl, r4, #4
+  ca:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  ce:	480c      	ldr	r0, [pc, #48]	; (100 <UnityAssertGreaterOrLessOrEqualNumber+0x100>)
+  d0:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  d4:	4640      	mov	r0, r8
+  d6:	4649      	mov	r1, r9
+  d8:	f004 0801 	and.w	r8, r4, #1
+  dc:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  e0:	e7dd      	b.n	9e <UnityAssertGreaterOrLessOrEqualNumber+0x9e>
+  e2:	2101      	movs	r1, #1
+  e4:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  e8:	f7ff fffe 	bl	0 <longjmp>
+  ec:	4809      	ldr	r0, [pc, #36]	; (114 <UnityAssertGreaterOrLessOrEqualNumber+0x114>)
+  ee:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessOrEqualNumber>
+  f2:	e7b1      	b.n	58 <UnityAssertGreaterOrLessOrEqualNumber+0x58>
+  f4:	f004 0304 	and.w	r3, r4, #4
+  f8:	e7d6      	b.n	a8 <UnityAssertGreaterOrLessOrEqualNumber+0xa8>
+  fa:	bf00      	nop
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00000028 	.word	0x00000028
+ 10c:	00000000 	.word	0x00000000
+ 110:	00000000 	.word	0x00000000
+ 114:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertEqualIntArray:
+
+00000000 <UnityAssertEqualIntArray>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4e7a      	ldr	r6, [pc, #488]	; (1f0 <UnityAssertEqualIntArray+0x1f0>)
+   6:	b083      	sub	sp, #12
+   8:	e9d6 5408 	ldrd	r5, r4, [r6, #32]
+   c:	f89d 7034 	ldrb.w	r7, [sp, #52]	; 0x34
+  10:	432c      	orrs	r4, r5
+  12:	f89d e038 	ldrb.w	lr, [sp, #56]	; 0x38
+  16:	9300      	str	r3, [sp, #0]
+  18:	f040 80d0 	bne.w	1bc <UnityAssertEqualIntArray+0x1bc>
+  1c:	2a00      	cmp	r2, #0
+  1e:	f000 80d8 	beq.w	1d2 <UnityAssertEqualIntArray+0x1d2>
+  22:	4288      	cmp	r0, r1
+  24:	d038      	beq.n	98 <UnityAssertEqualIntArray+0x98>
+  26:	2800      	cmp	r0, #0
+  28:	d054      	beq.n	d4 <UnityAssertEqualIntArray+0xd4>
+  2a:	2900      	cmp	r1, #0
+  2c:	d067      	beq.n	fe <UnityAssertEqualIntArray+0xfe>
+  2e:	f007 0c0f 	and.w	ip, r7, #15
+  32:	4614      	mov	r4, r2
+  34:	f007 0360 	and.w	r3, r7, #96	; 0x60
+  38:	e010      	b.n	5c <UnityAssertEqualIntArray+0x5c>
+  3a:	4684      	mov	ip, r0
+  3c:	468b      	mov	fp, r1
+  3e:	4660      	mov	r0, ip
+  40:	f851 8b04 	ldr.w	r8, [r1], #4
+  44:	f85c 5b04 	ldr.w	r5, [ip], #4
+  48:	4545      	cmp	r5, r8
+  4a:	d174      	bne.n	136 <UnityAssertEqualIntArray+0x136>
+  4c:	f1be 0f01 	cmp.w	lr, #1
+  50:	d03c      	beq.n	cc <UnityAssertEqualIntArray+0xcc>
+  52:	f04f 0c04 	mov.w	ip, #4
+  56:	eb0b 010c 	add.w	r1, fp, ip
+  5a:	b1ec      	cbz	r4, 98 <UnityAssertEqualIntArray+0x98>
+  5c:	f1bc 0f01 	cmp.w	ip, #1
+  60:	f104 34ff 	add.w	r4, r4, #4294967295	; 0xffffffff
+  64:	d01b      	beq.n	9e <UnityAssertEqualIntArray+0x9e>
+  66:	f1bc 0f02 	cmp.w	ip, #2
+  6a:	d1e6      	bne.n	3a <UnityAssertEqualIntArray+0x3a>
+  6c:	4681      	mov	r9, r0
+  6e:	468b      	mov	fp, r1
+  70:	4648      	mov	r0, r9
+  72:	3102      	adds	r1, #2
+  74:	f109 0902 	add.w	r9, r9, #2
+  78:	f9bb 8000 	ldrsh.w	r8, [fp]
+  7c:	f9b0 5000 	ldrsh.w	r5, [r0]
+  80:	b113      	cbz	r3, 88 <UnityAssertEqualIntArray+0x88>
+  82:	b2ad      	uxth	r5, r5
+  84:	fa1f f888 	uxth.w	r8, r8
+  88:	4545      	cmp	r5, r8
+  8a:	d149      	bne.n	120 <UnityAssertEqualIntArray+0x120>
+  8c:	f1be 0f01 	cmp.w	lr, #1
+  90:	d1e1      	bne.n	56 <UnityAssertEqualIntArray+0x56>
+  92:	b10c      	cbz	r4, 98 <UnityAssertEqualIntArray+0x98>
+  94:	3c01      	subs	r4, #1
+  96:	e7ea      	b.n	6e <UnityAssertEqualIntArray+0x6e>
+  98:	b003      	add	sp, #12
+  9a:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  9e:	4681      	mov	r9, r0
+  a0:	468b      	mov	fp, r1
+  a2:	4648      	mov	r0, r9
+  a4:	3101      	adds	r1, #1
+  a6:	f109 0901 	add.w	r9, r9, #1
+  aa:	f99b 8000 	ldrsb.w	r8, [fp]
+  ae:	f990 5000 	ldrsb.w	r5, [r0]
+  b2:	b113      	cbz	r3, ba <UnityAssertEqualIntArray+0xba>
+  b4:	b2ed      	uxtb	r5, r5
+  b6:	fa5f f888 	uxtb.w	r8, r8
+  ba:	4545      	cmp	r5, r8
+  bc:	d130      	bne.n	120 <UnityAssertEqualIntArray+0x120>
+  be:	f1be 0f01 	cmp.w	lr, #1
+  c2:	d1c8      	bne.n	56 <UnityAssertEqualIntArray+0x56>
+  c4:	2c00      	cmp	r4, #0
+  c6:	d0e7      	beq.n	98 <UnityAssertEqualIntArray+0x98>
+  c8:	3c01      	subs	r4, #1
+  ca:	e7e9      	b.n	a0 <UnityAssertEqualIntArray+0xa0>
+  cc:	2c00      	cmp	r4, #0
+  ce:	d0e3      	beq.n	98 <UnityAssertEqualIntArray+0x98>
+  d0:	3c01      	subs	r4, #1
+  d2:	e7b3      	b.n	3c <UnityAssertEqualIntArray+0x3c>
+  d4:	990c      	ldr	r1, [sp, #48]	; 0x30
+  d6:	6830      	ldr	r0, [r6, #0]
+  d8:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+  dc:	4845      	ldr	r0, [pc, #276]	; (1f4 <UnityAssertEqualIntArray+0x1f4>)
+  de:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+  e2:	203a      	movs	r0, #58	; 0x3a
+  e4:	f7ff fffe 	bl	0 <putchar>
+  e8:	4843      	ldr	r0, [pc, #268]	; (1f8 <UnityAssertEqualIntArray+0x1f8>)
+  ea:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+  ee:	9800      	ldr	r0, [sp, #0]
+  f0:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+  f4:	2101      	movs	r1, #1
+  f6:	4841      	ldr	r0, [pc, #260]	; (1fc <UnityAssertEqualIntArray+0x1fc>)
+  f8:	6231      	str	r1, [r6, #32]
+  fa:	f7ff fffe 	bl	0 <longjmp>
+  fe:	990c      	ldr	r1, [sp, #48]	; 0x30
+ 100:	6830      	ldr	r0, [r6, #0]
+ 102:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 106:	483b      	ldr	r0, [pc, #236]	; (1f4 <UnityAssertEqualIntArray+0x1f4>)
+ 108:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 10c:	203a      	movs	r0, #58	; 0x3a
+ 10e:	f7ff fffe 	bl	0 <putchar>
+ 112:	483b      	ldr	r0, [pc, #236]	; (200 <UnityAssertEqualIntArray+0x200>)
+ 114:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 118:	9800      	ldr	r0, [sp, #0]
+ 11a:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 11e:	e7e9      	b.n	f4 <UnityAssertEqualIntArray+0xf4>
+ 120:	06bb      	lsls	r3, r7, #26
+ 122:	d508      	bpl.n	136 <UnityAssertEqualIntArray+0x136>
+ 124:	ea4f 01cc 	mov.w	r1, ip, lsl #3
+ 128:	2001      	movs	r0, #1
+ 12a:	fa00 f101 	lsl.w	r1, r0, r1
+ 12e:	3901      	subs	r1, #1
+ 130:	400d      	ands	r5, r1
+ 132:	ea08 0801 	and.w	r8, r8, r1
+ 136:	990c      	ldr	r1, [sp, #48]	; 0x30
+ 138:	6830      	ldr	r0, [r6, #0]
+ 13a:	9201      	str	r2, [sp, #4]
+ 13c:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 140:	482c      	ldr	r0, [pc, #176]	; (1f4 <UnityAssertEqualIntArray+0x1f4>)
+ 142:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 146:	203a      	movs	r0, #58	; 0x3a
+ 148:	f7ff fffe 	bl	0 <putchar>
+ 14c:	482d      	ldr	r0, [pc, #180]	; (204 <UnityAssertEqualIntArray+0x204>)
+ 14e:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 152:	9a01      	ldr	r2, [sp, #4]
+ 154:	3a01      	subs	r2, #1
+ 156:	1b14      	subs	r4, r2, r4
+ 158:	2c09      	cmp	r4, #9
+ 15a:	d934      	bls.n	1c6 <UnityAssertEqualIntArray+0x1c6>
+ 15c:	f04f 0901 	mov.w	r9, #1
+ 160:	eb09 0989 	add.w	r9, r9, r9, lsl #2
+ 164:	ea4f 0949 	mov.w	r9, r9, lsl #1
+ 168:	fbb4 f2f9 	udiv	r2, r4, r9
+ 16c:	2a09      	cmp	r2, #9
+ 16e:	d8f7      	bhi.n	160 <UnityAssertEqualIntArray+0x160>
+ 170:	f8df a0a0 	ldr.w	sl, [pc, #160]	; 214 <UnityAssertEqualIntArray+0x214>
+ 174:	fbb4 f2f9 	udiv	r2, r4, r9
+ 178:	fbaa 0102 	umull	r0, r1, sl, r2
+ 17c:	08c9      	lsrs	r1, r1, #3
+ 17e:	eb01 0181 	add.w	r1, r1, r1, lsl #2
+ 182:	eba2 0241 	sub.w	r2, r2, r1, lsl #1
+ 186:	f102 0030 	add.w	r0, r2, #48	; 0x30
+ 18a:	b2c0      	uxtb	r0, r0
+ 18c:	f7ff fffe 	bl	0 <putchar>
+ 190:	464a      	mov	r2, r9
+ 192:	fbaa 1909 	umull	r1, r9, sl, r9
+ 196:	2a09      	cmp	r2, #9
+ 198:	ea4f 09d9 	mov.w	r9, r9, lsr #3
+ 19c:	d8ea      	bhi.n	174 <UnityAssertEqualIntArray+0x174>
+ 19e:	481a      	ldr	r0, [pc, #104]	; (208 <UnityAssertEqualIntArray+0x208>)
+ 1a0:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1a4:	4639      	mov	r1, r7
+ 1a6:	4628      	mov	r0, r5
+ 1a8:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1ac:	4817      	ldr	r0, [pc, #92]	; (20c <UnityAssertEqualIntArray+0x20c>)
+ 1ae:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1b2:	4639      	mov	r1, r7
+ 1b4:	4640      	mov	r0, r8
+ 1b6:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1ba:	e7ad      	b.n	118 <UnityAssertEqualIntArray+0x118>
+ 1bc:	2101      	movs	r1, #1
+ 1be:	f106 0028 	add.w	r0, r6, #40	; 0x28
+ 1c2:	f7ff fffe 	bl	0 <longjmp>
+ 1c6:	f104 0030 	add.w	r0, r4, #48	; 0x30
+ 1ca:	b2c0      	uxtb	r0, r0
+ 1cc:	f7ff fffe 	bl	0 <putchar>
+ 1d0:	e7e5      	b.n	19e <UnityAssertEqualIntArray+0x19e>
+ 1d2:	980c      	ldr	r0, [sp, #48]	; 0x30
+ 1d4:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1d8:	480d      	ldr	r0, [pc, #52]	; (210 <UnityAssertEqualIntArray+0x210>)
+ 1da:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1de:	9800      	ldr	r0, [sp, #0]
+ 1e0:	f7ff fffe 	bl	0 <UnityAssertEqualIntArray>
+ 1e4:	2101      	movs	r1, #1
+ 1e6:	f106 0028 	add.w	r0, r6, #40	; 0x28
+ 1ea:	6231      	str	r1, [r6, #32]
+ 1ec:	f7ff fffe 	bl	0 <longjmp>
+ 1f0:	00000000 	.word	0x00000000
+ 1f4:	00000000 	.word	0x00000000
+ 1f8:	00000000 	.word	0x00000000
+ 1fc:	00000028 	.word	0x00000028
+ 200:	00000000 	.word	0x00000000
+ 204:	00000000 	.word	0x00000000
+ 208:	00000000 	.word	0x00000000
+ 20c:	00000000 	.word	0x00000000
+ 210:	00000000 	.word	0x00000000
+ 214:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityAssertWithinFloatArray:
+
+00000000 <UnityAssertWithinFloatArray>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	f8df 824c 	ldr.w	r8, [pc, #588]	; 254 <UnityAssertWithinFloatArray+0x254>
+   8:	4605      	mov	r5, r0
+   a:	460c      	mov	r4, r1
+   c:	461f      	mov	r7, r3
+   e:	9908      	ldr	r1, [sp, #32]
+  10:	f89d 3024 	ldrb.w	r3, [sp, #36]	; 0x24
+  14:	e9d8 6008 	ldrd	r6, r0, [r8, #32]
+  18:	4330      	orrs	r0, r6
+  1a:	f040 8101 	bne.w	220 <UnityAssertWithinFloatArray+0x220>
+  1e:	2a00      	cmp	r2, #0
+  20:	f000 80f7 	beq.w	212 <UnityAssertWithinFloatArray+0x212>
+  24:	eef0 7ac0 	vabs.f32	s15, s0
+  28:	ed9f 7a80 	vldr	s14, [pc, #512]	; 22c <UnityAssertWithinFloatArray+0x22c>
+  2c:	eef4 7a47 	vcmp.f32	s15, s14
+  30:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  34:	f300 80bf 	bgt.w	1b6 <UnityAssertWithinFloatArray+0x1b6>
+  38:	eeb4 0a40 	vcmp.f32	s0, s0
+  3c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  40:	f180 80e7 	bvs.w	212 <UnityAssertWithinFloatArray+0x212>
+  44:	42a5      	cmp	r5, r4
+  46:	f000 80b6 	beq.w	1b6 <UnityAssertWithinFloatArray+0x1b6>
+  4a:	2d00      	cmp	r5, #0
+  4c:	f000 80b5 	beq.w	1ba <UnityAssertWithinFloatArray+0x1ba>
+  50:	2c00      	cmp	r4, #0
+  52:	f000 80c8 	beq.w	1e6 <UnityAssertWithinFloatArray+0x1e6>
+  56:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+  5a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  5e:	d501      	bpl.n	64 <UnityAssertWithinFloatArray+0x64>
+  60:	eeb1 0a40 	vneg.f32	s0, s0
+  64:	1e56      	subs	r6, r2, #1
+  66:	ed9f 5a72 	vldr	s10, [pc, #456]	; 230 <UnityAssertWithinFloatArray+0x230>
+  6a:	4622      	mov	r2, r4
+  6c:	eddf 5a6f 	vldr	s11, [pc, #444]	; 22c <UnityAssertWithinFloatArray+0x22c>
+  70:	4634      	mov	r4, r6
+  72:	ed95 7a00 	vldr	s14, [r5]
+  76:	4691      	mov	r9, r2
+  78:	ecf2 7a01 	vldmia	r2!, {s15}
+  7c:	ee67 6a05 	vmul.f32	s13, s14, s10
+  80:	eeb0 6ac7 	vabs.f32	s12, s14
+  84:	eef5 6ac0 	vcmpe.f32	s13, #0.0
+  88:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  8c:	eeb4 6a65 	vcmp.f32	s12, s11
+  90:	bf48      	it	mi
+  92:	eef1 6a66 	vnegmi.f32	s13, s13
+  96:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  9a:	dd18      	ble.n	ce <UnityAssertWithinFloatArray+0xce>
+  9c:	eeb0 6ae7 	vabs.f32	s12, s15
+  a0:	eeb4 6a65 	vcmp.f32	s12, s11
+  a4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  a8:	dd11      	ble.n	ce <UnityAssertWithinFloatArray+0xce>
+  aa:	eeb5 7ac0 	vcmpe.f32	s14, #0.0
+  ae:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b2:	eef5 7ac0 	vcmpe.f32	s15, #0.0
+  b6:	bf4c      	ite	mi
+  b8:	f04f 0c01 	movmi.w	ip, #1
+  bc:	f04f 0c00 	movpl.w	ip, #0
+  c0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  c4:	bf4c      	ite	mi
+  c6:	2001      	movmi	r0, #1
+  c8:	2000      	movpl	r0, #0
+  ca:	4584      	cmp	ip, r0
+  cc:	d06d      	beq.n	1aa <UnityAssertWithinFloatArray+0x1aa>
+  ce:	eeb4 7a47 	vcmp.f32	s14, s14
+  d2:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  d6:	d704      	bvc.n	e2 <UnityAssertWithinFloatArray+0xe2>
+  d8:	eef4 7a67 	vcmp.f32	s15, s15
+  dc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  e0:	d663      	bvs.n	1aa <UnityAssertWithinFloatArray+0x1aa>
+  e2:	ee77 7ac7 	vsub.f32	s15, s15, s14
+  e6:	ee76 6a80 	vadd.f32	s13, s13, s0
+  ea:	eef5 7ac0 	vcmpe.f32	s15, #0.0
+  ee:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  f2:	eef5 6ac0 	vcmpe.f32	s13, #0.0
+  f6:	bf48      	it	mi
+  f8:	eef1 7a67 	vnegmi.f32	s15, s15
+  fc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 100:	eef4 7a67 	vcmp.f32	s15, s15
+ 104:	bf48      	it	mi
+ 106:	eef1 6a66 	vnegmi.f32	s13, s13
+ 10a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 10e:	d60b      	bvs.n	128 <UnityAssertWithinFloatArray+0x128>
+ 110:	eeb0 7ae7 	vabs.f32	s14, s15
+ 114:	eeb4 7a65 	vcmp.f32	s14, s11
+ 118:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 11c:	dc04      	bgt.n	128 <UnityAssertWithinFloatArray+0x128>
+ 11e:	eef4 7ae6 	vcmpe.f32	s15, s13
+ 122:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 126:	dd40      	ble.n	1aa <UnityAssertWithinFloatArray+0x1aa>
+ 128:	f8d8 0000 	ldr.w	r0, [r8]
+ 12c:	1b34      	subs	r4, r6, r4
+ 12e:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 132:	4840      	ldr	r0, [pc, #256]	; (234 <UnityAssertWithinFloatArray+0x234>)
+ 134:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 138:	203a      	movs	r0, #58	; 0x3a
+ 13a:	f7ff fffe 	bl	0 <putchar>
+ 13e:	483e      	ldr	r0, [pc, #248]	; (238 <UnityAssertWithinFloatArray+0x238>)
+ 140:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 144:	2c09      	cmp	r4, #9
+ 146:	d95f      	bls.n	208 <UnityAssertWithinFloatArray+0x208>
+ 148:	2601      	movs	r6, #1
+ 14a:	eb06 0686 	add.w	r6, r6, r6, lsl #2
+ 14e:	0076      	lsls	r6, r6, #1
+ 150:	fbb4 f3f6 	udiv	r3, r4, r6
+ 154:	2b09      	cmp	r3, #9
+ 156:	d8f8      	bhi.n	14a <UnityAssertWithinFloatArray+0x14a>
+ 158:	f8df a0fc 	ldr.w	sl, [pc, #252]	; 258 <UnityAssertWithinFloatArray+0x258>
+ 15c:	fbb4 f3f6 	udiv	r3, r4, r6
+ 160:	fbaa 1203 	umull	r1, r2, sl, r3
+ 164:	08d2      	lsrs	r2, r2, #3
+ 166:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+ 16a:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+ 16e:	f103 0030 	add.w	r0, r3, #48	; 0x30
+ 172:	b2c0      	uxtb	r0, r0
+ 174:	f7ff fffe 	bl	0 <putchar>
+ 178:	4633      	mov	r3, r6
+ 17a:	fbaa 2606 	umull	r2, r6, sl, r6
+ 17e:	2b09      	cmp	r3, #9
+ 180:	ea4f 06d6 	mov.w	r6, r6, lsr #3
+ 184:	d8ea      	bhi.n	15c <UnityAssertWithinFloatArray+0x15c>
+ 186:	482d      	ldr	r0, [pc, #180]	; (23c <UnityAssertWithinFloatArray+0x23c>)
+ 188:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 18c:	ed95 0a00 	vldr	s0, [r5]
+ 190:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 194:	482a      	ldr	r0, [pc, #168]	; (240 <UnityAssertWithinFloatArray+0x240>)
+ 196:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 19a:	ed99 0a00 	vldr	s0, [r9]
+ 19e:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1a2:	4638      	mov	r0, r7
+ 1a4:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1a8:	e017      	b.n	1da <UnityAssertWithinFloatArray+0x1da>
+ 1aa:	2b01      	cmp	r3, #1
+ 1ac:	bf08      	it	eq
+ 1ae:	3504      	addeq	r5, #4
+ 1b0:	3c01      	subs	r4, #1
+ 1b2:	f4bf af5e 	bcs.w	72 <UnityAssertWithinFloatArray+0x72>
+ 1b6:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 1ba:	f8d8 0000 	ldr.w	r0, [r8]
+ 1be:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1c2:	481c      	ldr	r0, [pc, #112]	; (234 <UnityAssertWithinFloatArray+0x234>)
+ 1c4:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1c8:	203a      	movs	r0, #58	; 0x3a
+ 1ca:	f7ff fffe 	bl	0 <putchar>
+ 1ce:	481d      	ldr	r0, [pc, #116]	; (244 <UnityAssertWithinFloatArray+0x244>)
+ 1d0:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1d4:	4638      	mov	r0, r7
+ 1d6:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1da:	2101      	movs	r1, #1
+ 1dc:	481a      	ldr	r0, [pc, #104]	; (248 <UnityAssertWithinFloatArray+0x248>)
+ 1de:	f8c8 1020 	str.w	r1, [r8, #32]
+ 1e2:	f7ff fffe 	bl	0 <longjmp>
+ 1e6:	f8d8 0000 	ldr.w	r0, [r8]
+ 1ea:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1ee:	4811      	ldr	r0, [pc, #68]	; (234 <UnityAssertWithinFloatArray+0x234>)
+ 1f0:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 1f4:	203a      	movs	r0, #58	; 0x3a
+ 1f6:	f7ff fffe 	bl	0 <putchar>
+ 1fa:	4814      	ldr	r0, [pc, #80]	; (24c <UnityAssertWithinFloatArray+0x24c>)
+ 1fc:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 200:	4638      	mov	r0, r7
+ 202:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 206:	e7e8      	b.n	1da <UnityAssertWithinFloatArray+0x1da>
+ 208:	3430      	adds	r4, #48	; 0x30
+ 20a:	b2e0      	uxtb	r0, r4
+ 20c:	f7ff fffe 	bl	0 <putchar>
+ 210:	e7b9      	b.n	186 <UnityAssertWithinFloatArray+0x186>
+ 212:	4608      	mov	r0, r1
+ 214:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 218:	480d      	ldr	r0, [pc, #52]	; (250 <UnityAssertWithinFloatArray+0x250>)
+ 21a:	f7ff fffe 	bl	0 <UnityAssertWithinFloatArray>
+ 21e:	e7c0      	b.n	1a2 <UnityAssertWithinFloatArray+0x1a2>
+ 220:	2101      	movs	r1, #1
+ 222:	f108 0028 	add.w	r0, r8, #40	; 0x28
+ 226:	f7ff fffe 	bl	0 <longjmp>
+ 22a:	bf00      	nop
+ 22c:	7f7fffff 	.word	0x7f7fffff
+ 230:	3727c5ac 	.word	0x3727c5ac
+ 234:	00000000 	.word	0x00000000
+ 238:	00000000 	.word	0x00000000
+ 23c:	00000000 	.word	0x00000000
+ 240:	00000000 	.word	0x00000000
+ 244:	00000000 	.word	0x00000000
+ 248:	00000028 	.word	0x00000028
+ 24c:	00000000 	.word	0x00000000
+ 250:	00000000 	.word	0x00000000
+ 254:	00000000 	.word	0x00000000
+ 258:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityAssertFloatsWithin:
+
+00000000 <UnityAssertFloatsWithin>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4c3d      	ldr	r4, [pc, #244]	; (f8 <UnityAssertFloatsWithin+0xf8>)
+   4:	e9d4 3208 	ldrd	r3, r2, [r4, #32]
+   8:	ed2d 8b02 	vpush	{d8}
+   c:	4313      	orrs	r3, r2
+   e:	d16d      	bne.n	ec <UnityAssertFloatsWithin+0xec>
+  10:	eef0 7ae0 	vabs.f32	s15, s1
+  14:	ed9f 7a39 	vldr	s14, [pc, #228]	; fc <UnityAssertFloatsWithin+0xfc>
+  18:	eeb0 8a60 	vmov.f32	s16, s1
+  1c:	4605      	mov	r5, r0
+  1e:	eef0 8a41 	vmov.f32	s17, s2
+  22:	eef4 7a47 	vcmp.f32	s15, s14
+  26:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2a:	dd16      	ble.n	5a <UnityAssertFloatsWithin+0x5a>
+  2c:	eef0 7ac1 	vabs.f32	s15, s2
+  30:	eef4 7a47 	vcmp.f32	s15, s14
+  34:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  38:	dd0f      	ble.n	5a <UnityAssertFloatsWithin+0x5a>
+  3a:	eef5 0ac0 	vcmpe.f32	s1, #0.0
+  3e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  42:	eeb5 1ac0 	vcmpe.f32	s2, #0.0
+  46:	bf4c      	ite	mi
+  48:	2201      	movmi	r2, #1
+  4a:	2200      	movpl	r2, #0
+  4c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  50:	bf4c      	ite	mi
+  52:	2301      	movmi	r3, #1
+  54:	2300      	movpl	r3, #0
+  56:	429a      	cmp	r2, r3
+  58:	d009      	beq.n	6e <UnityAssertFloatsWithin+0x6e>
+  5a:	eeb4 8a48 	vcmp.f32	s16, s16
+  5e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  62:	d707      	bvc.n	74 <UnityAssertFloatsWithin+0x74>
+  64:	eef4 8a68 	vcmp.f32	s17, s17
+  68:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  6c:	d702      	bvc.n	74 <UnityAssertFloatsWithin+0x74>
+  6e:	ecbd 8b02 	vpop	{d8}
+  72:	bd38      	pop	{r3, r4, r5, pc}
+  74:	ee78 7ac8 	vsub.f32	s15, s17, s16
+  78:	eef5 7ac0 	vcmpe.f32	s15, #0.0
+  7c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  80:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+  84:	bf48      	it	mi
+  86:	eef1 7a67 	vnegmi.f32	s15, s15
+  8a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  8e:	eef4 7a67 	vcmp.f32	s15, s15
+  92:	bf48      	it	mi
+  94:	eeb1 0a40 	vnegmi.f32	s0, s0
+  98:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  9c:	d60d      	bvs.n	ba <UnityAssertFloatsWithin+0xba>
+  9e:	eeb0 7ae7 	vabs.f32	s14, s15
+  a2:	eddf 6a16 	vldr	s13, [pc, #88]	; fc <UnityAssertFloatsWithin+0xfc>
+  a6:	eeb4 7a66 	vcmp.f32	s14, s13
+  aa:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  ae:	dc04      	bgt.n	ba <UnityAssertFloatsWithin+0xba>
+  b0:	eef4 7ac0 	vcmpe.f32	s15, s0
+  b4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b8:	ddd9      	ble.n	6e <UnityAssertFloatsWithin+0x6e>
+  ba:	4608      	mov	r0, r1
+  bc:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  c0:	480f      	ldr	r0, [pc, #60]	; (100 <UnityAssertFloatsWithin+0x100>)
+  c2:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  c6:	eeb0 0a48 	vmov.f32	s0, s16
+  ca:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  ce:	480d      	ldr	r0, [pc, #52]	; (104 <UnityAssertFloatsWithin+0x104>)
+  d0:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  d4:	eeb0 0a68 	vmov.f32	s0, s17
+  d8:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  dc:	4628      	mov	r0, r5
+  de:	f7ff fffe 	bl	0 <UnityAssertFloatsWithin>
+  e2:	2101      	movs	r1, #1
+  e4:	4808      	ldr	r0, [pc, #32]	; (108 <UnityAssertFloatsWithin+0x108>)
+  e6:	6221      	str	r1, [r4, #32]
+  e8:	f7ff fffe 	bl	0 <longjmp>
+  ec:	2101      	movs	r1, #1
+  ee:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  f2:	f7ff fffe 	bl	0 <longjmp>
+  f6:	bf00      	nop
+  f8:	00000000 	.word	0x00000000
+  fc:	7f7fffff 	.word	0x7f7fffff
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityAssertFloatsNotWithin:
+
+00000000 <UnityAssertFloatsNotWithin>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	4c3e      	ldr	r4, [pc, #248]	; (fc <UnityAssertFloatsNotWithin+0xfc>)
+   4:	b083      	sub	sp, #12
+   6:	e9d4 3208 	ldrd	r3, r2, [r4, #32]
+   a:	4313      	orrs	r3, r2
+   c:	d170      	bne.n	f0 <UnityAssertFloatsNotWithin+0xf0>
+   e:	eef0 7ae0 	vabs.f32	s15, s1
+  12:	ed9f 7a3b 	vldr	s14, [pc, #236]	; 100 <UnityAssertFloatsNotWithin+0x100>
+  16:	4605      	mov	r5, r0
+  18:	eef4 7a47 	vcmp.f32	s15, s14
+  1c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  20:	dd16      	ble.n	50 <UnityAssertFloatsNotWithin+0x50>
+  22:	eef0 7ac1 	vabs.f32	s15, s2
+  26:	eef4 7a47 	vcmp.f32	s15, s14
+  2a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2e:	dd0f      	ble.n	50 <UnityAssertFloatsNotWithin+0x50>
+  30:	eef5 0ac0 	vcmpe.f32	s1, #0.0
+  34:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  38:	eeb5 1ac0 	vcmpe.f32	s2, #0.0
+  3c:	bf4c      	ite	mi
+  3e:	2201      	movmi	r2, #1
+  40:	2200      	movpl	r2, #0
+  42:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  46:	bf4c      	ite	mi
+  48:	2301      	movmi	r3, #1
+  4a:	2300      	movpl	r3, #0
+  4c:	429a      	cmp	r2, r3
+  4e:	d009      	beq.n	64 <UnityAssertFloatsNotWithin+0x64>
+  50:	eef4 0a60 	vcmp.f32	s1, s1
+  54:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  58:	d725      	bvc.n	a6 <UnityAssertFloatsNotWithin+0xa6>
+  5a:	eeb4 1a41 	vcmp.f32	s2, s2
+  5e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  62:	d720      	bvc.n	a6 <UnityAssertFloatsNotWithin+0xa6>
+  64:	4608      	mov	r0, r1
+  66:	ed8d 1a01 	vstr	s2, [sp, #4]
+  6a:	edcd 0a00 	vstr	s1, [sp]
+  6e:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  72:	4824      	ldr	r0, [pc, #144]	; (104 <UnityAssertFloatsNotWithin+0x104>)
+  74:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  78:	eddd 0a00 	vldr	s1, [sp]
+  7c:	eeb0 0a60 	vmov.f32	s0, s1
+  80:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  84:	4820      	ldr	r0, [pc, #128]	; (108 <UnityAssertFloatsNotWithin+0x108>)
+  86:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  8a:	ed9d 1a01 	vldr	s2, [sp, #4]
+  8e:	eeb0 0a41 	vmov.f32	s0, s2
+  92:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  96:	4628      	mov	r0, r5
+  98:	f7ff fffe 	bl	0 <UnityAssertFloatsNotWithin>
+  9c:	2101      	movs	r1, #1
+  9e:	481b      	ldr	r0, [pc, #108]	; (10c <UnityAssertFloatsNotWithin+0x10c>)
+  a0:	6221      	str	r1, [r4, #32]
+  a2:	f7ff fffe 	bl	0 <longjmp>
+  a6:	ee71 7a60 	vsub.f32	s15, s2, s1
+  aa:	eef5 7ac0 	vcmpe.f32	s15, #0.0
+  ae:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b2:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+  b6:	bf48      	it	mi
+  b8:	eef1 7a67 	vnegmi.f32	s15, s15
+  bc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  c0:	eef4 7a67 	vcmp.f32	s15, s15
+  c4:	bf48      	it	mi
+  c6:	eeb1 0a40 	vnegmi.f32	s0, s0
+  ca:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  ce:	d60d      	bvs.n	ec <UnityAssertFloatsNotWithin+0xec>
+  d0:	eeb0 7ae7 	vabs.f32	s14, s15
+  d4:	eddf 6a0a 	vldr	s13, [pc, #40]	; 100 <UnityAssertFloatsNotWithin+0x100>
+  d8:	eeb4 7a66 	vcmp.f32	s14, s13
+  dc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  e0:	dc04      	bgt.n	ec <UnityAssertFloatsNotWithin+0xec>
+  e2:	eef4 7ac0 	vcmpe.f32	s15, s0
+  e6:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  ea:	ddbb      	ble.n	64 <UnityAssertFloatsNotWithin+0x64>
+  ec:	b003      	add	sp, #12
+  ee:	bd30      	pop	{r4, r5, pc}
+  f0:	2101      	movs	r1, #1
+  f2:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  f6:	f7ff fffe 	bl	0 <longjmp>
+  fa:	bf00      	nop
+  fc:	00000000 	.word	0x00000000
+ 100:	7f7fffff 	.word	0x7f7fffff
+ 104:	00000000 	.word	0x00000000
+ 108:	00000000 	.word	0x00000000
+ 10c:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityAssertGreaterOrLessFloat:
+
+00000000 <UnityAssertGreaterOrLessFloat>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4d62      	ldr	r5, [pc, #392]	; (18c <UnityAssertGreaterOrLessFloat+0x18c>)
+   4:	4604      	mov	r4, r0
+   6:	e9d5 3008 	ldrd	r3, r0, [r5, #32]
+   a:	ed2d 8b02 	vpush	{d8}
+   e:	4303      	orrs	r3, r0
+  10:	b082      	sub	sp, #8
+  12:	d170      	bne.n	f6 <UnityAssertGreaterOrLessFloat+0xf6>
+  14:	eef4 0ac0 	vcmpe.f32	s1, s0
+  18:	eeb0 8a40 	vmov.f32	s16, s0
+  1c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  20:	eef4 0ac0 	vcmpe.f32	s1, s0
+  24:	bf58      	it	pl
+  26:	f3c4 0380 	ubfxpl	r3, r4, #2, #1
+  2a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2e:	dc4d      	bgt.n	cc <UnityAssertGreaterOrLessFloat+0xcc>
+  30:	07a6      	lsls	r6, r4, #30
+  32:	d54b      	bpl.n	cc <UnityAssertGreaterOrLessFloat+0xcc>
+  34:	f014 0601 	ands.w	r6, r4, #1
+  38:	f000 8092 	beq.w	160 <UnityAssertGreaterOrLessFloat+0x160>
+  3c:	2301      	movs	r3, #1
+  3e:	eef0 7ac8 	vabs.f32	s15, s16
+  42:	ed9f 7a53 	vldr	s14, [pc, #332]	; 190 <UnityAssertGreaterOrLessFloat+0x190>
+  46:	eef4 7a47 	vcmp.f32	s15, s14
+  4a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  4e:	dd06      	ble.n	5e <UnityAssertGreaterOrLessFloat+0x5e>
+  50:	eef0 7ae0 	vabs.f32	s15, s1
+  54:	eef4 7a47 	vcmp.f32	s15, s14
+  58:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  5c:	dc3a      	bgt.n	d4 <UnityAssertGreaterOrLessFloat+0xd4>
+  5e:	eeb4 8a48 	vcmp.f32	s16, s16
+  62:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  66:	d704      	bvc.n	72 <UnityAssertGreaterOrLessFloat+0x72>
+  68:	eef4 0a60 	vcmp.f32	s1, s1
+  6c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  70:	d628      	bvs.n	c4 <UnityAssertGreaterOrLessFloat+0xc4>
+  72:	ee70 7ac8 	vsub.f32	s15, s1, s16
+  76:	ed9f 7a47 	vldr	s14, [pc, #284]	; 194 <UnityAssertGreaterOrLessFloat+0x194>
+  7a:	ee28 7a07 	vmul.f32	s14, s16, s14
+  7e:	eef5 7ac0 	vcmpe.f32	s15, #0.0
+  82:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  86:	eeb5 7ac0 	vcmpe.f32	s14, #0.0
+  8a:	bf48      	it	mi
+  8c:	eef1 7a67 	vnegmi.f32	s15, s15
+  90:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  94:	eef4 7a67 	vcmp.f32	s15, s15
+  98:	bf48      	it	mi
+  9a:	eeb1 7a47 	vnegmi.f32	s14, s14
+  9e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  a2:	d60d      	bvs.n	c0 <UnityAssertGreaterOrLessFloat+0xc0>
+  a4:	eef0 6ae7 	vabs.f32	s13, s15
+  a8:	ed9f 6a39 	vldr	s12, [pc, #228]	; 190 <UnityAssertGreaterOrLessFloat+0x190>
+  ac:	eef4 6a46 	vcmp.f32	s13, s12
+  b0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b4:	dc04      	bgt.n	c0 <UnityAssertGreaterOrLessFloat+0xc0>
+  b6:	eef4 7ac7 	vcmpe.f32	s15, s14
+  ba:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  be:	dd01      	ble.n	c4 <UnityAssertGreaterOrLessFloat+0xc4>
+  c0:	2601      	movs	r6, #1
+  c2:	b9eb      	cbnz	r3, 100 <UnityAssertGreaterOrLessFloat+0x100>
+  c4:	b002      	add	sp, #8
+  c6:	ecbd 8b02 	vpop	{d8}
+  ca:	bd70      	pop	{r4, r5, r6, pc}
+  cc:	f014 0601 	ands.w	r6, r4, #1
+  d0:	d0f7      	beq.n	c2 <UnityAssertGreaterOrLessFloat+0xc2>
+  d2:	e7b4      	b.n	3e <UnityAssertGreaterOrLessFloat+0x3e>
+  d4:	eeb5 8ac0 	vcmpe.f32	s16, #0.0
+  d8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  dc:	eef5 0ac0 	vcmpe.f32	s1, #0.0
+  e0:	bf4c      	ite	mi
+  e2:	2601      	movmi	r6, #1
+  e4:	2600      	movpl	r6, #0
+  e6:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  ea:	bf4c      	ite	mi
+  ec:	2001      	movmi	r0, #1
+  ee:	2000      	movpl	r0, #0
+  f0:	4286      	cmp	r6, r0
+  f2:	d1b4      	bne.n	5e <UnityAssertGreaterOrLessFloat+0x5e>
+  f4:	e7e6      	b.n	c4 <UnityAssertGreaterOrLessFloat+0xc4>
+  f6:	2101      	movs	r1, #1
+  f8:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  fc:	f7ff fffe 	bl	0 <longjmp>
+ 100:	4610      	mov	r0, r2
+ 102:	9101      	str	r1, [sp, #4]
+ 104:	edcd 0a00 	vstr	s1, [sp]
+ 108:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 10c:	4822      	ldr	r0, [pc, #136]	; (198 <UnityAssertGreaterOrLessFloat+0x198>)
+ 10e:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 112:	eddd 0a00 	vldr	s1, [sp]
+ 116:	eeb0 0a60 	vmov.f32	s0, s1
+ 11a:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 11e:	f014 0f02 	tst.w	r4, #2
+ 122:	9901      	ldr	r1, [sp, #4]
+ 124:	d12c      	bne.n	180 <UnityAssertGreaterOrLessFloat+0x180>
+ 126:	0763      	lsls	r3, r4, #29
+ 128:	d40e      	bmi.n	148 <UnityAssertGreaterOrLessFloat+0x148>
+ 12a:	b99e      	cbnz	r6, 154 <UnityAssertGreaterOrLessFloat+0x154>
+ 12c:	eeb0 0a48 	vmov.f32	s0, s16
+ 130:	9100      	str	r1, [sp, #0]
+ 132:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 136:	9900      	ldr	r1, [sp, #0]
+ 138:	4608      	mov	r0, r1
+ 13a:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 13e:	2101      	movs	r1, #1
+ 140:	4816      	ldr	r0, [pc, #88]	; (19c <UnityAssertGreaterOrLessFloat+0x19c>)
+ 142:	6229      	str	r1, [r5, #32]
+ 144:	f7ff fffe 	bl	0 <longjmp>
+ 148:	4815      	ldr	r0, [pc, #84]	; (1a0 <UnityAssertGreaterOrLessFloat+0x1a0>)
+ 14a:	9100      	str	r1, [sp, #0]
+ 14c:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 150:	9900      	ldr	r1, [sp, #0]
+ 152:	e7ea      	b.n	12a <UnityAssertGreaterOrLessFloat+0x12a>
+ 154:	4813      	ldr	r0, [pc, #76]	; (1a4 <UnityAssertGreaterOrLessFloat+0x1a4>)
+ 156:	9100      	str	r1, [sp, #0]
+ 158:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 15c:	9900      	ldr	r1, [sp, #0]
+ 15e:	e7e5      	b.n	12c <UnityAssertGreaterOrLessFloat+0x12c>
+ 160:	4610      	mov	r0, r2
+ 162:	9101      	str	r1, [sp, #4]
+ 164:	edcd 0a00 	vstr	s1, [sp]
+ 168:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 16c:	480a      	ldr	r0, [pc, #40]	; (198 <UnityAssertGreaterOrLessFloat+0x198>)
+ 16e:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 172:	eddd 0a00 	vldr	s1, [sp]
+ 176:	eeb0 0a60 	vmov.f32	s0, s1
+ 17a:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 17e:	9901      	ldr	r1, [sp, #4]
+ 180:	4809      	ldr	r0, [pc, #36]	; (1a8 <UnityAssertGreaterOrLessFloat+0x1a8>)
+ 182:	9100      	str	r1, [sp, #0]
+ 184:	f7ff fffe 	bl	0 <UnityAssertGreaterOrLessFloat>
+ 188:	9900      	ldr	r1, [sp, #0]
+ 18a:	e7cc      	b.n	126 <UnityAssertGreaterOrLessFloat+0x126>
+ 18c:	00000000 	.word	0x00000000
+ 190:	7f7fffff 	.word	0x7f7fffff
+ 194:	3727c5ac 	.word	0x3727c5ac
+ 198:	00000000 	.word	0x00000000
+ 19c:	00000028 	.word	0x00000028
+ 1a0:	00000000 	.word	0x00000000
+ 1a4:	00000000 	.word	0x00000000
+ 1a8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertFloatSpecial:
+
+00000000 <UnityAssertFloatSpecial>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	4b4c      	ldr	r3, [pc, #304]	; (138 <UnityAssertFloatSpecial+0x138>)
+   6:	b086      	sub	sp, #24
+   8:	4694      	mov	ip, r2
+   a:	4605      	mov	r5, r0
+   c:	468e      	mov	lr, r1
+   e:	4c4b      	ldr	r4, [pc, #300]	; (13c <UnityAssertFloatSpecial+0x13c>)
+  10:	f002 0601 	and.w	r6, r2, #1
+  14:	0857      	lsrs	r7, r2, #1
+  16:	f10d 0818 	add.w	r8, sp, #24
+  1a:	cb0f      	ldmia	r3, {r0, r1, r2, r3}
+  1c:	e908 000f 	stmdb	r8, {r0, r1, r2, r3}
+  20:	e9d4 3208 	ldrd	r3, r2, [r4, #32]
+  24:	4313      	orrs	r3, r2
+  26:	d14c      	bne.n	c2 <UnityAssertFloatSpecial+0xc2>
+  28:	f1bc 0f07 	cmp.w	ip, #7
+  2c:	d87c      	bhi.n	128 <UnityAssertFloatSpecial+0x128>
+  2e:	e8df f00c 	tbb	[pc, ip]
+  32:	1c1c      	.short	0x1c1c
+  34:	3e3e2d2d 	.word	0x3e3e2d2d
+  38:	0404      	.short	0x0404
+  3a:	eef0 7ac0 	vabs.f32	s15, s0
+  3e:	ed9f 7a40 	vldr	s14, [pc, #256]	; 140 <UnityAssertFloatSpecial+0x140>
+  42:	eef4 7a47 	vcmp.f32	s15, s14
+  46:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  4a:	eeb4 0a40 	vcmp.f32	s0, s0
+  4e:	bfd4      	ite	le
+  50:	2301      	movle	r3, #1
+  52:	2300      	movgt	r3, #0
+  54:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  58:	f003 0301 	and.w	r3, r3, #1
+  5c:	bf68      	it	vs
+  5e:	2300      	movvs	r3, #0
+  60:	42b3      	cmp	r3, r6
+  62:	d133      	bne.n	cc <UnityAssertFloatSpecial+0xcc>
+  64:	b006      	add	sp, #24
+  66:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  6a:	eef0 7ac0 	vabs.f32	s15, s0
+  6e:	ed9f 7a34 	vldr	s14, [pc, #208]	; 140 <UnityAssertFloatSpecial+0x140>
+  72:	eef4 7a47 	vcmp.f32	s15, s14
+  76:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  7a:	dd20      	ble.n	be <UnityAssertFloatSpecial+0xbe>
+  7c:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+  80:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  84:	bfcc      	ite	gt
+  86:	2301      	movgt	r3, #1
+  88:	2300      	movle	r3, #0
+  8a:	e7e9      	b.n	60 <UnityAssertFloatSpecial+0x60>
+  8c:	eef0 7ac0 	vabs.f32	s15, s0
+  90:	ed9f 7a2b 	vldr	s14, [pc, #172]	; 140 <UnityAssertFloatSpecial+0x140>
+  94:	eef4 7a47 	vcmp.f32	s15, s14
+  98:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  9c:	dd0f      	ble.n	be <UnityAssertFloatSpecial+0xbe>
+  9e:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
+  a2:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  a6:	bf4c      	ite	mi
+  a8:	2301      	movmi	r3, #1
+  aa:	2300      	movpl	r3, #0
+  ac:	e7d8      	b.n	60 <UnityAssertFloatSpecial+0x60>
+  ae:	eeb4 0a40 	vcmp.f32	s0, s0
+  b2:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b6:	bf6c      	ite	vs
+  b8:	2301      	movvs	r3, #1
+  ba:	2300      	movvc	r3, #0
+  bc:	e7d0      	b.n	60 <UnityAssertFloatSpecial+0x60>
+  be:	2300      	movs	r3, #0
+  c0:	e7ce      	b.n	60 <UnityAssertFloatSpecial+0x60>
+  c2:	2101      	movs	r1, #1
+  c4:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  c8:	f7ff fffe 	bl	0 <longjmp>
+  cc:	4670      	mov	r0, lr
+  ce:	ed8d 0a01 	vstr	s0, [sp, #4]
+  d2:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+  d6:	481b      	ldr	r0, [pc, #108]	; (144 <UnityAssertFloatSpecial+0x144>)
+  d8:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+  dc:	ed9d 0a01 	vldr	s0, [sp, #4]
+  e0:	b1e6      	cbz	r6, 11c <UnityAssertFloatSpecial+0x11c>
+  e2:	ab06      	add	r3, sp, #24
+  e4:	eb03 0787 	add.w	r7, r3, r7, lsl #2
+  e8:	f857 0c10 	ldr.w	r0, [r7, #-16]
+  ec:	b128      	cbz	r0, fa <UnityAssertFloatSpecial+0xfa>
+  ee:	ed8d 0a01 	vstr	s0, [sp, #4]
+  f2:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+  f6:	ed9d 0a01 	vldr	s0, [sp, #4]
+  fa:	4813      	ldr	r0, [pc, #76]	; (148 <UnityAssertFloatSpecial+0x148>)
+  fc:	ed8d 0a01 	vstr	s0, [sp, #4]
+ 100:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+ 104:	ed9d 0a01 	vldr	s0, [sp, #4]
+ 108:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+ 10c:	4628      	mov	r0, r5
+ 10e:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+ 112:	2101      	movs	r1, #1
+ 114:	480d      	ldr	r0, [pc, #52]	; (14c <UnityAssertFloatSpecial+0x14c>)
+ 116:	6221      	str	r1, [r4, #32]
+ 118:	f7ff fffe 	bl	0 <longjmp>
+ 11c:	480c      	ldr	r0, [pc, #48]	; (150 <UnityAssertFloatSpecial+0x150>)
+ 11e:	f7ff fffe 	bl	0 <UnityAssertFloatSpecial>
+ 122:	ed9d 0a01 	vldr	s0, [sp, #4]
+ 126:	e7dc      	b.n	e2 <UnityAssertFloatSpecial+0xe2>
+ 128:	ea6f 030c 	mvn.w	r3, ip
+ 12c:	4a09      	ldr	r2, [pc, #36]	; (154 <UnityAssertFloatSpecial+0x154>)
+ 12e:	2700      	movs	r7, #0
+ 130:	f003 0301 	and.w	r3, r3, #1
+ 134:	9202      	str	r2, [sp, #8]
+ 136:	e793      	b.n	60 <UnityAssertFloatSpecial+0x60>
+ 138:	00000000 	.word	0x00000000
+ 13c:	00000000 	.word	0x00000000
+ 140:	7f7fffff 	.word	0x7f7fffff
+ 144:	00000000 	.word	0x00000000
+ 148:	00000000 	.word	0x00000000
+ 14c:	00000028 	.word	0x00000028
+ 150:	00000000 	.word	0x00000000
+ 154:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertNumbersWithin:
+
+00000000 <UnityAssertNumbersWithin>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	4d24      	ldr	r5, [pc, #144]	; (94 <UnityAssertNumbersWithin+0x94>)
+   4:	4606      	mov	r6, r0
+   6:	460c      	mov	r4, r1
+   8:	b083      	sub	sp, #12
+   a:	e9d5 1008 	ldrd	r1, r0, [r5, #32]
+   e:	f89d 7024 	ldrb.w	r7, [sp, #36]	; 0x24
+  12:	4301      	orrs	r1, r0
+  14:	d114      	bne.n	40 <UnityAssertNumbersWithin+0x40>
+  16:	06f9      	lsls	r1, r7, #27
+  18:	d40a      	bmi.n	30 <UnityAssertNumbersWithin+0x30>
+  1a:	42a2      	cmp	r2, r4
+  1c:	d90a      	bls.n	34 <UnityAssertNumbersWithin+0x34>
+  1e:	1b11      	subs	r1, r2, r4
+  20:	42b1      	cmp	r1, r6
+  22:	bf94      	ite	ls
+  24:	2100      	movls	r1, #0
+  26:	2101      	movhi	r1, #1
+  28:	6229      	str	r1, [r5, #32]
+  2a:	b971      	cbnz	r1, 4a <UnityAssertNumbersWithin+0x4a>
+  2c:	b003      	add	sp, #12
+  2e:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  30:	42a2      	cmp	r2, r4
+  32:	dcf4      	bgt.n	1e <UnityAssertNumbersWithin+0x1e>
+  34:	1aa1      	subs	r1, r4, r2
+  36:	42b1      	cmp	r1, r6
+  38:	bf94      	ite	ls
+  3a:	2100      	movls	r1, #0
+  3c:	2101      	movhi	r1, #1
+  3e:	e7f3      	b.n	28 <UnityAssertNumbersWithin+0x28>
+  40:	2101      	movs	r1, #1
+  42:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  46:	f7ff fffe 	bl	0 <longjmp>
+  4a:	9808      	ldr	r0, [sp, #32]
+  4c:	e9cd 2300 	strd	r2, r3, [sp]
+  50:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  54:	4810      	ldr	r0, [pc, #64]	; (98 <UnityAssertNumbersWithin+0x98>)
+  56:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  5a:	4639      	mov	r1, r7
+  5c:	4630      	mov	r0, r6
+  5e:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  62:	480e      	ldr	r0, [pc, #56]	; (9c <UnityAssertNumbersWithin+0x9c>)
+  64:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  68:	4639      	mov	r1, r7
+  6a:	4620      	mov	r0, r4
+  6c:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  70:	480b      	ldr	r0, [pc, #44]	; (a0 <UnityAssertNumbersWithin+0xa0>)
+  72:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  76:	9a00      	ldr	r2, [sp, #0]
+  78:	4639      	mov	r1, r7
+  7a:	4610      	mov	r0, r2
+  7c:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  80:	9b01      	ldr	r3, [sp, #4]
+  82:	4618      	mov	r0, r3
+  84:	f7ff fffe 	bl	0 <UnityAssertNumbersWithin>
+  88:	2101      	movs	r1, #1
+  8a:	4806      	ldr	r0, [pc, #24]	; (a4 <UnityAssertNumbersWithin+0xa4>)
+  8c:	6229      	str	r1, [r5, #32]
+  8e:	f7ff fffe 	bl	0 <longjmp>
+  92:	bf00      	nop
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityAssertNumbersArrayWithin:
+
+00000000 <UnityAssertNumbersArrayWithin>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4fb0      	ldr	r7, [pc, #704]	; (2c8 <UnityAssertNumbersArrayWithin+0x2c8>)
+   6:	b085      	sub	sp, #20
+   8:	4680      	mov	r8, r0
+   a:	9301      	str	r3, [sp, #4]
+   c:	f89d 3040 	ldrb.w	r3, [sp, #64]	; 0x40
+  10:	f89d 9044 	ldrb.w	r9, [sp, #68]	; 0x44
+  14:	9302      	str	r3, [sp, #8]
+  16:	e9d7 4008 	ldrd	r4, r0, [r7, #32]
+  1a:	ea54 0300 	orrs.w	r3, r4, r0
+  1e:	9303      	str	r3, [sp, #12]
+  20:	f040 8137 	bne.w	292 <UnityAssertNumbersArrayWithin+0x292>
+  24:	9b01      	ldr	r3, [sp, #4]
+  26:	2b00      	cmp	r3, #0
+  28:	f000 813e 	beq.w	2a8 <UnityAssertNumbersArrayWithin+0x2a8>
+  2c:	4291      	cmp	r1, r2
+  2e:	d04e      	beq.n	ce <UnityAssertNumbersArrayWithin+0xce>
+  30:	2900      	cmp	r1, #0
+  32:	f000 80ac 	beq.w	18e <UnityAssertNumbersArrayWithin+0x18e>
+  36:	2a00      	cmp	r2, #0
+  38:	f000 80be 	beq.w	1b8 <UnityAssertNumbersArrayWithin+0x1b8>
+  3c:	9b02      	ldr	r3, [sp, #8]
+  3e:	9c01      	ldr	r4, [sp, #4]
+  40:	f003 0c0f 	and.w	ip, r3, #15
+  44:	f003 0010 	and.w	r0, r3, #16
+  48:	4613      	mov	r3, r2
+  4a:	e018      	b.n	7e <UnityAssertNumbersArrayWithin+0x7e>
+  4c:	468e      	mov	lr, r1
+  4e:	461a      	mov	r2, r3
+  50:	4613      	mov	r3, r2
+  52:	4671      	mov	r1, lr
+  54:	2800      	cmp	r0, #0
+  56:	d07c      	beq.n	152 <UnityAssertNumbersArrayWithin+0x152>
+  58:	f93e 5b02 	ldrsh.w	r5, [lr], #2
+  5c:	f932 6b02 	ldrsh.w	r6, [r2], #2
+  60:	42b5      	cmp	r5, r6
+  62:	da69      	bge.n	138 <UnityAssertNumbersArrayWithin+0x138>
+  64:	eba6 0a05 	sub.w	sl, r6, r5
+  68:	45d0      	cmp	r8, sl
+  6a:	f0c0 80b8 	bcc.w	1de <UnityAssertNumbersArrayWithin+0x1de>
+  6e:	f1b9 0f01 	cmp.w	r9, #1
+  72:	f000 8089 	beq.w	188 <UnityAssertNumbersArrayWithin+0x188>
+  76:	9a03      	ldr	r2, [sp, #12]
+  78:	623a      	str	r2, [r7, #32]
+  7a:	4463      	add	r3, ip
+  7c:	b33c      	cbz	r4, ce <UnityAssertNumbersArrayWithin+0xce>
+  7e:	f1bc 0f01 	cmp.w	ip, #1
+  82:	f104 34ff 	add.w	r4, r4, #4294967295	; 0xffffffff
+  86:	d025      	beq.n	d4 <UnityAssertNumbersArrayWithin+0xd4>
+  88:	f1bc 0f02 	cmp.w	ip, #2
+  8c:	d0de      	beq.n	4c <UnityAssertNumbersArrayWithin+0x4c>
+  8e:	468c      	mov	ip, r1
+  90:	461a      	mov	r2, r3
+  92:	4613      	mov	r3, r2
+  94:	4661      	mov	r1, ip
+  96:	2800      	cmp	r0, #0
+  98:	d069      	beq.n	16e <UnityAssertNumbersArrayWithin+0x16e>
+  9a:	f85c 5b04 	ldr.w	r5, [ip], #4
+  9e:	f852 6b04 	ldr.w	r6, [r2], #4
+  a2:	42b5      	cmp	r5, r6
+  a4:	da46      	bge.n	134 <UnityAssertNumbersArrayWithin+0x134>
+  a6:	eba6 0e05 	sub.w	lr, r6, r5
+  aa:	45f0      	cmp	r8, lr
+  ac:	bf34      	ite	cc
+  ae:	f04f 0e01 	movcc.w	lr, #1
+  b2:	f04f 0e00 	movcs.w	lr, #0
+  b6:	f8c7 e020 	str.w	lr, [r7, #32]
+  ba:	f0c0 80a0 	bcc.w	1fe <UnityAssertNumbersArrayWithin+0x1fe>
+  be:	f1b9 0f01 	cmp.w	r9, #1
+  c2:	d05d      	beq.n	180 <UnityAssertNumbersArrayWithin+0x180>
+  c4:	f04f 0c04 	mov.w	ip, #4
+  c8:	4463      	add	r3, ip
+  ca:	2c00      	cmp	r4, #0
+  cc:	d1d7      	bne.n	7e <UnityAssertNumbersArrayWithin+0x7e>
+  ce:	b005      	add	sp, #20
+  d0:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  d4:	468e      	mov	lr, r1
+  d6:	461a      	mov	r2, r3
+  d8:	4671      	mov	r1, lr
+  da:	4613      	mov	r3, r2
+  dc:	b1e0      	cbz	r0, 118 <UnityAssertNumbersArrayWithin+0x118>
+  de:	f91e bb01 	ldrsb.w	fp, [lr], #1
+  e2:	f912 ab01 	ldrsb.w	sl, [r2], #1
+  e6:	465d      	mov	r5, fp
+  e8:	45d3      	cmp	fp, sl
+  ea:	4656      	mov	r6, sl
+  ec:	da24      	bge.n	138 <UnityAssertNumbersArrayWithin+0x138>
+  ee:	ebaa 0a0b 	sub.w	sl, sl, fp
+  f2:	45d0      	cmp	r8, sl
+  f4:	bf34      	ite	cc
+  f6:	f04f 0a01 	movcc.w	sl, #1
+  fa:	f04f 0a00 	movcs.w	sl, #0
+  fe:	f8c7 a020 	str.w	sl, [r7, #32]
+ 102:	d36e      	bcc.n	1e2 <UnityAssertNumbersArrayWithin+0x1e2>
+ 104:	f1b9 0f01 	cmp.w	r9, #1
+ 108:	d1b7      	bne.n	7a <UnityAssertNumbersArrayWithin+0x7a>
+ 10a:	2c00      	cmp	r4, #0
+ 10c:	d0df      	beq.n	ce <UnityAssertNumbersArrayWithin+0xce>
+ 10e:	3c01      	subs	r4, #1
+ 110:	4613      	mov	r3, r2
+ 112:	4671      	mov	r1, lr
+ 114:	2800      	cmp	r0, #0
+ 116:	d1e2      	bne.n	de <UnityAssertNumbersArrayWithin+0xde>
+ 118:	f89e 5000 	ldrb.w	r5, [lr]
+ 11c:	7816      	ldrb	r6, [r2, #0]
+ 11e:	462a      	mov	r2, r5
+ 120:	46b6      	mov	lr, r6
+ 122:	4572      	cmp	r2, lr
+ 124:	d31c      	bcc.n	160 <UnityAssertNumbersArrayWithin+0x160>
+ 126:	eba2 020e 	sub.w	r2, r2, lr
+ 12a:	4542      	cmp	r2, r8
+ 12c:	bf94      	ite	ls
+ 12e:	2200      	movls	r2, #0
+ 130:	2201      	movhi	r2, #1
+ 132:	e006      	b.n	142 <UnityAssertNumbersArrayWithin+0x142>
+ 134:	f04f 0c04 	mov.w	ip, #4
+ 138:	1baa      	subs	r2, r5, r6
+ 13a:	4542      	cmp	r2, r8
+ 13c:	bf94      	ite	ls
+ 13e:	2200      	movls	r2, #0
+ 140:	2201      	movhi	r2, #1
+ 142:	623a      	str	r2, [r7, #32]
+ 144:	2a00      	cmp	r2, #0
+ 146:	d14c      	bne.n	1e2 <UnityAssertNumbersArrayWithin+0x1e2>
+ 148:	f1b9 0f01 	cmp.w	r9, #1
+ 14c:	d195      	bne.n	7a <UnityAssertNumbersArrayWithin+0x7a>
+ 14e:	4461      	add	r1, ip
+ 150:	e793      	b.n	7a <UnityAssertNumbersArrayWithin+0x7a>
+ 152:	f8be 5000 	ldrh.w	r5, [lr]
+ 156:	8816      	ldrh	r6, [r2, #0]
+ 158:	462a      	mov	r2, r5
+ 15a:	46b6      	mov	lr, r6
+ 15c:	4572      	cmp	r2, lr
+ 15e:	d2e2      	bcs.n	126 <UnityAssertNumbersArrayWithin+0x126>
+ 160:	ebae 0e02 	sub.w	lr, lr, r2
+ 164:	45c6      	cmp	lr, r8
+ 166:	bf94      	ite	ls
+ 168:	2200      	movls	r2, #0
+ 16a:	2201      	movhi	r2, #1
+ 16c:	e7e9      	b.n	142 <UnityAssertNumbersArrayWithin+0x142>
+ 16e:	f8dc 2000 	ldr.w	r2, [ip]
+ 172:	f04f 0c04 	mov.w	ip, #4
+ 176:	f8d3 e000 	ldr.w	lr, [r3]
+ 17a:	4615      	mov	r5, r2
+ 17c:	4676      	mov	r6, lr
+ 17e:	e7ed      	b.n	15c <UnityAssertNumbersArrayWithin+0x15c>
+ 180:	2c00      	cmp	r4, #0
+ 182:	d0a4      	beq.n	ce <UnityAssertNumbersArrayWithin+0xce>
+ 184:	3c01      	subs	r4, #1
+ 186:	e784      	b.n	92 <UnityAssertNumbersArrayWithin+0x92>
+ 188:	b33c      	cbz	r4, 1da <UnityAssertNumbersArrayWithin+0x1da>
+ 18a:	3c01      	subs	r4, #1
+ 18c:	e760      	b.n	50 <UnityAssertNumbersArrayWithin+0x50>
+ 18e:	990f      	ldr	r1, [sp, #60]	; 0x3c
+ 190:	6838      	ldr	r0, [r7, #0]
+ 192:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 196:	484d      	ldr	r0, [pc, #308]	; (2cc <UnityAssertNumbersArrayWithin+0x2cc>)
+ 198:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 19c:	203a      	movs	r0, #58	; 0x3a
+ 19e:	f7ff fffe 	bl	0 <putchar>
+ 1a2:	484b      	ldr	r0, [pc, #300]	; (2d0 <UnityAssertNumbersArrayWithin+0x2d0>)
+ 1a4:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1a8:	980e      	ldr	r0, [sp, #56]	; 0x38
+ 1aa:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1ae:	2101      	movs	r1, #1
+ 1b0:	4848      	ldr	r0, [pc, #288]	; (2d4 <UnityAssertNumbersArrayWithin+0x2d4>)
+ 1b2:	6239      	str	r1, [r7, #32]
+ 1b4:	f7ff fffe 	bl	0 <longjmp>
+ 1b8:	990f      	ldr	r1, [sp, #60]	; 0x3c
+ 1ba:	6838      	ldr	r0, [r7, #0]
+ 1bc:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1c0:	4842      	ldr	r0, [pc, #264]	; (2cc <UnityAssertNumbersArrayWithin+0x2cc>)
+ 1c2:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1c6:	203a      	movs	r0, #58	; 0x3a
+ 1c8:	f7ff fffe 	bl	0 <putchar>
+ 1cc:	4842      	ldr	r0, [pc, #264]	; (2d8 <UnityAssertNumbersArrayWithin+0x2d8>)
+ 1ce:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1d2:	980e      	ldr	r0, [sp, #56]	; 0x38
+ 1d4:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 1d8:	e7e9      	b.n	1ae <UnityAssertNumbersArrayWithin+0x1ae>
+ 1da:	623c      	str	r4, [r7, #32]
+ 1dc:	e777      	b.n	ce <UnityAssertNumbersArrayWithin+0xce>
+ 1de:	2301      	movs	r3, #1
+ 1e0:	623b      	str	r3, [r7, #32]
+ 1e2:	9b02      	ldr	r3, [sp, #8]
+ 1e4:	069b      	lsls	r3, r3, #26
+ 1e6:	d50a      	bpl.n	1fe <UnityAssertNumbersArrayWithin+0x1fe>
+ 1e8:	f1bc 0f04 	cmp.w	ip, #4
+ 1ec:	d007      	beq.n	1fe <UnityAssertNumbersArrayWithin+0x1fe>
+ 1ee:	ea4f 0ccc 	mov.w	ip, ip, lsl #3
+ 1f2:	2301      	movs	r3, #1
+ 1f4:	fa03 f30c 	lsl.w	r3, r3, ip
+ 1f8:	3b01      	subs	r3, #1
+ 1fa:	401d      	ands	r5, r3
+ 1fc:	401e      	ands	r6, r3
+ 1fe:	990f      	ldr	r1, [sp, #60]	; 0x3c
+ 200:	6838      	ldr	r0, [r7, #0]
+ 202:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 206:	4831      	ldr	r0, [pc, #196]	; (2cc <UnityAssertNumbersArrayWithin+0x2cc>)
+ 208:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 20c:	203a      	movs	r0, #58	; 0x3a
+ 20e:	f7ff fffe 	bl	0 <putchar>
+ 212:	4832      	ldr	r0, [pc, #200]	; (2dc <UnityAssertNumbersArrayWithin+0x2dc>)
+ 214:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 218:	9902      	ldr	r1, [sp, #8]
+ 21a:	4640      	mov	r0, r8
+ 21c:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 220:	482f      	ldr	r0, [pc, #188]	; (2e0 <UnityAssertNumbersArrayWithin+0x2e0>)
+ 222:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 226:	9b01      	ldr	r3, [sp, #4]
+ 228:	3b01      	subs	r3, #1
+ 22a:	1b1c      	subs	r4, r3, r4
+ 22c:	2c09      	cmp	r4, #9
+ 22e:	d935      	bls.n	29c <UnityAssertNumbersArrayWithin+0x29c>
+ 230:	f04f 0801 	mov.w	r8, #1
+ 234:	eb08 0888 	add.w	r8, r8, r8, lsl #2
+ 238:	ea4f 0848 	mov.w	r8, r8, lsl #1
+ 23c:	fbb4 f3f8 	udiv	r3, r4, r8
+ 240:	2b09      	cmp	r3, #9
+ 242:	d8f7      	bhi.n	234 <UnityAssertNumbersArrayWithin+0x234>
+ 244:	f8df 90a8 	ldr.w	r9, [pc, #168]	; 2f0 <UnityAssertNumbersArrayWithin+0x2f0>
+ 248:	fbb4 f3f8 	udiv	r3, r4, r8
+ 24c:	fba9 1203 	umull	r1, r2, r9, r3
+ 250:	08d2      	lsrs	r2, r2, #3
+ 252:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+ 256:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+ 25a:	f103 0030 	add.w	r0, r3, #48	; 0x30
+ 25e:	b2c0      	uxtb	r0, r0
+ 260:	f7ff fffe 	bl	0 <putchar>
+ 264:	4643      	mov	r3, r8
+ 266:	fba9 2808 	umull	r2, r8, r9, r8
+ 26a:	2b09      	cmp	r3, #9
+ 26c:	ea4f 08d8 	mov.w	r8, r8, lsr #3
+ 270:	d8ea      	bhi.n	248 <UnityAssertNumbersArrayWithin+0x248>
+ 272:	481c      	ldr	r0, [pc, #112]	; (2e4 <UnityAssertNumbersArrayWithin+0x2e4>)
+ 274:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 278:	9c02      	ldr	r4, [sp, #8]
+ 27a:	4628      	mov	r0, r5
+ 27c:	4621      	mov	r1, r4
+ 27e:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 282:	4819      	ldr	r0, [pc, #100]	; (2e8 <UnityAssertNumbersArrayWithin+0x2e8>)
+ 284:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 288:	4621      	mov	r1, r4
+ 28a:	4630      	mov	r0, r6
+ 28c:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 290:	e79f      	b.n	1d2 <UnityAssertNumbersArrayWithin+0x1d2>
+ 292:	2101      	movs	r1, #1
+ 294:	f107 0028 	add.w	r0, r7, #40	; 0x28
+ 298:	f7ff fffe 	bl	0 <longjmp>
+ 29c:	f104 0030 	add.w	r0, r4, #48	; 0x30
+ 2a0:	b2c0      	uxtb	r0, r0
+ 2a2:	f7ff fffe 	bl	0 <putchar>
+ 2a6:	e7e4      	b.n	272 <UnityAssertNumbersArrayWithin+0x272>
+ 2a8:	980f      	ldr	r0, [sp, #60]	; 0x3c
+ 2aa:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 2ae:	480f      	ldr	r0, [pc, #60]	; (2ec <UnityAssertNumbersArrayWithin+0x2ec>)
+ 2b0:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 2b4:	980e      	ldr	r0, [sp, #56]	; 0x38
+ 2b6:	f7ff fffe 	bl	0 <UnityAssertNumbersArrayWithin>
+ 2ba:	2101      	movs	r1, #1
+ 2bc:	f107 0028 	add.w	r0, r7, #40	; 0x28
+ 2c0:	6239      	str	r1, [r7, #32]
+ 2c2:	f7ff fffe 	bl	0 <longjmp>
+ 2c6:	bf00      	nop
+ 2c8:	00000000 	.word	0x00000000
+ 2cc:	00000000 	.word	0x00000000
+ 2d0:	00000000 	.word	0x00000000
+ 2d4:	00000028 	.word	0x00000028
+ 2d8:	00000000 	.word	0x00000000
+ 2dc:	00000000 	.word	0x00000000
+ 2e0:	00000000 	.word	0x00000000
+ 2e4:	00000000 	.word	0x00000000
+ 2e8:	00000000 	.word	0x00000000
+ 2ec:	00000000 	.word	0x00000000
+ 2f0:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.UnityAssertEqualString:
+
+00000000 <UnityAssertEqualString>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4f1b      	ldr	r7, [pc, #108]	; (74 <UnityAssertEqualString+0x74>)
+   6:	460e      	mov	r6, r1
+   8:	4691      	mov	r9, r2
+   a:	e9d7 2108 	ldrd	r2, r1, [r7, #32]
+   e:	430a      	orrs	r2, r1
+  10:	d12b      	bne.n	6a <UnityAssertEqualString+0x6a>
+  12:	4680      	mov	r8, r0
+  14:	4618      	mov	r0, r3
+  16:	f1b8 0f00 	cmp.w	r8, #0
+  1a:	d01d      	beq.n	58 <UnityAssertEqualString+0x58>
+  1c:	b1e6      	cbz	r6, 58 <UnityAssertEqualString+0x58>
+  1e:	f108 3cff 	add.w	ip, r8, #4294967295	; 0xffffffff
+  22:	f106 3eff 	add.w	lr, r6, #4294967295	; 0xffffffff
+  26:	f1c8 0101 	rsb	r1, r8, #1
+  2a:	eb01 050c 	add.w	r5, r1, ip
+  2e:	f81c 4f01 	ldrb.w	r4, [ip, #1]!
+  32:	b9ac      	cbnz	r4, 60 <UnityAssertEqualString+0x60>
+  34:	5d72      	ldrb	r2, [r6, r5]
+  36:	b18a      	cbz	r2, 5c <UnityAssertEqualString+0x5c>
+  38:	2401      	movs	r4, #1
+  3a:	623c      	str	r4, [r7, #32]
+  3c:	f7ff fffe 	bl	0 <UnityAssertEqualString>
+  40:	4631      	mov	r1, r6
+  42:	4640      	mov	r0, r8
+  44:	f7ff fffe 	bl	0 <UnityAssertEqualString>
+  48:	4648      	mov	r0, r9
+  4a:	f7ff fffe 	bl	0 <UnityAssertEqualString>
+  4e:	4621      	mov	r1, r4
+  50:	4809      	ldr	r0, [pc, #36]	; (78 <UnityAssertEqualString+0x78>)
+  52:	623c      	str	r4, [r7, #32]
+  54:	f7ff fffe 	bl	0 <longjmp>
+  58:	45b0      	cmp	r8, r6
+  5a:	d1ed      	bne.n	38 <UnityAssertEqualString+0x38>
+  5c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  60:	f81e 5f01 	ldrb.w	r5, [lr, #1]!
+  64:	42a5      	cmp	r5, r4
+  66:	d0e0      	beq.n	2a <UnityAssertEqualString+0x2a>
+  68:	e7e6      	b.n	38 <UnityAssertEqualString+0x38>
+  6a:	2101      	movs	r1, #1
+  6c:	f107 0028 	add.w	r0, r7, #40	; 0x28
+  70:	f7ff fffe 	bl	0 <longjmp>
+  74:	00000000 	.word	0x00000000
+  78:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityAssertEqualStringLen:
+
+00000000 <UnityAssertEqualStringLen>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4f35      	ldr	r7, [pc, #212]	; (dc <UnityAssertEqualStringLen+0xdc>)
+   6:	4692      	mov	sl, r2
+   8:	4698      	mov	r8, r3
+   a:	e9d7 3208 	ldrd	r3, r2, [r7, #32]
+   e:	4313      	orrs	r3, r2
+  10:	d15b      	bne.n	ca <UnityAssertEqualStringLen+0xca>
+  12:	4681      	mov	r9, r0
+  14:	460e      	mov	r6, r1
+  16:	2800      	cmp	r0, #0
+  18:	d03e      	beq.n	98 <UnityAssertEqualStringLen+0x98>
+  1a:	2900      	cmp	r1, #0
+  1c:	d03c      	beq.n	98 <UnityAssertEqualStringLen+0x98>
+  1e:	f1ba 0f00 	cmp.w	sl, #0
+  22:	d050      	beq.n	c6 <UnityAssertEqualStringLen+0xc6>
+  24:	f10a 33ff 	add.w	r3, sl, #4294967295	; 0xffffffff
+  28:	f100 3eff 	add.w	lr, r0, #4294967295	; 0xffffffff
+  2c:	f101 3cff 	add.w	ip, r1, #4294967295	; 0xffffffff
+  30:	f1c1 0201 	rsb	r2, r1, #1
+  34:	440b      	add	r3, r1
+  36:	f81e 4f01 	ldrb.w	r4, [lr, #1]!
+  3a:	eb02 050c 	add.w	r5, r2, ip
+  3e:	2c00      	cmp	r4, #0
+  40:	d13b      	bne.n	ba <UnityAssertEqualStringLen+0xba>
+  42:	5d73      	ldrb	r3, [r6, r5]
+  44:	2b00      	cmp	r3, #0
+  46:	d03e      	beq.n	c6 <UnityAssertEqualStringLen+0xc6>
+  48:	2301      	movs	r3, #1
+  4a:	9808      	ldr	r0, [sp, #32]
+  4c:	623b      	str	r3, [r7, #32]
+  4e:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  52:	4823      	ldr	r0, [pc, #140]	; (e0 <UnityAssertEqualStringLen+0xe0>)
+  54:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  58:	2027      	movs	r0, #39	; 0x27
+  5a:	f7ff fffe 	bl	0 <putchar>
+  5e:	4648      	mov	r0, r9
+  60:	4651      	mov	r1, sl
+  62:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  66:	2027      	movs	r0, #39	; 0x27
+  68:	f7ff fffe 	bl	0 <putchar>
+  6c:	481d      	ldr	r0, [pc, #116]	; (e4 <UnityAssertEqualStringLen+0xe4>)
+  6e:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  72:	b37e      	cbz	r6, d4 <UnityAssertEqualStringLen+0xd4>
+  74:	2027      	movs	r0, #39	; 0x27
+  76:	f7ff fffe 	bl	0 <putchar>
+  7a:	4630      	mov	r0, r6
+  7c:	4651      	mov	r1, sl
+  7e:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  82:	2027      	movs	r0, #39	; 0x27
+  84:	f7ff fffe 	bl	0 <putchar>
+  88:	4640      	mov	r0, r8
+  8a:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  8e:	2101      	movs	r1, #1
+  90:	4815      	ldr	r0, [pc, #84]	; (e8 <UnityAssertEqualStringLen+0xe8>)
+  92:	6239      	str	r1, [r7, #32]
+  94:	f7ff fffe 	bl	0 <longjmp>
+  98:	45b1      	cmp	r9, r6
+  9a:	d014      	beq.n	c6 <UnityAssertEqualStringLen+0xc6>
+  9c:	2301      	movs	r3, #1
+  9e:	9808      	ldr	r0, [sp, #32]
+  a0:	623b      	str	r3, [r7, #32]
+  a2:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  a6:	480e      	ldr	r0, [pc, #56]	; (e0 <UnityAssertEqualStringLen+0xe0>)
+  a8:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  ac:	f1b9 0f00 	cmp.w	r9, #0
+  b0:	d1d2      	bne.n	58 <UnityAssertEqualStringLen+0x58>
+  b2:	480e      	ldr	r0, [pc, #56]	; (ec <UnityAssertEqualStringLen+0xec>)
+  b4:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  b8:	e7d8      	b.n	6c <UnityAssertEqualStringLen+0x6c>
+  ba:	f81c 5f01 	ldrb.w	r5, [ip, #1]!
+  be:	42a5      	cmp	r5, r4
+  c0:	d1c2      	bne.n	48 <UnityAssertEqualStringLen+0x48>
+  c2:	4563      	cmp	r3, ip
+  c4:	d1b7      	bne.n	36 <UnityAssertEqualStringLen+0x36>
+  c6:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  ca:	2101      	movs	r1, #1
+  cc:	f107 0028 	add.w	r0, r7, #40	; 0x28
+  d0:	f7ff fffe 	bl	0 <longjmp>
+  d4:	4805      	ldr	r0, [pc, #20]	; (ec <UnityAssertEqualStringLen+0xec>)
+  d6:	f7ff fffe 	bl	0 <UnityAssertEqualStringLen>
+  da:	e7d5      	b.n	88 <UnityAssertEqualStringLen+0x88>
+  dc:	00000000 	.word	0x00000000
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+  e8:	00000028 	.word	0x00000028
+  ec:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertEqualStringArray:
+
+00000000 <UnityAssertEqualStringArray>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8df a198 	ldr.w	sl, [pc, #408]	; 1a0 <UnityAssertEqualStringArray+0x1a0>
+   8:	b083      	sub	sp, #12
+   a:	460c      	mov	r4, r1
+   c:	9301      	str	r3, [sp, #4]
+   e:	990c      	ldr	r1, [sp, #48]	; 0x30
+  10:	f89d b034 	ldrb.w	fp, [sp, #52]	; 0x34
+  14:	e9da 6308 	ldrd	r6, r3, [sl, #32]
+  18:	431e      	orrs	r6, r3
+  1a:	f040 80ae 	bne.w	17a <UnityAssertEqualStringArray+0x17a>
+  1e:	4691      	mov	r9, r2
+  20:	2a00      	cmp	r2, #0
+  22:	f000 809a 	beq.w	15a <UnityAssertEqualStringArray+0x15a>
+  26:	42a0      	cmp	r0, r4
+  28:	d062      	beq.n	f0 <UnityAssertEqualStringArray+0xf0>
+  2a:	2800      	cmp	r0, #0
+  2c:	d068      	beq.n	100 <UnityAssertEqualStringArray+0x100>
+  2e:	2c00      	cmp	r4, #0
+  30:	d07c      	beq.n	12c <UnityAssertEqualStringArray+0x12c>
+  32:	f1bb 0f01 	cmp.w	fp, #1
+  36:	f1a4 0204 	sub.w	r2, r4, #4
+  3a:	bf14      	ite	ne
+  3c:	4680      	movne	r8, r0
+  3e:	f04f 0800 	moveq.w	r8, #0
+  42:	f1bb 0f01 	cmp.w	fp, #1
+  46:	f852 5f04 	ldr.w	r5, [r2, #4]!
+  4a:	bf08      	it	eq
+  4c:	f850 8026 	ldreq.w	r8, [r0, r6, lsl #2]
+  50:	f1b8 0f00 	cmp.w	r8, #0
+  54:	d000      	beq.n	58 <UnityAssertEqualStringArray+0x58>
+  56:	bbd5      	cbnz	r5, ce <UnityAssertEqualStringArray+0xce>
+  58:	45a8      	cmp	r8, r5
+  5a:	d046      	beq.n	ea <UnityAssertEqualStringArray+0xea>
+  5c:	2401      	movs	r4, #1
+  5e:	f8da 0000 	ldr.w	r0, [sl]
+  62:	f8ca 4020 	str.w	r4, [sl, #32]
+  66:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+  6a:	4846      	ldr	r0, [pc, #280]	; (184 <UnityAssertEqualStringArray+0x184>)
+  6c:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+  70:	203a      	movs	r0, #58	; 0x3a
+  72:	f7ff fffe 	bl	0 <putchar>
+  76:	45a1      	cmp	r9, r4
+  78:	d021      	beq.n	be <UnityAssertEqualStringArray+0xbe>
+  7a:	4843      	ldr	r0, [pc, #268]	; (188 <UnityAssertEqualStringArray+0x188>)
+  7c:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+  80:	2e09      	cmp	r6, #9
+  82:	d964      	bls.n	14e <UnityAssertEqualStringArray+0x14e>
+  84:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  88:	0064      	lsls	r4, r4, #1
+  8a:	fbb6 f3f4 	udiv	r3, r6, r4
+  8e:	2b09      	cmp	r3, #9
+  90:	d8f8      	bhi.n	84 <UnityAssertEqualStringArray+0x84>
+  92:	4f3e      	ldr	r7, [pc, #248]	; (18c <UnityAssertEqualStringArray+0x18c>)
+  94:	fbb6 f3f4 	udiv	r3, r6, r4
+  98:	fba7 1203 	umull	r1, r2, r7, r3
+  9c:	08d2      	lsrs	r2, r2, #3
+  9e:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  a2:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+  a6:	f103 0030 	add.w	r0, r3, #48	; 0x30
+  aa:	b2c0      	uxtb	r0, r0
+  ac:	f7ff fffe 	bl	0 <putchar>
+  b0:	4623      	mov	r3, r4
+  b2:	fba7 2404 	umull	r2, r4, r7, r4
+  b6:	2b09      	cmp	r3, #9
+  b8:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  bc:	d8ea      	bhi.n	94 <UnityAssertEqualStringArray+0x94>
+  be:	4640      	mov	r0, r8
+  c0:	4629      	mov	r1, r5
+  c2:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+  c6:	9801      	ldr	r0, [sp, #4]
+  c8:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+  cc:	e028      	b.n	120 <UnityAssertEqualStringArray+0x120>
+  ce:	f108 33ff 	add.w	r3, r8, #4294967295	; 0xffffffff
+  d2:	1e6f      	subs	r7, r5, #1
+  d4:	f1c8 0e01 	rsb	lr, r8, #1
+  d8:	eb0e 0c03 	add.w	ip, lr, r3
+  dc:	f813 4f01 	ldrb.w	r4, [r3, #1]!
+  e0:	b94c      	cbnz	r4, f6 <UnityAssertEqualStringArray+0xf6>
+  e2:	f815 300c 	ldrb.w	r3, [r5, ip]
+  e6:	2b00      	cmp	r3, #0
+  e8:	d1b8      	bne.n	5c <UnityAssertEqualStringArray+0x5c>
+  ea:	3601      	adds	r6, #1
+  ec:	45b1      	cmp	r9, r6
+  ee:	d1a8      	bne.n	42 <UnityAssertEqualStringArray+0x42>
+  f0:	b003      	add	sp, #12
+  f2:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  f6:	f817 cf01 	ldrb.w	ip, [r7, #1]!
+  fa:	45a4      	cmp	ip, r4
+  fc:	d0ec      	beq.n	d8 <UnityAssertEqualStringArray+0xd8>
+  fe:	e7ad      	b.n	5c <UnityAssertEqualStringArray+0x5c>
+ 100:	f8da 0000 	ldr.w	r0, [sl]
+ 104:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 108:	481e      	ldr	r0, [pc, #120]	; (184 <UnityAssertEqualStringArray+0x184>)
+ 10a:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 10e:	203a      	movs	r0, #58	; 0x3a
+ 110:	f7ff fffe 	bl	0 <putchar>
+ 114:	481e      	ldr	r0, [pc, #120]	; (190 <UnityAssertEqualStringArray+0x190>)
+ 116:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 11a:	9801      	ldr	r0, [sp, #4]
+ 11c:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 120:	2101      	movs	r1, #1
+ 122:	481c      	ldr	r0, [pc, #112]	; (194 <UnityAssertEqualStringArray+0x194>)
+ 124:	f8ca 1020 	str.w	r1, [sl, #32]
+ 128:	f7ff fffe 	bl	0 <longjmp>
+ 12c:	f8da 0000 	ldr.w	r0, [sl]
+ 130:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 134:	4813      	ldr	r0, [pc, #76]	; (184 <UnityAssertEqualStringArray+0x184>)
+ 136:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 13a:	203a      	movs	r0, #58	; 0x3a
+ 13c:	f7ff fffe 	bl	0 <putchar>
+ 140:	4815      	ldr	r0, [pc, #84]	; (198 <UnityAssertEqualStringArray+0x198>)
+ 142:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 146:	9801      	ldr	r0, [sp, #4]
+ 148:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 14c:	e7e8      	b.n	120 <UnityAssertEqualStringArray+0x120>
+ 14e:	f106 0030 	add.w	r0, r6, #48	; 0x30
+ 152:	b2c0      	uxtb	r0, r0
+ 154:	f7ff fffe 	bl	0 <putchar>
+ 158:	e7b1      	b.n	be <UnityAssertEqualStringArray+0xbe>
+ 15a:	4608      	mov	r0, r1
+ 15c:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 160:	480e      	ldr	r0, [pc, #56]	; (19c <UnityAssertEqualStringArray+0x19c>)
+ 162:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 166:	9801      	ldr	r0, [sp, #4]
+ 168:	f7ff fffe 	bl	0 <UnityAssertEqualStringArray>
+ 16c:	2101      	movs	r1, #1
+ 16e:	f10a 0028 	add.w	r0, sl, #40	; 0x28
+ 172:	f8ca 1020 	str.w	r1, [sl, #32]
+ 176:	f7ff fffe 	bl	0 <longjmp>
+ 17a:	2101      	movs	r1, #1
+ 17c:	f10a 0028 	add.w	r0, sl, #40	; 0x28
+ 180:	f7ff fffe 	bl	0 <longjmp>
+ 184:	00000000 	.word	0x00000000
+ 188:	00000000 	.word	0x00000000
+ 18c:	cccccccd 	.word	0xcccccccd
+ 190:	00000000 	.word	0x00000000
+ 194:	00000028 	.word	0x00000028
+ 198:	00000000 	.word	0x00000000
+ 19c:	00000000 	.word	0x00000000
+ 1a0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityAssertEqualMemory:
+
+00000000 <UnityAssertEqualMemory>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8df 81e8 	ldr.w	r8, [pc, #488]	; 1f0 <UnityAssertEqualMemory+0x1f0>
+   8:	b083      	sub	sp, #12
+   a:	e9d8 4508 	ldrd	r4, r5, [r8, #32]
+   e:	f89d e038 	ldrb.w	lr, [sp, #56]	; 0x38
+  12:	432c      	orrs	r4, r5
+  14:	f040 80d1 	bne.w	1ba <UnityAssertEqualMemory+0x1ba>
+  18:	2b00      	cmp	r3, #0
+  1a:	f000 80c9 	beq.w	1b0 <UnityAssertEqualMemory+0x1b0>
+  1e:	2a00      	cmp	r2, #0
+  20:	f000 80c6 	beq.w	1b0 <UnityAssertEqualMemory+0x1b0>
+  24:	4288      	cmp	r0, r1
+  26:	d01d      	beq.n	64 <UnityAssertEqualMemory+0x64>
+  28:	2800      	cmp	r0, #0
+  2a:	d06d      	beq.n	108 <UnityAssertEqualMemory+0x108>
+  2c:	2900      	cmp	r1, #0
+  2e:	d07d      	beq.n	12c <UnityAssertEqualMemory+0x12c>
+  30:	f103 39ff 	add.w	r9, r3, #4294967295	; 0xffffffff
+  34:	1e57      	subs	r7, r2, #1
+  36:	4684      	mov	ip, r0
+  38:	464e      	mov	r6, r9
+  3a:	460a      	mov	r2, r1
+  3c:	463c      	mov	r4, r7
+  3e:	46e2      	mov	sl, ip
+  40:	4615      	mov	r5, r2
+  42:	f81c bb01 	ldrb.w	fp, [ip], #1
+  46:	f812 1b01 	ldrb.w	r1, [r2], #1
+  4a:	458b      	cmp	fp, r1
+  4c:	d10d      	bne.n	6a <UnityAssertEqualMemory+0x6a>
+  4e:	3c01      	subs	r4, #1
+  50:	4611      	mov	r1, r2
+  52:	1c65      	adds	r5, r4, #1
+  54:	d1f3      	bne.n	3e <UnityAssertEqualMemory+0x3e>
+  56:	3e01      	subs	r6, #1
+  58:	f1be 0f00 	cmp.w	lr, #0
+  5c:	bf08      	it	eq
+  5e:	4684      	moveq	ip, r0
+  60:	1c72      	adds	r2, r6, #1
+  62:	d1ea      	bne.n	3a <UnityAssertEqualMemory+0x3a>
+  64:	b003      	add	sp, #12
+  66:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  6a:	990d      	ldr	r1, [sp, #52]	; 0x34
+  6c:	f8d8 0000 	ldr.w	r0, [r8]
+  70:	9301      	str	r3, [sp, #4]
+  72:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  76:	4853      	ldr	r0, [pc, #332]	; (1c4 <UnityAssertEqualMemory+0x1c4>)
+  78:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  7c:	203a      	movs	r0, #58	; 0x3a
+  7e:	f7ff fffe 	bl	0 <putchar>
+  82:	4851      	ldr	r0, [pc, #324]	; (1c8 <UnityAssertEqualMemory+0x1c8>)
+  84:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  88:	9b01      	ldr	r3, [sp, #4]
+  8a:	2b01      	cmp	r3, #1
+  8c:	d15d      	bne.n	14a <UnityAssertEqualMemory+0x14a>
+  8e:	1b3c      	subs	r4, r7, r4
+  90:	484e      	ldr	r0, [pc, #312]	; (1cc <UnityAssertEqualMemory+0x1cc>)
+  92:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  96:	2c09      	cmp	r4, #9
+  98:	f240 8085 	bls.w	1a6 <UnityAssertEqualMemory+0x1a6>
+  9c:	2601      	movs	r6, #1
+  9e:	eb06 0686 	add.w	r6, r6, r6, lsl #2
+  a2:	0076      	lsls	r6, r6, #1
+  a4:	fbb4 f3f6 	udiv	r3, r4, r6
+  a8:	2b09      	cmp	r3, #9
+  aa:	d8f8      	bhi.n	9e <UnityAssertEqualMemory+0x9e>
+  ac:	4f48      	ldr	r7, [pc, #288]	; (1d0 <UnityAssertEqualMemory+0x1d0>)
+  ae:	fbb4 f3f6 	udiv	r3, r4, r6
+  b2:	fba7 1203 	umull	r1, r2, r7, r3
+  b6:	08d2      	lsrs	r2, r2, #3
+  b8:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  bc:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+  c0:	f103 0030 	add.w	r0, r3, #48	; 0x30
+  c4:	b2c0      	uxtb	r0, r0
+  c6:	f7ff fffe 	bl	0 <putchar>
+  ca:	4633      	mov	r3, r6
+  cc:	fba7 2606 	umull	r2, r6, r7, r6
+  d0:	2b09      	cmp	r3, #9
+  d2:	ea4f 06d6 	mov.w	r6, r6, lsr #3
+  d6:	d8ea      	bhi.n	ae <UnityAssertEqualMemory+0xae>
+  d8:	483e      	ldr	r0, [pc, #248]	; (1d4 <UnityAssertEqualMemory+0x1d4>)
+  da:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  de:	2141      	movs	r1, #65	; 0x41
+  e0:	f89a 0000 	ldrb.w	r0, [sl]
+  e4:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  e8:	483b      	ldr	r0, [pc, #236]	; (1d8 <UnityAssertEqualMemory+0x1d8>)
+  ea:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  ee:	2141      	movs	r1, #65	; 0x41
+  f0:	7828      	ldrb	r0, [r5, #0]
+  f2:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  f6:	980c      	ldr	r0, [sp, #48]	; 0x30
+  f8:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+  fc:	2101      	movs	r1, #1
+  fe:	4837      	ldr	r0, [pc, #220]	; (1dc <UnityAssertEqualMemory+0x1dc>)
+ 100:	f8c8 1020 	str.w	r1, [r8, #32]
+ 104:	f7ff fffe 	bl	0 <longjmp>
+ 108:	990d      	ldr	r1, [sp, #52]	; 0x34
+ 10a:	f8d8 0000 	ldr.w	r0, [r8]
+ 10e:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 112:	482c      	ldr	r0, [pc, #176]	; (1c4 <UnityAssertEqualMemory+0x1c4>)
+ 114:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 118:	203a      	movs	r0, #58	; 0x3a
+ 11a:	f7ff fffe 	bl	0 <putchar>
+ 11e:	4830      	ldr	r0, [pc, #192]	; (1e0 <UnityAssertEqualMemory+0x1e0>)
+ 120:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 124:	980c      	ldr	r0, [sp, #48]	; 0x30
+ 126:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 12a:	e7e7      	b.n	fc <UnityAssertEqualMemory+0xfc>
+ 12c:	990d      	ldr	r1, [sp, #52]	; 0x34
+ 12e:	f8d8 0000 	ldr.w	r0, [r8]
+ 132:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 136:	4823      	ldr	r0, [pc, #140]	; (1c4 <UnityAssertEqualMemory+0x1c4>)
+ 138:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 13c:	203a      	movs	r0, #58	; 0x3a
+ 13e:	f7ff fffe 	bl	0 <putchar>
+ 142:	4828      	ldr	r0, [pc, #160]	; (1e4 <UnityAssertEqualMemory+0x1e4>)
+ 144:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 148:	e7d5      	b.n	f6 <UnityAssertEqualMemory+0xf6>
+ 14a:	eba9 0606 	sub.w	r6, r9, r6
+ 14e:	4826      	ldr	r0, [pc, #152]	; (1e8 <UnityAssertEqualMemory+0x1e8>)
+ 150:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 154:	2e09      	cmp	r6, #9
+ 156:	d921      	bls.n	19c <UnityAssertEqualMemory+0x19c>
+ 158:	f04f 0901 	mov.w	r9, #1
+ 15c:	eb09 0989 	add.w	r9, r9, r9, lsl #2
+ 160:	ea4f 0949 	mov.w	r9, r9, lsl #1
+ 164:	fbb6 f3f9 	udiv	r3, r6, r9
+ 168:	2b09      	cmp	r3, #9
+ 16a:	d8f7      	bhi.n	15c <UnityAssertEqualMemory+0x15c>
+ 16c:	f8df b060 	ldr.w	fp, [pc, #96]	; 1d0 <UnityAssertEqualMemory+0x1d0>
+ 170:	fbb6 f3f9 	udiv	r3, r6, r9
+ 174:	fbab 1203 	umull	r1, r2, fp, r3
+ 178:	08d2      	lsrs	r2, r2, #3
+ 17a:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+ 17e:	eba3 0342 	sub.w	r3, r3, r2, lsl #1
+ 182:	f103 0030 	add.w	r0, r3, #48	; 0x30
+ 186:	b2c0      	uxtb	r0, r0
+ 188:	f7ff fffe 	bl	0 <putchar>
+ 18c:	464b      	mov	r3, r9
+ 18e:	fbab 2909 	umull	r2, r9, fp, r9
+ 192:	2b09      	cmp	r3, #9
+ 194:	ea4f 09d9 	mov.w	r9, r9, lsr #3
+ 198:	d8ea      	bhi.n	170 <UnityAssertEqualMemory+0x170>
+ 19a:	e778      	b.n	8e <UnityAssertEqualMemory+0x8e>
+ 19c:	3630      	adds	r6, #48	; 0x30
+ 19e:	b2f0      	uxtb	r0, r6
+ 1a0:	f7ff fffe 	bl	0 <putchar>
+ 1a4:	e773      	b.n	8e <UnityAssertEqualMemory+0x8e>
+ 1a6:	3430      	adds	r4, #48	; 0x30
+ 1a8:	b2e0      	uxtb	r0, r4
+ 1aa:	f7ff fffe 	bl	0 <putchar>
+ 1ae:	e793      	b.n	d8 <UnityAssertEqualMemory+0xd8>
+ 1b0:	980d      	ldr	r0, [sp, #52]	; 0x34
+ 1b2:	f7ff fffe 	bl	0 <UnityAssertEqualMemory>
+ 1b6:	480d      	ldr	r0, [pc, #52]	; (1ec <UnityAssertEqualMemory+0x1ec>)
+ 1b8:	e7c4      	b.n	144 <UnityAssertEqualMemory+0x144>
+ 1ba:	2101      	movs	r1, #1
+ 1bc:	f108 0028 	add.w	r0, r8, #40	; 0x28
+ 1c0:	f7ff fffe 	bl	0 <longjmp>
+ 1c4:	00000000 	.word	0x00000000
+ 1c8:	00000000 	.word	0x00000000
+ 1cc:	00000000 	.word	0x00000000
+ 1d0:	cccccccd 	.word	0xcccccccd
+ 1d4:	00000000 	.word	0x00000000
+ 1d8:	00000000 	.word	0x00000000
+ 1dc:	00000028 	.word	0x00000028
+ 1e0:	00000000 	.word	0x00000000
+ 1e4:	00000000 	.word	0x00000000
+ 1e8:	00000000 	.word	0x00000000
+ 1ec:	00000000 	.word	0x00000000
+ 1f0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityNumToPtr:
+
+00000000 <UnityNumToPtr>:
+   0:	2901      	cmp	r1, #1
+   2:	d005      	beq.n	10 <UnityNumToPtr+0x10>
+   4:	2902      	cmp	r1, #2
+   6:	d007      	beq.n	18 <UnityNumToPtr+0x18>
+   8:	4b05      	ldr	r3, [pc, #20]	; (20 <UnityNumToPtr+0x20>)
+   a:	6018      	str	r0, [r3, #0]
+   c:	4804      	ldr	r0, [pc, #16]	; (20 <UnityNumToPtr+0x20>)
+   e:	4770      	bx	lr
+  10:	4b03      	ldr	r3, [pc, #12]	; (20 <UnityNumToPtr+0x20>)
+  12:	7018      	strb	r0, [r3, #0]
+  14:	4802      	ldr	r0, [pc, #8]	; (20 <UnityNumToPtr+0x20>)
+  16:	4770      	bx	lr
+  18:	4b01      	ldr	r3, [pc, #4]	; (20 <UnityNumToPtr+0x20>)
+  1a:	8018      	strh	r0, [r3, #0]
+  1c:	4800      	ldr	r0, [pc, #0]	; (20 <UnityNumToPtr+0x20>)
+  1e:	4770      	bx	lr
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityFloatToPtr:
+
+00000000 <UnityFloatToPtr>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <UnityFloatToPtr+0x8>)
+   2:	ed80 0a00 	vstr	s0, [r0]
+   6:	4770      	bx	lr
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityFail:
+
+00000000 <UnityFail>:
+   0:	4c1c      	ldr	r4, [pc, #112]	; (74 <UnityFail+0x74>)
+   2:	b508      	push	{r3, lr}
+   4:	e9d4 3208 	ldrd	r3, r2, [r4, #32]
+   8:	4313      	orrs	r3, r2
+   a:	d004      	beq.n	16 <UnityFail+0x16>
+   c:	2101      	movs	r1, #1
+   e:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  12:	f7ff fffe 	bl	0 <longjmp>
+  16:	4605      	mov	r5, r0
+  18:	6820      	ldr	r0, [r4, #0]
+  1a:	f7ff fffe 	bl	0 <UnityFail>
+  1e:	4816      	ldr	r0, [pc, #88]	; (78 <UnityFail+0x78>)
+  20:	f7ff fffe 	bl	0 <UnityFail>
+  24:	b305      	cbz	r5, 68 <UnityFail+0x68>
+  26:	203a      	movs	r0, #58	; 0x3a
+  28:	f7ff fffe 	bl	0 <putchar>
+  2c:	68a3      	ldr	r3, [r4, #8]
+  2e:	b193      	cbz	r3, 56 <UnityFail+0x56>
+  30:	4812      	ldr	r0, [pc, #72]	; (7c <UnityFail+0x7c>)
+  32:	f7ff fffe 	bl	0 <UnityFail>
+  36:	68a0      	ldr	r0, [r4, #8]
+  38:	b108      	cbz	r0, 3e <UnityFail+0x3e>
+  3a:	f7ff fffe 	bl	0 <UnityFail>
+  3e:	68e3      	ldr	r3, [r4, #12]
+  40:	b133      	cbz	r3, 50 <UnityFail+0x50>
+  42:	480f      	ldr	r0, [pc, #60]	; (80 <UnityFail+0x80>)
+  44:	f7ff fffe 	bl	0 <UnityFail>
+  48:	68e0      	ldr	r0, [r4, #12]
+  4a:	b108      	cbz	r0, 50 <UnityFail+0x50>
+  4c:	f7ff fffe 	bl	0 <UnityFail>
+  50:	480c      	ldr	r0, [pc, #48]	; (84 <UnityFail+0x84>)
+  52:	f7ff fffe 	bl	0 <UnityFail>
+  56:	782b      	ldrb	r3, [r5, #0]
+  58:	2b20      	cmp	r3, #32
+  5a:	d002      	beq.n	62 <UnityFail+0x62>
+  5c:	2020      	movs	r0, #32
+  5e:	f7ff fffe 	bl	0 <putchar>
+  62:	4628      	mov	r0, r5
+  64:	f7ff fffe 	bl	0 <UnityFail>
+  68:	2101      	movs	r1, #1
+  6a:	4807      	ldr	r0, [pc, #28]	; (88 <UnityFail+0x88>)
+  6c:	6221      	str	r1, [r4, #32]
+  6e:	f7ff fffe 	bl	0 <longjmp>
+  72:	bf00      	nop
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityIgnore:
+
+00000000 <UnityIgnore>:
+   0:	4c10      	ldr	r4, [pc, #64]	; (44 <UnityIgnore+0x44>)
+   2:	b508      	push	{r3, lr}
+   4:	e9d4 3208 	ldrd	r3, r2, [r4, #32]
+   8:	4313      	orrs	r3, r2
+   a:	d004      	beq.n	16 <UnityIgnore+0x16>
+   c:	2101      	movs	r1, #1
+   e:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  12:	f7ff fffe 	bl	0 <longjmp>
+  16:	4605      	mov	r5, r0
+  18:	6820      	ldr	r0, [r4, #0]
+  1a:	f7ff fffe 	bl	0 <UnityIgnore>
+  1e:	480a      	ldr	r0, [pc, #40]	; (48 <UnityIgnore+0x48>)
+  20:	f7ff fffe 	bl	0 <UnityIgnore>
+  24:	b145      	cbz	r5, 38 <UnityIgnore+0x38>
+  26:	203a      	movs	r0, #58	; 0x3a
+  28:	f7ff fffe 	bl	0 <putchar>
+  2c:	2020      	movs	r0, #32
+  2e:	f7ff fffe 	bl	0 <putchar>
+  32:	4628      	mov	r0, r5
+  34:	f7ff fffe 	bl	0 <UnityIgnore>
+  38:	2101      	movs	r1, #1
+  3a:	4804      	ldr	r0, [pc, #16]	; (4c <UnityIgnore+0x4c>)
+  3c:	6261      	str	r1, [r4, #36]	; 0x24
+  3e:	f7ff fffe 	bl	0 <longjmp>
+  42:	bf00      	nop
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnityMessage:
+
+00000000 <UnityMessage>:
+   0:	4b0b      	ldr	r3, [pc, #44]	; (30 <UnityMessage+0x30>)
+   2:	b510      	push	{r4, lr}
+   4:	4604      	mov	r4, r0
+   6:	6818      	ldr	r0, [r3, #0]
+   8:	f7ff fffe 	bl	0 <UnityMessage>
+   c:	4809      	ldr	r0, [pc, #36]	; (34 <UnityMessage+0x34>)
+   e:	f7ff fffe 	bl	0 <UnityMessage>
+  12:	b144      	cbz	r4, 26 <UnityMessage+0x26>
+  14:	203a      	movs	r0, #58	; 0x3a
+  16:	f7ff fffe 	bl	0 <putchar>
+  1a:	2020      	movs	r0, #32
+  1c:	f7ff fffe 	bl	0 <putchar>
+  20:	4620      	mov	r0, r4
+  22:	f7ff fffe 	bl	0 <UnityMessage>
+  26:	200a      	movs	r0, #10
+  28:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  2c:	f7ff bffe 	b.w	0 <putchar>
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityDefaultTestRun:
+
+00000000 <UnityDefaultTestRun>:
+   0:	4b13      	ldr	r3, [pc, #76]	; (50 <UnityDefaultTestRun+0x50>)
+   2:	b510      	push	{r4, lr}
+   4:	6059      	str	r1, [r3, #4]
+   6:	b082      	sub	sp, #8
+   8:	6959      	ldr	r1, [r3, #20]
+   a:	2400      	movs	r4, #0
+   c:	9001      	str	r0, [sp, #4]
+   e:	f103 0028 	add.w	r0, r3, #40	; 0x28
+  12:	3101      	adds	r1, #1
+  14:	611a      	str	r2, [r3, #16]
+  16:	e9c3 4402 	strd	r4, r4, [r3, #8]
+  1a:	6159      	str	r1, [r3, #20]
+  1c:	f7ff fffe 	bl	0 <setjmp>
+  20:	b138      	cbz	r0, 32 <UnityDefaultTestRun+0x32>
+  22:	480c      	ldr	r0, [pc, #48]	; (54 <UnityDefaultTestRun+0x54>)
+  24:	f7ff fffe 	bl	0 <setjmp>
+  28:	b160      	cbz	r0, 44 <UnityDefaultTestRun+0x44>
+  2a:	f7ff fffe 	bl	0 <UnityDefaultTestRun>
+  2e:	b002      	add	sp, #8
+  30:	bd10      	pop	{r4, pc}
+  32:	f7ff fffe 	bl	0 <setUp>
+  36:	9b01      	ldr	r3, [sp, #4]
+  38:	4798      	blx	r3
+  3a:	4806      	ldr	r0, [pc, #24]	; (54 <UnityDefaultTestRun+0x54>)
+  3c:	f7ff fffe 	bl	0 <setjmp>
+  40:	2800      	cmp	r0, #0
+  42:	d1f2      	bne.n	2a <UnityDefaultTestRun+0x2a>
+  44:	f7ff fffe 	bl	0 <tearDown>
+  48:	f7ff fffe 	bl	0 <UnityDefaultTestRun>
+  4c:	b002      	add	sp, #8
+  4e:	bd10      	pop	{r4, pc}
+  50:	00000000 	.word	0x00000000
+  54:	00000028 	.word	0x00000028
+
+Disassembly of section .text.UnitySetTestFile:
+
+00000000 <UnitySetTestFile>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <UnitySetTestFile+0x8>)
+   2:	6018      	str	r0, [r3, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityBegin:
+
+00000000 <UnityBegin>:
+   0:	4b06      	ldr	r3, [pc, #24]	; (1c <UnityBegin+0x1c>)
+   2:	2200      	movs	r2, #0
+   4:	6018      	str	r0, [r3, #0]
+   6:	605a      	str	r2, [r3, #4]
+   8:	611a      	str	r2, [r3, #16]
+   a:	625a      	str	r2, [r3, #36]	; 0x24
+   c:	e9c3 2205 	strd	r2, r2, [r3, #20]
+  10:	e9c3 2207 	strd	r2, r2, [r3, #28]
+  14:	e9c3 2202 	strd	r2, r2, [r3, #8]
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.UnityEnd:
+
+00000000 <UnityEnd>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	200a      	movs	r0, #10
+   4:	4d5e      	ldr	r5, [pc, #376]	; (180 <UnityEnd+0x180>)
+   6:	f7ff fffe 	bl	0 <putchar>
+   a:	485e      	ldr	r0, [pc, #376]	; (184 <UnityEnd+0x184>)
+   c:	f7ff fffe 	bl	0 <UnityEnd>
+  10:	200a      	movs	r0, #10
+  12:	f7ff fffe 	bl	0 <putchar>
+  16:	696e      	ldr	r6, [r5, #20]
+  18:	2e00      	cmp	r6, #0
+  1a:	f2c0 8082 	blt.w	122 <UnityEnd+0x122>
+  1e:	2e09      	cmp	r6, #9
+  20:	f240 8086 	bls.w	130 <UnityEnd+0x130>
+  24:	2401      	movs	r4, #1
+  26:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  2a:	0064      	lsls	r4, r4, #1
+  2c:	fbb6 f3f4 	udiv	r3, r6, r4
+  30:	2b09      	cmp	r3, #9
+  32:	d8f8      	bhi.n	26 <UnityEnd+0x26>
+  34:	4f54      	ldr	r7, [pc, #336]	; (188 <UnityEnd+0x188>)
+  36:	fbb6 f0f4 	udiv	r0, r6, r4
+  3a:	fba7 2300 	umull	r2, r3, r7, r0
+  3e:	08db      	lsrs	r3, r3, #3
+  40:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  44:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  48:	3030      	adds	r0, #48	; 0x30
+  4a:	b2c0      	uxtb	r0, r0
+  4c:	f7ff fffe 	bl	0 <putchar>
+  50:	4623      	mov	r3, r4
+  52:	fba7 2404 	umull	r2, r4, r7, r4
+  56:	2b09      	cmp	r3, #9
+  58:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  5c:	d8eb      	bhi.n	36 <UnityEnd+0x36>
+  5e:	484b      	ldr	r0, [pc, #300]	; (18c <UnityEnd+0x18c>)
+  60:	f7ff fffe 	bl	0 <UnityEnd>
+  64:	69ae      	ldr	r6, [r5, #24]
+  66:	2e00      	cmp	r6, #0
+  68:	db6d      	blt.n	146 <UnityEnd+0x146>
+  6a:	2e09      	cmp	r6, #9
+  6c:	d971      	bls.n	152 <UnityEnd+0x152>
+  6e:	2401      	movs	r4, #1
+  70:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  74:	0064      	lsls	r4, r4, #1
+  76:	fbb6 f3f4 	udiv	r3, r6, r4
+  7a:	2b09      	cmp	r3, #9
+  7c:	d8f8      	bhi.n	70 <UnityEnd+0x70>
+  7e:	4f42      	ldr	r7, [pc, #264]	; (188 <UnityEnd+0x188>)
+  80:	fbb6 f0f4 	udiv	r0, r6, r4
+  84:	fba7 2300 	umull	r2, r3, r7, r0
+  88:	08db      	lsrs	r3, r3, #3
+  8a:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  8e:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  92:	3030      	adds	r0, #48	; 0x30
+  94:	b2c0      	uxtb	r0, r0
+  96:	f7ff fffe 	bl	0 <putchar>
+  9a:	4623      	mov	r3, r4
+  9c:	fba7 2404 	umull	r2, r4, r7, r4
+  a0:	2b09      	cmp	r3, #9
+  a2:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  a6:	d8eb      	bhi.n	80 <UnityEnd+0x80>
+  a8:	4839      	ldr	r0, [pc, #228]	; (190 <UnityEnd+0x190>)
+  aa:	f7ff fffe 	bl	0 <UnityEnd>
+  ae:	69ee      	ldr	r6, [r5, #28]
+  b0:	2e00      	cmp	r6, #0
+  b2:	db59      	blt.n	168 <UnityEnd+0x168>
+  b4:	2e09      	cmp	r6, #9
+  b6:	d95d      	bls.n	174 <UnityEnd+0x174>
+  b8:	2401      	movs	r4, #1
+  ba:	eb04 0484 	add.w	r4, r4, r4, lsl #2
+  be:	0064      	lsls	r4, r4, #1
+  c0:	fbb6 f3f4 	udiv	r3, r6, r4
+  c4:	2b09      	cmp	r3, #9
+  c6:	d8f8      	bhi.n	ba <UnityEnd+0xba>
+  c8:	4f2f      	ldr	r7, [pc, #188]	; (188 <UnityEnd+0x188>)
+  ca:	fbb6 f0f4 	udiv	r0, r6, r4
+  ce:	fba7 2300 	umull	r2, r3, r7, r0
+  d2:	08db      	lsrs	r3, r3, #3
+  d4:	eb03 0383 	add.w	r3, r3, r3, lsl #2
+  d8:	eba0 0043 	sub.w	r0, r0, r3, lsl #1
+  dc:	3030      	adds	r0, #48	; 0x30
+  de:	b2c0      	uxtb	r0, r0
+  e0:	f7ff fffe 	bl	0 <putchar>
+  e4:	4623      	mov	r3, r4
+  e6:	fba7 2404 	umull	r2, r4, r7, r4
+  ea:	2b09      	cmp	r3, #9
+  ec:	ea4f 04d4 	mov.w	r4, r4, lsr #3
+  f0:	d8eb      	bhi.n	ca <UnityEnd+0xca>
+  f2:	4828      	ldr	r0, [pc, #160]	; (194 <UnityEnd+0x194>)
+  f4:	f7ff fffe 	bl	0 <UnityEnd>
+  f8:	200a      	movs	r0, #10
+  fa:	f7ff fffe 	bl	0 <putchar>
+  fe:	69ab      	ldr	r3, [r5, #24]
+ 100:	b93b      	cbnz	r3, 112 <UnityEnd+0x112>
+ 102:	4825      	ldr	r0, [pc, #148]	; (198 <UnityEnd+0x198>)
+ 104:	f7ff fffe 	bl	0 <UnityEnd>
+ 108:	200a      	movs	r0, #10
+ 10a:	f7ff fffe 	bl	0 <putchar>
+ 10e:	69a8      	ldr	r0, [r5, #24]
+ 110:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 112:	4822      	ldr	r0, [pc, #136]	; (19c <UnityEnd+0x19c>)
+ 114:	f7ff fffe 	bl	0 <UnityEnd>
+ 118:	200a      	movs	r0, #10
+ 11a:	f7ff fffe 	bl	0 <putchar>
+ 11e:	69a8      	ldr	r0, [r5, #24]
+ 120:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 122:	4276      	negs	r6, r6
+ 124:	202d      	movs	r0, #45	; 0x2d
+ 126:	f7ff fffe 	bl	0 <putchar>
+ 12a:	2e09      	cmp	r6, #9
+ 12c:	f63f af7a 	bhi.w	24 <UnityEnd+0x24>
+ 130:	f106 0030 	add.w	r0, r6, #48	; 0x30
+ 134:	b2c0      	uxtb	r0, r0
+ 136:	f7ff fffe 	bl	0 <putchar>
+ 13a:	4814      	ldr	r0, [pc, #80]	; (18c <UnityEnd+0x18c>)
+ 13c:	f7ff fffe 	bl	0 <UnityEnd>
+ 140:	69ae      	ldr	r6, [r5, #24]
+ 142:	2e00      	cmp	r6, #0
+ 144:	da91      	bge.n	6a <UnityEnd+0x6a>
+ 146:	4276      	negs	r6, r6
+ 148:	202d      	movs	r0, #45	; 0x2d
+ 14a:	f7ff fffe 	bl	0 <putchar>
+ 14e:	2e09      	cmp	r6, #9
+ 150:	d88d      	bhi.n	6e <UnityEnd+0x6e>
+ 152:	f106 0030 	add.w	r0, r6, #48	; 0x30
+ 156:	b2c0      	uxtb	r0, r0
+ 158:	f7ff fffe 	bl	0 <putchar>
+ 15c:	480c      	ldr	r0, [pc, #48]	; (190 <UnityEnd+0x190>)
+ 15e:	f7ff fffe 	bl	0 <UnityEnd>
+ 162:	69ee      	ldr	r6, [r5, #28]
+ 164:	2e00      	cmp	r6, #0
+ 166:	daa5      	bge.n	b4 <UnityEnd+0xb4>
+ 168:	4276      	negs	r6, r6
+ 16a:	202d      	movs	r0, #45	; 0x2d
+ 16c:	f7ff fffe 	bl	0 <putchar>
+ 170:	2e09      	cmp	r6, #9
+ 172:	d8a1      	bhi.n	b8 <UnityEnd+0xb8>
+ 174:	f106 0030 	add.w	r0, r6, #48	; 0x30
+ 178:	b2c0      	uxtb	r0, r0
+ 17a:	f7ff fffe 	bl	0 <putchar>
+ 17e:	e7b8      	b.n	f2 <UnityEnd+0xf2>
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	cccccccd 	.word	0xcccccccd
+ 18c:	00000000 	.word	0x00000000
+ 190:	00000000 	.word	0x00000000
+ 194:	00000000 	.word	0x00000000
+ 198:	00000000 	.word	0x00000000
+ 19c:	00000000 	.word	0x00000000

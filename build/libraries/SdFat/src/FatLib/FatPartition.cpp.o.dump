@@ -1,0 +1,1171 @@
+
+build/./libraries/SdFat/src/FatLib/FatPartition.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FatPartition.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_	00000000 .text._ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_
+00000000 l    d  .text._ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv	00000000 .text._ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv
+00000000 l    d  .text._ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv	00000000 .text._ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv
+00000000 l    d  .text._ZN12FatPartition6fatGetEmPm.part.0	00000000 .text._ZN12FatPartition6fatGetEmPm.part.0
+00000000 l     F .text._ZN12FatPartition6fatGetEmPm.part.0	000000fa _ZN12FatPartition6fatGetEmPm.part.0
+00000000 l    d  .text._ZN12FatPartition6fatPutEmm.part.0	00000000 .text._ZN12FatPartition6fatPutEmm.part.0
+00000000 l     F .text._ZN12FatPartition6fatPutEmm.part.0	0000010c _ZN12FatPartition6fatPutEmm.part.0
+00000000 l    d  .text._ZN12FatPartition15allocateClusterEmPm	00000000 .text._ZN12FatPartition15allocateClusterEmPm
+00000000 l    d  .text._ZN12FatPartition15allocContiguousEmPm	00000000 .text._ZN12FatPartition15allocContiguousEmPm
+00000000 l    d  .text._ZN12FatPartition6fatGetEmPm	00000000 .text._ZN12FatPartition6fatGetEmPm
+00000000 l    d  .text._ZN12FatPartition6fatPutEmm	00000000 .text._ZN12FatPartition6fatPutEmm
+00000000 l    d  .text._ZN12FatPartition9freeChainEm	00000000 .text._ZN12FatPartition9freeChainEm
+00000000 l    d  .text._ZN12FatPartition16freeClusterCountEv	00000000 .text._ZN12FatPartition16freeClusterCountEv
+00000000 l    d  .text._ZN12FatPartition4initEP22FsBlockDeviceInterfaceh	00000000 .text._ZN12FatPartition4initEP22FsBlockDeviceInterfaceh
+00000000 l    d  .text._ZN12FatPartition4initEP22FsBlockDeviceInterfacemm	00000000 .text._ZN12FatPartition4initEP22FsBlockDeviceInterfacemm
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_	00000044 _ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_
+00000000 g     F .text._ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv	00000034 _ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv
+00000000 g     F .text._ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv	00000032 _ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv
+00000000         *UND*	00000000 _ZN7FsCache7prepareEmh
+00000000 g     F .text._ZN12FatPartition15allocateClusterEmPm	0000009a _ZN12FatPartition15allocateClusterEmPm
+00000000 g     F .text._ZN12FatPartition15allocContiguousEmPm	000000e0 _ZN12FatPartition15allocContiguousEmPm
+00000000 g     F .text._ZN12FatPartition6fatGetEmPm	00000024 _ZN12FatPartition6fatGetEmPm
+00000000 g     F .text._ZN12FatPartition6fatPutEmm	00000020 _ZN12FatPartition6fatPutEmm
+00000000 g     F .text._ZN12FatPartition9freeChainEm	0000005a _ZN12FatPartition9freeChainEm
+00000000 g     F .text._ZN12FatPartition16freeClusterCountEv	000001c8 _ZN12FatPartition16freeClusterCountEv
+00000000         *UND*	00000000 _ZN7FsCache4syncEv
+00000000 g     F .text._ZN12FatPartition4initEP22FsBlockDeviceInterfaceh	00000124 _ZN12FatPartition4initEP22FsBlockDeviceInterfaceh
+00000000 g     F .text._ZN12FatPartition4initEP22FsBlockDeviceInterfacemm	00000108 _ZN12FatPartition4initEP22FsBlockDeviceInterfacemm
+
+
+Contents of section .group:
+ 0000 01000000 05000000                    ........        
+Contents of section .text._ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_:
+ 0000 2de9f843 dde90887 c3b18146 0c461546  -..C.......F.F.F
+ 0010 5e1802e0 c047b442 10d0d9f8 00302146  ^....G.B.....0!F
+ 0020 2a464846 1b699847 03463a46 20462946  *FHF.i.G.F:F F)F
+ 0030 0134002b eed11846 bde8f883 01231846  .4.+...F.....#.F
+ 0040 bde8f883                             ....            
+Contents of section .text._ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv:
+ 0000 10b41468 b4f5807f a44628bf 4ff4807c  ...h.....F(.O..|
+ 0010 01eb4c00 814207d2 31f8023b 13b95368  ..L..B..1..;..Sh
+ 0020 01335360 8842f7d8 a4eb0c04 14605df8  .3S`.B.......`].
+ 0030 044b7047                             .KpG            
+Contents of section .text._ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv:
+ 0000 10b41468 802ca446 28bf4ff0 800c01eb  ...h.,.F(.O.....
+ 0010 8c008142 07d251f8 043b13b9 53680133  ...B..Q..;..Sh.3
+ 0020 53608842 f7d8a4eb 0c041460 5df8044b  S`.B.......`]..K
+ 0030 704700bf                             pG..            
+Contents of section .text._ZN12FatPartition6fatGetEmPm.part.0:
+ 0000 2de9f843 c3790446 0d461746 202b59d0  -..C.y.F.F.F +Y.
+ 0010 102b30d0 0c2b51d1 027ac1f3 4e018369  .+0..+Q..z..N..i
+ 0020 00f50e79 11fa85f1 a2f10202 48468eb2  ...y........HF..
+ 0030 b2fa82f2 c1f34621 520901eb 03085200  ......F!R.....R.
+ 0040 4146fff7 feff0028 38d0c6f3 0806731c  AF.....(8.....s.
+ 0050 865db3f5 007f23d0 18440378 ea07e269  .]....#..D.x...i
+ 0060 46ea0323 4cbf1b09 c3f30b03 9a4240d2  F..#L........B@.
+ 0070 0020bde8 f883027a c1f30721 836900f5  . .....z...!.i..
+ 0080 0e70a2f1 02021944 b2fa82f2 52095200  .p.....D....R.R.
+ 0090 fff7feff 90b16d00 05f4ff75 435b25e0  ......m....uC[%.
+ 00a0 227a08f1 01014846 a2f10202 b2fa82f2  "z....HF........
+ 00b0 52095200 fff7feff 0028ced1 4ff0ff30  R.R......(..O..0
+ 00c0 bde8f883 027a8169 00f50e70 a2f10202  .....z.i...p....
+ 00d0 01ebd511 b2fa82f2 52095200 fff7feff  ........R.R.....
+ 00e0 0028ebd0 ad0005f4 fe754359 e2699a42  .(.......uCY.i.B
+ 00f0 bed30120 3b60bde8 f88300bf           ... ;`......    
+Contents of section .text._ZN12FatPartition6fatPutEmm.part.0:
+ 0000 2de9f843 c3790546 0c461646 202b48d0  -..C.y.F.F.F +H.
+ 0010 102b2dd0 0c2b41d1 c1f34e01 836900f5  .+-..+A...N..i..
+ 0020 0e7911fa 84f11ffa 81f8c1f3 4621cf18  .y..........F!..
+ 0030 037a4846 022b3946 14bf0122 0322fff7  .zHF.+9F..."."..
+ 0040 feff58b3 14f00104 c8f30803 3fd0c25c  ..X.........?..\
+ 0050 02f00f02 42ea0612 c2540133 b3f5007f  ....B....T.3....
+ 0060 3ad0c6f3 07120344 01201a70 bde8f883  :......D. .p....
+ 0070 027ac1f3 07218369 00f50e70 022a1944  .z...!.i...p.*.D
+ 0080 14bf0122 0322fff7 feff0346 30b16400  ...".".....F0.d.
+ 0090 012004f4 ff741e53 bde8f883 0020bde8  . ...t.S..... ..
+ 00a0 f883037a 816900f5 0e70022b 01ebd411  ...z.i...p.+....
+ 00b0 14bf0122 0322fff7 feff0346 0028edd0  ...".".....F.(..
+ 00c0 a4000120 04f4fe74 1e51bde8 f883c654  ... ...t.Q.....T
+ 00d0 0133b3f5 007f15d1 2b7a791c 4846022b  .3......+zy.HF.+
+ 00e0 14bf0122 0322fff7 feff0346 0028d5d0  ...".".....F.(..
+ 00f0 c6f30712 002cb7d1 197821f0 0f0141ea  .....,...x!...A.
+ 0100 1212b1e7 c6f30712 0344f5e7           .........D..    
+Contents of section .text._ZN12FatPartition15allocateClusterEmPm:
+ 0000 2de9f041 c46882b0 05460e46 8c429046  -..A.h...F.F.B.F
+ 0010 40d30127 0134eb69 01aa2846 a34205d2  @..'.4.i..(F.B..
+ 0020 9fbbec68 01273c44 a3422ed3 a64218bf  ...h.'<D.B...B..
+ 0030 012c2146 29d9fff7 feff0028 25dbe9d0  .,!F)......(%...
+ 0040 019b002b e6d107b1 ec60eb69 a3421cd3  ...+.....`.i.B..
+ 0050 6ff07042 21462846 fff7feff 0746a0b1  o.pB!F(F.....F..
+ 0060 3eb96b6a 002b01db 013b6b62 c8f80040  >.kj.+...;kb...@
+ 0070 0ce0012e 09d0eb69 9e4206d8 31462246  .......i.B..1F"F
+ 0080 2846fff7 feff0028 ebd10027 384602b0  (F.....(...'8F..
+ 0090 bde8f081 0c460027 bce700bf           .....F.'....    
+Contents of section .text._ZN12FatPartition15allocContiguousEmPm:
+ 0000 2de9f047 c4689246 c26984b0 0134012c  -..G.h.F.i...4.,
+ 0010 8cbf0023 01239442 88bf43f0 010353bb  ...#.#.B..C...S.
+ 0020 05460e46 a0464ff0 01090ae0 a04518bf  .F.F.FO......E..
+ 0030 4ff00009 eb690134 a342a046 1bd3012c  O....i.4.B.F...,
+ 0040 19d92146 03aa2846 fff7feff 0028b0fa  ..!F..(F.....(..
+ 0050 80f310db 039a5b09 002a18bf 43f00103  ......[..*..C...
+ 0060 002be3d1 621ca2eb 0801b142 08d01446  .+..b......B...F
+ 0070 eb69a342 e3d20023 184604b0 bde8f087  .i.B...#.F......
+ 0080 b9f1000f 00d0ec60 ea69a242 f4d36ff0  .......`.i.B..o.
+ 0090 70422146 28460193 fff7feff 019b8146  pB!F(F.........F
+ 00a0 0028e9d0 04f1ff3c 44452246 28466146  .(.....<DE"F(FaF
+ 00b0 64460cd9 bcf1010f ded9ef69 bc45dbd8  dF.........i.E..
+ 00c0 0193fff7 feff019b 0028ebd1 d4e76b6a  .........(....kj
+ 00d0 002b01db 9b1b6b62 4b46caf8 0080cbe7  .+....kbKF......
+Contents of section .text._ZN12FatPartition6fatGetEmPm:
+ 0000 01290cd9 10b4c469 8c4203d3 5df8044b  .).....i.B..]..K
+ 0010 fff7febf 4ff0ff30 5df8044b 70474ff0  ....O..0]..KpGO.
+ 0020 ff307047                             .0pG            
+Contents of section .text._ZN12FatPartition6fatPutEmm:
+ 0000 01290bd9 10b4c469 8c4203d3 5df8044b  .).....i.B..]..K
+ 0010 fff7febf 00205df8 044b7047 00207047  ..... ]..KpG. pG
+Contents of section .text._ZN12FatPartition9freeChainEm:
+ 0000 70b50023 82b00546 0c460193 1de0eb69  p..#...F.F.....i
+ 0010 9c421fd8 fff7feff 06462146 0022002e  .B.......F!F."..
+ 0020 284617db eb699c42 14d8fff7 feff621e  (F...i.B......b.
+ 0030 80b16b6a 002b03f1 0103a8bf 6b62eb68  ..kj.+......kb.h
+ 0040 a342019c 88bfea60 2eb1012c 214601aa  .B.....`...,!F..
+ 0050 2846dcd8 002002b0 70bd00bf           (F... ..p...    
+Contents of section .text._ZN12FatPartition16freeClusterCountEv:
+ 0000 2de9f047 0646406a 84b00028 1bdaf279  -..G.F@j...(...y
+ 0010 0c2a1bd1 f7697b1c 022b40f2 cd800224  .*...i{..+@....$
+ 0020 00252146 02aa3046 fff7feff 002804f1  .%!F..0F.....(..
+ 0030 010306db 57d1a742 1c465cd0 f2699342  ....W..B.F\..i.B
+ 0040 efd94ff0 ff3004b0 bde8f087 f1690020  ..O..0.......i. 
+ 0050 96f83832 01313469 db07cde9 021000f1  ..82.14i........
+ 0060 85800021 4ff0ff33 202a06f5 127786f8  ...!O..3 *...w..
+ 0070 3812c6f8 443242d0 d6f80080 4f4bd8f8  8...D2B.....OK..
+ 0080 0020d6f8 18a09569 9d4278d1 002c00f0  . .....i.Bx..,..
+ 0090 82800aeb 04091369 51463a46 40469847  .......iQF:F@F.G
+ 00a0 0028ced0 0299b1f5 807f8e46 28bf4ff4  .(.........F(.O.
+ 00b0 807e07eb 4e0cbc45 0bd9039d 3b460022  .~..N..E....;F."
+ 00c0 33f8024b 0cb90135 02469c45 f8d802b1  3..K...5.F.E....
+ 00d0 03950af1 010aa1eb 0e01d145 02915ad0  ...........E..Z.
+ 00e0 d8f80020 d7e7029a 002aa4d1 a74205f1  ... .....*...B..
+ 00f0 01051c46 a2d12846 04b0bde8 f087d6f8  ...F..(F........
+ 0100 00a02e4b daf80020 d6f81890 95699d42  ...K... .....i.B
+ 0110 46d1002c 3fd009eb 04081369 49463a46  F..,?......iIF:F
+ 0120 50469847 00288cd0 ddf808c0 bcf1800f  PF.G.(..........
+ 0130 e64628bf 4ff0800e 07eb8e02 ba420bd9  .F(.O........B..
+ 0140 039d3b46 002153f8 044b0cb9 01350146  ..;F.!S..K...5.F
+ 0150 9a42f8d8 01b10395 09f10109 aceb0e03  .B..............
+ 0160 c8450293 17d0daf8 0020d6e7 06f50e70  .E....... .....p
+ 0170 fff7feff 00283ff4 64aff279 71e72346  .....(?.d..yq.#F
+ 0180 02ac3a46 51460194 40460d4c 0094a847  ..:FQF..@F.L...G
+ 0190 00283ff4 56af0398 706204b0 bde8f087  .(?.V...pb......
+ 01a0 234602ac 3a464946 01945046 054c0094  #F..:FIF..PF.L..
+ 01b0 a8470028 efd144e7 002044e7 00000000  .G.(..D.. D.....
+ 01c0 00000000 00000000                    ........        
+Contents of section .text._ZN12FatPartition4initEP22FsBlockDeviceInterfaceh:
+ 0000 70b50023 04461546 01204ff0 ff3204f1  p..#.F.F. O..2..
+ 0010 28062160 e371e060 e162c4f8 3c1284f8  (.!`.q.`.b..<...
+ 0020 283084f8 38326263 c4f84422 cdb1042d  (0..82bc..D"...-
+ 0030 01d90020 70bd1a46 19463046 fff7feff  ... p..F.F0F....
+ 0040 6ff07043 00f5df72 2b441d01 02eb0313  o.pC...r+D......
+ 0050 0028eed0 19790029 ebd0525d 5206e8d1  .(...y.)..R]R...
+ 0060 9d680022 29463046 fff7feff 0028e0d0  .h.")F0F.....(..
+ 0070 b0f80b30 b3f5007f dbd1037c 5a1e2372  ...0.......|Z.#r
+ 0080 012ad6d8 417b4b1e 01292171 63714ff0  .*..A{K..)!qcqO.
+ 0090 0003a371 44d00122 52000133 d2b2dbb2  ...qD.."R..3....
+ 00a0 914204d0 082bf7d1 0020a371 70bd1e46  .B...+... .qp..F
+ 00b0 a371c18a 216109b9 416a2161 c289b0f8  .q..!a..Aj!a....
+ 00c0 11302a44 63815b01 a26190f8 10c003f2  .0*Dc.[..a......
+ 00d0 ff1301fb 0c2202eb 53232262 b0f81320  ....."..S#"b... 
+ 00e0 636102b9 026aed1a ab18f340 5a1ce261  ca...j.....@Z..a
+ 00f0 4ff0ff32 626240f6 f4729342 0cd94ff6  O..2bb@..r.B..O.
+ 0100 f4729342 0ad9c26a 20232262 0120e371  .r.B...j #"b. .q
+ 0110 2163c4f8 401270bd 0c23f7e7 1023f5e7  !c..@.p..#...#..
+ 0120 1e46c6e7                             .F..            
+Contents of section .text._ZN12FatPartition4initEP22FsBlockDeviceInterfacemm:
+ 0000 2de9f041 4ff00008 16461f46 01254ff0  -..AO....F.F.%O.
+ 0010 ff330160 c1620446 c0f83c12 424680f8  .3.`.b.F..<.BF..
+ 0020 07803146 80f82880 283080f8 1082c360  ..1F..(.(0.....`
+ 0030 c0f81c32 40f81c5c fff7feff 28b3b0f8  ...2@..\....(...
+ 0040 0b30b3f5 007f20d1 037c2372 013b012b  .0.... ..|#r.;.+
+ 0050 1bd8427b 84f80680 531e012a 22716371  ..B{....S..*"qcq
+ 0060 18d0ae46 ac464fea 4c0c0ef1 01035ffa  ...F.FO.L....._.
+ 0070 8cfc6245 0cd05ffa 83febef1 090ff2d1  ..bE.._.........
+ 0080 08230020 a371bde8 f0810020 bde8f081  .#. .q..... ....
+ 0090 84f806e0 c18a2161 09b9416a 2161c289  ......!a..Aj!a..
+ 00a0 b0f81130 32446381 5b01a261 057c03f2  ...02Dc.[..a.|..
+ 00b0 ff1301fb 052202eb 53232262 b0f81320  ....."..S#"b... 
+ 00c0 6361dab1 ba42e0d8 f31a1344 a279d340  ca...B.....D.y.@
+ 00d0 5a1ce261 4ff0ff32 626240f6 f4729342  Z..aO..2bb@..r.B
+ 00e0 0ed94ff6 f4729342 0cd9c26a 20232262  ..O..r.B...j #"b
+ 00f0 0120e371 2163c4f8 4012c7e7 026ae1e7  . .q!c..@....j..
+ 0100 0c23f5e7 1023f3e7                    .#...#..        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_:
+
+00000000 <_ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	e9dd 8708 	ldrd	r8, r7, [sp, #32]
+   8:	b1c3      	cbz	r3, 3c <_ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_+0x3c>
+   a:	4681      	mov	r9, r0
+   c:	460c      	mov	r4, r1
+   e:	4615      	mov	r5, r2
+  10:	185e      	adds	r6, r3, r1
+  12:	e002      	b.n	1a <_ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_+0x1a>
+  14:	47c0      	blx	r8
+  16:	42b4      	cmp	r4, r6
+  18:	d010      	beq.n	3c <_ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_+0x3c>
+  1a:	f8d9 3000 	ldr.w	r3, [r9]
+  1e:	4621      	mov	r1, r4
+  20:	462a      	mov	r2, r5
+  22:	4648      	mov	r0, r9
+  24:	691b      	ldr	r3, [r3, #16]
+  26:	4798      	blx	r3
+  28:	4603      	mov	r3, r0
+  2a:	463a      	mov	r2, r7
+  2c:	4620      	mov	r0, r4
+  2e:	4629      	mov	r1, r5
+  30:	3401      	adds	r4, #1
+  32:	2b00      	cmp	r3, #0
+  34:	d1ee      	bne.n	14 <_ZN22FsBlockDeviceInterface19readSectorsCallbackEmPhjPFvmS0_PvES1_+0x14>
+  36:	4618      	mov	r0, r3
+  38:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  3c:	2301      	movs	r3, #1
+  3e:	4618      	mov	r0, r3
+  40:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+
+Disassembly of section .text._ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv:
+
+00000000 <_ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv>:
+   0:	b410      	push	{r4}
+   2:	6814      	ldr	r4, [r2, #0]
+   4:	f5b4 7f80 	cmp.w	r4, #256	; 0x100
+   8:	46a4      	mov	ip, r4
+   a:	bf28      	it	cs
+   c:	f44f 7c80 	movcs.w	ip, #256	; 0x100
+  10:	eb01 004c 	add.w	r0, r1, ip, lsl #1
+  14:	4281      	cmp	r1, r0
+  16:	d207      	bcs.n	28 <_ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv+0x28>
+  18:	f831 3b02 	ldrh.w	r3, [r1], #2
+  1c:	b913      	cbnz	r3, 24 <_ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv+0x24>
+  1e:	6853      	ldr	r3, [r2, #4]
+  20:	3301      	adds	r3, #1
+  22:	6053      	str	r3, [r2, #4]
+  24:	4288      	cmp	r0, r1
+  26:	d8f7      	bhi.n	18 <_ZN12FatPartition25freeClusterCount_cb_fat16EmPhPv+0x18>
+  28:	eba4 040c 	sub.w	r4, r4, ip
+  2c:	6014      	str	r4, [r2, #0]
+  2e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  32:	4770      	bx	lr
+
+Disassembly of section .text._ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv:
+
+00000000 <_ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv>:
+   0:	b410      	push	{r4}
+   2:	6814      	ldr	r4, [r2, #0]
+   4:	2c80      	cmp	r4, #128	; 0x80
+   6:	46a4      	mov	ip, r4
+   8:	bf28      	it	cs
+   a:	f04f 0c80 	movcs.w	ip, #128	; 0x80
+   e:	eb01 008c 	add.w	r0, r1, ip, lsl #2
+  12:	4281      	cmp	r1, r0
+  14:	d207      	bcs.n	26 <_ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv+0x26>
+  16:	f851 3b04 	ldr.w	r3, [r1], #4
+  1a:	b913      	cbnz	r3, 22 <_ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv+0x22>
+  1c:	6853      	ldr	r3, [r2, #4]
+  1e:	3301      	adds	r3, #1
+  20:	6053      	str	r3, [r2, #4]
+  22:	4288      	cmp	r0, r1
+  24:	d8f7      	bhi.n	16 <_ZN12FatPartition25freeClusterCount_cb_fat32EmPhPv+0x16>
+  26:	eba4 040c 	sub.w	r4, r4, ip
+  2a:	6014      	str	r4, [r2, #0]
+  2c:	f85d 4b04 	ldr.w	r4, [sp], #4
+  30:	4770      	bx	lr
+  32:	bf00      	nop
+
+Disassembly of section .text._ZN12FatPartition6fatGetEmPm.part.0:
+
+00000000 <_ZN12FatPartition6fatGetEmPm.part.0>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	79c3      	ldrb	r3, [r0, #7]
+   6:	4604      	mov	r4, r0
+   8:	460d      	mov	r5, r1
+   a:	4617      	mov	r7, r2
+   c:	2b20      	cmp	r3, #32
+   e:	d059      	beq.n	c4 <_ZN12FatPartition6fatGetEmPm.part.0+0xc4>
+  10:	2b10      	cmp	r3, #16
+  12:	d030      	beq.n	76 <_ZN12FatPartition6fatGetEmPm.part.0+0x76>
+  14:	2b0c      	cmp	r3, #12
+  16:	d151      	bne.n	bc <_ZN12FatPartition6fatGetEmPm.part.0+0xbc>
+  18:	7a02      	ldrb	r2, [r0, #8]
+  1a:	f3c1 014e 	ubfx	r1, r1, #1, #15
+  1e:	6983      	ldr	r3, [r0, #24]
+  20:	f500 790e 	add.w	r9, r0, #568	; 0x238
+  24:	fa11 f185 	uxtah	r1, r1, r5
+  28:	f1a2 0202 	sub.w	r2, r2, #2
+  2c:	4648      	mov	r0, r9
+  2e:	b28e      	uxth	r6, r1
+  30:	fab2 f282 	clz	r2, r2
+  34:	f3c1 2146 	ubfx	r1, r1, #9, #7
+  38:	0952      	lsrs	r2, r2, #5
+  3a:	eb01 0803 	add.w	r8, r1, r3
+  3e:	0052      	lsls	r2, r2, #1
+  40:	4641      	mov	r1, r8
+  42:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  46:	2800      	cmp	r0, #0
+  48:	d038      	beq.n	bc <_ZN12FatPartition6fatGetEmPm.part.0+0xbc>
+  4a:	f3c6 0608 	ubfx	r6, r6, #0, #9
+  4e:	1c73      	adds	r3, r6, #1
+  50:	5d86      	ldrb	r6, [r0, r6]
+  52:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  56:	d023      	beq.n	a0 <_ZN12FatPartition6fatGetEmPm.part.0+0xa0>
+  58:	4418      	add	r0, r3
+  5a:	7803      	ldrb	r3, [r0, #0]
+  5c:	07ea      	lsls	r2, r5, #31
+  5e:	69e2      	ldr	r2, [r4, #28]
+  60:	ea46 2303 	orr.w	r3, r6, r3, lsl #8
+  64:	bf4c      	ite	mi
+  66:	091b      	lsrmi	r3, r3, #4
+  68:	f3c3 030b 	ubfxpl	r3, r3, #0, #12
+  6c:	429a      	cmp	r2, r3
+  6e:	d240      	bcs.n	f2 <_ZN12FatPartition6fatGetEmPm.part.0+0xf2>
+  70:	2000      	movs	r0, #0
+  72:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  76:	7a02      	ldrb	r2, [r0, #8]
+  78:	f3c1 2107 	ubfx	r1, r1, #8, #8
+  7c:	6983      	ldr	r3, [r0, #24]
+  7e:	f500 700e 	add.w	r0, r0, #568	; 0x238
+  82:	f1a2 0202 	sub.w	r2, r2, #2
+  86:	4419      	add	r1, r3
+  88:	fab2 f282 	clz	r2, r2
+  8c:	0952      	lsrs	r2, r2, #5
+  8e:	0052      	lsls	r2, r2, #1
+  90:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  94:	b190      	cbz	r0, bc <_ZN12FatPartition6fatGetEmPm.part.0+0xbc>
+  96:	006d      	lsls	r5, r5, #1
+  98:	f405 75ff 	and.w	r5, r5, #510	; 0x1fe
+  9c:	5b43      	ldrh	r3, [r0, r5]
+  9e:	e025      	b.n	ec <_ZN12FatPartition6fatGetEmPm.part.0+0xec>
+  a0:	7a22      	ldrb	r2, [r4, #8]
+  a2:	f108 0101 	add.w	r1, r8, #1
+  a6:	4648      	mov	r0, r9
+  a8:	f1a2 0202 	sub.w	r2, r2, #2
+  ac:	fab2 f282 	clz	r2, r2
+  b0:	0952      	lsrs	r2, r2, #5
+  b2:	0052      	lsls	r2, r2, #1
+  b4:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  b8:	2800      	cmp	r0, #0
+  ba:	d1ce      	bne.n	5a <_ZN12FatPartition6fatGetEmPm.part.0+0x5a>
+  bc:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  c0:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  c4:	7a02      	ldrb	r2, [r0, #8]
+  c6:	6981      	ldr	r1, [r0, #24]
+  c8:	f500 700e 	add.w	r0, r0, #568	; 0x238
+  cc:	f1a2 0202 	sub.w	r2, r2, #2
+  d0:	eb01 11d5 	add.w	r1, r1, r5, lsr #7
+  d4:	fab2 f282 	clz	r2, r2
+  d8:	0952      	lsrs	r2, r2, #5
+  da:	0052      	lsls	r2, r2, #1
+  dc:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  e0:	2800      	cmp	r0, #0
+  e2:	d0eb      	beq.n	bc <_ZN12FatPartition6fatGetEmPm.part.0+0xbc>
+  e4:	00ad      	lsls	r5, r5, #2
+  e6:	f405 75fe 	and.w	r5, r5, #508	; 0x1fc
+  ea:	5943      	ldr	r3, [r0, r5]
+  ec:	69e2      	ldr	r2, [r4, #28]
+  ee:	429a      	cmp	r2, r3
+  f0:	d3be      	bcc.n	70 <_ZN12FatPartition6fatGetEmPm.part.0+0x70>
+  f2:	2001      	movs	r0, #1
+  f4:	603b      	str	r3, [r7, #0]
+  f6:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  fa:	bf00      	nop
+
+Disassembly of section .text._ZN12FatPartition6fatPutEmm.part.0:
+
+00000000 <_ZN12FatPartition6fatPutEmm.part.0>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	79c3      	ldrb	r3, [r0, #7]
+   6:	4605      	mov	r5, r0
+   8:	460c      	mov	r4, r1
+   a:	4616      	mov	r6, r2
+   c:	2b20      	cmp	r3, #32
+   e:	d048      	beq.n	a2 <_ZN12FatPartition6fatPutEmm.part.0+0xa2>
+  10:	2b10      	cmp	r3, #16
+  12:	d02d      	beq.n	70 <_ZN12FatPartition6fatPutEmm.part.0+0x70>
+  14:	2b0c      	cmp	r3, #12
+  16:	d141      	bne.n	9c <_ZN12FatPartition6fatPutEmm.part.0+0x9c>
+  18:	f3c1 014e 	ubfx	r1, r1, #1, #15
+  1c:	6983      	ldr	r3, [r0, #24]
+  1e:	f500 790e 	add.w	r9, r0, #568	; 0x238
+  22:	fa11 f184 	uxtah	r1, r1, r4
+  26:	fa1f f881 	uxth.w	r8, r1
+  2a:	f3c1 2146 	ubfx	r1, r1, #9, #7
+  2e:	18cf      	adds	r7, r1, r3
+  30:	7a03      	ldrb	r3, [r0, #8]
+  32:	4648      	mov	r0, r9
+  34:	2b02      	cmp	r3, #2
+  36:	4639      	mov	r1, r7
+  38:	bf14      	ite	ne
+  3a:	2201      	movne	r2, #1
+  3c:	2203      	moveq	r2, #3
+  3e:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  42:	b358      	cbz	r0, 9c <_ZN12FatPartition6fatPutEmm.part.0+0x9c>
+  44:	f014 0401 	ands.w	r4, r4, #1
+  48:	f3c8 0308 	ubfx	r3, r8, #0, #9
+  4c:	d03f      	beq.n	ce <_ZN12FatPartition6fatPutEmm.part.0+0xce>
+  4e:	5cc2      	ldrb	r2, [r0, r3]
+  50:	f002 020f 	and.w	r2, r2, #15
+  54:	ea42 1206 	orr.w	r2, r2, r6, lsl #4
+  58:	54c2      	strb	r2, [r0, r3]
+  5a:	3301      	adds	r3, #1
+  5c:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  60:	d03a      	beq.n	d8 <_ZN12FatPartition6fatPutEmm.part.0+0xd8>
+  62:	f3c6 1207 	ubfx	r2, r6, #4, #8
+  66:	4403      	add	r3, r0
+  68:	2001      	movs	r0, #1
+  6a:	701a      	strb	r2, [r3, #0]
+  6c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  70:	7a02      	ldrb	r2, [r0, #8]
+  72:	f3c1 2107 	ubfx	r1, r1, #8, #8
+  76:	6983      	ldr	r3, [r0, #24]
+  78:	f500 700e 	add.w	r0, r0, #568	; 0x238
+  7c:	2a02      	cmp	r2, #2
+  7e:	4419      	add	r1, r3
+  80:	bf14      	ite	ne
+  82:	2201      	movne	r2, #1
+  84:	2203      	moveq	r2, #3
+  86:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  8a:	4603      	mov	r3, r0
+  8c:	b130      	cbz	r0, 9c <_ZN12FatPartition6fatPutEmm.part.0+0x9c>
+  8e:	0064      	lsls	r4, r4, #1
+  90:	2001      	movs	r0, #1
+  92:	f404 74ff 	and.w	r4, r4, #510	; 0x1fe
+  96:	531e      	strh	r6, [r3, r4]
+  98:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  9c:	2000      	movs	r0, #0
+  9e:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  a2:	7a03      	ldrb	r3, [r0, #8]
+  a4:	6981      	ldr	r1, [r0, #24]
+  a6:	f500 700e 	add.w	r0, r0, #568	; 0x238
+  aa:	2b02      	cmp	r3, #2
+  ac:	eb01 11d4 	add.w	r1, r1, r4, lsr #7
+  b0:	bf14      	ite	ne
+  b2:	2201      	movne	r2, #1
+  b4:	2203      	moveq	r2, #3
+  b6:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  ba:	4603      	mov	r3, r0
+  bc:	2800      	cmp	r0, #0
+  be:	d0ed      	beq.n	9c <_ZN12FatPartition6fatPutEmm.part.0+0x9c>
+  c0:	00a4      	lsls	r4, r4, #2
+  c2:	2001      	movs	r0, #1
+  c4:	f404 74fe 	and.w	r4, r4, #508	; 0x1fc
+  c8:	511e      	str	r6, [r3, r4]
+  ca:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  ce:	54c6      	strb	r6, [r0, r3]
+  d0:	3301      	adds	r3, #1
+  d2:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  d6:	d115      	bne.n	104 <_ZN12FatPartition6fatPutEmm.part.0+0x104>
+  d8:	7a2b      	ldrb	r3, [r5, #8]
+  da:	1c79      	adds	r1, r7, #1
+  dc:	4648      	mov	r0, r9
+  de:	2b02      	cmp	r3, #2
+  e0:	bf14      	ite	ne
+  e2:	2201      	movne	r2, #1
+  e4:	2203      	moveq	r2, #3
+  e6:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  ea:	4603      	mov	r3, r0
+  ec:	2800      	cmp	r0, #0
+  ee:	d0d5      	beq.n	9c <_ZN12FatPartition6fatPutEmm.part.0+0x9c>
+  f0:	f3c6 1207 	ubfx	r2, r6, #4, #8
+  f4:	2c00      	cmp	r4, #0
+  f6:	d1b7      	bne.n	68 <_ZN12FatPartition6fatPutEmm.part.0+0x68>
+  f8:	7819      	ldrb	r1, [r3, #0]
+  fa:	f021 010f 	bic.w	r1, r1, #15
+  fe:	ea41 1212 	orr.w	r2, r1, r2, lsr #4
+ 102:	e7b1      	b.n	68 <_ZN12FatPartition6fatPutEmm.part.0+0x68>
+ 104:	f3c6 1207 	ubfx	r2, r6, #4, #8
+ 108:	4403      	add	r3, r0
+ 10a:	e7f5      	b.n	f8 <_ZN12FatPartition6fatPutEmm.part.0+0xf8>
+
+Disassembly of section .text._ZN12FatPartition15allocateClusterEmPm:
+
+00000000 <_ZN12FatPartition15allocateClusterEmPm>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	68c4      	ldr	r4, [r0, #12]
+   6:	b082      	sub	sp, #8
+   8:	4605      	mov	r5, r0
+   a:	460e      	mov	r6, r1
+   c:	428c      	cmp	r4, r1
+   e:	4690      	mov	r8, r2
+  10:	d340      	bcc.n	94 <_ZN12FatPartition15allocateClusterEmPm+0x94>
+  12:	2701      	movs	r7, #1
+  14:	3401      	adds	r4, #1
+  16:	69eb      	ldr	r3, [r5, #28]
+  18:	aa01      	add	r2, sp, #4
+  1a:	4628      	mov	r0, r5
+  1c:	42a3      	cmp	r3, r4
+  1e:	d205      	bcs.n	2c <_ZN12FatPartition15allocateClusterEmPm+0x2c>
+  20:	bb9f      	cbnz	r7, 8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  22:	68ec      	ldr	r4, [r5, #12]
+  24:	2701      	movs	r7, #1
+  26:	443c      	add	r4, r7
+  28:	42a3      	cmp	r3, r4
+  2a:	d32e      	bcc.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  2c:	42a6      	cmp	r6, r4
+  2e:	bf18      	it	ne
+  30:	2c01      	cmpne	r4, #1
+  32:	4621      	mov	r1, r4
+  34:	d929      	bls.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  36:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocateClusterEmPm>
+  3a:	2800      	cmp	r0, #0
+  3c:	db25      	blt.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  3e:	d0e9      	beq.n	14 <_ZN12FatPartition15allocateClusterEmPm+0x14>
+  40:	9b01      	ldr	r3, [sp, #4]
+  42:	2b00      	cmp	r3, #0
+  44:	d1e6      	bne.n	14 <_ZN12FatPartition15allocateClusterEmPm+0x14>
+  46:	b107      	cbz	r7, 4a <_ZN12FatPartition15allocateClusterEmPm+0x4a>
+  48:	60ec      	str	r4, [r5, #12]
+  4a:	69eb      	ldr	r3, [r5, #28]
+  4c:	42a3      	cmp	r3, r4
+  4e:	d31c      	bcc.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  50:	f06f 4270 	mvn.w	r2, #4026531840	; 0xf0000000
+  54:	4621      	mov	r1, r4
+  56:	4628      	mov	r0, r5
+  58:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocateClusterEmPm>
+  5c:	4607      	mov	r7, r0
+  5e:	b1a0      	cbz	r0, 8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  60:	b93e      	cbnz	r6, 72 <_ZN12FatPartition15allocateClusterEmPm+0x72>
+  62:	6a6b      	ldr	r3, [r5, #36]	; 0x24
+  64:	2b00      	cmp	r3, #0
+  66:	db01      	blt.n	6c <_ZN12FatPartition15allocateClusterEmPm+0x6c>
+  68:	3b01      	subs	r3, #1
+  6a:	626b      	str	r3, [r5, #36]	; 0x24
+  6c:	f8c8 4000 	str.w	r4, [r8]
+  70:	e00c      	b.n	8c <_ZN12FatPartition15allocateClusterEmPm+0x8c>
+  72:	2e01      	cmp	r6, #1
+  74:	d009      	beq.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  76:	69eb      	ldr	r3, [r5, #28]
+  78:	429e      	cmp	r6, r3
+  7a:	d806      	bhi.n	8a <_ZN12FatPartition15allocateClusterEmPm+0x8a>
+  7c:	4631      	mov	r1, r6
+  7e:	4622      	mov	r2, r4
+  80:	4628      	mov	r0, r5
+  82:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocateClusterEmPm>
+  86:	2800      	cmp	r0, #0
+  88:	d1eb      	bne.n	62 <_ZN12FatPartition15allocateClusterEmPm+0x62>
+  8a:	2700      	movs	r7, #0
+  8c:	4638      	mov	r0, r7
+  8e:	b002      	add	sp, #8
+  90:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  94:	460c      	mov	r4, r1
+  96:	2700      	movs	r7, #0
+  98:	e7bc      	b.n	14 <_ZN12FatPartition15allocateClusterEmPm+0x14>
+  9a:	bf00      	nop
+
+Disassembly of section .text._ZN12FatPartition15allocContiguousEmPm:
+
+00000000 <_ZN12FatPartition15allocContiguousEmPm>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	68c4      	ldr	r4, [r0, #12]
+   6:	4692      	mov	sl, r2
+   8:	69c2      	ldr	r2, [r0, #28]
+   a:	b084      	sub	sp, #16
+   c:	3401      	adds	r4, #1
+   e:	2c01      	cmp	r4, #1
+  10:	bf8c      	ite	hi
+  12:	2300      	movhi	r3, #0
+  14:	2301      	movls	r3, #1
+  16:	4294      	cmp	r4, r2
+  18:	bf88      	it	hi
+  1a:	f043 0301 	orrhi.w	r3, r3, #1
+  1e:	bb53      	cbnz	r3, 76 <_ZN12FatPartition15allocContiguousEmPm+0x76>
+  20:	4605      	mov	r5, r0
+  22:	460e      	mov	r6, r1
+  24:	46a0      	mov	r8, r4
+  26:	f04f 0901 	mov.w	r9, #1
+  2a:	e00a      	b.n	42 <_ZN12FatPartition15allocContiguousEmPm+0x42>
+  2c:	45a0      	cmp	r8, r4
+  2e:	bf18      	it	ne
+  30:	f04f 0900 	movne.w	r9, #0
+  34:	69eb      	ldr	r3, [r5, #28]
+  36:	3401      	adds	r4, #1
+  38:	42a3      	cmp	r3, r4
+  3a:	46a0      	mov	r8, r4
+  3c:	d31b      	bcc.n	76 <_ZN12FatPartition15allocContiguousEmPm+0x76>
+  3e:	2c01      	cmp	r4, #1
+  40:	d919      	bls.n	76 <_ZN12FatPartition15allocContiguousEmPm+0x76>
+  42:	4621      	mov	r1, r4
+  44:	aa03      	add	r2, sp, #12
+  46:	4628      	mov	r0, r5
+  48:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocContiguousEmPm>
+  4c:	2800      	cmp	r0, #0
+  4e:	fab0 f380 	clz	r3, r0
+  52:	db10      	blt.n	76 <_ZN12FatPartition15allocContiguousEmPm+0x76>
+  54:	9a03      	ldr	r2, [sp, #12]
+  56:	095b      	lsrs	r3, r3, #5
+  58:	2a00      	cmp	r2, #0
+  5a:	bf18      	it	ne
+  5c:	f043 0301 	orrne.w	r3, r3, #1
+  60:	2b00      	cmp	r3, #0
+  62:	d1e3      	bne.n	2c <_ZN12FatPartition15allocContiguousEmPm+0x2c>
+  64:	1c62      	adds	r2, r4, #1
+  66:	eba2 0108 	sub.w	r1, r2, r8
+  6a:	42b1      	cmp	r1, r6
+  6c:	d008      	beq.n	80 <_ZN12FatPartition15allocContiguousEmPm+0x80>
+  6e:	4614      	mov	r4, r2
+  70:	69eb      	ldr	r3, [r5, #28]
+  72:	42a3      	cmp	r3, r4
+  74:	d2e3      	bcs.n	3e <_ZN12FatPartition15allocContiguousEmPm+0x3e>
+  76:	2300      	movs	r3, #0
+  78:	4618      	mov	r0, r3
+  7a:	b004      	add	sp, #16
+  7c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  80:	f1b9 0f00 	cmp.w	r9, #0
+  84:	d000      	beq.n	88 <_ZN12FatPartition15allocContiguousEmPm+0x88>
+  86:	60ec      	str	r4, [r5, #12]
+  88:	69ea      	ldr	r2, [r5, #28]
+  8a:	42a2      	cmp	r2, r4
+  8c:	d3f4      	bcc.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+  8e:	f06f 4270 	mvn.w	r2, #4026531840	; 0xf0000000
+  92:	4621      	mov	r1, r4
+  94:	4628      	mov	r0, r5
+  96:	9301      	str	r3, [sp, #4]
+  98:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocContiguousEmPm>
+  9c:	9b01      	ldr	r3, [sp, #4]
+  9e:	4681      	mov	r9, r0
+  a0:	2800      	cmp	r0, #0
+  a2:	d0e9      	beq.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+  a4:	f104 3cff 	add.w	ip, r4, #4294967295	; 0xffffffff
+  a8:	4544      	cmp	r4, r8
+  aa:	4622      	mov	r2, r4
+  ac:	4628      	mov	r0, r5
+  ae:	4661      	mov	r1, ip
+  b0:	4664      	mov	r4, ip
+  b2:	d90c      	bls.n	ce <_ZN12FatPartition15allocContiguousEmPm+0xce>
+  b4:	f1bc 0f01 	cmp.w	ip, #1
+  b8:	d9de      	bls.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+  ba:	69ef      	ldr	r7, [r5, #28]
+  bc:	45bc      	cmp	ip, r7
+  be:	d8db      	bhi.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+  c0:	9301      	str	r3, [sp, #4]
+  c2:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocContiguousEmPm>
+  c6:	9b01      	ldr	r3, [sp, #4]
+  c8:	2800      	cmp	r0, #0
+  ca:	d1eb      	bne.n	a4 <_ZN12FatPartition15allocContiguousEmPm+0xa4>
+  cc:	e7d4      	b.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+  ce:	6a6b      	ldr	r3, [r5, #36]	; 0x24
+  d0:	2b00      	cmp	r3, #0
+  d2:	db01      	blt.n	d8 <_ZN12FatPartition15allocContiguousEmPm+0xd8>
+  d4:	1b9b      	subs	r3, r3, r6
+  d6:	626b      	str	r3, [r5, #36]	; 0x24
+  d8:	464b      	mov	r3, r9
+  da:	f8ca 8000 	str.w	r8, [sl]
+  de:	e7cb      	b.n	78 <_ZN12FatPartition15allocContiguousEmPm+0x78>
+
+Disassembly of section .text._ZN12FatPartition6fatGetEmPm:
+
+00000000 <_ZN12FatPartition6fatGetEmPm>:
+   0:	2901      	cmp	r1, #1
+   2:	d90c      	bls.n	1e <_ZN12FatPartition6fatGetEmPm+0x1e>
+   4:	b410      	push	{r4}
+   6:	69c4      	ldr	r4, [r0, #28]
+   8:	428c      	cmp	r4, r1
+   a:	d303      	bcc.n	14 <_ZN12FatPartition6fatGetEmPm+0x14>
+   c:	f85d 4b04 	ldr.w	r4, [sp], #4
+  10:	f7ff bffe 	b.w	0 <_ZN12FatPartition6fatGetEmPm>
+  14:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  18:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1c:	4770      	bx	lr
+  1e:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN12FatPartition6fatPutEmm:
+
+00000000 <_ZN12FatPartition6fatPutEmm>:
+   0:	2901      	cmp	r1, #1
+   2:	d90b      	bls.n	1c <_ZN12FatPartition6fatPutEmm+0x1c>
+   4:	b410      	push	{r4}
+   6:	69c4      	ldr	r4, [r0, #28]
+   8:	428c      	cmp	r4, r1
+   a:	d303      	bcc.n	14 <_ZN12FatPartition6fatPutEmm+0x14>
+   c:	f85d 4b04 	ldr.w	r4, [sp], #4
+  10:	f7ff bffe 	b.w	0 <_ZN12FatPartition6fatPutEmm>
+  14:	2000      	movs	r0, #0
+  16:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1a:	4770      	bx	lr
+  1c:	2000      	movs	r0, #0
+  1e:	4770      	bx	lr
+
+Disassembly of section .text._ZN12FatPartition9freeChainEm:
+
+00000000 <_ZN12FatPartition9freeChainEm>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2300      	movs	r3, #0
+   4:	b082      	sub	sp, #8
+   6:	4605      	mov	r5, r0
+   8:	460c      	mov	r4, r1
+   a:	9301      	str	r3, [sp, #4]
+   c:	e01d      	b.n	4a <_ZN12FatPartition9freeChainEm+0x4a>
+   e:	69eb      	ldr	r3, [r5, #28]
+  10:	429c      	cmp	r4, r3
+  12:	d81f      	bhi.n	54 <_ZN12FatPartition9freeChainEm+0x54>
+  14:	f7ff fffe 	bl	0 <_ZN12FatPartition9freeChainEm>
+  18:	4606      	mov	r6, r0
+  1a:	4621      	mov	r1, r4
+  1c:	2200      	movs	r2, #0
+  1e:	2e00      	cmp	r6, #0
+  20:	4628      	mov	r0, r5
+  22:	db17      	blt.n	54 <_ZN12FatPartition9freeChainEm+0x54>
+  24:	69eb      	ldr	r3, [r5, #28]
+  26:	429c      	cmp	r4, r3
+  28:	d814      	bhi.n	54 <_ZN12FatPartition9freeChainEm+0x54>
+  2a:	f7ff fffe 	bl	0 <_ZN12FatPartition9freeChainEm>
+  2e:	1e62      	subs	r2, r4, #1
+  30:	b180      	cbz	r0, 54 <_ZN12FatPartition9freeChainEm+0x54>
+  32:	6a6b      	ldr	r3, [r5, #36]	; 0x24
+  34:	2b00      	cmp	r3, #0
+  36:	f103 0301 	add.w	r3, r3, #1
+  3a:	bfa8      	it	ge
+  3c:	626b      	strge	r3, [r5, #36]	; 0x24
+  3e:	68eb      	ldr	r3, [r5, #12]
+  40:	42a3      	cmp	r3, r4
+  42:	9c01      	ldr	r4, [sp, #4]
+  44:	bf88      	it	hi
+  46:	60ea      	strhi	r2, [r5, #12]
+  48:	b12e      	cbz	r6, 56 <_ZN12FatPartition9freeChainEm+0x56>
+  4a:	2c01      	cmp	r4, #1
+  4c:	4621      	mov	r1, r4
+  4e:	aa01      	add	r2, sp, #4
+  50:	4628      	mov	r0, r5
+  52:	d8dc      	bhi.n	e <_ZN12FatPartition9freeChainEm+0xe>
+  54:	2000      	movs	r0, #0
+  56:	b002      	add	sp, #8
+  58:	bd70      	pop	{r4, r5, r6, pc}
+  5a:	bf00      	nop
+
+Disassembly of section .text._ZN12FatPartition16freeClusterCountEv:
+
+00000000 <_ZN12FatPartition16freeClusterCountEv>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4606      	mov	r6, r0
+   6:	6a40      	ldr	r0, [r0, #36]	; 0x24
+   8:	b084      	sub	sp, #16
+   a:	2800      	cmp	r0, #0
+   c:	da1b      	bge.n	46 <_ZN12FatPartition16freeClusterCountEv+0x46>
+   e:	79f2      	ldrb	r2, [r6, #7]
+  10:	2a0c      	cmp	r2, #12
+  12:	d11b      	bne.n	4c <_ZN12FatPartition16freeClusterCountEv+0x4c>
+  14:	69f7      	ldr	r7, [r6, #28]
+  16:	1c7b      	adds	r3, r7, #1
+  18:	2b02      	cmp	r3, #2
+  1a:	f240 80cd 	bls.w	1b8 <_ZN12FatPartition16freeClusterCountEv+0x1b8>
+  1e:	2402      	movs	r4, #2
+  20:	2500      	movs	r5, #0
+  22:	4621      	mov	r1, r4
+  24:	aa02      	add	r2, sp, #8
+  26:	4630      	mov	r0, r6
+  28:	f7ff fffe 	bl	0 <_ZN12FatPartition16freeClusterCountEv>
+  2c:	2800      	cmp	r0, #0
+  2e:	f104 0301 	add.w	r3, r4, #1
+  32:	db06      	blt.n	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+  34:	d157      	bne.n	e6 <_ZN12FatPartition16freeClusterCountEv+0xe6>
+  36:	42a7      	cmp	r7, r4
+  38:	461c      	mov	r4, r3
+  3a:	d05c      	beq.n	f6 <_ZN12FatPartition16freeClusterCountEv+0xf6>
+  3c:	69f2      	ldr	r2, [r6, #28]
+  3e:	4293      	cmp	r3, r2
+  40:	d9ef      	bls.n	22 <_ZN12FatPartition16freeClusterCountEv+0x22>
+  42:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  46:	b004      	add	sp, #16
+  48:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  4c:	69f1      	ldr	r1, [r6, #28]
+  4e:	2000      	movs	r0, #0
+  50:	f896 3238 	ldrb.w	r3, [r6, #568]	; 0x238
+  54:	3101      	adds	r1, #1
+  56:	6934      	ldr	r4, [r6, #16]
+  58:	07db      	lsls	r3, r3, #31
+  5a:	e9cd 1002 	strd	r1, r0, [sp, #8]
+  5e:	f100 8085 	bmi.w	16c <_ZN12FatPartition16freeClusterCountEv+0x16c>
+  62:	2100      	movs	r1, #0
+  64:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  68:	2a20      	cmp	r2, #32
+  6a:	f506 7712 	add.w	r7, r6, #584	; 0x248
+  6e:	f886 1238 	strb.w	r1, [r6, #568]	; 0x238
+  72:	f8c6 3244 	str.w	r3, [r6, #580]	; 0x244
+  76:	d042      	beq.n	fe <_ZN12FatPartition16freeClusterCountEv+0xfe>
+  78:	f8d6 8000 	ldr.w	r8, [r6]
+  7c:	4b4f      	ldr	r3, [pc, #316]	; (1bc <_ZN12FatPartition16freeClusterCountEv+0x1bc>)
+  7e:	f8d8 2000 	ldr.w	r2, [r8]
+  82:	f8d6 a018 	ldr.w	sl, [r6, #24]
+  86:	6995      	ldr	r5, [r2, #24]
+  88:	429d      	cmp	r5, r3
+  8a:	d178      	bne.n	17e <_ZN12FatPartition16freeClusterCountEv+0x17e>
+  8c:	2c00      	cmp	r4, #0
+  8e:	f000 8082 	beq.w	196 <_ZN12FatPartition16freeClusterCountEv+0x196>
+  92:	eb0a 0904 	add.w	r9, sl, r4
+  96:	6913      	ldr	r3, [r2, #16]
+  98:	4651      	mov	r1, sl
+  9a:	463a      	mov	r2, r7
+  9c:	4640      	mov	r0, r8
+  9e:	4798      	blx	r3
+  a0:	2800      	cmp	r0, #0
+  a2:	d0ce      	beq.n	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+  a4:	9902      	ldr	r1, [sp, #8]
+  a6:	f5b1 7f80 	cmp.w	r1, #256	; 0x100
+  aa:	468e      	mov	lr, r1
+  ac:	bf28      	it	cs
+  ae:	f44f 7e80 	movcs.w	lr, #256	; 0x100
+  b2:	eb07 0c4e 	add.w	ip, r7, lr, lsl #1
+  b6:	45bc      	cmp	ip, r7
+  b8:	d90b      	bls.n	d2 <_ZN12FatPartition16freeClusterCountEv+0xd2>
+  ba:	9d03      	ldr	r5, [sp, #12]
+  bc:	463b      	mov	r3, r7
+  be:	2200      	movs	r2, #0
+  c0:	f833 4b02 	ldrh.w	r4, [r3], #2
+  c4:	b90c      	cbnz	r4, ca <_ZN12FatPartition16freeClusterCountEv+0xca>
+  c6:	3501      	adds	r5, #1
+  c8:	4602      	mov	r2, r0
+  ca:	459c      	cmp	ip, r3
+  cc:	d8f8      	bhi.n	c0 <_ZN12FatPartition16freeClusterCountEv+0xc0>
+  ce:	b102      	cbz	r2, d2 <_ZN12FatPartition16freeClusterCountEv+0xd2>
+  d0:	9503      	str	r5, [sp, #12]
+  d2:	f10a 0a01 	add.w	sl, sl, #1
+  d6:	eba1 010e 	sub.w	r1, r1, lr
+  da:	45d1      	cmp	r9, sl
+  dc:	9102      	str	r1, [sp, #8]
+  de:	d05a      	beq.n	196 <_ZN12FatPartition16freeClusterCountEv+0x196>
+  e0:	f8d8 2000 	ldr.w	r2, [r8]
+  e4:	e7d7      	b.n	96 <_ZN12FatPartition16freeClusterCountEv+0x96>
+  e6:	9a02      	ldr	r2, [sp, #8]
+  e8:	2a00      	cmp	r2, #0
+  ea:	d1a4      	bne.n	36 <_ZN12FatPartition16freeClusterCountEv+0x36>
+  ec:	42a7      	cmp	r7, r4
+  ee:	f105 0501 	add.w	r5, r5, #1
+  f2:	461c      	mov	r4, r3
+  f4:	d1a2      	bne.n	3c <_ZN12FatPartition16freeClusterCountEv+0x3c>
+  f6:	4628      	mov	r0, r5
+  f8:	b004      	add	sp, #16
+  fa:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  fe:	f8d6 a000 	ldr.w	sl, [r6]
+ 102:	4b2e      	ldr	r3, [pc, #184]	; (1bc <_ZN12FatPartition16freeClusterCountEv+0x1bc>)
+ 104:	f8da 2000 	ldr.w	r2, [sl]
+ 108:	f8d6 9018 	ldr.w	r9, [r6, #24]
+ 10c:	6995      	ldr	r5, [r2, #24]
+ 10e:	429d      	cmp	r5, r3
+ 110:	d146      	bne.n	1a0 <_ZN12FatPartition16freeClusterCountEv+0x1a0>
+ 112:	2c00      	cmp	r4, #0
+ 114:	d03f      	beq.n	196 <_ZN12FatPartition16freeClusterCountEv+0x196>
+ 116:	eb09 0804 	add.w	r8, r9, r4
+ 11a:	6913      	ldr	r3, [r2, #16]
+ 11c:	4649      	mov	r1, r9
+ 11e:	463a      	mov	r2, r7
+ 120:	4650      	mov	r0, sl
+ 122:	4798      	blx	r3
+ 124:	2800      	cmp	r0, #0
+ 126:	d08c      	beq.n	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+ 128:	f8dd c008 	ldr.w	ip, [sp, #8]
+ 12c:	f1bc 0f80 	cmp.w	ip, #128	; 0x80
+ 130:	46e6      	mov	lr, ip
+ 132:	bf28      	it	cs
+ 134:	f04f 0e80 	movcs.w	lr, #128	; 0x80
+ 138:	eb07 028e 	add.w	r2, r7, lr, lsl #2
+ 13c:	42ba      	cmp	r2, r7
+ 13e:	d90b      	bls.n	158 <_ZN12FatPartition16freeClusterCountEv+0x158>
+ 140:	9d03      	ldr	r5, [sp, #12]
+ 142:	463b      	mov	r3, r7
+ 144:	2100      	movs	r1, #0
+ 146:	f853 4b04 	ldr.w	r4, [r3], #4
+ 14a:	b90c      	cbnz	r4, 150 <_ZN12FatPartition16freeClusterCountEv+0x150>
+ 14c:	3501      	adds	r5, #1
+ 14e:	4601      	mov	r1, r0
+ 150:	429a      	cmp	r2, r3
+ 152:	d8f8      	bhi.n	146 <_ZN12FatPartition16freeClusterCountEv+0x146>
+ 154:	b101      	cbz	r1, 158 <_ZN12FatPartition16freeClusterCountEv+0x158>
+ 156:	9503      	str	r5, [sp, #12]
+ 158:	f109 0901 	add.w	r9, r9, #1
+ 15c:	ebac 030e 	sub.w	r3, ip, lr
+ 160:	45c8      	cmp	r8, r9
+ 162:	9302      	str	r3, [sp, #8]
+ 164:	d017      	beq.n	196 <_ZN12FatPartition16freeClusterCountEv+0x196>
+ 166:	f8da 2000 	ldr.w	r2, [sl]
+ 16a:	e7d6      	b.n	11a <_ZN12FatPartition16freeClusterCountEv+0x11a>
+ 16c:	f506 700e 	add.w	r0, r6, #568	; 0x238
+ 170:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 174:	2800      	cmp	r0, #0
+ 176:	f43f af64 	beq.w	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+ 17a:	79f2      	ldrb	r2, [r6, #7]
+ 17c:	e771      	b.n	62 <_ZN12FatPartition16freeClusterCountEv+0x62>
+ 17e:	4623      	mov	r3, r4
+ 180:	ac02      	add	r4, sp, #8
+ 182:	463a      	mov	r2, r7
+ 184:	4651      	mov	r1, sl
+ 186:	9401      	str	r4, [sp, #4]
+ 188:	4640      	mov	r0, r8
+ 18a:	4c0d      	ldr	r4, [pc, #52]	; (1c0 <_ZN12FatPartition16freeClusterCountEv+0x1c0>)
+ 18c:	9400      	str	r4, [sp, #0]
+ 18e:	47a8      	blx	r5
+ 190:	2800      	cmp	r0, #0
+ 192:	f43f af56 	beq.w	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+ 196:	9803      	ldr	r0, [sp, #12]
+ 198:	6270      	str	r0, [r6, #36]	; 0x24
+ 19a:	b004      	add	sp, #16
+ 19c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 1a0:	4623      	mov	r3, r4
+ 1a2:	ac02      	add	r4, sp, #8
+ 1a4:	463a      	mov	r2, r7
+ 1a6:	4649      	mov	r1, r9
+ 1a8:	9401      	str	r4, [sp, #4]
+ 1aa:	4650      	mov	r0, sl
+ 1ac:	4c05      	ldr	r4, [pc, #20]	; (1c4 <_ZN12FatPartition16freeClusterCountEv+0x1c4>)
+ 1ae:	9400      	str	r4, [sp, #0]
+ 1b0:	47a8      	blx	r5
+ 1b2:	2800      	cmp	r0, #0
+ 1b4:	d1ef      	bne.n	196 <_ZN12FatPartition16freeClusterCountEv+0x196>
+ 1b6:	e744      	b.n	42 <_ZN12FatPartition16freeClusterCountEv+0x42>
+ 1b8:	2000      	movs	r0, #0
+ 1ba:	e744      	b.n	46 <_ZN12FatPartition16freeClusterCountEv+0x46>
+ 1bc:	00000000 	.word	0x00000000
+ 1c0:	00000000 	.word	0x00000000
+ 1c4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN12FatPartition4initEP22FsBlockDeviceInterfaceh:
+
+00000000 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2300      	movs	r3, #0
+   4:	4604      	mov	r4, r0
+   6:	4615      	mov	r5, r2
+   8:	2001      	movs	r0, #1
+   a:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+   e:	f104 0628 	add.w	r6, r4, #40	; 0x28
+  12:	6021      	str	r1, [r4, #0]
+  14:	71e3      	strb	r3, [r4, #7]
+  16:	60e0      	str	r0, [r4, #12]
+  18:	62e1      	str	r1, [r4, #44]	; 0x2c
+  1a:	f8c4 123c 	str.w	r1, [r4, #572]	; 0x23c
+  1e:	f884 3028 	strb.w	r3, [r4, #40]	; 0x28
+  22:	f884 3238 	strb.w	r3, [r4, #568]	; 0x238
+  26:	6362      	str	r2, [r4, #52]	; 0x34
+  28:	f8c4 2244 	str.w	r2, [r4, #580]	; 0x244
+  2c:	b1cd      	cbz	r5, 62 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x62>
+  2e:	2d04      	cmp	r5, #4
+  30:	d901      	bls.n	36 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x36>
+  32:	2000      	movs	r0, #0
+  34:	bd70      	pop	{r4, r5, r6, pc}
+  36:	461a      	mov	r2, r3
+  38:	4619      	mov	r1, r3
+  3a:	4630      	mov	r0, r6
+  3c:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  40:	f06f 4370 	mvn.w	r3, #4026531840	; 0xf0000000
+  44:	f500 72df 	add.w	r2, r0, #446	; 0x1be
+  48:	442b      	add	r3, r5
+  4a:	011d      	lsls	r5, r3, #4
+  4c:	eb02 1303 	add.w	r3, r2, r3, lsl #4
+  50:	2800      	cmp	r0, #0
+  52:	d0ee      	beq.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  54:	7919      	ldrb	r1, [r3, #4]
+  56:	2900      	cmp	r1, #0
+  58:	d0eb      	beq.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  5a:	5d52      	ldrb	r2, [r2, r5]
+  5c:	0652      	lsls	r2, r2, #25
+  5e:	d1e8      	bne.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  60:	689d      	ldr	r5, [r3, #8]
+  62:	2200      	movs	r2, #0
+  64:	4629      	mov	r1, r5
+  66:	4630      	mov	r0, r6
+  68:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  6c:	2800      	cmp	r0, #0
+  6e:	d0e0      	beq.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  70:	f8b0 300b 	ldrh.w	r3, [r0, #11]
+  74:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  78:	d1db      	bne.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  7a:	7c03      	ldrb	r3, [r0, #16]
+  7c:	1e5a      	subs	r2, r3, #1
+  7e:	7223      	strb	r3, [r4, #8]
+  80:	2a01      	cmp	r2, #1
+  82:	d8d6      	bhi.n	32 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x32>
+  84:	7b41      	ldrb	r1, [r0, #13]
+  86:	1e4b      	subs	r3, r1, #1
+  88:	2901      	cmp	r1, #1
+  8a:	7121      	strb	r1, [r4, #4]
+  8c:	7163      	strb	r3, [r4, #5]
+  8e:	f04f 0300 	mov.w	r3, #0
+  92:	71a3      	strb	r3, [r4, #6]
+  94:	d044      	beq.n	120 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x120>
+  96:	2201      	movs	r2, #1
+  98:	0052      	lsls	r2, r2, #1
+  9a:	3301      	adds	r3, #1
+  9c:	b2d2      	uxtb	r2, r2
+  9e:	b2db      	uxtb	r3, r3
+  a0:	4291      	cmp	r1, r2
+  a2:	d004      	beq.n	ae <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0xae>
+  a4:	2b08      	cmp	r3, #8
+  a6:	d1f7      	bne.n	98 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x98>
+  a8:	2000      	movs	r0, #0
+  aa:	71a3      	strb	r3, [r4, #6]
+  ac:	bd70      	pop	{r4, r5, r6, pc}
+  ae:	461e      	mov	r6, r3
+  b0:	71a3      	strb	r3, [r4, #6]
+  b2:	8ac1      	ldrh	r1, [r0, #22]
+  b4:	6121      	str	r1, [r4, #16]
+  b6:	b909      	cbnz	r1, bc <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0xbc>
+  b8:	6a41      	ldr	r1, [r0, #36]	; 0x24
+  ba:	6121      	str	r1, [r4, #16]
+  bc:	89c2      	ldrh	r2, [r0, #14]
+  be:	f8b0 3011 	ldrh.w	r3, [r0, #17]
+  c2:	442a      	add	r2, r5
+  c4:	8163      	strh	r3, [r4, #10]
+  c6:	015b      	lsls	r3, r3, #5
+  c8:	61a2      	str	r2, [r4, #24]
+  ca:	f890 c010 	ldrb.w	ip, [r0, #16]
+  ce:	f203 13ff 	addw	r3, r3, #511	; 0x1ff
+  d2:	fb01 220c 	mla	r2, r1, ip, r2
+  d6:	eb02 2353 	add.w	r3, r2, r3, lsr #9
+  da:	6222      	str	r2, [r4, #32]
+  dc:	f8b0 2013 	ldrh.w	r2, [r0, #19]
+  e0:	6163      	str	r3, [r4, #20]
+  e2:	b902      	cbnz	r2, e6 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0xe6>
+  e4:	6a02      	ldr	r2, [r0, #32]
+  e6:	1aed      	subs	r5, r5, r3
+  e8:	18ab      	adds	r3, r5, r2
+  ea:	40f3      	lsrs	r3, r6
+  ec:	1c5a      	adds	r2, r3, #1
+  ee:	61e2      	str	r2, [r4, #28]
+  f0:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+  f4:	6262      	str	r2, [r4, #36]	; 0x24
+  f6:	f640 72f4 	movw	r2, #4084	; 0xff4
+  fa:	4293      	cmp	r3, r2
+  fc:	d90c      	bls.n	118 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x118>
+  fe:	f64f 72f4 	movw	r2, #65524	; 0xfff4
+ 102:	4293      	cmp	r3, r2
+ 104:	d90a      	bls.n	11c <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x11c>
+ 106:	6ac2      	ldr	r2, [r0, #44]	; 0x2c
+ 108:	2320      	movs	r3, #32
+ 10a:	6222      	str	r2, [r4, #32]
+ 10c:	2001      	movs	r0, #1
+ 10e:	71e3      	strb	r3, [r4, #7]
+ 110:	6321      	str	r1, [r4, #48]	; 0x30
+ 112:	f8c4 1240 	str.w	r1, [r4, #576]	; 0x240
+ 116:	bd70      	pop	{r4, r5, r6, pc}
+ 118:	230c      	movs	r3, #12
+ 11a:	e7f7      	b.n	10c <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x10c>
+ 11c:	2310      	movs	r3, #16
+ 11e:	e7f5      	b.n	10c <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0x10c>
+ 120:	461e      	mov	r6, r3
+ 122:	e7c6      	b.n	b2 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh+0xb2>
+
+Disassembly of section .text._ZN12FatPartition4initEP22FsBlockDeviceInterfacemm:
+
+00000000 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	f04f 0800 	mov.w	r8, #0
+   8:	4616      	mov	r6, r2
+   a:	461f      	mov	r7, r3
+   c:	2501      	movs	r5, #1
+   e:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  12:	6001      	str	r1, [r0, #0]
+  14:	62c1      	str	r1, [r0, #44]	; 0x2c
+  16:	4604      	mov	r4, r0
+  18:	f8c0 123c 	str.w	r1, [r0, #572]	; 0x23c
+  1c:	4642      	mov	r2, r8
+  1e:	f880 8007 	strb.w	r8, [r0, #7]
+  22:	4631      	mov	r1, r6
+  24:	f880 8028 	strb.w	r8, [r0, #40]	; 0x28
+  28:	3028      	adds	r0, #40	; 0x28
+  2a:	f880 8210 	strb.w	r8, [r0, #528]	; 0x210
+  2e:	60c3      	str	r3, [r0, #12]
+  30:	f8c0 321c 	str.w	r3, [r0, #540]	; 0x21c
+  34:	f840 5c1c 	str.w	r5, [r0, #-28]
+  38:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  3c:	b328      	cbz	r0, 8a <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x8a>
+  3e:	f8b0 300b 	ldrh.w	r3, [r0, #11]
+  42:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  46:	d120      	bne.n	8a <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x8a>
+  48:	7c03      	ldrb	r3, [r0, #16]
+  4a:	7223      	strb	r3, [r4, #8]
+  4c:	3b01      	subs	r3, #1
+  4e:	2b01      	cmp	r3, #1
+  50:	d81b      	bhi.n	8a <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x8a>
+  52:	7b42      	ldrb	r2, [r0, #13]
+  54:	f884 8006 	strb.w	r8, [r4, #6]
+  58:	1e53      	subs	r3, r2, #1
+  5a:	2a01      	cmp	r2, #1
+  5c:	7122      	strb	r2, [r4, #4]
+  5e:	7163      	strb	r3, [r4, #5]
+  60:	d018      	beq.n	94 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x94>
+  62:	46ae      	mov	lr, r5
+  64:	46ac      	mov	ip, r5
+  66:	ea4f 0c4c 	mov.w	ip, ip, lsl #1
+  6a:	f10e 0301 	add.w	r3, lr, #1
+  6e:	fa5f fc8c 	uxtb.w	ip, ip
+  72:	4562      	cmp	r2, ip
+  74:	d00c      	beq.n	90 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x90>
+  76:	fa5f fe83 	uxtb.w	lr, r3
+  7a:	f1be 0f09 	cmp.w	lr, #9
+  7e:	d1f2      	bne.n	66 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x66>
+  80:	2308      	movs	r3, #8
+  82:	2000      	movs	r0, #0
+  84:	71a3      	strb	r3, [r4, #6]
+  86:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  8a:	2000      	movs	r0, #0
+  8c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  90:	f884 e006 	strb.w	lr, [r4, #6]
+  94:	8ac1      	ldrh	r1, [r0, #22]
+  96:	6121      	str	r1, [r4, #16]
+  98:	b909      	cbnz	r1, 9e <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x9e>
+  9a:	6a41      	ldr	r1, [r0, #36]	; 0x24
+  9c:	6121      	str	r1, [r4, #16]
+  9e:	89c2      	ldrh	r2, [r0, #14]
+  a0:	f8b0 3011 	ldrh.w	r3, [r0, #17]
+  a4:	4432      	add	r2, r6
+  a6:	8163      	strh	r3, [r4, #10]
+  a8:	015b      	lsls	r3, r3, #5
+  aa:	61a2      	str	r2, [r4, #24]
+  ac:	7c05      	ldrb	r5, [r0, #16]
+  ae:	f203 13ff 	addw	r3, r3, #511	; 0x1ff
+  b2:	fb01 2205 	mla	r2, r1, r5, r2
+  b6:	eb02 2353 	add.w	r3, r2, r3, lsr #9
+  ba:	6222      	str	r2, [r4, #32]
+  bc:	f8b0 2013 	ldrh.w	r2, [r0, #19]
+  c0:	6163      	str	r3, [r4, #20]
+  c2:	b1da      	cbz	r2, fc <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0xfc>
+  c4:	42ba      	cmp	r2, r7
+  c6:	d8e0      	bhi.n	8a <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x8a>
+  c8:	1af3      	subs	r3, r6, r3
+  ca:	4413      	add	r3, r2
+  cc:	79a2      	ldrb	r2, [r4, #6]
+  ce:	40d3      	lsrs	r3, r2
+  d0:	1c5a      	adds	r2, r3, #1
+  d2:	61e2      	str	r2, [r4, #28]
+  d4:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+  d8:	6262      	str	r2, [r4, #36]	; 0x24
+  da:	f640 72f4 	movw	r2, #4084	; 0xff4
+  de:	4293      	cmp	r3, r2
+  e0:	d90e      	bls.n	100 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x100>
+  e2:	f64f 72f4 	movw	r2, #65524	; 0xfff4
+  e6:	4293      	cmp	r3, r2
+  e8:	d90c      	bls.n	104 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x104>
+  ea:	6ac2      	ldr	r2, [r0, #44]	; 0x2c
+  ec:	2320      	movs	r3, #32
+  ee:	6222      	str	r2, [r4, #32]
+  f0:	2001      	movs	r0, #1
+  f2:	71e3      	strb	r3, [r4, #7]
+  f4:	6321      	str	r1, [r4, #48]	; 0x30
+  f6:	f8c4 1240 	str.w	r1, [r4, #576]	; 0x240
+  fa:	e7c7      	b.n	8c <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0x8c>
+  fc:	6a02      	ldr	r2, [r0, #32]
+  fe:	e7e1      	b.n	c4 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0xc4>
+ 100:	230c      	movs	r3, #12
+ 102:	e7f5      	b.n	f0 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0xf0>
+ 104:	2310      	movs	r3, #16
+ 106:	e7f3      	b.n	f0 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm+0xf0>

@@ -1,0 +1,205 @@
+
+build/./libraries/QNEthernet/src/lwip/def.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 def.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.lwip_strnstr	00000000 .text.lwip_strnstr
+00000000 l    d  .text.lwip_strnistr	00000000 .text.lwip_strnistr
+00000000 l    d  .text.lwip_stricmp	00000000 .text.lwip_stricmp
+00000000 l    d  .text.lwip_strnicmp	00000000 .text.lwip_strnicmp
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.lwip_strnstr	00000050 lwip_strnstr
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 strncmp
+00000000 g     F .text.lwip_strnistr	00000076 lwip_strnistr
+00000000 g     F .text.lwip_stricmp	00000054 lwip_stricmp
+00000000 g     F .text.lwip_strnicmp	0000003a lwip_strnicmp
+
+
+Contents of section .text.lwip_strnstr:
+ 0000 2de9f041 04460846 88461646 fff7feff  -..A.F.F.F.F....
+ 0010 c0b10546 2078b0b1 26446219 964214d3  ...F x..&Db..B..
+ 0020 98f80070 05e014f8 010f6219 58b19642  ...p......b.X..B
+ 0030 0bd38742 f7d12046 2a464146 fff7feff  ...B.. F*FAF....
+ 0040 0028f0d1 2046bde8 f0810020 bde8f081  .(.. F..... ....
+Contents of section .text.lwip_strnistr:
+ 0000 2de9f843 81460846 88461446 fff7feff  -..C.F.F.F.F....
+ 0010 50b399f8 00302bb3 014609eb 040009eb  P....0+..F......
+ 0020 01029042 1ed34d46 424606e0 be4512d1  ...B..MFBF...E..
+ 0030 cc4219d0 c3b115f8 013f12f8 01cb43f0  .B.......?....C.
+ 0040 200e9c45 a8eb0204 aef16106 4cf02007   ..E......a.L. .
+ 0050 eed0192e ead919f8 013f43b1 09eb0102  .........?C.....
+ 0060 9042e0d2 4ff00009 4846bde8 f8839946  .B..O...HF.....F
+ 0070 4846bde8 f88300bf                    HF......        
+Contents of section .text.lwip_stricmp:
+ 0000 10f8013b 11f8012b 93421cd0 43f0200c  ...;...+.B..C. .
+ 0010 00b542f0 200eacf1 6102192a 10d8f445  ..B. ...a..*...E
+ 0020 0ed1a3b1 10f8013b 11f8012b 9342f8d0  .......;...+.B..
+ 0030 43f0200c 42f0200e acf16102 192aeed9  C. .B. ...a..*..
+ 0040 01205df8 04fb002b dad11846 70471846  . ]....+...FpG.F
+ 0050 5df804fb                             ]...            
+Contents of section .text.lwip_strnicmp:
+ 0000 844670b5 04e0b442 13d1e842 13d093b1  .Fp....B...B....
+ 0010 1cf8013b 11f801eb 43f02004 a2eb0c05  ...;....C. .....
+ 0020 73454ef0 2006a4f1 610eeed0 bef1190f  sEN. ...a.......
+ 0030 e9d90120 70bd0020 70bd00bf           ... p.. p...    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.lwip_strnstr:
+
+00000000 <lwip_strnstr>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	4604      	mov	r4, r0
+   6:	4608      	mov	r0, r1
+   8:	4688      	mov	r8, r1
+   a:	4616      	mov	r6, r2
+   c:	f7ff fffe 	bl	0 <strlen>
+  10:	b1c0      	cbz	r0, 44 <lwip_strnstr+0x44>
+  12:	4605      	mov	r5, r0
+  14:	7820      	ldrb	r0, [r4, #0]
+  16:	b1b0      	cbz	r0, 46 <lwip_strnstr+0x46>
+  18:	4426      	add	r6, r4
+  1a:	1962      	adds	r2, r4, r5
+  1c:	4296      	cmp	r6, r2
+  1e:	d314      	bcc.n	4a <lwip_strnstr+0x4a>
+  20:	f898 7000 	ldrb.w	r7, [r8]
+  24:	e005      	b.n	32 <lwip_strnstr+0x32>
+  26:	f814 0f01 	ldrb.w	r0, [r4, #1]!
+  2a:	1962      	adds	r2, r4, r5
+  2c:	b158      	cbz	r0, 46 <lwip_strnstr+0x46>
+  2e:	4296      	cmp	r6, r2
+  30:	d30b      	bcc.n	4a <lwip_strnstr+0x4a>
+  32:	4287      	cmp	r7, r0
+  34:	d1f7      	bne.n	26 <lwip_strnstr+0x26>
+  36:	4620      	mov	r0, r4
+  38:	462a      	mov	r2, r5
+  3a:	4641      	mov	r1, r8
+  3c:	f7ff fffe 	bl	0 <strncmp>
+  40:	2800      	cmp	r0, #0
+  42:	d1f0      	bne.n	26 <lwip_strnstr+0x26>
+  44:	4620      	mov	r0, r4
+  46:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  4a:	2000      	movs	r0, #0
+  4c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+Disassembly of section .text.lwip_strnistr:
+
+00000000 <lwip_strnistr>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4681      	mov	r9, r0
+   6:	4608      	mov	r0, r1
+   8:	4688      	mov	r8, r1
+   a:	4614      	mov	r4, r2
+   c:	f7ff fffe 	bl	0 <strlen>
+  10:	b350      	cbz	r0, 68 <lwip_strnistr+0x68>
+  12:	f899 3000 	ldrb.w	r3, [r9]
+  16:	b32b      	cbz	r3, 64 <lwip_strnistr+0x64>
+  18:	4601      	mov	r1, r0
+  1a:	eb09 0004 	add.w	r0, r9, r4
+  1e:	eb09 0201 	add.w	r2, r9, r1
+  22:	4290      	cmp	r0, r2
+  24:	d31e      	bcc.n	64 <lwip_strnistr+0x64>
+  26:	464d      	mov	r5, r9
+  28:	4642      	mov	r2, r8
+  2a:	e006      	b.n	3a <lwip_strnistr+0x3a>
+  2c:	45be      	cmp	lr, r7
+  2e:	d112      	bne.n	56 <lwip_strnistr+0x56>
+  30:	42cc      	cmn	r4, r1
+  32:	d019      	beq.n	68 <lwip_strnistr+0x68>
+  34:	b1c3      	cbz	r3, 68 <lwip_strnistr+0x68>
+  36:	f815 3f01 	ldrb.w	r3, [r5, #1]!
+  3a:	f812 cb01 	ldrb.w	ip, [r2], #1
+  3e:	f043 0e20 	orr.w	lr, r3, #32
+  42:	459c      	cmp	ip, r3
+  44:	eba8 0402 	sub.w	r4, r8, r2
+  48:	f1ae 0661 	sub.w	r6, lr, #97	; 0x61
+  4c:	f04c 0720 	orr.w	r7, ip, #32
+  50:	d0ee      	beq.n	30 <lwip_strnistr+0x30>
+  52:	2e19      	cmp	r6, #25
+  54:	d9ea      	bls.n	2c <lwip_strnistr+0x2c>
+  56:	f819 3f01 	ldrb.w	r3, [r9, #1]!
+  5a:	b143      	cbz	r3, 6e <lwip_strnistr+0x6e>
+  5c:	eb09 0201 	add.w	r2, r9, r1
+  60:	4290      	cmp	r0, r2
+  62:	d2e0      	bcs.n	26 <lwip_strnistr+0x26>
+  64:	f04f 0900 	mov.w	r9, #0
+  68:	4648      	mov	r0, r9
+  6a:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  6e:	4699      	mov	r9, r3
+  70:	4648      	mov	r0, r9
+  72:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  76:	bf00      	nop
+
+Disassembly of section .text.lwip_stricmp:
+
+00000000 <lwip_stricmp>:
+   0:	f810 3b01 	ldrb.w	r3, [r0], #1
+   4:	f811 2b01 	ldrb.w	r2, [r1], #1
+   8:	4293      	cmp	r3, r2
+   a:	d01c      	beq.n	46 <lwip_stricmp+0x46>
+   c:	f043 0c20 	orr.w	ip, r3, #32
+  10:	b500      	push	{lr}
+  12:	f042 0e20 	orr.w	lr, r2, #32
+  16:	f1ac 0261 	sub.w	r2, ip, #97	; 0x61
+  1a:	2a19      	cmp	r2, #25
+  1c:	d810      	bhi.n	40 <lwip_stricmp+0x40>
+  1e:	45f4      	cmp	ip, lr
+  20:	d10e      	bne.n	40 <lwip_stricmp+0x40>
+  22:	b1a3      	cbz	r3, 4e <lwip_stricmp+0x4e>
+  24:	f810 3b01 	ldrb.w	r3, [r0], #1
+  28:	f811 2b01 	ldrb.w	r2, [r1], #1
+  2c:	4293      	cmp	r3, r2
+  2e:	d0f8      	beq.n	22 <lwip_stricmp+0x22>
+  30:	f043 0c20 	orr.w	ip, r3, #32
+  34:	f042 0e20 	orr.w	lr, r2, #32
+  38:	f1ac 0261 	sub.w	r2, ip, #97	; 0x61
+  3c:	2a19      	cmp	r2, #25
+  3e:	d9ee      	bls.n	1e <lwip_stricmp+0x1e>
+  40:	2001      	movs	r0, #1
+  42:	f85d fb04 	ldr.w	pc, [sp], #4
+  46:	2b00      	cmp	r3, #0
+  48:	d1da      	bne.n	0 <lwip_stricmp>
+  4a:	4618      	mov	r0, r3
+  4c:	4770      	bx	lr
+  4e:	4618      	mov	r0, r3
+  50:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.lwip_strnicmp:
+
+00000000 <lwip_strnicmp>:
+   0:	4684      	mov	ip, r0
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	e004      	b.n	10 <lwip_strnicmp+0x10>
+   6:	42b4      	cmp	r4, r6
+   8:	d113      	bne.n	32 <lwip_strnicmp+0x32>
+   a:	42e8      	cmn	r0, r5
+   c:	d013      	beq.n	36 <lwip_strnicmp+0x36>
+   e:	b193      	cbz	r3, 36 <lwip_strnicmp+0x36>
+  10:	f81c 3b01 	ldrb.w	r3, [ip], #1
+  14:	f811 eb01 	ldrb.w	lr, [r1], #1
+  18:	f043 0420 	orr.w	r4, r3, #32
+  1c:	eba2 050c 	sub.w	r5, r2, ip
+  20:	4573      	cmp	r3, lr
+  22:	f04e 0620 	orr.w	r6, lr, #32
+  26:	f1a4 0e61 	sub.w	lr, r4, #97	; 0x61
+  2a:	d0ee      	beq.n	a <lwip_strnicmp+0xa>
+  2c:	f1be 0f19 	cmp.w	lr, #25
+  30:	d9e9      	bls.n	6 <lwip_strnicmp+0x6>
+  32:	2001      	movs	r0, #1
+  34:	bd70      	pop	{r4, r5, r6, pc}
+  36:	2000      	movs	r0, #0
+  38:	bd70      	pop	{r4, r5, r6, pc}
+  3a:	bf00      	nop

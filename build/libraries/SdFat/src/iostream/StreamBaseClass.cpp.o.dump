@@ -1,0 +1,531 @@
+
+build/./libraries/SdFat/src/iostream/StreamBaseClass.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 StreamBaseClass.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN15StreamBaseClass5getchEv	00000000 .text._ZN15StreamBaseClass5getchEv
+00000000 l    d  .text._ZN15StreamBaseClass4openEPKch	00000000 .text._ZN15StreamBaseClass4openEPKch
+00000000 l    d  .text._ZN15StreamBaseClass5putchEc	00000000 .text._ZN15StreamBaseClass5putchEc
+00000000 l    d  .text._ZN15StreamBaseClass6putstrEPKc	00000000 .text._ZN15StreamBaseClass6putstrEPKc
+00000000 l    d  .text._ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE	00000000 .text._ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE
+00000000 l    d  .text._ZN15StreamBaseClass5writeEPKvj	00000000 .text._ZN15StreamBaseClass5writeEPKvj
+00000000 l    d  .text._ZN15StreamBaseClass5writeEc	00000000 .text._ZN15StreamBaseClass5writeEc
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN15StreamBaseClass5getchEv	000000d4 _ZN15StreamBaseClass5getchEv
+00000000         *UND*	00000000 _ZN7FatFile4readEPvj
+00000000         *UND*	00000000 _ZN9ExFatFile4readEPvj
+00000000         *UND*	00000000 _ZN7FatFile7seekSetEm
+00000000         *UND*	00000000 _ZN9ExFatFile7seekSetEy
+00000000 g     F .text._ZN15StreamBaseClass4openEPKch	000000bc _ZN15StreamBaseClass4openEPKch
+00000000         *UND*	00000000 _ZN10FsBaseFile4openEP8FsVolumePKci
+00000000         *UND*	00000000 _ZN10FsBaseFile5closeEv
+00000000         *UND*	00000000 _ZN8FsVolume5m_cwvE
+00000000 g     F .text._ZN15StreamBaseClass5putchEc	000000a6 _ZN15StreamBaseClass5putchEc
+00000000         *UND*	00000000 _ZN7FatFile5writeEPKvj
+00000000         *UND*	00000000 _ZN9ExFatFile5writeEPKvj
+00000000 g     F .text._ZN15StreamBaseClass6putstrEPKc	000000c0 _ZN15StreamBaseClass6putstrEPKc
+00000000 g     F .text._ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE	00000070 _ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE
+00000000 g     F .text._ZN15StreamBaseClass5writeEPKvj	00000014 _ZN15StreamBaseClass5writeEPKvj
+00000000 g     F .text._ZN15StreamBaseClass5writeEc	00000034 _ZN15StreamBaseClass5writeEc
+
+
+Contents of section .text._ZN15StreamBaseClass5getchEv:
+ 0000 10b50446 c06b84b0 f8b10df1 0f010122  ...F.k........."
+ 0010 0191fff7 feff0199 024652b2 012a41d1  .........FR..*A.
+ 0020 9df80f00 0d2802d0 00b204b0 10bd94f8  .....(..........
+ 0030 4430db06 f8d4e06b 98b1fff7 feff40b2  D0.....k......@.
+ 0040 012814d0 0d2004b0 10bd206c 002836d0  .(... .... l.(6.
+ 0050 0df10f01 01220191 fff7feff 01990246  .....".........F
+ 0060 dbe7206c 0028edd0 fff7feff e7e79df8  .. l.(..........
+ 0070 0f000a28 d9d0e06b 40b14169 013963eb  ...(...k@.Ai.9c.
+ 0080 0303002b ded1fff7 feffdbe7 206c0028  ...+........ l.(
+ 0090 d8d0d0e9 0023013a 63f10003 fff7feff  .....#.:c.......
+ 00a0 0d20c2e7 002a0adb 23684ff0 ff3053f8  . ...*..#hO..0S.
+ 00b0 0c3c2344 1a7c42f0 02021a74 b5e72368  .<#D.|B....t..#h
+ 00c0 4ff0ff30 53f80c3c 23441a7c 42f00102  O..0S..<#D.|B...
+ 00d0 1a74aae7                             .t..            
+Contents of section .text._ZN15StreamBaseClass4openEPKch:
+ 0000 70b51546 c26b0446 061d036c 1ab15078  p..F.k.F...l..Px
+ 0010 20f00100 50702bb1 93f83220 22f00102   ...Pp+...2 "...
+ 0020 83f83220 05f0e403 442b31d0 1fd9c02b  ..2 ....D+1....+
+ 0030 24d030d9 e02b0ed1 40f20263 2a071e4a  $.0..+..@..c*..J
+ 0040 106848bf 43f48043 28b10a46 01463046  .hH.C..C(..F.F0F
+ 0050 fff7feff 20bb3046 fff7feff 236853f8  .... .0F....#hS.
+ 0060 0c3c1c44 237c43f0 04032374 70bd202b  .<.D#|C...#tp. +
+ 0070 1fd00bd9 242b06d0 402becd1 40f20163  ....$+..@+..@..c
+ 0080 dce7642b e7d140f2 0a23d7e7 042be2d1  ..d+..@..#...+..
+ 0090 40f20923 d2e7602b f3d140f2 0223cde7  @..#..`+..@..#..
+ 00a0 23680022 84f84450 53f80c3c 23441a74  #h."..DPS..<#D.t
+ 00b0 70bd0023 c2e700bf 00000000           p..#........    
+Contents of section .text._ZN15StreamBaseClass5putchEc:
+ 0000 0a2930b5 0d4683b0 044625d0 e06b8df8  .)0..F...F%..k..
+ 0010 0750b8b1 01220df1 0701fff7 feffe36b  .P...".........k
+ 0020 53b31a78 4ab92368 53f80c3c 1c44237c  S..xJ.#hS..<.D#|
+ 0030 43f00103 237403b0 30bd5b78 da07f2d4  C...#t..0.[x....
+ 0040 03b030bd 206c0028 edd00122 0df10701  ..0. l.(..."....
+ 0050 fff7feff e36be3e7 90f84430 d906d5d4  .....k....D0....
+ 0060 0d23c06b 8df80730 90b10122 0df10701  .#.k...0..."....
+ 0070 fff7feff e06bcae7 206c0028 d3d090f8  .....k.. l.(....
+ 0080 3130002b cfd090f8 3230db07 d3d5cae7  10.+....20......
+ 0090 206c28b1 01220df1 0701fff7 feffb5e7   l(.."..........
+ 00a0 8df80750 bfe700bf                    ...P....        
+Contents of section .text._ZN15StreamBaseClass6putstrEPKc:
+ 0000 f0b50022 064683b0 0d27c06b 8c5c8d18  ...".F...'.k.\..
+ 0010 acb9c2b1 002836d0 fff7feff f06b94b1  .....(6......k..
+ 0020 8df80770 e0b10df1 07010122 fff7feff  ...p......."....
+ 0030 2946f06b 4c780135 0122002c ead00a2c  )F.kLx.5.".,...,
+ 0040 19d00132 e2e778b3 037843bb 336853f8  ...2..x..xC.3hS.
+ 0050 0c3c3344 1a7c42f0 01021a74 03b0f0bd  .<3D.|B....t....
+ 0060 336cd3b1 0df10701 01221846 fff7feff  3l.......".F....
+ 0070 2946f06b dee796f8 4430db06 e1d4002a  )F.k....D0.....*
+ 0080 ced00028 c8d1336c 23b11846 fff7feff  ...(..3l#..F....
+ 0090 f06bc4e7 44b18df8 07702946 cae74378  .k..D....p)F..Cx
+ 00a0 da07d3d4 03b0f0bd 336c002b ced093f8  ........3l.+....
+ 00b0 3120002a cad093f8 3230db07 ced5c5e7  1 .*....20......
+Contents of section .text._ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE:
+ 0000 30b49df8 08100129 05d00229 1bd089b1  0......)...)....
+ 0010 002030bc 7047c46b ecb16169 00255218  . 0.pG.k..ai.%R.
+ 0020 45eb0303 4cb1002b f2d12046 114630bc  E...L..+.. F.F0.
+ 0030 fff7febf c46b002c f5d1006c 0028e7d0  .....k.,...l.(..
+ 0040 30bcfff7 febfc46b 54b1e169 00255218  0......kT..i.%R.
+ 0050 45eb0303 e6e7056c 3db1d5e9 0015f6e7  E......l=.......
+ 0060 056c15b1 d5e90415 f1e72146 2546eee7  .l........!F%F..
+Contents of section .text._ZN15StreamBaseClass5writeEPKvj:
+ 0000 c36b13b1 1846fff7 febf006c 08b1fff7  .k...F.....l....
+ 0010 febf7047                             ..pG            
+Contents of section .text._ZN15StreamBaseClass5writeEc:
+ 0000 00b5c36b 83b08df8 071043b1 01220df1  ...k......C.."..
+ 0010 07011846 fff7feff 03b05df8 04fb006c  ...F......]....l
+ 0020 0028f9d0 01220df1 0701fff7 feff03b0  .(..."..........
+ 0030 5df804fb                             ]...            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN15StreamBaseClass5getchEv:
+
+00000000 <_ZN15StreamBaseClass5getchEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	6bc0      	ldr	r0, [r0, #60]	; 0x3c
+   6:	b084      	sub	sp, #16
+   8:	b1f8      	cbz	r0, 4a <_ZN15StreamBaseClass5getchEv+0x4a>
+   a:	f10d 010f 	add.w	r1, sp, #15
+   e:	2201      	movs	r2, #1
+  10:	9101      	str	r1, [sp, #4]
+  12:	f7ff fffe 	bl	0 <_ZN7FatFile4readEPvj>
+  16:	9901      	ldr	r1, [sp, #4]
+  18:	4602      	mov	r2, r0
+  1a:	b252      	sxtb	r2, r2
+  1c:	2a01      	cmp	r2, #1
+  1e:	d141      	bne.n	a4 <_ZN15StreamBaseClass5getchEv+0xa4>
+  20:	f89d 000f 	ldrb.w	r0, [sp, #15]
+  24:	280d      	cmp	r0, #13
+  26:	d002      	beq.n	2e <_ZN15StreamBaseClass5getchEv+0x2e>
+  28:	b200      	sxth	r0, r0
+  2a:	b004      	add	sp, #16
+  2c:	bd10      	pop	{r4, pc}
+  2e:	f894 3044 	ldrb.w	r3, [r4, #68]	; 0x44
+  32:	06db      	lsls	r3, r3, #27
+  34:	d4f8      	bmi.n	28 <_ZN15StreamBaseClass5getchEv+0x28>
+  36:	6be0      	ldr	r0, [r4, #60]	; 0x3c
+  38:	b198      	cbz	r0, 62 <_ZN15StreamBaseClass5getchEv+0x62>
+  3a:	f7ff fffe 	bl	0 <_ZN7FatFile4readEPvj>
+  3e:	b240      	sxtb	r0, r0
+  40:	2801      	cmp	r0, #1
+  42:	d014      	beq.n	6e <_ZN15StreamBaseClass5getchEv+0x6e>
+  44:	200d      	movs	r0, #13
+  46:	b004      	add	sp, #16
+  48:	bd10      	pop	{r4, pc}
+  4a:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  4c:	2800      	cmp	r0, #0
+  4e:	d036      	beq.n	be <_ZN15StreamBaseClass5getchEv+0xbe>
+  50:	f10d 010f 	add.w	r1, sp, #15
+  54:	2201      	movs	r2, #1
+  56:	9101      	str	r1, [sp, #4]
+  58:	f7ff fffe 	bl	0 <_ZN9ExFatFile4readEPvj>
+  5c:	9901      	ldr	r1, [sp, #4]
+  5e:	4602      	mov	r2, r0
+  60:	e7db      	b.n	1a <_ZN15StreamBaseClass5getchEv+0x1a>
+  62:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  64:	2800      	cmp	r0, #0
+  66:	d0ed      	beq.n	44 <_ZN15StreamBaseClass5getchEv+0x44>
+  68:	f7ff fffe 	bl	0 <_ZN9ExFatFile4readEPvj>
+  6c:	e7e7      	b.n	3e <_ZN15StreamBaseClass5getchEv+0x3e>
+  6e:	f89d 000f 	ldrb.w	r0, [sp, #15]
+  72:	280a      	cmp	r0, #10
+  74:	d0d9      	beq.n	2a <_ZN15StreamBaseClass5getchEv+0x2a>
+  76:	6be0      	ldr	r0, [r4, #60]	; 0x3c
+  78:	b140      	cbz	r0, 8c <_ZN15StreamBaseClass5getchEv+0x8c>
+  7a:	6941      	ldr	r1, [r0, #20]
+  7c:	3901      	subs	r1, #1
+  7e:	eb63 0303 	sbc.w	r3, r3, r3
+  82:	2b00      	cmp	r3, #0
+  84:	d1de      	bne.n	44 <_ZN15StreamBaseClass5getchEv+0x44>
+  86:	f7ff fffe 	bl	0 <_ZN7FatFile7seekSetEm>
+  8a:	e7db      	b.n	44 <_ZN15StreamBaseClass5getchEv+0x44>
+  8c:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  8e:	2800      	cmp	r0, #0
+  90:	d0d8      	beq.n	44 <_ZN15StreamBaseClass5getchEv+0x44>
+  92:	e9d0 2300 	ldrd	r2, r3, [r0]
+  96:	3a01      	subs	r2, #1
+  98:	f163 0300 	sbc.w	r3, r3, #0
+  9c:	f7ff fffe 	bl	0 <_ZN9ExFatFile7seekSetEy>
+  a0:	200d      	movs	r0, #13
+  a2:	e7c2      	b.n	2a <_ZN15StreamBaseClass5getchEv+0x2a>
+  a4:	2a00      	cmp	r2, #0
+  a6:	db0a      	blt.n	be <_ZN15StreamBaseClass5getchEv+0xbe>
+  a8:	6823      	ldr	r3, [r4, #0]
+  aa:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  ae:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  b2:	4423      	add	r3, r4
+  b4:	7c1a      	ldrb	r2, [r3, #16]
+  b6:	f042 0202 	orr.w	r2, r2, #2
+  ba:	741a      	strb	r2, [r3, #16]
+  bc:	e7b5      	b.n	2a <_ZN15StreamBaseClass5getchEv+0x2a>
+  be:	6823      	ldr	r3, [r4, #0]
+  c0:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  c4:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  c8:	4423      	add	r3, r4
+  ca:	7c1a      	ldrb	r2, [r3, #16]
+  cc:	f042 0201 	orr.w	r2, r2, #1
+  d0:	741a      	strb	r2, [r3, #16]
+  d2:	e7aa      	b.n	2a <_ZN15StreamBaseClass5getchEv+0x2a>
+
+Disassembly of section .text._ZN15StreamBaseClass4openEPKch:
+
+00000000 <_ZN15StreamBaseClass4openEPKch>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4615      	mov	r5, r2
+   4:	6bc2      	ldr	r2, [r0, #60]	; 0x3c
+   6:	4604      	mov	r4, r0
+   8:	1d06      	adds	r6, r0, #4
+   a:	6c03      	ldr	r3, [r0, #64]	; 0x40
+   c:	b11a      	cbz	r2, 16 <_ZN15StreamBaseClass4openEPKch+0x16>
+   e:	7850      	ldrb	r0, [r2, #1]
+  10:	f020 0001 	bic.w	r0, r0, #1
+  14:	7050      	strb	r0, [r2, #1]
+  16:	b12b      	cbz	r3, 24 <_ZN15StreamBaseClass4openEPKch+0x24>
+  18:	f893 2032 	ldrb.w	r2, [r3, #50]	; 0x32
+  1c:	f022 0201 	bic.w	r2, r2, #1
+  20:	f883 2032 	strb.w	r2, [r3, #50]	; 0x32
+  24:	f005 03e4 	and.w	r3, r5, #228	; 0xe4
+  28:	2b44      	cmp	r3, #68	; 0x44
+  2a:	d031      	beq.n	90 <_ZN15StreamBaseClass4openEPKch+0x90>
+  2c:	d91f      	bls.n	6e <_ZN15StreamBaseClass4openEPKch+0x6e>
+  2e:	2bc0      	cmp	r3, #192	; 0xc0
+  30:	d024      	beq.n	7c <_ZN15StreamBaseClass4openEPKch+0x7c>
+  32:	d930      	bls.n	96 <_ZN15StreamBaseClass4openEPKch+0x96>
+  34:	2be0      	cmp	r3, #224	; 0xe0
+  36:	d10e      	bne.n	56 <_ZN15StreamBaseClass4openEPKch+0x56>
+  38:	f240 6302 	movw	r3, #1538	; 0x602
+  3c:	072a      	lsls	r2, r5, #28
+  3e:	4a1e      	ldr	r2, [pc, #120]	; (b8 <_ZN15StreamBaseClass4openEPKch+0xb8>)
+  40:	6810      	ldr	r0, [r2, #0]
+  42:	bf48      	it	mi
+  44:	f443 4380 	orrmi.w	r3, r3, #16384	; 0x4000
+  48:	b128      	cbz	r0, 56 <_ZN15StreamBaseClass4openEPKch+0x56>
+  4a:	460a      	mov	r2, r1
+  4c:	4601      	mov	r1, r0
+  4e:	4630      	mov	r0, r6
+  50:	f7ff fffe 	bl	0 <_ZN10FsBaseFile4openEP8FsVolumePKci>
+  54:	bb20      	cbnz	r0, a0 <_ZN15StreamBaseClass4openEPKch+0xa0>
+  56:	4630      	mov	r0, r6
+  58:	f7ff fffe 	bl	0 <_ZN10FsBaseFile5closeEv>
+  5c:	6823      	ldr	r3, [r4, #0]
+  5e:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  62:	441c      	add	r4, r3
+  64:	7c23      	ldrb	r3, [r4, #16]
+  66:	f043 0304 	orr.w	r3, r3, #4
+  6a:	7423      	strb	r3, [r4, #16]
+  6c:	bd70      	pop	{r4, r5, r6, pc}
+  6e:	2b20      	cmp	r3, #32
+  70:	d01f      	beq.n	b2 <_ZN15StreamBaseClass4openEPKch+0xb2>
+  72:	d90b      	bls.n	8c <_ZN15StreamBaseClass4openEPKch+0x8c>
+  74:	2b24      	cmp	r3, #36	; 0x24
+  76:	d006      	beq.n	86 <_ZN15StreamBaseClass4openEPKch+0x86>
+  78:	2b40      	cmp	r3, #64	; 0x40
+  7a:	d1ec      	bne.n	56 <_ZN15StreamBaseClass4openEPKch+0x56>
+  7c:	f240 6301 	movw	r3, #1537	; 0x601
+  80:	e7dc      	b.n	3c <_ZN15StreamBaseClass4openEPKch+0x3c>
+  82:	2b64      	cmp	r3, #100	; 0x64
+  84:	d1e7      	bne.n	56 <_ZN15StreamBaseClass4openEPKch+0x56>
+  86:	f240 230a 	movw	r3, #522	; 0x20a
+  8a:	e7d7      	b.n	3c <_ZN15StreamBaseClass4openEPKch+0x3c>
+  8c:	2b04      	cmp	r3, #4
+  8e:	d1e2      	bne.n	56 <_ZN15StreamBaseClass4openEPKch+0x56>
+  90:	f240 2309 	movw	r3, #521	; 0x209
+  94:	e7d2      	b.n	3c <_ZN15StreamBaseClass4openEPKch+0x3c>
+  96:	2b60      	cmp	r3, #96	; 0x60
+  98:	d1f3      	bne.n	82 <_ZN15StreamBaseClass4openEPKch+0x82>
+  9a:	f240 2302 	movw	r3, #514	; 0x202
+  9e:	e7cd      	b.n	3c <_ZN15StreamBaseClass4openEPKch+0x3c>
+  a0:	6823      	ldr	r3, [r4, #0]
+  a2:	2200      	movs	r2, #0
+  a4:	f884 5044 	strb.w	r5, [r4, #68]	; 0x44
+  a8:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  ac:	4423      	add	r3, r4
+  ae:	741a      	strb	r2, [r3, #16]
+  b0:	bd70      	pop	{r4, r5, r6, pc}
+  b2:	2300      	movs	r3, #0
+  b4:	e7c2      	b.n	3c <_ZN15StreamBaseClass4openEPKch+0x3c>
+  b6:	bf00      	nop
+  b8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15StreamBaseClass5putchEc:
+
+00000000 <_ZN15StreamBaseClass5putchEc>:
+   0:	290a      	cmp	r1, #10
+   2:	b530      	push	{r4, r5, lr}
+   4:	460d      	mov	r5, r1
+   6:	b083      	sub	sp, #12
+   8:	4604      	mov	r4, r0
+   a:	d025      	beq.n	58 <_ZN15StreamBaseClass5putchEc+0x58>
+   c:	6be0      	ldr	r0, [r4, #60]	; 0x3c
+   e:	f88d 5007 	strb.w	r5, [sp, #7]
+  12:	b1b8      	cbz	r0, 44 <_ZN15StreamBaseClass5putchEc+0x44>
+  14:	2201      	movs	r2, #1
+  16:	f10d 0107 	add.w	r1, sp, #7
+  1a:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  1e:	6be3      	ldr	r3, [r4, #60]	; 0x3c
+  20:	b353      	cbz	r3, 78 <_ZN15StreamBaseClass5putchEc+0x78>
+  22:	781a      	ldrb	r2, [r3, #0]
+  24:	b94a      	cbnz	r2, 3a <_ZN15StreamBaseClass5putchEc+0x3a>
+  26:	6823      	ldr	r3, [r4, #0]
+  28:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  2c:	441c      	add	r4, r3
+  2e:	7c23      	ldrb	r3, [r4, #16]
+  30:	f043 0301 	orr.w	r3, r3, #1
+  34:	7423      	strb	r3, [r4, #16]
+  36:	b003      	add	sp, #12
+  38:	bd30      	pop	{r4, r5, pc}
+  3a:	785b      	ldrb	r3, [r3, #1]
+  3c:	07da      	lsls	r2, r3, #31
+  3e:	d4f2      	bmi.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  40:	b003      	add	sp, #12
+  42:	bd30      	pop	{r4, r5, pc}
+  44:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  46:	2800      	cmp	r0, #0
+  48:	d0ed      	beq.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  4a:	2201      	movs	r2, #1
+  4c:	f10d 0107 	add.w	r1, sp, #7
+  50:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  54:	6be3      	ldr	r3, [r4, #60]	; 0x3c
+  56:	e7e3      	b.n	20 <_ZN15StreamBaseClass5putchEc+0x20>
+  58:	f890 3044 	ldrb.w	r3, [r0, #68]	; 0x44
+  5c:	06d9      	lsls	r1, r3, #27
+  5e:	d4d5      	bmi.n	c <_ZN15StreamBaseClass5putchEc+0xc>
+  60:	230d      	movs	r3, #13
+  62:	6bc0      	ldr	r0, [r0, #60]	; 0x3c
+  64:	f88d 3007 	strb.w	r3, [sp, #7]
+  68:	b190      	cbz	r0, 90 <_ZN15StreamBaseClass5putchEc+0x90>
+  6a:	2201      	movs	r2, #1
+  6c:	f10d 0107 	add.w	r1, sp, #7
+  70:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  74:	6be0      	ldr	r0, [r4, #60]	; 0x3c
+  76:	e7ca      	b.n	e <_ZN15StreamBaseClass5putchEc+0xe>
+  78:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  7a:	2800      	cmp	r0, #0
+  7c:	d0d3      	beq.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  7e:	f890 3031 	ldrb.w	r3, [r0, #49]	; 0x31
+  82:	2b00      	cmp	r3, #0
+  84:	d0cf      	beq.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  86:	f890 3032 	ldrb.w	r3, [r0, #50]	; 0x32
+  8a:	07db      	lsls	r3, r3, #31
+  8c:	d5d3      	bpl.n	36 <_ZN15StreamBaseClass5putchEc+0x36>
+  8e:	e7ca      	b.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  90:	6c20      	ldr	r0, [r4, #64]	; 0x40
+  92:	b128      	cbz	r0, a0 <_ZN15StreamBaseClass5putchEc+0xa0>
+  94:	2201      	movs	r2, #1
+  96:	f10d 0107 	add.w	r1, sp, #7
+  9a:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  9e:	e7b5      	b.n	c <_ZN15StreamBaseClass5putchEc+0xc>
+  a0:	f88d 5007 	strb.w	r5, [sp, #7]
+  a4:	e7bf      	b.n	26 <_ZN15StreamBaseClass5putchEc+0x26>
+  a6:	bf00      	nop
+
+Disassembly of section .text._ZN15StreamBaseClass6putstrEPKc:
+
+00000000 <_ZN15StreamBaseClass6putstrEPKc>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	2200      	movs	r2, #0
+   4:	4606      	mov	r6, r0
+   6:	b083      	sub	sp, #12
+   8:	270d      	movs	r7, #13
+   a:	6bc0      	ldr	r0, [r0, #60]	; 0x3c
+   c:	5c8c      	ldrb	r4, [r1, r2]
+   e:	188d      	adds	r5, r1, r2
+  10:	b9ac      	cbnz	r4, 3e <_ZN15StreamBaseClass6putstrEPKc+0x3e>
+  12:	b1c2      	cbz	r2, 46 <_ZN15StreamBaseClass6putstrEPKc+0x46>
+  14:	2800      	cmp	r0, #0
+  16:	d036      	beq.n	86 <_ZN15StreamBaseClass6putstrEPKc+0x86>
+  18:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  1c:	6bf0      	ldr	r0, [r6, #60]	; 0x3c
+  1e:	b194      	cbz	r4, 46 <_ZN15StreamBaseClass6putstrEPKc+0x46>
+  20:	f88d 7007 	strb.w	r7, [sp, #7]
+  24:	b1e0      	cbz	r0, 60 <_ZN15StreamBaseClass6putstrEPKc+0x60>
+  26:	f10d 0107 	add.w	r1, sp, #7
+  2a:	2201      	movs	r2, #1
+  2c:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  30:	4629      	mov	r1, r5
+  32:	6bf0      	ldr	r0, [r6, #60]	; 0x3c
+  34:	784c      	ldrb	r4, [r1, #1]
+  36:	3501      	adds	r5, #1
+  38:	2201      	movs	r2, #1
+  3a:	2c00      	cmp	r4, #0
+  3c:	d0ea      	beq.n	14 <_ZN15StreamBaseClass6putstrEPKc+0x14>
+  3e:	2c0a      	cmp	r4, #10
+  40:	d019      	beq.n	76 <_ZN15StreamBaseClass6putstrEPKc+0x76>
+  42:	3201      	adds	r2, #1
+  44:	e7e2      	b.n	c <_ZN15StreamBaseClass6putstrEPKc+0xc>
+  46:	b378      	cbz	r0, a8 <_ZN15StreamBaseClass6putstrEPKc+0xa8>
+  48:	7803      	ldrb	r3, [r0, #0]
+  4a:	bb43      	cbnz	r3, 9e <_ZN15StreamBaseClass6putstrEPKc+0x9e>
+  4c:	6833      	ldr	r3, [r6, #0]
+  4e:	f853 3c0c 	ldr.w	r3, [r3, #-12]
+  52:	4433      	add	r3, r6
+  54:	7c1a      	ldrb	r2, [r3, #16]
+  56:	f042 0201 	orr.w	r2, r2, #1
+  5a:	741a      	strb	r2, [r3, #16]
+  5c:	b003      	add	sp, #12
+  5e:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  60:	6c33      	ldr	r3, [r6, #64]	; 0x40
+  62:	b1d3      	cbz	r3, 9a <_ZN15StreamBaseClass6putstrEPKc+0x9a>
+  64:	f10d 0107 	add.w	r1, sp, #7
+  68:	2201      	movs	r2, #1
+  6a:	4618      	mov	r0, r3
+  6c:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  70:	4629      	mov	r1, r5
+  72:	6bf0      	ldr	r0, [r6, #60]	; 0x3c
+  74:	e7de      	b.n	34 <_ZN15StreamBaseClass6putstrEPKc+0x34>
+  76:	f896 3044 	ldrb.w	r3, [r6, #68]	; 0x44
+  7a:	06db      	lsls	r3, r3, #27
+  7c:	d4e1      	bmi.n	42 <_ZN15StreamBaseClass6putstrEPKc+0x42>
+  7e:	2a00      	cmp	r2, #0
+  80:	d0ce      	beq.n	20 <_ZN15StreamBaseClass6putstrEPKc+0x20>
+  82:	2800      	cmp	r0, #0
+  84:	d1c8      	bne.n	18 <_ZN15StreamBaseClass6putstrEPKc+0x18>
+  86:	6c33      	ldr	r3, [r6, #64]	; 0x40
+  88:	b123      	cbz	r3, 94 <_ZN15StreamBaseClass6putstrEPKc+0x94>
+  8a:	4618      	mov	r0, r3
+  8c:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  90:	6bf0      	ldr	r0, [r6, #60]	; 0x3c
+  92:	e7c4      	b.n	1e <_ZN15StreamBaseClass6putstrEPKc+0x1e>
+  94:	b144      	cbz	r4, a8 <_ZN15StreamBaseClass6putstrEPKc+0xa8>
+  96:	f88d 7007 	strb.w	r7, [sp, #7]
+  9a:	4629      	mov	r1, r5
+  9c:	e7ca      	b.n	34 <_ZN15StreamBaseClass6putstrEPKc+0x34>
+  9e:	7843      	ldrb	r3, [r0, #1]
+  a0:	07da      	lsls	r2, r3, #31
+  a2:	d4d3      	bmi.n	4c <_ZN15StreamBaseClass6putstrEPKc+0x4c>
+  a4:	b003      	add	sp, #12
+  a6:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  a8:	6c33      	ldr	r3, [r6, #64]	; 0x40
+  aa:	2b00      	cmp	r3, #0
+  ac:	d0ce      	beq.n	4c <_ZN15StreamBaseClass6putstrEPKc+0x4c>
+  ae:	f893 2031 	ldrb.w	r2, [r3, #49]	; 0x31
+  b2:	2a00      	cmp	r2, #0
+  b4:	d0ca      	beq.n	4c <_ZN15StreamBaseClass6putstrEPKc+0x4c>
+  b6:	f893 3032 	ldrb.w	r3, [r3, #50]	; 0x32
+  ba:	07db      	lsls	r3, r3, #31
+  bc:	d5ce      	bpl.n	5c <_ZN15StreamBaseClass6putstrEPKc+0x5c>
+  be:	e7c5      	b.n	4c <_ZN15StreamBaseClass6putstrEPKc+0x4c>
+
+Disassembly of section .text._ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE:
+
+00000000 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE>:
+   0:	b430      	push	{r4, r5}
+   2:	f89d 1008 	ldrb.w	r1, [sp, #8]
+   6:	2901      	cmp	r1, #1
+   8:	d005      	beq.n	16 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x16>
+   a:	2902      	cmp	r1, #2
+   c:	d01b      	beq.n	46 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x46>
+   e:	b189      	cbz	r1, 34 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x34>
+  10:	2000      	movs	r0, #0
+  12:	bc30      	pop	{r4, r5}
+  14:	4770      	bx	lr
+  16:	6bc4      	ldr	r4, [r0, #60]	; 0x3c
+  18:	b1ec      	cbz	r4, 56 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x56>
+  1a:	6961      	ldr	r1, [r4, #20]
+  1c:	2500      	movs	r5, #0
+  1e:	1852      	adds	r2, r2, r1
+  20:	eb45 0303 	adc.w	r3, r5, r3
+  24:	b14c      	cbz	r4, 3a <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x3a>
+  26:	2b00      	cmp	r3, #0
+  28:	d1f2      	bne.n	10 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x10>
+  2a:	4620      	mov	r0, r4
+  2c:	4611      	mov	r1, r2
+  2e:	bc30      	pop	{r4, r5}
+  30:	f7ff bffe 	b.w	0 <_ZN7FatFile7seekSetEm>
+  34:	6bc4      	ldr	r4, [r0, #60]	; 0x3c
+  36:	2c00      	cmp	r4, #0
+  38:	d1f5      	bne.n	26 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x26>
+  3a:	6c00      	ldr	r0, [r0, #64]	; 0x40
+  3c:	2800      	cmp	r0, #0
+  3e:	d0e7      	beq.n	10 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x10>
+  40:	bc30      	pop	{r4, r5}
+  42:	f7ff bffe 	b.w	0 <_ZN9ExFatFile7seekSetEy>
+  46:	6bc4      	ldr	r4, [r0, #60]	; 0x3c
+  48:	b154      	cbz	r4, 60 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x60>
+  4a:	69e1      	ldr	r1, [r4, #28]
+  4c:	2500      	movs	r5, #0
+  4e:	1852      	adds	r2, r2, r1
+  50:	eb45 0303 	adc.w	r3, r5, r3
+  54:	e7e6      	b.n	24 <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x24>
+  56:	6c05      	ldr	r5, [r0, #64]	; 0x40
+  58:	b13d      	cbz	r5, 6a <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x6a>
+  5a:	e9d5 1500 	ldrd	r1, r5, [r5]
+  5e:	e7f6      	b.n	4e <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x4e>
+  60:	6c05      	ldr	r5, [r0, #64]	; 0x40
+  62:	b115      	cbz	r5, 6a <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x6a>
+  64:	e9d5 1504 	ldrd	r1, r5, [r5, #16]
+  68:	e7f1      	b.n	4e <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x4e>
+  6a:	4621      	mov	r1, r4
+  6c:	4625      	mov	r5, r4
+  6e:	e7ee      	b.n	4e <_ZN15StreamBaseClass7seekoffExN8ios_base7seekdirE+0x4e>
+
+Disassembly of section .text._ZN15StreamBaseClass5writeEPKvj:
+
+00000000 <_ZN15StreamBaseClass5writeEPKvj>:
+   0:	6bc3      	ldr	r3, [r0, #60]	; 0x3c
+   2:	b113      	cbz	r3, a <_ZN15StreamBaseClass5writeEPKvj+0xa>
+   4:	4618      	mov	r0, r3
+   6:	f7ff bffe 	b.w	0 <_ZN7FatFile5writeEPKvj>
+   a:	6c00      	ldr	r0, [r0, #64]	; 0x40
+   c:	b108      	cbz	r0, 12 <_ZN15StreamBaseClass5writeEPKvj+0x12>
+   e:	f7ff bffe 	b.w	0 <_ZN9ExFatFile5writeEPKvj>
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN15StreamBaseClass5writeEc:
+
+00000000 <_ZN15StreamBaseClass5writeEc>:
+   0:	b500      	push	{lr}
+   2:	6bc3      	ldr	r3, [r0, #60]	; 0x3c
+   4:	b083      	sub	sp, #12
+   6:	f88d 1007 	strb.w	r1, [sp, #7]
+   a:	b143      	cbz	r3, 1e <_ZN15StreamBaseClass5writeEc+0x1e>
+   c:	2201      	movs	r2, #1
+   e:	f10d 0107 	add.w	r1, sp, #7
+  12:	4618      	mov	r0, r3
+  14:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  18:	b003      	add	sp, #12
+  1a:	f85d fb04 	ldr.w	pc, [sp], #4
+  1e:	6c00      	ldr	r0, [r0, #64]	; 0x40
+  20:	2800      	cmp	r0, #0
+  22:	d0f9      	beq.n	18 <_ZN15StreamBaseClass5writeEc+0x18>
+  24:	2201      	movs	r2, #1
+  26:	f10d 0107 	add.w	r1, sp, #7
+  2a:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  2e:	b003      	add	sp, #12
+  30:	f85d fb04 	ldr.w	pc, [sp], #4

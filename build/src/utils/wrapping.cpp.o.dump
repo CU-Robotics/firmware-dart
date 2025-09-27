@@ -1,0 +1,67 @@
+
+build/./src/utils/wrapping.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 wrapping.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._Z9wrapAnglef	00000000 .text._Z9wrapAnglef
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z9wrapAnglef	00000070 _Z9wrapAnglef
+
+
+Contents of section .text._Z9wrapAnglef:
+ 0000 9fed156b b7eec07a b4eec67b f1ee10fa  ...k...z...{....
+ 0010 0cdb9fed 135b37ee 457bb7ee c70bb7ee  .....[7.E{......
+ 0020 c07ab4ee c67bf1ee 10faf4da 9fed0e6b  .z...{.........k
+ 0030 b4eec67b f1ee10fa 0cd89fed 095b37ee  ...{.........[7.
+ 0040 057bb7ee c70bb7ee c07ab4ee c67bf1ee  .{.......z...{..
+ 0050 10faf4d9 704700bf 182d4454 fb210940  ....pG...-DT.!.@
+ 0060 182d4454 fb211940 182d4454 fb2109c0  .-DT.!.@.-DT.!..
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z9wrapAnglef:
+
+00000000 <_Z9wrapAnglef>:
+   0:	ed9f 6b15 	vldr	d6, [pc, #84]	; 58 <_Z9wrapAnglef+0x58>
+   4:	eeb7 7ac0 	vcvt.f64.f32	d7, s0
+   8:	eeb4 7bc6 	vcmpe.f64	d7, d6
+   c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  10:	db0c      	blt.n	2c <_Z9wrapAnglef+0x2c>
+  12:	ed9f 5b13 	vldr	d5, [pc, #76]	; 60 <_Z9wrapAnglef+0x60>
+  16:	ee37 7b45 	vsub.f64	d7, d7, d5
+  1a:	eeb7 0bc7 	vcvt.f32.f64	s0, d7
+  1e:	eeb7 7ac0 	vcvt.f64.f32	d7, s0
+  22:	eeb4 7bc6 	vcmpe.f64	d7, d6
+  26:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2a:	daf4      	bge.n	16 <_Z9wrapAnglef+0x16>
+  2c:	ed9f 6b0e 	vldr	d6, [pc, #56]	; 68 <_Z9wrapAnglef+0x68>
+  30:	eeb4 7bc6 	vcmpe.f64	d7, d6
+  34:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  38:	d80c      	bhi.n	54 <_Z9wrapAnglef+0x54>
+  3a:	ed9f 5b09 	vldr	d5, [pc, #36]	; 60 <_Z9wrapAnglef+0x60>
+  3e:	ee37 7b05 	vadd.f64	d7, d7, d5
+  42:	eeb7 0bc7 	vcvt.f32.f64	s0, d7
+  46:	eeb7 7ac0 	vcvt.f64.f32	d7, s0
+  4a:	eeb4 7bc6 	vcmpe.f64	d7, d6
+  4e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  52:	d9f4      	bls.n	3e <_Z9wrapAnglef+0x3e>
+  54:	4770      	bx	lr
+  56:	bf00      	nop
+  58:	54442d18 	.word	0x54442d18
+  5c:	400921fb 	.word	0x400921fb
+  60:	54442d18 	.word	0x54442d18
+  64:	401921fb 	.word	0x401921fb
+  68:	54442d18 	.word	0x54442d18
+  6c:	c00921fb 	.word	0xc00921fb

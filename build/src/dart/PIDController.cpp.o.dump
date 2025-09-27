@@ -1,0 +1,88 @@
+
+build/./src/dart/PIDController.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 PIDController.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN13PIDControllerC2Efffff	00000000 .text._ZN13PIDControllerC2Efffff
+00000000 l    d  .text._ZN13PIDController9calculateEff	00000000 .text._ZN13PIDController9calculateEff
+00000000 l    d  .text._ZN13PIDController5resetEv	00000000 .text._ZN13PIDController5resetEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN13PIDControllerC2Efffff	0000001c _ZN13PIDControllerC2Efffff
+00000000 g     F .text._ZN13PIDControllerC2Efffff	0000001c _ZN13PIDControllerC1Efffff
+00000000 g     F .text._ZN13PIDController9calculateEff	00000054 _ZN13PIDController9calculateEff
+00000000 g     F .text._ZN13PIDController5resetEv	00000008 _ZN13PIDController5resetEv
+
+
+Contents of section .text._ZN13PIDControllerC2Efffff:
+ 0000 002280ed 000ac0ed 010a80ed 021a4261  ."............Ba
+ 0010 8261c0ed 031a80ed 042a7047           .a.......*pG    
+Contents of section .text._ZN13PIDController9calculateEff:
+ 0000 70ee600a 90ed067a d0ed017a d0ed005a  p.`....z...z...Z
+ 0010 30ee877a d0ed056a 90ed026a 70eee66a  0..z...j...jp..j
+ 0020 90ed040a 67ee277a 80ed067a e5eea07a  ....g.'z...z...z
+ 0030 e6ee267a b4eee70a f1ee10fa 07d490ed  ..&z............
+ 0040 030ab4ee e70af1ee 10fa30fe 270ac0ed  ..........0.'...
+ 0050 050a7047                             ..pG            
+Contents of section .text._ZN13PIDController5resetEv:
+ 0000 00238361 43617047                    .#.aCapG        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN13PIDControllerC2Efffff:
+
+00000000 <_ZN13PIDControllerC1Efffff>:
+   0:	2200      	movs	r2, #0
+   2:	ed80 0a00 	vstr	s0, [r0]
+   6:	edc0 0a01 	vstr	s1, [r0, #4]
+   a:	ed80 1a02 	vstr	s2, [r0, #8]
+   e:	6142      	str	r2, [r0, #20]
+  10:	6182      	str	r2, [r0, #24]
+  12:	edc0 1a03 	vstr	s3, [r0, #12]
+  16:	ed80 2a04 	vstr	s4, [r0, #16]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN13PIDController9calculateEff:
+
+00000000 <_ZN13PIDController9calculateEff>:
+   0:	ee70 0a60 	vsub.f32	s1, s0, s1
+   4:	ed90 7a06 	vldr	s14, [r0, #24]
+   8:	edd0 7a01 	vldr	s15, [r0, #4]
+   c:	edd0 5a00 	vldr	s11, [r0]
+  10:	ee30 7a87 	vadd.f32	s14, s1, s14
+  14:	edd0 6a05 	vldr	s13, [r0, #20]
+  18:	ed90 6a02 	vldr	s12, [r0, #8]
+  1c:	ee70 6ae6 	vsub.f32	s13, s1, s13
+  20:	ed90 0a04 	vldr	s0, [r0, #16]
+  24:	ee67 7a27 	vmul.f32	s15, s14, s15
+  28:	ed80 7a06 	vstr	s14, [r0, #24]
+  2c:	eee5 7aa0 	vfma.f32	s15, s11, s1
+  30:	eee6 7a26 	vfma.f32	s15, s12, s13
+  34:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  38:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  3c:	d407      	bmi.n	4e <_ZN13PIDController9calculateEff+0x4e>
+  3e:	ed90 0a03 	vldr	s0, [r0, #12]
+  42:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  46:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  4a:	fe30 0a27 	vselgt.f32	s0, s0, s15
+  4e:	edc0 0a05 	vstr	s1, [r0, #20]
+  52:	4770      	bx	lr
+
+Disassembly of section .text._ZN13PIDController5resetEv:
+
+00000000 <_ZN13PIDController5resetEv>:
+   0:	2300      	movs	r3, #0
+   2:	6183      	str	r3, [r0, #24]
+   4:	6143      	str	r3, [r0, #20]
+   6:	4770      	bx	lr

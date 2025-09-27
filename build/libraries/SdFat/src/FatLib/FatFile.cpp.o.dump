@@ -1,0 +1,2862 @@
+
+build/./libraries/SdFat/src/FatLib/FatFile.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FatFile.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN7FatFile4syncEv.part.0	00000000 .text._ZN7FatFile4syncEv.part.0
+00000000 l     F .text._ZN7FatFile4syncEv.part.0	000000b4 _ZN7FatFile4syncEv.part.0
+00000000 l    d  .text._ZN7FatFile10addClusterEv	00000000 .text._ZN7FatFile10addClusterEv
+00000000 l    d  .text._ZN7FatFile13addDirClusterEv	00000000 .text._ZN7FatFile13addDirClusterEv
+00000000 l    d  .text._ZN7FatFile13cacheDirEntryEh	00000000 .text._ZN7FatFile13cacheDirEntryEh
+00000000 l    d  .text._ZN7FatFile5closeEv	00000000 .text._ZN7FatFile5closeEv
+00000000 l    d  .text._ZN7FatFile15contiguousRangeEPmS0_	00000000 .text._ZN7FatFile15contiguousRangeEPmS0_
+00000000 l    d  .text._ZN7FatFile8dirEntryEP8DirFat_t	00000000 .text._ZN7FatFile8dirEntryEP8DirFat_t
+00000000 l    d  .text._ZN7FatFile7dirSizeEv	00000000 .text._ZN7FatFile7dirSizeEv
+00000000 l    d  .text._ZNK7FatFile7fgetposEP7fspos_t	00000000 .text._ZNK7FatFile7fgetposEP7fspos_t
+00000000 l    d  .text._ZNK7FatFile11firstSectorEv	00000000 .text._ZNK7FatFile11firstSectorEv
+00000000 l    d  .text._ZN7FatFile7fsetposEPK7fspos_t	00000000 .text._ZN7FatFile7fsetposEPK7fspos_t
+00000000 l    d  .text._ZN7FatFile13getAccessDateEPt	00000000 .text._ZN7FatFile13getAccessDateEPt
+00000000 l    d  .text._ZN7FatFile17getCreateDateTimeEPtS0_	00000000 .text._ZN7FatFile17getCreateDateTimeEPtS0_
+00000000 l    d  .text._ZN7FatFile17getModifyDateTimeEPtS0_	00000000 .text._ZN7FatFile17getModifyDateTimeEPtS0_
+00000000 l    d  .text._ZN7FatFile6isBusyEv	00000000 .text._ZN7FatFile6isBusyEv
+00000000 l    d  .text._ZN7FatFile5mkdirEPS_P8FatLfn_t	00000000 .text._ZN7FatFile5mkdirEPS_P8FatLfn_t
+00000000 l    d  .text._ZN7FatFile5mkdirEPS_PKcb	00000000 .text._ZN7FatFile5mkdirEPS_PKcb
+00000000 l    d  .text._ZN7FatFile4openEPS_PKci	00000000 .text._ZN7FatFile4openEPS_PKci
+00000000 l    d  .text._ZN7FatFile4openEP9FatVolumePKci	00000000 .text._ZN7FatFile4openEP9FatVolumePKci
+00000000 l    d  .text._ZN7FatFile4openEPKci	00000000 .text._ZN7FatFile4openEPKci
+00000000 l    d  .text._ZN7FatFile11openClusterEPS_	00000000 .text._ZN7FatFile11openClusterEPS_
+00000000 l    d  .text._ZN7FatFile8openRootEP9FatVolume	00000000 .text._ZN7FatFile8openRootEP9FatVolume
+00000000 l    d  .text._ZN7FatFile11preAllocateEm	00000000 .text._ZN7FatFile11preAllocateEm
+00000000 l    d  .text._ZN7FatFile16createContiguousEPKcm	00000000 .text._ZN7FatFile16createContiguousEPKcm
+00000000 l    d  .text._ZN7FatFile16createContiguousEPS_PKcm	00000000 .text._ZN7FatFile16createContiguousEPS_PKcm
+00000000 l    d  .text._ZN7FatFile4readEPvj	00000000 .text._ZN7FatFile4readEPvj
+00000000 l    d  .text._ZN7FatFile5fgetsEPciS0_	00000000 .text._ZN7FatFile5fgetsEPciS0_
+00000000 l    d  .text._ZN7FatFile4peekEv	00000000 .text._ZN7FatFile4peekEv
+00000000 l    d  .text._ZN7FatFile7readDirEP8DirFat_t	00000000 .text._ZN7FatFile7readDirEP8DirFat_t
+00000000 l    d  .text._ZN7FatFile12readDirCacheEb	00000000 .text._ZN7FatFile12readDirCacheEb
+00000000 l    d  .text._ZN7FatFile6removeEPKc	00000000 .text._ZN7FatFile6removeEPKc
+00000000 l    d  .text._ZN7FatFile6renameEPS_PKc	00000000 .text._ZN7FatFile6renameEPS_PKc
+00000000 l    d  .text._ZN7FatFile6renameEPKc	00000000 .text._ZN7FatFile6renameEPKc
+00000000 l    d  .text._ZN7FatFile5rmdirEv	00000000 .text._ZN7FatFile5rmdirEv
+00000000 l    d  .text._ZN7FatFile7seekSetEm	00000000 .text._ZN7FatFile7seekSetEm
+00000000 l    d  .text._ZN7FatFile15openCachedEntryEPS_tih	00000000 .text._ZN7FatFile15openCachedEntryEPS_tih
+00000000 l    d  .text._ZN7FatFile8openNextEPS_i	00000000 .text._ZN7FatFile8openNextEPS_i
+00000000 l    d  .text._ZN7FatFile4openEPS_ti	00000000 .text._ZN7FatFile4openEPS_ti
+00000000 l    d  .text._ZN7FatFile8rmRfStarEv	00000000 .text._ZN7FatFile8rmRfStarEv
+00000000 l    d  .text._ZN7FatFile4syncEv	00000000 .text._ZN7FatFile4syncEv
+00000000 l    d  .text._ZN7FatFile9timestampEhthhhhh	00000000 .text._ZN7FatFile9timestampEhthhhhh
+00000000 l    d  .text._ZN7FatFile8truncateEv	00000000 .text._ZN7FatFile8truncateEv
+00000000 l    d  .text._ZN7FatFile5writeEPKvj	00000000 .text._ZN7FatFile5writeEPKvj
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 _ZN7FsCache4syncEv
+00000000         *UND*	00000000 _ZN7FsCache7prepareEmh
+00000000         *UND*	00000000 _ZN10FsDateTime8callbackE
+00000000 g     F .text._ZN7FatFile10addClusterEv	00000034 _ZN7FatFile10addClusterEv
+00000000         *UND*	00000000 _ZN12FatPartition15allocateClusterEmPm
+00000000 g     F .text._ZN7FatFile13addDirClusterEv	00000078 _ZN7FatFile13addDirClusterEv
+00000000         *UND*	00000000 memset
+00000000 g     F .text._ZN7FatFile13cacheDirEntryEh	0000001e _ZN7FatFile13cacheDirEntryEh
+00000000 g     F .text._ZN7FatFile5closeEv	0000001e _ZN7FatFile5closeEv
+00000000 g     F .text._ZN7FatFile15contiguousRangeEPmS0_	00000070 _ZN7FatFile15contiguousRangeEPmS0_
+00000000         *UND*	00000000 _ZN12FatPartition6fatGetEmPm
+00000000 g     F .text._ZN7FatFile8dirEntryEP8DirFat_t	00000052 _ZN7FatFile8dirEntryEP8DirFat_t
+00000000 g     F .text._ZN7FatFile7dirSizeEv	00000062 _ZN7FatFile7dirSizeEv
+00000000 g     F .text._ZNK7FatFile7fgetposEP7fspos_t	00000014 _ZNK7FatFile7fgetposEP7fspos_t
+00000000 g     F .text._ZNK7FatFile11firstSectorEv	00000014 _ZNK7FatFile11firstSectorEv
+00000000 g     F .text._ZN7FatFile7fsetposEPK7fspos_t	0000000a _ZN7FatFile7fsetposEPK7fspos_t
+00000000 g     F .text._ZN7FatFile13getAccessDateEPt	00000036 _ZN7FatFile13getAccessDateEPt
+00000000 g     F .text._ZN7FatFile17getCreateDateTimeEPtS0_	00000020 _ZN7FatFile17getCreateDateTimeEPtS0_
+00000000 g     F .text._ZN7FatFile17getModifyDateTimeEPtS0_	00000020 _ZN7FatFile17getModifyDateTimeEPtS0_
+00000000 g     F .text._ZN7FatFile6isBusyEv	0000000a _ZN7FatFile6isBusyEv
+00000000 g     F .text._ZN7FatFile5mkdirEPS_P8FatLfn_t	0000016a _ZN7FatFile5mkdirEPS_P8FatLfn_t
+00000000         *UND*	00000000 _ZN7FatFile4openEPS_P8FatLfn_ti
+00000000 g     F .text._ZN7FatFile5mkdirEPS_PKcb	000000ea _ZN7FatFile5mkdirEPS_PKcb
+00000000         *UND*	00000000 _ZN7FatFile13parsePathNameEPKcP8FatLfn_tPS1_
+00000000 g     F .text._ZN7FatFile4openEPS_PKci	00000104 _ZN7FatFile4openEPS_PKci
+00000000 g     F .text._ZN7FatFile4openEP9FatVolumePKci	0000000e _ZN7FatFile4openEP9FatVolumePKci
+00000000 g     F .text._ZN7FatFile4openEPKci	00000024 _ZN7FatFile4openEPKci
+00000000         *UND*	00000000 _ZN9FatVolume5m_cwvE
+00000000 g     F .text._ZN7FatFile11openClusterEPS_	0000005a _ZN7FatFile11openClusterEPS_
+00000000 g     F .text._ZN7FatFile8openRootEP9FatVolume	0000003a _ZN7FatFile8openRootEP9FatVolume
+00000000 g     F .text._ZN7FatFile11preAllocateEm	0000004a _ZN7FatFile11preAllocateEm
+00000000         *UND*	00000000 _ZN12FatPartition15allocContiguousEmPm
+00000000 g     F .text._ZN7FatFile16createContiguousEPKcm	00000048 _ZN7FatFile16createContiguousEPKcm
+00000000 g     F .text._ZN7FatFile16createContiguousEPS_PKcm	00000038 _ZN7FatFile16createContiguousEPS_PKcm
+00000000 g     F .text._ZN7FatFile4readEPvj	000001a8 _ZN7FatFile4readEPvj
+00000000         *UND*	00000000 memcpy
+00000000 g     F .text._ZN7FatFile5fgetsEPciS0_	0000006e _ZN7FatFile5fgetsEPciS0_
+00000000         *UND*	00000000 strchr
+00000000 g     F .text._ZN7FatFile4peekEv	00000028 _ZN7FatFile4peekEv
+00000000 g     F .text._ZN7FatFile7readDirEP8DirFat_t	0000004e _ZN7FatFile7readDirEP8DirFat_t
+00000000 g     F .text._ZN7FatFile12readDirCacheEb	00000044 _ZN7FatFile12readDirCacheEb
+00000000 g     F .text._ZN7FatFile6removeEPKc	00000020 _ZN7FatFile6removeEPKc
+00000000         *UND*	00000000 _ZN7FatFile6removeEv
+00000000 g     F .text._ZN7FatFile6renameEPS_PKc	000001ea _ZN7FatFile6renameEPS_PKc
+00000000         *UND*	00000000 _ZN12FatPartition9freeChainEm
+00000000 g     F .text._ZN7FatFile6renameEPKc	0000000c _ZN7FatFile6renameEPKc
+00000000 g     F .text._ZN7FatFile5rmdirEv	00000090 _ZN7FatFile5rmdirEv
+00000000 g     F .text._ZN7FatFile7seekSetEm	000000ae _ZN7FatFile7seekSetEm
+00000000 g     F .text._ZN7FatFile15openCachedEntryEPS_tih	000000e2 _ZN7FatFile15openCachedEntryEPS_tih
+00000000 g     F .text._ZN7FatFile8openNextEPS_i	000000ca _ZN7FatFile8openNextEPS_i
+00000000 g     F .text._ZN7FatFile4openEPS_ti	000000b0 _ZN7FatFile4openEPS_ti
+00000000 g     F .text._ZN7FatFile8rmRfStarEv	000000dc _ZN7FatFile8rmRfStarEv
+00000000 g     F .text._ZN7FatFile4syncEv	0000000c _ZN7FatFile4syncEv
+00000000 g     F .text._ZN7FatFile9timestampEhthhhhh	000000d8 _ZN7FatFile9timestampEhthhhhh
+00000000 g     F .text._ZN7FatFile8truncateEv	00000074 _ZN7FatFile8truncateEv
+00000000         *UND*	00000000 _ZN12FatPartition6fatPutEmm
+00000000 g     F .text._ZN7FatFile5writeEPKvj	000001b4 _ZN7FatFile5writeEPKvj
+
+
+Contents of section .text._ZN7FatFile4syncEv.part.0:
+ 0000 70b590f9 023082b0 0446002b 0ddba568  p....0...F.+...h
+ 0010 05f12800 fff7feff 00283bd1 63780020  ..(......(;.cx. 
+ 0020 43f00103 637002b0 70bd8068 0122a169  C...cp..p..h.".i
+ 0030 2830fff7 feff0028 f0d0a588 05f00f05  (0.....(........
+ 0040 6b0100eb 4515c35c e52be7d0 23781b07  k...E..\.+..#x..
+ 0050 01d5e369 eb61236a 15491a0c 6b830e68  ...i.a#j.I..k..h
+ 0060 aa8266b1 0df10302 0df10601 01a8b047  ..f............G
+ 0070 bdf80430 bdf80620 2b836b82 ea82a378  ...0... +.k....x
+ 0080 a56803f0 7f0305f1 2800a370 fff7feff  .h......(..p....
+ 0090 0028c3d0 05f50e70 fff7feff 0028bdd0  .(.....p.....(..
+ 00a0 28680368 1b6a9847 0028b7d0 bbe700bf  (h.h.j.G.(......
+ 00b0 00000000                             ....            
+Contents of section .text._ZN7FatFile10addClusterEv:
+ 0000 024638b5 52f8105f 04468068 2946fff7  .F8.R.._.F.h)F..
+ 0010 feff50b1 55b12369 0135ab42 a37818bf  ..P.U.#i.5.B.x..
+ 0020 03f0bf03 63f07f03 a37038bd a37843f0  ....c....p8..xC.
+ 0030 4003f7e7                             @...            
+Contents of section .text._ZN7FatFile13addDirClusterEv:
+ 0000 f8b50478 14f02004 04d11a4b 05464269  ...x.. ....K.FBi
+ 0010 9a4202d3 00273846 f8bdfff7 feff0746  .B...'8F.......F
+ 0020 0028f7d0 a8682e69 8279023e 41699640  .(...h.i.y.>Ai.@
+ 0030 0e440179 a9b12146 06e0fff7 feffa868  .D.y..!F.......h
+ 0040 e1b20279 8a420bd9 31440522 28300134  ...y.B..1D."(0.4
+ 0050 fff7feff 4ff40072 00210028 edd1d9e7  ....O..r.!.(....
+ 0060 82794ff4 00736969 38469340 11fa83f3  .yO..sii8F.@....
+ 0070 6b61f8bd 00fe1f00                    ka......        
+Contents of section .text._ZN7FatFile13cacheDirEntryEh:
+ 0000 10b50446 80680a46 2830a169 fff7feff  ...F.h.F(0.i....
+ 0010 20b1a388 03f00f03 00eb4310 10bd00bf   .........C.....
+Contents of section .text._ZN7FatFile5closeEv:
+ 0000 10b50378 04462bb1 fff7feff 00232370  ...x.F+......##p
+ 0010 a37010bd 00230120 2370a370 10bd00bf  .p...#. #p.p....
+Contents of section .text._ZN7FatFile15contiguousRangeEPmS0_:
+ 0000 f0b50478 83b014f0 080413d0 046a0546  ...x.........j.F
+ 0010 0e461746 3cb92046 03b0f0bd 0dd00134  .F.F<. F.......4
+ 0020 019b9c42 06d12146 01aaa868 fff7feff  ...B..!F...h....
+ 0030 0028f3da 002003b0 f0bdab78 43f04003  .(... .....xC.@.
+ 0040 ab703eb1 aa682b6a 9179023b 52698b40  .p>..h+j.y.;Ri.@
+ 0050 13443360 4fb1aa68 023c5369 1179013b  .D3`O..h.<Si.y.;
+ 0060 92790b44 94402344 3b600120 03b0f0bd  .y.D.@#D;`. ....
+Contents of section .text._ZN7FatFile8dirEntryEP8DirFat_t:
+ 0000 38b50378 05460c46 13b1fff7 fefff0b1  8..x.F.F........
+ 0010 a8680022 a9692830 fff7feff b8b1aa88  .h.".i(0........
+ 0020 02f00f02 00eb4213 52015d68 80589968  ......B.R.]h.X.h
+ 0030 da682060 6560a160 e2601869 5d699969  .h `e`.`.`.i]i.i
+ 0040 da692061 01206561 a161e261 38bd0020  .i a. ea.a.a8.. 
+ 0050 38bd00bf                             8...            
+Contents of section .text._ZN7FatFile7dirSizeEv:
+ 0000 037813f0 700f2ad0 70b50546 980682b0  .x..p.*.p..F....
+ 0010 04d5ab68 58894001 02b070bd 590618d4  ...hX.@...p.Y...
+ 0020 296aa868 002440f6 ff760191 00e00199  )j.h.$@..v......
+ 0030 01aafff7 feff0206 03460dd4 b4420bd8  .........F...B..
+ 0040 a8680279 1444a4b2 002bf0d1 600202b0  .h.y.D...+..`...
+ 0050 70bda868 016ae5e7 002002b0 70bd0020  p..h.j... ..p.. 
+ 0060 704700bf                             pG..            
+Contents of section .text._ZNK7FatFile7fgetposEP7fspos_t:
+ 0000 d0e90432 10b40024 8b60c1e9 00245df8  ...2...$.`...$].
+ 0010 044b7047                             .KpG            
+Contents of section .text._ZNK7FatFile11firstSectorEv:
+ 0000 036a2bb1 8268023b 91795269 8b401344  .j+..h.;.yRi.@.D
+ 0010 18467047                             .FpG            
+Contents of section .text._ZN7FatFile7fsetposEPK7fspos_t:
+ 0000 0a688b68 c0e90432 704700bf           .h.h...2pG..    
+Contents of section .text._ZN7FatFile13getAccessDateEPt:
+ 0000 38b50378 04460d46 13b1fff7 feff80b1  8..x.F.F........
+ 0010 a0680022 a1692830 fff7feff 034640b1  .h.".i(0.....F@.
+ 0020 a2880120 02f00f02 03eb4213 5b8a2b80  ... ......B.[.+.
+ 0030 38bd0020 38bd00bf                    8.. 8...        
+Contents of section .text._ZN7FatFile17getCreateDateTimeEPtS0_:
+ 0000 30b589b0 0d461446 6946fff7 feff28b1  0....F.FiF....(.
+ 0010 bdf81020 bdf80e30 2a802380 09b030bd  ... ...0*.#...0.
+Contents of section .text._ZN7FatFile17getModifyDateTimeEPtS0_:
+ 0000 30b589b0 0d461446 6946fff7 feff28b1  0....F.FiF....(.
+ 0010 bdf81820 bdf81630 2a802380 09b030bd  ... ...0*.#...0.
+Contents of section .text._ZN7FatFile6isBusyEv:
+ 0000 83681868 0368db68 184700bf           .h.h.h.h.G..    
+Contents of section .text._ZN7FatFile5mkdirEPS_P8FatLfn_t:
+ 0000 0b7813f0 700f01d1 00207047 f0b540f6  .x..p.... pG..@.
+ 0010 022389b0 0d460446 fff7feff 38b10122  .#...F.F....8.."
+ 0020 10232046 a2702370 fff7feff 10b90020  .# F.p#p....... 
+ 0030 09b0f0bd 22692378 22626bb1 636933b1  ...."i#x"bk.ci3.
+ 0040 a3780022 23f02003 c4e90422 a3702046  .x."#. ....".p F
+ 0050 fff7feff 0028ead0 a0680122 a1692830  .....(...h.".i(0
+ 0060 fff7feff 0028e2d0 b4f804c0 10220cf0  .....(......."..
+ 0070 0f0c4fea 4c1300eb 4c1c8cf8 0b20c058  ..O.L...L.... .X
+ 0080 a768236a 97f806e0 9e1edcf8 0410dcf8  .h#j............
+ 0090 0820dcf8 0c3006fa 0ef6ee46 aee80f00  . ...0.....F....
+ 00a0 dcf81000 dcf81410 dcf81820 dcf81c30  ........... ...0
+ 00b0 aee80f00 7b6907f1 28000122 f1184ff0  ....{i..(.."..O.
+ 00c0 2033cdf8 0130cdf8 0530adf8 0930fff7   3...0...0...0..
+ 00d0 feff8446 0028aad0 2e27ee46 8df80070  ...F.(...'.F...p
+ 00e0 7646bee8 0f00ccf8 0000ccf8 0410ccf8  vF..............
+ 00f0 0820ccf8 0c308df8 0170bee8 0f00ccf8  . ...0...p......
+ 0100 1000ccf8 1410ccf8 1820ccf8 1c302b6a  ......... ...0+j
+ 0110 1a0cadf8 1a30adf8 14200fce ccf82000  .....0... .... .
+ 0120 ccf82410 ccf82820 ccf82c30 0fceccf8  ..$...( ..,0....
+ 0130 3000ccf8 3410ccf8 3820ccf8 3c30a468  0...4...8 ..<0.h
+ 0140 04f12800 fff7feff 00283ff4 70af04f5  ..(......(?.p...
+ 0150 0e70fff7 feff0028 3ff469af 20680368  .p.....(?.i. h.h
+ 0160 1b6a09b0 bde8f040 184700bf           .j.....@.G..    
+Contents of section .text._ZN7FatFile5mkdirEPS_PKcb:
+ 0000 2de9f041 002694b0 98460378 0192adf8  -..A.&...F.x....
+ 0010 14600b96 002b41d1 0b780d46 13f0700f  .`...+A..x.F..p.
+ 0020 3cd01378 04461646 2f2b3bd0 002728e0  <..x.F.F/+;..'(.
+ 0030 019e3678 002e50d0 fff7feff 034602aa  ..6x..P......F..
+ 0040 29462046 2bb9b8f1 000f27d0 fff7feff  )F F+.....'.....
+ 0050 20b3a646 0df12c0c bee80f00 ace80f00   ..F..,.........
+ 0060 bee80f00 ace80f00 def80050 20462378  ...........P F#x
+ 0070 ccf80050 0bb1fff7 feff019e 0bad2770  ...P..........'p
+ 0080 a7703146 01ab02aa 2046fff7 feff0646  .p1F.... F.....F
+ 0090 02aa2946 00232046 002ec9d1 002014b0  ..)F.# F..... ..
+ 00a0 bde8f081 01360196 33782f2b fad0ad68  .....6..3x/+...h
+ 00b0 24220021 0ba8fff7 feff0d95 eb79102b  $".!.........y.+
+ 00c0 03d0202b 0fd00c2b e8d12023 8df82c30  .. +...+.. #..,0
+ 00d0 01230bad 8df82e30 a8e702aa fff7feff  .#.....0........
+ 00e0 14b0bde8 f0814023 f0e700bf           ......@#....    
+Contents of section .text._ZN7FatFile4openEPS_PKci:
+ 0000 2de9f041 002594b0 98460378 01920295  -..A.%...F.x....
+ 0010 adf83850 002b37d1 0b780e46 13f0700f  ..8P.+7..x.F..p.
+ 0020 32d01378 04461546 2f2b31d0 00271ee0  2..x.F.F/+1..'..
+ 0030 019d2d78 002d40d0 fff7feff a6460df1  ..-x.-@......F..
+ 0040 080c08b3 66462578 bee80f00 ace80f00  ....fF%x........
+ 0050 bee80f00 ace80f00 def80030 2046ccf8  ...........0 F..
+ 0060 00300db1 fff7feff 019d2770 a7702946  .0........'p.p)F
+ 0070 01ab0baa 2046fff7 feff0546 0baa3146  .... F.....F..1F
+ 0080 00232046 002dd3d1 002014b0 bde8f081  .# F.-... ......
+ 0090 01350195 29782f29 fad0a9b9 b5682422  .5..)x/).....h$"
+ 00a0 2046fff7 feffa560 eb79102b 03d0202b   F.....`.y.+.. +
+ 00b0 22d00c2b e8d12022 1fe04346 0baafff7  "..+.. "..CF....
+ 00c0 feff14b0 bde8f081 b6682422 002102a8  .........h$".!..
+ 00d0 fff7feff 0496f379 102b03d0 202b03d0  .......y.+.. +..
+ 00e0 0c2bd1d1 202300e0 40238df8 08300123  .+.. #..@#...0.#
+ 00f0 02ae8df8 0a3099e7 40220123 22701846  .....0..@".#"p.F
+ 0100 a370c2e7                             .p..            
+Contents of section .text._ZN7FatFile4openEP9FatVolumePKci:
+ 0000 19b101f5 8961fff7 febf0846 704700bf  .....a.....FpG..
+Contents of section .text._ZN7FatFile4openEPKci:
+ 0000 074b10b4 1c683cb1 13460a46 04f58961  .K...h<..F.F...a
+ 0010 5df8044b fff7febf 20465df8 044b7047  ]..K.... F]..KpG
+ 0020 00000000                             ....            
+Contents of section .text._ZN7FatFile11openClusterEPS_:
+ 0000 cb6870b5 0d460446 93b90678 0eb11846  .hp..F.F...x...F
+ 0010 70bd8d68 24223146 fff7feff a560eb79  p..h$"1F.....`.y
+ 0020 102b18d0 202b10d0 0c2b14d0 304670bd  .+.. +...+..0Fp.
+ 0030 24220021 fff7feff 01201023 a0702370  $".!..... .#.p#p
+ 0040 d5e90223 a2602362 70bd4022 01232270  ...#.`#bp.@".#"p
+ 0050 1846a370 70bd2022 f8e700bf           .F.pp. "....    
+Contents of section .text._ZN7FatFile8openRootEP9FatVolume:
+ 0000 70b50578 0db10020 70bd0e46 04462422  p..x... p..F.F$"
+ 0010 2946fff7 feffa660 f379102b 0bd0202b  )F.....`.y.+.. +
+ 0020 03d00c2b 07d02846 70bd4022 01232270  ...+..(Fp.@".#"p
+ 0030 1846a370 70bd2022 f8e700bf           .F.pp. "....    
+Contents of section .text._ZN7FatFile11preAllocateEm:
+ 0000 09b338b5 83780446 9b071ad5 036ac3b9  ..8..x.F.....j..
+ 0010 80680d46 013904f1 20028379 0933dbb2  .h.F.9.. ..y.3..
+ 0020 d9400131 fff7feff 58b1a378 227863f0  .@.1....X..x"xc.
+ 0030 1f03e561 a3702ab1 2046bde8 3840fff7  ...a.p*. F..8@..
+ 0040 febf0020 38bd0020 704700bf           ... 8.. pG..    
+Contents of section .text._ZN7FatFile16createContiguousEPKcm:
+ 0000 38b5104b 1b684bb1 14460a46 03f58961  8..K.hK..F.F...a
+ 0010 40f60223 0546fff7 feff10b9 00242046  @..#.F.......$ F
+ 0020 38bd2146 2846fff7 feff0446 0028f6d1  8.!F(F.....F.(..
+ 0030 2b7813b1 2846fff7 feff0023 20462b70  +x..(F.....# F+p
+ 0040 ab7038bd 00000000                    .p8.....        
+Contents of section .text._ZN7FatFile16createContiguousEPS_PKcm:
+ 0000 70b51e46 40f60223 0546fff7 feff0446  p..F@..#.F.....F
+ 0010 08b92046 70bd3146 2846fff7 feff0446  .. Fp.1F(F.....F
+ 0020 0028f6d1 2b7813b1 2846fff7 feff0023  .(..+x..(F.....#
+ 0030 20462b70 ab7070bd                     F+p.pp.        
+Contents of section .text._ZN7FatFile4readEPvj:
+ 0000 2de9f04f 2ded028b 837883b0 0546df07  -..O-....x...F..
+ 0010 40f18c80 88460178 92460e07 00f19180  @....F.x.F......
+ 0020 8c0608d5 83685a89 4369c3eb 42139bb2  .....hZ.Ci..B...
+ 0030 9a4528bf 9a46baf1 000f00f0 af806a69  .E(..F........ji
+ 0040 05f11003 88065646 4ff00009 08ee103a  ......VFO......:
+ 0050 af68c2f3 080b3dd5 396a01eb 5221bbf1  .h....=.9j..R!..
+ 0060 000f51d1 b6f5007f 4ed37a6b 91424bd0  ..Q.....N.zk.BK.
+ 0070 b6f5806f c0f08280 2878730a 800605d4  ...o....(xs.....
+ 0080 3879a0eb 09008342 28bf0346 91424fea  8y.....B(..F.BO.
+ 0090 43240cd8 c8188242 09d207f1 2800cde9  C$.....B....(...
+ 00a0 0013fff7 feffdde9 00130028 3ed0f86a  ...........(>..j
+ 00b0 02685769 4246b847 002837d0 6a69361b  .hWiBF.G.(7.ji6.
+ 00c0 a0442244 6a6169d0 2978c2f3 080baf68  .D"Djai.)x.....h
+ 00d0 8806c1d4 97f80590 09ea5229 bbf1000f  ..........R)....
+ 00e0 36d1b9f1 000f33d1 002a33d1 4a064cbf  6.....3..*3.J.L.
+ 00f0 3a6a2a6a 2a61023a b8797969 82404944  :j*j*a.:.yyi.@ID
+ 0100 1144bbf1 000fadd0 cbf50074 002207f1  .D.........t."..
+ 0110 2800b442 28bf3446 fff7feff 30b100eb  (..B(.4F....0...
+ 0120 0b012246 4046fff7 feffc7e7 6b784ff0  .."F@F......kxO.
+ 0130 ff3043f0 02036b70 03b0bdec 028bbde8  .0C...kp........
+ 0140 f08fc369 42699b1a 9a4528bf 9a4672e7  ...iBi...E(..Fr.
+ 0150 2a69d0e7 0b0705d5 aa785406 02d52a69  *i.......xT...*i
+ 0160 0132c7e7 18ee102a 38462969 fff7feff  .2.....*8F)i....
+ 0170 0028dbdb 0cd0af68 2a69bce7 f86a4246  .(.....h*i...jBF
+ 0180 03681b69 98470028 d0d04ff4 007495e7  .h.i.G.(..O..t..
+ 0190 2b7813f0 700fc9d0 aaeb060a 504603b0  +x..p.......PF..
+ 01a0 bdec028b bde8f08f                    ........        
+Contents of section .text._ZN7FatFile5fgetsEPciS0_:
+ 0000 2de9f04f 8b4683b0 81469046 1f464e1e  -..O.F...F.F.FN.
+ 0010 4ff0ff34 0025aa46 0135a845 4ff00102  O..4.%.F.5.EO...
+ 0020 0df10701 484616dd fff7feff 01280446  ....HF.......(.F
+ 0030 11d19df8 07100d29 efd006f8 011f37b1  .......)......7.
+ 0040 3846fff7 feff0028 e5d0aa46 05e00a29  8F.....(...F...)
+ 0050 e1d1aa46 01e0002c 06db0023 0bf80a30  ...F...,...#...0
+ 0060 504603b0 bde8f08f 4ff0ff3a f8e700bf  PF......O..:....
+Contents of section .text._ZN7FatFile4peekEv:
+ 0000 70b582b0 01220446 0df10701 d0e90456  p....".F.......V
+ 0010 fff7feff 01280cbf 9df80700 4ff0ff30  .....(......O..0
+ 0020 c4e90456 02b070bd                    ...V..p.        
+Contents of section .text._ZN7FatFile7readDirEP8DirFat_t:
+ 0000 38b50378 13f0700f 1ed04369 05460c46  8..x..p...Ci.F.F
+ 0010 da0619d1 20222146 2846fff7 feff02b2  .... "!F(F......
+ 0020 202a0ad1 23786bb1 e52bf3d0 2e2bf1d0   *..#xk..+...+..
+ 0030 e37a1b07 eed440b2 38bd131e 18bf0123  .z....@.8......#
+ 0040 584238bd 184638bd 4ff0ff30 38bd00bf  XB8..F8.O..08...
+Contents of section .text._ZN7FatFile12readDirCacheEb:
+ 0000 436913f4 f07f30b5 044683b0 c3f34315  Ci....0..F....C.
+ 0010 09d00129 07d12033 4361a068 383000eb  ...).. 3Ca.h80..
+ 0020 451003b0 30bd0122 0df10701 2046fff7  E...0..".... F..
+ 0030 feff40b2 012803d1 63691f33 6361ece7  ..@..(..ci.3ca..
+ 0040 0020eee7                             . ..            
+Contents of section .text._ZN7FatFile6removeEPKc:
+ 0000 10b58ab0 00240a46 01230146 01a80194  .....$.F.#.F....
+ 0010 fff7feff 10b101a8 fff7feff 0ab010bd  ................
+Contents of section .text._ZN7FatFile6renameEPS_PKc:
+ 0000 2de9f041 03789ab0 002613f0 180f0896  -..A.x...&......
+ 0010 119606d0 17468368 8a680446 0d469a42  .....F.h.h.F.F.B
+ 0020 03d00020 1ab0bde8 f081fff7 feffa646  ... ...........F
+ 0030 0df1440c bee80f00 ace80f00 bee80f00  ..D.............
+ 0040 ace80f00 def80030 3246a169 ccf80030  .......02F.i...0
+ 0050 a36803f1 2800fff7 feff0028 e1d0a288  .h..(......(....
+ 0060 ec4694f8 008002f0 0f0200eb 421e5201  .F..........B.R.
+ 0070 def80410 8058def8 0c30def8 0820ace8  .....X...0... ..
+ 0080 0f00def8 1410def8 1820def8 1c30def8  ......... ...0..
+ 0090 1000ace8 0f0018f0 08033a46 294640f0  ..........:F)F@.
+ 00a0 9b8008a8 fff7feff 0028bad0 109ebdf8  .........(......
+ 00b0 24300025 0e990122 a3809df8 2330a068  $0.%..."....#0.h
+ 00c0 e3700b9b 2830a161 e3608df8 20508df8  .p..(0.a.`.. P..
+ 00d0 2250fff7 feff0028 a3d0a388 03f00f03  "P.....(........
+ 00e0 00eb4310 ddf80d30 c0f80d30 ddf81130  ..C....0...0...0
+ 00f0 c0f81130 ddf81530 c0f81530 ddf81930  ...0...0...0...0
+ 0100 c0f81930 bdf81d30 a0f81d30 9df81f30  ...0...0...0...0
+ 0110 c3779df8 0b30c372 002e3bd0 a068b31e  .w...0.r..;..h..
+ 0120 2a468179 28308b40 50f8141c 1944fff7  *F.y(0.@P....D..
+ 0130 feff0546 00283ff4 74af006a 6f46696a  ...F.(?.t..joFij
+ 0140 aa6aeb6a 0fc7286b 696baa6b eb6b0fc7  .j.j..(kik.k.k..
+ 0150 3146a068 fff7feff 00283ff4 62afa068  1F.h.....(?.b..h
+ 0160 236a8279 2830023b 50f8141c 93400122  #j.y(0.;P....@."
+ 0170 1944fff7 feff0646 00283ff4 52af6d46  .D.....F.(?.R.mF
+ 0180 0fcd3062 7162b262 f3620fcd 30637163  ..0bqb.b.b..0cqc
+ 0190 b263f363 00210222 082311a8 19918df8  .c.c.!.".#......
+ 01a0 46208df8 4430fff7 feff0028 3ff439af  F ..D0.....(?.9.
+ 01b0 a46804f1 2800fff7 feff0028 3ff431af  .h..(......(?.1.
+ 01c0 04f50e70 fff7feff 00283ff4 2aaf2068  ...p.....(?.*. h
+ 01d0 03681b6a 984725e7 40f60123 6046fff7  .h.j.G%.@..#`F..
+ 01e0 feff0028 7ff463af 1be700bf           ...(..c.....    
+Contents of section .text._ZN7FatFile6renameEPKc:
+ 0000 0a468168 01f58961 fff7febf           .F.h...a....    
+Contents of section .text._ZN7FatFile5rmdirEv:
+ 0000 0378da06 01d40020 70474369 30b50446  .x..... pGCi0..F
+ 0010 83b033b1 83780022 23f02003 c0e90422  ..3..x."#. ...."
+ 0020 83700023 0fe06361 a3686a01 38339a5c  .p.#..ca.hj.83.\
+ 0030 03eb4513 eab1e52a 04d02e2a 02d0db7a  ..E....*...*...z
+ 0040 1b0722d5 636913f4 f07fc3f3 431503f1  ..".ci......C...
+ 0050 2003e8d1 01220df1 07012046 fff7feff   ....".... F....
+ 0060 40b20128 03d16369 1f336361 dce76378  @..(..ci.3ca..cx
+ 0070 5bb9a378 08222046 43f00203 2270a370  [..x." FC..."p.p
+ 0080 03b0bde8 3040fff7 febf0020 03b030bd  ....0@..... ..0.
+Contents of section .text._ZN7FatFile7seekSetEm:
+ 0000 2de9f041 03780446 0769002b 39d00d46  -..A.x.F.i.+9..F
+ 0010 4169a942 42d0002d 37d01807 2ad5e269  Ai.BB..-7...*..i
+ 0020 aa422ed3 d4f808c0 6e1ea278 9cf80600  .B......n..x....
+ 0030 12f0400f 00f10900 c0b226fa 00f630d1  ..@.......&...0.
+ 0040 4a1ec240 09b19642 2fd25b06 4cbfdcf8  J..@...B/.[.L...
+ 0050 2030236a 236104f1 100806e0 2169013e   0#j#a......!i.>
+ 0060 a068fff7 feff0028 0bdd4246 002ef5d1  .h.....(..BF....
+ 0070 a2780ce0 9a06d5d5 a3685b89 b5eb431f  .x.......h[...C.
+ 0080 f6d90020 2761bde8 f0818278 056122f0  ... 'a.....x.a".
+ 0090 20020120 6561a270 bde8f081 0120bde8   .. ea.p..... ..
+ 00a0 f081236a 33442361 f1e7b61a d3e700bf  ..#j3D#a........
+Contents of section .text._ZN7FatFile15openCachedEntryEPS_tih:
+ 0000 2de9f041 0e461546 00212422 04469846  -..A.F.F.!$".F.F
+ 0010 9df81870 fff7feff b068336a 00f13802  ...p.....h3j..8.
+ 0020 a58005f0 0f0502eb 4512c4e9 0203d17a  ........E......z
+ 0030 0b0711d4 01f01701 2170d37a 13f0180f  ........!p.z....
+ 0040 02d141f0 08012170 08f00303 e770012b  ..A...!p.....p.+
+ 0050 38d0022b 06d0f3b1 00231846 2370a370  8..+.....#.F#p.p
+ 0060 bde8f081 03232178 cd06f5d4 ce07f3d4  .....#!x........
+ 0070 08f00801 18f4806f 43ea0103 a370416b  .......oC....pAk
+ 0080 958aa161 518b41ea 054112d0 19bb63f0  ...aQ.A..A....c.
+ 0090 7f03a370 10e018f4 806fddd1 08f00803  ...p.....o......
+ 00a0 43f00103 a370416b 938aa161 518b41ea  C....pAk...aQ.A.
+ 00b0 03412162 d369e361 18f4804f 04d10120  .A!b.i.a...O... 
+ 00c0 bde8f081 0223cee7 e1692046 fff7feff  .....#...i F....
+ 00d0 0028f4d1 c0e7fff7 feff0028 bcd0a378  .(.........(...x
+ 00e0 d5e700bf                             ....            
+Contents of section .text._ZN7FatFile8openNextEPS_i:
+ 0000 0378002b 45d12de9 f0470b78 84b00c46  .x.+E.-..G.x...F
+ 0010 13f0700f 30d04b69 13f01f05 2cd10646  ..p.0.Ki....,..F
+ 0020 9046a946 01220df1 0f012046 c3f3431a  .F.F.".... F..C.
+ 0030 5f09fff7 feff40b2 4fea4a12 01281bd1  _.....@.O.J..(..
+ 0040 6369a168 1f3301f1 380c6361 1cf80220  ci.h.3..8.ca... 
+ 0050 0ceb4a1c 82b12e2a 12d0a2f1 e500b0fa  ..J....*........
+ 0060 80f04009 60b99cf8 0b1011f0 080e12d0  ..@.`...........
+ 0070 0f2907d0 0546d5e7 002004b0 bde8f087  .)...F... ......
+ 0080 0025cfe7 5106cdd5 02f01f05 9cf80d90  .%..Q...........
+ 0090 c8e70020 704785b1 0cf10a01 01e01cf8  ... pG..........
+ 00a0 012f4fea ce136145 43ea5e03 52fa83f3  ./O...aEC.^.R...
+ 00b0 5ffa83fe f3d1ce45 ded14346 bab22146  _......E..CF..!F
+ 00c0 30460095 fff7feff d7e700bf           0F..........    
+Contents of section .text._ZN7FatFile4openEPS_ti:
+ 0000 2de9f047 80468a46 99461746 2ab3142a  -..G.F.F.F.F*..*
+ 0010 164602f1 ff344ff0 010528bf 1426a4b2  .F...4O...(..&..
+ 0020 f6b20ee0 fff7feff 013c6a1c 90b1c37a  .........<j....z
+ 0030 a4b20f2b 1bd10378 5b0631d4 d5b2ae42  ...+...x[.1....B
+ 0040 15d36101 5046fff7 feff0346 00215046  ..a.PF.....F.!PF
+ 0050 002be7d1 0020bde8 f0870b78 3bb14b69  .+... .....x;.Ki
+ 0060 2bb18b78 23f02003 c1e90422 8b704a46  +..x#. ....".pJF
+ 0070 51464046 fff7feff 0028ebd0 b8f80430  QF@F.....(.....0
+ 0080 bb42e8d0 98f80030 13b14046 fff7feff  .B.....0..@F....
+ 0090 00231846 88f80030 88f80230 bde8f087  .#.F...0...0....
+ 00a0 791b5046 4901fff7 feff0028 dfd1d1e7  y.PFI......(....
+Contents of section .text._ZN7FatFile8rmRfStarEv:
+ 0000 f0b50278 8bb00023 12f0700f 019302d1  ...x...#..p.....
+ 0010 00200bb0 f0bd4269 05462ab1 8278c0e9  . ....Bi.F*..x..
+ 0020 043322f0 20038370 00240122 0df10301  .3". ..p.$."....
+ 0030 28466609 fff7feff c4f34317 40b20128  (Ff.......C.@..(
+ 0040 3ed16c69 7a01ab68 1f343833 6c619a5c  >.liz..h.483la.\
+ 0050 03eb4713 002a36d0 e52ae6d0 2e2ae4d0  ..G..*6..*...*..
+ 0060 db7a13f0 0803e0d1 b2b22946 01a8fff7  .z........)F....
+ 0070 feff0028 ccd09df8 0430db06 14d501a8  ...(.....0......
+ 0080 fff7feff 0028c3d0 b6b26b69 0136b3eb  .....(....ki.6..
+ 0090 461f4fea 4614c8d0 21462846 fff7feff  F.O.F...!F(F....
+ 00a0 0028b5d0 6c69c0e7 9df80630 01a843f0  .(..li.....0..C.
+ 00b0 02038df8 0630fff7 feff0028 e4d1a7e7  .....0.....(....
+ 00c0 6b78002b a4d12b78 13f0600f 02d00120  kx.+..+x..`.... 
+ 00d0 0bb0f0bd 2846fff7 feff9ae7           ....(F......    
+Contents of section .text._ZN7FatFile4syncEv:
+ 0000 03780bb1 fff7febf 01207047           .x....... pG    
+Contents of section .text._ZN7FatFile9timestampEhthhhhh:
+ 0000 2de9f047 0e460178 82b00907 9df82870  -..G.F.x......(p
+ 0010 9df82c90 9df830a0 9df83480 18d5a2f2  ..,...0...4.....
+ 0020 bc7294b2 7f2c13d8 5a1e0193 0b2a0fd8  .r...,..Z....*..
+ 0030 7a1e1e2a 0cd8baf1 3b0f98bf b9f1170f  z..*....;.......
+ 0040 06d8b8f1 3b0f03d8 0546fff7 feff18b9  ....;....F......
+ 0050 002002b0 bde8f087 a8680122 a9692830  . .......h.".i(0
+ 0060 fff7feff 0028f3d0 019b4fea 5802a988  .....(....O.X...
+ 0070 47ea4313 f70701f0 0f0142ea 4a1243ea  G.C.......B.J.C.
+ 0080 442300eb 41109bb2 42eac922 48bf4382  D#..A...B.."H.C.
+ 0090 b40792b2 08d518f0 01080382 c28118bf  ................
+ 00a0 4ff06408 80f80d80 710701d5 0383c282  O.d.....q.......
+ 00b0 ac6804f1 2800fff7 feff0028 c8d004f5  .h..(......(....
+ 00c0 0e70fff7 feff0028 c2d02068 03681b6a  .p.....(.. h.h.j
+ 00d0 02b0bde8 f0471847                    .....G.G        
+Contents of section .text._ZN7FatFile8truncateEv:
+ 0000 83789b07 27d5036a 10b50446 82b0abb1  .x..'..j...F....
+ 0010 016911bb 01930162 1946a068 fff7feff  .i.....b.F.h....
+ 0020 b0b1a378 616963f0 7f032278 e161a370  ...xaic..."x.a.p
+ 0030 22b12046 fff7feff 02b010bd 012002b0  ". F......... ..
+ 0040 10bd6ff0 70422169 a068fff7 feff68b9  ..o.pB!i.h....h.
+ 0050 002002b0 10bd0020 70470023 01aa8068  . ..... pG.#...h
+ 0060 0193fff7 feff0028 f2dbead1 019b002b  .......(.......+
+ 0070 d7d0d1e7                             ....            
+Contents of section .text._ZN7FatFile5writeEPKvj:
+ 0000 2de9f047 83780546 9c0777d5 88461907  -..G.x.F..w..F..
+ 0010 914600f1 b5806b69 13eb0902 6ed2b9f1  .F....ki....n...
+ 0020 000f40d0 4f464ff0 000aa868 c3f30806  ..@.OFO....h....
+ 0030 29694479 14ea5324 3fd1002e 3dd10029  )iDy..S$?...=..)
+ 0040 6ed0aa78 520676d5 ea699a42 73d90131  n..xR.v..i.Bs..1
+ 0050 29610239 82794369 91401944 b7f5007f  )a.9.yCi.@.D....
+ 0060 53d3b7f5 806f70d3 03797a0a 1b1b9342  S....op..yz....B
+ 0070 28bf1346 426b8a42 4fea4324 07d35e18  (..FBk.BO.C$..^.
+ 0080 b24204d2 4ff0ff32 80f828a0 4263c06a  .B..O..2..(.Bc.j
+ 0090 42460668 b66ab047 80b36b69 3f1ba044  BF.h.j.G..ki?..D
+ 00a0 23446b61 c1d1ea69 9a4276d2 aa784846  #Dka...i.Bv..xHF
+ 00b0 eb6162f0 7f03ab70 25e08279 02394369  .ab....p%..y.9Ci
+ 00c0 91401944 2144002e c8d0c6f5 00740122  .@.D!D.......t."
+ 00d0 bc4228bf 3c462830 fff7feff 70b13044  .B(.<F(0....p.0D
+ 00e0 26442246 4146fff7 feffb6f5 007fa868  &D"FAF.........h
+ 00f0 d3d12830 fff7feff 0028ced1 6b780020  ..(0.....(..kx. 
+ 0100 43f00103 6b70bde8 f087c6f5 00746a69  C...kp.......tji
+ 0110 eb69bc42 28bf3c46 9a4205d3 0522dae7  .i.B(.<F.B..."..
+ 0120 296a21b3 296194e7 ab7813f0 200f14bf  )j!.)a...x.. ...
+ 0130 05220122 cfe705f1 1002fff7 feff0028  ."."...........(
+ 0140 dcdb24d0 a8682969 83e7436b 8b4204d1  ..$..h)i..Ck.B..
+ 0150 4ff0ff33 80f828a0 4363c06a 42460368  O..3..(.Cc.jBF.h
+ 0160 5b6a9847 0028c9d0 4ff40074 95e72846  [j.G.(..O..t..(F
+ 0170 fff7feff 0028c1d0 2969a868 296268e7  .....(..)i.h)bh.
+ 0180 c169fff7 feff0028 7ff445af b6e72846  .i.....(..E...(F
+ 0190 fff7feff 0028d5d1 b0e7054b 1b682bb1  .....(.....K.h+.
+ 01a0 ab784846 63f07f03 ab70ace7 4846aae7  .xHFc....p..HF..
+ 01b0 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN7FatFile4syncEv.part.0:
+
+00000000 <_ZN7FatFile4syncEv.part.0>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	f990 3002 	ldrsb.w	r3, [r0, #2]
+   6:	b082      	sub	sp, #8
+   8:	4604      	mov	r4, r0
+   a:	2b00      	cmp	r3, #0
+   c:	db0d      	blt.n	2a <_ZN7FatFile4syncEv.part.0+0x2a>
+   e:	68a5      	ldr	r5, [r4, #8]
+  10:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  14:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  18:	2800      	cmp	r0, #0
+  1a:	d13b      	bne.n	94 <_ZN7FatFile4syncEv.part.0+0x94>
+  1c:	7863      	ldrb	r3, [r4, #1]
+  1e:	2000      	movs	r0, #0
+  20:	f043 0301 	orr.w	r3, r3, #1
+  24:	7063      	strb	r3, [r4, #1]
+  26:	b002      	add	sp, #8
+  28:	bd70      	pop	{r4, r5, r6, pc}
+  2a:	6880      	ldr	r0, [r0, #8]
+  2c:	2201      	movs	r2, #1
+  2e:	69a1      	ldr	r1, [r4, #24]
+  30:	3028      	adds	r0, #40	; 0x28
+  32:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  36:	2800      	cmp	r0, #0
+  38:	d0f0      	beq.n	1c <_ZN7FatFile4syncEv.part.0+0x1c>
+  3a:	88a5      	ldrh	r5, [r4, #4]
+  3c:	f005 050f 	and.w	r5, r5, #15
+  40:	016b      	lsls	r3, r5, #5
+  42:	eb00 1545 	add.w	r5, r0, r5, lsl #5
+  46:	5cc3      	ldrb	r3, [r0, r3]
+  48:	2be5      	cmp	r3, #229	; 0xe5
+  4a:	d0e7      	beq.n	1c <_ZN7FatFile4syncEv.part.0+0x1c>
+  4c:	7823      	ldrb	r3, [r4, #0]
+  4e:	071b      	lsls	r3, r3, #28
+  50:	d501      	bpl.n	56 <_ZN7FatFile4syncEv.part.0+0x56>
+  52:	69e3      	ldr	r3, [r4, #28]
+  54:	61eb      	str	r3, [r5, #28]
+  56:	6a23      	ldr	r3, [r4, #32]
+  58:	4915      	ldr	r1, [pc, #84]	; (b0 <_ZN7FatFile4syncEv.part.0+0xb0>)
+  5a:	0c1a      	lsrs	r2, r3, #16
+  5c:	836b      	strh	r3, [r5, #26]
+  5e:	680e      	ldr	r6, [r1, #0]
+  60:	82aa      	strh	r2, [r5, #20]
+  62:	b166      	cbz	r6, 7e <_ZN7FatFile4syncEv.part.0+0x7e>
+  64:	f10d 0203 	add.w	r2, sp, #3
+  68:	f10d 0106 	add.w	r1, sp, #6
+  6c:	a801      	add	r0, sp, #4
+  6e:	47b0      	blx	r6
+  70:	f8bd 3004 	ldrh.w	r3, [sp, #4]
+  74:	f8bd 2006 	ldrh.w	r2, [sp, #6]
+  78:	832b      	strh	r3, [r5, #24]
+  7a:	826b      	strh	r3, [r5, #18]
+  7c:	82ea      	strh	r2, [r5, #22]
+  7e:	78a3      	ldrb	r3, [r4, #2]
+  80:	68a5      	ldr	r5, [r4, #8]
+  82:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+  86:	f105 0028 	add.w	r0, r5, #40	; 0x28
+  8a:	70a3      	strb	r3, [r4, #2]
+  8c:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  90:	2800      	cmp	r0, #0
+  92:	d0c3      	beq.n	1c <_ZN7FatFile4syncEv.part.0+0x1c>
+  94:	f505 700e 	add.w	r0, r5, #568	; 0x238
+  98:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  9c:	2800      	cmp	r0, #0
+  9e:	d0bd      	beq.n	1c <_ZN7FatFile4syncEv.part.0+0x1c>
+  a0:	6828      	ldr	r0, [r5, #0]
+  a2:	6803      	ldr	r3, [r0, #0]
+  a4:	6a1b      	ldr	r3, [r3, #32]
+  a6:	4798      	blx	r3
+  a8:	2800      	cmp	r0, #0
+  aa:	d0b7      	beq.n	1c <_ZN7FatFile4syncEv.part.0+0x1c>
+  ac:	e7bb      	b.n	26 <_ZN7FatFile4syncEv.part.0+0x26>
+  ae:	bf00      	nop
+  b0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN7FatFile10addClusterEv:
+
+00000000 <_ZN7FatFile10addClusterEv>:
+   0:	4602      	mov	r2, r0
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	f852 5f10 	ldr.w	r5, [r2, #16]!
+   8:	4604      	mov	r4, r0
+   a:	6880      	ldr	r0, [r0, #8]
+   c:	4629      	mov	r1, r5
+   e:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocateClusterEmPm>
+  12:	b150      	cbz	r0, 2a <_ZN7FatFile10addClusterEv+0x2a>
+  14:	b155      	cbz	r5, 2c <_ZN7FatFile10addClusterEv+0x2c>
+  16:	6923      	ldr	r3, [r4, #16]
+  18:	3501      	adds	r5, #1
+  1a:	42ab      	cmp	r3, r5
+  1c:	78a3      	ldrb	r3, [r4, #2]
+  1e:	bf18      	it	ne
+  20:	f003 03bf 	andne.w	r3, r3, #191	; 0xbf
+  24:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  28:	70a3      	strb	r3, [r4, #2]
+  2a:	bd38      	pop	{r3, r4, r5, pc}
+  2c:	78a3      	ldrb	r3, [r4, #2]
+  2e:	f043 0340 	orr.w	r3, r3, #64	; 0x40
+  32:	e7f7      	b.n	24 <_ZN7FatFile10addClusterEv+0x24>
+
+Disassembly of section .text._ZN7FatFile13addDirClusterEv:
+
+00000000 <_ZN7FatFile13addDirClusterEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	7804      	ldrb	r4, [r0, #0]
+   4:	f014 0420 	ands.w	r4, r4, #32
+   8:	d104      	bne.n	14 <_ZN7FatFile13addDirClusterEv+0x14>
+   a:	4b1a      	ldr	r3, [pc, #104]	; (74 <_ZN7FatFile13addDirClusterEv+0x74>)
+   c:	4605      	mov	r5, r0
+   e:	6942      	ldr	r2, [r0, #20]
+  10:	429a      	cmp	r2, r3
+  12:	d302      	bcc.n	1a <_ZN7FatFile13addDirClusterEv+0x1a>
+  14:	2700      	movs	r7, #0
+  16:	4638      	mov	r0, r7
+  18:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  1a:	f7ff fffe 	bl	0 <_ZN7FatFile13addDirClusterEv>
+  1e:	4607      	mov	r7, r0
+  20:	2800      	cmp	r0, #0
+  22:	d0f7      	beq.n	14 <_ZN7FatFile13addDirClusterEv+0x14>
+  24:	68a8      	ldr	r0, [r5, #8]
+  26:	692e      	ldr	r6, [r5, #16]
+  28:	7982      	ldrb	r2, [r0, #6]
+  2a:	3e02      	subs	r6, #2
+  2c:	6941      	ldr	r1, [r0, #20]
+  2e:	4096      	lsls	r6, r2
+  30:	440e      	add	r6, r1
+  32:	7901      	ldrb	r1, [r0, #4]
+  34:	b1a9      	cbz	r1, 62 <_ZN7FatFile13addDirClusterEv+0x62>
+  36:	4621      	mov	r1, r4
+  38:	e006      	b.n	48 <_ZN7FatFile13addDirClusterEv+0x48>
+  3a:	f7ff fffe 	bl	0 <memset>
+  3e:	68a8      	ldr	r0, [r5, #8]
+  40:	b2e1      	uxtb	r1, r4
+  42:	7902      	ldrb	r2, [r0, #4]
+  44:	428a      	cmp	r2, r1
+  46:	d90b      	bls.n	60 <_ZN7FatFile13addDirClusterEv+0x60>
+  48:	4431      	add	r1, r6
+  4a:	2205      	movs	r2, #5
+  4c:	3028      	adds	r0, #40	; 0x28
+  4e:	3401      	adds	r4, #1
+  50:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  54:	f44f 7200 	mov.w	r2, #512	; 0x200
+  58:	2100      	movs	r1, #0
+  5a:	2800      	cmp	r0, #0
+  5c:	d1ed      	bne.n	3a <_ZN7FatFile13addDirClusterEv+0x3a>
+  5e:	e7d9      	b.n	14 <_ZN7FatFile13addDirClusterEv+0x14>
+  60:	7982      	ldrb	r2, [r0, #6]
+  62:	f44f 7300 	mov.w	r3, #512	; 0x200
+  66:	6969      	ldr	r1, [r5, #20]
+  68:	4638      	mov	r0, r7
+  6a:	4093      	lsls	r3, r2
+  6c:	fa11 f383 	uxtah	r3, r1, r3
+  70:	616b      	str	r3, [r5, #20]
+  72:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  74:	001ffe00 	.word	0x001ffe00
+
+Disassembly of section .text._ZN7FatFile13cacheDirEntryEh:
+
+00000000 <_ZN7FatFile13cacheDirEntryEh>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	6880      	ldr	r0, [r0, #8]
+   6:	460a      	mov	r2, r1
+   8:	3028      	adds	r0, #40	; 0x28
+   a:	69a1      	ldr	r1, [r4, #24]
+   c:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  10:	b120      	cbz	r0, 1c <_ZN7FatFile13cacheDirEntryEh+0x1c>
+  12:	88a3      	ldrh	r3, [r4, #4]
+  14:	f003 030f 	and.w	r3, r3, #15
+  18:	eb00 1043 	add.w	r0, r0, r3, lsl #5
+  1c:	bd10      	pop	{r4, pc}
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile5closeEv:
+
+00000000 <_ZN7FatFile5closeEv>:
+   0:	b510      	push	{r4, lr}
+   2:	7803      	ldrb	r3, [r0, #0]
+   4:	4604      	mov	r4, r0
+   6:	b12b      	cbz	r3, 14 <_ZN7FatFile5closeEv+0x14>
+   8:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+   c:	2300      	movs	r3, #0
+   e:	7023      	strb	r3, [r4, #0]
+  10:	70a3      	strb	r3, [r4, #2]
+  12:	bd10      	pop	{r4, pc}
+  14:	2300      	movs	r3, #0
+  16:	2001      	movs	r0, #1
+  18:	7023      	strb	r3, [r4, #0]
+  1a:	70a3      	strb	r3, [r4, #2]
+  1c:	bd10      	pop	{r4, pc}
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile15contiguousRangeEPmS0_:
+
+00000000 <_ZN7FatFile15contiguousRangeEPmS0_>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	7804      	ldrb	r4, [r0, #0]
+   4:	b083      	sub	sp, #12
+   6:	f014 0408 	ands.w	r4, r4, #8
+   a:	d013      	beq.n	34 <_ZN7FatFile15contiguousRangeEPmS0_+0x34>
+   c:	6a04      	ldr	r4, [r0, #32]
+   e:	4605      	mov	r5, r0
+  10:	460e      	mov	r6, r1
+  12:	4617      	mov	r7, r2
+  14:	b93c      	cbnz	r4, 26 <_ZN7FatFile15contiguousRangeEPmS0_+0x26>
+  16:	4620      	mov	r0, r4
+  18:	b003      	add	sp, #12
+  1a:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  1c:	d00d      	beq.n	3a <_ZN7FatFile15contiguousRangeEPmS0_+0x3a>
+  1e:	3401      	adds	r4, #1
+  20:	9b01      	ldr	r3, [sp, #4]
+  22:	429c      	cmp	r4, r3
+  24:	d106      	bne.n	34 <_ZN7FatFile15contiguousRangeEPmS0_+0x34>
+  26:	4621      	mov	r1, r4
+  28:	aa01      	add	r2, sp, #4
+  2a:	68a8      	ldr	r0, [r5, #8]
+  2c:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+  30:	2800      	cmp	r0, #0
+  32:	daf3      	bge.n	1c <_ZN7FatFile15contiguousRangeEPmS0_+0x1c>
+  34:	2000      	movs	r0, #0
+  36:	b003      	add	sp, #12
+  38:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  3a:	78ab      	ldrb	r3, [r5, #2]
+  3c:	f043 0340 	orr.w	r3, r3, #64	; 0x40
+  40:	70ab      	strb	r3, [r5, #2]
+  42:	b13e      	cbz	r6, 54 <_ZN7FatFile15contiguousRangeEPmS0_+0x54>
+  44:	68aa      	ldr	r2, [r5, #8]
+  46:	6a2b      	ldr	r3, [r5, #32]
+  48:	7991      	ldrb	r1, [r2, #6]
+  4a:	3b02      	subs	r3, #2
+  4c:	6952      	ldr	r2, [r2, #20]
+  4e:	408b      	lsls	r3, r1
+  50:	4413      	add	r3, r2
+  52:	6033      	str	r3, [r6, #0]
+  54:	b14f      	cbz	r7, 6a <_ZN7FatFile15contiguousRangeEPmS0_+0x6a>
+  56:	68aa      	ldr	r2, [r5, #8]
+  58:	3c02      	subs	r4, #2
+  5a:	6953      	ldr	r3, [r2, #20]
+  5c:	7911      	ldrb	r1, [r2, #4]
+  5e:	3b01      	subs	r3, #1
+  60:	7992      	ldrb	r2, [r2, #6]
+  62:	440b      	add	r3, r1
+  64:	4094      	lsls	r4, r2
+  66:	4423      	add	r3, r4
+  68:	603b      	str	r3, [r7, #0]
+  6a:	2001      	movs	r0, #1
+  6c:	b003      	add	sp, #12
+  6e:	bdf0      	pop	{r4, r5, r6, r7, pc}
+
+Disassembly of section .text._ZN7FatFile8dirEntryEP8DirFat_t:
+
+00000000 <_ZN7FatFile8dirEntryEP8DirFat_t>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	7803      	ldrb	r3, [r0, #0]
+   4:	4605      	mov	r5, r0
+   6:	460c      	mov	r4, r1
+   8:	b113      	cbz	r3, 10 <_ZN7FatFile8dirEntryEP8DirFat_t+0x10>
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile8dirEntryEP8DirFat_t>
+   e:	b1f0      	cbz	r0, 4e <_ZN7FatFile8dirEntryEP8DirFat_t+0x4e>
+  10:	68a8      	ldr	r0, [r5, #8]
+  12:	2200      	movs	r2, #0
+  14:	69a9      	ldr	r1, [r5, #24]
+  16:	3028      	adds	r0, #40	; 0x28
+  18:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  1c:	b1b8      	cbz	r0, 4e <_ZN7FatFile8dirEntryEP8DirFat_t+0x4e>
+  1e:	88aa      	ldrh	r2, [r5, #4]
+  20:	f002 020f 	and.w	r2, r2, #15
+  24:	eb00 1342 	add.w	r3, r0, r2, lsl #5
+  28:	0152      	lsls	r2, r2, #5
+  2a:	685d      	ldr	r5, [r3, #4]
+  2c:	5880      	ldr	r0, [r0, r2]
+  2e:	6899      	ldr	r1, [r3, #8]
+  30:	68da      	ldr	r2, [r3, #12]
+  32:	6020      	str	r0, [r4, #0]
+  34:	6065      	str	r5, [r4, #4]
+  36:	60a1      	str	r1, [r4, #8]
+  38:	60e2      	str	r2, [r4, #12]
+  3a:	6918      	ldr	r0, [r3, #16]
+  3c:	695d      	ldr	r5, [r3, #20]
+  3e:	6999      	ldr	r1, [r3, #24]
+  40:	69da      	ldr	r2, [r3, #28]
+  42:	6120      	str	r0, [r4, #16]
+  44:	2001      	movs	r0, #1
+  46:	6165      	str	r5, [r4, #20]
+  48:	61a1      	str	r1, [r4, #24]
+  4a:	61e2      	str	r2, [r4, #28]
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	2000      	movs	r0, #0
+  50:	bd38      	pop	{r3, r4, r5, pc}
+  52:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile7dirSizeEv:
+
+00000000 <_ZN7FatFile7dirSizeEv>:
+   0:	7803      	ldrb	r3, [r0, #0]
+   2:	f013 0f70 	tst.w	r3, #112	; 0x70
+   6:	d02a      	beq.n	5e <_ZN7FatFile7dirSizeEv+0x5e>
+   8:	b570      	push	{r4, r5, r6, lr}
+   a:	4605      	mov	r5, r0
+   c:	0698      	lsls	r0, r3, #26
+   e:	b082      	sub	sp, #8
+  10:	d504      	bpl.n	1c <_ZN7FatFile7dirSizeEv+0x1c>
+  12:	68ab      	ldr	r3, [r5, #8]
+  14:	8958      	ldrh	r0, [r3, #10]
+  16:	0140      	lsls	r0, r0, #5
+  18:	b002      	add	sp, #8
+  1a:	bd70      	pop	{r4, r5, r6, pc}
+  1c:	0659      	lsls	r1, r3, #25
+  1e:	d418      	bmi.n	52 <_ZN7FatFile7dirSizeEv+0x52>
+  20:	6a29      	ldr	r1, [r5, #32]
+  22:	68a8      	ldr	r0, [r5, #8]
+  24:	2400      	movs	r4, #0
+  26:	f640 76ff 	movw	r6, #4095	; 0xfff
+  2a:	9101      	str	r1, [sp, #4]
+  2c:	e000      	b.n	30 <_ZN7FatFile7dirSizeEv+0x30>
+  2e:	9901      	ldr	r1, [sp, #4]
+  30:	aa01      	add	r2, sp, #4
+  32:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+  36:	0602      	lsls	r2, r0, #24
+  38:	4603      	mov	r3, r0
+  3a:	d40d      	bmi.n	58 <_ZN7FatFile7dirSizeEv+0x58>
+  3c:	42b4      	cmp	r4, r6
+  3e:	d80b      	bhi.n	58 <_ZN7FatFile7dirSizeEv+0x58>
+  40:	68a8      	ldr	r0, [r5, #8]
+  42:	7902      	ldrb	r2, [r0, #4]
+  44:	4414      	add	r4, r2
+  46:	b2a4      	uxth	r4, r4
+  48:	2b00      	cmp	r3, #0
+  4a:	d1f0      	bne.n	2e <_ZN7FatFile7dirSizeEv+0x2e>
+  4c:	0260      	lsls	r0, r4, #9
+  4e:	b002      	add	sp, #8
+  50:	bd70      	pop	{r4, r5, r6, pc}
+  52:	68a8      	ldr	r0, [r5, #8]
+  54:	6a01      	ldr	r1, [r0, #32]
+  56:	e7e5      	b.n	24 <_ZN7FatFile7dirSizeEv+0x24>
+  58:	2000      	movs	r0, #0
+  5a:	b002      	add	sp, #8
+  5c:	bd70      	pop	{r4, r5, r6, pc}
+  5e:	2000      	movs	r0, #0
+  60:	4770      	bx	lr
+  62:	bf00      	nop
+
+Disassembly of section .text._ZNK7FatFile7fgetposEP7fspos_t:
+
+00000000 <_ZNK7FatFile7fgetposEP7fspos_t>:
+   0:	e9d0 3204 	ldrd	r3, r2, [r0, #16]
+   4:	b410      	push	{r4}
+   6:	2400      	movs	r4, #0
+   8:	608b      	str	r3, [r1, #8]
+   a:	e9c1 2400 	strd	r2, r4, [r1]
+   e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZNK7FatFile11firstSectorEv:
+
+00000000 <_ZNK7FatFile11firstSectorEv>:
+   0:	6a03      	ldr	r3, [r0, #32]
+   2:	b12b      	cbz	r3, 10 <_ZNK7FatFile11firstSectorEv+0x10>
+   4:	6882      	ldr	r2, [r0, #8]
+   6:	3b02      	subs	r3, #2
+   8:	7991      	ldrb	r1, [r2, #6]
+   a:	6952      	ldr	r2, [r2, #20]
+   c:	408b      	lsls	r3, r1
+   e:	4413      	add	r3, r2
+  10:	4618      	mov	r0, r3
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN7FatFile7fsetposEPK7fspos_t:
+
+00000000 <_ZN7FatFile7fsetposEPK7fspos_t>:
+   0:	680a      	ldr	r2, [r1, #0]
+   2:	688b      	ldr	r3, [r1, #8]
+   4:	e9c0 3204 	strd	r3, r2, [r0, #16]
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile13getAccessDateEPt:
+
+00000000 <_ZN7FatFile13getAccessDateEPt>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	7803      	ldrb	r3, [r0, #0]
+   4:	4604      	mov	r4, r0
+   6:	460d      	mov	r5, r1
+   8:	b113      	cbz	r3, 10 <_ZN7FatFile13getAccessDateEPt+0x10>
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile13getAccessDateEPt>
+   e:	b180      	cbz	r0, 32 <_ZN7FatFile13getAccessDateEPt+0x32>
+  10:	68a0      	ldr	r0, [r4, #8]
+  12:	2200      	movs	r2, #0
+  14:	69a1      	ldr	r1, [r4, #24]
+  16:	3028      	adds	r0, #40	; 0x28
+  18:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  1c:	4603      	mov	r3, r0
+  1e:	b140      	cbz	r0, 32 <_ZN7FatFile13getAccessDateEPt+0x32>
+  20:	88a2      	ldrh	r2, [r4, #4]
+  22:	2001      	movs	r0, #1
+  24:	f002 020f 	and.w	r2, r2, #15
+  28:	eb03 1342 	add.w	r3, r3, r2, lsl #5
+  2c:	8a5b      	ldrh	r3, [r3, #18]
+  2e:	802b      	strh	r3, [r5, #0]
+  30:	bd38      	pop	{r3, r4, r5, pc}
+  32:	2000      	movs	r0, #0
+  34:	bd38      	pop	{r3, r4, r5, pc}
+  36:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile17getCreateDateTimeEPtS0_:
+
+00000000 <_ZN7FatFile17getCreateDateTimeEPtS0_>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b089      	sub	sp, #36	; 0x24
+   4:	460d      	mov	r5, r1
+   6:	4614      	mov	r4, r2
+   8:	4669      	mov	r1, sp
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile17getCreateDateTimeEPtS0_>
+   e:	b128      	cbz	r0, 1c <_ZN7FatFile17getCreateDateTimeEPtS0_+0x1c>
+  10:	f8bd 2010 	ldrh.w	r2, [sp, #16]
+  14:	f8bd 300e 	ldrh.w	r3, [sp, #14]
+  18:	802a      	strh	r2, [r5, #0]
+  1a:	8023      	strh	r3, [r4, #0]
+  1c:	b009      	add	sp, #36	; 0x24
+  1e:	bd30      	pop	{r4, r5, pc}
+
+Disassembly of section .text._ZN7FatFile17getModifyDateTimeEPtS0_:
+
+00000000 <_ZN7FatFile17getModifyDateTimeEPtS0_>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b089      	sub	sp, #36	; 0x24
+   4:	460d      	mov	r5, r1
+   6:	4614      	mov	r4, r2
+   8:	4669      	mov	r1, sp
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile17getModifyDateTimeEPtS0_>
+   e:	b128      	cbz	r0, 1c <_ZN7FatFile17getModifyDateTimeEPtS0_+0x1c>
+  10:	f8bd 2018 	ldrh.w	r2, [sp, #24]
+  14:	f8bd 3016 	ldrh.w	r3, [sp, #22]
+  18:	802a      	strh	r2, [r5, #0]
+  1a:	8023      	strh	r3, [r4, #0]
+  1c:	b009      	add	sp, #36	; 0x24
+  1e:	bd30      	pop	{r4, r5, pc}
+
+Disassembly of section .text._ZN7FatFile6isBusyEv:
+
+00000000 <_ZN7FatFile6isBusyEv>:
+   0:	6883      	ldr	r3, [r0, #8]
+   2:	6818      	ldr	r0, [r3, #0]
+   4:	6803      	ldr	r3, [r0, #0]
+   6:	68db      	ldr	r3, [r3, #12]
+   8:	4718      	bx	r3
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile5mkdirEPS_P8FatLfn_t:
+
+00000000 <_ZN7FatFile5mkdirEPS_P8FatLfn_t>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	f013 0f70 	tst.w	r3, #112	; 0x70
+   6:	d101      	bne.n	c <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0xc>
+   8:	2000      	movs	r0, #0
+   a:	4770      	bx	lr
+   c:	b5f0      	push	{r4, r5, r6, r7, lr}
+   e:	f640 2302 	movw	r3, #2562	; 0xa02
+  12:	b089      	sub	sp, #36	; 0x24
+  14:	460d      	mov	r5, r1
+  16:	4604      	mov	r4, r0
+  18:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_P8FatLfn_ti>
+  1c:	b138      	cbz	r0, 2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+  1e:	2201      	movs	r2, #1
+  20:	2310      	movs	r3, #16
+  22:	4620      	mov	r0, r4
+  24:	70a2      	strb	r2, [r4, #2]
+  26:	7023      	strb	r3, [r4, #0]
+  28:	f7ff fffe 	bl	0 <_ZN7FatFile5mkdirEPS_P8FatLfn_t>
+  2c:	b910      	cbnz	r0, 34 <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x34>
+  2e:	2000      	movs	r0, #0
+  30:	b009      	add	sp, #36	; 0x24
+  32:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  34:	6922      	ldr	r2, [r4, #16]
+  36:	7823      	ldrb	r3, [r4, #0]
+  38:	6222      	str	r2, [r4, #32]
+  3a:	b16b      	cbz	r3, 58 <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x58>
+  3c:	6963      	ldr	r3, [r4, #20]
+  3e:	b133      	cbz	r3, 4e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x4e>
+  40:	78a3      	ldrb	r3, [r4, #2]
+  42:	2200      	movs	r2, #0
+  44:	f023 0320 	bic.w	r3, r3, #32
+  48:	e9c4 2204 	strd	r2, r2, [r4, #16]
+  4c:	70a3      	strb	r3, [r4, #2]
+  4e:	4620      	mov	r0, r4
+  50:	f7ff fffe 	bl	0 <_ZN7FatFile5mkdirEPS_P8FatLfn_t>
+  54:	2800      	cmp	r0, #0
+  56:	d0ea      	beq.n	2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+  58:	68a0      	ldr	r0, [r4, #8]
+  5a:	2201      	movs	r2, #1
+  5c:	69a1      	ldr	r1, [r4, #24]
+  5e:	3028      	adds	r0, #40	; 0x28
+  60:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  64:	2800      	cmp	r0, #0
+  66:	d0e2      	beq.n	2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+  68:	f8b4 c004 	ldrh.w	ip, [r4, #4]
+  6c:	2210      	movs	r2, #16
+  6e:	f00c 0c0f 	and.w	ip, ip, #15
+  72:	ea4f 134c 	mov.w	r3, ip, lsl #5
+  76:	eb00 1c4c 	add.w	ip, r0, ip, lsl #5
+  7a:	f88c 200b 	strb.w	r2, [ip, #11]
+  7e:	58c0      	ldr	r0, [r0, r3]
+  80:	68a7      	ldr	r7, [r4, #8]
+  82:	6a23      	ldr	r3, [r4, #32]
+  84:	f897 e006 	ldrb.w	lr, [r7, #6]
+  88:	1e9e      	subs	r6, r3, #2
+  8a:	f8dc 1004 	ldr.w	r1, [ip, #4]
+  8e:	f8dc 2008 	ldr.w	r2, [ip, #8]
+  92:	f8dc 300c 	ldr.w	r3, [ip, #12]
+  96:	fa06 f60e 	lsl.w	r6, r6, lr
+  9a:	46ee      	mov	lr, sp
+  9c:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
+  a0:	f8dc 0010 	ldr.w	r0, [ip, #16]
+  a4:	f8dc 1014 	ldr.w	r1, [ip, #20]
+  a8:	f8dc 2018 	ldr.w	r2, [ip, #24]
+  ac:	f8dc 301c 	ldr.w	r3, [ip, #28]
+  b0:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
+  b4:	697b      	ldr	r3, [r7, #20]
+  b6:	f107 0028 	add.w	r0, r7, #40	; 0x28
+  ba:	2201      	movs	r2, #1
+  bc:	18f1      	adds	r1, r6, r3
+  be:	f04f 3320 	mov.w	r3, #538976288	; 0x20202020
+  c2:	f8cd 3001 	str.w	r3, [sp, #1]
+  c6:	f8cd 3005 	str.w	r3, [sp, #5]
+  ca:	f8ad 3009 	strh.w	r3, [sp, #9]
+  ce:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  d2:	4684      	mov	ip, r0
+  d4:	2800      	cmp	r0, #0
+  d6:	d0aa      	beq.n	2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+  d8:	272e      	movs	r7, #46	; 0x2e
+  da:	46ee      	mov	lr, sp
+  dc:	f88d 7000 	strb.w	r7, [sp]
+  e0:	4676      	mov	r6, lr
+  e2:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  e6:	f8cc 0000 	str.w	r0, [ip]
+  ea:	f8cc 1004 	str.w	r1, [ip, #4]
+  ee:	f8cc 2008 	str.w	r2, [ip, #8]
+  f2:	f8cc 300c 	str.w	r3, [ip, #12]
+  f6:	f88d 7001 	strb.w	r7, [sp, #1]
+  fa:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  fe:	f8cc 0010 	str.w	r0, [ip, #16]
+ 102:	f8cc 1014 	str.w	r1, [ip, #20]
+ 106:	f8cc 2018 	str.w	r2, [ip, #24]
+ 10a:	f8cc 301c 	str.w	r3, [ip, #28]
+ 10e:	6a2b      	ldr	r3, [r5, #32]
+ 110:	0c1a      	lsrs	r2, r3, #16
+ 112:	f8ad 301a 	strh.w	r3, [sp, #26]
+ 116:	f8ad 2014 	strh.w	r2, [sp, #20]
+ 11a:	ce0f      	ldmia	r6!, {r0, r1, r2, r3}
+ 11c:	f8cc 0020 	str.w	r0, [ip, #32]
+ 120:	f8cc 1024 	str.w	r1, [ip, #36]	; 0x24
+ 124:	f8cc 2028 	str.w	r2, [ip, #40]	; 0x28
+ 128:	f8cc 302c 	str.w	r3, [ip, #44]	; 0x2c
+ 12c:	ce0f      	ldmia	r6!, {r0, r1, r2, r3}
+ 12e:	f8cc 0030 	str.w	r0, [ip, #48]	; 0x30
+ 132:	f8cc 1034 	str.w	r1, [ip, #52]	; 0x34
+ 136:	f8cc 2038 	str.w	r2, [ip, #56]	; 0x38
+ 13a:	f8cc 303c 	str.w	r3, [ip, #60]	; 0x3c
+ 13e:	68a4      	ldr	r4, [r4, #8]
+ 140:	f104 0028 	add.w	r0, r4, #40	; 0x28
+ 144:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 148:	2800      	cmp	r0, #0
+ 14a:	f43f af70 	beq.w	2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+ 14e:	f504 700e 	add.w	r0, r4, #568	; 0x238
+ 152:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 156:	2800      	cmp	r0, #0
+ 158:	f43f af69 	beq.w	2e <_ZN7FatFile5mkdirEPS_P8FatLfn_t+0x2e>
+ 15c:	6820      	ldr	r0, [r4, #0]
+ 15e:	6803      	ldr	r3, [r0, #0]
+ 160:	6a1b      	ldr	r3, [r3, #32]
+ 162:	b009      	add	sp, #36	; 0x24
+ 164:	e8bd 40f0 	ldmia.w	sp!, {r4, r5, r6, r7, lr}
+ 168:	4718      	bx	r3
+ 16a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile5mkdirEPS_PKcb:
+
+00000000 <_ZN7FatFile5mkdirEPS_PKcb>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	2600      	movs	r6, #0
+   6:	b094      	sub	sp, #80	; 0x50
+   8:	4698      	mov	r8, r3
+   a:	7803      	ldrb	r3, [r0, #0]
+   c:	9201      	str	r2, [sp, #4]
+   e:	f8ad 6014 	strh.w	r6, [sp, #20]
+  12:	960b      	str	r6, [sp, #44]	; 0x2c
+  14:	2b00      	cmp	r3, #0
+  16:	d141      	bne.n	9c <_ZN7FatFile5mkdirEPS_PKcb+0x9c>
+  18:	780b      	ldrb	r3, [r1, #0]
+  1a:	460d      	mov	r5, r1
+  1c:	f013 0f70 	tst.w	r3, #112	; 0x70
+  20:	d03c      	beq.n	9c <_ZN7FatFile5mkdirEPS_PKcb+0x9c>
+  22:	7813      	ldrb	r3, [r2, #0]
+  24:	4604      	mov	r4, r0
+  26:	4616      	mov	r6, r2
+  28:	2b2f      	cmp	r3, #47	; 0x2f
+  2a:	d03b      	beq.n	a4 <_ZN7FatFile5mkdirEPS_PKcb+0xa4>
+  2c:	2700      	movs	r7, #0
+  2e:	e028      	b.n	82 <_ZN7FatFile5mkdirEPS_PKcb+0x82>
+  30:	9e01      	ldr	r6, [sp, #4]
+  32:	7836      	ldrb	r6, [r6, #0]
+  34:	2e00      	cmp	r6, #0
+  36:	d050      	beq.n	da <_ZN7FatFile5mkdirEPS_PKcb+0xda>
+  38:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_P8FatLfn_ti>
+  3c:	4603      	mov	r3, r0
+  3e:	aa02      	add	r2, sp, #8
+  40:	4629      	mov	r1, r5
+  42:	4620      	mov	r0, r4
+  44:	b92b      	cbnz	r3, 52 <_ZN7FatFile5mkdirEPS_PKcb+0x52>
+  46:	f1b8 0f00 	cmp.w	r8, #0
+  4a:	d027      	beq.n	9c <_ZN7FatFile5mkdirEPS_PKcb+0x9c>
+  4c:	f7ff fffe 	bl	0 <_ZN7FatFile5mkdirEPS_PKcb>
+  50:	b320      	cbz	r0, 9c <_ZN7FatFile5mkdirEPS_PKcb+0x9c>
+  52:	46a6      	mov	lr, r4
+  54:	f10d 0c2c 	add.w	ip, sp, #44	; 0x2c
+  58:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  5c:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  60:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  64:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  68:	f8de 5000 	ldr.w	r5, [lr]
+  6c:	4620      	mov	r0, r4
+  6e:	7823      	ldrb	r3, [r4, #0]
+  70:	f8cc 5000 	str.w	r5, [ip]
+  74:	b10b      	cbz	r3, 7a <_ZN7FatFile5mkdirEPS_PKcb+0x7a>
+  76:	f7ff fffe 	bl	0 <_ZN7FatFile5mkdirEPS_PKcb>
+  7a:	9e01      	ldr	r6, [sp, #4]
+  7c:	ad0b      	add	r5, sp, #44	; 0x2c
+  7e:	7027      	strb	r7, [r4, #0]
+  80:	70a7      	strb	r7, [r4, #2]
+  82:	4631      	mov	r1, r6
+  84:	ab01      	add	r3, sp, #4
+  86:	aa02      	add	r2, sp, #8
+  88:	4620      	mov	r0, r4
+  8a:	f7ff fffe 	bl	0 <_ZN7FatFile13parsePathNameEPKcP8FatLfn_tPS1_>
+  8e:	4606      	mov	r6, r0
+  90:	aa02      	add	r2, sp, #8
+  92:	4629      	mov	r1, r5
+  94:	2300      	movs	r3, #0
+  96:	4620      	mov	r0, r4
+  98:	2e00      	cmp	r6, #0
+  9a:	d1c9      	bne.n	30 <_ZN7FatFile5mkdirEPS_PKcb+0x30>
+  9c:	2000      	movs	r0, #0
+  9e:	b014      	add	sp, #80	; 0x50
+  a0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  a4:	3601      	adds	r6, #1
+  a6:	9601      	str	r6, [sp, #4]
+  a8:	7833      	ldrb	r3, [r6, #0]
+  aa:	2b2f      	cmp	r3, #47	; 0x2f
+  ac:	d0fa      	beq.n	a4 <_ZN7FatFile5mkdirEPS_PKcb+0xa4>
+  ae:	68ad      	ldr	r5, [r5, #8]
+  b0:	2224      	movs	r2, #36	; 0x24
+  b2:	2100      	movs	r1, #0
+  b4:	a80b      	add	r0, sp, #44	; 0x2c
+  b6:	f7ff fffe 	bl	0 <memset>
+  ba:	950d      	str	r5, [sp, #52]	; 0x34
+  bc:	79eb      	ldrb	r3, [r5, #7]
+  be:	2b10      	cmp	r3, #16
+  c0:	d003      	beq.n	ca <_ZN7FatFile5mkdirEPS_PKcb+0xca>
+  c2:	2b20      	cmp	r3, #32
+  c4:	d00f      	beq.n	e6 <_ZN7FatFile5mkdirEPS_PKcb+0xe6>
+  c6:	2b0c      	cmp	r3, #12
+  c8:	d1e8      	bne.n	9c <_ZN7FatFile5mkdirEPS_PKcb+0x9c>
+  ca:	2320      	movs	r3, #32
+  cc:	f88d 302c 	strb.w	r3, [sp, #44]	; 0x2c
+  d0:	2301      	movs	r3, #1
+  d2:	ad0b      	add	r5, sp, #44	; 0x2c
+  d4:	f88d 302e 	strb.w	r3, [sp, #46]	; 0x2e
+  d8:	e7a8      	b.n	2c <_ZN7FatFile5mkdirEPS_PKcb+0x2c>
+  da:	aa02      	add	r2, sp, #8
+  dc:	f7ff fffe 	bl	0 <_ZN7FatFile5mkdirEPS_PKcb>
+  e0:	b014      	add	sp, #80	; 0x50
+  e2:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  e6:	2340      	movs	r3, #64	; 0x40
+  e8:	e7f0      	b.n	cc <_ZN7FatFile5mkdirEPS_PKcb+0xcc>
+  ea:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile4openEPS_PKci:
+
+00000000 <_ZN7FatFile4openEPS_PKci>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	2500      	movs	r5, #0
+   6:	b094      	sub	sp, #80	; 0x50
+   8:	4698      	mov	r8, r3
+   a:	7803      	ldrb	r3, [r0, #0]
+   c:	9201      	str	r2, [sp, #4]
+   e:	9502      	str	r5, [sp, #8]
+  10:	f8ad 5038 	strh.w	r5, [sp, #56]	; 0x38
+  14:	2b00      	cmp	r3, #0
+  16:	d137      	bne.n	88 <_ZN7FatFile4openEPS_PKci+0x88>
+  18:	780b      	ldrb	r3, [r1, #0]
+  1a:	460e      	mov	r6, r1
+  1c:	f013 0f70 	tst.w	r3, #112	; 0x70
+  20:	d032      	beq.n	88 <_ZN7FatFile4openEPS_PKci+0x88>
+  22:	7813      	ldrb	r3, [r2, #0]
+  24:	4604      	mov	r4, r0
+  26:	4615      	mov	r5, r2
+  28:	2b2f      	cmp	r3, #47	; 0x2f
+  2a:	d031      	beq.n	90 <_ZN7FatFile4openEPS_PKci+0x90>
+  2c:	2700      	movs	r7, #0
+  2e:	e01e      	b.n	6e <_ZN7FatFile4openEPS_PKci+0x6e>
+  30:	9d01      	ldr	r5, [sp, #4]
+  32:	782d      	ldrb	r5, [r5, #0]
+  34:	2d00      	cmp	r5, #0
+  36:	d040      	beq.n	ba <_ZN7FatFile4openEPS_PKci+0xba>
+  38:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_P8FatLfn_ti>
+  3c:	46a6      	mov	lr, r4
+  3e:	f10d 0c08 	add.w	ip, sp, #8
+  42:	b308      	cbz	r0, 88 <_ZN7FatFile4openEPS_PKci+0x88>
+  44:	4666      	mov	r6, ip
+  46:	7825      	ldrb	r5, [r4, #0]
+  48:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  4c:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  50:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  54:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  58:	f8de 3000 	ldr.w	r3, [lr]
+  5c:	4620      	mov	r0, r4
+  5e:	f8cc 3000 	str.w	r3, [ip]
+  62:	b10d      	cbz	r5, 68 <_ZN7FatFile4openEPS_PKci+0x68>
+  64:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_PKci>
+  68:	9d01      	ldr	r5, [sp, #4]
+  6a:	7027      	strb	r7, [r4, #0]
+  6c:	70a7      	strb	r7, [r4, #2]
+  6e:	4629      	mov	r1, r5
+  70:	ab01      	add	r3, sp, #4
+  72:	aa0b      	add	r2, sp, #44	; 0x2c
+  74:	4620      	mov	r0, r4
+  76:	f7ff fffe 	bl	0 <_ZN7FatFile13parsePathNameEPKcP8FatLfn_tPS1_>
+  7a:	4605      	mov	r5, r0
+  7c:	aa0b      	add	r2, sp, #44	; 0x2c
+  7e:	4631      	mov	r1, r6
+  80:	2300      	movs	r3, #0
+  82:	4620      	mov	r0, r4
+  84:	2d00      	cmp	r5, #0
+  86:	d1d3      	bne.n	30 <_ZN7FatFile4openEPS_PKci+0x30>
+  88:	2000      	movs	r0, #0
+  8a:	b014      	add	sp, #80	; 0x50
+  8c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  90:	3501      	adds	r5, #1
+  92:	9501      	str	r5, [sp, #4]
+  94:	7829      	ldrb	r1, [r5, #0]
+  96:	292f      	cmp	r1, #47	; 0x2f
+  98:	d0fa      	beq.n	90 <_ZN7FatFile4openEPS_PKci+0x90>
+  9a:	b9a9      	cbnz	r1, c8 <_ZN7FatFile4openEPS_PKci+0xc8>
+  9c:	68b5      	ldr	r5, [r6, #8]
+  9e:	2224      	movs	r2, #36	; 0x24
+  a0:	4620      	mov	r0, r4
+  a2:	f7ff fffe 	bl	0 <memset>
+  a6:	60a5      	str	r5, [r4, #8]
+  a8:	79eb      	ldrb	r3, [r5, #7]
+  aa:	2b10      	cmp	r3, #16
+  ac:	d003      	beq.n	b6 <_ZN7FatFile4openEPS_PKci+0xb6>
+  ae:	2b20      	cmp	r3, #32
+  b0:	d022      	beq.n	f8 <_ZN7FatFile4openEPS_PKci+0xf8>
+  b2:	2b0c      	cmp	r3, #12
+  b4:	d1e8      	bne.n	88 <_ZN7FatFile4openEPS_PKci+0x88>
+  b6:	2220      	movs	r2, #32
+  b8:	e01f      	b.n	fa <_ZN7FatFile4openEPS_PKci+0xfa>
+  ba:	4643      	mov	r3, r8
+  bc:	aa0b      	add	r2, sp, #44	; 0x2c
+  be:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_P8FatLfn_ti>
+  c2:	b014      	add	sp, #80	; 0x50
+  c4:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  c8:	68b6      	ldr	r6, [r6, #8]
+  ca:	2224      	movs	r2, #36	; 0x24
+  cc:	2100      	movs	r1, #0
+  ce:	a802      	add	r0, sp, #8
+  d0:	f7ff fffe 	bl	0 <memset>
+  d4:	9604      	str	r6, [sp, #16]
+  d6:	79f3      	ldrb	r3, [r6, #7]
+  d8:	2b10      	cmp	r3, #16
+  da:	d003      	beq.n	e4 <_ZN7FatFile4openEPS_PKci+0xe4>
+  dc:	2b20      	cmp	r3, #32
+  de:	d003      	beq.n	e8 <_ZN7FatFile4openEPS_PKci+0xe8>
+  e0:	2b0c      	cmp	r3, #12
+  e2:	d1d1      	bne.n	88 <_ZN7FatFile4openEPS_PKci+0x88>
+  e4:	2320      	movs	r3, #32
+  e6:	e000      	b.n	ea <_ZN7FatFile4openEPS_PKci+0xea>
+  e8:	2340      	movs	r3, #64	; 0x40
+  ea:	f88d 3008 	strb.w	r3, [sp, #8]
+  ee:	2301      	movs	r3, #1
+  f0:	ae02      	add	r6, sp, #8
+  f2:	f88d 300a 	strb.w	r3, [sp, #10]
+  f6:	e799      	b.n	2c <_ZN7FatFile4openEPS_PKci+0x2c>
+  f8:	2240      	movs	r2, #64	; 0x40
+  fa:	2301      	movs	r3, #1
+  fc:	7022      	strb	r2, [r4, #0]
+  fe:	4618      	mov	r0, r3
+ 100:	70a3      	strb	r3, [r4, #2]
+ 102:	e7c2      	b.n	8a <_ZN7FatFile4openEPS_PKci+0x8a>
+
+Disassembly of section .text._ZN7FatFile4openEP9FatVolumePKci:
+
+00000000 <_ZN7FatFile4openEP9FatVolumePKci>:
+   0:	b119      	cbz	r1, a <_ZN7FatFile4openEP9FatVolumePKci+0xa>
+   2:	f501 6189 	add.w	r1, r1, #1096	; 0x448
+   6:	f7ff bffe 	b.w	0 <_ZN7FatFile4openEP9FatVolumePKci>
+   a:	4608      	mov	r0, r1
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile4openEPKci:
+
+00000000 <_ZN7FatFile4openEPKci>:
+   0:	4b07      	ldr	r3, [pc, #28]	; (20 <_ZN7FatFile4openEPKci+0x20>)
+   2:	b410      	push	{r4}
+   4:	681c      	ldr	r4, [r3, #0]
+   6:	b13c      	cbz	r4, 18 <_ZN7FatFile4openEPKci+0x18>
+   8:	4613      	mov	r3, r2
+   a:	460a      	mov	r2, r1
+   c:	f504 6189 	add.w	r1, r4, #1096	; 0x448
+  10:	f85d 4b04 	ldr.w	r4, [sp], #4
+  14:	f7ff bffe 	b.w	0 <_ZN7FatFile4openEPKci>
+  18:	4620      	mov	r0, r4
+  1a:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1e:	4770      	bx	lr
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN7FatFile11openClusterEPS_:
+
+00000000 <_ZN7FatFile11openClusterEPS_>:
+   0:	68cb      	ldr	r3, [r1, #12]
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	460d      	mov	r5, r1
+   6:	4604      	mov	r4, r0
+   8:	b993      	cbnz	r3, 30 <_ZN7FatFile11openClusterEPS_+0x30>
+   a:	7806      	ldrb	r6, [r0, #0]
+   c:	b10e      	cbz	r6, 12 <_ZN7FatFile11openClusterEPS_+0x12>
+   e:	4618      	mov	r0, r3
+  10:	bd70      	pop	{r4, r5, r6, pc}
+  12:	688d      	ldr	r5, [r1, #8]
+  14:	2224      	movs	r2, #36	; 0x24
+  16:	4631      	mov	r1, r6
+  18:	f7ff fffe 	bl	0 <memset>
+  1c:	60a5      	str	r5, [r4, #8]
+  1e:	79eb      	ldrb	r3, [r5, #7]
+  20:	2b10      	cmp	r3, #16
+  22:	d018      	beq.n	56 <_ZN7FatFile11openClusterEPS_+0x56>
+  24:	2b20      	cmp	r3, #32
+  26:	d010      	beq.n	4a <_ZN7FatFile11openClusterEPS_+0x4a>
+  28:	2b0c      	cmp	r3, #12
+  2a:	d014      	beq.n	56 <_ZN7FatFile11openClusterEPS_+0x56>
+  2c:	4630      	mov	r0, r6
+  2e:	bd70      	pop	{r4, r5, r6, pc}
+  30:	2224      	movs	r2, #36	; 0x24
+  32:	2100      	movs	r1, #0
+  34:	f7ff fffe 	bl	0 <memset>
+  38:	2001      	movs	r0, #1
+  3a:	2310      	movs	r3, #16
+  3c:	70a0      	strb	r0, [r4, #2]
+  3e:	7023      	strb	r3, [r4, #0]
+  40:	e9d5 2302 	ldrd	r2, r3, [r5, #8]
+  44:	60a2      	str	r2, [r4, #8]
+  46:	6223      	str	r3, [r4, #32]
+  48:	bd70      	pop	{r4, r5, r6, pc}
+  4a:	2240      	movs	r2, #64	; 0x40
+  4c:	2301      	movs	r3, #1
+  4e:	7022      	strb	r2, [r4, #0]
+  50:	4618      	mov	r0, r3
+  52:	70a3      	strb	r3, [r4, #2]
+  54:	bd70      	pop	{r4, r5, r6, pc}
+  56:	2220      	movs	r2, #32
+  58:	e7f8      	b.n	4c <_ZN7FatFile11openClusterEPS_+0x4c>
+  5a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile8openRootEP9FatVolume:
+
+00000000 <_ZN7FatFile8openRootEP9FatVolume>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	7805      	ldrb	r5, [r0, #0]
+   4:	b10d      	cbz	r5, a <_ZN7FatFile8openRootEP9FatVolume+0xa>
+   6:	2000      	movs	r0, #0
+   8:	bd70      	pop	{r4, r5, r6, pc}
+   a:	460e      	mov	r6, r1
+   c:	4604      	mov	r4, r0
+   e:	2224      	movs	r2, #36	; 0x24
+  10:	4629      	mov	r1, r5
+  12:	f7ff fffe 	bl	0 <memset>
+  16:	60a6      	str	r6, [r4, #8]
+  18:	79f3      	ldrb	r3, [r6, #7]
+  1a:	2b10      	cmp	r3, #16
+  1c:	d00b      	beq.n	36 <_ZN7FatFile8openRootEP9FatVolume+0x36>
+  1e:	2b20      	cmp	r3, #32
+  20:	d003      	beq.n	2a <_ZN7FatFile8openRootEP9FatVolume+0x2a>
+  22:	2b0c      	cmp	r3, #12
+  24:	d007      	beq.n	36 <_ZN7FatFile8openRootEP9FatVolume+0x36>
+  26:	4628      	mov	r0, r5
+  28:	bd70      	pop	{r4, r5, r6, pc}
+  2a:	2240      	movs	r2, #64	; 0x40
+  2c:	2301      	movs	r3, #1
+  2e:	7022      	strb	r2, [r4, #0]
+  30:	4618      	mov	r0, r3
+  32:	70a3      	strb	r3, [r4, #2]
+  34:	bd70      	pop	{r4, r5, r6, pc}
+  36:	2220      	movs	r2, #32
+  38:	e7f8      	b.n	2c <_ZN7FatFile8openRootEP9FatVolume+0x2c>
+  3a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile11preAllocateEm:
+
+00000000 <_ZN7FatFile11preAllocateEm>:
+   0:	b309      	cbz	r1, 46 <_ZN7FatFile11preAllocateEm+0x46>
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	7883      	ldrb	r3, [r0, #2]
+   6:	4604      	mov	r4, r0
+   8:	079b      	lsls	r3, r3, #30
+   a:	d51a      	bpl.n	42 <_ZN7FatFile11preAllocateEm+0x42>
+   c:	6a03      	ldr	r3, [r0, #32]
+   e:	b9c3      	cbnz	r3, 42 <_ZN7FatFile11preAllocateEm+0x42>
+  10:	6880      	ldr	r0, [r0, #8]
+  12:	460d      	mov	r5, r1
+  14:	3901      	subs	r1, #1
+  16:	f104 0220 	add.w	r2, r4, #32
+  1a:	7983      	ldrb	r3, [r0, #6]
+  1c:	3309      	adds	r3, #9
+  1e:	b2db      	uxtb	r3, r3
+  20:	40d9      	lsrs	r1, r3
+  22:	3101      	adds	r1, #1
+  24:	f7ff fffe 	bl	0 <_ZN12FatPartition15allocContiguousEmPm>
+  28:	b158      	cbz	r0, 42 <_ZN7FatFile11preAllocateEm+0x42>
+  2a:	78a3      	ldrb	r3, [r4, #2]
+  2c:	7822      	ldrb	r2, [r4, #0]
+  2e:	f063 031f 	orn	r3, r3, #31
+  32:	61e5      	str	r5, [r4, #28]
+  34:	70a3      	strb	r3, [r4, #2]
+  36:	b12a      	cbz	r2, 44 <_ZN7FatFile11preAllocateEm+0x44>
+  38:	4620      	mov	r0, r4
+  3a:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  3e:	f7ff bffe 	b.w	0 <_ZN7FatFile11preAllocateEm>
+  42:	2000      	movs	r0, #0
+  44:	bd38      	pop	{r3, r4, r5, pc}
+  46:	2000      	movs	r0, #0
+  48:	4770      	bx	lr
+  4a:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile16createContiguousEPKcm:
+
+00000000 <_ZN7FatFile16createContiguousEPKcm>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4b10      	ldr	r3, [pc, #64]	; (44 <_ZN7FatFile16createContiguousEPKcm+0x44>)
+   4:	681b      	ldr	r3, [r3, #0]
+   6:	b14b      	cbz	r3, 1c <_ZN7FatFile16createContiguousEPKcm+0x1c>
+   8:	4614      	mov	r4, r2
+   a:	460a      	mov	r2, r1
+   c:	f503 6189 	add.w	r1, r3, #1096	; 0x448
+  10:	f640 2302 	movw	r3, #2562	; 0xa02
+  14:	4605      	mov	r5, r0
+  16:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPKcm>
+  1a:	b910      	cbnz	r0, 22 <_ZN7FatFile16createContiguousEPKcm+0x22>
+  1c:	2400      	movs	r4, #0
+  1e:	4620      	mov	r0, r4
+  20:	bd38      	pop	{r3, r4, r5, pc}
+  22:	4621      	mov	r1, r4
+  24:	4628      	mov	r0, r5
+  26:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPKcm>
+  2a:	4604      	mov	r4, r0
+  2c:	2800      	cmp	r0, #0
+  2e:	d1f6      	bne.n	1e <_ZN7FatFile16createContiguousEPKcm+0x1e>
+  30:	782b      	ldrb	r3, [r5, #0]
+  32:	b113      	cbz	r3, 3a <_ZN7FatFile16createContiguousEPKcm+0x3a>
+  34:	4628      	mov	r0, r5
+  36:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPKcm>
+  3a:	2300      	movs	r3, #0
+  3c:	4620      	mov	r0, r4
+  3e:	702b      	strb	r3, [r5, #0]
+  40:	70ab      	strb	r3, [r5, #2]
+  42:	bd38      	pop	{r3, r4, r5, pc}
+  44:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN7FatFile16createContiguousEPS_PKcm:
+
+00000000 <_ZN7FatFile16createContiguousEPS_PKcm>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	461e      	mov	r6, r3
+   4:	f640 2302 	movw	r3, #2562	; 0xa02
+   8:	4605      	mov	r5, r0
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPS_PKcm>
+   e:	4604      	mov	r4, r0
+  10:	b908      	cbnz	r0, 16 <_ZN7FatFile16createContiguousEPS_PKcm+0x16>
+  12:	4620      	mov	r0, r4
+  14:	bd70      	pop	{r4, r5, r6, pc}
+  16:	4631      	mov	r1, r6
+  18:	4628      	mov	r0, r5
+  1a:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPS_PKcm>
+  1e:	4604      	mov	r4, r0
+  20:	2800      	cmp	r0, #0
+  22:	d1f6      	bne.n	12 <_ZN7FatFile16createContiguousEPS_PKcm+0x12>
+  24:	782b      	ldrb	r3, [r5, #0]
+  26:	b113      	cbz	r3, 2e <_ZN7FatFile16createContiguousEPS_PKcm+0x2e>
+  28:	4628      	mov	r0, r5
+  2a:	f7ff fffe 	bl	0 <_ZN7FatFile16createContiguousEPS_PKcm>
+  2e:	2300      	movs	r3, #0
+  30:	4620      	mov	r0, r4
+  32:	702b      	strb	r3, [r5, #0]
+  34:	70ab      	strb	r3, [r5, #2]
+  36:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text._ZN7FatFile4readEPvj:
+
+00000000 <_ZN7FatFile4readEPvj>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	ed2d 8b02 	vpush	{d8}
+   8:	7883      	ldrb	r3, [r0, #2]
+   a:	b083      	sub	sp, #12
+   c:	4605      	mov	r5, r0
+   e:	07df      	lsls	r7, r3, #31
+  10:	f140 808c 	bpl.w	12c <_ZN7FatFile4readEPvj+0x12c>
+  14:	4688      	mov	r8, r1
+  16:	7801      	ldrb	r1, [r0, #0]
+  18:	4692      	mov	sl, r2
+  1a:	070e      	lsls	r6, r1, #28
+  1c:	f100 8091 	bmi.w	142 <_ZN7FatFile4readEPvj+0x142>
+  20:	068c      	lsls	r4, r1, #26
+  22:	d508      	bpl.n	36 <_ZN7FatFile4readEPvj+0x36>
+  24:	6883      	ldr	r3, [r0, #8]
+  26:	895a      	ldrh	r2, [r3, #10]
+  28:	6943      	ldr	r3, [r0, #20]
+  2a:	ebc3 1342 	rsb	r3, r3, r2, lsl #5
+  2e:	b29b      	uxth	r3, r3
+  30:	459a      	cmp	sl, r3
+  32:	bf28      	it	cs
+  34:	469a      	movcs	sl, r3
+  36:	f1ba 0f00 	cmp.w	sl, #0
+  3a:	f000 80af 	beq.w	19c <_ZN7FatFile4readEPvj+0x19c>
+  3e:	696a      	ldr	r2, [r5, #20]
+  40:	f105 0310 	add.w	r3, r5, #16
+  44:	0688      	lsls	r0, r1, #26
+  46:	4656      	mov	r6, sl
+  48:	f04f 0900 	mov.w	r9, #0
+  4c:	ee08 3a10 	vmov	s16, r3
+  50:	68af      	ldr	r7, [r5, #8]
+  52:	f3c2 0b08 	ubfx	fp, r2, #0, #9
+  56:	d53d      	bpl.n	d4 <_ZN7FatFile4readEPvj+0xd4>
+  58:	6a39      	ldr	r1, [r7, #32]
+  5a:	eb01 2152 	add.w	r1, r1, r2, lsr #9
+  5e:	f1bb 0f00 	cmp.w	fp, #0
+  62:	d151      	bne.n	108 <_ZN7FatFile4readEPvj+0x108>
+  64:	f5b6 7f00 	cmp.w	r6, #512	; 0x200
+  68:	d34e      	bcc.n	108 <_ZN7FatFile4readEPvj+0x108>
+  6a:	6b7a      	ldr	r2, [r7, #52]	; 0x34
+  6c:	4291      	cmp	r1, r2
+  6e:	d04b      	beq.n	108 <_ZN7FatFile4readEPvj+0x108>
+  70:	f5b6 6f80 	cmp.w	r6, #1024	; 0x400
+  74:	f0c0 8082 	bcc.w	17c <_ZN7FatFile4readEPvj+0x17c>
+  78:	7828      	ldrb	r0, [r5, #0]
+  7a:	0a73      	lsrs	r3, r6, #9
+  7c:	0680      	lsls	r0, r0, #26
+  7e:	d405      	bmi.n	8c <_ZN7FatFile4readEPvj+0x8c>
+  80:	7938      	ldrb	r0, [r7, #4]
+  82:	eba0 0009 	sub.w	r0, r0, r9
+  86:	4283      	cmp	r3, r0
+  88:	bf28      	it	cs
+  8a:	4603      	movcs	r3, r0
+  8c:	4291      	cmp	r1, r2
+  8e:	ea4f 2443 	mov.w	r4, r3, lsl #9
+  92:	d80c      	bhi.n	ae <_ZN7FatFile4readEPvj+0xae>
+  94:	18c8      	adds	r0, r1, r3
+  96:	4282      	cmp	r2, r0
+  98:	d209      	bcs.n	ae <_ZN7FatFile4readEPvj+0xae>
+  9a:	f107 0028 	add.w	r0, r7, #40	; 0x28
+  9e:	e9cd 1300 	strd	r1, r3, [sp]
+  a2:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  a6:	e9dd 1300 	ldrd	r1, r3, [sp]
+  aa:	2800      	cmp	r0, #0
+  ac:	d03e      	beq.n	12c <_ZN7FatFile4readEPvj+0x12c>
+  ae:	6af8      	ldr	r0, [r7, #44]	; 0x2c
+  b0:	6802      	ldr	r2, [r0, #0]
+  b2:	6957      	ldr	r7, [r2, #20]
+  b4:	4642      	mov	r2, r8
+  b6:	47b8      	blx	r7
+  b8:	2800      	cmp	r0, #0
+  ba:	d037      	beq.n	12c <_ZN7FatFile4readEPvj+0x12c>
+  bc:	696a      	ldr	r2, [r5, #20]
+  be:	1b36      	subs	r6, r6, r4
+  c0:	44a0      	add	r8, r4
+  c2:	4422      	add	r2, r4
+  c4:	616a      	str	r2, [r5, #20]
+  c6:	d069      	beq.n	19c <_ZN7FatFile4readEPvj+0x19c>
+  c8:	7829      	ldrb	r1, [r5, #0]
+  ca:	f3c2 0b08 	ubfx	fp, r2, #0, #9
+  ce:	68af      	ldr	r7, [r5, #8]
+  d0:	0688      	lsls	r0, r1, #26
+  d2:	d4c1      	bmi.n	58 <_ZN7FatFile4readEPvj+0x58>
+  d4:	f897 9005 	ldrb.w	r9, [r7, #5]
+  d8:	ea09 2952 	and.w	r9, r9, r2, lsr #9
+  dc:	f1bb 0f00 	cmp.w	fp, #0
+  e0:	d136      	bne.n	150 <_ZN7FatFile4readEPvj+0x150>
+  e2:	f1b9 0f00 	cmp.w	r9, #0
+  e6:	d133      	bne.n	150 <_ZN7FatFile4readEPvj+0x150>
+  e8:	2a00      	cmp	r2, #0
+  ea:	d133      	bne.n	154 <_ZN7FatFile4readEPvj+0x154>
+  ec:	064a      	lsls	r2, r1, #25
+  ee:	bf4c      	ite	mi
+  f0:	6a3a      	ldrmi	r2, [r7, #32]
+  f2:	6a2a      	ldrpl	r2, [r5, #32]
+  f4:	612a      	str	r2, [r5, #16]
+  f6:	3a02      	subs	r2, #2
+  f8:	79b8      	ldrb	r0, [r7, #6]
+  fa:	6979      	ldr	r1, [r7, #20]
+  fc:	4082      	lsls	r2, r0
+  fe:	4449      	add	r1, r9
+ 100:	4411      	add	r1, r2
+ 102:	f1bb 0f00 	cmp.w	fp, #0
+ 106:	d0ad      	beq.n	64 <_ZN7FatFile4readEPvj+0x64>
+ 108:	f5cb 7400 	rsb	r4, fp, #512	; 0x200
+ 10c:	2200      	movs	r2, #0
+ 10e:	f107 0028 	add.w	r0, r7, #40	; 0x28
+ 112:	42b4      	cmp	r4, r6
+ 114:	bf28      	it	cs
+ 116:	4634      	movcs	r4, r6
+ 118:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+ 11c:	b130      	cbz	r0, 12c <_ZN7FatFile4readEPvj+0x12c>
+ 11e:	eb00 010b 	add.w	r1, r0, fp
+ 122:	4622      	mov	r2, r4
+ 124:	4640      	mov	r0, r8
+ 126:	f7ff fffe 	bl	0 <memcpy>
+ 12a:	e7c7      	b.n	bc <_ZN7FatFile4readEPvj+0xbc>
+ 12c:	786b      	ldrb	r3, [r5, #1]
+ 12e:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 132:	f043 0302 	orr.w	r3, r3, #2
+ 136:	706b      	strb	r3, [r5, #1]
+ 138:	b003      	add	sp, #12
+ 13a:	ecbd 8b02 	vpop	{d8}
+ 13e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 142:	69c3      	ldr	r3, [r0, #28]
+ 144:	6942      	ldr	r2, [r0, #20]
+ 146:	1a9b      	subs	r3, r3, r2
+ 148:	459a      	cmp	sl, r3
+ 14a:	bf28      	it	cs
+ 14c:	469a      	movcs	sl, r3
+ 14e:	e772      	b.n	36 <_ZN7FatFile4readEPvj+0x36>
+ 150:	692a      	ldr	r2, [r5, #16]
+ 152:	e7d0      	b.n	f6 <_ZN7FatFile4readEPvj+0xf6>
+ 154:	070b      	lsls	r3, r1, #28
+ 156:	d505      	bpl.n	164 <_ZN7FatFile4readEPvj+0x164>
+ 158:	78aa      	ldrb	r2, [r5, #2]
+ 15a:	0654      	lsls	r4, r2, #25
+ 15c:	d502      	bpl.n	164 <_ZN7FatFile4readEPvj+0x164>
+ 15e:	692a      	ldr	r2, [r5, #16]
+ 160:	3201      	adds	r2, #1
+ 162:	e7c7      	b.n	f4 <_ZN7FatFile4readEPvj+0xf4>
+ 164:	ee18 2a10 	vmov	r2, s16
+ 168:	4638      	mov	r0, r7
+ 16a:	6929      	ldr	r1, [r5, #16]
+ 16c:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+ 170:	2800      	cmp	r0, #0
+ 172:	dbdb      	blt.n	12c <_ZN7FatFile4readEPvj+0x12c>
+ 174:	d00c      	beq.n	190 <_ZN7FatFile4readEPvj+0x190>
+ 176:	68af      	ldr	r7, [r5, #8]
+ 178:	692a      	ldr	r2, [r5, #16]
+ 17a:	e7bc      	b.n	f6 <_ZN7FatFile4readEPvj+0xf6>
+ 17c:	6af8      	ldr	r0, [r7, #44]	; 0x2c
+ 17e:	4642      	mov	r2, r8
+ 180:	6803      	ldr	r3, [r0, #0]
+ 182:	691b      	ldr	r3, [r3, #16]
+ 184:	4798      	blx	r3
+ 186:	2800      	cmp	r0, #0
+ 188:	d0d0      	beq.n	12c <_ZN7FatFile4readEPvj+0x12c>
+ 18a:	f44f 7400 	mov.w	r4, #512	; 0x200
+ 18e:	e795      	b.n	bc <_ZN7FatFile4readEPvj+0xbc>
+ 190:	782b      	ldrb	r3, [r5, #0]
+ 192:	f013 0f70 	tst.w	r3, #112	; 0x70
+ 196:	d0c9      	beq.n	12c <_ZN7FatFile4readEPvj+0x12c>
+ 198:	ebaa 0a06 	sub.w	sl, sl, r6
+ 19c:	4650      	mov	r0, sl
+ 19e:	b003      	add	sp, #12
+ 1a0:	ecbd 8b02 	vpop	{d8}
+ 1a4:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+
+Disassembly of section .text._ZN7FatFile5fgetsEPciS0_:
+
+00000000 <_ZN7FatFile5fgetsEPciS0_>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	468b      	mov	fp, r1
+   6:	b083      	sub	sp, #12
+   8:	4681      	mov	r9, r0
+   a:	4690      	mov	r8, r2
+   c:	461f      	mov	r7, r3
+   e:	1e4e      	subs	r6, r1, #1
+  10:	f04f 34ff 	mov.w	r4, #4294967295	; 0xffffffff
+  14:	2500      	movs	r5, #0
+  16:	46aa      	mov	sl, r5
+  18:	3501      	adds	r5, #1
+  1a:	45a8      	cmp	r8, r5
+  1c:	f04f 0201 	mov.w	r2, #1
+  20:	f10d 0107 	add.w	r1, sp, #7
+  24:	4648      	mov	r0, r9
+  26:	dd16      	ble.n	56 <_ZN7FatFile5fgetsEPciS0_+0x56>
+  28:	f7ff fffe 	bl	0 <_ZN7FatFile5fgetsEPciS0_>
+  2c:	2801      	cmp	r0, #1
+  2e:	4604      	mov	r4, r0
+  30:	d111      	bne.n	56 <_ZN7FatFile5fgetsEPciS0_+0x56>
+  32:	f89d 1007 	ldrb.w	r1, [sp, #7]
+  36:	290d      	cmp	r1, #13
+  38:	d0ef      	beq.n	1a <_ZN7FatFile5fgetsEPciS0_+0x1a>
+  3a:	f806 1f01 	strb.w	r1, [r6, #1]!
+  3e:	b137      	cbz	r7, 4e <_ZN7FatFile5fgetsEPciS0_+0x4e>
+  40:	4638      	mov	r0, r7
+  42:	f7ff fffe 	bl	0 <strchr>
+  46:	2800      	cmp	r0, #0
+  48:	d0e5      	beq.n	16 <_ZN7FatFile5fgetsEPciS0_+0x16>
+  4a:	46aa      	mov	sl, r5
+  4c:	e005      	b.n	5a <_ZN7FatFile5fgetsEPciS0_+0x5a>
+  4e:	290a      	cmp	r1, #10
+  50:	d1e1      	bne.n	16 <_ZN7FatFile5fgetsEPciS0_+0x16>
+  52:	46aa      	mov	sl, r5
+  54:	e001      	b.n	5a <_ZN7FatFile5fgetsEPciS0_+0x5a>
+  56:	2c00      	cmp	r4, #0
+  58:	db06      	blt.n	68 <_ZN7FatFile5fgetsEPciS0_+0x68>
+  5a:	2300      	movs	r3, #0
+  5c:	f80b 300a 	strb.w	r3, [fp, sl]
+  60:	4650      	mov	r0, sl
+  62:	b003      	add	sp, #12
+  64:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  68:	f04f 3aff 	mov.w	sl, #4294967295	; 0xffffffff
+  6c:	e7f8      	b.n	60 <_ZN7FatFile5fgetsEPciS0_+0x60>
+  6e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile4peekEv:
+
+00000000 <_ZN7FatFile4peekEv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	b082      	sub	sp, #8
+   4:	2201      	movs	r2, #1
+   6:	4604      	mov	r4, r0
+   8:	f10d 0107 	add.w	r1, sp, #7
+   c:	e9d0 5604 	ldrd	r5, r6, [r0, #16]
+  10:	f7ff fffe 	bl	0 <_ZN7FatFile4peekEv>
+  14:	2801      	cmp	r0, #1
+  16:	bf0c      	ite	eq
+  18:	f89d 0007 	ldrbeq.w	r0, [sp, #7]
+  1c:	f04f 30ff 	movne.w	r0, #4294967295	; 0xffffffff
+  20:	e9c4 5604 	strd	r5, r6, [r4, #16]
+  24:	b002      	add	sp, #8
+  26:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text._ZN7FatFile7readDirEP8DirFat_t:
+
+00000000 <_ZN7FatFile7readDirEP8DirFat_t>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	7803      	ldrb	r3, [r0, #0]
+   4:	f013 0f70 	tst.w	r3, #112	; 0x70
+   8:	d01e      	beq.n	48 <_ZN7FatFile7readDirEP8DirFat_t+0x48>
+   a:	6943      	ldr	r3, [r0, #20]
+   c:	4605      	mov	r5, r0
+   e:	460c      	mov	r4, r1
+  10:	06da      	lsls	r2, r3, #27
+  12:	d119      	bne.n	48 <_ZN7FatFile7readDirEP8DirFat_t+0x48>
+  14:	2220      	movs	r2, #32
+  16:	4621      	mov	r1, r4
+  18:	4628      	mov	r0, r5
+  1a:	f7ff fffe 	bl	0 <_ZN7FatFile7readDirEP8DirFat_t>
+  1e:	b202      	sxth	r2, r0
+  20:	2a20      	cmp	r2, #32
+  22:	d10a      	bne.n	3a <_ZN7FatFile7readDirEP8DirFat_t+0x3a>
+  24:	7823      	ldrb	r3, [r4, #0]
+  26:	b16b      	cbz	r3, 44 <_ZN7FatFile7readDirEP8DirFat_t+0x44>
+  28:	2be5      	cmp	r3, #229	; 0xe5
+  2a:	d0f3      	beq.n	14 <_ZN7FatFile7readDirEP8DirFat_t+0x14>
+  2c:	2b2e      	cmp	r3, #46	; 0x2e
+  2e:	d0f1      	beq.n	14 <_ZN7FatFile7readDirEP8DirFat_t+0x14>
+  30:	7ae3      	ldrb	r3, [r4, #11]
+  32:	071b      	lsls	r3, r3, #28
+  34:	d4ee      	bmi.n	14 <_ZN7FatFile7readDirEP8DirFat_t+0x14>
+  36:	b240      	sxtb	r0, r0
+  38:	bd38      	pop	{r3, r4, r5, pc}
+  3a:	1e13      	subs	r3, r2, #0
+  3c:	bf18      	it	ne
+  3e:	2301      	movne	r3, #1
+  40:	4258      	negs	r0, r3
+  42:	bd38      	pop	{r3, r4, r5, pc}
+  44:	4618      	mov	r0, r3
+  46:	bd38      	pop	{r3, r4, r5, pc}
+  48:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile12readDirCacheEb:
+
+00000000 <_ZN7FatFile12readDirCacheEb>:
+   0:	6943      	ldr	r3, [r0, #20]
+   2:	f413 7ff0 	tst.w	r3, #480	; 0x1e0
+   6:	b530      	push	{r4, r5, lr}
+   8:	4604      	mov	r4, r0
+   a:	b083      	sub	sp, #12
+   c:	f3c3 1543 	ubfx	r5, r3, #5, #4
+  10:	d009      	beq.n	26 <_ZN7FatFile12readDirCacheEb+0x26>
+  12:	2901      	cmp	r1, #1
+  14:	d107      	bne.n	26 <_ZN7FatFile12readDirCacheEb+0x26>
+  16:	3320      	adds	r3, #32
+  18:	6143      	str	r3, [r0, #20]
+  1a:	68a0      	ldr	r0, [r4, #8]
+  1c:	3038      	adds	r0, #56	; 0x38
+  1e:	eb00 1045 	add.w	r0, r0, r5, lsl #5
+  22:	b003      	add	sp, #12
+  24:	bd30      	pop	{r4, r5, pc}
+  26:	2201      	movs	r2, #1
+  28:	f10d 0107 	add.w	r1, sp, #7
+  2c:	4620      	mov	r0, r4
+  2e:	f7ff fffe 	bl	0 <_ZN7FatFile12readDirCacheEb>
+  32:	b240      	sxtb	r0, r0
+  34:	2801      	cmp	r0, #1
+  36:	d103      	bne.n	40 <_ZN7FatFile12readDirCacheEb+0x40>
+  38:	6963      	ldr	r3, [r4, #20]
+  3a:	331f      	adds	r3, #31
+  3c:	6163      	str	r3, [r4, #20]
+  3e:	e7ec      	b.n	1a <_ZN7FatFile12readDirCacheEb+0x1a>
+  40:	2000      	movs	r0, #0
+  42:	e7ee      	b.n	22 <_ZN7FatFile12readDirCacheEb+0x22>
+
+Disassembly of section .text._ZN7FatFile6removeEPKc:
+
+00000000 <_ZN7FatFile6removeEPKc>:
+   0:	b510      	push	{r4, lr}
+   2:	b08a      	sub	sp, #40	; 0x28
+   4:	2400      	movs	r4, #0
+   6:	460a      	mov	r2, r1
+   8:	2301      	movs	r3, #1
+   a:	4601      	mov	r1, r0
+   c:	a801      	add	r0, sp, #4
+   e:	9401      	str	r4, [sp, #4]
+  10:	f7ff fffe 	bl	0 <_ZN7FatFile6removeEPKc>
+  14:	b110      	cbz	r0, 1c <_ZN7FatFile6removeEPKc+0x1c>
+  16:	a801      	add	r0, sp, #4
+  18:	f7ff fffe 	bl	0 <_ZN7FatFile6removeEv>
+  1c:	b00a      	add	sp, #40	; 0x28
+  1e:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN7FatFile6renameEPS_PKc:
+
+00000000 <_ZN7FatFile6renameEPS_PKc>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	7803      	ldrb	r3, [r0, #0]
+   6:	b09a      	sub	sp, #104	; 0x68
+   8:	2600      	movs	r6, #0
+   a:	f013 0f18 	tst.w	r3, #24
+   e:	9608      	str	r6, [sp, #32]
+  10:	9611      	str	r6, [sp, #68]	; 0x44
+  12:	d006      	beq.n	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+  14:	4617      	mov	r7, r2
+  16:	6883      	ldr	r3, [r0, #8]
+  18:	688a      	ldr	r2, [r1, #8]
+  1a:	4604      	mov	r4, r0
+  1c:	460d      	mov	r5, r1
+  1e:	429a      	cmp	r2, r3
+  20:	d003      	beq.n	2a <_ZN7FatFile6renameEPS_PKc+0x2a>
+  22:	2000      	movs	r0, #0
+  24:	b01a      	add	sp, #104	; 0x68
+  26:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  2a:	f7ff fffe 	bl	0 <_ZN7FatFile6renameEPS_PKc>
+  2e:	46a6      	mov	lr, r4
+  30:	f10d 0c44 	add.w	ip, sp, #68	; 0x44
+  34:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  38:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  3c:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  40:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  44:	f8de 3000 	ldr.w	r3, [lr]
+  48:	4632      	mov	r2, r6
+  4a:	69a1      	ldr	r1, [r4, #24]
+  4c:	f8cc 3000 	str.w	r3, [ip]
+  50:	68a3      	ldr	r3, [r4, #8]
+  52:	f103 0028 	add.w	r0, r3, #40	; 0x28
+  56:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  5a:	2800      	cmp	r0, #0
+  5c:	d0e1      	beq.n	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+  5e:	88a2      	ldrh	r2, [r4, #4]
+  60:	46ec      	mov	ip, sp
+  62:	f894 8000 	ldrb.w	r8, [r4]
+  66:	f002 020f 	and.w	r2, r2, #15
+  6a:	eb00 1e42 	add.w	lr, r0, r2, lsl #5
+  6e:	0152      	lsls	r2, r2, #5
+  70:	f8de 1004 	ldr.w	r1, [lr, #4]
+  74:	5880      	ldr	r0, [r0, r2]
+  76:	f8de 300c 	ldr.w	r3, [lr, #12]
+  7a:	f8de 2008 	ldr.w	r2, [lr, #8]
+  7e:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  82:	f8de 1014 	ldr.w	r1, [lr, #20]
+  86:	f8de 2018 	ldr.w	r2, [lr, #24]
+  8a:	f8de 301c 	ldr.w	r3, [lr, #28]
+  8e:	f8de 0010 	ldr.w	r0, [lr, #16]
+  92:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  96:	f018 0308 	ands.w	r3, r8, #8
+  9a:	463a      	mov	r2, r7
+  9c:	4629      	mov	r1, r5
+  9e:	f040 809b 	bne.w	1d8 <_ZN7FatFile6renameEPS_PKc+0x1d8>
+  a2:	a808      	add	r0, sp, #32
+  a4:	f7ff fffe 	bl	0 <_ZN7FatFile6renameEPS_PKc>
+  a8:	2800      	cmp	r0, #0
+  aa:	d0ba      	beq.n	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+  ac:	9e10      	ldr	r6, [sp, #64]	; 0x40
+  ae:	f8bd 3024 	ldrh.w	r3, [sp, #36]	; 0x24
+  b2:	2500      	movs	r5, #0
+  b4:	990e      	ldr	r1, [sp, #56]	; 0x38
+  b6:	2201      	movs	r2, #1
+  b8:	80a3      	strh	r3, [r4, #4]
+  ba:	f89d 3023 	ldrb.w	r3, [sp, #35]	; 0x23
+  be:	68a0      	ldr	r0, [r4, #8]
+  c0:	70e3      	strb	r3, [r4, #3]
+  c2:	9b0b      	ldr	r3, [sp, #44]	; 0x2c
+  c4:	3028      	adds	r0, #40	; 0x28
+  c6:	61a1      	str	r1, [r4, #24]
+  c8:	60e3      	str	r3, [r4, #12]
+  ca:	f88d 5020 	strb.w	r5, [sp, #32]
+  ce:	f88d 5022 	strb.w	r5, [sp, #34]	; 0x22
+  d2:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  d6:	2800      	cmp	r0, #0
+  d8:	d0a3      	beq.n	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+  da:	88a3      	ldrh	r3, [r4, #4]
+  dc:	f003 030f 	and.w	r3, r3, #15
+  e0:	eb00 1043 	add.w	r0, r0, r3, lsl #5
+  e4:	f8dd 300d 	ldr.w	r3, [sp, #13]
+  e8:	f8c0 300d 	str.w	r3, [r0, #13]
+  ec:	f8dd 3011 	ldr.w	r3, [sp, #17]
+  f0:	f8c0 3011 	str.w	r3, [r0, #17]
+  f4:	f8dd 3015 	ldr.w	r3, [sp, #21]
+  f8:	f8c0 3015 	str.w	r3, [r0, #21]
+  fc:	f8dd 3019 	ldr.w	r3, [sp, #25]
+ 100:	f8c0 3019 	str.w	r3, [r0, #25]
+ 104:	f8bd 301d 	ldrh.w	r3, [sp, #29]
+ 108:	f8a0 301d 	strh.w	r3, [r0, #29]
+ 10c:	f89d 301f 	ldrb.w	r3, [sp, #31]
+ 110:	77c3      	strb	r3, [r0, #31]
+ 112:	f89d 300b 	ldrb.w	r3, [sp, #11]
+ 116:	72c3      	strb	r3, [r0, #11]
+ 118:	2e00      	cmp	r6, #0
+ 11a:	d03b      	beq.n	194 <_ZN7FatFile6renameEPS_PKc+0x194>
+ 11c:	68a0      	ldr	r0, [r4, #8]
+ 11e:	1eb3      	subs	r3, r6, #2
+ 120:	462a      	mov	r2, r5
+ 122:	7981      	ldrb	r1, [r0, #6]
+ 124:	3028      	adds	r0, #40	; 0x28
+ 126:	408b      	lsls	r3, r1
+ 128:	f850 1c14 	ldr.w	r1, [r0, #-20]
+ 12c:	4419      	add	r1, r3
+ 12e:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+ 132:	4605      	mov	r5, r0
+ 134:	2800      	cmp	r0, #0
+ 136:	f43f af74 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 13a:	6a00      	ldr	r0, [r0, #32]
+ 13c:	466f      	mov	r7, sp
+ 13e:	6a69      	ldr	r1, [r5, #36]	; 0x24
+ 140:	6aaa      	ldr	r2, [r5, #40]	; 0x28
+ 142:	6aeb      	ldr	r3, [r5, #44]	; 0x2c
+ 144:	c70f      	stmia	r7!, {r0, r1, r2, r3}
+ 146:	6b28      	ldr	r0, [r5, #48]	; 0x30
+ 148:	6b69      	ldr	r1, [r5, #52]	; 0x34
+ 14a:	6baa      	ldr	r2, [r5, #56]	; 0x38
+ 14c:	6beb      	ldr	r3, [r5, #60]	; 0x3c
+ 14e:	c70f      	stmia	r7!, {r0, r1, r2, r3}
+ 150:	4631      	mov	r1, r6
+ 152:	68a0      	ldr	r0, [r4, #8]
+ 154:	f7ff fffe 	bl	0 <_ZN12FatPartition9freeChainEm>
+ 158:	2800      	cmp	r0, #0
+ 15a:	f43f af62 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 15e:	68a0      	ldr	r0, [r4, #8]
+ 160:	6a23      	ldr	r3, [r4, #32]
+ 162:	7982      	ldrb	r2, [r0, #6]
+ 164:	3028      	adds	r0, #40	; 0x28
+ 166:	3b02      	subs	r3, #2
+ 168:	f850 1c14 	ldr.w	r1, [r0, #-20]
+ 16c:	4093      	lsls	r3, r2
+ 16e:	2201      	movs	r2, #1
+ 170:	4419      	add	r1, r3
+ 172:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+ 176:	4606      	mov	r6, r0
+ 178:	2800      	cmp	r0, #0
+ 17a:	f43f af52 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 17e:	466d      	mov	r5, sp
+ 180:	cd0f      	ldmia	r5!, {r0, r1, r2, r3}
+ 182:	6230      	str	r0, [r6, #32]
+ 184:	6271      	str	r1, [r6, #36]	; 0x24
+ 186:	62b2      	str	r2, [r6, #40]	; 0x28
+ 188:	62f3      	str	r3, [r6, #44]	; 0x2c
+ 18a:	cd0f      	ldmia	r5!, {r0, r1, r2, r3}
+ 18c:	6330      	str	r0, [r6, #48]	; 0x30
+ 18e:	6371      	str	r1, [r6, #52]	; 0x34
+ 190:	63b2      	str	r2, [r6, #56]	; 0x38
+ 192:	63f3      	str	r3, [r6, #60]	; 0x3c
+ 194:	2100      	movs	r1, #0
+ 196:	2202      	movs	r2, #2
+ 198:	2308      	movs	r3, #8
+ 19a:	a811      	add	r0, sp, #68	; 0x44
+ 19c:	9119      	str	r1, [sp, #100]	; 0x64
+ 19e:	f88d 2046 	strb.w	r2, [sp, #70]	; 0x46
+ 1a2:	f88d 3044 	strb.w	r3, [sp, #68]	; 0x44
+ 1a6:	f7ff fffe 	bl	0 <_ZN7FatFile6removeEv>
+ 1aa:	2800      	cmp	r0, #0
+ 1ac:	f43f af39 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 1b0:	68a4      	ldr	r4, [r4, #8]
+ 1b2:	f104 0028 	add.w	r0, r4, #40	; 0x28
+ 1b6:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 1ba:	2800      	cmp	r0, #0
+ 1bc:	f43f af31 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 1c0:	f504 700e 	add.w	r0, r4, #568	; 0x238
+ 1c4:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 1c8:	2800      	cmp	r0, #0
+ 1ca:	f43f af2a 	beq.w	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 1ce:	6820      	ldr	r0, [r4, #0]
+ 1d0:	6803      	ldr	r3, [r0, #0]
+ 1d2:	6a1b      	ldr	r3, [r3, #32]
+ 1d4:	4798      	blx	r3
+ 1d6:	e725      	b.n	24 <_ZN7FatFile6renameEPS_PKc+0x24>
+ 1d8:	f640 2301 	movw	r3, #2561	; 0xa01
+ 1dc:	4660      	mov	r0, ip
+ 1de:	f7ff fffe 	bl	0 <_ZN7FatFile6renameEPS_PKc>
+ 1e2:	2800      	cmp	r0, #0
+ 1e4:	f47f af63 	bne.w	ae <_ZN7FatFile6renameEPS_PKc+0xae>
+ 1e8:	e71b      	b.n	22 <_ZN7FatFile6renameEPS_PKc+0x22>
+ 1ea:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile6renameEPKc:
+
+00000000 <_ZN7FatFile6renameEPKc>:
+   0:	460a      	mov	r2, r1
+   2:	6881      	ldr	r1, [r0, #8]
+   4:	f501 6189 	add.w	r1, r1, #1096	; 0x448
+   8:	f7ff bffe 	b.w	0 <_ZN7FatFile6renameEPKc>
+
+Disassembly of section .text._ZN7FatFile5rmdirEv:
+
+00000000 <_ZN7FatFile5rmdirEv>:
+   0:	7803      	ldrb	r3, [r0, #0]
+   2:	06da      	lsls	r2, r3, #27
+   4:	d401      	bmi.n	a <_ZN7FatFile5rmdirEv+0xa>
+   6:	2000      	movs	r0, #0
+   8:	4770      	bx	lr
+   a:	6943      	ldr	r3, [r0, #20]
+   c:	b530      	push	{r4, r5, lr}
+   e:	4604      	mov	r4, r0
+  10:	b083      	sub	sp, #12
+  12:	b133      	cbz	r3, 22 <_ZN7FatFile5rmdirEv+0x22>
+  14:	7883      	ldrb	r3, [r0, #2]
+  16:	2200      	movs	r2, #0
+  18:	f023 0320 	bic.w	r3, r3, #32
+  1c:	e9c0 2204 	strd	r2, r2, [r0, #16]
+  20:	7083      	strb	r3, [r0, #2]
+  22:	2300      	movs	r3, #0
+  24:	e00f      	b.n	46 <_ZN7FatFile5rmdirEv+0x46>
+  26:	6163      	str	r3, [r4, #20]
+  28:	68a3      	ldr	r3, [r4, #8]
+  2a:	016a      	lsls	r2, r5, #5
+  2c:	3338      	adds	r3, #56	; 0x38
+  2e:	5c9a      	ldrb	r2, [r3, r2]
+  30:	eb03 1345 	add.w	r3, r3, r5, lsl #5
+  34:	b1ea      	cbz	r2, 72 <_ZN7FatFile5rmdirEv+0x72>
+  36:	2ae5      	cmp	r2, #229	; 0xe5
+  38:	d004      	beq.n	44 <_ZN7FatFile5rmdirEv+0x44>
+  3a:	2a2e      	cmp	r2, #46	; 0x2e
+  3c:	d002      	beq.n	44 <_ZN7FatFile5rmdirEv+0x44>
+  3e:	7adb      	ldrb	r3, [r3, #11]
+  40:	071b      	lsls	r3, r3, #28
+  42:	d522      	bpl.n	8a <_ZN7FatFile5rmdirEv+0x8a>
+  44:	6963      	ldr	r3, [r4, #20]
+  46:	f413 7ff0 	tst.w	r3, #480	; 0x1e0
+  4a:	f3c3 1543 	ubfx	r5, r3, #5, #4
+  4e:	f103 0320 	add.w	r3, r3, #32
+  52:	d1e8      	bne.n	26 <_ZN7FatFile5rmdirEv+0x26>
+  54:	2201      	movs	r2, #1
+  56:	f10d 0107 	add.w	r1, sp, #7
+  5a:	4620      	mov	r0, r4
+  5c:	f7ff fffe 	bl	0 <_ZN7FatFile5rmdirEv>
+  60:	b240      	sxtb	r0, r0
+  62:	2801      	cmp	r0, #1
+  64:	d103      	bne.n	6e <_ZN7FatFile5rmdirEv+0x6e>
+  66:	6963      	ldr	r3, [r4, #20]
+  68:	331f      	adds	r3, #31
+  6a:	6163      	str	r3, [r4, #20]
+  6c:	e7dc      	b.n	28 <_ZN7FatFile5rmdirEv+0x28>
+  6e:	7863      	ldrb	r3, [r4, #1]
+  70:	b95b      	cbnz	r3, 8a <_ZN7FatFile5rmdirEv+0x8a>
+  72:	78a3      	ldrb	r3, [r4, #2]
+  74:	2208      	movs	r2, #8
+  76:	4620      	mov	r0, r4
+  78:	f043 0302 	orr.w	r3, r3, #2
+  7c:	7022      	strb	r2, [r4, #0]
+  7e:	70a3      	strb	r3, [r4, #2]
+  80:	b003      	add	sp, #12
+  82:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  86:	f7ff bffe 	b.w	0 <_ZN7FatFile6removeEv>
+  8a:	2000      	movs	r0, #0
+  8c:	b003      	add	sp, #12
+  8e:	bd30      	pop	{r4, r5, pc}
+
+Disassembly of section .text._ZN7FatFile7seekSetEm:
+
+00000000 <_ZN7FatFile7seekSetEm>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	7803      	ldrb	r3, [r0, #0]
+   6:	4604      	mov	r4, r0
+   8:	6907      	ldr	r7, [r0, #16]
+   a:	2b00      	cmp	r3, #0
+   c:	d039      	beq.n	82 <_ZN7FatFile7seekSetEm+0x82>
+   e:	460d      	mov	r5, r1
+  10:	6941      	ldr	r1, [r0, #20]
+  12:	42a9      	cmp	r1, r5
+  14:	d042      	beq.n	9c <_ZN7FatFile7seekSetEm+0x9c>
+  16:	2d00      	cmp	r5, #0
+  18:	d037      	beq.n	8a <_ZN7FatFile7seekSetEm+0x8a>
+  1a:	0718      	lsls	r0, r3, #28
+  1c:	d52a      	bpl.n	74 <_ZN7FatFile7seekSetEm+0x74>
+  1e:	69e2      	ldr	r2, [r4, #28]
+  20:	42aa      	cmp	r2, r5
+  22:	d32e      	bcc.n	82 <_ZN7FatFile7seekSetEm+0x82>
+  24:	f8d4 c008 	ldr.w	ip, [r4, #8]
+  28:	1e6e      	subs	r6, r5, #1
+  2a:	78a2      	ldrb	r2, [r4, #2]
+  2c:	f89c 0006 	ldrb.w	r0, [ip, #6]
+  30:	f012 0f40 	tst.w	r2, #64	; 0x40
+  34:	f100 0009 	add.w	r0, r0, #9
+  38:	b2c0      	uxtb	r0, r0
+  3a:	fa26 f600 	lsr.w	r6, r6, r0
+  3e:	d130      	bne.n	a2 <_ZN7FatFile7seekSetEm+0xa2>
+  40:	1e4a      	subs	r2, r1, #1
+  42:	40c2      	lsrs	r2, r0
+  44:	b109      	cbz	r1, 4a <_ZN7FatFile7seekSetEm+0x4a>
+  46:	4296      	cmp	r6, r2
+  48:	d22f      	bcs.n	aa <_ZN7FatFile7seekSetEm+0xaa>
+  4a:	065b      	lsls	r3, r3, #25
+  4c:	bf4c      	ite	mi
+  4e:	f8dc 3020 	ldrmi.w	r3, [ip, #32]
+  52:	6a23      	ldrpl	r3, [r4, #32]
+  54:	6123      	str	r3, [r4, #16]
+  56:	f104 0810 	add.w	r8, r4, #16
+  5a:	e006      	b.n	6a <_ZN7FatFile7seekSetEm+0x6a>
+  5c:	6921      	ldr	r1, [r4, #16]
+  5e:	3e01      	subs	r6, #1
+  60:	68a0      	ldr	r0, [r4, #8]
+  62:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+  66:	2800      	cmp	r0, #0
+  68:	dd0b      	ble.n	82 <_ZN7FatFile7seekSetEm+0x82>
+  6a:	4642      	mov	r2, r8
+  6c:	2e00      	cmp	r6, #0
+  6e:	d1f5      	bne.n	5c <_ZN7FatFile7seekSetEm+0x5c>
+  70:	78a2      	ldrb	r2, [r4, #2]
+  72:	e00c      	b.n	8e <_ZN7FatFile7seekSetEm+0x8e>
+  74:	069a      	lsls	r2, r3, #26
+  76:	d5d5      	bpl.n	24 <_ZN7FatFile7seekSetEm+0x24>
+  78:	68a3      	ldr	r3, [r4, #8]
+  7a:	895b      	ldrh	r3, [r3, #10]
+  7c:	ebb5 1f43 	cmp.w	r5, r3, lsl #5
+  80:	d9f6      	bls.n	70 <_ZN7FatFile7seekSetEm+0x70>
+  82:	2000      	movs	r0, #0
+  84:	6127      	str	r7, [r4, #16]
+  86:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  8a:	7882      	ldrb	r2, [r0, #2]
+  8c:	6105      	str	r5, [r0, #16]
+  8e:	f022 0220 	bic.w	r2, r2, #32
+  92:	2001      	movs	r0, #1
+  94:	6165      	str	r5, [r4, #20]
+  96:	70a2      	strb	r2, [r4, #2]
+  98:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  9c:	2001      	movs	r0, #1
+  9e:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  a2:	6a23      	ldr	r3, [r4, #32]
+  a4:	4433      	add	r3, r6
+  a6:	6123      	str	r3, [r4, #16]
+  a8:	e7f1      	b.n	8e <_ZN7FatFile7seekSetEm+0x8e>
+  aa:	1ab6      	subs	r6, r6, r2
+  ac:	e7d3      	b.n	56 <_ZN7FatFile7seekSetEm+0x56>
+  ae:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile15openCachedEntryEPS_tih:
+
+00000000 <_ZN7FatFile15openCachedEntryEPS_tih>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	460e      	mov	r6, r1
+   6:	4615      	mov	r5, r2
+   8:	2100      	movs	r1, #0
+   a:	2224      	movs	r2, #36	; 0x24
+   c:	4604      	mov	r4, r0
+   e:	4698      	mov	r8, r3
+  10:	f89d 7018 	ldrb.w	r7, [sp, #24]
+  14:	f7ff fffe 	bl	0 <memset>
+  18:	68b0      	ldr	r0, [r6, #8]
+  1a:	6a33      	ldr	r3, [r6, #32]
+  1c:	f100 0238 	add.w	r2, r0, #56	; 0x38
+  20:	80a5      	strh	r5, [r4, #4]
+  22:	f005 050f 	and.w	r5, r5, #15
+  26:	eb02 1245 	add.w	r2, r2, r5, lsl #5
+  2a:	e9c4 0302 	strd	r0, r3, [r4, #8]
+  2e:	7ad1      	ldrb	r1, [r2, #11]
+  30:	070b      	lsls	r3, r1, #28
+  32:	d411      	bmi.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  34:	f001 0117 	and.w	r1, r1, #23
+  38:	7021      	strb	r1, [r4, #0]
+  3a:	7ad3      	ldrb	r3, [r2, #11]
+  3c:	f013 0f18 	tst.w	r3, #24
+  40:	d102      	bne.n	48 <_ZN7FatFile15openCachedEntryEPS_tih+0x48>
+  42:	f041 0108 	orr.w	r1, r1, #8
+  46:	7021      	strb	r1, [r4, #0]
+  48:	f008 0303 	and.w	r3, r8, #3
+  4c:	70e7      	strb	r7, [r4, #3]
+  4e:	2b01      	cmp	r3, #1
+  50:	d038      	beq.n	c4 <_ZN7FatFile15openCachedEntryEPS_tih+0xc4>
+  52:	2b02      	cmp	r3, #2
+  54:	d006      	beq.n	64 <_ZN7FatFile15openCachedEntryEPS_tih+0x64>
+  56:	b1f3      	cbz	r3, 96 <_ZN7FatFile15openCachedEntryEPS_tih+0x96>
+  58:	2300      	movs	r3, #0
+  5a:	4618      	mov	r0, r3
+  5c:	7023      	strb	r3, [r4, #0]
+  5e:	70a3      	strb	r3, [r4, #2]
+  60:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  64:	2303      	movs	r3, #3
+  66:	7821      	ldrb	r1, [r4, #0]
+  68:	06cd      	lsls	r5, r1, #27
+  6a:	d4f5      	bmi.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  6c:	07ce      	lsls	r6, r1, #31
+  6e:	d4f3      	bmi.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  70:	f008 0108 	and.w	r1, r8, #8
+  74:	f418 6f80 	tst.w	r8, #1024	; 0x400
+  78:	ea43 0301 	orr.w	r3, r3, r1
+  7c:	70a3      	strb	r3, [r4, #2]
+  7e:	6b41      	ldr	r1, [r0, #52]	; 0x34
+  80:	8a95      	ldrh	r5, [r2, #20]
+  82:	61a1      	str	r1, [r4, #24]
+  84:	8b51      	ldrh	r1, [r2, #26]
+  86:	ea41 4105 	orr.w	r1, r1, r5, lsl #16
+  8a:	d012      	beq.n	b2 <_ZN7FatFile15openCachedEntryEPS_tih+0xb2>
+  8c:	bb19      	cbnz	r1, d6 <_ZN7FatFile15openCachedEntryEPS_tih+0xd6>
+  8e:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  92:	70a3      	strb	r3, [r4, #2]
+  94:	e010      	b.n	b8 <_ZN7FatFile15openCachedEntryEPS_tih+0xb8>
+  96:	f418 6f80 	tst.w	r8, #1024	; 0x400
+  9a:	d1dd      	bne.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  9c:	f008 0308 	and.w	r3, r8, #8
+  a0:	f043 0301 	orr.w	r3, r3, #1
+  a4:	70a3      	strb	r3, [r4, #2]
+  a6:	6b41      	ldr	r1, [r0, #52]	; 0x34
+  a8:	8a93      	ldrh	r3, [r2, #20]
+  aa:	61a1      	str	r1, [r4, #24]
+  ac:	8b51      	ldrh	r1, [r2, #26]
+  ae:	ea41 4103 	orr.w	r1, r1, r3, lsl #16
+  b2:	6221      	str	r1, [r4, #32]
+  b4:	69d3      	ldr	r3, [r2, #28]
+  b6:	61e3      	str	r3, [r4, #28]
+  b8:	f418 4f80 	tst.w	r8, #16384	; 0x4000
+  bc:	d104      	bne.n	c8 <_ZN7FatFile15openCachedEntryEPS_tih+0xc8>
+  be:	2001      	movs	r0, #1
+  c0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  c4:	2302      	movs	r3, #2
+  c6:	e7ce      	b.n	66 <_ZN7FatFile15openCachedEntryEPS_tih+0x66>
+  c8:	69e1      	ldr	r1, [r4, #28]
+  ca:	4620      	mov	r0, r4
+  cc:	f7ff fffe 	bl	0 <_ZN7FatFile15openCachedEntryEPS_tih>
+  d0:	2800      	cmp	r0, #0
+  d2:	d1f4      	bne.n	be <_ZN7FatFile15openCachedEntryEPS_tih+0xbe>
+  d4:	e7c0      	b.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  d6:	f7ff fffe 	bl	0 <_ZN12FatPartition9freeChainEm>
+  da:	2800      	cmp	r0, #0
+  dc:	d0bc      	beq.n	58 <_ZN7FatFile15openCachedEntryEPS_tih+0x58>
+  de:	78a3      	ldrb	r3, [r4, #2]
+  e0:	e7d5      	b.n	8e <_ZN7FatFile15openCachedEntryEPS_tih+0x8e>
+  e2:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile8openNextEPS_i:
+
+00000000 <_ZN7FatFile8openNextEPS_i>:
+   0:	7803      	ldrb	r3, [r0, #0]
+   2:	2b00      	cmp	r3, #0
+   4:	d145      	bne.n	92 <_ZN7FatFile8openNextEPS_i+0x92>
+   6:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   a:	780b      	ldrb	r3, [r1, #0]
+   c:	b084      	sub	sp, #16
+   e:	460c      	mov	r4, r1
+  10:	f013 0f70 	tst.w	r3, #112	; 0x70
+  14:	d030      	beq.n	78 <_ZN7FatFile8openNextEPS_i+0x78>
+  16:	694b      	ldr	r3, [r1, #20]
+  18:	f013 051f 	ands.w	r5, r3, #31
+  1c:	d12c      	bne.n	78 <_ZN7FatFile8openNextEPS_i+0x78>
+  1e:	4606      	mov	r6, r0
+  20:	4690      	mov	r8, r2
+  22:	46a9      	mov	r9, r5
+  24:	2201      	movs	r2, #1
+  26:	f10d 010f 	add.w	r1, sp, #15
+  2a:	4620      	mov	r0, r4
+  2c:	f3c3 1a43 	ubfx	sl, r3, #5, #4
+  30:	095f      	lsrs	r7, r3, #5
+  32:	f7ff fffe 	bl	0 <_ZN7FatFile8openNextEPS_i>
+  36:	b240      	sxtb	r0, r0
+  38:	ea4f 124a 	mov.w	r2, sl, lsl #5
+  3c:	2801      	cmp	r0, #1
+  3e:	d11b      	bne.n	78 <_ZN7FatFile8openNextEPS_i+0x78>
+  40:	6963      	ldr	r3, [r4, #20]
+  42:	68a1      	ldr	r1, [r4, #8]
+  44:	331f      	adds	r3, #31
+  46:	f101 0c38 	add.w	ip, r1, #56	; 0x38
+  4a:	6163      	str	r3, [r4, #20]
+  4c:	f81c 2002 	ldrb.w	r2, [ip, r2]
+  50:	eb0c 1c4a 	add.w	ip, ip, sl, lsl #5
+  54:	b182      	cbz	r2, 78 <_ZN7FatFile8openNextEPS_i+0x78>
+  56:	2a2e      	cmp	r2, #46	; 0x2e
+  58:	d012      	beq.n	80 <_ZN7FatFile8openNextEPS_i+0x80>
+  5a:	f1a2 00e5 	sub.w	r0, r2, #229	; 0xe5
+  5e:	fab0 f080 	clz	r0, r0
+  62:	0940      	lsrs	r0, r0, #5
+  64:	b960      	cbnz	r0, 80 <_ZN7FatFile8openNextEPS_i+0x80>
+  66:	f89c 100b 	ldrb.w	r1, [ip, #11]
+  6a:	f011 0e08 	ands.w	lr, r1, #8
+  6e:	d012      	beq.n	96 <_ZN7FatFile8openNextEPS_i+0x96>
+  70:	290f      	cmp	r1, #15
+  72:	d007      	beq.n	84 <_ZN7FatFile8openNextEPS_i+0x84>
+  74:	4605      	mov	r5, r0
+  76:	e7d5      	b.n	24 <_ZN7FatFile8openNextEPS_i+0x24>
+  78:	2000      	movs	r0, #0
+  7a:	b004      	add	sp, #16
+  7c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  80:	2500      	movs	r5, #0
+  82:	e7cf      	b.n	24 <_ZN7FatFile8openNextEPS_i+0x24>
+  84:	0651      	lsls	r1, r2, #25
+  86:	d5cd      	bpl.n	24 <_ZN7FatFile8openNextEPS_i+0x24>
+  88:	f002 051f 	and.w	r5, r2, #31
+  8c:	f89c 900d 	ldrb.w	r9, [ip, #13]
+  90:	e7c8      	b.n	24 <_ZN7FatFile8openNextEPS_i+0x24>
+  92:	2000      	movs	r0, #0
+  94:	4770      	bx	lr
+  96:	b185      	cbz	r5, ba <_ZN7FatFile8openNextEPS_i+0xba>
+  98:	f10c 010a 	add.w	r1, ip, #10
+  9c:	e001      	b.n	a2 <_ZN7FatFile8openNextEPS_i+0xa2>
+  9e:	f81c 2f01 	ldrb.w	r2, [ip, #1]!
+  a2:	ea4f 13ce 	mov.w	r3, lr, lsl #7
+  a6:	4561      	cmp	r1, ip
+  a8:	ea43 035e 	orr.w	r3, r3, lr, lsr #1
+  ac:	fa52 f383 	uxtab	r3, r2, r3
+  b0:	fa5f fe83 	uxtb.w	lr, r3
+  b4:	d1f3      	bne.n	9e <_ZN7FatFile8openNextEPS_i+0x9e>
+  b6:	45ce      	cmp	lr, r9
+  b8:	d1de      	bne.n	78 <_ZN7FatFile8openNextEPS_i+0x78>
+  ba:	4643      	mov	r3, r8
+  bc:	b2ba      	uxth	r2, r7
+  be:	4621      	mov	r1, r4
+  c0:	4630      	mov	r0, r6
+  c2:	9500      	str	r5, [sp, #0]
+  c4:	f7ff fffe 	bl	0 <_ZN7FatFile8openNextEPS_i>
+  c8:	e7d7      	b.n	7a <_ZN7FatFile8openNextEPS_i+0x7a>
+  ca:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile4openEPS_ti:
+
+00000000 <_ZN7FatFile4openEPS_ti>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4680      	mov	r8, r0
+   6:	468a      	mov	sl, r1
+   8:	4699      	mov	r9, r3
+   a:	4617      	mov	r7, r2
+   c:	b32a      	cbz	r2, 5a <_ZN7FatFile4openEPS_ti+0x5a>
+   e:	2a14      	cmp	r2, #20
+  10:	4616      	mov	r6, r2
+  12:	f102 34ff 	add.w	r4, r2, #4294967295	; 0xffffffff
+  16:	f04f 0501 	mov.w	r5, #1
+  1a:	bf28      	it	cs
+  1c:	2614      	movcs	r6, #20
+  1e:	b2a4      	uxth	r4, r4
+  20:	b2f6      	uxtb	r6, r6
+  22:	e00e      	b.n	42 <_ZN7FatFile4openEPS_ti+0x42>
+  24:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_ti>
+  28:	3c01      	subs	r4, #1
+  2a:	1c6a      	adds	r2, r5, #1
+  2c:	b190      	cbz	r0, 54 <_ZN7FatFile4openEPS_ti+0x54>
+  2e:	7ac3      	ldrb	r3, [r0, #11]
+  30:	b2a4      	uxth	r4, r4
+  32:	2b0f      	cmp	r3, #15
+  34:	d11b      	bne.n	6e <_ZN7FatFile4openEPS_ti+0x6e>
+  36:	7803      	ldrb	r3, [r0, #0]
+  38:	065b      	lsls	r3, r3, #25
+  3a:	d431      	bmi.n	a0 <_ZN7FatFile4openEPS_ti+0xa0>
+  3c:	b2d5      	uxtb	r5, r2
+  3e:	42ae      	cmp	r6, r5
+  40:	d315      	bcc.n	6e <_ZN7FatFile4openEPS_ti+0x6e>
+  42:	0161      	lsls	r1, r4, #5
+  44:	4650      	mov	r0, sl
+  46:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_ti>
+  4a:	4603      	mov	r3, r0
+  4c:	2100      	movs	r1, #0
+  4e:	4650      	mov	r0, sl
+  50:	2b00      	cmp	r3, #0
+  52:	d1e7      	bne.n	24 <_ZN7FatFile4openEPS_ti+0x24>
+  54:	2000      	movs	r0, #0
+  56:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  5a:	780b      	ldrb	r3, [r1, #0]
+  5c:	b13b      	cbz	r3, 6e <_ZN7FatFile4openEPS_ti+0x6e>
+  5e:	694b      	ldr	r3, [r1, #20]
+  60:	b12b      	cbz	r3, 6e <_ZN7FatFile4openEPS_ti+0x6e>
+  62:	788b      	ldrb	r3, [r1, #2]
+  64:	f023 0320 	bic.w	r3, r3, #32
+  68:	e9c1 2204 	strd	r2, r2, [r1, #16]
+  6c:	708b      	strb	r3, [r1, #2]
+  6e:	464a      	mov	r2, r9
+  70:	4651      	mov	r1, sl
+  72:	4640      	mov	r0, r8
+  74:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_ti>
+  78:	2800      	cmp	r0, #0
+  7a:	d0eb      	beq.n	54 <_ZN7FatFile4openEPS_ti+0x54>
+  7c:	f8b8 3004 	ldrh.w	r3, [r8, #4]
+  80:	42bb      	cmp	r3, r7
+  82:	d0e8      	beq.n	56 <_ZN7FatFile4openEPS_ti+0x56>
+  84:	f898 3000 	ldrb.w	r3, [r8]
+  88:	b113      	cbz	r3, 90 <_ZN7FatFile4openEPS_ti+0x90>
+  8a:	4640      	mov	r0, r8
+  8c:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_ti>
+  90:	2300      	movs	r3, #0
+  92:	4618      	mov	r0, r3
+  94:	f888 3000 	strb.w	r3, [r8]
+  98:	f888 3002 	strb.w	r3, [r8, #2]
+  9c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  a0:	1b79      	subs	r1, r7, r5
+  a2:	4650      	mov	r0, sl
+  a4:	0149      	lsls	r1, r1, #5
+  a6:	f7ff fffe 	bl	0 <_ZN7FatFile4openEPS_ti>
+  aa:	2800      	cmp	r0, #0
+  ac:	d1df      	bne.n	6e <_ZN7FatFile4openEPS_ti+0x6e>
+  ae:	e7d1      	b.n	54 <_ZN7FatFile4openEPS_ti+0x54>
+
+Disassembly of section .text._ZN7FatFile8rmRfStarEv:
+
+00000000 <_ZN7FatFile8rmRfStarEv>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	7802      	ldrb	r2, [r0, #0]
+   4:	b08b      	sub	sp, #44	; 0x2c
+   6:	2300      	movs	r3, #0
+   8:	f012 0f70 	tst.w	r2, #112	; 0x70
+   c:	9301      	str	r3, [sp, #4]
+   e:	d102      	bne.n	16 <_ZN7FatFile8rmRfStarEv+0x16>
+  10:	2000      	movs	r0, #0
+  12:	b00b      	add	sp, #44	; 0x2c
+  14:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  16:	6942      	ldr	r2, [r0, #20]
+  18:	4605      	mov	r5, r0
+  1a:	b12a      	cbz	r2, 28 <_ZN7FatFile8rmRfStarEv+0x28>
+  1c:	7882      	ldrb	r2, [r0, #2]
+  1e:	e9c0 3304 	strd	r3, r3, [r0, #16]
+  22:	f022 0320 	bic.w	r3, r2, #32
+  26:	7083      	strb	r3, [r0, #2]
+  28:	2400      	movs	r4, #0
+  2a:	2201      	movs	r2, #1
+  2c:	f10d 0103 	add.w	r1, sp, #3
+  30:	4628      	mov	r0, r5
+  32:	0966      	lsrs	r6, r4, #5
+  34:	f7ff fffe 	bl	0 <_ZN7FatFile8rmRfStarEv>
+  38:	f3c4 1743 	ubfx	r7, r4, #5, #4
+  3c:	b240      	sxtb	r0, r0
+  3e:	2801      	cmp	r0, #1
+  40:	d13e      	bne.n	c0 <_ZN7FatFile8rmRfStarEv+0xc0>
+  42:	696c      	ldr	r4, [r5, #20]
+  44:	017a      	lsls	r2, r7, #5
+  46:	68ab      	ldr	r3, [r5, #8]
+  48:	341f      	adds	r4, #31
+  4a:	3338      	adds	r3, #56	; 0x38
+  4c:	616c      	str	r4, [r5, #20]
+  4e:	5c9a      	ldrb	r2, [r3, r2]
+  50:	eb03 1347 	add.w	r3, r3, r7, lsl #5
+  54:	2a00      	cmp	r2, #0
+  56:	d036      	beq.n	c6 <_ZN7FatFile8rmRfStarEv+0xc6>
+  58:	2ae5      	cmp	r2, #229	; 0xe5
+  5a:	d0e6      	beq.n	2a <_ZN7FatFile8rmRfStarEv+0x2a>
+  5c:	2a2e      	cmp	r2, #46	; 0x2e
+  5e:	d0e4      	beq.n	2a <_ZN7FatFile8rmRfStarEv+0x2a>
+  60:	7adb      	ldrb	r3, [r3, #11]
+  62:	f013 0308 	ands.w	r3, r3, #8
+  66:	d1e0      	bne.n	2a <_ZN7FatFile8rmRfStarEv+0x2a>
+  68:	b2b2      	uxth	r2, r6
+  6a:	4629      	mov	r1, r5
+  6c:	a801      	add	r0, sp, #4
+  6e:	f7ff fffe 	bl	0 <_ZN7FatFile8rmRfStarEv>
+  72:	2800      	cmp	r0, #0
+  74:	d0cc      	beq.n	10 <_ZN7FatFile8rmRfStarEv+0x10>
+  76:	f89d 3004 	ldrb.w	r3, [sp, #4]
+  7a:	06db      	lsls	r3, r3, #27
+  7c:	d514      	bpl.n	a8 <_ZN7FatFile8rmRfStarEv+0xa8>
+  7e:	a801      	add	r0, sp, #4
+  80:	f7ff fffe 	bl	0 <_ZN7FatFile8rmRfStarEv>
+  84:	2800      	cmp	r0, #0
+  86:	d0c3      	beq.n	10 <_ZN7FatFile8rmRfStarEv+0x10>
+  88:	b2b6      	uxth	r6, r6
+  8a:	696b      	ldr	r3, [r5, #20]
+  8c:	3601      	adds	r6, #1
+  8e:	ebb3 1f46 	cmp.w	r3, r6, lsl #5
+  92:	ea4f 1446 	mov.w	r4, r6, lsl #5
+  96:	d0c8      	beq.n	2a <_ZN7FatFile8rmRfStarEv+0x2a>
+  98:	4621      	mov	r1, r4
+  9a:	4628      	mov	r0, r5
+  9c:	f7ff fffe 	bl	0 <_ZN7FatFile8rmRfStarEv>
+  a0:	2800      	cmp	r0, #0
+  a2:	d0b5      	beq.n	10 <_ZN7FatFile8rmRfStarEv+0x10>
+  a4:	696c      	ldr	r4, [r5, #20]
+  a6:	e7c0      	b.n	2a <_ZN7FatFile8rmRfStarEv+0x2a>
+  a8:	f89d 3006 	ldrb.w	r3, [sp, #6]
+  ac:	a801      	add	r0, sp, #4
+  ae:	f043 0302 	orr.w	r3, r3, #2
+  b2:	f88d 3006 	strb.w	r3, [sp, #6]
+  b6:	f7ff fffe 	bl	0 <_ZN7FatFile6removeEv>
+  ba:	2800      	cmp	r0, #0
+  bc:	d1e4      	bne.n	88 <_ZN7FatFile8rmRfStarEv+0x88>
+  be:	e7a7      	b.n	10 <_ZN7FatFile8rmRfStarEv+0x10>
+  c0:	786b      	ldrb	r3, [r5, #1]
+  c2:	2b00      	cmp	r3, #0
+  c4:	d1a4      	bne.n	10 <_ZN7FatFile8rmRfStarEv+0x10>
+  c6:	782b      	ldrb	r3, [r5, #0]
+  c8:	f013 0f60 	tst.w	r3, #96	; 0x60
+  cc:	d002      	beq.n	d4 <_ZN7FatFile8rmRfStarEv+0xd4>
+  ce:	2001      	movs	r0, #1
+  d0:	b00b      	add	sp, #44	; 0x2c
+  d2:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  d4:	4628      	mov	r0, r5
+  d6:	f7ff fffe 	bl	0 <_ZN7FatFile8rmRfStarEv>
+  da:	e79a      	b.n	12 <_ZN7FatFile8rmRfStarEv+0x12>
+
+Disassembly of section .text._ZN7FatFile4syncEv:
+
+00000000 <_ZN7FatFile4syncEv>:
+   0:	7803      	ldrb	r3, [r0, #0]
+   2:	b10b      	cbz	r3, 8 <_ZN7FatFile4syncEv+0x8>
+   4:	f7ff bffe 	b.w	0 <_ZN7FatFile4syncEv>
+   8:	2001      	movs	r0, #1
+   a:	4770      	bx	lr
+
+Disassembly of section .text._ZN7FatFile9timestampEhthhhhh:
+
+00000000 <_ZN7FatFile9timestampEhthhhhh>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	460e      	mov	r6, r1
+   6:	7801      	ldrb	r1, [r0, #0]
+   8:	b082      	sub	sp, #8
+   a:	0709      	lsls	r1, r1, #28
+   c:	f89d 7028 	ldrb.w	r7, [sp, #40]	; 0x28
+  10:	f89d 902c 	ldrb.w	r9, [sp, #44]	; 0x2c
+  14:	f89d a030 	ldrb.w	sl, [sp, #48]	; 0x30
+  18:	f89d 8034 	ldrb.w	r8, [sp, #52]	; 0x34
+  1c:	d518      	bpl.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  1e:	f2a2 72bc 	subw	r2, r2, #1980	; 0x7bc
+  22:	b294      	uxth	r4, r2
+  24:	2c7f      	cmp	r4, #127	; 0x7f
+  26:	d813      	bhi.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  28:	1e5a      	subs	r2, r3, #1
+  2a:	9301      	str	r3, [sp, #4]
+  2c:	2a0b      	cmp	r2, #11
+  2e:	d80f      	bhi.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  30:	1e7a      	subs	r2, r7, #1
+  32:	2a1e      	cmp	r2, #30
+  34:	d80c      	bhi.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  36:	f1ba 0f3b 	cmp.w	sl, #59	; 0x3b
+  3a:	bf98      	it	ls
+  3c:	f1b9 0f17 	cmpls.w	r9, #23
+  40:	d806      	bhi.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  42:	f1b8 0f3b 	cmp.w	r8, #59	; 0x3b
+  46:	d803      	bhi.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  48:	4605      	mov	r5, r0
+  4a:	f7ff fffe 	bl	0 <_ZN7FatFile9timestampEhthhhhh>
+  4e:	b918      	cbnz	r0, 58 <_ZN7FatFile9timestampEhthhhhh+0x58>
+  50:	2000      	movs	r0, #0
+  52:	b002      	add	sp, #8
+  54:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  58:	68a8      	ldr	r0, [r5, #8]
+  5a:	2201      	movs	r2, #1
+  5c:	69a9      	ldr	r1, [r5, #24]
+  5e:	3028      	adds	r0, #40	; 0x28
+  60:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  64:	2800      	cmp	r0, #0
+  66:	d0f3      	beq.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  68:	9b01      	ldr	r3, [sp, #4]
+  6a:	ea4f 0258 	mov.w	r2, r8, lsr #1
+  6e:	88a9      	ldrh	r1, [r5, #4]
+  70:	ea47 1343 	orr.w	r3, r7, r3, lsl #5
+  74:	07f7      	lsls	r7, r6, #31
+  76:	f001 010f 	and.w	r1, r1, #15
+  7a:	ea42 124a 	orr.w	r2, r2, sl, lsl #5
+  7e:	ea43 2344 	orr.w	r3, r3, r4, lsl #9
+  82:	eb00 1041 	add.w	r0, r0, r1, lsl #5
+  86:	b29b      	uxth	r3, r3
+  88:	ea42 22c9 	orr.w	r2, r2, r9, lsl #11
+  8c:	bf48      	it	mi
+  8e:	8243      	strhmi	r3, [r0, #18]
+  90:	07b4      	lsls	r4, r6, #30
+  92:	b292      	uxth	r2, r2
+  94:	d508      	bpl.n	a8 <_ZN7FatFile9timestampEhthhhhh+0xa8>
+  96:	f018 0801 	ands.w	r8, r8, #1
+  9a:	8203      	strh	r3, [r0, #16]
+  9c:	81c2      	strh	r2, [r0, #14]
+  9e:	bf18      	it	ne
+  a0:	f04f 0864 	movne.w	r8, #100	; 0x64
+  a4:	f880 800d 	strb.w	r8, [r0, #13]
+  a8:	0771      	lsls	r1, r6, #29
+  aa:	d501      	bpl.n	b0 <_ZN7FatFile9timestampEhthhhhh+0xb0>
+  ac:	8303      	strh	r3, [r0, #24]
+  ae:	82c2      	strh	r2, [r0, #22]
+  b0:	68ac      	ldr	r4, [r5, #8]
+  b2:	f104 0028 	add.w	r0, r4, #40	; 0x28
+  b6:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  ba:	2800      	cmp	r0, #0
+  bc:	d0c8      	beq.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  be:	f504 700e 	add.w	r0, r4, #568	; 0x238
+  c2:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  c6:	2800      	cmp	r0, #0
+  c8:	d0c2      	beq.n	50 <_ZN7FatFile9timestampEhthhhhh+0x50>
+  ca:	6820      	ldr	r0, [r4, #0]
+  cc:	6803      	ldr	r3, [r0, #0]
+  ce:	6a1b      	ldr	r3, [r3, #32]
+  d0:	b002      	add	sp, #8
+  d2:	e8bd 47f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+  d6:	4718      	bx	r3
+
+Disassembly of section .text._ZN7FatFile8truncateEv:
+
+00000000 <_ZN7FatFile8truncateEv>:
+   0:	7883      	ldrb	r3, [r0, #2]
+   2:	079b      	lsls	r3, r3, #30
+   4:	d527      	bpl.n	56 <_ZN7FatFile8truncateEv+0x56>
+   6:	6a03      	ldr	r3, [r0, #32]
+   8:	b510      	push	{r4, lr}
+   a:	4604      	mov	r4, r0
+   c:	b082      	sub	sp, #8
+   e:	b1ab      	cbz	r3, 3c <_ZN7FatFile8truncateEv+0x3c>
+  10:	6901      	ldr	r1, [r0, #16]
+  12:	bb11      	cbnz	r1, 5a <_ZN7FatFile8truncateEv+0x5a>
+  14:	9301      	str	r3, [sp, #4]
+  16:	6201      	str	r1, [r0, #32]
+  18:	4619      	mov	r1, r3
+  1a:	68a0      	ldr	r0, [r4, #8]
+  1c:	f7ff fffe 	bl	0 <_ZN12FatPartition9freeChainEm>
+  20:	b1b0      	cbz	r0, 50 <_ZN7FatFile8truncateEv+0x50>
+  22:	78a3      	ldrb	r3, [r4, #2]
+  24:	6961      	ldr	r1, [r4, #20]
+  26:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  2a:	7822      	ldrb	r2, [r4, #0]
+  2c:	61e1      	str	r1, [r4, #28]
+  2e:	70a3      	strb	r3, [r4, #2]
+  30:	b122      	cbz	r2, 3c <_ZN7FatFile8truncateEv+0x3c>
+  32:	4620      	mov	r0, r4
+  34:	f7ff fffe 	bl	0 <_ZN7FatFile8truncateEv>
+  38:	b002      	add	sp, #8
+  3a:	bd10      	pop	{r4, pc}
+  3c:	2001      	movs	r0, #1
+  3e:	b002      	add	sp, #8
+  40:	bd10      	pop	{r4, pc}
+  42:	f06f 4270 	mvn.w	r2, #4026531840	; 0xf0000000
+  46:	6921      	ldr	r1, [r4, #16]
+  48:	68a0      	ldr	r0, [r4, #8]
+  4a:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatPutEmm>
+  4e:	b968      	cbnz	r0, 6c <_ZN7FatFile8truncateEv+0x6c>
+  50:	2000      	movs	r0, #0
+  52:	b002      	add	sp, #8
+  54:	bd10      	pop	{r4, pc}
+  56:	2000      	movs	r0, #0
+  58:	4770      	bx	lr
+  5a:	2300      	movs	r3, #0
+  5c:	aa01      	add	r2, sp, #4
+  5e:	6880      	ldr	r0, [r0, #8]
+  60:	9301      	str	r3, [sp, #4]
+  62:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+  66:	2800      	cmp	r0, #0
+  68:	dbf2      	blt.n	50 <_ZN7FatFile8truncateEv+0x50>
+  6a:	d1ea      	bne.n	42 <_ZN7FatFile8truncateEv+0x42>
+  6c:	9b01      	ldr	r3, [sp, #4]
+  6e:	2b00      	cmp	r3, #0
+  70:	d0d7      	beq.n	22 <_ZN7FatFile8truncateEv+0x22>
+  72:	e7d1      	b.n	18 <_ZN7FatFile8truncateEv+0x18>
+
+Disassembly of section .text._ZN7FatFile5writeEPKvj:
+
+00000000 <_ZN7FatFile5writeEPKvj>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	7883      	ldrb	r3, [r0, #2]
+   6:	4605      	mov	r5, r0
+   8:	079c      	lsls	r4, r3, #30
+   a:	d577      	bpl.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+   c:	4688      	mov	r8, r1
+   e:	0719      	lsls	r1, r3, #28
+  10:	4691      	mov	r9, r2
+  12:	f100 80b5 	bmi.w	180 <_ZN7FatFile5writeEPKvj+0x180>
+  16:	696b      	ldr	r3, [r5, #20]
+  18:	eb13 0209 	adds.w	r2, r3, r9
+  1c:	d26e      	bcs.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+  1e:	f1b9 0f00 	cmp.w	r9, #0
+  22:	d040      	beq.n	a6 <_ZN7FatFile5writeEPKvj+0xa6>
+  24:	464f      	mov	r7, r9
+  26:	f04f 0a00 	mov.w	sl, #0
+  2a:	68a8      	ldr	r0, [r5, #8]
+  2c:	f3c3 0608 	ubfx	r6, r3, #0, #9
+  30:	6929      	ldr	r1, [r5, #16]
+  32:	7944      	ldrb	r4, [r0, #5]
+  34:	ea14 2453 	ands.w	r4, r4, r3, lsr #9
+  38:	d13f      	bne.n	ba <_ZN7FatFile5writeEPKvj+0xba>
+  3a:	2e00      	cmp	r6, #0
+  3c:	d13d      	bne.n	ba <_ZN7FatFile5writeEPKvj+0xba>
+  3e:	2900      	cmp	r1, #0
+  40:	d06e      	beq.n	120 <_ZN7FatFile5writeEPKvj+0x120>
+  42:	78aa      	ldrb	r2, [r5, #2]
+  44:	0652      	lsls	r2, r2, #25
+  46:	d576      	bpl.n	136 <_ZN7FatFile5writeEPKvj+0x136>
+  48:	69ea      	ldr	r2, [r5, #28]
+  4a:	429a      	cmp	r2, r3
+  4c:	d973      	bls.n	136 <_ZN7FatFile5writeEPKvj+0x136>
+  4e:	3101      	adds	r1, #1
+  50:	6129      	str	r1, [r5, #16]
+  52:	3902      	subs	r1, #2
+  54:	7982      	ldrb	r2, [r0, #6]
+  56:	6943      	ldr	r3, [r0, #20]
+  58:	4091      	lsls	r1, r2
+  5a:	4419      	add	r1, r3
+  5c:	f5b7 7f00 	cmp.w	r7, #512	; 0x200
+  60:	d353      	bcc.n	10a <_ZN7FatFile5writeEPKvj+0x10a>
+  62:	f5b7 6f80 	cmp.w	r7, #1024	; 0x400
+  66:	d370      	bcc.n	14a <_ZN7FatFile5writeEPKvj+0x14a>
+  68:	7903      	ldrb	r3, [r0, #4]
+  6a:	0a7a      	lsrs	r2, r7, #9
+  6c:	1b1b      	subs	r3, r3, r4
+  6e:	4293      	cmp	r3, r2
+  70:	bf28      	it	cs
+  72:	4613      	movcs	r3, r2
+  74:	6b42      	ldr	r2, [r0, #52]	; 0x34
+  76:	428a      	cmp	r2, r1
+  78:	ea4f 2443 	mov.w	r4, r3, lsl #9
+  7c:	d307      	bcc.n	8e <_ZN7FatFile5writeEPKvj+0x8e>
+  7e:	185e      	adds	r6, r3, r1
+  80:	42b2      	cmp	r2, r6
+  82:	d204      	bcs.n	8e <_ZN7FatFile5writeEPKvj+0x8e>
+  84:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+  88:	f880 a028 	strb.w	sl, [r0, #40]	; 0x28
+  8c:	6342      	str	r2, [r0, #52]	; 0x34
+  8e:	6ac0      	ldr	r0, [r0, #44]	; 0x2c
+  90:	4642      	mov	r2, r8
+  92:	6806      	ldr	r6, [r0, #0]
+  94:	6ab6      	ldr	r6, [r6, #40]	; 0x28
+  96:	47b0      	blx	r6
+  98:	b380      	cbz	r0, fc <_ZN7FatFile5writeEPKvj+0xfc>
+  9a:	696b      	ldr	r3, [r5, #20]
+  9c:	1b3f      	subs	r7, r7, r4
+  9e:	44a0      	add	r8, r4
+  a0:	4423      	add	r3, r4
+  a2:	616b      	str	r3, [r5, #20]
+  a4:	d1c1      	bne.n	2a <_ZN7FatFile5writeEPKvj+0x2a>
+  a6:	69ea      	ldr	r2, [r5, #28]
+  a8:	429a      	cmp	r2, r3
+  aa:	d276      	bcs.n	19a <_ZN7FatFile5writeEPKvj+0x19a>
+  ac:	78aa      	ldrb	r2, [r5, #2]
+  ae:	4648      	mov	r0, r9
+  b0:	61eb      	str	r3, [r5, #28]
+  b2:	f062 037f 	orn	r3, r2, #127	; 0x7f
+  b6:	70ab      	strb	r3, [r5, #2]
+  b8:	e025      	b.n	106 <_ZN7FatFile5writeEPKvj+0x106>
+  ba:	7982      	ldrb	r2, [r0, #6]
+  bc:	3902      	subs	r1, #2
+  be:	6943      	ldr	r3, [r0, #20]
+  c0:	4091      	lsls	r1, r2
+  c2:	4419      	add	r1, r3
+  c4:	4421      	add	r1, r4
+  c6:	2e00      	cmp	r6, #0
+  c8:	d0c8      	beq.n	5c <_ZN7FatFile5writeEPKvj+0x5c>
+  ca:	f5c6 7400 	rsb	r4, r6, #512	; 0x200
+  ce:	2201      	movs	r2, #1
+  d0:	42bc      	cmp	r4, r7
+  d2:	bf28      	it	cs
+  d4:	463c      	movcs	r4, r7
+  d6:	3028      	adds	r0, #40	; 0x28
+  d8:	f7ff fffe 	bl	0 <_ZN7FsCache7prepareEmh>
+  dc:	b170      	cbz	r0, fc <_ZN7FatFile5writeEPKvj+0xfc>
+  de:	4430      	add	r0, r6
+  e0:	4426      	add	r6, r4
+  e2:	4622      	mov	r2, r4
+  e4:	4641      	mov	r1, r8
+  e6:	f7ff fffe 	bl	0 <memcpy>
+  ea:	f5b6 7f00 	cmp.w	r6, #512	; 0x200
+  ee:	68a8      	ldr	r0, [r5, #8]
+  f0:	d1d3      	bne.n	9a <_ZN7FatFile5writeEPKvj+0x9a>
+  f2:	3028      	adds	r0, #40	; 0x28
+  f4:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+  f8:	2800      	cmp	r0, #0
+  fa:	d1ce      	bne.n	9a <_ZN7FatFile5writeEPKvj+0x9a>
+  fc:	786b      	ldrb	r3, [r5, #1]
+  fe:	2000      	movs	r0, #0
+ 100:	f043 0301 	orr.w	r3, r3, #1
+ 104:	706b      	strb	r3, [r5, #1]
+ 106:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 10a:	f5c6 7400 	rsb	r4, r6, #512	; 0x200
+ 10e:	696a      	ldr	r2, [r5, #20]
+ 110:	69eb      	ldr	r3, [r5, #28]
+ 112:	42bc      	cmp	r4, r7
+ 114:	bf28      	it	cs
+ 116:	463c      	movcs	r4, r7
+ 118:	429a      	cmp	r2, r3
+ 11a:	d305      	bcc.n	128 <_ZN7FatFile5writeEPKvj+0x128>
+ 11c:	2205      	movs	r2, #5
+ 11e:	e7da      	b.n	d6 <_ZN7FatFile5writeEPKvj+0xd6>
+ 120:	6a29      	ldr	r1, [r5, #32]
+ 122:	b321      	cbz	r1, 16e <_ZN7FatFile5writeEPKvj+0x16e>
+ 124:	6129      	str	r1, [r5, #16]
+ 126:	e794      	b.n	52 <_ZN7FatFile5writeEPKvj+0x52>
+ 128:	78ab      	ldrb	r3, [r5, #2]
+ 12a:	f013 0f20 	tst.w	r3, #32
+ 12e:	bf14      	ite	ne
+ 130:	2205      	movne	r2, #5
+ 132:	2201      	moveq	r2, #1
+ 134:	e7cf      	b.n	d6 <_ZN7FatFile5writeEPKvj+0xd6>
+ 136:	f105 0210 	add.w	r2, r5, #16
+ 13a:	f7ff fffe 	bl	0 <_ZN12FatPartition6fatGetEmPm>
+ 13e:	2800      	cmp	r0, #0
+ 140:	dbdc      	blt.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+ 142:	d024      	beq.n	18e <_ZN7FatFile5writeEPKvj+0x18e>
+ 144:	68a8      	ldr	r0, [r5, #8]
+ 146:	6929      	ldr	r1, [r5, #16]
+ 148:	e783      	b.n	52 <_ZN7FatFile5writeEPKvj+0x52>
+ 14a:	6b43      	ldr	r3, [r0, #52]	; 0x34
+ 14c:	428b      	cmp	r3, r1
+ 14e:	d104      	bne.n	15a <_ZN7FatFile5writeEPKvj+0x15a>
+ 150:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 154:	f880 a028 	strb.w	sl, [r0, #40]	; 0x28
+ 158:	6343      	str	r3, [r0, #52]	; 0x34
+ 15a:	6ac0      	ldr	r0, [r0, #44]	; 0x2c
+ 15c:	4642      	mov	r2, r8
+ 15e:	6803      	ldr	r3, [r0, #0]
+ 160:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 162:	4798      	blx	r3
+ 164:	2800      	cmp	r0, #0
+ 166:	d0c9      	beq.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+ 168:	f44f 7400 	mov.w	r4, #512	; 0x200
+ 16c:	e795      	b.n	9a <_ZN7FatFile5writeEPKvj+0x9a>
+ 16e:	4628      	mov	r0, r5
+ 170:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+ 174:	2800      	cmp	r0, #0
+ 176:	d0c1      	beq.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+ 178:	6929      	ldr	r1, [r5, #16]
+ 17a:	68a8      	ldr	r0, [r5, #8]
+ 17c:	6229      	str	r1, [r5, #32]
+ 17e:	e768      	b.n	52 <_ZN7FatFile5writeEPKvj+0x52>
+ 180:	69c1      	ldr	r1, [r0, #28]
+ 182:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+ 186:	2800      	cmp	r0, #0
+ 188:	f47f af45 	bne.w	16 <_ZN7FatFile5writeEPKvj+0x16>
+ 18c:	e7b6      	b.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+ 18e:	4628      	mov	r0, r5
+ 190:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+ 194:	2800      	cmp	r0, #0
+ 196:	d1d5      	bne.n	144 <_ZN7FatFile5writeEPKvj+0x144>
+ 198:	e7b0      	b.n	fc <_ZN7FatFile5writeEPKvj+0xfc>
+ 19a:	4b05      	ldr	r3, [pc, #20]	; (1b0 <_ZN7FatFile5writeEPKvj+0x1b0>)
+ 19c:	681b      	ldr	r3, [r3, #0]
+ 19e:	b12b      	cbz	r3, 1ac <_ZN7FatFile5writeEPKvj+0x1ac>
+ 1a0:	78ab      	ldrb	r3, [r5, #2]
+ 1a2:	4648      	mov	r0, r9
+ 1a4:	f063 037f 	orn	r3, r3, #127	; 0x7f
+ 1a8:	70ab      	strb	r3, [r5, #2]
+ 1aa:	e7ac      	b.n	106 <_ZN7FatFile5writeEPKvj+0x106>
+ 1ac:	4648      	mov	r0, r9
+ 1ae:	e7aa      	b.n	106 <_ZN7FatFile5writeEPKvj+0x106>
+ 1b0:	00000000 	.word	0x00000000

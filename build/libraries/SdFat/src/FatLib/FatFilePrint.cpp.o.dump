@@ -1,0 +1,284 @@
+
+build/./libraries/SdFat/src/FatLib/FatFilePrint.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FatFilePrint.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN7FatFile15printAccessDateEP5Print	00000000 .text._ZN7FatFile15printAccessDateEP5Print
+00000000 l    d  .text._ZN7FatFile19printCreateDateTimeEP5Print	00000000 .text._ZN7FatFile19printCreateDateTimeEP5Print
+00000000 l    d  .text._ZN7FatFile19printModifyDateTimeEP5Print	00000000 .text._ZN7FatFile19printModifyDateTimeEP5Print
+00000000 l    d  .text._ZN7FatFile13printFileSizeEP5Print	00000000 .text._ZN7FatFile13printFileSizeEP5Print
+00000000 l    d  .text._ZN7FatFile2lsEP5Printhh	00000000 .text._ZN7FatFile2lsEP5Printhh
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN7FatFile15printAccessDateEP5Print	00000022 _ZN7FatFile15printAccessDateEP5Print
+00000000         *UND*	00000000 _ZN7FatFile13getAccessDateEPt
+00000000         *UND*	00000000 _Z11fsPrintDateP5Printt
+00000000 g     F .text._ZN7FatFile19printCreateDateTimeEP5Print	00000028 _ZN7FatFile19printCreateDateTimeEP5Print
+00000000         *UND*	00000000 _ZN7FatFile17getCreateDateTimeEPtS0_
+00000000         *UND*	00000000 _Z15fsPrintDateTimeP5Printtt
+00000000 g     F .text._ZN7FatFile19printModifyDateTimeEP5Print	00000028 _ZN7FatFile19printModifyDateTimeEP5Print
+00000000         *UND*	00000000 _ZN7FatFile17getModifyDateTimeEPtS0_
+00000000 g     F .text._ZN7FatFile13printFileSizeEP5Print	0000003e _ZN7FatFile13printFileSizeEP5Print
+00000000         *UND*	00000000 _Z9fmtBase10Pcm
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 strlen
+00000000 g     F .text._ZN7FatFile2lsEP5Printhh	0000011a _ZN7FatFile2lsEP5Printhh
+00000000         *UND*	00000000 _ZN7FatFile7seekSetEm
+00000000         *UND*	00000000 _ZN7FatFile8openNextEPS_i
+00000000         *UND*	00000000 _ZN7FatFile5closeEv
+00000000         *UND*	00000000 _ZN7FatFile9printNameEP5Print
+
+
+Contents of section .text._ZN7FatFile15printAccessDateEP5Print:
+ 0000 10b582b0 0c460df1 0601fff7 feff08b9  .....F..........
+ 0010 02b010bd bdf80610 2046fff7 feff02b0  ........ F......
+ 0020 10bd00bf                             ....            
+Contents of section .text._ZN7FatFile19printCreateDateTimeEP5Print:
+ 0000 10b582b0 0c460df1 060201a9 fff7feff  .....F..........
+ 0010 08b902b0 10bdbdf8 06202046 bdf80410  .........  F....
+ 0020 fff7feff 02b010bd                    ........        
+Contents of section .text._ZN7FatFile19printModifyDateTimeEP5Print:
+ 0000 10b582b0 0c460df1 060201a9 fff7feff  .....F..........
+ 0010 08b902b0 10bdbdf8 06202046 bdf80410  .........  F....
+ 0020 fff7feff 02b010bd                    ........        
+Contents of section .text._ZN7FatFile13printFileSizeEP5Print:
+ 0000 30b585b0 02460023 0d4601ac 0df10e00  0....F.#.F......
+ 0010 d1698df8 0e30fff7 feffa042 04d9021b  .i...0.....B....
+ 0020 20212046 fff7feff 2046fff7 feff2b68   ! F.... F....+h
+ 0030 02462146 5b682846 984705b0 30bd00bf  .F!F[h(F.G..0...
+Contents of section .text._ZN7FatFile2lsEP5Printhh:
+ 0000 2de9f047 1f460378 8ab00d46 13f07003  -..G.F.x...F..p.
+ 0010 4ff00001 019103d1 18460ab0 bde8f087  O........F......
+ 0020 80469146 fff7feff 00224146 01a809f0  .F.F....."AF....
+ 0030 020afff7 feff80b1 9df80430 9b0714d5  ...........0....
+ 0040 19f0010f 11d101a8 fff7feff 00224146  ............."AF
+ 0050 01a8fff7 feff0028 eed198f8 0100b0fa  .......(........
+ 0060 80f04009 0ab0bde8 f0874fb1 00240134  ..@.......O..$.4
+ 0070 2b682021 2846e4b2 1e68b047 a742f6d1  +h !(F...h.G.B..
+ 0080 baf1000f 34d119f0 040f27d1 294601a8  ....4.....'.)F..
+ 0090 fff7feff 9df80430 13f0700f 04d02b68  .......0..p...+h
+ 00a0 2f212846 1b689847 2b680d21 28461b68  /!(F.h.G+h.!(F.h
+ 00b0 98472b68 0a212846 1b689847 19f0080f  .G+h.!(F.h.G....
+ 00c0 c1d09df8 043013f0 700fbcd0 bb1c4a46  .....0..p.....JF
+ 00d0 294601a8 dbb2fff7 feffb4e7 294601a8  )F..........)F..
+ 00e0 fff7feff 2b682021 28461b68 9847cde7  ....+h !(F.h.G..
+ 00f0 0df10202 694601a8 fff7feff 28b92b68  ....iF......(.+h
+ 0100 20212846 1b689847 bde7bdf8 02202846   !(F.h.G..... (F
+ 0110 bdf80010 fff7feff f1e700bf           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN7FatFile15printAccessDateEP5Print:
+
+00000000 <_ZN7FatFile15printAccessDateEP5Print>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	460c      	mov	r4, r1
+   6:	f10d 0106 	add.w	r1, sp, #6
+   a:	f7ff fffe 	bl	0 <_ZN7FatFile13getAccessDateEPt>
+   e:	b908      	cbnz	r0, 14 <_ZN7FatFile15printAccessDateEP5Print+0x14>
+  10:	b002      	add	sp, #8
+  12:	bd10      	pop	{r4, pc}
+  14:	f8bd 1006 	ldrh.w	r1, [sp, #6]
+  18:	4620      	mov	r0, r4
+  1a:	f7ff fffe 	bl	0 <_Z11fsPrintDateP5Printt>
+  1e:	b002      	add	sp, #8
+  20:	bd10      	pop	{r4, pc}
+  22:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile19printCreateDateTimeEP5Print:
+
+00000000 <_ZN7FatFile19printCreateDateTimeEP5Print>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	460c      	mov	r4, r1
+   6:	f10d 0206 	add.w	r2, sp, #6
+   a:	a901      	add	r1, sp, #4
+   c:	f7ff fffe 	bl	0 <_ZN7FatFile17getCreateDateTimeEPtS0_>
+  10:	b908      	cbnz	r0, 16 <_ZN7FatFile19printCreateDateTimeEP5Print+0x16>
+  12:	b002      	add	sp, #8
+  14:	bd10      	pop	{r4, pc}
+  16:	f8bd 2006 	ldrh.w	r2, [sp, #6]
+  1a:	4620      	mov	r0, r4
+  1c:	f8bd 1004 	ldrh.w	r1, [sp, #4]
+  20:	f7ff fffe 	bl	0 <_Z15fsPrintDateTimeP5Printtt>
+  24:	b002      	add	sp, #8
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN7FatFile19printModifyDateTimeEP5Print:
+
+00000000 <_ZN7FatFile19printModifyDateTimeEP5Print>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	460c      	mov	r4, r1
+   6:	f10d 0206 	add.w	r2, sp, #6
+   a:	a901      	add	r1, sp, #4
+   c:	f7ff fffe 	bl	0 <_ZN7FatFile17getModifyDateTimeEPtS0_>
+  10:	b908      	cbnz	r0, 16 <_ZN7FatFile19printModifyDateTimeEP5Print+0x16>
+  12:	b002      	add	sp, #8
+  14:	bd10      	pop	{r4, pc}
+  16:	f8bd 2006 	ldrh.w	r2, [sp, #6]
+  1a:	4620      	mov	r0, r4
+  1c:	f8bd 1004 	ldrh.w	r1, [sp, #4]
+  20:	f7ff fffe 	bl	0 <_Z15fsPrintDateTimeP5Printtt>
+  24:	b002      	add	sp, #8
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN7FatFile13printFileSizeEP5Print:
+
+00000000 <_ZN7FatFile13printFileSizeEP5Print>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b085      	sub	sp, #20
+   4:	4602      	mov	r2, r0
+   6:	2300      	movs	r3, #0
+   8:	460d      	mov	r5, r1
+   a:	ac01      	add	r4, sp, #4
+   c:	f10d 000e 	add.w	r0, sp, #14
+  10:	69d1      	ldr	r1, [r2, #28]
+  12:	f88d 300e 	strb.w	r3, [sp, #14]
+  16:	f7ff fffe 	bl	0 <_Z9fmtBase10Pcm>
+  1a:	42a0      	cmp	r0, r4
+  1c:	d904      	bls.n	28 <_ZN7FatFile13printFileSizeEP5Print+0x28>
+  1e:	1b02      	subs	r2, r0, r4
+  20:	2120      	movs	r1, #32
+  22:	4620      	mov	r0, r4
+  24:	f7ff fffe 	bl	0 <memset>
+  28:	4620      	mov	r0, r4
+  2a:	f7ff fffe 	bl	0 <strlen>
+  2e:	682b      	ldr	r3, [r5, #0]
+  30:	4602      	mov	r2, r0
+  32:	4621      	mov	r1, r4
+  34:	685b      	ldr	r3, [r3, #4]
+  36:	4628      	mov	r0, r5
+  38:	4798      	blx	r3
+  3a:	b005      	add	sp, #20
+  3c:	bd30      	pop	{r4, r5, pc}
+  3e:	bf00      	nop
+
+Disassembly of section .text._ZN7FatFile2lsEP5Printhh:
+
+00000000 <_ZN7FatFile2lsEP5Printhh>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	461f      	mov	r7, r3
+   6:	7803      	ldrb	r3, [r0, #0]
+   8:	b08a      	sub	sp, #40	; 0x28
+   a:	460d      	mov	r5, r1
+   c:	f013 0370 	ands.w	r3, r3, #112	; 0x70
+  10:	f04f 0100 	mov.w	r1, #0
+  14:	9101      	str	r1, [sp, #4]
+  16:	d103      	bne.n	20 <_ZN7FatFile2lsEP5Printhh+0x20>
+  18:	4618      	mov	r0, r3
+  1a:	b00a      	add	sp, #40	; 0x28
+  1c:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  20:	4680      	mov	r8, r0
+  22:	4691      	mov	r9, r2
+  24:	f7ff fffe 	bl	0 <_ZN7FatFile7seekSetEm>
+  28:	2200      	movs	r2, #0
+  2a:	4641      	mov	r1, r8
+  2c:	a801      	add	r0, sp, #4
+  2e:	f009 0a02 	and.w	sl, r9, #2
+  32:	f7ff fffe 	bl	0 <_ZN7FatFile8openNextEPS_i>
+  36:	b180      	cbz	r0, 5a <_ZN7FatFile2lsEP5Printhh+0x5a>
+  38:	f89d 3004 	ldrb.w	r3, [sp, #4]
+  3c:	079b      	lsls	r3, r3, #30
+  3e:	d514      	bpl.n	6a <_ZN7FatFile2lsEP5Printhh+0x6a>
+  40:	f019 0f01 	tst.w	r9, #1
+  44:	d111      	bne.n	6a <_ZN7FatFile2lsEP5Printhh+0x6a>
+  46:	a801      	add	r0, sp, #4
+  48:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+  4c:	2200      	movs	r2, #0
+  4e:	4641      	mov	r1, r8
+  50:	a801      	add	r0, sp, #4
+  52:	f7ff fffe 	bl	0 <_ZN7FatFile8openNextEPS_i>
+  56:	2800      	cmp	r0, #0
+  58:	d1ee      	bne.n	38 <_ZN7FatFile2lsEP5Printhh+0x38>
+  5a:	f898 0001 	ldrb.w	r0, [r8, #1]
+  5e:	fab0 f080 	clz	r0, r0
+  62:	0940      	lsrs	r0, r0, #5
+  64:	b00a      	add	sp, #40	; 0x28
+  66:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  6a:	b14f      	cbz	r7, 80 <_ZN7FatFile2lsEP5Printhh+0x80>
+  6c:	2400      	movs	r4, #0
+  6e:	3401      	adds	r4, #1
+  70:	682b      	ldr	r3, [r5, #0]
+  72:	2120      	movs	r1, #32
+  74:	4628      	mov	r0, r5
+  76:	b2e4      	uxtb	r4, r4
+  78:	681e      	ldr	r6, [r3, #0]
+  7a:	47b0      	blx	r6
+  7c:	42a7      	cmp	r7, r4
+  7e:	d1f6      	bne.n	6e <_ZN7FatFile2lsEP5Printhh+0x6e>
+  80:	f1ba 0f00 	cmp.w	sl, #0
+  84:	d134      	bne.n	f0 <_ZN7FatFile2lsEP5Printhh+0xf0>
+  86:	f019 0f04 	tst.w	r9, #4
+  8a:	d127      	bne.n	dc <_ZN7FatFile2lsEP5Printhh+0xdc>
+  8c:	4629      	mov	r1, r5
+  8e:	a801      	add	r0, sp, #4
+  90:	f7ff fffe 	bl	0 <_ZN7FatFile9printNameEP5Print>
+  94:	f89d 3004 	ldrb.w	r3, [sp, #4]
+  98:	f013 0f70 	tst.w	r3, #112	; 0x70
+  9c:	d004      	beq.n	a8 <_ZN7FatFile2lsEP5Printhh+0xa8>
+  9e:	682b      	ldr	r3, [r5, #0]
+  a0:	212f      	movs	r1, #47	; 0x2f
+  a2:	4628      	mov	r0, r5
+  a4:	681b      	ldr	r3, [r3, #0]
+  a6:	4798      	blx	r3
+  a8:	682b      	ldr	r3, [r5, #0]
+  aa:	210d      	movs	r1, #13
+  ac:	4628      	mov	r0, r5
+  ae:	681b      	ldr	r3, [r3, #0]
+  b0:	4798      	blx	r3
+  b2:	682b      	ldr	r3, [r5, #0]
+  b4:	210a      	movs	r1, #10
+  b6:	4628      	mov	r0, r5
+  b8:	681b      	ldr	r3, [r3, #0]
+  ba:	4798      	blx	r3
+  bc:	f019 0f08 	tst.w	r9, #8
+  c0:	d0c1      	beq.n	46 <_ZN7FatFile2lsEP5Printhh+0x46>
+  c2:	f89d 3004 	ldrb.w	r3, [sp, #4]
+  c6:	f013 0f70 	tst.w	r3, #112	; 0x70
+  ca:	d0bc      	beq.n	46 <_ZN7FatFile2lsEP5Printhh+0x46>
+  cc:	1cbb      	adds	r3, r7, #2
+  ce:	464a      	mov	r2, r9
+  d0:	4629      	mov	r1, r5
+  d2:	a801      	add	r0, sp, #4
+  d4:	b2db      	uxtb	r3, r3
+  d6:	f7ff fffe 	bl	0 <_ZN7FatFile2lsEP5Printhh>
+  da:	e7b4      	b.n	46 <_ZN7FatFile2lsEP5Printhh+0x46>
+  dc:	4629      	mov	r1, r5
+  de:	a801      	add	r0, sp, #4
+  e0:	f7ff fffe 	bl	0 <_ZN7FatFile2lsEP5Printhh>
+  e4:	682b      	ldr	r3, [r5, #0]
+  e6:	2120      	movs	r1, #32
+  e8:	4628      	mov	r0, r5
+  ea:	681b      	ldr	r3, [r3, #0]
+  ec:	4798      	blx	r3
+  ee:	e7cd      	b.n	8c <_ZN7FatFile2lsEP5Printhh+0x8c>
+  f0:	f10d 0202 	add.w	r2, sp, #2
+  f4:	4669      	mov	r1, sp
+  f6:	a801      	add	r0, sp, #4
+  f8:	f7ff fffe 	bl	0 <_ZN7FatFile17getModifyDateTimeEPtS0_>
+  fc:	b928      	cbnz	r0, 10a <_ZN7FatFile2lsEP5Printhh+0x10a>
+  fe:	682b      	ldr	r3, [r5, #0]
+ 100:	2120      	movs	r1, #32
+ 102:	4628      	mov	r0, r5
+ 104:	681b      	ldr	r3, [r3, #0]
+ 106:	4798      	blx	r3
+ 108:	e7bd      	b.n	86 <_ZN7FatFile2lsEP5Printhh+0x86>
+ 10a:	f8bd 2002 	ldrh.w	r2, [sp, #2]
+ 10e:	4628      	mov	r0, r5
+ 110:	f8bd 1000 	ldrh.w	r1, [sp]
+ 114:	f7ff fffe 	bl	0 <_Z15fsPrintDateTimeP5Printtt>
+ 118:	e7f1      	b.n	fe <_ZN7FatFile2lsEP5Printhh+0xfe>
+ 11a:	bf00      	nop

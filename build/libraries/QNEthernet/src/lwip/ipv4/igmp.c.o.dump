@@ -1,0 +1,860 @@
+
+build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 igmp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.igmp_lookup_group.str1.4	00000000 .rodata.igmp_lookup_group.str1.4
+00000000 l    d  .text.igmp_lookup_group	00000000 .text.igmp_lookup_group
+00000000 l     F .text.igmp_lookup_group	000000b0 igmp_lookup_group
+00000000 l    d  .text.igmp_delaying_member	00000000 .text.igmp_delaying_member
+00000000 l     F .text.igmp_delaying_member	0000003e igmp_delaying_member
+00000000 l    d  .rodata.igmp_send.str1.4	00000000 .rodata.igmp_send.str1.4
+00000000 l    d  .text.igmp_send	00000000 .text.igmp_send
+00000000 l     F .text.igmp_send	000000c0 igmp_send
+00000000 l    d  .text.igmp_init	00000000 .text.igmp_init
+00000000 l    d  .text.igmp_start	00000000 .text.igmp_start
+00000000 l    d  .text.igmp_stop	00000000 .text.igmp_stop
+00000000 l    d  .text.igmp_report_groups	00000000 .text.igmp_report_groups
+00000000 l    d  .text.igmp_lookfor_group	00000000 .text.igmp_lookfor_group
+00000000 l    d  .text.igmp_input	00000000 .text.igmp_input
+00000000 l    d  .text.igmp_joingroup_netif	00000000 .text.igmp_joingroup_netif
+00000000 l    d  .text.igmp_joingroup	00000000 .text.igmp_joingroup
+00000000 l    d  .text.igmp_leavegroup_netif	00000000 .text.igmp_leavegroup_netif
+00000000 l    d  .text.igmp_leavegroup	00000000 .text.igmp_leavegroup
+00000000 l    d  .text.igmp_tmr	00000000 .text.igmp_tmr
+00000000 l    d  .bss.allrouters	00000000 .bss.allrouters
+00000000 l     O .bss.allrouters	00000004 allrouters
+00000000 l    d  .bss.allsystems	00000000 .bss.allsystems
+00000000 l     O .bss.allsystems	00000004 allsystems
+00000000 l    d  .rodata.__FUNCTION__.0	00000000 .rodata.__FUNCTION__.0
+00000000 l     O .rodata.__FUNCTION__.0	00000016 __FUNCTION__.0
+00000000 l    d  .rodata.__FUNCTION__.1	00000000 .rodata.__FUNCTION__.1
+00000000 l     O .rodata.__FUNCTION__.1	00000010 __FUNCTION__.1
+00000000 l    d  .rodata.__FUNCTION__.2	00000000 .rodata.__FUNCTION__.2
+00000000 l     O .rodata.__FUNCTION__.2	00000015 __FUNCTION__.2
+00000000 l    d  .rodata.__FUNCTION__.3	00000000 .rodata.__FUNCTION__.3
+00000000 l     O .rodata.__FUNCTION__.3	0000000f __FUNCTION__.3
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 memp_malloc
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000         *UND*	00000000 qnethernet_hal_rand
+00000000         *UND*	00000000 pbuf_alloc
+00000000         *UND*	00000000 inet_chksum
+00000000         *UND*	00000000 ip4_output_if_opt
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 ip_addr_any
+00000000 g     F .text.igmp_init	00000020 igmp_init
+00000000 g     F .text.igmp_start	00000034 igmp_start
+00000000 g     F .text.igmp_stop	0000002c igmp_stop
+00000000         *UND*	00000000 memp_free
+00000000 g     F .text.igmp_report_groups	00000054 igmp_report_groups
+00000000 g     F .text.igmp_lookfor_group	00000014 igmp_lookfor_group
+00000000 g     F .text.igmp_input	0000009c igmp_input
+00000000 g     F .text.igmp_joingroup_netif	0000009c igmp_joingroup_netif
+00000000         *UND*	00000000 qnethernet_hal_check_core_locking
+00000000 g     F .text.igmp_joingroup	00000060 igmp_joingroup
+00000000         *UND*	00000000 netif_default
+00000000 g     F .text.igmp_leavegroup_netif	0000009c igmp_leavegroup_netif
+00000000 g     F .text.igmp_leavegroup	00000060 igmp_leavegroup
+00000000 g     F .text.igmp_tmr	00000050 igmp_tmr
+
+
+Contents of section .rodata.igmp_lookup_group.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f6970  rnet/src/lwip/ip
+ 0020 76342f69 676d702e 63000000 69676d70  v4/igmp.c...igmp
+ 0030 5f6c6f6f 6b75705f 67726f75 703a2066  _lookup_group: f
+ 0040 69727374 2067726f 7570206d 75737420  irst group must 
+ 0050 62652061 6c6c7379 7374656d 73000000  be allsystems...
+ 0060 41737365 7274696f 6e202225 73222066  Assertion "%s" f
+ 0070 61696c65 64206174 206c696e 65202564  ailed at line %d
+ 0080 20696e20 25730a00 69676d70 5f6c6f6f   in %s..igmp_loo
+ 0090 6b75705f 67726f75 703a2061 6c6c2065  kup_group: all e
+ 00a0 78636570 74206669 72737420 67726f75  xcept first grou
+ 00b0 70206d75 7374206e 6f742062 6520616c  p must not be al
+ 00c0 6c737973 74656d73 00                 lsystems.       
+Contents of section .text.igmp_lookup_group:
+ 0000 70b5866a 0c465eb3 0a683046 01e00068  p..j.F^..h0F...h
+ 0010 18b14368 9342fad1 70bd0620 fff7feff  ..Ch.B..p.. ....
+ 0020 08b90020 70bd2368 0025c0e9 01351b4b  ... p.#h.%...5.K
+ 0030 05731b68 22689a42 03d03368 03603060  .s.h"h.B..3h.`0`
+ 0040 70bd174b 4ff48972 16491748 fff7feff  p..KO..r.I.H....
+ 0050 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0060 05460620 fff7feff 0028dad0 5cb90473  .F. .....(..\..s
+ 0070 c0e90144 094b2268 1b689a42 08d10023  ...D.K"h.h.B...#
+ 0080 0360a862 70bd2368 86600673 4360f1e7  .`.bp.#h.`.sC`..
+ 0090 034b4ff4 86720549 d7e700bf 00000000  .KO..r.I........
+ 00a0 00000000 88000000 60000000 2c000000  ........`...,...
+Contents of section .text.igmp_delaying_member:
+ 0000 38b5437a 04460d46 022b04d0 012b00d0  8.Cz.F.F.+...+..
+ 0010 38bd4389 33b9022d 07d80123 63810123  8.C.3..-...#c..#
+ 0020 637238bd 8b42f3d9 f5e7fff7 feffb0fb  cr8..B..........
+ 0030 f5f303fb 15006081 0028eed0 efe700bf  ......`..(......
+Contents of section .rodata.igmp_send.str1.4:
+ 0000 69676d70 5f73656e 643a2063 6865636b  igmp_send: check
+ 0010 20746861 74206669 72737420 70627566   that first pbuf
+ 0020 2063616e 20686f6c 64207374 72756374   can hold struct
+ 0030 2069676d 705f6d73 6700                igmp_msg.      
+Contents of section .text.igmp_send:
+ 0000 2a4b2de9 f0411b68 8ab01646 07468846  *K-..A.h...F.F.F
+ 0010 4ff42072 08213820 0893fff7 feff0028  O. r.!8 .......(
+ 0020 31d04389 04464568 072b2fd9 3b68162e  1.C..FEh.+/.;h..
+ 0030 0893d8f8 04306b60 01d01d4a 04e00123  .....0k`...J...#
+ 0040 08f10402 88f80830 2e700026 08212846  .......0.p.&.!(F
+ 0050 6e70ae70 ee700792 fff7feff 40f29441  np.p.p......@..A
+ 0060 68800220 079a0991 04210190 01230491  h.. .....!...#..
+ 0070 09a92046 02970391 08a90096 fff7feff  .. F............
+ 0080 2046fff7 feff0ab0 bde8f081 094b40f2   F...........K@.
+ 0090 02320949 0948fff7 feff0020 fff7feff  .2.I.H..... ....
+ 00a0 0120fff7 fefffff7 feff00bf 00000000  . ..............
+ 00b0 00000000 00000000 00000000 60000000  ............`...
+Contents of section .text.igmp_init:
+ 0000 03490448 044b054a 08601a60 704700bf  .I.H.K.J.`.`pG..
+ 0010 00000000 e0000001 00000000 e0000002  ................
+Contents of section .text.igmp_start:
+ 0000 10b50b49 0446fff7 feff70b1 037b0222  ...I.F....p..{."
+ 0010 01334272 0373636c 2bb10122 04492046  .3Br.scl+..".I F
+ 0020 98470020 10bd1846 10bd4ff0 ff3010bd  .G. ...F..O..0..
+ 0030 00000000                             ....            
+Contents of section .text.igmp_stop:
+ 0000 70b50023 846a8362 74b10646 736c2546  p..#.j.bt..Fsl%F
+ 0010 00223046 24680bb1 291d9847 29460620  ."0F$h..)..G)F. 
+ 0020 fff7feff 002cf1d1 002070bd           .....,... p.    
+Contents of section .text.igmp_report_groups:
+ 0000 836a1bb3 70b51c68 fcb1114e 012501e0  .j..p..h...N.%..
+ 0010 2468d4b1 637a022b 06d0012b f8d16389  $h..cz.+...+..c.
+ 0020 013b9bb2 042bf3d9 fff7feff a6fb0032  .;...+.........2
+ 0030 657222f0 030303eb 9203c01a 012838bf  er"..........(8.
+ 0040 01206081 2468002c e4d170bd 704700bf  . `.$h.,..p.pG..
+ 0050 cdcccccc                             ....            
+Contents of section .text.igmp_lookfor_group:
+ 0000 806a30b1 0a6801e0 006810b1 43689342  .j0..h...h..Ch.B
+ 0010 fad17047                             ..pG            
+Contents of section .text.igmp_input:
+ 0000 f8b50d46 41890446 072917d9 47681646  ...FA..F.)..Gh.F
+ 0010 3846fff7 feff88b9 a86a78b1 31680346  8F.......jx.1h.F
+ 0020 01e01b68 53b15a68 8a42fad1 3a78112a  ...hS.Zh.B..:x.*
+ 0030 0dd0162a 02d15a7a 012a04d0 2046bde8  ...*..Zz.*.. F..
+ 0040 f840fff7 febf4ff4 00729a60 f6e7124a  .@....O..r.`...J
+ 0050 12688a42 7a6806d0 002aefd0 79781846  .h.Bzh...*..yx.F
+ 0060 fff7feff eae78ab9 7b780bb9 0a237b70  ........{x...#{p
+ 0070 0568002d e2d02846 7978fff7 feff2d68  .h.-..(Fyx....-h
+ 0080 002df8d1 dae70068 0028d7d0 43689a42  .-.....h.(..Ch.B
+ 0090 f9d10346 e2e700bf 00000000           ...F........    
+Contents of section .text.igmp_joingroup_netif:
+ 0000 70b50e46 214a0546 40f2e911 2048fff7  p..F!J.F@... H..
+ 0010 feff3368 03f0f002 e02a31d1 1d4a1268  ..3h.....*1..J.h
+ 0020 93422dd0 95f83d30 9b0629d5 31462846  .B-...=0..).1F(F
+ 0030 fff7feff 044630b3 437ae3b9 037b2bb9  .....F0.Cz...{+.
+ 0040 6b6c1bb1 01223146 28469847 16222146  kl..."1F(F.G."!F
+ 0050 2846fff7 fefffff7 feff0122 0e4b6272  (F.........".Kbr
+ 0060 a3fb0023 23f00302 02eb9303 c01a0128  ...##..........(
+ 0070 38bf0120 6081237b 00200133 237370bd  8.. `.#{. .3#sp.
+ 0080 6ff00500 70bd4ff0 ff3070bd 00000000  o...p.O..0p.....
+ 0090 00000000 00000000 cdcccccc           ............    
+Contents of section .text.igmp_joingroup:
+ 0000 38b50c46 124a0546 4ff4e371 1148fff7  8..F.J.FO..q.H..
+ 0010 feff2368 03f0f002 e02a15d1 0e4a1268  ..#h.....*...J.h
+ 0020 934211d0 0d4b1868 70b190f8 3d309b06  .B...K.hp...=0..
+ 0030 0ad50db1 2b6823b9 2146bde8 3840fff7  ....+h#.!F..8@..
+ 0040 febf0268 9342f7d0 6ff00500 38bd00bf  ...h.B..o...8...
+ 0050 00000000 00000000 00000000 00000000  ................
+Contents of section .text.igmp_leavegroup_netif:
+ 0000 f8b50f46 0646224a 40f24921 2148fff7  ...F.F"J@.I!!H..
+ 0010 feff3d68 05f0f003 e02b2bd1 1e4b1b68  ..=h.....++..K.h
+ 0020 9d4227d0 96f83d30 9b0623d5 b36a0bb3  .B'...=0..#..j..
+ 0030 1c4601e0 2468ecb1 62689542 fad1227b  .F..$h..bh.B.."{
+ 0040 012a03d9 013a0020 2273f8bd 1a461b68  .*...:. "s...F.h
+ 0050 9c4212d0 002bf9d1 237a9bb9 736c1bb1  .B...+..#z..sl..
+ 0060 00223946 30469847 21460620 fff7feff  ."9F0F.G!F. ....
+ 0070 0020f8bd 6ff00500 f8bd2368 1360237a  . ..o.....#h.`#z
+ 0080 002bebd0 17222146 3046fff7 feffe5e7  .+..."!F0F......
+ 0090 00000000 00000000 00000000           ............    
+Contents of section .text.igmp_leavegroup:
+ 0000 38b50c46 124a0546 40f22721 1148fff7  8..F.J.F@.'!.H..
+ 0010 feff2368 03f0f002 e02a15d1 0e4a1268  ..#h.....*...J.h
+ 0020 934211d0 0d4b1868 70b190f8 3d309b06  .B...K.hp...=0..
+ 0030 0ad50db1 2b6823b9 2146bde8 3840fff7  ....+h#.!F..8@..
+ 0040 febf0268 9342f7d0 6ff00500 38bd00bf  ...h.B..o...8...
+ 0050 00000000 00000000 00000000 00000000  ................
+Contents of section .text.igmp_tmr:
+ 0000 f8b5114b 1d68f5b1 ac6ae4b1 0f4e0227  ...K.h...j...N.'
+ 0010 01e02468 bcb16289 531e002a f9d09bb2  ..$h..b.S..*....
+ 0020 6381002b f5d1637a 012bf2d1 60682146  c..+..cz.+..`h!F
+ 0030 33681622 9842ecd0 67722846 fff7feff  3h.".B..gr(F....
+ 0040 2468002c e7d1f8bd 00000000 00000000  $h.,............
+Contents of section .rodata.__FUNCTION__.0:
+ 0000 69676d70 5f6c6561 76656772 6f75705f  igmp_leavegroup_
+ 0010 6e657469 6600                        netif.          
+Contents of section .rodata.__FUNCTION__.1:
+ 0000 69676d70 5f6c6561 76656772 6f757000  igmp_leavegroup.
+Contents of section .rodata.__FUNCTION__.2:
+ 0000 69676d70 5f6a6f69 6e67726f 75705f6e  igmp_joingroup_n
+ 0010 65746966 00                          etif.           
+Contents of section .rodata.__FUNCTION__.3:
+ 0000 69676d70 5f6a6f69 6e67726f 757000    igmp_joingroup. 
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.igmp_lookup_group:
+
+00000000 <igmp_lookup_group>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	6a86      	ldr	r6, [r0, #40]	; 0x28
+   4:	460c      	mov	r4, r1
+   6:	b35e      	cbz	r6, 60 <igmp_lookup_group+0x60>
+   8:	680a      	ldr	r2, [r1, #0]
+   a:	4630      	mov	r0, r6
+   c:	e001      	b.n	12 <igmp_lookup_group+0x12>
+   e:	6800      	ldr	r0, [r0, #0]
+  10:	b118      	cbz	r0, 1a <igmp_lookup_group+0x1a>
+  12:	6843      	ldr	r3, [r0, #4]
+  14:	4293      	cmp	r3, r2
+  16:	d1fa      	bne.n	e <igmp_lookup_group+0xe>
+  18:	bd70      	pop	{r4, r5, r6, pc}
+  1a:	2006      	movs	r0, #6
+  1c:	f7ff fffe 	bl	0 <memp_malloc>
+  20:	b908      	cbnz	r0, 26 <igmp_lookup_group+0x26>
+  22:	2000      	movs	r0, #0
+  24:	bd70      	pop	{r4, r5, r6, pc}
+  26:	6823      	ldr	r3, [r4, #0]
+  28:	2500      	movs	r5, #0
+  2a:	e9c0 3501 	strd	r3, r5, [r0, #4]
+  2e:	4b1b      	ldr	r3, [pc, #108]	; (9c <igmp_lookup_group+0x9c>)
+  30:	7305      	strb	r5, [r0, #12]
+  32:	681b      	ldr	r3, [r3, #0]
+  34:	6822      	ldr	r2, [r4, #0]
+  36:	429a      	cmp	r2, r3
+  38:	d003      	beq.n	42 <igmp_lookup_group+0x42>
+  3a:	6833      	ldr	r3, [r6, #0]
+  3c:	6003      	str	r3, [r0, #0]
+  3e:	6030      	str	r0, [r6, #0]
+  40:	bd70      	pop	{r4, r5, r6, pc}
+  42:	4b17      	ldr	r3, [pc, #92]	; (a0 <igmp_lookup_group+0xa0>)
+  44:	f44f 7289 	mov.w	r2, #274	; 0x112
+  48:	4916      	ldr	r1, [pc, #88]	; (a4 <igmp_lookup_group+0xa4>)
+  4a:	4817      	ldr	r0, [pc, #92]	; (a8 <igmp_lookup_group+0xa8>)
+  4c:	f7ff fffe 	bl	0 <printf>
+  50:	2000      	movs	r0, #0
+  52:	f7ff fffe 	bl	0 <fflush>
+  56:	2001      	movs	r0, #1
+  58:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  5c:	f7ff fffe 	bl	0 <abort>
+  60:	4605      	mov	r5, r0
+  62:	2006      	movs	r0, #6
+  64:	f7ff fffe 	bl	0 <memp_malloc>
+  68:	2800      	cmp	r0, #0
+  6a:	d0da      	beq.n	22 <igmp_lookup_group+0x22>
+  6c:	b95c      	cbnz	r4, 86 <igmp_lookup_group+0x86>
+  6e:	7304      	strb	r4, [r0, #12]
+  70:	e9c0 4401 	strd	r4, r4, [r0, #4]
+  74:	4b09      	ldr	r3, [pc, #36]	; (9c <igmp_lookup_group+0x9c>)
+  76:	6822      	ldr	r2, [r4, #0]
+  78:	681b      	ldr	r3, [r3, #0]
+  7a:	429a      	cmp	r2, r3
+  7c:	d108      	bne.n	90 <igmp_lookup_group+0x90>
+  7e:	2300      	movs	r3, #0
+  80:	6003      	str	r3, [r0, #0]
+  82:	62a8      	str	r0, [r5, #40]	; 0x28
+  84:	bd70      	pop	{r4, r5, r6, pc}
+  86:	6823      	ldr	r3, [r4, #0]
+  88:	6086      	str	r6, [r0, #8]
+  8a:	7306      	strb	r6, [r0, #12]
+  8c:	6043      	str	r3, [r0, #4]
+  8e:	e7f1      	b.n	74 <igmp_lookup_group+0x74>
+  90:	4b03      	ldr	r3, [pc, #12]	; (a0 <igmp_lookup_group+0xa0>)
+  92:	f44f 7286 	mov.w	r2, #268	; 0x10c
+  96:	4905      	ldr	r1, [pc, #20]	; (ac <igmp_lookup_group+0xac>)
+  98:	e7d7      	b.n	4a <igmp_lookup_group+0x4a>
+  9a:	bf00      	nop
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000088 	.word	0x00000088
+  a8:	00000060 	.word	0x00000060
+  ac:	0000002c 	.word	0x0000002c
+
+Disassembly of section .text.igmp_delaying_member:
+
+00000000 <igmp_delaying_member>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	7a43      	ldrb	r3, [r0, #9]
+   4:	4604      	mov	r4, r0
+   6:	460d      	mov	r5, r1
+   8:	2b02      	cmp	r3, #2
+   a:	d004      	beq.n	16 <igmp_delaying_member+0x16>
+   c:	2b01      	cmp	r3, #1
+   e:	d000      	beq.n	12 <igmp_delaying_member+0x12>
+  10:	bd38      	pop	{r3, r4, r5, pc}
+  12:	8943      	ldrh	r3, [r0, #10]
+  14:	b933      	cbnz	r3, 24 <igmp_delaying_member+0x24>
+  16:	2d02      	cmp	r5, #2
+  18:	d807      	bhi.n	2a <igmp_delaying_member+0x2a>
+  1a:	2301      	movs	r3, #1
+  1c:	8163      	strh	r3, [r4, #10]
+  1e:	2301      	movs	r3, #1
+  20:	7263      	strb	r3, [r4, #9]
+  22:	bd38      	pop	{r3, r4, r5, pc}
+  24:	428b      	cmp	r3, r1
+  26:	d9f3      	bls.n	10 <igmp_delaying_member+0x10>
+  28:	e7f5      	b.n	16 <igmp_delaying_member+0x16>
+  2a:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+  2e:	fbb0 f3f5 	udiv	r3, r0, r5
+  32:	fb03 0015 	mls	r0, r3, r5, r0
+  36:	8160      	strh	r0, [r4, #10]
+  38:	2800      	cmp	r0, #0
+  3a:	d0ee      	beq.n	1a <igmp_delaying_member+0x1a>
+  3c:	e7ef      	b.n	1e <igmp_delaying_member+0x1e>
+  3e:	bf00      	nop
+
+Disassembly of section .text.igmp_send:
+
+00000000 <igmp_send>:
+   0:	4b2a      	ldr	r3, [pc, #168]	; (ac <igmp_send+0xac>)
+   2:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   6:	681b      	ldr	r3, [r3, #0]
+   8:	b08a      	sub	sp, #40	; 0x28
+   a:	4616      	mov	r6, r2
+   c:	4607      	mov	r7, r0
+   e:	4688      	mov	r8, r1
+  10:	f44f 7220 	mov.w	r2, #640	; 0x280
+  14:	2108      	movs	r1, #8
+  16:	2038      	movs	r0, #56	; 0x38
+  18:	9308      	str	r3, [sp, #32]
+  1a:	f7ff fffe 	bl	0 <pbuf_alloc>
+  1e:	2800      	cmp	r0, #0
+  20:	d031      	beq.n	86 <igmp_send+0x86>
+  22:	8943      	ldrh	r3, [r0, #10]
+  24:	4604      	mov	r4, r0
+  26:	6845      	ldr	r5, [r0, #4]
+  28:	2b07      	cmp	r3, #7
+  2a:	d92f      	bls.n	8c <igmp_send+0x8c>
+  2c:	683b      	ldr	r3, [r7, #0]
+  2e:	2e16      	cmp	r6, #22
+  30:	9308      	str	r3, [sp, #32]
+  32:	f8d8 3004 	ldr.w	r3, [r8, #4]
+  36:	606b      	str	r3, [r5, #4]
+  38:	d001      	beq.n	3e <igmp_send+0x3e>
+  3a:	4a1d      	ldr	r2, [pc, #116]	; (b0 <igmp_send+0xb0>)
+  3c:	e004      	b.n	48 <igmp_send+0x48>
+  3e:	2301      	movs	r3, #1
+  40:	f108 0204 	add.w	r2, r8, #4
+  44:	f888 3008 	strb.w	r3, [r8, #8]
+  48:	702e      	strb	r6, [r5, #0]
+  4a:	2600      	movs	r6, #0
+  4c:	2108      	movs	r1, #8
+  4e:	4628      	mov	r0, r5
+  50:	706e      	strb	r6, [r5, #1]
+  52:	70ae      	strb	r6, [r5, #2]
+  54:	70ee      	strb	r6, [r5, #3]
+  56:	9207      	str	r2, [sp, #28]
+  58:	f7ff fffe 	bl	0 <inet_chksum>
+  5c:	f240 4194 	movw	r1, #1172	; 0x494
+  60:	8068      	strh	r0, [r5, #2]
+  62:	2002      	movs	r0, #2
+  64:	9a07      	ldr	r2, [sp, #28]
+  66:	9109      	str	r1, [sp, #36]	; 0x24
+  68:	2104      	movs	r1, #4
+  6a:	9001      	str	r0, [sp, #4]
+  6c:	2301      	movs	r3, #1
+  6e:	9104      	str	r1, [sp, #16]
+  70:	a909      	add	r1, sp, #36	; 0x24
+  72:	4620      	mov	r0, r4
+  74:	9702      	str	r7, [sp, #8]
+  76:	9103      	str	r1, [sp, #12]
+  78:	a908      	add	r1, sp, #32
+  7a:	9600      	str	r6, [sp, #0]
+  7c:	f7ff fffe 	bl	0 <ip4_output_if_opt>
+  80:	4620      	mov	r0, r4
+  82:	f7ff fffe 	bl	0 <pbuf_free>
+  86:	b00a      	add	sp, #40	; 0x28
+  88:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  8c:	4b09      	ldr	r3, [pc, #36]	; (b4 <igmp_send+0xb4>)
+  8e:	f240 3202 	movw	r2, #770	; 0x302
+  92:	4909      	ldr	r1, [pc, #36]	; (b8 <igmp_send+0xb8>)
+  94:	4809      	ldr	r0, [pc, #36]	; (bc <igmp_send+0xbc>)
+  96:	f7ff fffe 	bl	0 <printf>
+  9a:	2000      	movs	r0, #0
+  9c:	f7ff fffe 	bl	0 <fflush>
+  a0:	2001      	movs	r0, #1
+  a2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  a6:	f7ff fffe 	bl	0 <abort>
+  aa:	bf00      	nop
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+  b4:	00000000 	.word	0x00000000
+  b8:	00000000 	.word	0x00000000
+  bc:	00000060 	.word	0x00000060
+
+Disassembly of section .text.igmp_init:
+
+00000000 <igmp_init>:
+   0:	4903      	ldr	r1, [pc, #12]	; (10 <igmp_init+0x10>)
+   2:	4804      	ldr	r0, [pc, #16]	; (14 <igmp_init+0x14>)
+   4:	4b04      	ldr	r3, [pc, #16]	; (18 <igmp_init+0x18>)
+   6:	4a05      	ldr	r2, [pc, #20]	; (1c <igmp_init+0x1c>)
+   8:	6008      	str	r0, [r1, #0]
+   a:	601a      	str	r2, [r3, #0]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+  14:	010000e0 	.word	0x010000e0
+  18:	00000000 	.word	0x00000000
+  1c:	020000e0 	.word	0x020000e0
+
+Disassembly of section .text.igmp_start:
+
+00000000 <igmp_start>:
+   0:	b510      	push	{r4, lr}
+   2:	490b      	ldr	r1, [pc, #44]	; (30 <igmp_start+0x30>)
+   4:	4604      	mov	r4, r0
+   6:	f7ff fffe 	bl	0 <igmp_start>
+   a:	b170      	cbz	r0, 2a <igmp_start+0x2a>
+   c:	7b03      	ldrb	r3, [r0, #12]
+   e:	2202      	movs	r2, #2
+  10:	3301      	adds	r3, #1
+  12:	7242      	strb	r2, [r0, #9]
+  14:	7303      	strb	r3, [r0, #12]
+  16:	6c63      	ldr	r3, [r4, #68]	; 0x44
+  18:	b12b      	cbz	r3, 26 <igmp_start+0x26>
+  1a:	2201      	movs	r2, #1
+  1c:	4904      	ldr	r1, [pc, #16]	; (30 <igmp_start+0x30>)
+  1e:	4620      	mov	r0, r4
+  20:	4798      	blx	r3
+  22:	2000      	movs	r0, #0
+  24:	bd10      	pop	{r4, pc}
+  26:	4618      	mov	r0, r3
+  28:	bd10      	pop	{r4, pc}
+  2a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  2e:	bd10      	pop	{r4, pc}
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text.igmp_stop:
+
+00000000 <igmp_stop>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2300      	movs	r3, #0
+   4:	6a84      	ldr	r4, [r0, #40]	; 0x28
+   6:	6283      	str	r3, [r0, #40]	; 0x28
+   8:	b174      	cbz	r4, 28 <igmp_stop+0x28>
+   a:	4606      	mov	r6, r0
+   c:	6c73      	ldr	r3, [r6, #68]	; 0x44
+   e:	4625      	mov	r5, r4
+  10:	2200      	movs	r2, #0
+  12:	4630      	mov	r0, r6
+  14:	6824      	ldr	r4, [r4, #0]
+  16:	b10b      	cbz	r3, 1c <igmp_stop+0x1c>
+  18:	1d29      	adds	r1, r5, #4
+  1a:	4798      	blx	r3
+  1c:	4629      	mov	r1, r5
+  1e:	2006      	movs	r0, #6
+  20:	f7ff fffe 	bl	0 <memp_free>
+  24:	2c00      	cmp	r4, #0
+  26:	d1f1      	bne.n	c <igmp_stop+0xc>
+  28:	2000      	movs	r0, #0
+  2a:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text.igmp_report_groups:
+
+00000000 <igmp_report_groups>:
+   0:	6a83      	ldr	r3, [r0, #40]	; 0x28
+   2:	b31b      	cbz	r3, 4c <igmp_report_groups+0x4c>
+   4:	b570      	push	{r4, r5, r6, lr}
+   6:	681c      	ldr	r4, [r3, #0]
+   8:	b1fc      	cbz	r4, 4a <igmp_report_groups+0x4a>
+   a:	4e11      	ldr	r6, [pc, #68]	; (50 <igmp_report_groups+0x50>)
+   c:	2501      	movs	r5, #1
+   e:	e001      	b.n	14 <igmp_report_groups+0x14>
+  10:	6824      	ldr	r4, [r4, #0]
+  12:	b1d4      	cbz	r4, 4a <igmp_report_groups+0x4a>
+  14:	7a63      	ldrb	r3, [r4, #9]
+  16:	2b02      	cmp	r3, #2
+  18:	d006      	beq.n	28 <igmp_report_groups+0x28>
+  1a:	2b01      	cmp	r3, #1
+  1c:	d1f8      	bne.n	10 <igmp_report_groups+0x10>
+  1e:	8963      	ldrh	r3, [r4, #10]
+  20:	3b01      	subs	r3, #1
+  22:	b29b      	uxth	r3, r3
+  24:	2b04      	cmp	r3, #4
+  26:	d9f3      	bls.n	10 <igmp_report_groups+0x10>
+  28:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+  2c:	fba6 3200 	umull	r3, r2, r6, r0
+  30:	7265      	strb	r5, [r4, #9]
+  32:	f022 0303 	bic.w	r3, r2, #3
+  36:	eb03 0392 	add.w	r3, r3, r2, lsr #2
+  3a:	1ac0      	subs	r0, r0, r3
+  3c:	2801      	cmp	r0, #1
+  3e:	bf38      	it	cc
+  40:	2001      	movcc	r0, #1
+  42:	8160      	strh	r0, [r4, #10]
+  44:	6824      	ldr	r4, [r4, #0]
+  46:	2c00      	cmp	r4, #0
+  48:	d1e4      	bne.n	14 <igmp_report_groups+0x14>
+  4a:	bd70      	pop	{r4, r5, r6, pc}
+  4c:	4770      	bx	lr
+  4e:	bf00      	nop
+  50:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.igmp_lookfor_group:
+
+00000000 <igmp_lookfor_group>:
+   0:	6a80      	ldr	r0, [r0, #40]	; 0x28
+   2:	b130      	cbz	r0, 12 <igmp_lookfor_group+0x12>
+   4:	680a      	ldr	r2, [r1, #0]
+   6:	e001      	b.n	c <igmp_lookfor_group+0xc>
+   8:	6800      	ldr	r0, [r0, #0]
+   a:	b110      	cbz	r0, 12 <igmp_lookfor_group+0x12>
+   c:	6843      	ldr	r3, [r0, #4]
+   e:	4293      	cmp	r3, r2
+  10:	d1fa      	bne.n	8 <igmp_lookfor_group+0x8>
+  12:	4770      	bx	lr
+
+Disassembly of section .text.igmp_input:
+
+00000000 <igmp_input>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	460d      	mov	r5, r1
+   4:	8941      	ldrh	r1, [r0, #10]
+   6:	4604      	mov	r4, r0
+   8:	2907      	cmp	r1, #7
+   a:	d917      	bls.n	3c <igmp_input+0x3c>
+   c:	6847      	ldr	r7, [r0, #4]
+   e:	4616      	mov	r6, r2
+  10:	4638      	mov	r0, r7
+  12:	f7ff fffe 	bl	0 <inet_chksum>
+  16:	b988      	cbnz	r0, 3c <igmp_input+0x3c>
+  18:	6aa8      	ldr	r0, [r5, #40]	; 0x28
+  1a:	b178      	cbz	r0, 3c <igmp_input+0x3c>
+  1c:	6831      	ldr	r1, [r6, #0]
+  1e:	4603      	mov	r3, r0
+  20:	e001      	b.n	26 <igmp_input+0x26>
+  22:	681b      	ldr	r3, [r3, #0]
+  24:	b153      	cbz	r3, 3c <igmp_input+0x3c>
+  26:	685a      	ldr	r2, [r3, #4]
+  28:	428a      	cmp	r2, r1
+  2a:	d1fa      	bne.n	22 <igmp_input+0x22>
+  2c:	783a      	ldrb	r2, [r7, #0]
+  2e:	2a11      	cmp	r2, #17
+  30:	d00d      	beq.n	4e <igmp_input+0x4e>
+  32:	2a16      	cmp	r2, #22
+  34:	d102      	bne.n	3c <igmp_input+0x3c>
+  36:	7a5a      	ldrb	r2, [r3, #9]
+  38:	2a01      	cmp	r2, #1
+  3a:	d004      	beq.n	46 <igmp_input+0x46>
+  3c:	4620      	mov	r0, r4
+  3e:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  42:	f7ff bffe 	b.w	0 <pbuf_free>
+  46:	f44f 7200 	mov.w	r2, #512	; 0x200
+  4a:	609a      	str	r2, [r3, #8]
+  4c:	e7f6      	b.n	3c <igmp_input+0x3c>
+  4e:	4a12      	ldr	r2, [pc, #72]	; (98 <igmp_input+0x98>)
+  50:	6812      	ldr	r2, [r2, #0]
+  52:	428a      	cmp	r2, r1
+  54:	687a      	ldr	r2, [r7, #4]
+  56:	d006      	beq.n	66 <igmp_input+0x66>
+  58:	2a00      	cmp	r2, #0
+  5a:	d0ef      	beq.n	3c <igmp_input+0x3c>
+  5c:	7879      	ldrb	r1, [r7, #1]
+  5e:	4618      	mov	r0, r3
+  60:	f7ff fffe 	bl	0 <igmp_input>
+  64:	e7ea      	b.n	3c <igmp_input+0x3c>
+  66:	b98a      	cbnz	r2, 8c <igmp_input+0x8c>
+  68:	787b      	ldrb	r3, [r7, #1]
+  6a:	b90b      	cbnz	r3, 70 <igmp_input+0x70>
+  6c:	230a      	movs	r3, #10
+  6e:	707b      	strb	r3, [r7, #1]
+  70:	6805      	ldr	r5, [r0, #0]
+  72:	2d00      	cmp	r5, #0
+  74:	d0e2      	beq.n	3c <igmp_input+0x3c>
+  76:	4628      	mov	r0, r5
+  78:	7879      	ldrb	r1, [r7, #1]
+  7a:	f7ff fffe 	bl	0 <igmp_input>
+  7e:	682d      	ldr	r5, [r5, #0]
+  80:	2d00      	cmp	r5, #0
+  82:	d1f8      	bne.n	76 <igmp_input+0x76>
+  84:	e7da      	b.n	3c <igmp_input+0x3c>
+  86:	6800      	ldr	r0, [r0, #0]
+  88:	2800      	cmp	r0, #0
+  8a:	d0d7      	beq.n	3c <igmp_input+0x3c>
+  8c:	6843      	ldr	r3, [r0, #4]
+  8e:	429a      	cmp	r2, r3
+  90:	d1f9      	bne.n	86 <igmp_input+0x86>
+  92:	4603      	mov	r3, r0
+  94:	e7e2      	b.n	5c <igmp_input+0x5c>
+  96:	bf00      	nop
+  98:	00000000 	.word	0x00000000
+
+Disassembly of section .text.igmp_joingroup_netif:
+
+00000000 <igmp_joingroup_netif>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	460e      	mov	r6, r1
+   4:	4a21      	ldr	r2, [pc, #132]	; (8c <igmp_joingroup_netif+0x8c>)
+   6:	4605      	mov	r5, r0
+   8:	f240 11e9 	movw	r1, #489	; 0x1e9
+   c:	4820      	ldr	r0, [pc, #128]	; (90 <igmp_joingroup_netif+0x90>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	6833      	ldr	r3, [r6, #0]
+  14:	f003 02f0 	and.w	r2, r3, #240	; 0xf0
+  18:	2ae0      	cmp	r2, #224	; 0xe0
+  1a:	d131      	bne.n	80 <igmp_joingroup_netif+0x80>
+  1c:	4a1d      	ldr	r2, [pc, #116]	; (94 <igmp_joingroup_netif+0x94>)
+  1e:	6812      	ldr	r2, [r2, #0]
+  20:	4293      	cmp	r3, r2
+  22:	d02d      	beq.n	80 <igmp_joingroup_netif+0x80>
+  24:	f895 303d 	ldrb.w	r3, [r5, #61]	; 0x3d
+  28:	069b      	lsls	r3, r3, #26
+  2a:	d529      	bpl.n	80 <igmp_joingroup_netif+0x80>
+  2c:	4631      	mov	r1, r6
+  2e:	4628      	mov	r0, r5
+  30:	f7ff fffe 	bl	0 <igmp_joingroup_netif>
+  34:	4604      	mov	r4, r0
+  36:	b330      	cbz	r0, 86 <igmp_joingroup_netif+0x86>
+  38:	7a43      	ldrb	r3, [r0, #9]
+  3a:	b9e3      	cbnz	r3, 76 <igmp_joingroup_netif+0x76>
+  3c:	7b03      	ldrb	r3, [r0, #12]
+  3e:	b92b      	cbnz	r3, 4c <igmp_joingroup_netif+0x4c>
+  40:	6c6b      	ldr	r3, [r5, #68]	; 0x44
+  42:	b11b      	cbz	r3, 4c <igmp_joingroup_netif+0x4c>
+  44:	2201      	movs	r2, #1
+  46:	4631      	mov	r1, r6
+  48:	4628      	mov	r0, r5
+  4a:	4798      	blx	r3
+  4c:	2216      	movs	r2, #22
+  4e:	4621      	mov	r1, r4
+  50:	4628      	mov	r0, r5
+  52:	f7ff fffe 	bl	0 <igmp_joingroup_netif>
+  56:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+  5a:	2201      	movs	r2, #1
+  5c:	4b0e      	ldr	r3, [pc, #56]	; (98 <igmp_joingroup_netif+0x98>)
+  5e:	7262      	strb	r2, [r4, #9]
+  60:	fba3 2300 	umull	r2, r3, r3, r0
+  64:	f023 0203 	bic.w	r2, r3, #3
+  68:	eb02 0393 	add.w	r3, r2, r3, lsr #2
+  6c:	1ac0      	subs	r0, r0, r3
+  6e:	2801      	cmp	r0, #1
+  70:	bf38      	it	cc
+  72:	2001      	movcc	r0, #1
+  74:	8160      	strh	r0, [r4, #10]
+  76:	7b23      	ldrb	r3, [r4, #12]
+  78:	2000      	movs	r0, #0
+  7a:	3301      	adds	r3, #1
+  7c:	7323      	strb	r3, [r4, #12]
+  7e:	bd70      	pop	{r4, r5, r6, pc}
+  80:	f06f 0005 	mvn.w	r0, #5
+  84:	bd70      	pop	{r4, r5, r6, pc}
+  86:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  8a:	bd70      	pop	{r4, r5, r6, pc}
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	cccccccd 	.word	0xcccccccd
+
+Disassembly of section .text.igmp_joingroup:
+
+00000000 <igmp_joingroup>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	460c      	mov	r4, r1
+   4:	4a12      	ldr	r2, [pc, #72]	; (50 <igmp_joingroup+0x50>)
+   6:	4605      	mov	r5, r0
+   8:	f44f 71e3 	mov.w	r1, #454	; 0x1c6
+   c:	4811      	ldr	r0, [pc, #68]	; (54 <igmp_joingroup+0x54>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	6823      	ldr	r3, [r4, #0]
+  14:	f003 02f0 	and.w	r2, r3, #240	; 0xf0
+  18:	2ae0      	cmp	r2, #224	; 0xe0
+  1a:	d115      	bne.n	48 <igmp_joingroup+0x48>
+  1c:	4a0e      	ldr	r2, [pc, #56]	; (58 <igmp_joingroup+0x58>)
+  1e:	6812      	ldr	r2, [r2, #0]
+  20:	4293      	cmp	r3, r2
+  22:	d011      	beq.n	48 <igmp_joingroup+0x48>
+  24:	4b0d      	ldr	r3, [pc, #52]	; (5c <igmp_joingroup+0x5c>)
+  26:	6818      	ldr	r0, [r3, #0]
+  28:	b170      	cbz	r0, 48 <igmp_joingroup+0x48>
+  2a:	f890 303d 	ldrb.w	r3, [r0, #61]	; 0x3d
+  2e:	069b      	lsls	r3, r3, #26
+  30:	d50a      	bpl.n	48 <igmp_joingroup+0x48>
+  32:	b10d      	cbz	r5, 38 <igmp_joingroup+0x38>
+  34:	682b      	ldr	r3, [r5, #0]
+  36:	b923      	cbnz	r3, 42 <igmp_joingroup+0x42>
+  38:	4621      	mov	r1, r4
+  3a:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  3e:	f7ff bffe 	b.w	0 <igmp_joingroup>
+  42:	6802      	ldr	r2, [r0, #0]
+  44:	4293      	cmp	r3, r2
+  46:	d0f7      	beq.n	38 <igmp_joingroup+0x38>
+  48:	f06f 0005 	mvn.w	r0, #5
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	bf00      	nop
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.igmp_leavegroup_netif:
+
+00000000 <igmp_leavegroup_netif>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	460f      	mov	r7, r1
+   4:	4606      	mov	r6, r0
+   6:	4a22      	ldr	r2, [pc, #136]	; (90 <igmp_leavegroup_netif+0x90>)
+   8:	f240 2149 	movw	r1, #585	; 0x249
+   c:	4821      	ldr	r0, [pc, #132]	; (94 <igmp_leavegroup_netif+0x94>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	683d      	ldr	r5, [r7, #0]
+  14:	f005 03f0 	and.w	r3, r5, #240	; 0xf0
+  18:	2be0      	cmp	r3, #224	; 0xe0
+  1a:	d12b      	bne.n	74 <igmp_leavegroup_netif+0x74>
+  1c:	4b1e      	ldr	r3, [pc, #120]	; (98 <igmp_leavegroup_netif+0x98>)
+  1e:	681b      	ldr	r3, [r3, #0]
+  20:	429d      	cmp	r5, r3
+  22:	d027      	beq.n	74 <igmp_leavegroup_netif+0x74>
+  24:	f896 303d 	ldrb.w	r3, [r6, #61]	; 0x3d
+  28:	069b      	lsls	r3, r3, #26
+  2a:	d523      	bpl.n	74 <igmp_leavegroup_netif+0x74>
+  2c:	6ab3      	ldr	r3, [r6, #40]	; 0x28
+  2e:	b30b      	cbz	r3, 74 <igmp_leavegroup_netif+0x74>
+  30:	461c      	mov	r4, r3
+  32:	e001      	b.n	38 <igmp_leavegroup_netif+0x38>
+  34:	6824      	ldr	r4, [r4, #0]
+  36:	b1ec      	cbz	r4, 74 <igmp_leavegroup_netif+0x74>
+  38:	6862      	ldr	r2, [r4, #4]
+  3a:	4295      	cmp	r5, r2
+  3c:	d1fa      	bne.n	34 <igmp_leavegroup_netif+0x34>
+  3e:	7b22      	ldrb	r2, [r4, #12]
+  40:	2a01      	cmp	r2, #1
+  42:	d903      	bls.n	4c <igmp_leavegroup_netif+0x4c>
+  44:	3a01      	subs	r2, #1
+  46:	2000      	movs	r0, #0
+  48:	7322      	strb	r2, [r4, #12]
+  4a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  4c:	461a      	mov	r2, r3
+  4e:	681b      	ldr	r3, [r3, #0]
+  50:	429c      	cmp	r4, r3
+  52:	d012      	beq.n	7a <igmp_leavegroup_netif+0x7a>
+  54:	2b00      	cmp	r3, #0
+  56:	d1f9      	bne.n	4c <igmp_leavegroup_netif+0x4c>
+  58:	7a23      	ldrb	r3, [r4, #8]
+  5a:	b99b      	cbnz	r3, 84 <igmp_leavegroup_netif+0x84>
+  5c:	6c73      	ldr	r3, [r6, #68]	; 0x44
+  5e:	b11b      	cbz	r3, 68 <igmp_leavegroup_netif+0x68>
+  60:	2200      	movs	r2, #0
+  62:	4639      	mov	r1, r7
+  64:	4630      	mov	r0, r6
+  66:	4798      	blx	r3
+  68:	4621      	mov	r1, r4
+  6a:	2006      	movs	r0, #6
+  6c:	f7ff fffe 	bl	0 <memp_free>
+  70:	2000      	movs	r0, #0
+  72:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  74:	f06f 0005 	mvn.w	r0, #5
+  78:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  7a:	6823      	ldr	r3, [r4, #0]
+  7c:	6013      	str	r3, [r2, #0]
+  7e:	7a23      	ldrb	r3, [r4, #8]
+  80:	2b00      	cmp	r3, #0
+  82:	d0eb      	beq.n	5c <igmp_leavegroup_netif+0x5c>
+  84:	2217      	movs	r2, #23
+  86:	4621      	mov	r1, r4
+  88:	4630      	mov	r0, r6
+  8a:	f7ff fffe 	bl	0 <igmp_leavegroup_netif>
+  8e:	e7e5      	b.n	5c <igmp_leavegroup_netif+0x5c>
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+
+Disassembly of section .text.igmp_leavegroup:
+
+00000000 <igmp_leavegroup>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	460c      	mov	r4, r1
+   4:	4a12      	ldr	r2, [pc, #72]	; (50 <igmp_leavegroup+0x50>)
+   6:	4605      	mov	r5, r0
+   8:	f240 2127 	movw	r1, #551	; 0x227
+   c:	4811      	ldr	r0, [pc, #68]	; (54 <igmp_leavegroup+0x54>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	6823      	ldr	r3, [r4, #0]
+  14:	f003 02f0 	and.w	r2, r3, #240	; 0xf0
+  18:	2ae0      	cmp	r2, #224	; 0xe0
+  1a:	d115      	bne.n	48 <igmp_leavegroup+0x48>
+  1c:	4a0e      	ldr	r2, [pc, #56]	; (58 <igmp_leavegroup+0x58>)
+  1e:	6812      	ldr	r2, [r2, #0]
+  20:	4293      	cmp	r3, r2
+  22:	d011      	beq.n	48 <igmp_leavegroup+0x48>
+  24:	4b0d      	ldr	r3, [pc, #52]	; (5c <igmp_leavegroup+0x5c>)
+  26:	6818      	ldr	r0, [r3, #0]
+  28:	b170      	cbz	r0, 48 <igmp_leavegroup+0x48>
+  2a:	f890 303d 	ldrb.w	r3, [r0, #61]	; 0x3d
+  2e:	069b      	lsls	r3, r3, #26
+  30:	d50a      	bpl.n	48 <igmp_leavegroup+0x48>
+  32:	b10d      	cbz	r5, 38 <igmp_leavegroup+0x38>
+  34:	682b      	ldr	r3, [r5, #0]
+  36:	b923      	cbnz	r3, 42 <igmp_leavegroup+0x42>
+  38:	4621      	mov	r1, r4
+  3a:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  3e:	f7ff bffe 	b.w	0 <igmp_leavegroup>
+  42:	6802      	ldr	r2, [r0, #0]
+  44:	4293      	cmp	r3, r2
+  46:	d0f7      	beq.n	38 <igmp_leavegroup+0x38>
+  48:	f06f 0005 	mvn.w	r0, #5
+  4c:	bd38      	pop	{r3, r4, r5, pc}
+  4e:	bf00      	nop
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.igmp_tmr:
+
+00000000 <igmp_tmr>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4b11      	ldr	r3, [pc, #68]	; (48 <igmp_tmr+0x48>)
+   4:	681d      	ldr	r5, [r3, #0]
+   6:	b1f5      	cbz	r5, 46 <igmp_tmr+0x46>
+   8:	6aac      	ldr	r4, [r5, #40]	; 0x28
+   a:	b1e4      	cbz	r4, 46 <igmp_tmr+0x46>
+   c:	4e0f      	ldr	r6, [pc, #60]	; (4c <igmp_tmr+0x4c>)
+   e:	2702      	movs	r7, #2
+  10:	e001      	b.n	16 <igmp_tmr+0x16>
+  12:	6824      	ldr	r4, [r4, #0]
+  14:	b1bc      	cbz	r4, 46 <igmp_tmr+0x46>
+  16:	8962      	ldrh	r2, [r4, #10]
+  18:	1e53      	subs	r3, r2, #1
+  1a:	2a00      	cmp	r2, #0
+  1c:	d0f9      	beq.n	12 <igmp_tmr+0x12>
+  1e:	b29b      	uxth	r3, r3
+  20:	8163      	strh	r3, [r4, #10]
+  22:	2b00      	cmp	r3, #0
+  24:	d1f5      	bne.n	12 <igmp_tmr+0x12>
+  26:	7a63      	ldrb	r3, [r4, #9]
+  28:	2b01      	cmp	r3, #1
+  2a:	d1f2      	bne.n	12 <igmp_tmr+0x12>
+  2c:	6860      	ldr	r0, [r4, #4]
+  2e:	4621      	mov	r1, r4
+  30:	6833      	ldr	r3, [r6, #0]
+  32:	2216      	movs	r2, #22
+  34:	4298      	cmp	r0, r3
+  36:	d0ec      	beq.n	12 <igmp_tmr+0x12>
+  38:	7267      	strb	r7, [r4, #9]
+  3a:	4628      	mov	r0, r5
+  3c:	f7ff fffe 	bl	0 <igmp_tmr>
+  40:	6824      	ldr	r4, [r4, #0]
+  42:	2c00      	cmp	r4, #0
+  44:	d1e7      	bne.n	16 <igmp_tmr+0x16>
+  46:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000

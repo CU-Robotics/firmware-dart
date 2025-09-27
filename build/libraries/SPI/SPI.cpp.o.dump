@@ -1,0 +1,1919 @@
+
+build/./libraries/SPI/SPI.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 SPI.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN14EventResponder12triggerEventEiPv	00000000 .text._ZN14EventResponder12triggerEventEiPv
+00000000 l    d  .text._ZN8SPIClass8transferEPKvPvj.part.0	00000000 .text._ZN8SPIClass8transferEPKvPvj.part.0
+00000000 l     F .text._ZN8SPIClass8transferEPKvPvj.part.0	00000060 _ZN8SPIClass8transferEPKvPvj.part.0
+00000000 l    d  .text._Z15_spi_dma_rxISR1v	00000000 .text._Z15_spi_dma_rxISR1v
+00000000 l    d  .text._Z15_spi_dma_rxISR0v	00000000 .text._Z15_spi_dma_rxISR0v
+00000000 l    d  .text._ZN8SPIClassC2Ejj	00000000 .text._ZN8SPIClassC2Ejj
+00000000 l    d  .text._ZN8SPIClass5beginEv	00000000 .text._ZN8SPIClass5beginEv
+00000000 l    d  .text._ZN8SPIClass24setClockDivider_noInlineEm	00000000 .text._ZN8SPIClass24setClockDivider_noInlineEm
+00000000 l    d  .text._ZN8SPIClass15pinIsChipSelectEh	00000000 .text._ZN8SPIClass15pinIsChipSelectEh
+00000000 l    d  .text._ZN8SPIClass15pinIsChipSelectEhh	00000000 .text._ZN8SPIClass15pinIsChipSelectEhh
+00000000 l    d  .text._ZN8SPIClass9pinIsMOSIEh	00000000 .text._ZN8SPIClass9pinIsMOSIEh
+00000000 l    d  .text._ZN8SPIClass9pinIsMISOEh	00000000 .text._ZN8SPIClass9pinIsMISOEh
+00000000 l    d  .text._ZN8SPIClass8pinIsSCKEh	00000000 .text._ZN8SPIClass8pinIsSCKEh
+00000000 l    d  .text._ZN8SPIClass5setCSEh	00000000 .text._ZN8SPIClass5setCSEh
+00000000 l    d  .text._ZN8SPIClass7setMOSIEh	00000000 .text._ZN8SPIClass7setMOSIEh
+00000000 l    d  .text._ZN8SPIClass7setMISOEh	00000000 .text._ZN8SPIClass7setMISOEh
+00000000 l    d  .text._ZN8SPIClass6setSCKEh	00000000 .text._ZN8SPIClass6setSCKEh
+00000000 l    d  .text._ZN8SPIClass11setBitOrderEh	00000000 .text._ZN8SPIClass11setBitOrderEh
+00000000 l    d  .text._ZN8SPIClass11setDataModeEh	00000000 .text._ZN8SPIClass11setDataModeEh
+00000000 l    d  .text._Z15_spi_dma_rxISR2v	00000000 .text._Z15_spi_dma_rxISR2v
+00000000 l    d  .text._ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t	00000000 .text._ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t
+00000000 l    d  .text._ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t	00000000 .text._ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t
+00000000 l    d  .text._ZN8SPIClass8transferEPKvPvj	00000000 .text._ZN8SPIClass8transferEPKvPvj
+00000000 l    d  .text._ZN8SPIClass10transfer16EPKvPvj	00000000 .text._ZN8SPIClass10transfer16EPKvPvj
+00000000 l    d  .text._ZN8SPIClass10transfer32EPKvPvj	00000000 .text._ZN8SPIClass10transfer32EPKvPvj
+00000000 l    d  .text._ZN8SPIClass3endEv	00000000 .text._ZN8SPIClass3endEv
+00000000 l    d  .text._ZN8SPIClass15initDMAChannelsEv	00000000 .text._ZN8SPIClass15initDMAChannelsEv
+00000000 l    d  .text._ZN8SPIClass8transferEPKvPvjR14EventResponder	00000000 .text._ZN8SPIClass8transferEPKvPvjR14EventResponder
+00000000 l    d  .text.startup._GLOBAL__sub_I__ZN8SPIClass5beginEv	00000000 .text.startup._GLOBAL__sub_I__ZN8SPIClass5beginEv
+00000000 l     F .text.startup._GLOBAL__sub_I__ZN8SPIClass5beginEv	00000048 _GLOBAL__sub_I__ZN8SPIClass5beginEv
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel	00000000 .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel
+00000000 l    d  .bss.SPI	00000000 .bss.SPI
+00000000 l    d  .bss.SPI1	00000000 .bss.SPI1
+00000000 l    d  .bss.SPI2	00000000 .bss.SPI2
+00000000 l    d  .bss._ZL10bit_bucket	00000000 .bss._ZL10bit_bucket
+00000000 l     O .bss._ZL10bit_bucket	00000001 _ZL10bit_bucket
+00000000 l    d  .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE	00000000 .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE
+00000000 l    d  .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE	00000000 .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE
+00000000 l    d  .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE	00000000 .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE
+00000000 l    d  .rodata._ZZN8SPIClass24setClockDivider_noInlineEmE7clk_sel	00000000 .rodata._ZZN8SPIClass24setClockDivider_noInlineEmE7clk_sel
+00000000 l     O .rodata._ZZN8SPIClass24setClockDivider_noInlineEmE7clk_sel	00000010 _ZZN8SPIClass24setClockDivider_noInlineEmE7clk_sel
+00000000 l       .group	00000000 _ZN8SPIClassC5Ejj
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN14EventResponder12triggerEventEiPv	00000016 _ZN14EventResponder12triggerEventEiPv
+00000000         *UND*	00000000 _ZN14EventResponder24triggerEventNotImmediateEv
+00000000 g     F .text._Z15_spi_dma_rxISR1v	000000dc _Z15_spi_dma_rxISR1v
+00000000 g     F .text._Z15_spi_dma_rxISR0v	000000dc _Z15_spi_dma_rxISR0v
+00000000  w    F .text._ZN8SPIClassC2Ejj	0000002c _ZN8SPIClassC2Ejj
+00000000  w    F .text._ZN8SPIClassC2Ejj	0000002c _ZN8SPIClassC1Ejj
+00000000 g     F .text._ZN8SPIClass5beginEv	00000234 _ZN8SPIClass5beginEv
+00000000         *UND*	00000000 digital_pin_to_info_PGM
+00000000  w    O .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel	00000010 _ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel
+00000000 g     F .text._ZN8SPIClass24setClockDivider_noInlineEm	00000094 _ZN8SPIClass24setClockDivider_noInlineEm
+00000000 g     F .text._ZN8SPIClass15pinIsChipSelectEh	00000030 _ZN8SPIClass15pinIsChipSelectEh
+00000000 g     F .text._ZN8SPIClass15pinIsChipSelectEhh	00000064 _ZN8SPIClass15pinIsChipSelectEhh
+00000000 g     F .text._ZN8SPIClass9pinIsMOSIEh	0000001c _ZN8SPIClass9pinIsMOSIEh
+00000000 g     F .text._ZN8SPIClass9pinIsMISOEh	00000018 _ZN8SPIClass9pinIsMISOEh
+00000000 g     F .text._ZN8SPIClass8pinIsSCKEh	0000001c _ZN8SPIClass8pinIsSCKEh
+00000000 g     F .text._ZN8SPIClass5setCSEh	00000054 _ZN8SPIClass5setCSEh
+00000000 g     F .text._ZN8SPIClass7setMOSIEh	0000006c _ZN8SPIClass7setMOSIEh
+00000000 g     F .text._ZN8SPIClass7setMISOEh	00000064 _ZN8SPIClass7setMISOEh
+00000000 g     F .text._ZN8SPIClass6setSCKEh	0000006c _ZN8SPIClass6setSCKEh
+00000000 g     F .text._ZN8SPIClass11setBitOrderEh	0000002c _ZN8SPIClass11setBitOrderEh
+00000000 g     F .text._ZN8SPIClass11setDataModeEh	0000002e _ZN8SPIClass11setDataModeEh
+00000000 g     F .text._Z15_spi_dma_rxISR2v	000000dc _Z15_spi_dma_rxISR2v
+00000000 g     F .text._ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t	00000026 _ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t
+00000000 g     F .text._ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t	00000038 _ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t
+00000000 g     F .text._ZN8SPIClass8transferEPKvPvj	00000008 _ZN8SPIClass8transferEPKvPvj
+00000000 g     F .text._ZN8SPIClass10transfer16EPKvPvj	00000078 _ZN8SPIClass10transfer16EPKvPvj
+00000000 g     F .text._ZN8SPIClass10transfer32EPKvPvj	0000007c _ZN8SPIClass10transfer32EPKvPvj
+00000000 g     F .text._ZN8SPIClass3endEv	00000048 _ZN8SPIClass3endEv
+00000000         *UND*	00000000 pinMode
+00000000 g     F .text._ZN8SPIClass15initDMAChannelsEv	00000140 _ZN8SPIClass15initDMAChannelsEv
+00000000         *UND*	00000000 _Znwj
+00000000         *UND*	00000000 _ZN10DMAChannel5beginEb
+00000000         *UND*	00000000 _VectorsRam
+00000000 g     F .text._ZN8SPIClass8transferEPKvPvjR14EventResponder	00000204 _ZN8SPIClass8transferEPKvPvjR14EventResponder
+00000000         *UND*	00000000 _ZN14EventResponder10clearEventEv
+00000000         *UND*	00000000 yield
+00000000 g     O .bss.SPI2	00000050 SPI2
+00000000 g     O .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE	00000070 _ZN8SPIClass24spiclass_lpspi1_hardwareE
+00000000 g     O .bss.SPI1	00000050 SPI1
+00000000 g     O .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE	00000070 _ZN8SPIClass24spiclass_lpspi3_hardwareE
+00000000 g     O .bss.SPI	00000050 SPI
+00000000 g     O .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE	00000070 _ZN8SPIClass24spiclass_lpspi4_hardwareE
+
+
+Contents of section .group:
+ 0000 01000000 07000000 08000000           ............    
+Contents of section .group:
+ 0000 01000000 0e000000                    ........        
+Contents of section .group:
+ 0000 01000000 34000000                    ....4...        
+Contents of section .text._ZN14EventResponder12triggerEventEiPv:
+ 0000 90f81cc0 4160bcf1 020fc260 01d18368  ....A`.....`...h
+ 0010 1847fff7 febf00bf                    .G......        
+Contents of section .text._ZN8SPIClass8transferEPKvPvj.part.0:
+ 0000 f0b40468 40f20125 1e462561 a3b121b3  ...h@..%.F%a..!.
+ 0010 11f8015b 013b6566 256faf07 07d41546  ...[.;ef%o.....F
+ 0020 013e676f 1ab105f8 017b2a46 04686569  .>go.....{*F.hei
+ 0030 ed07f1d5 002bead1 6eb10368 196f8907  .....+..n..h.o..
+ 0040 fad41146 013e5b6f 002af5d0 01f8013b  ...F.>[o.*.....;
+ 0050 0a46002e f1d1f0bc 704790f8 3c50d9e7  .F......pG..<P..
+Contents of section .text._Z15_spi_dma_rxISR1v:
+ 0000 324b3349 30b5d3e9 11542079 c8771a6c  2K3I0....T y.w.l
+ 0010 95f804c0 81f81cc0 087752b1 b2f5004f  .........wR....O
+ 0020 23d32c49 11442a4a 1964d076 82f81bc0  #.,I.D*J.d.v....
+ 0030 30bd1968 0f24d86c 8c6540f2 0134ca61  0..h.$.l.e@..4.a
+ 0040 0c614ff4 7c544c61 03210468 246883f8  .aO.|TLa.!.h$h..
+ 0050 3d10214b 9c4226d1 037f4260 022bc260  =.!K.B&...B`.+.`
+ 0060 26d18368 bde83040 18472d68 e98b0904  &..h..0@.G-h....
+ 0070 22d492b2 ea832168 ec8ba4b2 ec82cc8b  ".....!h........
+ 0080 240405d5 cc8bc2f3 080204f4 7e442243  $...........~D"C
+ 0090 ca83ca8b 92b2ca82 00210d4a 1964d076  .........!.J.d.v
+ 00a0 82f81bc0 30bd2346 1146bde8 30401847  ....0.#F.F..0@.G
+ 00b0 bde83040 fff7febf e98bc2f3 080e92b2  ..0@............
+ 00c0 01f47e41 41ea0e01 e983d4e7 00000000  ..~AA...........
+ 00d0 00800e40 0180ffff 00000000           ...@........    
+Contents of section .text._Z15_spi_dma_rxISR0v:
+ 0000 324b3349 30b5d3e9 11542079 c8771a6c  2K3I0....T y.w.l
+ 0010 95f804c0 81f81cc0 087752b1 b2f5004f  .........wR....O
+ 0020 23d32c49 11442a4a 1964d076 82f81bc0  #.,I.D*J.d.v....
+ 0030 30bd1968 0f24d86c 8c6540f2 0134ca61  0..h.$.l.e@..4.a
+ 0040 0c614ff4 7c544c61 03210468 246883f8  .aO.|TLa.!.h$h..
+ 0050 3d10214b 9c4226d1 037f4260 022bc260  =.!K.B&...B`.+.`
+ 0060 26d18368 bde83040 18472d68 e98b0904  &..h..0@.G-h....
+ 0070 22d492b2 ea832168 ec8ba4b2 ec82cc8b  ".....!h........
+ 0080 240405d5 cc8bc2f3 080204f4 7e442243  $...........~D"C
+ 0090 ca83ca8b 92b2ca82 00210d4a 1964d076  .........!.J.d.v
+ 00a0 82f81bc0 30bd2346 1146bde8 30401847  ....0.#F.F..0@.G
+ 00b0 bde83040 fff7febf e98bc2f3 080e92b2  ..0@............
+ 00c0 01f47e41 41ea0e01 e983d4e7 00000000  ..~AA...........
+ 00d0 00800e40 0180ffff 00000000           ...@........    
+Contents of section .text._ZN8SPIClassC2Ejj:
+ 0000 0023c0e9 0012c0e9 0233c0e9 0433c0e9  .#.......3...3..
+ 0010 0633c0e9 0833c0e9 0a33c0e9 0c338363  .3...3...3...3.c
+ 0020 8387c0e9 1033c0e9 12337047           .....3...3pG    
+Contents of section .text._ZN8SPIClass5beginEv:
+ 0000 43682de9 f04fd3e9 0041814d 4ff0b80a  Ch-..O...A.MO...
+ 0010 22684ff0 020822ea 01027e49 2260aa69  "hO..."...~I"`.i
+ 0020 11407d4a 0a43aa61 90f810e0 7b4a03eb  .@}J.C.a....{J..
+ 0030 0e0603eb 8e0e317c 02eb0111 8968c1f8  ......1|.....h..
+ 0040 00a090f8 11c003eb 0c050cf1 0a0c95f8  ................
+ 0050 241002eb 01118968 c1f800a0 817c03eb  $......h.....|..
+ 0060 010903eb 810199f8 38b002eb 0b1bdbf8  ........8.......
+ 0070 08b0cbf8 00a0d4f8 00a05f68 4aea070a  .........._hJ...
+ 0080 c4f800a0 347cdef8 14e002eb 04146468  ....4|........dh
+ 0090 c4f800e0 95f82440 53f82cc0 02eb0414  ......$@S.,.....
+ 00a0 6468c4f8 00c0c96b 99f83840 02eb0412  dh.....k..8@....
+ 00b0 52681160 9a6c99f8 44101160 1a6a317f  Rh.`.l..D..`.j1.
+ 00c0 5b6b1160 95f83020 1a600f22 0368c3f8  [k.`..0 .`.".h..
+ 00d0 10809a65 c27c002a 31d072b6 c37cdc07  ...e.|.*1.r..|..
+ 00e0 08d54ff0 e0214469 d1f88021 22408262  ..O..!Di...!"@.b
+ 00f0 c1f88021 990708d5 4ff0e021 8469d1f8  ...!....O..!.i..
+ 0100 84212240 c262c1f8 84215a07 08d54ff0  .!"@.b...!Z...O.
+ 0110 e021c469 d1f88821 22400263 c1f88821  .!.i...!"@.c...!
+ 0120 1f0708d5 4ff0e021 046ad1f8 8c212240  ....O..!.j...!"@
+ 0130 4263c1f8 8c21de06 55d462b6 0368384c  Bc...!..U.b..h8L
+ 0140 8268a242 59d0324a 84609269 3549c2f3  .h.BY.2J.`.i5I..
+ 0150 0116c2f3 8262344d 51f82610 0132b1fb  .....b4MQ.&..2..
+ 0160 f2f2aa42 31d80022 c2600024 03211c61  ...B1..".`.$.!.a
+ 0170 07245962 01211a64 1c661961 c37c13b3  .$Yb.!.d.f.a.|..
+ 0180 dd0704d5 816a4ff0 e022c2f8 00119c07  .....jO.."......
+ 0190 04d5c16a 4ff0e022 c2f80411 590704d5  ...jO.."....Y...
+ 01a0 016b4ff0 e022c2f8 08111a07 04d5416b  .kO.."........Ak
+ 01b0 4ff0e022 c2f80c11 db0604d5 826b4ff0  O..".........kO.
+ 01c0 e023c3f8 1021bde8 f08f1849 a1fb0251  .#...!.....I...Q
+ 01d0 090db2fb f1f2a242 88bf0131 b1f5817f  .......B...1....
+ 01e0 0dd3134a c0e74ff0 e022416a d2f89031  ...J..O.."Aj...1
+ 01f0 0b408363 c2f89031 9fe7c268 b5e70229  .@.c...1...h...)
+ 0200 b1d90239 4c082202 42ea0442 0a43abe7  ...9L.".B..B.C..
+ 0210 00c00f40 cfffffe3 10000008 00000000  ...@............
+ 0220 00093d00 00000000 ff083d00 83de1b43  ..=.......=....C
+ 0230 ff7f7f00                             ....            
+Contents of section .text._ZN8SPIClass24setClockDivider_noInlineEm:
+ 0000 436810b4 d3e90024 13682343 13608368  Ch.....$.h#C.`.h
+ 0010 8b4229d0 1c4b8160 9b691c4a c3f30114  .B)..K.`.i.J....
+ 0020 c3f38263 52f82440 0133b4fb f3f2b9b1  ...cR.$@.3......
+ 0030 91421bd8 b2fbf1f3 b2fbf3f2 8a4220d8  .B...........B .
+ 0040 b3f5817f 14d31249 c1600368 00240320  .......I.`.h.$. 
+ 0050 01221c61 58625df8 044b1964 1a617047  .".aXb]..K.d.apG
+ 0060 9c42f1d3 531cebe7 c168eee7 0021ebe7  .B..S....h...!..
+ 0070 022bfbd9 023b5a08 110441ea 02211943  .+...;Z...A..!.C
+ 0080 e2e71a46 eee700bf 00c00f40 00000000  ...F.......@....
+ 0090 ff7f7f00                             ....            
+Contents of section .text._ZN8SPIClass15pinIsChipSelectEh:
+ 0000 436893f8 4c208a42 09d093f8 4d208a42  Ch..L .B....M .B
+ 0010 0ad093f8 4e208a42 08d00020 70470022  ....N .B... pG."
+ 0020 134493f8 5c007047 0122f9e7 0222f7e7  .D..\.pG."..."..
+Contents of section .text._ZN8SPIClass15pinIsChipSelectEhh:
+ 0000 436893f8 4c008142 09d093f8 4dc08c45  Ch..L..B....M..E
+ 0010 20d093f8 4ec08c45 1ed00020 70470021   ...N..E... pG.!
+ 0020 194491f8 5c100029 f7d08242 16d093f8  .D..\..)...B....
+ 0030 4d009042 14d093f8 4e009042 edd10222  M..B....N..B..."
+ 0040 134493f8 5c000028 e8d00142 0cbf0120  .D..\..(...B... 
+ 0050 00207047 0121e3e7 0221e1e7 0022efe7  . pG.!...!..."..
+ 0060 0122ede7                             ."..            
+Contents of section .text._ZN8SPIClass9pinIsMOSIEh:
+ 0000 436893f8 24208a42 06d093f8 2500401a  Ch..$ .B....%.@.
+ 0010 b0fa80f0 40097047 01207047           ....@.pG. pG    
+Contents of section .text._ZN8SPIClass9pinIsMISOEh:
+ 0000 43681a7c 8a4205d0 587c401a b0fa80f0  Ch.|.B..X|@.....
+ 0010 40097047 01207047                    @.pG. pG        
+Contents of section .text._ZN8SPIClass8pinIsSCKEh:
+ 0000 436893f8 38208a42 06d093f8 3900401a  Ch..8 .B....9.@.
+ 0010 b0fa80f0 40097047 01207047           ....@.pG. pG    
+Contents of section .text._ZN8SPIClass5setCSEh:
+ 0000 436893f8 4c208a42 09d093f8 4d208a42  Ch..L .B....M .B
+ 0010 19d093f8 4e208a42 17d00020 70470020  ....N .B... pG. 
+ 0020 0b4a03eb 800c0344 02eb0112 dcf85010  .J.....D......P.
+ 0030 52681160 dcf86420 12b193f8 5f101160  Rh.`..d ...._..`
+ 0040 93f85c00 70470120 eae70220 e8e700bf  ..\.pG. ... ....
+ 0050 00000000                             ....            
+Contents of section .text._ZN8SPIClass7setMOSIEh:
+ 0000 4268437c 134493f8 24308b42 07d092f8  BhC|.D..$0.B....
+ 0010 24308b42 04d092f8 25308b42 21d07047  $0.B....%0.B!.pG
+ 0020 00239c46 70b41468 25685468 254215d0  .#.Fp..h%hTh%B..
+ 0030 0d4cb826 04eb0111 8d6802eb 0c010cf1  .L.&.....h......
+ 0040 0a0c2e60 52f82c50 91f824c0 526b04eb  ...`R.,P..$.Rk..
+ 0050 0c146468 256091f8 30101160 437470bc  ..dh%`..0..`Ctp.
+ 0060 70470123 9c46dde7 00000000           pG.#.F......    
+Contents of section .text._ZN8SPIClass7setMISOEh:
+ 0000 4268037c 13441b7c 8b4205d0 137c8b42  Bh.|.D.|.B...|.B
+ 0010 03d0537c 8b4220d0 70470023 9c4670b4  ..S|.B .pG.#.Fp.
+ 0020 14682568 54682542 14d00d4c b82604eb  .h%hTh%B...L.&..
+ 0030 01118d68 02eb0c01 02eb8c0c 126a2e60  ...h.........j.`
+ 0040 dcf81450 91f810c0 04eb0c14 64682560  ...P........dh%`
+ 0050 097f1160 037470bc 70470123 9c46dee7  ...`.tp.pG.#.F..
+ 0060 00000000                             ....            
+Contents of section .text._ZN8SPIClass6setSCKEh:
+ 0000 4268837c 134493f8 38308b42 07d092f8  Bh.|.D..80.B....
+ 0010 38308b42 04d092f8 39308b42 21d07047  80.B....90.B!.pG
+ 0020 00239c46 70b41468 25685468 254215d0  .#.Fp..h%hTh%B..
+ 0030 0d4cb826 04eb0111 8d6802eb 0c0102eb  .L.&.....h......
+ 0040 8c0c926c 2e60dcf8 3c5091f8 38c004eb  ...l.`..<P..8...
+ 0050 0c146468 256091f8 44101160 837470bc  ..dh%`..D..`.tp.
+ 0060 70470123 9c46dde7 00000000           pG.#.F......    
+Contents of section .text._ZN8SPIClass11setBitOrderEh:
+ 0000 436810b4 d3e90024 13682343 13600268  Ch.....$.h#C.`.h
+ 0010 136e29b9 43f40003 5df8044b 13667047  .n).C...]..K.fpG
+ 0020 23f40003 5df8044b 13667047           #...]..K.fpG    
+Contents of section .text._ZN8SPIClass11setDataModeEh:
+ 0000 d0e90023 10b4d3e9 00040368 23435df8  ...#.......h#C].
+ 0010 044b0360 0807136e 23f04043 48bf43f0  .K.`...n#.@CH.C.
+ 0020 00434907 48bf43f0 80431366 704700bf  .CI.H.C..C.fpG..
+Contents of section .text._Z15_spi_dma_rxISR2v:
+ 0000 324b3349 30b5d3e9 11542079 c8771a6c  2K3I0....T y.w.l
+ 0010 95f804c0 81f81cc0 087752b1 b2f5004f  .........wR....O
+ 0020 23d32c49 11442a4a 1964d076 82f81bc0  #.,I.D*J.d.v....
+ 0030 30bd1968 0f24d86c 8c6540f2 0134ca61  0..h.$.l.e@..4.a
+ 0040 0c614ff4 7c544c61 03210468 246883f8  .aO.|TLa.!.h$h..
+ 0050 3d10214b 9c4226d1 037f4260 022bc260  =.!K.B&...B`.+.`
+ 0060 26d18368 bde83040 18472d68 e98b0904  &..h..0@.G-h....
+ 0070 22d492b2 ea832168 ec8ba4b2 ec82cc8b  ".....!h........
+ 0080 240405d5 cc8bc2f3 080204f4 7e442243  $...........~D"C
+ 0090 ca83ca8b 92b2ca82 00210d4a 1964d076  .........!.J.d.v
+ 00a0 82f81bc0 30bd2346 1146bde8 30401847  ....0.#F.F..0@.G
+ 00b0 bde83040 fff7febf e98bc2f3 080e92b2  ..0@............
+ 00c0 01f47e41 41ea0e01 e983d4e7 00000000  ..~AA...........
+ 00d0 00800e40 0180ffff 00000000           ...@........    
+Contents of section .text._ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t:
+ 0000 9f290fd8 4b090122 01f01f01 02fa03fc  .)..K.."........
+ 0010 00eb8303 8a40c17c 41ea0c01 c1745969  .....@.|A....tYi
+ 0020 11435961 704700bf                    .CYapG..        
+Contents of section .text._ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t:
+ 0000 9f2918d8 012200b5 4fea511e 01f01f01  .)..."..O.Q.....
+ 0010 00eb8e0c 02fa01f1 dcf81430 23ea0103  ...........0#...
+ 0020 ccf81430 2bb9c37c 02fa0ef2 23ea0203  ...0+..|....#...
+ 0030 c3745df8 04fb7047                    .t]...pG        
+Contents of section .text._ZN8SPIClass8transferEPKvPvj:
+ 0000 0bb1fff7 febf7047                    ......pG        
+Contents of section .text._ZN8SPIClass10transfer16EPKvPvj:
+ 0000 002b36d0 f0b40468 40f20127 194d1e46  .+6....h@..'.M.F
+ 0010 d4f860c0 0cea0505 45f00f05 25662761  ..`.....E...%f'a
+ 0020 21b331f8 025b013b 6566256f af0706d4  !.1..[.;ef%o....
+ 0030 1546013e 676f12b1 25f8027b 2a466569  .F.>go..%..{*Fei
+ 0040 ed07f2d5 002bebd1 66b1236f 9b07fbd4  .....+..f.#o....
+ 0050 1346013e 616f002a f6d023f8 021b1a46  .F.>ao.*..#....F
+ 0060 002ef2d1 c4f860c0 f0bc7047 90f83c50  ......`...pG..<P
+ 0070 d9e77047 00f0ffff                    ..pG....        
+Contents of section .text._ZN8SPIClass10transfer32EPKvPvj:
+ 0000 002b38d0 f0b40468 40f20127 1a4d1e46  .+8....h@..'.M.F
+ 0010 d4f860c0 0cea0505 45f01f05 25662761  ..`.....E...%f'a
+ 0020 31b30d68 4fea3545 0431013b 6566256f  1..hO.5E.1.;ef%o
+ 0030 af0706d4 1546013e 676f12b1 45f8047b  .....F.>go..E..{
+ 0040 2a466569 ed07f2d5 002be9d1 66b1236f  *Fei.....+..f.#o
+ 0050 9b07fbd4 1346013e 616f002a f6d043f8  .....F.>ao.*..C.
+ 0060 041b1a46 002ef2d1 c4f860c0 f0bc7047  ...F......`...pG
+ 0070 90f83c50 d8e77047 00f0ffff           ..<P..pG....    
+Contents of section .text._ZN8SPIClass3endEv:
+ 0000 4368d3e9 00120968 114200d1 704710b5  Ch.....h.B..pG..
+ 0010 02680446 00200521 1061227c 1344187c  .h.F. .!.a"|.D.|
+ 0020 fff7feff 627c6368 05211344 93f82400  ....b|ch.!.D..$.
+ 0030 fff7feff 6368a27c 05211344 bde81040  ....ch.|.!.D...@
+ 0040 93f83800 fff7febf                    ..8.....        
+Contents of section .text._ZN8SPIClass15initDMAChannelsEv:
+ 0000 2de9f047 04460820 fff7feff 05460021  -..G.F. .....F.!
+ 0010 fff7feff 65640820 fff7feff 05460021  ....ed. .....F.!
+ 0020 fff7feff 95f804c0 414b0020 a56483f8  ........AK. .d..
+ 0030 1ac02268 2b6802f1 74019880 b1f1804f  .."h+h..t......O
+ 0040 1960d871 5bd39968 002958d0 998b0027  .`.q[..h.)X....'
+ 0050 60680ffa 8cfc89b2 df60d0f8 0ca06432  `h.......`....d2
+ 0060 41f00801 b2f1804f 99833249 90f80980  A......O..2I....
+ 0070 2e7908f0 7f0806f0 1f0901eb 561106f1  .y..........V...
+ 0080 100e4ff0 010648f0 00484fea 810106fa  ..O...H..HO.....
+ 0090 09f6dff8 a49049f8 2c7049f8 2c80dff8  ......I.,pI.,...
+ 00a0 9cc04cf8 2ea00e60 998b666c 89b241f0  ..L....`..fl..A.
+ 00b0 02019983 1e4b3179 99763368 1a619f82  .....K1y.v3h.a..
+ 00c0 9f7119d3 9a68bab1 9a8b0027 92b29f61  .q...h.....'...a
+ 00d0 42f00802 9a83037a a3b103f0 7f030ab2  B......z........
+ 00e0 01201549 43f00043 41f82270 41f82230  . .IC..CA."pA."0
+ 00f0 84f83d00 bde8f087 01229a60 e4e70121  ..=......".`...!
+ 0100 9960a3e7 29680120 3379ca8b 5b0292b2  .`..)h. 3y..[...
+ 0110 03f47853 22f47852 134343f4 0043cb83  ..xS".xR.CC..C..
+ 0120 cb8b9bb2 cb8284f8 3d00bde8 f08700bf  ........=.......
+ 0130 00800e40 40380038 00c00e40 00000000  ...@@8.8...@....
+Contents of section .text._ZN8SPIClass8transferEPKvPvjR14EventResponder:
+ 0000 2de9f843 1e4690f8 3d300546 88461746  -..C.F..=0.F.F.F
+ 0010 ddf82090 002b73d0 022b6ed0 4846fff7  .. ..+s..+n.HF..
+ 0020 feff012e 78d9724b 984510d9 28f01f04  ....x.rK.E..(...
+ 0030 08eb0602 bff34f8f 4ff0e023 c3f8684f  ......O.O..#..hO
+ 0040 20349442 fad3bff3 4f8fbff3 6f8f684b   4.B....O...o.hK
+ 0050 9f420fd9 27f01f04 ba19bff3 4f8f4ff0  .B..'.......O.O.
+ 0060 e023c3f8 5c4f2034 a242fad8 bff34f8f  .#..\O 4.B....O.
+ 0070 bff36f8f b6f5004f 49d2b6b2 0023696c  ..o....OI....#il
+ 0080 00222b64 0b689a71 b8f1000f 7ad0da71  ."+d.h.q....z..q
+ 0090 da600122 c3f80080 9a80de83 9a60de82  .`.".........`..
+ 00a0 002f55d0 ab6c0122 1b689a82 9a600022  ./U..l.".h...`."
+ 00b0 1f61da71 de839a71 de829a61 c5f84c90  .a.q...q...a..L.
+ 00c0 fff7feff 2b680020 a96c1a6e 22f01f02  ....+h. .l.n"...
+ 00d0 42f00702 1a660322 98654ff4 7c50da61  B....f.".eO.|P.a
+ 00e0 58610223 09790120 424ad176 696c0979  Xa.#.y. BJ.vil.y
+ 00f0 d17685f8 3d30bde8 f8830020 bde8f883  .v..=0..... ....
+ 0100 fff7feff 0028f8d0 95f83d30 84e73a4b  .....(....=0..:K
+ 0110 334447f6 ff76b2e7 2eb10123 3a464146  3DG..v.....#:FAF
+ 0120 2846fff7 feffd9f8 0030344a 1b689342  (F.......04J.h.B
+ 0130 58d199f8 1c200023 022ac9f8 0430c9f8  X.... .#.*...0..
+ 0140 0c3036d1 4846d9f8 08309847 0120d2e7  .06.HF...0.G. ..
+ 0150 aa6c2b49 1368b1f1 804fdf71 19619f82  .l+I.h...O.q.a..
+ 0160 9f710cd3 996851b1 12680021 9961d38b  .q...hQ..h.!.a..
+ 0170 1b0423d4 d683d38b 9bb2d382 9ee70121  ..#............!
+ 0180 9960f1e7 05f13c02 a3f80480 83f80780  .`....<.........
+ 0190 b2f1804f 1a6019d2 01229a60 0a680021  ...O.`...".`.h.!
+ 01a0 d960d38b 190415d4 d683d38b 9bb2d382  .`..............
+ 01b0 76e74846 fff7feff 01209ce7 d38bc6f3  v.HF..... ......
+ 01c0 080603f4 7e433343 d383d4e7 9a68002a  ....~C3C.....h.*
+ 01d0 e4d1e1e7 d38bc6f3 080103f4 7e430b43  ............~C.C
+ 01e0 d383e2e7 00224846 11469847 012082e7  ....."HF.F.G. ..
+ 01f0 ffff1f20 00800e40 0180ffff 00000000  ... ...@........
+ 0200 00000000                             ....            
+Contents of section .text.startup._GLOBAL__sub_I__ZN8SPIClass5beginEv:
+ 0000 08b5084a 08490948 fff7feff 084a0949  ...J.I.H.....J.I
+ 0010 0948fff7 feff094a 09490a48 fff7feff  .H.....J.I.H....
+ 0020 08bd00bf 00000000 00003a40 00000000  ..........:@....
+ 0030 00000000 00c03940 00000000 00000000  ......9@........
+ 0040 00403940 00000000                    .@9@....        
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel:
+ 0000 d8399d27 0054ea2a 00a4781f 007b9a17  .9.'.T.*..x..{..
+Contents of section .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE:
+ 0000 6cc00f40 03000000 0e0d0000 00000000  l..@............
+ 0010 2a360000 14000000 13000000 01000000  *6..............
+ 0020 f4841f40 2b320000 14000000 13000000  ...@+2..........
+ 0030 01000000 f8841f40 2d310000 14000000  .......@-1......
+ 0040 13000000 01000000 f0841f40 2cffff00  ...........@,...
+ 0050 14000000 00000000 00000000 01000000  ................
+ 0060 00000000 ec841f40 00000000 00000000  .......@........
+Contents of section .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE:
+ 0000 6cc00f40 30000000 100f0000 00000000  l..@0...........
+ 0010 01270000 17000000 12000000 00010000  .'..............
+ 0020 14851f40 1aff0000 12000000 00000000  ...@............
+ 0030 01000000 18851f40 1bff0000 12000000  .......@........
+ 0040 00000000 01000000 10851f40 0026ff00  ...........@.&..
+ 0050 17000000 12000000 00000000 01010000  ................
+ 0060 01000000 0c851f40 0c851f40 00000000  .......@...@....
+Contents of section .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE:
+ 0000 6cc00f40 c0000000 504f0000 00000000  l..@....PO......
+ 0010 0cff0000 13000000 00000000 00000000  ................
+ 0020 24851f40 0bff0000 13000000 00000000  $..@............
+ 0030 00000000 28851f40 0dff0000 13000000  ....(..@........
+ 0040 00000000 00000000 20851f40 0a252400  ........ ..@.%$.
+ 0050 13000000 12000000 12000000 01020300  ................
+ 0060 00000000 1c851f40 00000000 00000000  .......@........
+Contents of section .rodata._ZZN8SPIClass24setClockDivider_noInlineEmE7clk_sel:
+ 0000 d8399d27 0054ea2a 00a4781f 007b9a17  .9.'.T.*..x..{..
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN14EventResponder12triggerEventEiPv:
+
+00000000 <_ZN14EventResponder12triggerEventEiPv>:
+   0:	f890 c01c 	ldrb.w	ip, [r0, #28]
+   4:	6041      	str	r1, [r0, #4]
+   6:	f1bc 0f02 	cmp.w	ip, #2
+   a:	60c2      	str	r2, [r0, #12]
+   c:	d101      	bne.n	12 <_ZN14EventResponder12triggerEventEiPv+0x12>
+   e:	6883      	ldr	r3, [r0, #8]
+  10:	4718      	bx	r3
+  12:	f7ff bffe 	b.w	0 <_ZN14EventResponder24triggerEventNotImmediateEv>
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN8SPIClass8transferEPKvPvj.part.0:
+
+00000000 <_ZN8SPIClass8transferEPKvPvj.part.0>:
+   0:	b4f0      	push	{r4, r5, r6, r7}
+   2:	6804      	ldr	r4, [r0, #0]
+   4:	f240 2501 	movw	r5, #513	; 0x201
+   8:	461e      	mov	r6, r3
+   a:	6125      	str	r5, [r4, #16]
+   c:	b1a3      	cbz	r3, 38 <_ZN8SPIClass8transferEPKvPvj.part.0+0x38>
+   e:	b321      	cbz	r1, 5a <_ZN8SPIClass8transferEPKvPvj.part.0+0x5a>
+  10:	f811 5b01 	ldrb.w	r5, [r1], #1
+  14:	3b01      	subs	r3, #1
+  16:	6665      	str	r5, [r4, #100]	; 0x64
+  18:	6f25      	ldr	r5, [r4, #112]	; 0x70
+  1a:	07af      	lsls	r7, r5, #30
+  1c:	d407      	bmi.n	2e <_ZN8SPIClass8transferEPKvPvj.part.0+0x2e>
+  1e:	4615      	mov	r5, r2
+  20:	3e01      	subs	r6, #1
+  22:	6f67      	ldr	r7, [r4, #116]	; 0x74
+  24:	b11a      	cbz	r2, 2e <_ZN8SPIClass8transferEPKvPvj.part.0+0x2e>
+  26:	f805 7b01 	strb.w	r7, [r5], #1
+  2a:	462a      	mov	r2, r5
+  2c:	6804      	ldr	r4, [r0, #0]
+  2e:	6965      	ldr	r5, [r4, #20]
+  30:	07ed      	lsls	r5, r5, #31
+  32:	d5f1      	bpl.n	18 <_ZN8SPIClass8transferEPKvPvj.part.0+0x18>
+  34:	2b00      	cmp	r3, #0
+  36:	d1ea      	bne.n	e <_ZN8SPIClass8transferEPKvPvj.part.0+0xe>
+  38:	b16e      	cbz	r6, 56 <_ZN8SPIClass8transferEPKvPvj.part.0+0x56>
+  3a:	6803      	ldr	r3, [r0, #0]
+  3c:	6f19      	ldr	r1, [r3, #112]	; 0x70
+  3e:	0789      	lsls	r1, r1, #30
+  40:	d4fa      	bmi.n	38 <_ZN8SPIClass8transferEPKvPvj.part.0+0x38>
+  42:	4611      	mov	r1, r2
+  44:	3e01      	subs	r6, #1
+  46:	6f5b      	ldr	r3, [r3, #116]	; 0x74
+  48:	2a00      	cmp	r2, #0
+  4a:	d0f5      	beq.n	38 <_ZN8SPIClass8transferEPKvPvj.part.0+0x38>
+  4c:	f801 3b01 	strb.w	r3, [r1], #1
+  50:	460a      	mov	r2, r1
+  52:	2e00      	cmp	r6, #0
+  54:	d1f1      	bne.n	3a <_ZN8SPIClass8transferEPKvPvj.part.0+0x3a>
+  56:	bcf0      	pop	{r4, r5, r6, r7}
+  58:	4770      	bx	lr
+  5a:	f890 503c 	ldrb.w	r5, [r0, #60]	; 0x3c
+  5e:	e7d9      	b.n	14 <_ZN8SPIClass8transferEPKvPvj.part.0+0x14>
+
+Disassembly of section .text._Z15_spi_dma_rxISR1v:
+
+00000000 <_Z15_spi_dma_rxISR1v>:
+   0:	4b32      	ldr	r3, [pc, #200]	; (cc <_Z15_spi_dma_rxISR1v+0xcc>)
+   2:	4933      	ldr	r1, [pc, #204]	; (d0 <_Z15_spi_dma_rxISR1v+0xd0>)
+   4:	b530      	push	{r4, r5, lr}
+   6:	e9d3 5411 	ldrd	r5, r4, [r3, #68]	; 0x44
+   a:	7920      	ldrb	r0, [r4, #4]
+   c:	77c8      	strb	r0, [r1, #31]
+   e:	6c1a      	ldr	r2, [r3, #64]	; 0x40
+  10:	f895 c004 	ldrb.w	ip, [r5, #4]
+  14:	f881 c01c 	strb.w	ip, [r1, #28]
+  18:	7708      	strb	r0, [r1, #28]
+  1a:	b152      	cbz	r2, 32 <_Z15_spi_dma_rxISR1v+0x32>
+  1c:	f5b2 4f00 	cmp.w	r2, #32768	; 0x8000
+  20:	d323      	bcc.n	6a <_Z15_spi_dma_rxISR1v+0x6a>
+  22:	492c      	ldr	r1, [pc, #176]	; (d4 <_Z15_spi_dma_rxISR1v+0xd4>)
+  24:	4411      	add	r1, r2
+  26:	4a2a      	ldr	r2, [pc, #168]	; (d0 <_Z15_spi_dma_rxISR1v+0xd0>)
+  28:	6419      	str	r1, [r3, #64]	; 0x40
+  2a:	76d0      	strb	r0, [r2, #27]
+  2c:	f882 c01b 	strb.w	ip, [r2, #27]
+  30:	bd30      	pop	{r4, r5, pc}
+  32:	6819      	ldr	r1, [r3, #0]
+  34:	240f      	movs	r4, #15
+  36:	6cd8      	ldr	r0, [r3, #76]	; 0x4c
+  38:	658c      	str	r4, [r1, #88]	; 0x58
+  3a:	f240 3401 	movw	r4, #769	; 0x301
+  3e:	61ca      	str	r2, [r1, #28]
+  40:	610c      	str	r4, [r1, #16]
+  42:	f44f 547c 	mov.w	r4, #16128	; 0x3f00
+  46:	614c      	str	r4, [r1, #20]
+  48:	2103      	movs	r1, #3
+  4a:	6804      	ldr	r4, [r0, #0]
+  4c:	6824      	ldr	r4, [r4, #0]
+  4e:	f883 103d 	strb.w	r1, [r3, #61]	; 0x3d
+  52:	4b21      	ldr	r3, [pc, #132]	; (d8 <_Z15_spi_dma_rxISR1v+0xd8>)
+  54:	429c      	cmp	r4, r3
+  56:	d126      	bne.n	a6 <_Z15_spi_dma_rxISR1v+0xa6>
+  58:	7f03      	ldrb	r3, [r0, #28]
+  5a:	6042      	str	r2, [r0, #4]
+  5c:	2b02      	cmp	r3, #2
+  5e:	60c2      	str	r2, [r0, #12]
+  60:	d126      	bne.n	b0 <_Z15_spi_dma_rxISR1v+0xb0>
+  62:	6883      	ldr	r3, [r0, #8]
+  64:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  68:	4718      	bx	r3
+  6a:	682d      	ldr	r5, [r5, #0]
+  6c:	8be9      	ldrh	r1, [r5, #30]
+  6e:	0409      	lsls	r1, r1, #16
+  70:	d422      	bmi.n	b8 <_Z15_spi_dma_rxISR1v+0xb8>
+  72:	b292      	uxth	r2, r2
+  74:	83ea      	strh	r2, [r5, #30]
+  76:	6821      	ldr	r1, [r4, #0]
+  78:	8bec      	ldrh	r4, [r5, #30]
+  7a:	b2a4      	uxth	r4, r4
+  7c:	82ec      	strh	r4, [r5, #22]
+  7e:	8bcc      	ldrh	r4, [r1, #30]
+  80:	0424      	lsls	r4, r4, #16
+  82:	d505      	bpl.n	90 <_Z15_spi_dma_rxISR1v+0x90>
+  84:	8bcc      	ldrh	r4, [r1, #30]
+  86:	f3c2 0208 	ubfx	r2, r2, #0, #9
+  8a:	f404 447e 	and.w	r4, r4, #65024	; 0xfe00
+  8e:	4322      	orrs	r2, r4
+  90:	83ca      	strh	r2, [r1, #30]
+  92:	8bca      	ldrh	r2, [r1, #30]
+  94:	b292      	uxth	r2, r2
+  96:	82ca      	strh	r2, [r1, #22]
+  98:	2100      	movs	r1, #0
+  9a:	4a0d      	ldr	r2, [pc, #52]	; (d0 <_Z15_spi_dma_rxISR1v+0xd0>)
+  9c:	6419      	str	r1, [r3, #64]	; 0x40
+  9e:	76d0      	strb	r0, [r2, #27]
+  a0:	f882 c01b 	strb.w	ip, [r2, #27]
+  a4:	bd30      	pop	{r4, r5, pc}
+  a6:	4623      	mov	r3, r4
+  a8:	4611      	mov	r1, r2
+  aa:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  ae:	4718      	bx	r3
+  b0:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  b4:	f7ff bffe 	b.w	0 <_ZN14EventResponder24triggerEventNotImmediateEv>
+  b8:	8be9      	ldrh	r1, [r5, #30]
+  ba:	f3c2 0e08 	ubfx	lr, r2, #0, #9
+  be:	b292      	uxth	r2, r2
+  c0:	f401 417e 	and.w	r1, r1, #65024	; 0xfe00
+  c4:	ea41 010e 	orr.w	r1, r1, lr
+  c8:	83e9      	strh	r1, [r5, #30]
+  ca:	e7d4      	b.n	76 <_Z15_spi_dma_rxISR1v+0x76>
+  cc:	00000000 	.word	0x00000000
+  d0:	400e8000 	.word	0x400e8000
+  d4:	ffff8001 	.word	0xffff8001
+  d8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z15_spi_dma_rxISR0v:
+
+00000000 <_Z15_spi_dma_rxISR0v>:
+   0:	4b32      	ldr	r3, [pc, #200]	; (cc <_Z15_spi_dma_rxISR0v+0xcc>)
+   2:	4933      	ldr	r1, [pc, #204]	; (d0 <_Z15_spi_dma_rxISR0v+0xd0>)
+   4:	b530      	push	{r4, r5, lr}
+   6:	e9d3 5411 	ldrd	r5, r4, [r3, #68]	; 0x44
+   a:	7920      	ldrb	r0, [r4, #4]
+   c:	77c8      	strb	r0, [r1, #31]
+   e:	6c1a      	ldr	r2, [r3, #64]	; 0x40
+  10:	f895 c004 	ldrb.w	ip, [r5, #4]
+  14:	f881 c01c 	strb.w	ip, [r1, #28]
+  18:	7708      	strb	r0, [r1, #28]
+  1a:	b152      	cbz	r2, 32 <_Z15_spi_dma_rxISR0v+0x32>
+  1c:	f5b2 4f00 	cmp.w	r2, #32768	; 0x8000
+  20:	d323      	bcc.n	6a <_Z15_spi_dma_rxISR0v+0x6a>
+  22:	492c      	ldr	r1, [pc, #176]	; (d4 <_Z15_spi_dma_rxISR0v+0xd4>)
+  24:	4411      	add	r1, r2
+  26:	4a2a      	ldr	r2, [pc, #168]	; (d0 <_Z15_spi_dma_rxISR0v+0xd0>)
+  28:	6419      	str	r1, [r3, #64]	; 0x40
+  2a:	76d0      	strb	r0, [r2, #27]
+  2c:	f882 c01b 	strb.w	ip, [r2, #27]
+  30:	bd30      	pop	{r4, r5, pc}
+  32:	6819      	ldr	r1, [r3, #0]
+  34:	240f      	movs	r4, #15
+  36:	6cd8      	ldr	r0, [r3, #76]	; 0x4c
+  38:	658c      	str	r4, [r1, #88]	; 0x58
+  3a:	f240 3401 	movw	r4, #769	; 0x301
+  3e:	61ca      	str	r2, [r1, #28]
+  40:	610c      	str	r4, [r1, #16]
+  42:	f44f 547c 	mov.w	r4, #16128	; 0x3f00
+  46:	614c      	str	r4, [r1, #20]
+  48:	2103      	movs	r1, #3
+  4a:	6804      	ldr	r4, [r0, #0]
+  4c:	6824      	ldr	r4, [r4, #0]
+  4e:	f883 103d 	strb.w	r1, [r3, #61]	; 0x3d
+  52:	4b21      	ldr	r3, [pc, #132]	; (d8 <_Z15_spi_dma_rxISR0v+0xd8>)
+  54:	429c      	cmp	r4, r3
+  56:	d126      	bne.n	a6 <_Z15_spi_dma_rxISR0v+0xa6>
+  58:	7f03      	ldrb	r3, [r0, #28]
+  5a:	6042      	str	r2, [r0, #4]
+  5c:	2b02      	cmp	r3, #2
+  5e:	60c2      	str	r2, [r0, #12]
+  60:	d126      	bne.n	b0 <_Z15_spi_dma_rxISR0v+0xb0>
+  62:	6883      	ldr	r3, [r0, #8]
+  64:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  68:	4718      	bx	r3
+  6a:	682d      	ldr	r5, [r5, #0]
+  6c:	8be9      	ldrh	r1, [r5, #30]
+  6e:	0409      	lsls	r1, r1, #16
+  70:	d422      	bmi.n	b8 <_Z15_spi_dma_rxISR0v+0xb8>
+  72:	b292      	uxth	r2, r2
+  74:	83ea      	strh	r2, [r5, #30]
+  76:	6821      	ldr	r1, [r4, #0]
+  78:	8bec      	ldrh	r4, [r5, #30]
+  7a:	b2a4      	uxth	r4, r4
+  7c:	82ec      	strh	r4, [r5, #22]
+  7e:	8bcc      	ldrh	r4, [r1, #30]
+  80:	0424      	lsls	r4, r4, #16
+  82:	d505      	bpl.n	90 <_Z15_spi_dma_rxISR0v+0x90>
+  84:	8bcc      	ldrh	r4, [r1, #30]
+  86:	f3c2 0208 	ubfx	r2, r2, #0, #9
+  8a:	f404 447e 	and.w	r4, r4, #65024	; 0xfe00
+  8e:	4322      	orrs	r2, r4
+  90:	83ca      	strh	r2, [r1, #30]
+  92:	8bca      	ldrh	r2, [r1, #30]
+  94:	b292      	uxth	r2, r2
+  96:	82ca      	strh	r2, [r1, #22]
+  98:	2100      	movs	r1, #0
+  9a:	4a0d      	ldr	r2, [pc, #52]	; (d0 <_Z15_spi_dma_rxISR0v+0xd0>)
+  9c:	6419      	str	r1, [r3, #64]	; 0x40
+  9e:	76d0      	strb	r0, [r2, #27]
+  a0:	f882 c01b 	strb.w	ip, [r2, #27]
+  a4:	bd30      	pop	{r4, r5, pc}
+  a6:	4623      	mov	r3, r4
+  a8:	4611      	mov	r1, r2
+  aa:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  ae:	4718      	bx	r3
+  b0:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  b4:	f7ff bffe 	b.w	0 <_ZN14EventResponder24triggerEventNotImmediateEv>
+  b8:	8be9      	ldrh	r1, [r5, #30]
+  ba:	f3c2 0e08 	ubfx	lr, r2, #0, #9
+  be:	b292      	uxth	r2, r2
+  c0:	f401 417e 	and.w	r1, r1, #65024	; 0xfe00
+  c4:	ea41 010e 	orr.w	r1, r1, lr
+  c8:	83e9      	strh	r1, [r5, #30]
+  ca:	e7d4      	b.n	76 <_Z15_spi_dma_rxISR0v+0x76>
+  cc:	00000000 	.word	0x00000000
+  d0:	400e8000 	.word	0x400e8000
+  d4:	ffff8001 	.word	0xffff8001
+  d8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClassC2Ejj:
+
+00000000 <_ZN8SPIClassC1Ejj>:
+   0:	2300      	movs	r3, #0
+   2:	e9c0 1200 	strd	r1, r2, [r0]
+   6:	e9c0 3302 	strd	r3, r3, [r0, #8]
+   a:	e9c0 3304 	strd	r3, r3, [r0, #16]
+   e:	e9c0 3306 	strd	r3, r3, [r0, #24]
+  12:	e9c0 3308 	strd	r3, r3, [r0, #32]
+  16:	e9c0 330a 	strd	r3, r3, [r0, #40]	; 0x28
+  1a:	e9c0 330c 	strd	r3, r3, [r0, #48]	; 0x30
+  1e:	6383      	str	r3, [r0, #56]	; 0x38
+  20:	8783      	strh	r3, [r0, #60]	; 0x3c
+  22:	e9c0 3310 	strd	r3, r3, [r0, #64]	; 0x40
+  26:	e9c0 3312 	strd	r3, r3, [r0, #72]	; 0x48
+  2a:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass5beginEv:
+
+00000000 <_ZN8SPIClass5beginEv>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   6:	e9d3 4100 	ldrd	r4, r1, [r3]
+   a:	4d81      	ldr	r5, [pc, #516]	; (210 <_ZN8SPIClass5beginEv+0x210>)
+   c:	f04f 0ab8 	mov.w	sl, #184	; 0xb8
+  10:	6822      	ldr	r2, [r4, #0]
+  12:	f04f 0802 	mov.w	r8, #2
+  16:	ea22 0201 	bic.w	r2, r2, r1
+  1a:	497e      	ldr	r1, [pc, #504]	; (214 <_ZN8SPIClass5beginEv+0x214>)
+  1c:	6022      	str	r2, [r4, #0]
+  1e:	69aa      	ldr	r2, [r5, #24]
+  20:	4011      	ands	r1, r2
+  22:	4a7d      	ldr	r2, [pc, #500]	; (218 <_ZN8SPIClass5beginEv+0x218>)
+  24:	430a      	orrs	r2, r1
+  26:	61aa      	str	r2, [r5, #24]
+  28:	f890 e010 	ldrb.w	lr, [r0, #16]
+  2c:	4a7b      	ldr	r2, [pc, #492]	; (21c <_ZN8SPIClass5beginEv+0x21c>)
+  2e:	eb03 060e 	add.w	r6, r3, lr
+  32:	eb03 0e8e 	add.w	lr, r3, lr, lsl #2
+  36:	7c31      	ldrb	r1, [r6, #16]
+  38:	eb02 1101 	add.w	r1, r2, r1, lsl #4
+  3c:	6889      	ldr	r1, [r1, #8]
+  3e:	f8c1 a000 	str.w	sl, [r1]
+  42:	f890 c011 	ldrb.w	ip, [r0, #17]
+  46:	eb03 050c 	add.w	r5, r3, ip
+  4a:	f10c 0c0a 	add.w	ip, ip, #10
+  4e:	f895 1024 	ldrb.w	r1, [r5, #36]	; 0x24
+  52:	eb02 1101 	add.w	r1, r2, r1, lsl #4
+  56:	6889      	ldr	r1, [r1, #8]
+  58:	f8c1 a000 	str.w	sl, [r1]
+  5c:	7c81      	ldrb	r1, [r0, #18]
+  5e:	eb03 0901 	add.w	r9, r3, r1
+  62:	eb03 0181 	add.w	r1, r3, r1, lsl #2
+  66:	f899 b038 	ldrb.w	fp, [r9, #56]	; 0x38
+  6a:	eb02 1b0b 	add.w	fp, r2, fp, lsl #4
+  6e:	f8db b008 	ldr.w	fp, [fp, #8]
+  72:	f8cb a000 	str.w	sl, [fp]
+  76:	f8d4 a000 	ldr.w	sl, [r4]
+  7a:	685f      	ldr	r7, [r3, #4]
+  7c:	ea4a 0a07 	orr.w	sl, sl, r7
+  80:	f8c4 a000 	str.w	sl, [r4]
+  84:	7c34      	ldrb	r4, [r6, #16]
+  86:	f8de e014 	ldr.w	lr, [lr, #20]
+  8a:	eb02 1404 	add.w	r4, r2, r4, lsl #4
+  8e:	6864      	ldr	r4, [r4, #4]
+  90:	f8c4 e000 	str.w	lr, [r4]
+  94:	f895 4024 	ldrb.w	r4, [r5, #36]	; 0x24
+  98:	f853 c02c 	ldr.w	ip, [r3, ip, lsl #2]
+  9c:	eb02 1404 	add.w	r4, r2, r4, lsl #4
+  a0:	6864      	ldr	r4, [r4, #4]
+  a2:	f8c4 c000 	str.w	ip, [r4]
+  a6:	6bc9      	ldr	r1, [r1, #60]	; 0x3c
+  a8:	f899 4038 	ldrb.w	r4, [r9, #56]	; 0x38
+  ac:	eb02 1204 	add.w	r2, r2, r4, lsl #4
+  b0:	6852      	ldr	r2, [r2, #4]
+  b2:	6011      	str	r1, [r2, #0]
+  b4:	6c9a      	ldr	r2, [r3, #72]	; 0x48
+  b6:	f899 1044 	ldrb.w	r1, [r9, #68]	; 0x44
+  ba:	6011      	str	r1, [r2, #0]
+  bc:	6a1a      	ldr	r2, [r3, #32]
+  be:	7f31      	ldrb	r1, [r6, #28]
+  c0:	6b5b      	ldr	r3, [r3, #52]	; 0x34
+  c2:	6011      	str	r1, [r2, #0]
+  c4:	f895 2030 	ldrb.w	r2, [r5, #48]	; 0x30
+  c8:	601a      	str	r2, [r3, #0]
+  ca:	220f      	movs	r2, #15
+  cc:	6803      	ldr	r3, [r0, #0]
+  ce:	f8c3 8010 	str.w	r8, [r3, #16]
+  d2:	659a      	str	r2, [r3, #88]	; 0x58
+  d4:	7cc2      	ldrb	r2, [r0, #19]
+  d6:	2a00      	cmp	r2, #0
+  d8:	d031      	beq.n	13e <_ZN8SPIClass5beginEv+0x13e>
+  da:	b672      	cpsid	i
+  dc:	7cc3      	ldrb	r3, [r0, #19]
+  de:	07dc      	lsls	r4, r3, #31
+  e0:	d508      	bpl.n	f4 <_ZN8SPIClass5beginEv+0xf4>
+  e2:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+  e6:	6944      	ldr	r4, [r0, #20]
+  e8:	f8d1 2180 	ldr.w	r2, [r1, #384]	; 0x180
+  ec:	4022      	ands	r2, r4
+  ee:	6282      	str	r2, [r0, #40]	; 0x28
+  f0:	f8c1 2180 	str.w	r2, [r1, #384]	; 0x180
+  f4:	0799      	lsls	r1, r3, #30
+  f6:	d508      	bpl.n	10a <_ZN8SPIClass5beginEv+0x10a>
+  f8:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+  fc:	6984      	ldr	r4, [r0, #24]
+  fe:	f8d1 2184 	ldr.w	r2, [r1, #388]	; 0x184
+ 102:	4022      	ands	r2, r4
+ 104:	62c2      	str	r2, [r0, #44]	; 0x2c
+ 106:	f8c1 2184 	str.w	r2, [r1, #388]	; 0x184
+ 10a:	075a      	lsls	r2, r3, #29
+ 10c:	d508      	bpl.n	120 <_ZN8SPIClass5beginEv+0x120>
+ 10e:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+ 112:	69c4      	ldr	r4, [r0, #28]
+ 114:	f8d1 2188 	ldr.w	r2, [r1, #392]	; 0x188
+ 118:	4022      	ands	r2, r4
+ 11a:	6302      	str	r2, [r0, #48]	; 0x30
+ 11c:	f8c1 2188 	str.w	r2, [r1, #392]	; 0x188
+ 120:	071f      	lsls	r7, r3, #28
+ 122:	d508      	bpl.n	136 <_ZN8SPIClass5beginEv+0x136>
+ 124:	f04f 21e0 	mov.w	r1, #3758153728	; 0xe000e000
+ 128:	6a04      	ldr	r4, [r0, #32]
+ 12a:	f8d1 218c 	ldr.w	r2, [r1, #396]	; 0x18c
+ 12e:	4022      	ands	r2, r4
+ 130:	6342      	str	r2, [r0, #52]	; 0x34
+ 132:	f8c1 218c 	str.w	r2, [r1, #396]	; 0x18c
+ 136:	06de      	lsls	r6, r3, #27
+ 138:	d455      	bmi.n	1e6 <_ZN8SPIClass5beginEv+0x1e6>
+ 13a:	b662      	cpsie	i
+ 13c:	6803      	ldr	r3, [r0, #0]
+ 13e:	4c38      	ldr	r4, [pc, #224]	; (220 <_ZN8SPIClass5beginEv+0x220>)
+ 140:	6882      	ldr	r2, [r0, #8]
+ 142:	42a2      	cmp	r2, r4
+ 144:	d059      	beq.n	1fa <_ZN8SPIClass5beginEv+0x1fa>
+ 146:	4a32      	ldr	r2, [pc, #200]	; (210 <_ZN8SPIClass5beginEv+0x210>)
+ 148:	6084      	str	r4, [r0, #8]
+ 14a:	6992      	ldr	r2, [r2, #24]
+ 14c:	4935      	ldr	r1, [pc, #212]	; (224 <_ZN8SPIClass5beginEv+0x224>)
+ 14e:	f3c2 1601 	ubfx	r6, r2, #4, #2
+ 152:	f3c2 6282 	ubfx	r2, r2, #26, #3
+ 156:	4d34      	ldr	r5, [pc, #208]	; (228 <_ZN8SPIClass5beginEv+0x228>)
+ 158:	f851 1026 	ldr.w	r1, [r1, r6, lsl #2]
+ 15c:	3201      	adds	r2, #1
+ 15e:	fbb1 f2f2 	udiv	r2, r1, r2
+ 162:	42aa      	cmp	r2, r5
+ 164:	d831      	bhi.n	1ca <_ZN8SPIClass5beginEv+0x1ca>
+ 166:	2200      	movs	r2, #0
+ 168:	60c2      	str	r2, [r0, #12]
+ 16a:	2400      	movs	r4, #0
+ 16c:	2103      	movs	r1, #3
+ 16e:	611c      	str	r4, [r3, #16]
+ 170:	2407      	movs	r4, #7
+ 172:	6259      	str	r1, [r3, #36]	; 0x24
+ 174:	2101      	movs	r1, #1
+ 176:	641a      	str	r2, [r3, #64]	; 0x40
+ 178:	661c      	str	r4, [r3, #96]	; 0x60
+ 17a:	6119      	str	r1, [r3, #16]
+ 17c:	7cc3      	ldrb	r3, [r0, #19]
+ 17e:	b313      	cbz	r3, 1c6 <_ZN8SPIClass5beginEv+0x1c6>
+ 180:	07dd      	lsls	r5, r3, #31
+ 182:	d504      	bpl.n	18e <_ZN8SPIClass5beginEv+0x18e>
+ 184:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 186:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+ 18a:	f8c2 1100 	str.w	r1, [r2, #256]	; 0x100
+ 18e:	079c      	lsls	r4, r3, #30
+ 190:	d504      	bpl.n	19c <_ZN8SPIClass5beginEv+0x19c>
+ 192:	6ac1      	ldr	r1, [r0, #44]	; 0x2c
+ 194:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+ 198:	f8c2 1104 	str.w	r1, [r2, #260]	; 0x104
+ 19c:	0759      	lsls	r1, r3, #29
+ 19e:	d504      	bpl.n	1aa <_ZN8SPIClass5beginEv+0x1aa>
+ 1a0:	6b01      	ldr	r1, [r0, #48]	; 0x30
+ 1a2:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+ 1a6:	f8c2 1108 	str.w	r1, [r2, #264]	; 0x108
+ 1aa:	071a      	lsls	r2, r3, #28
+ 1ac:	d504      	bpl.n	1b8 <_ZN8SPIClass5beginEv+0x1b8>
+ 1ae:	6b41      	ldr	r1, [r0, #52]	; 0x34
+ 1b0:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+ 1b4:	f8c2 110c 	str.w	r1, [r2, #268]	; 0x10c
+ 1b8:	06db      	lsls	r3, r3, #27
+ 1ba:	d504      	bpl.n	1c6 <_ZN8SPIClass5beginEv+0x1c6>
+ 1bc:	6b82      	ldr	r2, [r0, #56]	; 0x38
+ 1be:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+ 1c2:	f8c3 2110 	str.w	r2, [r3, #272]	; 0x110
+ 1c6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1ca:	4918      	ldr	r1, [pc, #96]	; (22c <_ZN8SPIClass5beginEv+0x22c>)
+ 1cc:	fba1 5102 	umull	r5, r1, r1, r2
+ 1d0:	0d09      	lsrs	r1, r1, #20
+ 1d2:	fbb2 f2f1 	udiv	r2, r2, r1
+ 1d6:	42a2      	cmp	r2, r4
+ 1d8:	bf88      	it	hi
+ 1da:	3101      	addhi	r1, #1
+ 1dc:	f5b1 7f81 	cmp.w	r1, #258	; 0x102
+ 1e0:	d30d      	bcc.n	1fe <_ZN8SPIClass5beginEv+0x1fe>
+ 1e2:	4a13      	ldr	r2, [pc, #76]	; (230 <_ZN8SPIClass5beginEv+0x230>)
+ 1e4:	e7c0      	b.n	168 <_ZN8SPIClass5beginEv+0x168>
+ 1e6:	f04f 22e0 	mov.w	r2, #3758153728	; 0xe000e000
+ 1ea:	6a41      	ldr	r1, [r0, #36]	; 0x24
+ 1ec:	f8d2 3190 	ldr.w	r3, [r2, #400]	; 0x190
+ 1f0:	400b      	ands	r3, r1
+ 1f2:	6383      	str	r3, [r0, #56]	; 0x38
+ 1f4:	f8c2 3190 	str.w	r3, [r2, #400]	; 0x190
+ 1f8:	e79f      	b.n	13a <_ZN8SPIClass5beginEv+0x13a>
+ 1fa:	68c2      	ldr	r2, [r0, #12]
+ 1fc:	e7b5      	b.n	16a <_ZN8SPIClass5beginEv+0x16a>
+ 1fe:	2902      	cmp	r1, #2
+ 200:	d9b1      	bls.n	166 <_ZN8SPIClass5beginEv+0x166>
+ 202:	3902      	subs	r1, #2
+ 204:	084c      	lsrs	r4, r1, #1
+ 206:	0222      	lsls	r2, r4, #8
+ 208:	ea42 4204 	orr.w	r2, r2, r4, lsl #16
+ 20c:	430a      	orrs	r2, r1
+ 20e:	e7ab      	b.n	168 <_ZN8SPIClass5beginEv+0x168>
+ 210:	400fc000 	.word	0x400fc000
+ 214:	e3ffffcf 	.word	0xe3ffffcf
+ 218:	08000010 	.word	0x08000010
+ 21c:	00000000 	.word	0x00000000
+ 220:	003d0900 	.word	0x003d0900
+ 224:	00000000 	.word	0x00000000
+ 228:	003d08ff 	.word	0x003d08ff
+ 22c:	431bde83 	.word	0x431bde83
+ 230:	007f7fff 	.word	0x007f7fff
+
+Disassembly of section .text._ZN8SPIClass24setClockDivider_noInlineEm:
+
+00000000 <_ZN8SPIClass24setClockDivider_noInlineEm>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	b410      	push	{r4}
+   4:	e9d3 2400 	ldrd	r2, r4, [r3]
+   8:	6813      	ldr	r3, [r2, #0]
+   a:	4323      	orrs	r3, r4
+   c:	6013      	str	r3, [r2, #0]
+   e:	6883      	ldr	r3, [r0, #8]
+  10:	428b      	cmp	r3, r1
+  12:	d029      	beq.n	68 <_ZN8SPIClass24setClockDivider_noInlineEm+0x68>
+  14:	4b1c      	ldr	r3, [pc, #112]	; (88 <_ZN8SPIClass24setClockDivider_noInlineEm+0x88>)
+  16:	6081      	str	r1, [r0, #8]
+  18:	699b      	ldr	r3, [r3, #24]
+  1a:	4a1c      	ldr	r2, [pc, #112]	; (8c <_ZN8SPIClass24setClockDivider_noInlineEm+0x8c>)
+  1c:	f3c3 1401 	ubfx	r4, r3, #4, #2
+  20:	f3c3 6382 	ubfx	r3, r3, #26, #3
+  24:	f852 4024 	ldr.w	r4, [r2, r4, lsl #2]
+  28:	3301      	adds	r3, #1
+  2a:	fbb4 f2f3 	udiv	r2, r4, r3
+  2e:	b1b9      	cbz	r1, 60 <_ZN8SPIClass24setClockDivider_noInlineEm+0x60>
+  30:	4291      	cmp	r1, r2
+  32:	d81b      	bhi.n	6c <_ZN8SPIClass24setClockDivider_noInlineEm+0x6c>
+  34:	fbb2 f3f1 	udiv	r3, r2, r1
+  38:	fbb2 f2f3 	udiv	r2, r2, r3
+  3c:	428a      	cmp	r2, r1
+  3e:	d820      	bhi.n	82 <_ZN8SPIClass24setClockDivider_noInlineEm+0x82>
+  40:	f5b3 7f81 	cmp.w	r3, #258	; 0x102
+  44:	d314      	bcc.n	70 <_ZN8SPIClass24setClockDivider_noInlineEm+0x70>
+  46:	4912      	ldr	r1, [pc, #72]	; (90 <_ZN8SPIClass24setClockDivider_noInlineEm+0x90>)
+  48:	60c1      	str	r1, [r0, #12]
+  4a:	6803      	ldr	r3, [r0, #0]
+  4c:	2400      	movs	r4, #0
+  4e:	2003      	movs	r0, #3
+  50:	2201      	movs	r2, #1
+  52:	611c      	str	r4, [r3, #16]
+  54:	6258      	str	r0, [r3, #36]	; 0x24
+  56:	f85d 4b04 	ldr.w	r4, [sp], #4
+  5a:	6419      	str	r1, [r3, #64]	; 0x40
+  5c:	611a      	str	r2, [r3, #16]
+  5e:	4770      	bx	lr
+  60:	429c      	cmp	r4, r3
+  62:	d3f1      	bcc.n	48 <_ZN8SPIClass24setClockDivider_noInlineEm+0x48>
+  64:	1c53      	adds	r3, r2, #1
+  66:	e7eb      	b.n	40 <_ZN8SPIClass24setClockDivider_noInlineEm+0x40>
+  68:	68c1      	ldr	r1, [r0, #12]
+  6a:	e7ee      	b.n	4a <_ZN8SPIClass24setClockDivider_noInlineEm+0x4a>
+  6c:	2100      	movs	r1, #0
+  6e:	e7eb      	b.n	48 <_ZN8SPIClass24setClockDivider_noInlineEm+0x48>
+  70:	2b02      	cmp	r3, #2
+  72:	d9fb      	bls.n	6c <_ZN8SPIClass24setClockDivider_noInlineEm+0x6c>
+  74:	3b02      	subs	r3, #2
+  76:	085a      	lsrs	r2, r3, #1
+  78:	0411      	lsls	r1, r2, #16
+  7a:	ea41 2102 	orr.w	r1, r1, r2, lsl #8
+  7e:	4319      	orrs	r1, r3
+  80:	e7e2      	b.n	48 <_ZN8SPIClass24setClockDivider_noInlineEm+0x48>
+  82:	461a      	mov	r2, r3
+  84:	e7ee      	b.n	64 <_ZN8SPIClass24setClockDivider_noInlineEm+0x64>
+  86:	bf00      	nop
+  88:	400fc000 	.word	0x400fc000
+  8c:	00000000 	.word	0x00000000
+  90:	007f7fff 	.word	0x007f7fff
+
+Disassembly of section .text._ZN8SPIClass15pinIsChipSelectEh:
+
+00000000 <_ZN8SPIClass15pinIsChipSelectEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	f893 204c 	ldrb.w	r2, [r3, #76]	; 0x4c
+   6:	428a      	cmp	r2, r1
+   8:	d009      	beq.n	1e <_ZN8SPIClass15pinIsChipSelectEh+0x1e>
+   a:	f893 204d 	ldrb.w	r2, [r3, #77]	; 0x4d
+   e:	428a      	cmp	r2, r1
+  10:	d00a      	beq.n	28 <_ZN8SPIClass15pinIsChipSelectEh+0x28>
+  12:	f893 204e 	ldrb.w	r2, [r3, #78]	; 0x4e
+  16:	428a      	cmp	r2, r1
+  18:	d008      	beq.n	2c <_ZN8SPIClass15pinIsChipSelectEh+0x2c>
+  1a:	2000      	movs	r0, #0
+  1c:	4770      	bx	lr
+  1e:	2200      	movs	r2, #0
+  20:	4413      	add	r3, r2
+  22:	f893 005c 	ldrb.w	r0, [r3, #92]	; 0x5c
+  26:	4770      	bx	lr
+  28:	2201      	movs	r2, #1
+  2a:	e7f9      	b.n	20 <_ZN8SPIClass15pinIsChipSelectEh+0x20>
+  2c:	2202      	movs	r2, #2
+  2e:	e7f7      	b.n	20 <_ZN8SPIClass15pinIsChipSelectEh+0x20>
+
+Disassembly of section .text._ZN8SPIClass15pinIsChipSelectEhh:
+
+00000000 <_ZN8SPIClass15pinIsChipSelectEhh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	f893 004c 	ldrb.w	r0, [r3, #76]	; 0x4c
+   6:	4281      	cmp	r1, r0
+   8:	d009      	beq.n	1e <_ZN8SPIClass15pinIsChipSelectEhh+0x1e>
+   a:	f893 c04d 	ldrb.w	ip, [r3, #77]	; 0x4d
+   e:	458c      	cmp	ip, r1
+  10:	d020      	beq.n	54 <_ZN8SPIClass15pinIsChipSelectEhh+0x54>
+  12:	f893 c04e 	ldrb.w	ip, [r3, #78]	; 0x4e
+  16:	458c      	cmp	ip, r1
+  18:	d01e      	beq.n	58 <_ZN8SPIClass15pinIsChipSelectEhh+0x58>
+  1a:	2000      	movs	r0, #0
+  1c:	4770      	bx	lr
+  1e:	2100      	movs	r1, #0
+  20:	4419      	add	r1, r3
+  22:	f891 105c 	ldrb.w	r1, [r1, #92]	; 0x5c
+  26:	2900      	cmp	r1, #0
+  28:	d0f7      	beq.n	1a <_ZN8SPIClass15pinIsChipSelectEhh+0x1a>
+  2a:	4282      	cmp	r2, r0
+  2c:	d016      	beq.n	5c <_ZN8SPIClass15pinIsChipSelectEhh+0x5c>
+  2e:	f893 004d 	ldrb.w	r0, [r3, #77]	; 0x4d
+  32:	4290      	cmp	r0, r2
+  34:	d014      	beq.n	60 <_ZN8SPIClass15pinIsChipSelectEhh+0x60>
+  36:	f893 004e 	ldrb.w	r0, [r3, #78]	; 0x4e
+  3a:	4290      	cmp	r0, r2
+  3c:	d1ed      	bne.n	1a <_ZN8SPIClass15pinIsChipSelectEhh+0x1a>
+  3e:	2202      	movs	r2, #2
+  40:	4413      	add	r3, r2
+  42:	f893 005c 	ldrb.w	r0, [r3, #92]	; 0x5c
+  46:	2800      	cmp	r0, #0
+  48:	d0e8      	beq.n	1c <_ZN8SPIClass15pinIsChipSelectEhh+0x1c>
+  4a:	4201      	tst	r1, r0
+  4c:	bf0c      	ite	eq
+  4e:	2001      	moveq	r0, #1
+  50:	2000      	movne	r0, #0
+  52:	4770      	bx	lr
+  54:	2101      	movs	r1, #1
+  56:	e7e3      	b.n	20 <_ZN8SPIClass15pinIsChipSelectEhh+0x20>
+  58:	2102      	movs	r1, #2
+  5a:	e7e1      	b.n	20 <_ZN8SPIClass15pinIsChipSelectEhh+0x20>
+  5c:	2200      	movs	r2, #0
+  5e:	e7ef      	b.n	40 <_ZN8SPIClass15pinIsChipSelectEhh+0x40>
+  60:	2201      	movs	r2, #1
+  62:	e7ed      	b.n	40 <_ZN8SPIClass15pinIsChipSelectEhh+0x40>
+
+Disassembly of section .text._ZN8SPIClass9pinIsMOSIEh:
+
+00000000 <_ZN8SPIClass9pinIsMOSIEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	f893 2024 	ldrb.w	r2, [r3, #36]	; 0x24
+   6:	428a      	cmp	r2, r1
+   8:	d006      	beq.n	18 <_ZN8SPIClass9pinIsMOSIEh+0x18>
+   a:	f893 0025 	ldrb.w	r0, [r3, #37]	; 0x25
+   e:	1a40      	subs	r0, r0, r1
+  10:	fab0 f080 	clz	r0, r0
+  14:	0940      	lsrs	r0, r0, #5
+  16:	4770      	bx	lr
+  18:	2001      	movs	r0, #1
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass9pinIsMISOEh:
+
+00000000 <_ZN8SPIClass9pinIsMISOEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	7c1a      	ldrb	r2, [r3, #16]
+   4:	428a      	cmp	r2, r1
+   6:	d005      	beq.n	14 <_ZN8SPIClass9pinIsMISOEh+0x14>
+   8:	7c58      	ldrb	r0, [r3, #17]
+   a:	1a40      	subs	r0, r0, r1
+   c:	fab0 f080 	clz	r0, r0
+  10:	0940      	lsrs	r0, r0, #5
+  12:	4770      	bx	lr
+  14:	2001      	movs	r0, #1
+  16:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass8pinIsSCKEh:
+
+00000000 <_ZN8SPIClass8pinIsSCKEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	f893 2038 	ldrb.w	r2, [r3, #56]	; 0x38
+   6:	428a      	cmp	r2, r1
+   8:	d006      	beq.n	18 <_ZN8SPIClass8pinIsSCKEh+0x18>
+   a:	f893 0039 	ldrb.w	r0, [r3, #57]	; 0x39
+   e:	1a40      	subs	r0, r0, r1
+  10:	fab0 f080 	clz	r0, r0
+  14:	0940      	lsrs	r0, r0, #5
+  16:	4770      	bx	lr
+  18:	2001      	movs	r0, #1
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass5setCSEh:
+
+00000000 <_ZN8SPIClass5setCSEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	f893 204c 	ldrb.w	r2, [r3, #76]	; 0x4c
+   6:	428a      	cmp	r2, r1
+   8:	d009      	beq.n	1e <_ZN8SPIClass5setCSEh+0x1e>
+   a:	f893 204d 	ldrb.w	r2, [r3, #77]	; 0x4d
+   e:	428a      	cmp	r2, r1
+  10:	d019      	beq.n	46 <_ZN8SPIClass5setCSEh+0x46>
+  12:	f893 204e 	ldrb.w	r2, [r3, #78]	; 0x4e
+  16:	428a      	cmp	r2, r1
+  18:	d017      	beq.n	4a <_ZN8SPIClass5setCSEh+0x4a>
+  1a:	2000      	movs	r0, #0
+  1c:	4770      	bx	lr
+  1e:	2000      	movs	r0, #0
+  20:	4a0b      	ldr	r2, [pc, #44]	; (50 <_ZN8SPIClass5setCSEh+0x50>)
+  22:	eb03 0c80 	add.w	ip, r3, r0, lsl #2
+  26:	4403      	add	r3, r0
+  28:	eb02 1201 	add.w	r2, r2, r1, lsl #4
+  2c:	f8dc 1050 	ldr.w	r1, [ip, #80]	; 0x50
+  30:	6852      	ldr	r2, [r2, #4]
+  32:	6011      	str	r1, [r2, #0]
+  34:	f8dc 2064 	ldr.w	r2, [ip, #100]	; 0x64
+  38:	b112      	cbz	r2, 40 <_ZN8SPIClass5setCSEh+0x40>
+  3a:	f893 105f 	ldrb.w	r1, [r3, #95]	; 0x5f
+  3e:	6011      	str	r1, [r2, #0]
+  40:	f893 005c 	ldrb.w	r0, [r3, #92]	; 0x5c
+  44:	4770      	bx	lr
+  46:	2001      	movs	r0, #1
+  48:	e7ea      	b.n	20 <_ZN8SPIClass5setCSEh+0x20>
+  4a:	2002      	movs	r0, #2
+  4c:	e7e8      	b.n	20 <_ZN8SPIClass5setCSEh+0x20>
+  4e:	bf00      	nop
+  50:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass7setMOSIEh:
+
+00000000 <_ZN8SPIClass7setMOSIEh>:
+   0:	6842      	ldr	r2, [r0, #4]
+   2:	7c43      	ldrb	r3, [r0, #17]
+   4:	4413      	add	r3, r2
+   6:	f893 3024 	ldrb.w	r3, [r3, #36]	; 0x24
+   a:	428b      	cmp	r3, r1
+   c:	d007      	beq.n	1e <_ZN8SPIClass7setMOSIEh+0x1e>
+   e:	f892 3024 	ldrb.w	r3, [r2, #36]	; 0x24
+  12:	428b      	cmp	r3, r1
+  14:	d004      	beq.n	20 <_ZN8SPIClass7setMOSIEh+0x20>
+  16:	f892 3025 	ldrb.w	r3, [r2, #37]	; 0x25
+  1a:	428b      	cmp	r3, r1
+  1c:	d021      	beq.n	62 <_ZN8SPIClass7setMOSIEh+0x62>
+  1e:	4770      	bx	lr
+  20:	2300      	movs	r3, #0
+  22:	469c      	mov	ip, r3
+  24:	b470      	push	{r4, r5, r6}
+  26:	6814      	ldr	r4, [r2, #0]
+  28:	6825      	ldr	r5, [r4, #0]
+  2a:	6854      	ldr	r4, [r2, #4]
+  2c:	4225      	tst	r5, r4
+  2e:	d015      	beq.n	5c <_ZN8SPIClass7setMOSIEh+0x5c>
+  30:	4c0d      	ldr	r4, [pc, #52]	; (68 <_ZN8SPIClass7setMOSIEh+0x68>)
+  32:	26b8      	movs	r6, #184	; 0xb8
+  34:	eb04 1101 	add.w	r1, r4, r1, lsl #4
+  38:	688d      	ldr	r5, [r1, #8]
+  3a:	eb02 010c 	add.w	r1, r2, ip
+  3e:	f10c 0c0a 	add.w	ip, ip, #10
+  42:	602e      	str	r6, [r5, #0]
+  44:	f852 502c 	ldr.w	r5, [r2, ip, lsl #2]
+  48:	f891 c024 	ldrb.w	ip, [r1, #36]	; 0x24
+  4c:	6b52      	ldr	r2, [r2, #52]	; 0x34
+  4e:	eb04 140c 	add.w	r4, r4, ip, lsl #4
+  52:	6864      	ldr	r4, [r4, #4]
+  54:	6025      	str	r5, [r4, #0]
+  56:	f891 1030 	ldrb.w	r1, [r1, #48]	; 0x30
+  5a:	6011      	str	r1, [r2, #0]
+  5c:	7443      	strb	r3, [r0, #17]
+  5e:	bc70      	pop	{r4, r5, r6}
+  60:	4770      	bx	lr
+  62:	2301      	movs	r3, #1
+  64:	469c      	mov	ip, r3
+  66:	e7dd      	b.n	24 <_ZN8SPIClass7setMOSIEh+0x24>
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass7setMISOEh:
+
+00000000 <_ZN8SPIClass7setMISOEh>:
+   0:	6842      	ldr	r2, [r0, #4]
+   2:	7c03      	ldrb	r3, [r0, #16]
+   4:	4413      	add	r3, r2
+   6:	7c1b      	ldrb	r3, [r3, #16]
+   8:	428b      	cmp	r3, r1
+   a:	d005      	beq.n	18 <_ZN8SPIClass7setMISOEh+0x18>
+   c:	7c13      	ldrb	r3, [r2, #16]
+   e:	428b      	cmp	r3, r1
+  10:	d003      	beq.n	1a <_ZN8SPIClass7setMISOEh+0x1a>
+  12:	7c53      	ldrb	r3, [r2, #17]
+  14:	428b      	cmp	r3, r1
+  16:	d020      	beq.n	5a <_ZN8SPIClass7setMISOEh+0x5a>
+  18:	4770      	bx	lr
+  1a:	2300      	movs	r3, #0
+  1c:	469c      	mov	ip, r3
+  1e:	b470      	push	{r4, r5, r6}
+  20:	6814      	ldr	r4, [r2, #0]
+  22:	6825      	ldr	r5, [r4, #0]
+  24:	6854      	ldr	r4, [r2, #4]
+  26:	4225      	tst	r5, r4
+  28:	d014      	beq.n	54 <_ZN8SPIClass7setMISOEh+0x54>
+  2a:	4c0d      	ldr	r4, [pc, #52]	; (60 <_ZN8SPIClass7setMISOEh+0x60>)
+  2c:	26b8      	movs	r6, #184	; 0xb8
+  2e:	eb04 1101 	add.w	r1, r4, r1, lsl #4
+  32:	688d      	ldr	r5, [r1, #8]
+  34:	eb02 010c 	add.w	r1, r2, ip
+  38:	eb02 0c8c 	add.w	ip, r2, ip, lsl #2
+  3c:	6a12      	ldr	r2, [r2, #32]
+  3e:	602e      	str	r6, [r5, #0]
+  40:	f8dc 5014 	ldr.w	r5, [ip, #20]
+  44:	f891 c010 	ldrb.w	ip, [r1, #16]
+  48:	eb04 140c 	add.w	r4, r4, ip, lsl #4
+  4c:	6864      	ldr	r4, [r4, #4]
+  4e:	6025      	str	r5, [r4, #0]
+  50:	7f09      	ldrb	r1, [r1, #28]
+  52:	6011      	str	r1, [r2, #0]
+  54:	7403      	strb	r3, [r0, #16]
+  56:	bc70      	pop	{r4, r5, r6}
+  58:	4770      	bx	lr
+  5a:	2301      	movs	r3, #1
+  5c:	469c      	mov	ip, r3
+  5e:	e7de      	b.n	1e <_ZN8SPIClass7setMISOEh+0x1e>
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass6setSCKEh:
+
+00000000 <_ZN8SPIClass6setSCKEh>:
+   0:	6842      	ldr	r2, [r0, #4]
+   2:	7c83      	ldrb	r3, [r0, #18]
+   4:	4413      	add	r3, r2
+   6:	f893 3038 	ldrb.w	r3, [r3, #56]	; 0x38
+   a:	428b      	cmp	r3, r1
+   c:	d007      	beq.n	1e <_ZN8SPIClass6setSCKEh+0x1e>
+   e:	f892 3038 	ldrb.w	r3, [r2, #56]	; 0x38
+  12:	428b      	cmp	r3, r1
+  14:	d004      	beq.n	20 <_ZN8SPIClass6setSCKEh+0x20>
+  16:	f892 3039 	ldrb.w	r3, [r2, #57]	; 0x39
+  1a:	428b      	cmp	r3, r1
+  1c:	d021      	beq.n	62 <_ZN8SPIClass6setSCKEh+0x62>
+  1e:	4770      	bx	lr
+  20:	2300      	movs	r3, #0
+  22:	469c      	mov	ip, r3
+  24:	b470      	push	{r4, r5, r6}
+  26:	6814      	ldr	r4, [r2, #0]
+  28:	6825      	ldr	r5, [r4, #0]
+  2a:	6854      	ldr	r4, [r2, #4]
+  2c:	4225      	tst	r5, r4
+  2e:	d015      	beq.n	5c <_ZN8SPIClass6setSCKEh+0x5c>
+  30:	4c0d      	ldr	r4, [pc, #52]	; (68 <_ZN8SPIClass6setSCKEh+0x68>)
+  32:	26b8      	movs	r6, #184	; 0xb8
+  34:	eb04 1101 	add.w	r1, r4, r1, lsl #4
+  38:	688d      	ldr	r5, [r1, #8]
+  3a:	eb02 010c 	add.w	r1, r2, ip
+  3e:	eb02 0c8c 	add.w	ip, r2, ip, lsl #2
+  42:	6c92      	ldr	r2, [r2, #72]	; 0x48
+  44:	602e      	str	r6, [r5, #0]
+  46:	f8dc 503c 	ldr.w	r5, [ip, #60]	; 0x3c
+  4a:	f891 c038 	ldrb.w	ip, [r1, #56]	; 0x38
+  4e:	eb04 140c 	add.w	r4, r4, ip, lsl #4
+  52:	6864      	ldr	r4, [r4, #4]
+  54:	6025      	str	r5, [r4, #0]
+  56:	f891 1044 	ldrb.w	r1, [r1, #68]	; 0x44
+  5a:	6011      	str	r1, [r2, #0]
+  5c:	7483      	strb	r3, [r0, #18]
+  5e:	bc70      	pop	{r4, r5, r6}
+  60:	4770      	bx	lr
+  62:	2301      	movs	r3, #1
+  64:	469c      	mov	ip, r3
+  66:	e7dd      	b.n	24 <_ZN8SPIClass6setSCKEh+0x24>
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass11setBitOrderEh:
+
+00000000 <_ZN8SPIClass11setBitOrderEh>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	b410      	push	{r4}
+   4:	e9d3 2400 	ldrd	r2, r4, [r3]
+   8:	6813      	ldr	r3, [r2, #0]
+   a:	4323      	orrs	r3, r4
+   c:	6013      	str	r3, [r2, #0]
+   e:	6802      	ldr	r2, [r0, #0]
+  10:	6e13      	ldr	r3, [r2, #96]	; 0x60
+  12:	b929      	cbnz	r1, 20 <_ZN8SPIClass11setBitOrderEh+0x20>
+  14:	f443 0300 	orr.w	r3, r3, #8388608	; 0x800000
+  18:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1c:	6613      	str	r3, [r2, #96]	; 0x60
+  1e:	4770      	bx	lr
+  20:	f423 0300 	bic.w	r3, r3, #8388608	; 0x800000
+  24:	f85d 4b04 	ldr.w	r4, [sp], #4
+  28:	6613      	str	r3, [r2, #96]	; 0x60
+  2a:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass11setDataModeEh:
+
+00000000 <_ZN8SPIClass11setDataModeEh>:
+   0:	e9d0 2300 	ldrd	r2, r3, [r0]
+   4:	b410      	push	{r4}
+   6:	e9d3 0400 	ldrd	r0, r4, [r3]
+   a:	6803      	ldr	r3, [r0, #0]
+   c:	4323      	orrs	r3, r4
+   e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  12:	6003      	str	r3, [r0, #0]
+  14:	0708      	lsls	r0, r1, #28
+  16:	6e13      	ldr	r3, [r2, #96]	; 0x60
+  18:	f023 4340 	bic.w	r3, r3, #3221225472	; 0xc0000000
+  1c:	bf48      	it	mi
+  1e:	f043 4300 	orrmi.w	r3, r3, #2147483648	; 0x80000000
+  22:	0749      	lsls	r1, r1, #29
+  24:	bf48      	it	mi
+  26:	f043 4380 	orrmi.w	r3, r3, #1073741824	; 0x40000000
+  2a:	6613      	str	r3, [r2, #96]	; 0x60
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+
+Disassembly of section .text._Z15_spi_dma_rxISR2v:
+
+00000000 <_Z15_spi_dma_rxISR2v>:
+   0:	4b32      	ldr	r3, [pc, #200]	; (cc <_Z15_spi_dma_rxISR2v+0xcc>)
+   2:	4933      	ldr	r1, [pc, #204]	; (d0 <_Z15_spi_dma_rxISR2v+0xd0>)
+   4:	b530      	push	{r4, r5, lr}
+   6:	e9d3 5411 	ldrd	r5, r4, [r3, #68]	; 0x44
+   a:	7920      	ldrb	r0, [r4, #4]
+   c:	77c8      	strb	r0, [r1, #31]
+   e:	6c1a      	ldr	r2, [r3, #64]	; 0x40
+  10:	f895 c004 	ldrb.w	ip, [r5, #4]
+  14:	f881 c01c 	strb.w	ip, [r1, #28]
+  18:	7708      	strb	r0, [r1, #28]
+  1a:	b152      	cbz	r2, 32 <_Z15_spi_dma_rxISR2v+0x32>
+  1c:	f5b2 4f00 	cmp.w	r2, #32768	; 0x8000
+  20:	d323      	bcc.n	6a <_Z15_spi_dma_rxISR2v+0x6a>
+  22:	492c      	ldr	r1, [pc, #176]	; (d4 <_Z15_spi_dma_rxISR2v+0xd4>)
+  24:	4411      	add	r1, r2
+  26:	4a2a      	ldr	r2, [pc, #168]	; (d0 <_Z15_spi_dma_rxISR2v+0xd0>)
+  28:	6419      	str	r1, [r3, #64]	; 0x40
+  2a:	76d0      	strb	r0, [r2, #27]
+  2c:	f882 c01b 	strb.w	ip, [r2, #27]
+  30:	bd30      	pop	{r4, r5, pc}
+  32:	6819      	ldr	r1, [r3, #0]
+  34:	240f      	movs	r4, #15
+  36:	6cd8      	ldr	r0, [r3, #76]	; 0x4c
+  38:	658c      	str	r4, [r1, #88]	; 0x58
+  3a:	f240 3401 	movw	r4, #769	; 0x301
+  3e:	61ca      	str	r2, [r1, #28]
+  40:	610c      	str	r4, [r1, #16]
+  42:	f44f 547c 	mov.w	r4, #16128	; 0x3f00
+  46:	614c      	str	r4, [r1, #20]
+  48:	2103      	movs	r1, #3
+  4a:	6804      	ldr	r4, [r0, #0]
+  4c:	6824      	ldr	r4, [r4, #0]
+  4e:	f883 103d 	strb.w	r1, [r3, #61]	; 0x3d
+  52:	4b21      	ldr	r3, [pc, #132]	; (d8 <_Z15_spi_dma_rxISR2v+0xd8>)
+  54:	429c      	cmp	r4, r3
+  56:	d126      	bne.n	a6 <_Z15_spi_dma_rxISR2v+0xa6>
+  58:	7f03      	ldrb	r3, [r0, #28]
+  5a:	6042      	str	r2, [r0, #4]
+  5c:	2b02      	cmp	r3, #2
+  5e:	60c2      	str	r2, [r0, #12]
+  60:	d126      	bne.n	b0 <_Z15_spi_dma_rxISR2v+0xb0>
+  62:	6883      	ldr	r3, [r0, #8]
+  64:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  68:	4718      	bx	r3
+  6a:	682d      	ldr	r5, [r5, #0]
+  6c:	8be9      	ldrh	r1, [r5, #30]
+  6e:	0409      	lsls	r1, r1, #16
+  70:	d422      	bmi.n	b8 <_Z15_spi_dma_rxISR2v+0xb8>
+  72:	b292      	uxth	r2, r2
+  74:	83ea      	strh	r2, [r5, #30]
+  76:	6821      	ldr	r1, [r4, #0]
+  78:	8bec      	ldrh	r4, [r5, #30]
+  7a:	b2a4      	uxth	r4, r4
+  7c:	82ec      	strh	r4, [r5, #22]
+  7e:	8bcc      	ldrh	r4, [r1, #30]
+  80:	0424      	lsls	r4, r4, #16
+  82:	d505      	bpl.n	90 <_Z15_spi_dma_rxISR2v+0x90>
+  84:	8bcc      	ldrh	r4, [r1, #30]
+  86:	f3c2 0208 	ubfx	r2, r2, #0, #9
+  8a:	f404 447e 	and.w	r4, r4, #65024	; 0xfe00
+  8e:	4322      	orrs	r2, r4
+  90:	83ca      	strh	r2, [r1, #30]
+  92:	8bca      	ldrh	r2, [r1, #30]
+  94:	b292      	uxth	r2, r2
+  96:	82ca      	strh	r2, [r1, #22]
+  98:	2100      	movs	r1, #0
+  9a:	4a0d      	ldr	r2, [pc, #52]	; (d0 <_Z15_spi_dma_rxISR2v+0xd0>)
+  9c:	6419      	str	r1, [r3, #64]	; 0x40
+  9e:	76d0      	strb	r0, [r2, #27]
+  a0:	f882 c01b 	strb.w	ip, [r2, #27]
+  a4:	bd30      	pop	{r4, r5, pc}
+  a6:	4623      	mov	r3, r4
+  a8:	4611      	mov	r1, r2
+  aa:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  ae:	4718      	bx	r3
+  b0:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  b4:	f7ff bffe 	b.w	0 <_ZN14EventResponder24triggerEventNotImmediateEv>
+  b8:	8be9      	ldrh	r1, [r5, #30]
+  ba:	f3c2 0e08 	ubfx	lr, r2, #0, #9
+  be:	b292      	uxth	r2, r2
+  c0:	f401 417e 	and.w	r1, r1, #65024	; 0xfe00
+  c4:	ea41 010e 	orr.w	r1, r1, lr
+  c8:	83e9      	strh	r1, [r5, #30]
+  ca:	e7d4      	b.n	76 <_Z15_spi_dma_rxISR2v+0x76>
+  cc:	00000000 	.word	0x00000000
+  d0:	400e8000 	.word	0x400e8000
+  d4:	ffff8001 	.word	0xffff8001
+  d8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t:
+
+00000000 <_ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t>:
+   0:	299f      	cmp	r1, #159	; 0x9f
+   2:	d80f      	bhi.n	24 <_ZN8SPIClass14usingInterruptE12IRQ_NUMBER_t+0x24>
+   4:	094b      	lsrs	r3, r1, #5
+   6:	2201      	movs	r2, #1
+   8:	f001 011f 	and.w	r1, r1, #31
+   c:	fa02 fc03 	lsl.w	ip, r2, r3
+  10:	eb00 0383 	add.w	r3, r0, r3, lsl #2
+  14:	408a      	lsls	r2, r1
+  16:	7cc1      	ldrb	r1, [r0, #19]
+  18:	ea41 010c 	orr.w	r1, r1, ip
+  1c:	74c1      	strb	r1, [r0, #19]
+  1e:	6959      	ldr	r1, [r3, #20]
+  20:	4311      	orrs	r1, r2
+  22:	6159      	str	r1, [r3, #20]
+  24:	4770      	bx	lr
+  26:	bf00      	nop
+
+Disassembly of section .text._ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t:
+
+00000000 <_ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t>:
+   0:	299f      	cmp	r1, #159	; 0x9f
+   2:	d818      	bhi.n	36 <_ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t+0x36>
+   4:	2201      	movs	r2, #1
+   6:	b500      	push	{lr}
+   8:	ea4f 1e51 	mov.w	lr, r1, lsr #5
+   c:	f001 011f 	and.w	r1, r1, #31
+  10:	eb00 0c8e 	add.w	ip, r0, lr, lsl #2
+  14:	fa02 f101 	lsl.w	r1, r2, r1
+  18:	f8dc 3014 	ldr.w	r3, [ip, #20]
+  1c:	ea23 0301 	bic.w	r3, r3, r1
+  20:	f8cc 3014 	str.w	r3, [ip, #20]
+  24:	b92b      	cbnz	r3, 32 <_ZN8SPIClass17notUsingInterruptE12IRQ_NUMBER_t+0x32>
+  26:	7cc3      	ldrb	r3, [r0, #19]
+  28:	fa02 f20e 	lsl.w	r2, r2, lr
+  2c:	ea23 0302 	bic.w	r3, r3, r2
+  30:	74c3      	strb	r3, [r0, #19]
+  32:	f85d fb04 	ldr.w	pc, [sp], #4
+  36:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass8transferEPKvPvj:
+
+00000000 <_ZN8SPIClass8transferEPKvPvj>:
+   0:	b10b      	cbz	r3, 6 <_ZN8SPIClass8transferEPKvPvj+0x6>
+   2:	f7ff bffe 	b.w	0 <_ZN8SPIClass8transferEPKvPvj>
+   6:	4770      	bx	lr
+
+Disassembly of section .text._ZN8SPIClass10transfer16EPKvPvj:
+
+00000000 <_ZN8SPIClass10transfer16EPKvPvj>:
+   0:	2b00      	cmp	r3, #0
+   2:	d036      	beq.n	72 <_ZN8SPIClass10transfer16EPKvPvj+0x72>
+   4:	b4f0      	push	{r4, r5, r6, r7}
+   6:	6804      	ldr	r4, [r0, #0]
+   8:	f240 2701 	movw	r7, #513	; 0x201
+   c:	4d19      	ldr	r5, [pc, #100]	; (74 <_ZN8SPIClass10transfer16EPKvPvj+0x74>)
+   e:	461e      	mov	r6, r3
+  10:	f8d4 c060 	ldr.w	ip, [r4, #96]	; 0x60
+  14:	ea0c 0505 	and.w	r5, ip, r5
+  18:	f045 050f 	orr.w	r5, r5, #15
+  1c:	6625      	str	r5, [r4, #96]	; 0x60
+  1e:	6127      	str	r7, [r4, #16]
+  20:	b321      	cbz	r1, 6c <_ZN8SPIClass10transfer16EPKvPvj+0x6c>
+  22:	f831 5b02 	ldrh.w	r5, [r1], #2
+  26:	3b01      	subs	r3, #1
+  28:	6665      	str	r5, [r4, #100]	; 0x64
+  2a:	6f25      	ldr	r5, [r4, #112]	; 0x70
+  2c:	07af      	lsls	r7, r5, #30
+  2e:	d406      	bmi.n	3e <_ZN8SPIClass10transfer16EPKvPvj+0x3e>
+  30:	4615      	mov	r5, r2
+  32:	3e01      	subs	r6, #1
+  34:	6f67      	ldr	r7, [r4, #116]	; 0x74
+  36:	b112      	cbz	r2, 3e <_ZN8SPIClass10transfer16EPKvPvj+0x3e>
+  38:	f825 7b02 	strh.w	r7, [r5], #2
+  3c:	462a      	mov	r2, r5
+  3e:	6965      	ldr	r5, [r4, #20]
+  40:	07ed      	lsls	r5, r5, #31
+  42:	d5f2      	bpl.n	2a <_ZN8SPIClass10transfer16EPKvPvj+0x2a>
+  44:	2b00      	cmp	r3, #0
+  46:	d1eb      	bne.n	20 <_ZN8SPIClass10transfer16EPKvPvj+0x20>
+  48:	b166      	cbz	r6, 64 <_ZN8SPIClass10transfer16EPKvPvj+0x64>
+  4a:	6f23      	ldr	r3, [r4, #112]	; 0x70
+  4c:	079b      	lsls	r3, r3, #30
+  4e:	d4fb      	bmi.n	48 <_ZN8SPIClass10transfer16EPKvPvj+0x48>
+  50:	4613      	mov	r3, r2
+  52:	3e01      	subs	r6, #1
+  54:	6f61      	ldr	r1, [r4, #116]	; 0x74
+  56:	2a00      	cmp	r2, #0
+  58:	d0f6      	beq.n	48 <_ZN8SPIClass10transfer16EPKvPvj+0x48>
+  5a:	f823 1b02 	strh.w	r1, [r3], #2
+  5e:	461a      	mov	r2, r3
+  60:	2e00      	cmp	r6, #0
+  62:	d1f2      	bne.n	4a <_ZN8SPIClass10transfer16EPKvPvj+0x4a>
+  64:	f8c4 c060 	str.w	ip, [r4, #96]	; 0x60
+  68:	bcf0      	pop	{r4, r5, r6, r7}
+  6a:	4770      	bx	lr
+  6c:	f890 503c 	ldrb.w	r5, [r0, #60]	; 0x3c
+  70:	e7d9      	b.n	26 <_ZN8SPIClass10transfer16EPKvPvj+0x26>
+  72:	4770      	bx	lr
+  74:	fffff000 	.word	0xfffff000
+
+Disassembly of section .text._ZN8SPIClass10transfer32EPKvPvj:
+
+00000000 <_ZN8SPIClass10transfer32EPKvPvj>:
+   0:	2b00      	cmp	r3, #0
+   2:	d038      	beq.n	76 <_ZN8SPIClass10transfer32EPKvPvj+0x76>
+   4:	b4f0      	push	{r4, r5, r6, r7}
+   6:	6804      	ldr	r4, [r0, #0]
+   8:	f240 2701 	movw	r7, #513	; 0x201
+   c:	4d1a      	ldr	r5, [pc, #104]	; (78 <_ZN8SPIClass10transfer32EPKvPvj+0x78>)
+   e:	461e      	mov	r6, r3
+  10:	f8d4 c060 	ldr.w	ip, [r4, #96]	; 0x60
+  14:	ea0c 0505 	and.w	r5, ip, r5
+  18:	f045 051f 	orr.w	r5, r5, #31
+  1c:	6625      	str	r5, [r4, #96]	; 0x60
+  1e:	6127      	str	r7, [r4, #16]
+  20:	b331      	cbz	r1, 70 <_ZN8SPIClass10transfer32EPKvPvj+0x70>
+  22:	680d      	ldr	r5, [r1, #0]
+  24:	ea4f 4535 	mov.w	r5, r5, ror #16
+  28:	3104      	adds	r1, #4
+  2a:	3b01      	subs	r3, #1
+  2c:	6665      	str	r5, [r4, #100]	; 0x64
+  2e:	6f25      	ldr	r5, [r4, #112]	; 0x70
+  30:	07af      	lsls	r7, r5, #30
+  32:	d406      	bmi.n	42 <_ZN8SPIClass10transfer32EPKvPvj+0x42>
+  34:	4615      	mov	r5, r2
+  36:	3e01      	subs	r6, #1
+  38:	6f67      	ldr	r7, [r4, #116]	; 0x74
+  3a:	b112      	cbz	r2, 42 <_ZN8SPIClass10transfer32EPKvPvj+0x42>
+  3c:	f845 7b04 	str.w	r7, [r5], #4
+  40:	462a      	mov	r2, r5
+  42:	6965      	ldr	r5, [r4, #20]
+  44:	07ed      	lsls	r5, r5, #31
+  46:	d5f2      	bpl.n	2e <_ZN8SPIClass10transfer32EPKvPvj+0x2e>
+  48:	2b00      	cmp	r3, #0
+  4a:	d1e9      	bne.n	20 <_ZN8SPIClass10transfer32EPKvPvj+0x20>
+  4c:	b166      	cbz	r6, 68 <_ZN8SPIClass10transfer32EPKvPvj+0x68>
+  4e:	6f23      	ldr	r3, [r4, #112]	; 0x70
+  50:	079b      	lsls	r3, r3, #30
+  52:	d4fb      	bmi.n	4c <_ZN8SPIClass10transfer32EPKvPvj+0x4c>
+  54:	4613      	mov	r3, r2
+  56:	3e01      	subs	r6, #1
+  58:	6f61      	ldr	r1, [r4, #116]	; 0x74
+  5a:	2a00      	cmp	r2, #0
+  5c:	d0f6      	beq.n	4c <_ZN8SPIClass10transfer32EPKvPvj+0x4c>
+  5e:	f843 1b04 	str.w	r1, [r3], #4
+  62:	461a      	mov	r2, r3
+  64:	2e00      	cmp	r6, #0
+  66:	d1f2      	bne.n	4e <_ZN8SPIClass10transfer32EPKvPvj+0x4e>
+  68:	f8c4 c060 	str.w	ip, [r4, #96]	; 0x60
+  6c:	bcf0      	pop	{r4, r5, r6, r7}
+  6e:	4770      	bx	lr
+  70:	f890 503c 	ldrb.w	r5, [r0, #60]	; 0x3c
+  74:	e7d8      	b.n	28 <_ZN8SPIClass10transfer32EPKvPvj+0x28>
+  76:	4770      	bx	lr
+  78:	fffff000 	.word	0xfffff000
+
+Disassembly of section .text._ZN8SPIClass3endEv:
+
+00000000 <_ZN8SPIClass3endEv>:
+   0:	6843      	ldr	r3, [r0, #4]
+   2:	e9d3 1200 	ldrd	r1, r2, [r3]
+   6:	6809      	ldr	r1, [r1, #0]
+   8:	4211      	tst	r1, r2
+   a:	d100      	bne.n	e <_ZN8SPIClass3endEv+0xe>
+   c:	4770      	bx	lr
+   e:	b510      	push	{r4, lr}
+  10:	6802      	ldr	r2, [r0, #0]
+  12:	4604      	mov	r4, r0
+  14:	2000      	movs	r0, #0
+  16:	2105      	movs	r1, #5
+  18:	6110      	str	r0, [r2, #16]
+  1a:	7c22      	ldrb	r2, [r4, #16]
+  1c:	4413      	add	r3, r2
+  1e:	7c18      	ldrb	r0, [r3, #16]
+  20:	f7ff fffe 	bl	0 <pinMode>
+  24:	7c62      	ldrb	r2, [r4, #17]
+  26:	6863      	ldr	r3, [r4, #4]
+  28:	2105      	movs	r1, #5
+  2a:	4413      	add	r3, r2
+  2c:	f893 0024 	ldrb.w	r0, [r3, #36]	; 0x24
+  30:	f7ff fffe 	bl	0 <pinMode>
+  34:	6863      	ldr	r3, [r4, #4]
+  36:	7ca2      	ldrb	r2, [r4, #18]
+  38:	2105      	movs	r1, #5
+  3a:	4413      	add	r3, r2
+  3c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  40:	f893 0038 	ldrb.w	r0, [r3, #56]	; 0x38
+  44:	f7ff bffe 	b.w	0 <pinMode>
+
+Disassembly of section .text._ZN8SPIClass15initDMAChannelsEv:
+
+00000000 <_ZN8SPIClass15initDMAChannelsEv>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4604      	mov	r4, r0
+   6:	2008      	movs	r0, #8
+   8:	f7ff fffe 	bl	0 <_Znwj>
+   c:	4605      	mov	r5, r0
+   e:	2100      	movs	r1, #0
+  10:	f7ff fffe 	bl	0 <_ZN10DMAChannel5beginEb>
+  14:	6465      	str	r5, [r4, #68]	; 0x44
+  16:	2008      	movs	r0, #8
+  18:	f7ff fffe 	bl	0 <_Znwj>
+  1c:	4605      	mov	r5, r0
+  1e:	2100      	movs	r1, #0
+  20:	f7ff fffe 	bl	0 <_ZN10DMAChannel5beginEb>
+  24:	f895 c004 	ldrb.w	ip, [r5, #4]
+  28:	4b41      	ldr	r3, [pc, #260]	; (130 <_ZN8SPIClass15initDMAChannelsEv+0x130>)
+  2a:	2000      	movs	r0, #0
+  2c:	64a5      	str	r5, [r4, #72]	; 0x48
+  2e:	f883 c01a 	strb.w	ip, [r3, #26]
+  32:	6822      	ldr	r2, [r4, #0]
+  34:	682b      	ldr	r3, [r5, #0]
+  36:	f102 0174 	add.w	r1, r2, #116	; 0x74
+  3a:	8098      	strh	r0, [r3, #4]
+  3c:	f1b1 4f80 	cmp.w	r1, #1073741824	; 0x40000000
+  40:	6019      	str	r1, [r3, #0]
+  42:	71d8      	strb	r0, [r3, #7]
+  44:	d35b      	bcc.n	fe <_ZN8SPIClass15initDMAChannelsEv+0xfe>
+  46:	6899      	ldr	r1, [r3, #8]
+  48:	2900      	cmp	r1, #0
+  4a:	d058      	beq.n	fe <_ZN8SPIClass15initDMAChannelsEv+0xfe>
+  4c:	8b99      	ldrh	r1, [r3, #28]
+  4e:	2700      	movs	r7, #0
+  50:	6860      	ldr	r0, [r4, #4]
+  52:	fa0f fc8c 	sxth.w	ip, ip
+  56:	b289      	uxth	r1, r1
+  58:	60df      	str	r7, [r3, #12]
+  5a:	f8d0 a00c 	ldr.w	sl, [r0, #12]
+  5e:	3264      	adds	r2, #100	; 0x64
+  60:	f041 0108 	orr.w	r1, r1, #8
+  64:	f1b2 4f80 	cmp.w	r2, #1073741824	; 0x40000000
+  68:	8399      	strh	r1, [r3, #28]
+  6a:	4932      	ldr	r1, [pc, #200]	; (134 <_ZN8SPIClass15initDMAChannelsEv+0x134>)
+  6c:	f890 8009 	ldrb.w	r8, [r0, #9]
+  70:	792e      	ldrb	r6, [r5, #4]
+  72:	f008 087f 	and.w	r8, r8, #127	; 0x7f
+  76:	f006 091f 	and.w	r9, r6, #31
+  7a:	eb01 1156 	add.w	r1, r1, r6, lsr #5
+  7e:	f106 0e10 	add.w	lr, r6, #16
+  82:	f04f 0601 	mov.w	r6, #1
+  86:	f048 4800 	orr.w	r8, r8, #2147483648	; 0x80000000
+  8a:	ea4f 0181 	mov.w	r1, r1, lsl #2
+  8e:	fa06 f609 	lsl.w	r6, r6, r9
+  92:	f8df 90a4 	ldr.w	r9, [pc, #164]	; 138 <_ZN8SPIClass15initDMAChannelsEv+0x138>
+  96:	f849 702c 	str.w	r7, [r9, ip, lsl #2]
+  9a:	f849 802c 	str.w	r8, [r9, ip, lsl #2]
+  9e:	f8df c09c 	ldr.w	ip, [pc, #156]	; 13c <_ZN8SPIClass15initDMAChannelsEv+0x13c>
+  a2:	f84c a02e 	str.w	sl, [ip, lr, lsl #2]
+  a6:	600e      	str	r6, [r1, #0]
+  a8:	8b99      	ldrh	r1, [r3, #28]
+  aa:	6c66      	ldr	r6, [r4, #68]	; 0x44
+  ac:	b289      	uxth	r1, r1
+  ae:	f041 0102 	orr.w	r1, r1, #2
+  b2:	8399      	strh	r1, [r3, #28]
+  b4:	4b1e      	ldr	r3, [pc, #120]	; (130 <_ZN8SPIClass15initDMAChannelsEv+0x130>)
+  b6:	7931      	ldrb	r1, [r6, #4]
+  b8:	7699      	strb	r1, [r3, #26]
+  ba:	6833      	ldr	r3, [r6, #0]
+  bc:	611a      	str	r2, [r3, #16]
+  be:	829f      	strh	r7, [r3, #20]
+  c0:	719f      	strb	r7, [r3, #6]
+  c2:	d319      	bcc.n	f8 <_ZN8SPIClass15initDMAChannelsEv+0xf8>
+  c4:	689a      	ldr	r2, [r3, #8]
+  c6:	b1ba      	cbz	r2, f8 <_ZN8SPIClass15initDMAChannelsEv+0xf8>
+  c8:	8b9a      	ldrh	r2, [r3, #28]
+  ca:	2700      	movs	r7, #0
+  cc:	b292      	uxth	r2, r2
+  ce:	619f      	str	r7, [r3, #24]
+  d0:	f042 0208 	orr.w	r2, r2, #8
+  d4:	839a      	strh	r2, [r3, #28]
+  d6:	7a03      	ldrb	r3, [r0, #8]
+  d8:	b1a3      	cbz	r3, 104 <_ZN8SPIClass15initDMAChannelsEv+0x104>
+  da:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+  de:	b20a      	sxth	r2, r1
+  e0:	2001      	movs	r0, #1
+  e2:	4915      	ldr	r1, [pc, #84]	; (138 <_ZN8SPIClass15initDMAChannelsEv+0x138>)
+  e4:	f043 4300 	orr.w	r3, r3, #2147483648	; 0x80000000
+  e8:	f841 7022 	str.w	r7, [r1, r2, lsl #2]
+  ec:	f841 3022 	str.w	r3, [r1, r2, lsl #2]
+  f0:	f884 003d 	strb.w	r0, [r4, #61]	; 0x3d
+  f4:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  f8:	2201      	movs	r2, #1
+  fa:	609a      	str	r2, [r3, #8]
+  fc:	e7e4      	b.n	c8 <_ZN8SPIClass15initDMAChannelsEv+0xc8>
+  fe:	2101      	movs	r1, #1
+ 100:	6099      	str	r1, [r3, #8]
+ 102:	e7a3      	b.n	4c <_ZN8SPIClass15initDMAChannelsEv+0x4c>
+ 104:	6829      	ldr	r1, [r5, #0]
+ 106:	2001      	movs	r0, #1
+ 108:	7933      	ldrb	r3, [r6, #4]
+ 10a:	8bca      	ldrh	r2, [r1, #30]
+ 10c:	025b      	lsls	r3, r3, #9
+ 10e:	b292      	uxth	r2, r2
+ 110:	f403 5378 	and.w	r3, r3, #15872	; 0x3e00
+ 114:	f422 5278 	bic.w	r2, r2, #15872	; 0x3e00
+ 118:	4313      	orrs	r3, r2
+ 11a:	f443 4300 	orr.w	r3, r3, #32768	; 0x8000
+ 11e:	83cb      	strh	r3, [r1, #30]
+ 120:	8bcb      	ldrh	r3, [r1, #30]
+ 122:	b29b      	uxth	r3, r3
+ 124:	82cb      	strh	r3, [r1, #22]
+ 126:	f884 003d 	strb.w	r0, [r4, #61]	; 0x3d
+ 12a:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 12e:	bf00      	nop
+ 130:	400e8000 	.word	0x400e8000
+ 134:	38003840 	.word	0x38003840
+ 138:	400ec000 	.word	0x400ec000
+ 13c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8SPIClass8transferEPKvPvjR14EventResponder:
+
+00000000 <_ZN8SPIClass8transferEPKvPvjR14EventResponder>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	461e      	mov	r6, r3
+   6:	f890 303d 	ldrb.w	r3, [r0, #61]	; 0x3d
+   a:	4605      	mov	r5, r0
+   c:	4688      	mov	r8, r1
+   e:	4617      	mov	r7, r2
+  10:	f8dd 9020 	ldr.w	r9, [sp, #32]
+  14:	2b00      	cmp	r3, #0
+  16:	d073      	beq.n	100 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x100>
+  18:	2b02      	cmp	r3, #2
+  1a:	d06e      	beq.n	fa <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xfa>
+  1c:	4648      	mov	r0, r9
+  1e:	f7ff fffe 	bl	0 <_ZN14EventResponder10clearEventEv>
+  22:	2e01      	cmp	r6, #1
+  24:	d978      	bls.n	118 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x118>
+  26:	4b72      	ldr	r3, [pc, #456]	; (1f0 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1f0>)
+  28:	4598      	cmp	r8, r3
+  2a:	d910      	bls.n	4e <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x4e>
+  2c:	f028 041f 	bic.w	r4, r8, #31
+  30:	eb08 0206 	add.w	r2, r8, r6
+  34:	f3bf 8f4f 	dsb	sy
+  38:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  3c:	f8c3 4f68 	str.w	r4, [r3, #3944]	; 0xf68
+  40:	3420      	adds	r4, #32
+  42:	4294      	cmp	r4, r2
+  44:	d3fa      	bcc.n	3c <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x3c>
+  46:	f3bf 8f4f 	dsb	sy
+  4a:	f3bf 8f6f 	isb	sy
+  4e:	4b68      	ldr	r3, [pc, #416]	; (1f0 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1f0>)
+  50:	429f      	cmp	r7, r3
+  52:	d90f      	bls.n	74 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x74>
+  54:	f027 041f 	bic.w	r4, r7, #31
+  58:	19ba      	adds	r2, r7, r6
+  5a:	f3bf 8f4f 	dsb	sy
+  5e:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  62:	f8c3 4f5c 	str.w	r4, [r3, #3932]	; 0xf5c
+  66:	3420      	adds	r4, #32
+  68:	42a2      	cmp	r2, r4
+  6a:	d8fa      	bhi.n	62 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x62>
+  6c:	f3bf 8f4f 	dsb	sy
+  70:	f3bf 8f6f 	isb	sy
+  74:	f5b6 4f00 	cmp.w	r6, #32768	; 0x8000
+  78:	d249      	bcs.n	10e <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x10e>
+  7a:	b2b6      	uxth	r6, r6
+  7c:	2300      	movs	r3, #0
+  7e:	6c69      	ldr	r1, [r5, #68]	; 0x44
+  80:	2200      	movs	r2, #0
+  82:	642b      	str	r3, [r5, #64]	; 0x40
+  84:	680b      	ldr	r3, [r1, #0]
+  86:	719a      	strb	r2, [r3, #6]
+  88:	f1b8 0f00 	cmp.w	r8, #0
+  8c:	d07a      	beq.n	184 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x184>
+  8e:	71da      	strb	r2, [r3, #7]
+  90:	60da      	str	r2, [r3, #12]
+  92:	2201      	movs	r2, #1
+  94:	f8c3 8000 	str.w	r8, [r3]
+  98:	809a      	strh	r2, [r3, #4]
+  9a:	83de      	strh	r6, [r3, #30]
+  9c:	609a      	str	r2, [r3, #8]
+  9e:	82de      	strh	r6, [r3, #22]
+  a0:	2f00      	cmp	r7, #0
+  a2:	d055      	beq.n	150 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x150>
+  a4:	6cab      	ldr	r3, [r5, #72]	; 0x48
+  a6:	2201      	movs	r2, #1
+  a8:	681b      	ldr	r3, [r3, #0]
+  aa:	829a      	strh	r2, [r3, #20]
+  ac:	609a      	str	r2, [r3, #8]
+  ae:	2200      	movs	r2, #0
+  b0:	611f      	str	r7, [r3, #16]
+  b2:	71da      	strb	r2, [r3, #7]
+  b4:	83de      	strh	r6, [r3, #30]
+  b6:	719a      	strb	r2, [r3, #6]
+  b8:	82de      	strh	r6, [r3, #22]
+  ba:	619a      	str	r2, [r3, #24]
+  bc:	f8c5 904c 	str.w	r9, [r5, #76]	; 0x4c
+  c0:	f7ff fffe 	bl	0 <yield>
+  c4:	682b      	ldr	r3, [r5, #0]
+  c6:	2000      	movs	r0, #0
+  c8:	6ca9      	ldr	r1, [r5, #72]	; 0x48
+  ca:	6e1a      	ldr	r2, [r3, #96]	; 0x60
+  cc:	f022 021f 	bic.w	r2, r2, #31
+  d0:	f042 0207 	orr.w	r2, r2, #7
+  d4:	661a      	str	r2, [r3, #96]	; 0x60
+  d6:	2203      	movs	r2, #3
+  d8:	6598      	str	r0, [r3, #88]	; 0x58
+  da:	f44f 507c 	mov.w	r0, #16128	; 0x3f00
+  de:	61da      	str	r2, [r3, #28]
+  e0:	6158      	str	r0, [r3, #20]
+  e2:	2302      	movs	r3, #2
+  e4:	7909      	ldrb	r1, [r1, #4]
+  e6:	2001      	movs	r0, #1
+  e8:	4a42      	ldr	r2, [pc, #264]	; (1f4 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1f4>)
+  ea:	76d1      	strb	r1, [r2, #27]
+  ec:	6c69      	ldr	r1, [r5, #68]	; 0x44
+  ee:	7909      	ldrb	r1, [r1, #4]
+  f0:	76d1      	strb	r1, [r2, #27]
+  f2:	f885 303d 	strb.w	r3, [r5, #61]	; 0x3d
+  f6:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  fa:	2000      	movs	r0, #0
+  fc:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+ 100:	f7ff fffe 	bl	0 <_ZN8SPIClass8transferEPKvPvjR14EventResponder>
+ 104:	2800      	cmp	r0, #0
+ 106:	d0f8      	beq.n	fa <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xfa>
+ 108:	f895 303d 	ldrb.w	r3, [r5, #61]	; 0x3d
+ 10c:	e784      	b.n	18 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x18>
+ 10e:	4b3a      	ldr	r3, [pc, #232]	; (1f8 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1f8>)
+ 110:	4433      	add	r3, r6
+ 112:	f647 76ff 	movw	r6, #32767	; 0x7fff
+ 116:	e7b2      	b.n	7e <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x7e>
+ 118:	b12e      	cbz	r6, 126 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x126>
+ 11a:	2301      	movs	r3, #1
+ 11c:	463a      	mov	r2, r7
+ 11e:	4641      	mov	r1, r8
+ 120:	4628      	mov	r0, r5
+ 122:	f7ff fffe 	bl	0 <_ZN8SPIClass8transferEPKvPvjR14EventResponder>
+ 126:	f8d9 3000 	ldr.w	r3, [r9]
+ 12a:	4a34      	ldr	r2, [pc, #208]	; (1fc <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1fc>)
+ 12c:	681b      	ldr	r3, [r3, #0]
+ 12e:	4293      	cmp	r3, r2
+ 130:	d158      	bne.n	1e4 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1e4>
+ 132:	f899 201c 	ldrb.w	r2, [r9, #28]
+ 136:	2300      	movs	r3, #0
+ 138:	2a02      	cmp	r2, #2
+ 13a:	f8c9 3004 	str.w	r3, [r9, #4]
+ 13e:	f8c9 300c 	str.w	r3, [r9, #12]
+ 142:	d136      	bne.n	1b2 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1b2>
+ 144:	4648      	mov	r0, r9
+ 146:	f8d9 3008 	ldr.w	r3, [r9, #8]
+ 14a:	4798      	blx	r3
+ 14c:	2001      	movs	r0, #1
+ 14e:	e7d2      	b.n	f6 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xf6>
+ 150:	6caa      	ldr	r2, [r5, #72]	; 0x48
+ 152:	492b      	ldr	r1, [pc, #172]	; (200 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x200>)
+ 154:	6813      	ldr	r3, [r2, #0]
+ 156:	f1b1 4f80 	cmp.w	r1, #1073741824	; 0x40000000
+ 15a:	71df      	strb	r7, [r3, #7]
+ 15c:	6119      	str	r1, [r3, #16]
+ 15e:	829f      	strh	r7, [r3, #20]
+ 160:	719f      	strb	r7, [r3, #6]
+ 162:	d30c      	bcc.n	17e <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x17e>
+ 164:	6899      	ldr	r1, [r3, #8]
+ 166:	b151      	cbz	r1, 17e <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x17e>
+ 168:	6812      	ldr	r2, [r2, #0]
+ 16a:	2100      	movs	r1, #0
+ 16c:	6199      	str	r1, [r3, #24]
+ 16e:	8bd3      	ldrh	r3, [r2, #30]
+ 170:	041b      	lsls	r3, r3, #16
+ 172:	d423      	bmi.n	1bc <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1bc>
+ 174:	83d6      	strh	r6, [r2, #30]
+ 176:	8bd3      	ldrh	r3, [r2, #30]
+ 178:	b29b      	uxth	r3, r3
+ 17a:	82d3      	strh	r3, [r2, #22]
+ 17c:	e79e      	b.n	bc <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xbc>
+ 17e:	2101      	movs	r1, #1
+ 180:	6099      	str	r1, [r3, #8]
+ 182:	e7f1      	b.n	168 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x168>
+ 184:	f105 023c 	add.w	r2, r5, #60	; 0x3c
+ 188:	f8a3 8004 	strh.w	r8, [r3, #4]
+ 18c:	f883 8007 	strb.w	r8, [r3, #7]
+ 190:	f1b2 4f80 	cmp.w	r2, #1073741824	; 0x40000000
+ 194:	601a      	str	r2, [r3, #0]
+ 196:	d219      	bcs.n	1cc <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1cc>
+ 198:	2201      	movs	r2, #1
+ 19a:	609a      	str	r2, [r3, #8]
+ 19c:	680a      	ldr	r2, [r1, #0]
+ 19e:	2100      	movs	r1, #0
+ 1a0:	60d9      	str	r1, [r3, #12]
+ 1a2:	8bd3      	ldrh	r3, [r2, #30]
+ 1a4:	0419      	lsls	r1, r3, #16
+ 1a6:	d415      	bmi.n	1d4 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1d4>
+ 1a8:	83d6      	strh	r6, [r2, #30]
+ 1aa:	8bd3      	ldrh	r3, [r2, #30]
+ 1ac:	b29b      	uxth	r3, r3
+ 1ae:	82d3      	strh	r3, [r2, #22]
+ 1b0:	e776      	b.n	a0 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xa0>
+ 1b2:	4648      	mov	r0, r9
+ 1b4:	f7ff fffe 	bl	0 <_ZN14EventResponder24triggerEventNotImmediateEv>
+ 1b8:	2001      	movs	r0, #1
+ 1ba:	e79c      	b.n	f6 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xf6>
+ 1bc:	8bd3      	ldrh	r3, [r2, #30]
+ 1be:	f3c6 0608 	ubfx	r6, r6, #0, #9
+ 1c2:	f403 437e 	and.w	r3, r3, #65024	; 0xfe00
+ 1c6:	4333      	orrs	r3, r6
+ 1c8:	83d3      	strh	r3, [r2, #30]
+ 1ca:	e7d4      	b.n	176 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x176>
+ 1cc:	689a      	ldr	r2, [r3, #8]
+ 1ce:	2a00      	cmp	r2, #0
+ 1d0:	d1e4      	bne.n	19c <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x19c>
+ 1d2:	e7e1      	b.n	198 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x198>
+ 1d4:	8bd3      	ldrh	r3, [r2, #30]
+ 1d6:	f3c6 0108 	ubfx	r1, r6, #0, #9
+ 1da:	f403 437e 	and.w	r3, r3, #65024	; 0xfe00
+ 1de:	430b      	orrs	r3, r1
+ 1e0:	83d3      	strh	r3, [r2, #30]
+ 1e2:	e7e2      	b.n	1aa <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0x1aa>
+ 1e4:	2200      	movs	r2, #0
+ 1e6:	4648      	mov	r0, r9
+ 1e8:	4611      	mov	r1, r2
+ 1ea:	4798      	blx	r3
+ 1ec:	2001      	movs	r0, #1
+ 1ee:	e782      	b.n	f6 <_ZN8SPIClass8transferEPKvPvjR14EventResponder+0xf6>
+ 1f0:	201fffff 	.word	0x201fffff
+ 1f4:	400e8000 	.word	0x400e8000
+ 1f8:	ffff8001 	.word	0xffff8001
+ 1fc:	00000000 	.word	0x00000000
+ 200:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._GLOBAL__sub_I__ZN8SPIClass5beginEv:
+
+00000000 <_GLOBAL__sub_I__ZN8SPIClass5beginEv>:
+   0:	b508      	push	{r3, lr}
+   2:	4a08      	ldr	r2, [pc, #32]	; (24 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x24>)
+   4:	4908      	ldr	r1, [pc, #32]	; (28 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x28>)
+   6:	4809      	ldr	r0, [pc, #36]	; (2c <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x2c>)
+   8:	f7ff fffe 	bl	0 <_GLOBAL__sub_I__ZN8SPIClass5beginEv>
+   c:	4a08      	ldr	r2, [pc, #32]	; (30 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x30>)
+   e:	4909      	ldr	r1, [pc, #36]	; (34 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x34>)
+  10:	4809      	ldr	r0, [pc, #36]	; (38 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x38>)
+  12:	f7ff fffe 	bl	0 <_GLOBAL__sub_I__ZN8SPIClass5beginEv>
+  16:	4a09      	ldr	r2, [pc, #36]	; (3c <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x3c>)
+  18:	4909      	ldr	r1, [pc, #36]	; (40 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x40>)
+  1a:	480a      	ldr	r0, [pc, #40]	; (44 <_GLOBAL__sub_I__ZN8SPIClass5beginEv+0x44>)
+  1c:	f7ff fffe 	bl	0 <_GLOBAL__sub_I__ZN8SPIClass5beginEv>
+  20:	bd08      	pop	{r3, pc}
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+  28:	403a0000 	.word	0x403a0000
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+  34:	4039c000 	.word	0x4039c000
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+  40:	40394000 	.word	0x40394000
+  44:	00000000 	.word	0x00000000

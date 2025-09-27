@@ -1,0 +1,1096 @@
+
+build/./libraries/SdFat/src/FsLib/FsVolume.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FsVolume.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN5Print17availableForWriteEv	00000000 .text._ZN5Print17availableForWriteEv
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE5writeEh	00000000 .text._ZN10StreamFileI10FsBaseFileyE5writeEh
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE5flushEv	00000000 .text._ZN10StreamFileI10FsBaseFileyE5flushEv
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE4readEv	00000000 .text._ZN10StreamFileI10FsBaseFileyE4readEv
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE4peekEv	00000000 .text._ZN10StreamFileI10FsBaseFileyE4peekEv
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE9availableEv	00000000 .text._ZN10StreamFileI10FsBaseFileyE9availableEv
+00000000 l    d  .text._ZN10StreamFileI10FsBaseFileyE5writeEPKhj	00000000 .text._ZN10StreamFileI10FsBaseFileyE5writeEPKhj
+00000000 l    d  .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh	00000000 .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh
+00000000 l    d  .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm	00000000 .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm
+00000000 l    d  .text._ZN8FsVolume2lsEP5PrintPKch	00000000 .text._ZN8FsVolume2lsEP5PrintPKch
+00000000 l    d  .text._ZN8FsVolume4openEPKci	00000000 .text._ZN8FsVolume4openEPKci
+00000000 l    d  .text._ZN8FsVolume4openERK6Stringi	00000000 .text._ZN8FsVolume4openERK6Stringi
+00000000 l    d  .text._ZN8FsVolume14getVolumeLabelEPcj	00000000 .text._ZN8FsVolume14getVolumeLabelEPcj
+00000000 l    d  .rodata._ZN8FsVolume14setVolumeLabelEPKc.str1.4	00000000 .rodata._ZN8FsVolume14setVolumeLabelEPKc.str1.4
+00000000 l    d  .text._ZN8FsVolume14setVolumeLabelEPKc	00000000 .text._ZN8FsVolume14setVolumeLabelEPKc
+00000000 l    d  .rodata._ZTV6FsFile	00000000 .rodata._ZTV6FsFile
+00000000 l    d  .bss._ZN8FsVolume5m_cwvE	00000000 .bss._ZN8FsVolume5m_cwvE
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN5Print17availableForWriteEv	00000004 _ZN5Print17availableForWriteEv
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE5writeEh	00000034 _ZN10StreamFileI10FsBaseFileyE5writeEh
+00000000         *UND*	00000000 _ZN7FatFile5writeEPKvj
+00000000         *UND*	00000000 _ZN9ExFatFile5writeEPKvj
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE5flushEv	00000014 _ZN10StreamFileI10FsBaseFileyE5flushEv
+00000000         *UND*	00000000 _ZN7FatFile4syncEv
+00000000         *UND*	00000000 _ZN9ExFatFile4syncEv
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE4readEv	00000038 _ZN10StreamFileI10FsBaseFileyE4readEv
+00000000         *UND*	00000000 _ZN7FatFile4readEPvj
+00000000         *UND*	00000000 _ZN9ExFatFile4readEPvj
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE4peekEv	00000018 _ZN10StreamFileI10FsBaseFileyE4peekEv
+00000000         *UND*	00000000 _ZN7FatFile4peekEv
+00000000         *UND*	00000000 _ZN9ExFatFile4peekEv
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE9availableEv	0000004c _ZN10StreamFileI10FsBaseFileyE9availableEv
+00000000  w    F .text._ZN10StreamFileI10FsBaseFileyE5writeEPKhj	00000014 _ZN10StreamFileI10FsBaseFileyE5writeEPKhj
+00000000 g     F .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh	000000e4 _ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh
+00000000         *UND*	00000000 _ZnwjPm
+00000000         *UND*	00000000 _ZN14ExFatPartition4initEP22FsBlockDeviceInterfaceh
+00000000         *UND*	00000000 _ZN12FatPartition4initEP22FsBlockDeviceInterfaceh
+00000000         *UND*	00000000 _ZN7FatFile5closeEv
+00000000         *UND*	00000000 _ZN7FatFile8openRootEP9FatVolume
+00000000         *UND*	00000000 _ZN9ExFatFile5closeEv
+00000000         *UND*	00000000 _ZN9ExFatFile8openRootEP11ExFatVolume
+00000000         *UND*	00000000 _ZN9FatVolume5m_cwvE
+00000000         *UND*	00000000 _ZN11ExFatVolume5m_cwvE
+00000000 g     F .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm	000000ec _ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm
+00000000         *UND*	00000000 _ZN14ExFatPartition4initEP22FsBlockDeviceInterfacemm
+00000000         *UND*	00000000 _ZN12FatPartition4initEP22FsBlockDeviceInterfacemm
+00000000 g     F .text._ZN8FsVolume2lsEP5PrintPKch	0000005a _ZN8FsVolume2lsEP5PrintPKch
+00000000         *UND*	00000000 _ZN10FsBaseFile4openEP8FsVolumePKci
+00000000         *UND*	00000000 _ZN10FsBaseFile5closeEv
+00000000         *UND*	00000000 _ZN7FatFile2lsEP5Printhh
+00000000         *UND*	00000000 _ZN9ExFatFile2lsEP5Printhh
+00000000 g     F .text._ZN8FsVolume4openEPKci	00000028 _ZN8FsVolume4openEPKci
+00000000  w    O .rodata._ZTV6FsFile	00000024 _ZTV6FsFile
+00000000 g     F .text._ZN8FsVolume4openERK6Stringi	00000034 _ZN8FsVolume4openERK6Stringi
+00000000         *UND*	00000000 _ZN6String15zeroterminationE
+00000000 g     F .text._ZN8FsVolume14getVolumeLabelEPcj	00000182 _ZN8FsVolume14getVolumeLabelEPcj
+00000000         *UND*	00000000 _ZN7FatFile7dirSizeEv
+00000000         *UND*	00000000 _ZN14ExFatPartition10rootLengthEv
+00000000 g     F .text._ZN8FsVolume14setVolumeLabelEPKc	000002e0 _ZN8FsVolume14setVolumeLabelEPKc
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 _ZN7FsCache4syncEv
+00000000         *UND*	00000000 _ZN10FsDateTime8callbackE
+00000000         *UND*	00000000 Serial
+00000000 g     O .bss._ZN8FsVolume5m_cwvE	00000004 _ZN8FsVolume5m_cwvE
+
+
+Contents of section .group:
+ 0000 01000000 0c000000                    ........        
+Contents of section .group:
+ 0000 01000000 0d000000 0e000000           ............    
+Contents of section .group:
+ 0000 01000000 0f000000 10000000           ............    
+Contents of section .group:
+ 0000 01000000 11000000 12000000           ............    
+Contents of section .group:
+ 0000 01000000 13000000 14000000           ............    
+Contents of section .group:
+ 0000 01000000 15000000                    ........        
+Contents of section .group:
+ 0000 01000000 16000000 17000000           ............    
+Contents of section .group:
+ 0000 01000000 27000000 28000000           ....'...(...    
+Contents of section .text._ZN5Print17availableForWriteEv:
+ 0000 00207047                             . pG            
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE5writeEh:
+ 0000 00b5836c 83b08df8 071043b1 01220df1  ...l......C.."..
+ 0010 07011846 fff7feff 03b05df8 04fbc06c  ...F......]....l
+ 0020 0028f9d0 01220df1 0701fff7 feff03b0  .(..."..........
+ 0030 5df804fb                             ]...            
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE5flushEv:
+ 0000 836c13b1 1846fff7 febfc06c 08b1fff7  .l...F.....l....
+ 0010 febf7047                             ..pG            
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE4readEv:
+ 0000 836c00b5 83b063b1 01220df1 07011846  .l....c..".....F
+ 0010 fff7feff 01280cd1 9df80700 03b05df8  .....(........].
+ 0020 04fbc06c 28b10122 0df10701 fff7feff  ...l(.."........
+ 0030 f0e74ff0 ff30f1e7                    ..O..0..        
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE4peekEv:
+ 0000 836c13b1 1846fff7 febfc06c 08b1fff7  .l...F.....l....
+ 0010 febf4ff0 ff307047                    ..O..0pG        
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE9availableEv:
+ 0000 836c53b1 187810f0 08000dd0 d8695b69  .lS..x.......i[i
+ 0010 c01a48bf 6ff00040 7047c36c a3b193f8  ..H.o..@pG.l....
+ 0020 310010f0 080000d1 70471869 19685a69  1.......pG.i.hZi
+ 0030 401a5b68 62eb0303 b0f1004f 73f10003  @.[hb......Os...
+ 0040 f2d36ff0 00407047 1846ede7           ..o..@pG.F..    
+Contents of section .text._ZN10StreamFileI10FsBaseFileyE5writeEPKhj:
+ 0000 836c13b1 1846fff7 febfc06c 08b1fff7  .l...F.....l....
+ 0010 febf7047                             ..pG            
+Contents of section .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh:
+ 0000 2de9f041 00260446 9846c0f8 8814c0f8  -..A.&.F.F......
+ 0010 80640146 4ff49060 1746fff7 feff4246  .d.FO..`.F....BF
+ 0020 80f84464 054680f8 7964a0f8 7a64c4f8  ..Dd.F..yd..zd..
+ 0030 8404d4f8 8814fff7 feffa0bb 00262146  .............&!F
+ 0040 40f26c40 c4f88464 fff7feff 0223c671  @.l@...d.....#.q
+ 0050 4246a0f8 48640546 80f84a64 0372c4f8  BF..Hd.F..Jd.r..
+ 0060 8004d4f8 8814fff7 feff38b9 00231a4a  ..........8..#.J
+ 0070 18461360 c4f88034 bde8f081 05f58966  .F.`...4.......f
+ 0080 3046fff7 feff2946 3046fff7 feff0028  0F....)F0F.....(
+ 0090 ecd0124b 1a68aab9 1d600f4b afb10120  ...K.h...`.K... 
+ 00a0 1c60bde8 f08105f5 89663046 fff7feff  .`.......f0F....
+ 00b0 29463046 fff7feff 0028bfd0 084b1a68  )F0F.....(...K.h
+ 00c0 002ae9d0 044b002f e9d11a68 002ae6d0  .*...K./...h.*..
+ 00d0 0120bde8 f08100bf 00000000 00000000  . ..............
+ 00e0 00000000                             ....            
+Contents of section .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm:
+ 0000 2de9f843 00260446 9946ddf8 2080c0f8  -..C.&.F.F.. ...
+ 0010 88140146 c0f88064 4ff49060 1746fff7  ...F...dO..`.F..
+ 0020 feff4346 80f84464 80f87964 4a46a0f8  ..CF..Dd..ydJF..
+ 0030 7a640546 d4f88814 c4f88404 fff7feff  zd.F............
+ 0040 a8bb0026 214640f2 6c40c4f8 8464fff7  ...&!F@.l@...d..
+ 0050 feff0221 c6714346 a0f84864 4a4680f8  ...!.qCF..HdJF..
+ 0060 4a640546 0172c4f8 8004d4f8 8814fff7  Jd.F.r..........
+ 0070 feff38b9 00231a4a 18461360 c4f88034  ..8..#.J.F.`...4
+ 0080 bde8f883 05f58966 3046fff7 feff2946  .......f0F....)F
+ 0090 3046fff7 feff0028 ecd0124b 1a68aab9  0F.....(...K.h..
+ 00a0 1d600f4b afb10120 1c60bde8 f88305f5  .`.K... .`......
+ 00b0 89663046 fff7feff 29463046 fff7feff  .f0F....)F0F....
+ 00c0 0028bed0 084b1a68 002ae9d0 044b002f  .(...K.h.*...K./
+ 00d0 e9d11a68 002ae6d0 0120bde8 f88300bf  ...h.*... ......
+ 00e0 00000000 00000000 00000000           ............    
+Contents of section .text._ZN8FsVolume2lsEP5PrintPKch:
+ 0000 f0b50025 91b00e46 1f460146 2b466846  ...%...F.F.F+FhF
+ 0010 0e950f95 fff7feff 044628b9 6846fff7  .........F(.hF..
+ 0020 feff2046 11b0f0bd 0e9858b1 2b463a46  .. F......X.+F:F
+ 0030 3146fff7 feff0446 6846fff7 feff2046  1F.....FhF.... F
+ 0040 11b0f0bd 0f9c002c e8d00346 3a462046  .......,...F:F F
+ 0050 3146fff7 feff0446 e0e700bf           1F.....F....    
+Contents of section .text._ZN8FsVolume4openEPKci:
+ 0000 70b50025 4ff47a76 04464560 05738660  p..%O.zv.FE`.s.`
+ 0010 c0e91255 034d40f8 105bfff7 feff2046  ...U.M@..[.... F
+ 0020 70bd00bf 08000000                    p.......        
+Contents of section .text._ZN8FsVolume4openERK6Stringi:
+ 0000 126870b5 04467ab1 0020084d 4ff47a76  .hp..Fz.. .MO.zv
+ 0010 60602073 a660c4e9 12002046 40f8105b  `` s.`.... F@..[
+ 0020 fff7feff 204670bd 014aede7 08000000  .... Fp..J......
+ 0030 00000000                             ....            
+Contents of section .text._ZN8FsVolume14getVolumeLabelEPcj:
+ 0000 002918bf 0b2a2de9 f04798bf 0122adf5  .)...*-..G..."..
+ 0010 0a7d88bf 002248d9 0a700746 d0f88044  .}..."H..p.F...D
+ 0020 0e46002c 3ed02146 01a8e579 0192fff7  .F.,>.!F...y....
+ 0030 feff8046 00283ad0 01a8fff7 feff0446  ...F.(:........F
+ 0040 01a8fff7 feff202d d7f88034 0aadd7f8  ...... -...4....
+ 0050 880408bf d3f814a0 2a4618bf d3f820a0  ........*F.... .
+ 0060 03685146 1b699847 fcb10023 40f2ff19  .hQF.i.G...#@...
+ 0070 03f12001 e85c05eb 030c203c 2a468bb2  .. ..\.... <*F..
+ 0080 98b19cf8 0b100829 54d04b45 4bd90af1  .......)T.KEK...
+ 0090 010a54b1 d7f88804 51460368 1b699847  ..T.....QF.h.i.G
+ 00a0 0023e5e7 d0f88404 30b94ff0 00084046  .#......0.O...@F
+ 00b0 0df50a7d bde8f087 d0f82c94 d0f83454  ...}......,...4T
+ 00c0 fff7feff d7f88434 8046023d d7f88804  .......4.F.=....
+ 00d0 93f84534 9d400368 a9440aad 1b692a46  ..E4.@.h.D...i*F
+ 00e0 49469847 b8f1000f dfd02346 40f2ff14  IF.G......#F@...
+ 00f0 e85c03f1 2002e918 a8f12008 832893b2  .\.. ..... ..(..
+ 0100 2a462ed0 0028d0d0 a3420fd9 09f10109  *F...(...B......
+ 0110 b8f1000f c9d0d7f8 88044946 03681b69  ..........IF.h.i
+ 0120 98470023 e4e7002c a2d1bee7 b8f1000f  .G.#...,........
+ 0130 ded1bae7 731e06f1 0a0201e0 1cf8010f  ....s...........
+ 0140 03f8010f 9342f9d1 c6f10100 1a781946  .....B.......x.F
+ 0150 c418013b 202a12d1 8e42f7d1 00233370  ...; *...B...#3p
+ 0160 a5e74a78 32b13244 11f8023f 06f8013b  ..Jx2.2D...?...;
+ 0170 9642f9d1 00234ff0 01083370 97e72644  .B...#O...3p..&D
+ 0180 ece700bf                             ....            
+Contents of section .rodata._ZN8FsVolume14setVolumeLabelEPKc.str1.4:
+ 0000 466f756e 6420766f 6c756d65 206c6162  Found volume lab
+ 0010 656c202d 2064656c 65746564 0a00      el - deleted..  
+Contents of section .text._ZN8FsVolume14setVolumeLabelEPKc:
+ 0000 2de9f04f d0f88054 adf50f7d 06460f46  -..O...T...}.F.F
+ 0010 002d00f0 93800023 294605a8 ec790593  .-.....#)F...y..
+ 0020 fff7feff 824620b9 50460df5 0f7dbde8  .....F .PF...}..
+ 0030 f08f05a8 fff7feff 054605a8 fff7feff  .........F......
+ 0040 202cd6f8 80340eac d6f88804 08bfd3f8   ,...4..........
+ 0050 14802246 18bfd3f8 20800368 41461b69  .."F.... ..hAF.i
+ 0060 9847002d 00f03181 002140f2 ff1b0191  .G.-..1..!@.....
+ 0070 0091635c 04eb0109 e52b1bd0 13b399f8  ..c\.....+......
+ 0080 0b30082b 00f0e580 01f12003 203d2246  .0.+...... . ="F
+ 0090 99b25945 14d9adb1 d6f88804 08f10108  ..YE............
+ 00a0 03684146 1b699847 0021635c 04eb0109  .hAF.i.G.!c\....
+ 00b0 e52be3d1 009b002b e6d1cde9 0081e3e7  .+.....+........
+ 00c0 002dd6d1 002fafd0 3b78002b acd00099  .-.../..;x.+....
+ 00d0 002900f0 da808845 05d0d6f8 88042246  .).....E......"F
+ 00e0 03681b69 9847019b ddf80080 23449946  .h.i.G......#D.F
+ 00f0 20220021 4846fff7 feff764b 1b686bb1   ".!HF....vK.hk.
+ 0100 0df10f02 0df11201 04a89847 bdf81230  ...........G...0
+ 0110 a9f81630 bdf81030 a9f81830 09f1ff32  ...0...0...0...2
+ 0120 09f10a01 05e00137 02f8013f 914200f0  .......7...?.B..
+ 0130 c6803b78 002bf6d1 2023f5e7 d0f88404  ..;x.+.. #......
+ 0140 00283fd0 d0f82c94 d0f83444 fff7feff  .(?...,...4D....
+ 0150 d6f88434 8046023c d6f88804 93f84534  ...4.F.<......E4
+ 0160 9c400368 a1440eac 1b692246 49469847  .@.h.D...i"FIF.G
+ 0170 b8f1000f 1fd02b46 40f2ff1a e05c03f1  ......+F@....\..
+ 0180 2002e518 a8f12008 832893b2 224620d0   ..... ..(.."F .
+ 0190 88b15345 0cd9b8f1 000f0cd0 d6f88804  ..SE............
+ 01a0 09f10109 03684946 1b699847 0023e5e7  .....hIF.i.G.#..
+ 01b0 b8f1000f e2d1002f 48d03b78 002b45d0  ......./H.;x.+E.
+ 01c0 2b785bb1 4ff0000a 50460df5 0f7dbde8  +x[.O...PF...}..
+ 01d0 f08f002f 5fd03b78 002b5cd0 3846fff7  .../_.;x.+\.8F..
+ 01e0 feff8323 c0b22b70 0b280346 28bf0b23  ...#..+p.(.F(..#
+ 01f0 6b70013b dbb248b1 01330435 3b4417f8  kp.;..H..3.5;D..
+ 0200 012b0235 bb4205f8 042cf8d1 d6f88804  .+.5.B...,......
+ 0210 22464946 03685b6a 9847d6f8 844494f8  "FIF.h[j.G...D..
+ 0220 1032db07 44d40022 4ff0ff33 84f81022  .2..D.."O..3..."
+ 0230 c4f81c32 d6f88804 4ff0010a 03681b6a  ...2....O....h.j
+ 0240 98475046 0df50f7d bde8f08f 4ff0010a  .GPF...}....O...
+ 0250 eae61fb1 3b78002b 7ff44aaf 1e491f48  ....;x.+..J..I.H
+ 0260 fff7feff e5232246 414689f8 00300023  .....#"FAF...0.#
+ 0270 d6f88804 89f80b30 03685b6a 9847d6f8  .......0.h[j.G..
+ 0280 88040368 1b6a9847 cee699f8 0030002b  ...h.j.G.....0.+
+ 0290 3ff42eaf 96e71049 1048fff7 feff2b78  ?......I.H....+x
+ 02a0 22464946 03f07f03 d6f88804 2b70b1e7  "FIF........+p..
+ 02b0 04f50470 fff7feff 0028b4d1 bae72246  ...p.....(...."F
+ 02c0 4146d6f8 88040823 d4e7a946 cde90055  AF.....#...F...U
+ 02d0 f8e600bf 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV6FsFile:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5Print17availableForWriteEv:
+
+00000000 <_ZN5Print17availableForWriteEv>:
+   0:	2000      	movs	r0, #0
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE5writeEh:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE5writeEh>:
+   0:	b500      	push	{lr}
+   2:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   4:	b083      	sub	sp, #12
+   6:	f88d 1007 	strb.w	r1, [sp, #7]
+   a:	b143      	cbz	r3, 1e <_ZN10StreamFileI10FsBaseFileyE5writeEh+0x1e>
+   c:	2201      	movs	r2, #1
+   e:	f10d 0107 	add.w	r1, sp, #7
+  12:	4618      	mov	r0, r3
+  14:	f7ff fffe 	bl	0 <_ZN7FatFile5writeEPKvj>
+  18:	b003      	add	sp, #12
+  1a:	f85d fb04 	ldr.w	pc, [sp], #4
+  1e:	6cc0      	ldr	r0, [r0, #76]	; 0x4c
+  20:	2800      	cmp	r0, #0
+  22:	d0f9      	beq.n	18 <_ZN10StreamFileI10FsBaseFileyE5writeEh+0x18>
+  24:	2201      	movs	r2, #1
+  26:	f10d 0107 	add.w	r1, sp, #7
+  2a:	f7ff fffe 	bl	0 <_ZN9ExFatFile5writeEPKvj>
+  2e:	b003      	add	sp, #12
+  30:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE5flushEv:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE5flushEv>:
+   0:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   2:	b113      	cbz	r3, a <_ZN10StreamFileI10FsBaseFileyE5flushEv+0xa>
+   4:	4618      	mov	r0, r3
+   6:	f7ff bffe 	b.w	0 <_ZN7FatFile4syncEv>
+   a:	6cc0      	ldr	r0, [r0, #76]	; 0x4c
+   c:	b108      	cbz	r0, 12 <_ZN10StreamFileI10FsBaseFileyE5flushEv+0x12>
+   e:	f7ff bffe 	b.w	0 <_ZN9ExFatFile4syncEv>
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE4readEv:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE4readEv>:
+   0:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   2:	b500      	push	{lr}
+   4:	b083      	sub	sp, #12
+   6:	b163      	cbz	r3, 22 <_ZN10StreamFileI10FsBaseFileyE4readEv+0x22>
+   8:	2201      	movs	r2, #1
+   a:	f10d 0107 	add.w	r1, sp, #7
+   e:	4618      	mov	r0, r3
+  10:	f7ff fffe 	bl	0 <_ZN7FatFile4readEPvj>
+  14:	2801      	cmp	r0, #1
+  16:	d10c      	bne.n	32 <_ZN10StreamFileI10FsBaseFileyE4readEv+0x32>
+  18:	f89d 0007 	ldrb.w	r0, [sp, #7]
+  1c:	b003      	add	sp, #12
+  1e:	f85d fb04 	ldr.w	pc, [sp], #4
+  22:	6cc0      	ldr	r0, [r0, #76]	; 0x4c
+  24:	b128      	cbz	r0, 32 <_ZN10StreamFileI10FsBaseFileyE4readEv+0x32>
+  26:	2201      	movs	r2, #1
+  28:	f10d 0107 	add.w	r1, sp, #7
+  2c:	f7ff fffe 	bl	0 <_ZN9ExFatFile4readEPvj>
+  30:	e7f0      	b.n	14 <_ZN10StreamFileI10FsBaseFileyE4readEv+0x14>
+  32:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  36:	e7f1      	b.n	1c <_ZN10StreamFileI10FsBaseFileyE4readEv+0x1c>
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE4peekEv:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE4peekEv>:
+   0:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   2:	b113      	cbz	r3, a <_ZN10StreamFileI10FsBaseFileyE4peekEv+0xa>
+   4:	4618      	mov	r0, r3
+   6:	f7ff bffe 	b.w	0 <_ZN7FatFile4peekEv>
+   a:	6cc0      	ldr	r0, [r0, #76]	; 0x4c
+   c:	b108      	cbz	r0, 12 <_ZN10StreamFileI10FsBaseFileyE4peekEv+0x12>
+   e:	f7ff bffe 	b.w	0 <_ZN9ExFatFile4peekEv>
+  12:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  16:	4770      	bx	lr
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE9availableEv:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE9availableEv>:
+   0:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   2:	b153      	cbz	r3, 1a <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x1a>
+   4:	7818      	ldrb	r0, [r3, #0]
+   6:	f010 0008 	ands.w	r0, r0, #8
+   a:	d00d      	beq.n	28 <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x28>
+   c:	69d8      	ldr	r0, [r3, #28]
+   e:	695b      	ldr	r3, [r3, #20]
+  10:	1ac0      	subs	r0, r0, r3
+  12:	bf48      	it	mi
+  14:	f06f 4000 	mvnmi.w	r0, #2147483648	; 0x80000000
+  18:	4770      	bx	lr
+  1a:	6cc3      	ldr	r3, [r0, #76]	; 0x4c
+  1c:	b1a3      	cbz	r3, 48 <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x48>
+  1e:	f893 0031 	ldrb.w	r0, [r3, #49]	; 0x31
+  22:	f010 0008 	ands.w	r0, r0, #8
+  26:	d100      	bne.n	2a <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x2a>
+  28:	4770      	bx	lr
+  2a:	6918      	ldr	r0, [r3, #16]
+  2c:	6819      	ldr	r1, [r3, #0]
+  2e:	695a      	ldr	r2, [r3, #20]
+  30:	1a40      	subs	r0, r0, r1
+  32:	685b      	ldr	r3, [r3, #4]
+  34:	eb62 0303 	sbc.w	r3, r2, r3
+  38:	f1b0 4f00 	cmp.w	r0, #2147483648	; 0x80000000
+  3c:	f173 0300 	sbcs.w	r3, r3, #0
+  40:	d3f2      	bcc.n	28 <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x28>
+  42:	f06f 4000 	mvn.w	r0, #2147483648	; 0x80000000
+  46:	4770      	bx	lr
+  48:	4618      	mov	r0, r3
+  4a:	e7ed      	b.n	28 <_ZN10StreamFileI10FsBaseFileyE9availableEv+0x28>
+
+Disassembly of section .text._ZN10StreamFileI10FsBaseFileyE5writeEPKhj:
+
+00000000 <_ZN10StreamFileI10FsBaseFileyE5writeEPKhj>:
+   0:	6c83      	ldr	r3, [r0, #72]	; 0x48
+   2:	b113      	cbz	r3, a <_ZN10StreamFileI10FsBaseFileyE5writeEPKhj+0xa>
+   4:	4618      	mov	r0, r3
+   6:	f7ff bffe 	b.w	0 <_ZN7FatFile5writeEPKvj>
+   a:	6cc0      	ldr	r0, [r0, #76]	; 0x4c
+   c:	b108      	cbz	r0, 12 <_ZN10StreamFileI10FsBaseFileyE5writeEPKhj+0x12>
+   e:	f7ff bffe 	b.w	0 <_ZN9ExFatFile5writeEPKvj>
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh:
+
+00000000 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	2600      	movs	r6, #0
+   6:	4604      	mov	r4, r0
+   8:	4698      	mov	r8, r3
+   a:	f8c0 1488 	str.w	r1, [r0, #1160]	; 0x488
+   e:	f8c0 6480 	str.w	r6, [r0, #1152]	; 0x480
+  12:	4601      	mov	r1, r0
+  14:	f44f 6090 	mov.w	r0, #1152	; 0x480
+  18:	4617      	mov	r7, r2
+  1a:	f7ff fffe 	bl	0 <_ZnwjPm>
+  1e:	4642      	mov	r2, r8
+  20:	f880 6444 	strb.w	r6, [r0, #1092]	; 0x444
+  24:	4605      	mov	r5, r0
+  26:	f880 6479 	strb.w	r6, [r0, #1145]	; 0x479
+  2a:	f8a0 647a 	strh.w	r6, [r0, #1146]	; 0x47a
+  2e:	f8c4 0484 	str.w	r0, [r4, #1156]	; 0x484
+  32:	f8d4 1488 	ldr.w	r1, [r4, #1160]	; 0x488
+  36:	f7ff fffe 	bl	0 <_ZN14ExFatPartition4initEP22FsBlockDeviceInterfaceh>
+  3a:	bba0      	cbnz	r0, a6 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xa6>
+  3c:	2600      	movs	r6, #0
+  3e:	4621      	mov	r1, r4
+  40:	f240 406c 	movw	r0, #1132	; 0x46c
+  44:	f8c4 6484 	str.w	r6, [r4, #1156]	; 0x484
+  48:	f7ff fffe 	bl	0 <_ZnwjPm>
+  4c:	2302      	movs	r3, #2
+  4e:	71c6      	strb	r6, [r0, #7]
+  50:	4642      	mov	r2, r8
+  52:	f8a0 6448 	strh.w	r6, [r0, #1096]	; 0x448
+  56:	4605      	mov	r5, r0
+  58:	f880 644a 	strb.w	r6, [r0, #1098]	; 0x44a
+  5c:	7203      	strb	r3, [r0, #8]
+  5e:	f8c4 0480 	str.w	r0, [r4, #1152]	; 0x480
+  62:	f8d4 1488 	ldr.w	r1, [r4, #1160]	; 0x488
+  66:	f7ff fffe 	bl	0 <_ZN12FatPartition4initEP22FsBlockDeviceInterfaceh>
+  6a:	b938      	cbnz	r0, 7c <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x7c>
+  6c:	2300      	movs	r3, #0
+  6e:	4a1a      	ldr	r2, [pc, #104]	; (d8 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xd8>)
+  70:	4618      	mov	r0, r3
+  72:	6013      	str	r3, [r2, #0]
+  74:	f8c4 3480 	str.w	r3, [r4, #1152]	; 0x480
+  78:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  7c:	f505 6689 	add.w	r6, r5, #1096	; 0x448
+  80:	4630      	mov	r0, r6
+  82:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+  86:	4629      	mov	r1, r5
+  88:	4630      	mov	r0, r6
+  8a:	f7ff fffe 	bl	0 <_ZN7FatFile8openRootEP9FatVolume>
+  8e:	2800      	cmp	r0, #0
+  90:	d0ec      	beq.n	6c <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x6c>
+  92:	4b12      	ldr	r3, [pc, #72]	; (dc <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xdc>)
+  94:	681a      	ldr	r2, [r3, #0]
+  96:	b9aa      	cbnz	r2, c4 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xc4>
+  98:	601d      	str	r5, [r3, #0]
+  9a:	4b0f      	ldr	r3, [pc, #60]	; (d8 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xd8>)
+  9c:	b1af      	cbz	r7, ca <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xca>
+  9e:	2001      	movs	r0, #1
+  a0:	601c      	str	r4, [r3, #0]
+  a2:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  a6:	f505 6689 	add.w	r6, r5, #1096	; 0x448
+  aa:	4630      	mov	r0, r6
+  ac:	f7ff fffe 	bl	0 <_ZN9ExFatFile5closeEv>
+  b0:	4629      	mov	r1, r5
+  b2:	4630      	mov	r0, r6
+  b4:	f7ff fffe 	bl	0 <_ZN9ExFatFile8openRootEP11ExFatVolume>
+  b8:	2800      	cmp	r0, #0
+  ba:	d0bf      	beq.n	3c <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x3c>
+  bc:	4b08      	ldr	r3, [pc, #32]	; (e0 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xe0>)
+  be:	681a      	ldr	r2, [r3, #0]
+  c0:	2a00      	cmp	r2, #0
+  c2:	d0e9      	beq.n	98 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x98>
+  c4:	4b04      	ldr	r3, [pc, #16]	; (d8 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0xd8>)
+  c6:	2f00      	cmp	r7, #0
+  c8:	d1e9      	bne.n	9e <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x9e>
+  ca:	681a      	ldr	r2, [r3, #0]
+  cc:	2a00      	cmp	r2, #0
+  ce:	d0e6      	beq.n	9e <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebh+0x9e>
+  d0:	2001      	movs	r0, #1
+  d2:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  d6:	bf00      	nop
+  d8:	00000000 	.word	0x00000000
+  dc:	00000000 	.word	0x00000000
+  e0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm:
+
+00000000 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	2600      	movs	r6, #0
+   6:	4604      	mov	r4, r0
+   8:	4699      	mov	r9, r3
+   a:	f8dd 8020 	ldr.w	r8, [sp, #32]
+   e:	f8c0 1488 	str.w	r1, [r0, #1160]	; 0x488
+  12:	4601      	mov	r1, r0
+  14:	f8c0 6480 	str.w	r6, [r0, #1152]	; 0x480
+  18:	f44f 6090 	mov.w	r0, #1152	; 0x480
+  1c:	4617      	mov	r7, r2
+  1e:	f7ff fffe 	bl	0 <_ZnwjPm>
+  22:	4643      	mov	r3, r8
+  24:	f880 6444 	strb.w	r6, [r0, #1092]	; 0x444
+  28:	f880 6479 	strb.w	r6, [r0, #1145]	; 0x479
+  2c:	464a      	mov	r2, r9
+  2e:	f8a0 647a 	strh.w	r6, [r0, #1146]	; 0x47a
+  32:	4605      	mov	r5, r0
+  34:	f8d4 1488 	ldr.w	r1, [r4, #1160]	; 0x488
+  38:	f8c4 0484 	str.w	r0, [r4, #1156]	; 0x484
+  3c:	f7ff fffe 	bl	0 <_ZN14ExFatPartition4initEP22FsBlockDeviceInterfacemm>
+  40:	bba8      	cbnz	r0, ae <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xae>
+  42:	2600      	movs	r6, #0
+  44:	4621      	mov	r1, r4
+  46:	f240 406c 	movw	r0, #1132	; 0x46c
+  4a:	f8c4 6484 	str.w	r6, [r4, #1156]	; 0x484
+  4e:	f7ff fffe 	bl	0 <_ZnwjPm>
+  52:	2102      	movs	r1, #2
+  54:	71c6      	strb	r6, [r0, #7]
+  56:	4643      	mov	r3, r8
+  58:	f8a0 6448 	strh.w	r6, [r0, #1096]	; 0x448
+  5c:	464a      	mov	r2, r9
+  5e:	f880 644a 	strb.w	r6, [r0, #1098]	; 0x44a
+  62:	4605      	mov	r5, r0
+  64:	7201      	strb	r1, [r0, #8]
+  66:	f8c4 0480 	str.w	r0, [r4, #1152]	; 0x480
+  6a:	f8d4 1488 	ldr.w	r1, [r4, #1160]	; 0x488
+  6e:	f7ff fffe 	bl	0 <_ZN12FatPartition4initEP22FsBlockDeviceInterfacemm>
+  72:	b938      	cbnz	r0, 84 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0x84>
+  74:	2300      	movs	r3, #0
+  76:	4a1a      	ldr	r2, [pc, #104]	; (e0 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xe0>)
+  78:	4618      	mov	r0, r3
+  7a:	6013      	str	r3, [r2, #0]
+  7c:	f8c4 3480 	str.w	r3, [r4, #1152]	; 0x480
+  80:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  84:	f505 6689 	add.w	r6, r5, #1096	; 0x448
+  88:	4630      	mov	r0, r6
+  8a:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+  8e:	4629      	mov	r1, r5
+  90:	4630      	mov	r0, r6
+  92:	f7ff fffe 	bl	0 <_ZN7FatFile8openRootEP9FatVolume>
+  96:	2800      	cmp	r0, #0
+  98:	d0ec      	beq.n	74 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0x74>
+  9a:	4b12      	ldr	r3, [pc, #72]	; (e4 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xe4>)
+  9c:	681a      	ldr	r2, [r3, #0]
+  9e:	b9aa      	cbnz	r2, cc <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xcc>
+  a0:	601d      	str	r5, [r3, #0]
+  a2:	4b0f      	ldr	r3, [pc, #60]	; (e0 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xe0>)
+  a4:	b1af      	cbz	r7, d2 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xd2>
+  a6:	2001      	movs	r0, #1
+  a8:	601c      	str	r4, [r3, #0]
+  aa:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  ae:	f505 6689 	add.w	r6, r5, #1096	; 0x448
+  b2:	4630      	mov	r0, r6
+  b4:	f7ff fffe 	bl	0 <_ZN9ExFatFile5closeEv>
+  b8:	4629      	mov	r1, r5
+  ba:	4630      	mov	r0, r6
+  bc:	f7ff fffe 	bl	0 <_ZN9ExFatFile8openRootEP11ExFatVolume>
+  c0:	2800      	cmp	r0, #0
+  c2:	d0be      	beq.n	42 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0x42>
+  c4:	4b08      	ldr	r3, [pc, #32]	; (e8 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xe8>)
+  c6:	681a      	ldr	r2, [r3, #0]
+  c8:	2a00      	cmp	r2, #0
+  ca:	d0e9      	beq.n	a0 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xa0>
+  cc:	4b04      	ldr	r3, [pc, #16]	; (e0 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xe0>)
+  ce:	2f00      	cmp	r7, #0
+  d0:	d1e9      	bne.n	a6 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xa6>
+  d2:	681a      	ldr	r2, [r3, #0]
+  d4:	2a00      	cmp	r2, #0
+  d6:	d0e6      	beq.n	a6 <_ZN8FsVolume5beginEP22FsBlockDeviceInterfacebmm+0xa6>
+  d8:	2001      	movs	r0, #1
+  da:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  de:	bf00      	nop
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8FsVolume2lsEP5PrintPKch:
+
+00000000 <_ZN8FsVolume2lsEP5PrintPKch>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	2500      	movs	r5, #0
+   4:	b091      	sub	sp, #68	; 0x44
+   6:	460e      	mov	r6, r1
+   8:	461f      	mov	r7, r3
+   a:	4601      	mov	r1, r0
+   c:	462b      	mov	r3, r5
+   e:	4668      	mov	r0, sp
+  10:	950e      	str	r5, [sp, #56]	; 0x38
+  12:	950f      	str	r5, [sp, #60]	; 0x3c
+  14:	f7ff fffe 	bl	0 <_ZN10FsBaseFile4openEP8FsVolumePKci>
+  18:	4604      	mov	r4, r0
+  1a:	b928      	cbnz	r0, 28 <_ZN8FsVolume2lsEP5PrintPKch+0x28>
+  1c:	4668      	mov	r0, sp
+  1e:	f7ff fffe 	bl	0 <_ZN10FsBaseFile5closeEv>
+  22:	4620      	mov	r0, r4
+  24:	b011      	add	sp, #68	; 0x44
+  26:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  28:	980e      	ldr	r0, [sp, #56]	; 0x38
+  2a:	b158      	cbz	r0, 44 <_ZN8FsVolume2lsEP5PrintPKch+0x44>
+  2c:	462b      	mov	r3, r5
+  2e:	463a      	mov	r2, r7
+  30:	4631      	mov	r1, r6
+  32:	f7ff fffe 	bl	0 <_ZN7FatFile2lsEP5Printhh>
+  36:	4604      	mov	r4, r0
+  38:	4668      	mov	r0, sp
+  3a:	f7ff fffe 	bl	0 <_ZN10FsBaseFile5closeEv>
+  3e:	4620      	mov	r0, r4
+  40:	b011      	add	sp, #68	; 0x44
+  42:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  44:	9c0f      	ldr	r4, [sp, #60]	; 0x3c
+  46:	2c00      	cmp	r4, #0
+  48:	d0e8      	beq.n	1c <_ZN8FsVolume2lsEP5PrintPKch+0x1c>
+  4a:	4603      	mov	r3, r0
+  4c:	463a      	mov	r2, r7
+  4e:	4620      	mov	r0, r4
+  50:	4631      	mov	r1, r6
+  52:	f7ff fffe 	bl	0 <_ZN9ExFatFile2lsEP5Printhh>
+  56:	4604      	mov	r4, r0
+  58:	e7e0      	b.n	1c <_ZN8FsVolume2lsEP5PrintPKch+0x1c>
+  5a:	bf00      	nop
+
+Disassembly of section .text._ZN8FsVolume4openEPKci:
+
+00000000 <_ZN8FsVolume4openEPKci>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2500      	movs	r5, #0
+   4:	f44f 767a 	mov.w	r6, #1000	; 0x3e8
+   8:	4604      	mov	r4, r0
+   a:	6045      	str	r5, [r0, #4]
+   c:	7305      	strb	r5, [r0, #12]
+   e:	6086      	str	r6, [r0, #8]
+  10:	e9c0 5512 	strd	r5, r5, [r0, #72]	; 0x48
+  14:	4d03      	ldr	r5, [pc, #12]	; (24 <_ZN8FsVolume4openEPKci+0x24>)
+  16:	f840 5b10 	str.w	r5, [r0], #16
+  1a:	f7ff fffe 	bl	0 <_ZN10FsBaseFile4openEP8FsVolumePKci>
+  1e:	4620      	mov	r0, r4
+  20:	bd70      	pop	{r4, r5, r6, pc}
+  22:	bf00      	nop
+  24:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN8FsVolume4openERK6Stringi:
+
+00000000 <_ZN8FsVolume4openERK6Stringi>:
+   0:	6812      	ldr	r2, [r2, #0]
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4604      	mov	r4, r0
+   6:	b17a      	cbz	r2, 28 <_ZN8FsVolume4openERK6Stringi+0x28>
+   8:	2000      	movs	r0, #0
+   a:	4d08      	ldr	r5, [pc, #32]	; (2c <_ZN8FsVolume4openERK6Stringi+0x2c>)
+   c:	f44f 767a 	mov.w	r6, #1000	; 0x3e8
+  10:	6060      	str	r0, [r4, #4]
+  12:	7320      	strb	r0, [r4, #12]
+  14:	60a6      	str	r6, [r4, #8]
+  16:	e9c4 0012 	strd	r0, r0, [r4, #72]	; 0x48
+  1a:	4620      	mov	r0, r4
+  1c:	f840 5b10 	str.w	r5, [r0], #16
+  20:	f7ff fffe 	bl	0 <_ZN10FsBaseFile4openEP8FsVolumePKci>
+  24:	4620      	mov	r0, r4
+  26:	bd70      	pop	{r4, r5, r6, pc}
+  28:	4a01      	ldr	r2, [pc, #4]	; (30 <_ZN8FsVolume4openERK6Stringi+0x30>)
+  2a:	e7ed      	b.n	8 <_ZN8FsVolume4openERK6Stringi+0x8>
+  2c:	00000008 	.word	0x00000008
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8FsVolume14getVolumeLabelEPcj:
+
+00000000 <_ZN8FsVolume14getVolumeLabelEPcj>:
+   0:	2900      	cmp	r1, #0
+   2:	bf18      	it	ne
+   4:	2a0b      	cmpne	r2, #11
+   6:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   a:	bf98      	it	ls
+   c:	2201      	movls	r2, #1
+   e:	f5ad 7d0a 	sub.w	sp, sp, #552	; 0x228
+  12:	bf88      	it	hi
+  14:	2200      	movhi	r2, #0
+  16:	d948      	bls.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+  18:	700a      	strb	r2, [r1, #0]
+  1a:	4607      	mov	r7, r0
+  1c:	f8d0 4480 	ldr.w	r4, [r0, #1152]	; 0x480
+  20:	460e      	mov	r6, r1
+  22:	2c00      	cmp	r4, #0
+  24:	d03e      	beq.n	a4 <_ZN8FsVolume14getVolumeLabelEPcj+0xa4>
+  26:	4621      	mov	r1, r4
+  28:	a801      	add	r0, sp, #4
+  2a:	79e5      	ldrb	r5, [r4, #7]
+  2c:	9201      	str	r2, [sp, #4]
+  2e:	f7ff fffe 	bl	0 <_ZN7FatFile8openRootEP9FatVolume>
+  32:	4680      	mov	r8, r0
+  34:	2800      	cmp	r0, #0
+  36:	d03a      	beq.n	ae <_ZN8FsVolume14getVolumeLabelEPcj+0xae>
+  38:	a801      	add	r0, sp, #4
+  3a:	f7ff fffe 	bl	0 <_ZN7FatFile7dirSizeEv>
+  3e:	4604      	mov	r4, r0
+  40:	a801      	add	r0, sp, #4
+  42:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+  46:	2d20      	cmp	r5, #32
+  48:	f8d7 3480 	ldr.w	r3, [r7, #1152]	; 0x480
+  4c:	ad0a      	add	r5, sp, #40	; 0x28
+  4e:	f8d7 0488 	ldr.w	r0, [r7, #1160]	; 0x488
+  52:	bf08      	it	eq
+  54:	f8d3 a014 	ldreq.w	sl, [r3, #20]
+  58:	462a      	mov	r2, r5
+  5a:	bf18      	it	ne
+  5c:	f8d3 a020 	ldrne.w	sl, [r3, #32]
+  60:	6803      	ldr	r3, [r0, #0]
+  62:	4651      	mov	r1, sl
+  64:	691b      	ldr	r3, [r3, #16]
+  66:	4798      	blx	r3
+  68:	b1fc      	cbz	r4, aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+  6a:	2300      	movs	r3, #0
+  6c:	f240 19ff 	movw	r9, #511	; 0x1ff
+  70:	f103 0120 	add.w	r1, r3, #32
+  74:	5ce8      	ldrb	r0, [r5, r3]
+  76:	eb05 0c03 	add.w	ip, r5, r3
+  7a:	3c20      	subs	r4, #32
+  7c:	462a      	mov	r2, r5
+  7e:	b28b      	uxth	r3, r1
+  80:	b198      	cbz	r0, aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+  82:	f89c 100b 	ldrb.w	r1, [ip, #11]
+  86:	2908      	cmp	r1, #8
+  88:	d054      	beq.n	134 <_ZN8FsVolume14getVolumeLabelEPcj+0x134>
+  8a:	454b      	cmp	r3, r9
+  8c:	d94b      	bls.n	126 <_ZN8FsVolume14getVolumeLabelEPcj+0x126>
+  8e:	f10a 0a01 	add.w	sl, sl, #1
+  92:	b154      	cbz	r4, aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+  94:	f8d7 0488 	ldr.w	r0, [r7, #1160]	; 0x488
+  98:	4651      	mov	r1, sl
+  9a:	6803      	ldr	r3, [r0, #0]
+  9c:	691b      	ldr	r3, [r3, #16]
+  9e:	4798      	blx	r3
+  a0:	2300      	movs	r3, #0
+  a2:	e7e5      	b.n	70 <_ZN8FsVolume14getVolumeLabelEPcj+0x70>
+  a4:	f8d0 0484 	ldr.w	r0, [r0, #1156]	; 0x484
+  a8:	b930      	cbnz	r0, b8 <_ZN8FsVolume14getVolumeLabelEPcj+0xb8>
+  aa:	f04f 0800 	mov.w	r8, #0
+  ae:	4640      	mov	r0, r8
+  b0:	f50d 7d0a 	add.w	sp, sp, #552	; 0x228
+  b4:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  b8:	f8d0 942c 	ldr.w	r9, [r0, #1068]	; 0x42c
+  bc:	f8d0 5434 	ldr.w	r5, [r0, #1076]	; 0x434
+  c0:	f7ff fffe 	bl	0 <_ZN14ExFatPartition10rootLengthEv>
+  c4:	f8d7 3484 	ldr.w	r3, [r7, #1156]	; 0x484
+  c8:	4680      	mov	r8, r0
+  ca:	3d02      	subs	r5, #2
+  cc:	f8d7 0488 	ldr.w	r0, [r7, #1160]	; 0x488
+  d0:	f893 3445 	ldrb.w	r3, [r3, #1093]	; 0x445
+  d4:	409d      	lsls	r5, r3
+  d6:	6803      	ldr	r3, [r0, #0]
+  d8:	44a9      	add	r9, r5
+  da:	ad0a      	add	r5, sp, #40	; 0x28
+  dc:	691b      	ldr	r3, [r3, #16]
+  de:	462a      	mov	r2, r5
+  e0:	4649      	mov	r1, r9
+  e2:	4798      	blx	r3
+  e4:	f1b8 0f00 	cmp.w	r8, #0
+  e8:	d0df      	beq.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+  ea:	4623      	mov	r3, r4
+  ec:	f240 14ff 	movw	r4, #511	; 0x1ff
+  f0:	5ce8      	ldrb	r0, [r5, r3]
+  f2:	f103 0220 	add.w	r2, r3, #32
+  f6:	18e9      	adds	r1, r5, r3
+  f8:	f1a8 0820 	sub.w	r8, r8, #32
+  fc:	2883      	cmp	r0, #131	; 0x83
+  fe:	b293      	uxth	r3, r2
+ 100:	462a      	mov	r2, r5
+ 102:	d02e      	beq.n	162 <_ZN8FsVolume14getVolumeLabelEPcj+0x162>
+ 104:	2800      	cmp	r0, #0
+ 106:	d0d0      	beq.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+ 108:	42a3      	cmp	r3, r4
+ 10a:	d90f      	bls.n	12c <_ZN8FsVolume14getVolumeLabelEPcj+0x12c>
+ 10c:	f109 0901 	add.w	r9, r9, #1
+ 110:	f1b8 0f00 	cmp.w	r8, #0
+ 114:	d0c9      	beq.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+ 116:	f8d7 0488 	ldr.w	r0, [r7, #1160]	; 0x488
+ 11a:	4649      	mov	r1, r9
+ 11c:	6803      	ldr	r3, [r0, #0]
+ 11e:	691b      	ldr	r3, [r3, #16]
+ 120:	4798      	blx	r3
+ 122:	2300      	movs	r3, #0
+ 124:	e7e4      	b.n	f0 <_ZN8FsVolume14getVolumeLabelEPcj+0xf0>
+ 126:	2c00      	cmp	r4, #0
+ 128:	d1a2      	bne.n	70 <_ZN8FsVolume14getVolumeLabelEPcj+0x70>
+ 12a:	e7be      	b.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+ 12c:	f1b8 0f00 	cmp.w	r8, #0
+ 130:	d1de      	bne.n	f0 <_ZN8FsVolume14getVolumeLabelEPcj+0xf0>
+ 132:	e7ba      	b.n	aa <_ZN8FsVolume14getVolumeLabelEPcj+0xaa>
+ 134:	1e73      	subs	r3, r6, #1
+ 136:	f106 020a 	add.w	r2, r6, #10
+ 13a:	e001      	b.n	140 <_ZN8FsVolume14getVolumeLabelEPcj+0x140>
+ 13c:	f81c 0f01 	ldrb.w	r0, [ip, #1]!
+ 140:	f803 0f01 	strb.w	r0, [r3, #1]!
+ 144:	4293      	cmp	r3, r2
+ 146:	d1f9      	bne.n	13c <_ZN8FsVolume14getVolumeLabelEPcj+0x13c>
+ 148:	f1c6 0001 	rsb	r0, r6, #1
+ 14c:	781a      	ldrb	r2, [r3, #0]
+ 14e:	4619      	mov	r1, r3
+ 150:	18c4      	adds	r4, r0, r3
+ 152:	3b01      	subs	r3, #1
+ 154:	2a20      	cmp	r2, #32
+ 156:	d112      	bne.n	17e <_ZN8FsVolume14getVolumeLabelEPcj+0x17e>
+ 158:	428e      	cmp	r6, r1
+ 15a:	d1f7      	bne.n	14c <_ZN8FsVolume14getVolumeLabelEPcj+0x14c>
+ 15c:	2300      	movs	r3, #0
+ 15e:	7033      	strb	r3, [r6, #0]
+ 160:	e7a5      	b.n	ae <_ZN8FsVolume14getVolumeLabelEPcj+0xae>
+ 162:	784a      	ldrb	r2, [r1, #1]
+ 164:	b132      	cbz	r2, 174 <_ZN8FsVolume14getVolumeLabelEPcj+0x174>
+ 166:	4432      	add	r2, r6
+ 168:	f811 3f02 	ldrb.w	r3, [r1, #2]!
+ 16c:	f806 3b01 	strb.w	r3, [r6], #1
+ 170:	4296      	cmp	r6, r2
+ 172:	d1f9      	bne.n	168 <_ZN8FsVolume14getVolumeLabelEPcj+0x168>
+ 174:	2300      	movs	r3, #0
+ 176:	f04f 0801 	mov.w	r8, #1
+ 17a:	7033      	strb	r3, [r6, #0]
+ 17c:	e797      	b.n	ae <_ZN8FsVolume14getVolumeLabelEPcj+0xae>
+ 17e:	4426      	add	r6, r4
+ 180:	e7ec      	b.n	15c <_ZN8FsVolume14getVolumeLabelEPcj+0x15c>
+ 182:	bf00      	nop
+
+Disassembly of section .text._ZN8FsVolume14setVolumeLabelEPKc:
+
+00000000 <_ZN8FsVolume14setVolumeLabelEPKc>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8d0 5480 	ldr.w	r5, [r0, #1152]	; 0x480
+   8:	f5ad 7d0f 	sub.w	sp, sp, #572	; 0x23c
+   c:	4606      	mov	r6, r0
+   e:	460f      	mov	r7, r1
+  10:	2d00      	cmp	r5, #0
+  12:	f000 8093 	beq.w	13c <_ZN8FsVolume14setVolumeLabelEPKc+0x13c>
+  16:	2300      	movs	r3, #0
+  18:	4629      	mov	r1, r5
+  1a:	a805      	add	r0, sp, #20
+  1c:	79ec      	ldrb	r4, [r5, #7]
+  1e:	9305      	str	r3, [sp, #20]
+  20:	f7ff fffe 	bl	0 <_ZN7FatFile8openRootEP9FatVolume>
+  24:	4682      	mov	sl, r0
+  26:	b920      	cbnz	r0, 32 <_ZN8FsVolume14setVolumeLabelEPKc+0x32>
+  28:	4650      	mov	r0, sl
+  2a:	f50d 7d0f 	add.w	sp, sp, #572	; 0x23c
+  2e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  32:	a805      	add	r0, sp, #20
+  34:	f7ff fffe 	bl	0 <_ZN7FatFile7dirSizeEv>
+  38:	4605      	mov	r5, r0
+  3a:	a805      	add	r0, sp, #20
+  3c:	f7ff fffe 	bl	0 <_ZN7FatFile5closeEv>
+  40:	2c20      	cmp	r4, #32
+  42:	f8d6 3480 	ldr.w	r3, [r6, #1152]	; 0x480
+  46:	ac0e      	add	r4, sp, #56	; 0x38
+  48:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+  4c:	bf08      	it	eq
+  4e:	f8d3 8014 	ldreq.w	r8, [r3, #20]
+  52:	4622      	mov	r2, r4
+  54:	bf18      	it	ne
+  56:	f8d3 8020 	ldrne.w	r8, [r3, #32]
+  5a:	6803      	ldr	r3, [r0, #0]
+  5c:	4641      	mov	r1, r8
+  5e:	691b      	ldr	r3, [r3, #16]
+  60:	4798      	blx	r3
+  62:	2d00      	cmp	r5, #0
+  64:	f000 8131 	beq.w	2ca <_ZN8FsVolume14setVolumeLabelEPKc+0x2ca>
+  68:	2100      	movs	r1, #0
+  6a:	f240 1bff 	movw	fp, #511	; 0x1ff
+  6e:	9101      	str	r1, [sp, #4]
+  70:	9100      	str	r1, [sp, #0]
+  72:	5c63      	ldrb	r3, [r4, r1]
+  74:	eb04 0901 	add.w	r9, r4, r1
+  78:	2be5      	cmp	r3, #229	; 0xe5
+  7a:	d01b      	beq.n	b4 <_ZN8FsVolume14setVolumeLabelEPKc+0xb4>
+  7c:	b313      	cbz	r3, c4 <_ZN8FsVolume14setVolumeLabelEPKc+0xc4>
+  7e:	f899 300b 	ldrb.w	r3, [r9, #11]
+  82:	2b08      	cmp	r3, #8
+  84:	f000 80e5 	beq.w	252 <_ZN8FsVolume14setVolumeLabelEPKc+0x252>
+  88:	f101 0320 	add.w	r3, r1, #32
+  8c:	3d20      	subs	r5, #32
+  8e:	4622      	mov	r2, r4
+  90:	b299      	uxth	r1, r3
+  92:	4559      	cmp	r1, fp
+  94:	d914      	bls.n	c0 <_ZN8FsVolume14setVolumeLabelEPKc+0xc0>
+  96:	b1ad      	cbz	r5, c4 <_ZN8FsVolume14setVolumeLabelEPKc+0xc4>
+  98:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+  9c:	f108 0801 	add.w	r8, r8, #1
+  a0:	6803      	ldr	r3, [r0, #0]
+  a2:	4641      	mov	r1, r8
+  a4:	691b      	ldr	r3, [r3, #16]
+  a6:	4798      	blx	r3
+  a8:	2100      	movs	r1, #0
+  aa:	5c63      	ldrb	r3, [r4, r1]
+  ac:	eb04 0901 	add.w	r9, r4, r1
+  b0:	2be5      	cmp	r3, #229	; 0xe5
+  b2:	d1e3      	bne.n	7c <_ZN8FsVolume14setVolumeLabelEPKc+0x7c>
+  b4:	9b00      	ldr	r3, [sp, #0]
+  b6:	2b00      	cmp	r3, #0
+  b8:	d1e6      	bne.n	88 <_ZN8FsVolume14setVolumeLabelEPKc+0x88>
+  ba:	e9cd 8100 	strd	r8, r1, [sp]
+  be:	e7e3      	b.n	88 <_ZN8FsVolume14setVolumeLabelEPKc+0x88>
+  c0:	2d00      	cmp	r5, #0
+  c2:	d1d6      	bne.n	72 <_ZN8FsVolume14setVolumeLabelEPKc+0x72>
+  c4:	2f00      	cmp	r7, #0
+  c6:	d0af      	beq.n	28 <_ZN8FsVolume14setVolumeLabelEPKc+0x28>
+  c8:	783b      	ldrb	r3, [r7, #0]
+  ca:	2b00      	cmp	r3, #0
+  cc:	d0ac      	beq.n	28 <_ZN8FsVolume14setVolumeLabelEPKc+0x28>
+  ce:	9900      	ldr	r1, [sp, #0]
+  d0:	2900      	cmp	r1, #0
+  d2:	f000 80da 	beq.w	28a <_ZN8FsVolume14setVolumeLabelEPKc+0x28a>
+  d6:	4588      	cmp	r8, r1
+  d8:	d005      	beq.n	e6 <_ZN8FsVolume14setVolumeLabelEPKc+0xe6>
+  da:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+  de:	4622      	mov	r2, r4
+  e0:	6803      	ldr	r3, [r0, #0]
+  e2:	691b      	ldr	r3, [r3, #16]
+  e4:	4798      	blx	r3
+  e6:	9b01      	ldr	r3, [sp, #4]
+  e8:	f8dd 8000 	ldr.w	r8, [sp]
+  ec:	4423      	add	r3, r4
+  ee:	4699      	mov	r9, r3
+  f0:	2220      	movs	r2, #32
+  f2:	2100      	movs	r1, #0
+  f4:	4648      	mov	r0, r9
+  f6:	f7ff fffe 	bl	0 <memset>
+  fa:	4b76      	ldr	r3, [pc, #472]	; (2d4 <_ZN8FsVolume14setVolumeLabelEPKc+0x2d4>)
+  fc:	681b      	ldr	r3, [r3, #0]
+  fe:	b16b      	cbz	r3, 11c <_ZN8FsVolume14setVolumeLabelEPKc+0x11c>
+ 100:	f10d 020f 	add.w	r2, sp, #15
+ 104:	f10d 0112 	add.w	r1, sp, #18
+ 108:	a804      	add	r0, sp, #16
+ 10a:	4798      	blx	r3
+ 10c:	f8bd 3012 	ldrh.w	r3, [sp, #18]
+ 110:	f8a9 3016 	strh.w	r3, [r9, #22]
+ 114:	f8bd 3010 	ldrh.w	r3, [sp, #16]
+ 118:	f8a9 3018 	strh.w	r3, [r9, #24]
+ 11c:	f109 32ff 	add.w	r2, r9, #4294967295	; 0xffffffff
+ 120:	f109 010a 	add.w	r1, r9, #10
+ 124:	e005      	b.n	132 <_ZN8FsVolume14setVolumeLabelEPKc+0x132>
+ 126:	3701      	adds	r7, #1
+ 128:	f802 3f01 	strb.w	r3, [r2, #1]!
+ 12c:	4291      	cmp	r1, r2
+ 12e:	f000 80c6 	beq.w	2be <_ZN8FsVolume14setVolumeLabelEPKc+0x2be>
+ 132:	783b      	ldrb	r3, [r7, #0]
+ 134:	2b00      	cmp	r3, #0
+ 136:	d1f6      	bne.n	126 <_ZN8FsVolume14setVolumeLabelEPKc+0x126>
+ 138:	2320      	movs	r3, #32
+ 13a:	e7f5      	b.n	128 <_ZN8FsVolume14setVolumeLabelEPKc+0x128>
+ 13c:	f8d0 0484 	ldr.w	r0, [r0, #1156]	; 0x484
+ 140:	2800      	cmp	r0, #0
+ 142:	d03f      	beq.n	1c4 <_ZN8FsVolume14setVolumeLabelEPKc+0x1c4>
+ 144:	f8d0 942c 	ldr.w	r9, [r0, #1068]	; 0x42c
+ 148:	f8d0 4434 	ldr.w	r4, [r0, #1076]	; 0x434
+ 14c:	f7ff fffe 	bl	0 <_ZN14ExFatPartition10rootLengthEv>
+ 150:	f8d6 3484 	ldr.w	r3, [r6, #1156]	; 0x484
+ 154:	4680      	mov	r8, r0
+ 156:	3c02      	subs	r4, #2
+ 158:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 15c:	f893 3445 	ldrb.w	r3, [r3, #1093]	; 0x445
+ 160:	409c      	lsls	r4, r3
+ 162:	6803      	ldr	r3, [r0, #0]
+ 164:	44a1      	add	r9, r4
+ 166:	ac0e      	add	r4, sp, #56	; 0x38
+ 168:	691b      	ldr	r3, [r3, #16]
+ 16a:	4622      	mov	r2, r4
+ 16c:	4649      	mov	r1, r9
+ 16e:	4798      	blx	r3
+ 170:	f1b8 0f00 	cmp.w	r8, #0
+ 174:	d01f      	beq.n	1b6 <_ZN8FsVolume14setVolumeLabelEPKc+0x1b6>
+ 176:	462b      	mov	r3, r5
+ 178:	f240 1aff 	movw	sl, #511	; 0x1ff
+ 17c:	5ce0      	ldrb	r0, [r4, r3]
+ 17e:	f103 0220 	add.w	r2, r3, #32
+ 182:	18e5      	adds	r5, r4, r3
+ 184:	f1a8 0820 	sub.w	r8, r8, #32
+ 188:	2883      	cmp	r0, #131	; 0x83
+ 18a:	b293      	uxth	r3, r2
+ 18c:	4622      	mov	r2, r4
+ 18e:	d020      	beq.n	1d2 <_ZN8FsVolume14setVolumeLabelEPKc+0x1d2>
+ 190:	b188      	cbz	r0, 1b6 <_ZN8FsVolume14setVolumeLabelEPKc+0x1b6>
+ 192:	4553      	cmp	r3, sl
+ 194:	d90c      	bls.n	1b0 <_ZN8FsVolume14setVolumeLabelEPKc+0x1b0>
+ 196:	f1b8 0f00 	cmp.w	r8, #0
+ 19a:	d00c      	beq.n	1b6 <_ZN8FsVolume14setVolumeLabelEPKc+0x1b6>
+ 19c:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 1a0:	f109 0901 	add.w	r9, r9, #1
+ 1a4:	6803      	ldr	r3, [r0, #0]
+ 1a6:	4649      	mov	r1, r9
+ 1a8:	691b      	ldr	r3, [r3, #16]
+ 1aa:	4798      	blx	r3
+ 1ac:	2300      	movs	r3, #0
+ 1ae:	e7e5      	b.n	17c <_ZN8FsVolume14setVolumeLabelEPKc+0x17c>
+ 1b0:	f1b8 0f00 	cmp.w	r8, #0
+ 1b4:	d1e2      	bne.n	17c <_ZN8FsVolume14setVolumeLabelEPKc+0x17c>
+ 1b6:	2f00      	cmp	r7, #0
+ 1b8:	d048      	beq.n	24c <_ZN8FsVolume14setVolumeLabelEPKc+0x24c>
+ 1ba:	783b      	ldrb	r3, [r7, #0]
+ 1bc:	2b00      	cmp	r3, #0
+ 1be:	d045      	beq.n	24c <_ZN8FsVolume14setVolumeLabelEPKc+0x24c>
+ 1c0:	782b      	ldrb	r3, [r5, #0]
+ 1c2:	b15b      	cbz	r3, 1dc <_ZN8FsVolume14setVolumeLabelEPKc+0x1dc>
+ 1c4:	f04f 0a00 	mov.w	sl, #0
+ 1c8:	4650      	mov	r0, sl
+ 1ca:	f50d 7d0f 	add.w	sp, sp, #572	; 0x23c
+ 1ce:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1d2:	2f00      	cmp	r7, #0
+ 1d4:	d05f      	beq.n	296 <_ZN8FsVolume14setVolumeLabelEPKc+0x296>
+ 1d6:	783b      	ldrb	r3, [r7, #0]
+ 1d8:	2b00      	cmp	r3, #0
+ 1da:	d05c      	beq.n	296 <_ZN8FsVolume14setVolumeLabelEPKc+0x296>
+ 1dc:	4638      	mov	r0, r7
+ 1de:	f7ff fffe 	bl	0 <strlen>
+ 1e2:	2383      	movs	r3, #131	; 0x83
+ 1e4:	b2c0      	uxtb	r0, r0
+ 1e6:	702b      	strb	r3, [r5, #0]
+ 1e8:	280b      	cmp	r0, #11
+ 1ea:	4603      	mov	r3, r0
+ 1ec:	bf28      	it	cs
+ 1ee:	230b      	movcs	r3, #11
+ 1f0:	706b      	strb	r3, [r5, #1]
+ 1f2:	3b01      	subs	r3, #1
+ 1f4:	b2db      	uxtb	r3, r3
+ 1f6:	b148      	cbz	r0, 20c <_ZN8FsVolume14setVolumeLabelEPKc+0x20c>
+ 1f8:	3301      	adds	r3, #1
+ 1fa:	3504      	adds	r5, #4
+ 1fc:	443b      	add	r3, r7
+ 1fe:	f817 2b01 	ldrb.w	r2, [r7], #1
+ 202:	3502      	adds	r5, #2
+ 204:	42bb      	cmp	r3, r7
+ 206:	f805 2c04 	strb.w	r2, [r5, #-4]
+ 20a:	d1f8      	bne.n	1fe <_ZN8FsVolume14setVolumeLabelEPKc+0x1fe>
+ 20c:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 210:	4622      	mov	r2, r4
+ 212:	4649      	mov	r1, r9
+ 214:	6803      	ldr	r3, [r0, #0]
+ 216:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 218:	4798      	blx	r3
+ 21a:	f8d6 4484 	ldr.w	r4, [r6, #1156]	; 0x484
+ 21e:	f894 3210 	ldrb.w	r3, [r4, #528]	; 0x210
+ 222:	07db      	lsls	r3, r3, #31
+ 224:	d444      	bmi.n	2b0 <_ZN8FsVolume14setVolumeLabelEPKc+0x2b0>
+ 226:	2200      	movs	r2, #0
+ 228:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+ 22c:	f884 2210 	strb.w	r2, [r4, #528]	; 0x210
+ 230:	f8c4 321c 	str.w	r3, [r4, #540]	; 0x21c
+ 234:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 238:	f04f 0a01 	mov.w	sl, #1
+ 23c:	6803      	ldr	r3, [r0, #0]
+ 23e:	6a1b      	ldr	r3, [r3, #32]
+ 240:	4798      	blx	r3
+ 242:	4650      	mov	r0, sl
+ 244:	f50d 7d0f 	add.w	sp, sp, #572	; 0x23c
+ 248:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 24c:	f04f 0a01 	mov.w	sl, #1
+ 250:	e6ea      	b.n	28 <_ZN8FsVolume14setVolumeLabelEPKc+0x28>
+ 252:	b11f      	cbz	r7, 25c <_ZN8FsVolume14setVolumeLabelEPKc+0x25c>
+ 254:	783b      	ldrb	r3, [r7, #0]
+ 256:	2b00      	cmp	r3, #0
+ 258:	f47f af4a 	bne.w	f0 <_ZN8FsVolume14setVolumeLabelEPKc+0xf0>
+ 25c:	491e      	ldr	r1, [pc, #120]	; (2d8 <_ZN8FsVolume14setVolumeLabelEPKc+0x2d8>)
+ 25e:	481f      	ldr	r0, [pc, #124]	; (2dc <_ZN8FsVolume14setVolumeLabelEPKc+0x2dc>)
+ 260:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 264:	23e5      	movs	r3, #229	; 0xe5
+ 266:	4622      	mov	r2, r4
+ 268:	4641      	mov	r1, r8
+ 26a:	f889 3000 	strb.w	r3, [r9]
+ 26e:	2300      	movs	r3, #0
+ 270:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 274:	f889 300b 	strb.w	r3, [r9, #11]
+ 278:	6803      	ldr	r3, [r0, #0]
+ 27a:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 27c:	4798      	blx	r3
+ 27e:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 282:	6803      	ldr	r3, [r0, #0]
+ 284:	6a1b      	ldr	r3, [r3, #32]
+ 286:	4798      	blx	r3
+ 288:	e6ce      	b.n	28 <_ZN8FsVolume14setVolumeLabelEPKc+0x28>
+ 28a:	f899 3000 	ldrb.w	r3, [r9]
+ 28e:	2b00      	cmp	r3, #0
+ 290:	f43f af2e 	beq.w	f0 <_ZN8FsVolume14setVolumeLabelEPKc+0xf0>
+ 294:	e796      	b.n	1c4 <_ZN8FsVolume14setVolumeLabelEPKc+0x1c4>
+ 296:	4910      	ldr	r1, [pc, #64]	; (2d8 <_ZN8FsVolume14setVolumeLabelEPKc+0x2d8>)
+ 298:	4810      	ldr	r0, [pc, #64]	; (2dc <_ZN8FsVolume14setVolumeLabelEPKc+0x2dc>)
+ 29a:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 29e:	782b      	ldrb	r3, [r5, #0]
+ 2a0:	4622      	mov	r2, r4
+ 2a2:	4649      	mov	r1, r9
+ 2a4:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 2a8:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 2ac:	702b      	strb	r3, [r5, #0]
+ 2ae:	e7b1      	b.n	214 <_ZN8FsVolume14setVolumeLabelEPKc+0x214>
+ 2b0:	f504 7004 	add.w	r0, r4, #528	; 0x210
+ 2b4:	f7ff fffe 	bl	0 <_ZN7FsCache4syncEv>
+ 2b8:	2800      	cmp	r0, #0
+ 2ba:	d1b4      	bne.n	226 <_ZN8FsVolume14setVolumeLabelEPKc+0x226>
+ 2bc:	e7ba      	b.n	234 <_ZN8FsVolume14setVolumeLabelEPKc+0x234>
+ 2be:	4622      	mov	r2, r4
+ 2c0:	4641      	mov	r1, r8
+ 2c2:	f8d6 0488 	ldr.w	r0, [r6, #1160]	; 0x488
+ 2c6:	2308      	movs	r3, #8
+ 2c8:	e7d4      	b.n	274 <_ZN8FsVolume14setVolumeLabelEPKc+0x274>
+ 2ca:	46a9      	mov	r9, r5
+ 2cc:	e9cd 5500 	strd	r5, r5, [sp]
+ 2d0:	e6f8      	b.n	c4 <_ZN8FsVolume14setVolumeLabelEPKc+0xc4>
+ 2d2:	bf00      	nop
+ 2d4:	00000000 	.word	0x00000000
+ 2d8:	00000000 	.word	0x00000000
+ 2dc:	00000000 	.word	0x00000000

@@ -1,0 +1,72 @@
+
+build/./src/sensors/ACS712.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 ACS712.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN6ACS7124readEv	00000000 .text._ZN6ACS7124readEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN6ACS7124readEv	00000080 _ZN6ACS7124readEv
+00000000         *UND*	00000000 analogRead
+
+
+Contents of section .text._ZN6ACS7124readEv:
+ 0000 10b50446 2ded028b 90ed018a 0078fff7  ...F-........x..
+ 0010 feff07ee 900ab7ee c88a94ed 027ab8ee  .............z..
+ 0020 e75b94ed 046ab7ee c77ab7ee c66a9fed  .[...j...z...j..
+ 0030 0e2b9fed 0f3b9fed 104ba5ee 428b88ee  .+...;...K..B...
+ 0040 070bbdec 028bb7ee c00bb7ee c07a27ee  .............z'.
+ 0050 037ba6ee 047bb7ee c77b84ed 037a84ed  .{...{...{...z..
+ 0060 047a10bd aff30080 6d1ad0a6 016d6a3f  .z......m....mj?
+ 0070 9a999999 9999d93f 33333333 3333e33f  .......?333333.?
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN6ACS7124readEv:
+
+00000000 <_ZN6ACS7124readEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	ed2d 8b02 	vpush	{d8}
+   8:	ed90 8a01 	vldr	s16, [r0, #4]
+   c:	7800      	ldrb	r0, [r0, #0]
+   e:	f7ff fffe 	bl	0 <analogRead>
+  12:	ee07 0a90 	vmov	s15, r0
+  16:	eeb7 8ac8 	vcvt.f64.f32	d8, s16
+  1a:	ed94 7a02 	vldr	s14, [r4, #8]
+  1e:	eeb8 5be7 	vcvt.f64.s32	d5, s15
+  22:	ed94 6a04 	vldr	s12, [r4, #16]
+  26:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  2a:	eeb7 6ac6 	vcvt.f64.f32	d6, s12
+  2e:	ed9f 2b0e 	vldr	d2, [pc, #56]	; 68 <_ZN6ACS7124readEv+0x68>
+  32:	ed9f 3b0f 	vldr	d3, [pc, #60]	; 70 <_ZN6ACS7124readEv+0x70>
+  36:	ed9f 4b10 	vldr	d4, [pc, #64]	; 78 <_ZN6ACS7124readEv+0x78>
+  3a:	eea5 8b42 	vfms.f64	d8, d5, d2
+  3e:	ee88 0b07 	vdiv.f64	d0, d8, d7
+  42:	ecbd 8b02 	vpop	{d8}
+  46:	eeb7 0bc0 	vcvt.f32.f64	s0, d0
+  4a:	eeb7 7ac0 	vcvt.f64.f32	d7, s0
+  4e:	ee27 7b03 	vmul.f64	d7, d7, d3
+  52:	eea6 7b04 	vfma.f64	d7, d6, d4
+  56:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  5a:	ed84 7a03 	vstr	s14, [r4, #12]
+  5e:	ed84 7a04 	vstr	s14, [r4, #16]
+  62:	bd10      	pop	{r4, pc}
+  64:	f3af 8000 	nop.w
+  68:	a6d01a6d 	.word	0xa6d01a6d
+  6c:	3f6a6d01 	.word	0x3f6a6d01
+  70:	9999999a 	.word	0x9999999a
+  74:	3fd99999 	.word	0x3fd99999
+  78:	33333333 	.word	0x33333333
+  7c:	3fe33333 	.word	0x3fe33333

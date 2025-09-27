@@ -1,0 +1,859 @@
+
+build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 ExFatFormatter.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN5Print5writeEPKc.isra.0	00000000 .text._ZN5Print5writeEPKc.isra.0
+00000000 l     F .text._ZN5Print5writeEPKc.isra.0	00000020 _ZN5Print5writeEPKc.isra.0
+00000000 l    d  .text._ZN14ExFatFormatter10syncUpcaseEv	00000000 .text._ZN14ExFatFormatter10syncUpcaseEv
+00000000 l    d  .text._ZN14ExFatFormatter15writeUpcaseByteEh	00000000 .text._ZN14ExFatFormatter15writeUpcaseByteEh
+00000000 l    d  .text._ZN14ExFatFormatter18writeUpcaseUnicodeEt	00000000 .text._ZN14ExFatFormatter18writeUpcaseUnicodeEt
+00000000 l    d  .text._ZN14ExFatFormatter11writeUpcaseEm	00000000 .text._ZN14ExFatFormatter11writeUpcaseEm
+00000000 l    d  .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4	00000000 .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
+00000000 l    d  .text._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print	00000000 .text._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 strlen
+00000000 g     F .text._ZN14ExFatFormatter10syncUpcaseEv	0000002e _ZN14ExFatFormatter10syncUpcaseEv
+00000000 g     F .text._ZN14ExFatFormatter15writeUpcaseByteEh	00000040 _ZN14ExFatFormatter15writeUpcaseByteEh
+00000000 g     F .text._ZN14ExFatFormatter18writeUpcaseUnicodeEt	0000004c _ZN14ExFatFormatter18writeUpcaseUnicodeEt
+00000000 g     F .text._ZN14ExFatFormatter11writeUpcaseEm	000000b0 _ZN14ExFatFormatter11writeUpcaseEm
+00000000         *UND*	00000000 _Z8toUpcaset
+00000000 g     F .text._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print	0000052c _ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print
+00000000         *UND*	00000000 memset
+
+
+Contents of section .text._ZN5Print5writeEPKc.isra.0:
+ 0000 69b170b5 05460846 0c46fff7 feff2b68  i.p..F.F.F....+h
+ 0010 02462146 28465b68 bde87040 18477047  .F!F(F[h..p@.GpG
+Contents of section .text._ZN14ExFatFormatter10syncUpcaseEv:
+ 0000 8368c3f3 080383b1 002110b4 0269d154  .h.......!...i.T
+ 0010 0133b3f5 007ff9d1 0168d0e9 03321c68  .3.......h...2.h
+ 0020 1846636a 5df8044b 18470120 704700bf  .Fcj]..K.G. pG..
+Contents of section .text._ZN14ExFatFormatter15writeUpcaseByteEh:
+ 0000 82680346 006940f2 ff1cc2f3 08028154  .h.F.i@........T
+ 0010 62455868 01eb7001 986800f1 0100c3e9  bEXh..p..h......
+ 0020 011001d0 01207047 d8681968 10b40468  ..... pG.h.h...h
+ 0030 4a1c646a 1a601a69 23465df8 044b1847  J.dj.`.i#F]..K.G
+Contents of section .text._ZN14ExFatFormatter18writeUpcaseUnicodeEt:
+ 0000 38b58368 cab20d46 0169c3f3 080340f2  8..h...F.i....@.
+ 0010 ff1c0446 ca546345 416802eb 71024260  ...F.TcEAh..q.B`
+ 0020 826802f1 01028260 05d0290a 2046bde8  .h.....`..). F..
+ 0030 3840fff7 febf0168 c0684a1c 03685b6a  8@.....h.hJ..h[j
+ 0040 22602269 98470028 efd138bd           "`"i.G.(..8.    
+Contents of section .text._ZN14ExFatFormatter11writeUpcaseEm:
+ 0000 f8b50023 06460160 1d46c0e9 0133a8b2  ...#.F.`.F...3..
+ 0010 fff7feff a8420446 07d0c1b2 3046fff7  .....B.F....0F..
+ 0020 feff0028 3bd10020 f8bd6c1c b4f5803f  ...(;.. ..l....?
+ 0030 04d12ae0 0134b4f5 803f04d0 a0b2fff7  ..*..4...?......
+ 0040 feffa042 f6d0671b b7f5007f 1dd34ff6  ...B..g.......O.
+ 0050 ff713046 fff7feff 0028e4d0 b9b23046  .q0F.....(....0F
+ 0060 fff7feff 0028ded0 2546b5f5 803fced1  .....(..%F...?..
+ 0070 3046bde8 f840fff7 febfc5f3 07213046  0F...@.......!0F
+ 0080 0135fff7 feff0028 cdd0a542 e9b23046  .5.....(...B..0F
+ 0090 ebd2fff7 feff0028 efd10020 f8bdc4f3  .......(... ....
+ 00a0 07213046 fff7feff 0028bcd0 0135dce7  .!0F.....(...5..
+Contents of section .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4:
+ 0000 44657669 63652069 7320746f 6f20736d  Device is too sm
+ 0010 616c6c0d 0a000000 57726974 696e6720  all.....Writing 
+ 0020 46415420 00000000 2e000000 0d0a0000  FAT ............
+ 0030 57726974 696e6720 75706361 73652074  Writing upcase t
+ 0040 61626c65 0d0a0000 57726974 696e6720  able....Writing 
+ 0050 726f6f74 0d0a0000 466f726d 61742064  root....Format d
+ 0060 6f6e650d 0a000000 466f726d 61742066  one.....Format f
+ 0070 61696c65 640d0a00                    ailed...        
+Contents of section .text._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print:
+ 0000 2de9f04f 1f4689b0 0b680d46 04901446  -..O.F...h.F...F
+ 0010 c1600261 0846db69 9847b0f5 801f0090  .`.a.F.i.G......
+ 0020 c0f0d880 00230122 009e0133 5200dbb2  .....#."...3R...
+ 0030 01d09642 f9d81c2b 009640f2 b780a3f1  ...B...+..@.....
+ 0040 0b080122 48fa02f1 c8f34708 8a400291  ..."H.....G..@..
+ 0050 07920133 01225b10 9a400692 04229a40  ...3."[..@...".@
+ 0060 03920222 02fa03f3 0193009a 0021039b  ...".........!..
+ 0070 2046029e 4ff0010a d31a4ff4 00724af6   F..O.....O..rJ.
+ 0080 552bf340 03fa06f9 0593019e fff7feff  U+.@............
+ 0090 ff2384f8 bfa184f8 c0a1b144 84f8c431  .#.........D...1
+ 00a0 224684f8 c5310723 00212846 84f8c231  "F...1.#.!(F...1
+ 00b0 fe23c4f8 c66184f8 c3312b68 c4f8ca91  .#...a...1+h....
+ 00c0 5b6aa4f8 feb19847 002863d0 4ff40072  [j.....G.(c.O..r
+ 00d0 00212046 fff7feff 009b84f8 6d804ff0  .! F........m.O.
+ 00e0 00086366 f421059b 04f17800 069ae365  ..cf.!....x....e
+ 00f0 20232664 23726372 a372eb23 a6654646   #&d#rcr.r.#.eFF
+ 0100 23707623 c4f84890 63709023 84f86ea0  #pv#..H.cp.#..n.
+ 0110 a3704523 e3705823 23714623 63714123  .pE#.pX##qF#cqA#
+ 0120 a3715423 e3710423 23664ff4 8073a4f8  .qT#.q.##fO..s..
+ 0130 68300923 84f86c30 8023c4e9 142284f8  h0.#..l0.#..."..
+ 0140 6f304ff4 c372fff7 feffa4f8 feb1a8f1  o0O..r..........
+ 0150 6a03012b 06d9b8f1 700f03d0 14f80830  j..+....p......0
+ 0160 03eb7606 08f10108 b8f5007f efd12b68  ..v...........+h
+ 0170 2246ddf8 04902846 5b6a4946 984748b1  "F....(F[jIF.GH.
+ 0180 2b684946 22462846 5b6a0c31 cdf80490  +hIF"F(F[j.1....
+ 0190 984740bb 2fb13b68 0f22b849 38465b68  .G@./.;h.".I8F[h
+ 01a0 98470026 304609b0 bde8f08f 1a2b4ff0  .G.&0F.......+O.
+ 01b0 080800f2 a6814ff4 8043cdf8 08800193  ......O..C......
+ 01c0 4ff40043 03934ff4 80730793 4ff40053  O..C..O..s..O..S
+ 01d0 06934ae7 002fe4d0 3b681522 a8493846  ..J../..;h.".I8F
+ 01e0 5b689847 d7e74246 00212046 09f1010a  [h.G..BF.! F....
+ 01f0 fff7feff 4af65523 09f10902 04f2ff19  ....J.U#........
+ 0200 a4f8fe31 00239346 a04601e0 18f8013f  ...1.#.F.F.....?
+ 0210 c14503eb 7606f9d1 2b682246 51462846  .E..v...+h"FQF(F
+ 0220 5b6a9847 0028b5d0 2b682246 0af10c01  [j.G.(..+h"F....
+ 0230 28465b6a 98470028 acd00af1 01039b45  (F[j.G.(.......E
+ 0240 02d09a46 2378dfe7 4ff40072 00212046  ...F#x..O..r.! F
+ 0250 9b46fff7 feff0022 0af1030a 11462346  .F.....".....F#F
+ 0260 01e013f8 011f9845 01eb7606 f9d12b68  .......E..v...+h
+ 0270 22465946 28465b6a 98470028 8ad02b68  "FYF(F[j.G.(..+h
+ 0280 22460bf1 0c012846 5b6a9847 002881d0  "F....(F[j.G.(..
+ 0290 0bf10101 8a456ad1 231f04f5 fe7243f8  .....Ej.#....rC.
+ 02a0 046f9a42 fbd12b68 22462846 5b6a9847  .o.B..+h"F(F[j.G
+ 02b0 00283ff4 6faf2b68 0bf10d01 22462846  .(?.o.+h...."F(F
+ 02c0 5b6a9847 00283ff4 65af2fb1 3b680c22  [j.G.(?.e./.;h."
+ 02d0 6c493846 5b689847 069a0021 019b2046  lI8F[h.G...!.. F
+ 02e0 00261344 4ff40072 9946059b 4fea8308  .&.DO..r.F..O...
+ 02f0 fff7feff 23464ff0 ff3208f2 0728f821  ....#FO..2...(.!
+ 0300 b7f1000b 4fea582a 03f8011b 4fea9838  ....O.X*....O..8
+ 0310 c4f80120 18bf4ff0 010bda60 5a609a60  ... ..O....`Z`.`
+ 0320 c3f80f20 02e00136 b24523d0 b6fbf8f3  ... ...6.E#.....
+ 0330 08fb1363 43b9bbf1 000f05d0 3b680122  ...cC.......;h."
+ 0340 51493846 5b689847 2b6809eb 06012246  QI8F[h.G+h...."F
+ 0350 28465b6a 98470028 3ff41caf 002ee2d1  (F[j.G.(?.......
+ 0360 31464ff4 00722046 fff7feff dbe78b46  1FO..r F.......F
+ 0370 217874e7 002f34d0 3b680222 43493846  !xt../4.;h."CI8F
+ 0380 5b689847 059e079a 0736f608 06f2ff13  [h.G.....6......
+ 0390 b2eb532f 4fea5329 fff4fdae 4ff40072  ..S/O.S)....O..r
+ 03a0 00212046 fff7feff 07232370 b9f1000f  .! F.....##p....
+ 03b0 00f08a80 4ff00008 08e0b8f1 000f01d1  ....O...........
+ 03c0 84f80080 08f10108 c1457bd9 039a2846  .........E{...(F
+ 03d0 2b6802eb 08012246 5b6a9847 0028ecd1  +h...."F[j.G.(..
+ 03e0 d8e6059e 079a0736 f60806f2 ff13b2eb  .......6........
+ 03f0 532f4fea 5329fff4 d4ae4ff4 00723946  S/O.S)....O..r9F
+ 0400 2046fff7 feff0723 2370b9f1 000fd1d1   F.....##p......
+ 0410 039b079a 04989918 fff7feff 00283ff4  .............(?.
+ 0420 c0ae029a 4ff40073 9340049a 92689a42  ....O..s.@...h.B
+ 0430 3ff6b7ae 4ff00208 029b4ff4 00720021  ?...O.....O..r.!
+ 0440 08fa03f9 039b2046 9944fff7 feff8122  ...... F.D....."
+ 0450 03230499 09f1ff39 84f82020 82222370  .#.....9..  ."#p
+ 0460 84f84020 c4e90d86 4a684ff0 01086365  ..@ ....JhO...ce
+ 0470 62648b68 a3650023 e3650ee0 68000000  bd.h.e.#.e..h...
+ 0480 00000000 18000000 28000000 2c000000  ........(...,...
+ 0490 079b9845 3bd208f1 01082b68 09eb0801  ...E;.....+h....
+ 04a0 22462846 5b6a9847 06460028 3ff472ae  "F(F[j.G.F.(?.r.
+ 04b0 b8f1010f ecd14ff4 00720021 2046fff7  ......O..r.! F..
+ 04c0 feffe8e7 002fa3d0 3b681622 14493846  ...../..;h.".I8F
+ 04d0 5b689847 039b079a 04989918 fff7feff  [h.G............
+ 04e0 00283ff4 58ae029a 4ff40073 9340049a  .(?.X...O..s.@..
+ 04f0 92689a42 3ff64fae 0a493846 fff7feff  .h.B?.O..I8F....
+ 0500 98e74ff4 8072cdf8 08800792 a1e5002f  ..O..r........./
+ 0510 3ff448ae 04493846 fff7feff 42e600bf  ?.H..I8F....B...
+ 0520 30000000 48000000 58000000           0...H...X...    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5Print5writeEPKc.isra.0:
+
+00000000 <_ZN5Print5writeEPKc.isra.0>:
+   0:	b169      	cbz	r1, 1e <_ZN5Print5writeEPKc.isra.0+0x1e>
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4605      	mov	r5, r0
+   6:	4608      	mov	r0, r1
+   8:	460c      	mov	r4, r1
+   a:	f7ff fffe 	bl	0 <strlen>
+   e:	682b      	ldr	r3, [r5, #0]
+  10:	4602      	mov	r2, r0
+  12:	4621      	mov	r1, r4
+  14:	4628      	mov	r0, r5
+  16:	685b      	ldr	r3, [r3, #4]
+  18:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  1c:	4718      	bx	r3
+  1e:	4770      	bx	lr
+
+Disassembly of section .text._ZN14ExFatFormatter10syncUpcaseEv:
+
+00000000 <_ZN14ExFatFormatter10syncUpcaseEv>:
+   0:	6883      	ldr	r3, [r0, #8]
+   2:	f3c3 0308 	ubfx	r3, r3, #0, #9
+   6:	b183      	cbz	r3, 2a <_ZN14ExFatFormatter10syncUpcaseEv+0x2a>
+   8:	2100      	movs	r1, #0
+   a:	b410      	push	{r4}
+   c:	6902      	ldr	r2, [r0, #16]
+   e:	54d1      	strb	r1, [r2, r3]
+  10:	3301      	adds	r3, #1
+  12:	f5b3 7f00 	cmp.w	r3, #512	; 0x200
+  16:	d1f9      	bne.n	c <_ZN14ExFatFormatter10syncUpcaseEv+0xc>
+  18:	6801      	ldr	r1, [r0, #0]
+  1a:	e9d0 3203 	ldrd	r3, r2, [r0, #12]
+  1e:	681c      	ldr	r4, [r3, #0]
+  20:	4618      	mov	r0, r3
+  22:	6a63      	ldr	r3, [r4, #36]	; 0x24
+  24:	f85d 4b04 	ldr.w	r4, [sp], #4
+  28:	4718      	bx	r3
+  2a:	2001      	movs	r0, #1
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+
+Disassembly of section .text._ZN14ExFatFormatter15writeUpcaseByteEh:
+
+00000000 <_ZN14ExFatFormatter15writeUpcaseByteEh>:
+   0:	6882      	ldr	r2, [r0, #8]
+   2:	4603      	mov	r3, r0
+   4:	6900      	ldr	r0, [r0, #16]
+   6:	f240 1cff 	movw	ip, #511	; 0x1ff
+   a:	f3c2 0208 	ubfx	r2, r2, #0, #9
+   e:	5481      	strb	r1, [r0, r2]
+  10:	4562      	cmp	r2, ip
+  12:	6858      	ldr	r0, [r3, #4]
+  14:	eb01 0170 	add.w	r1, r1, r0, ror #1
+  18:	6898      	ldr	r0, [r3, #8]
+  1a:	f100 0001 	add.w	r0, r0, #1
+  1e:	e9c3 1001 	strd	r1, r0, [r3, #4]
+  22:	d001      	beq.n	28 <_ZN14ExFatFormatter15writeUpcaseByteEh+0x28>
+  24:	2001      	movs	r0, #1
+  26:	4770      	bx	lr
+  28:	68d8      	ldr	r0, [r3, #12]
+  2a:	6819      	ldr	r1, [r3, #0]
+  2c:	b410      	push	{r4}
+  2e:	6804      	ldr	r4, [r0, #0]
+  30:	1c4a      	adds	r2, r1, #1
+  32:	6a64      	ldr	r4, [r4, #36]	; 0x24
+  34:	601a      	str	r2, [r3, #0]
+  36:	691a      	ldr	r2, [r3, #16]
+  38:	4623      	mov	r3, r4
+  3a:	f85d 4b04 	ldr.w	r4, [sp], #4
+  3e:	4718      	bx	r3
+
+Disassembly of section .text._ZN14ExFatFormatter18writeUpcaseUnicodeEt:
+
+00000000 <_ZN14ExFatFormatter18writeUpcaseUnicodeEt>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6883      	ldr	r3, [r0, #8]
+   4:	b2ca      	uxtb	r2, r1
+   6:	460d      	mov	r5, r1
+   8:	6901      	ldr	r1, [r0, #16]
+   a:	f3c3 0308 	ubfx	r3, r3, #0, #9
+   e:	f240 1cff 	movw	ip, #511	; 0x1ff
+  12:	4604      	mov	r4, r0
+  14:	54ca      	strb	r2, [r1, r3]
+  16:	4563      	cmp	r3, ip
+  18:	6841      	ldr	r1, [r0, #4]
+  1a:	eb02 0271 	add.w	r2, r2, r1, ror #1
+  1e:	6042      	str	r2, [r0, #4]
+  20:	6882      	ldr	r2, [r0, #8]
+  22:	f102 0201 	add.w	r2, r2, #1
+  26:	6082      	str	r2, [r0, #8]
+  28:	d005      	beq.n	36 <_ZN14ExFatFormatter18writeUpcaseUnicodeEt+0x36>
+  2a:	0a29      	lsrs	r1, r5, #8
+  2c:	4620      	mov	r0, r4
+  2e:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  32:	f7ff bffe 	b.w	0 <_ZN14ExFatFormatter18writeUpcaseUnicodeEt>
+  36:	6801      	ldr	r1, [r0, #0]
+  38:	68c0      	ldr	r0, [r0, #12]
+  3a:	1c4a      	adds	r2, r1, #1
+  3c:	6803      	ldr	r3, [r0, #0]
+  3e:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+  40:	6022      	str	r2, [r4, #0]
+  42:	6922      	ldr	r2, [r4, #16]
+  44:	4798      	blx	r3
+  46:	2800      	cmp	r0, #0
+  48:	d1ef      	bne.n	2a <_ZN14ExFatFormatter18writeUpcaseUnicodeEt+0x2a>
+  4a:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text._ZN14ExFatFormatter11writeUpcaseEm:
+
+00000000 <_ZN14ExFatFormatter11writeUpcaseEm>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	2300      	movs	r3, #0
+   4:	4606      	mov	r6, r0
+   6:	6001      	str	r1, [r0, #0]
+   8:	461d      	mov	r5, r3
+   a:	e9c0 3301 	strd	r3, r3, [r0, #4]
+   e:	b2a8      	uxth	r0, r5
+  10:	f7ff fffe 	bl	0 <_Z8toUpcaset>
+  14:	42a8      	cmp	r0, r5
+  16:	4604      	mov	r4, r0
+  18:	d007      	beq.n	2a <_ZN14ExFatFormatter11writeUpcaseEm+0x2a>
+  1a:	b2c1      	uxtb	r1, r0
+  1c:	4630      	mov	r0, r6
+  1e:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  22:	2800      	cmp	r0, #0
+  24:	d13b      	bne.n	9e <_ZN14ExFatFormatter11writeUpcaseEm+0x9e>
+  26:	2000      	movs	r0, #0
+  28:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  2a:	1c6c      	adds	r4, r5, #1
+  2c:	f5b4 3f80 	cmp.w	r4, #65536	; 0x10000
+  30:	d104      	bne.n	3c <_ZN14ExFatFormatter11writeUpcaseEm+0x3c>
+  32:	e02a      	b.n	8a <_ZN14ExFatFormatter11writeUpcaseEm+0x8a>
+  34:	3401      	adds	r4, #1
+  36:	f5b4 3f80 	cmp.w	r4, #65536	; 0x10000
+  3a:	d004      	beq.n	46 <_ZN14ExFatFormatter11writeUpcaseEm+0x46>
+  3c:	b2a0      	uxth	r0, r4
+  3e:	f7ff fffe 	bl	0 <_Z8toUpcaset>
+  42:	42a0      	cmp	r0, r4
+  44:	d0f6      	beq.n	34 <_ZN14ExFatFormatter11writeUpcaseEm+0x34>
+  46:	1b67      	subs	r7, r4, r5
+  48:	f5b7 7f00 	cmp.w	r7, #512	; 0x200
+  4c:	d31d      	bcc.n	8a <_ZN14ExFatFormatter11writeUpcaseEm+0x8a>
+  4e:	f64f 71ff 	movw	r1, #65535	; 0xffff
+  52:	4630      	mov	r0, r6
+  54:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  58:	2800      	cmp	r0, #0
+  5a:	d0e4      	beq.n	26 <_ZN14ExFatFormatter11writeUpcaseEm+0x26>
+  5c:	b2b9      	uxth	r1, r7
+  5e:	4630      	mov	r0, r6
+  60:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  64:	2800      	cmp	r0, #0
+  66:	d0de      	beq.n	26 <_ZN14ExFatFormatter11writeUpcaseEm+0x26>
+  68:	4625      	mov	r5, r4
+  6a:	f5b5 3f80 	cmp.w	r5, #65536	; 0x10000
+  6e:	d1ce      	bne.n	e <_ZN14ExFatFormatter11writeUpcaseEm+0xe>
+  70:	4630      	mov	r0, r6
+  72:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  76:	f7ff bffe 	b.w	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  7a:	f3c5 2107 	ubfx	r1, r5, #8, #8
+  7e:	4630      	mov	r0, r6
+  80:	3501      	adds	r5, #1
+  82:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  86:	2800      	cmp	r0, #0
+  88:	d0cd      	beq.n	26 <_ZN14ExFatFormatter11writeUpcaseEm+0x26>
+  8a:	42a5      	cmp	r5, r4
+  8c:	b2e9      	uxtb	r1, r5
+  8e:	4630      	mov	r0, r6
+  90:	d2eb      	bcs.n	6a <_ZN14ExFatFormatter11writeUpcaseEm+0x6a>
+  92:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  96:	2800      	cmp	r0, #0
+  98:	d1ef      	bne.n	7a <_ZN14ExFatFormatter11writeUpcaseEm+0x7a>
+  9a:	2000      	movs	r0, #0
+  9c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  9e:	f3c4 2107 	ubfx	r1, r4, #8, #8
+  a2:	4630      	mov	r0, r6
+  a4:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter11writeUpcaseEm>
+  a8:	2800      	cmp	r0, #0
+  aa:	d0bc      	beq.n	26 <_ZN14ExFatFormatter11writeUpcaseEm+0x26>
+  ac:	3501      	adds	r5, #1
+  ae:	e7dc      	b.n	6a <_ZN14ExFatFormatter11writeUpcaseEm+0x6a>
+
+Disassembly of section .text._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print:
+
+00000000 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	461f      	mov	r7, r3
+   6:	b089      	sub	sp, #36	; 0x24
+   8:	680b      	ldr	r3, [r1, #0]
+   a:	460d      	mov	r5, r1
+   c:	9004      	str	r0, [sp, #16]
+   e:	4614      	mov	r4, r2
+  10:	60c1      	str	r1, [r0, #12]
+  12:	6102      	str	r2, [r0, #16]
+  14:	4608      	mov	r0, r1
+  16:	69db      	ldr	r3, [r3, #28]
+  18:	4798      	blx	r3
+  1a:	f5b0 1f80 	cmp.w	r0, #1048576	; 0x100000
+  1e:	9000      	str	r0, [sp, #0]
+  20:	f0c0 80d8 	bcc.w	1d4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1d4>
+  24:	2300      	movs	r3, #0
+  26:	2201      	movs	r2, #1
+  28:	9e00      	ldr	r6, [sp, #0]
+  2a:	3301      	adds	r3, #1
+  2c:	0052      	lsls	r2, r2, #1
+  2e:	b2db      	uxtb	r3, r3
+  30:	d001      	beq.n	36 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x36>
+  32:	4296      	cmp	r6, r2
+  34:	d8f9      	bhi.n	2a <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x2a>
+  36:	2b1c      	cmp	r3, #28
+  38:	9600      	str	r6, [sp, #0]
+  3a:	f240 80b7 	bls.w	1ac <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1ac>
+  3e:	f1a3 080b 	sub.w	r8, r3, #11
+  42:	2201      	movs	r2, #1
+  44:	fa48 f102 	asr.w	r1, r8, r2
+  48:	f3c8 0847 	ubfx	r8, r8, #1, #8
+  4c:	408a      	lsls	r2, r1
+  4e:	9102      	str	r1, [sp, #8]
+  50:	9207      	str	r2, [sp, #28]
+  52:	3301      	adds	r3, #1
+  54:	2201      	movs	r2, #1
+  56:	105b      	asrs	r3, r3, #1
+  58:	409a      	lsls	r2, r3
+  5a:	9206      	str	r2, [sp, #24]
+  5c:	2204      	movs	r2, #4
+  5e:	409a      	lsls	r2, r3
+  60:	9203      	str	r2, [sp, #12]
+  62:	2202      	movs	r2, #2
+  64:	fa02 f303 	lsl.w	r3, r2, r3
+  68:	9301      	str	r3, [sp, #4]
+  6a:	9a00      	ldr	r2, [sp, #0]
+  6c:	2100      	movs	r1, #0
+  6e:	9b03      	ldr	r3, [sp, #12]
+  70:	4620      	mov	r0, r4
+  72:	9e02      	ldr	r6, [sp, #8]
+  74:	f04f 0a01 	mov.w	sl, #1
+  78:	1ad3      	subs	r3, r2, r3
+  7a:	f44f 7200 	mov.w	r2, #512	; 0x200
+  7e:	f64a 2b55 	movw	fp, #43605	; 0xaa55
+  82:	40f3      	lsrs	r3, r6
+  84:	fa03 f906 	lsl.w	r9, r3, r6
+  88:	9305      	str	r3, [sp, #20]
+  8a:	9e01      	ldr	r6, [sp, #4]
+  8c:	f7ff fffe 	bl	0 <memset>
+  90:	23ff      	movs	r3, #255	; 0xff
+  92:	f884 a1bf 	strb.w	sl, [r4, #447]	; 0x1bf
+  96:	f884 a1c0 	strb.w	sl, [r4, #448]	; 0x1c0
+  9a:	44b1      	add	r9, r6
+  9c:	f884 31c4 	strb.w	r3, [r4, #452]	; 0x1c4
+  a0:	4622      	mov	r2, r4
+  a2:	f884 31c5 	strb.w	r3, [r4, #453]	; 0x1c5
+  a6:	2307      	movs	r3, #7
+  a8:	2100      	movs	r1, #0
+  aa:	4628      	mov	r0, r5
+  ac:	f884 31c2 	strb.w	r3, [r4, #450]	; 0x1c2
+  b0:	23fe      	movs	r3, #254	; 0xfe
+  b2:	f8c4 61c6 	str.w	r6, [r4, #454]	; 0x1c6
+  b6:	f884 31c3 	strb.w	r3, [r4, #451]	; 0x1c3
+  ba:	682b      	ldr	r3, [r5, #0]
+  bc:	f8c4 91ca 	str.w	r9, [r4, #458]	; 0x1ca
+  c0:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+  c2:	f8a4 b1fe 	strh.w	fp, [r4, #510]	; 0x1fe
+  c6:	4798      	blx	r3
+  c8:	2800      	cmp	r0, #0
+  ca:	d063      	beq.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+  cc:	f44f 7200 	mov.w	r2, #512	; 0x200
+  d0:	2100      	movs	r1, #0
+  d2:	4620      	mov	r0, r4
+  d4:	f7ff fffe 	bl	0 <memset>
+  d8:	9b00      	ldr	r3, [sp, #0]
+  da:	f884 806d 	strb.w	r8, [r4, #109]	; 0x6d
+  de:	f04f 0800 	mov.w	r8, #0
+  e2:	6663      	str	r3, [r4, #100]	; 0x64
+  e4:	21f4      	movs	r1, #244	; 0xf4
+  e6:	9b05      	ldr	r3, [sp, #20]
+  e8:	f104 0078 	add.w	r0, r4, #120	; 0x78
+  ec:	9a06      	ldr	r2, [sp, #24]
+  ee:	65e3      	str	r3, [r4, #92]	; 0x5c
+  f0:	2320      	movs	r3, #32
+  f2:	6426      	str	r6, [r4, #64]	; 0x40
+  f4:	7223      	strb	r3, [r4, #8]
+  f6:	7263      	strb	r3, [r4, #9]
+  f8:	72a3      	strb	r3, [r4, #10]
+  fa:	23eb      	movs	r3, #235	; 0xeb
+  fc:	65a6      	str	r6, [r4, #88]	; 0x58
+  fe:	4646      	mov	r6, r8
+ 100:	7023      	strb	r3, [r4, #0]
+ 102:	2376      	movs	r3, #118	; 0x76
+ 104:	f8c4 9048 	str.w	r9, [r4, #72]	; 0x48
+ 108:	7063      	strb	r3, [r4, #1]
+ 10a:	2390      	movs	r3, #144	; 0x90
+ 10c:	f884 a06e 	strb.w	sl, [r4, #110]	; 0x6e
+ 110:	70a3      	strb	r3, [r4, #2]
+ 112:	2345      	movs	r3, #69	; 0x45
+ 114:	70e3      	strb	r3, [r4, #3]
+ 116:	2358      	movs	r3, #88	; 0x58
+ 118:	7123      	strb	r3, [r4, #4]
+ 11a:	2346      	movs	r3, #70	; 0x46
+ 11c:	7163      	strb	r3, [r4, #5]
+ 11e:	2341      	movs	r3, #65	; 0x41
+ 120:	71a3      	strb	r3, [r4, #6]
+ 122:	2354      	movs	r3, #84	; 0x54
+ 124:	71e3      	strb	r3, [r4, #7]
+ 126:	2304      	movs	r3, #4
+ 128:	6623      	str	r3, [r4, #96]	; 0x60
+ 12a:	f44f 7380 	mov.w	r3, #256	; 0x100
+ 12e:	f8a4 3068 	strh.w	r3, [r4, #104]	; 0x68
+ 132:	2309      	movs	r3, #9
+ 134:	f884 306c 	strb.w	r3, [r4, #108]	; 0x6c
+ 138:	2380      	movs	r3, #128	; 0x80
+ 13a:	e9c4 2214 	strd	r2, r2, [r4, #80]	; 0x50
+ 13e:	f884 306f 	strb.w	r3, [r4, #111]	; 0x6f
+ 142:	f44f 72c3 	mov.w	r2, #390	; 0x186
+ 146:	f7ff fffe 	bl	0 <memset>
+ 14a:	f8a4 b1fe 	strh.w	fp, [r4, #510]	; 0x1fe
+ 14e:	f1a8 036a 	sub.w	r3, r8, #106	; 0x6a
+ 152:	2b01      	cmp	r3, #1
+ 154:	d906      	bls.n	164 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x164>
+ 156:	f1b8 0f70 	cmp.w	r8, #112	; 0x70
+ 15a:	d003      	beq.n	164 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x164>
+ 15c:	f814 3008 	ldrb.w	r3, [r4, r8]
+ 160:	eb03 0676 	add.w	r6, r3, r6, ror #1
+ 164:	f108 0801 	add.w	r8, r8, #1
+ 168:	f5b8 7f00 	cmp.w	r8, #512	; 0x200
+ 16c:	d1ef      	bne.n	14e <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x14e>
+ 16e:	682b      	ldr	r3, [r5, #0]
+ 170:	4622      	mov	r2, r4
+ 172:	f8dd 9004 	ldr.w	r9, [sp, #4]
+ 176:	4628      	mov	r0, r5
+ 178:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 17a:	4649      	mov	r1, r9
+ 17c:	4798      	blx	r3
+ 17e:	b148      	cbz	r0, 194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 180:	682b      	ldr	r3, [r5, #0]
+ 182:	4649      	mov	r1, r9
+ 184:	4622      	mov	r2, r4
+ 186:	4628      	mov	r0, r5
+ 188:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 18a:	310c      	adds	r1, #12
+ 18c:	f8cd 9004 	str.w	r9, [sp, #4]
+ 190:	4798      	blx	r3
+ 192:	bb40      	cbnz	r0, 1e6 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1e6>
+ 194:	b12f      	cbz	r7, 1a2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a2>
+ 196:	683b      	ldr	r3, [r7, #0]
+ 198:	220f      	movs	r2, #15
+ 19a:	49b8      	ldr	r1, [pc, #736]	; (47c <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x47c>)
+ 19c:	4638      	mov	r0, r7
+ 19e:	685b      	ldr	r3, [r3, #4]
+ 1a0:	4798      	blx	r3
+ 1a2:	2600      	movs	r6, #0
+ 1a4:	4630      	mov	r0, r6
+ 1a6:	b009      	add	sp, #36	; 0x24
+ 1a8:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1ac:	2b1a      	cmp	r3, #26
+ 1ae:	f04f 0808 	mov.w	r8, #8
+ 1b2:	f200 81a6 	bhi.w	502 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x502>
+ 1b6:	f44f 4380 	mov.w	r3, #16384	; 0x4000
+ 1ba:	f8cd 8008 	str.w	r8, [sp, #8]
+ 1be:	9301      	str	r3, [sp, #4]
+ 1c0:	f44f 4300 	mov.w	r3, #32768	; 0x8000
+ 1c4:	9303      	str	r3, [sp, #12]
+ 1c6:	f44f 7380 	mov.w	r3, #256	; 0x100
+ 1ca:	9307      	str	r3, [sp, #28]
+ 1cc:	f44f 5300 	mov.w	r3, #8192	; 0x2000
+ 1d0:	9306      	str	r3, [sp, #24]
+ 1d2:	e74a      	b.n	6a <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x6a>
+ 1d4:	2f00      	cmp	r7, #0
+ 1d6:	d0e4      	beq.n	1a2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a2>
+ 1d8:	683b      	ldr	r3, [r7, #0]
+ 1da:	2215      	movs	r2, #21
+ 1dc:	49a8      	ldr	r1, [pc, #672]	; (480 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x480>)
+ 1de:	4638      	mov	r0, r7
+ 1e0:	685b      	ldr	r3, [r3, #4]
+ 1e2:	4798      	blx	r3
+ 1e4:	e7d7      	b.n	196 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x196>
+ 1e6:	4642      	mov	r2, r8
+ 1e8:	2100      	movs	r1, #0
+ 1ea:	4620      	mov	r0, r4
+ 1ec:	f109 0a01 	add.w	sl, r9, #1
+ 1f0:	f7ff fffe 	bl	0 <memset>
+ 1f4:	f64a 2355 	movw	r3, #43605	; 0xaa55
+ 1f8:	f109 0209 	add.w	r2, r9, #9
+ 1fc:	f204 19ff 	addw	r9, r4, #511	; 0x1ff
+ 200:	f8a4 31fe 	strh.w	r3, [r4, #510]	; 0x1fe
+ 204:	2300      	movs	r3, #0
+ 206:	4693      	mov	fp, r2
+ 208:	46a0      	mov	r8, r4
+ 20a:	e001      	b.n	210 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x210>
+ 20c:	f818 3f01 	ldrb.w	r3, [r8, #1]!
+ 210:	45c1      	cmp	r9, r8
+ 212:	eb03 0676 	add.w	r6, r3, r6, ror #1
+ 216:	d1f9      	bne.n	20c <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x20c>
+ 218:	682b      	ldr	r3, [r5, #0]
+ 21a:	4622      	mov	r2, r4
+ 21c:	4651      	mov	r1, sl
+ 21e:	4628      	mov	r0, r5
+ 220:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 222:	4798      	blx	r3
+ 224:	2800      	cmp	r0, #0
+ 226:	d0b5      	beq.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 228:	682b      	ldr	r3, [r5, #0]
+ 22a:	4622      	mov	r2, r4
+ 22c:	f10a 010c 	add.w	r1, sl, #12
+ 230:	4628      	mov	r0, r5
+ 232:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 234:	4798      	blx	r3
+ 236:	2800      	cmp	r0, #0
+ 238:	d0ac      	beq.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 23a:	f10a 0301 	add.w	r3, sl, #1
+ 23e:	459b      	cmp	fp, r3
+ 240:	d002      	beq.n	248 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x248>
+ 242:	469a      	mov	sl, r3
+ 244:	7823      	ldrb	r3, [r4, #0]
+ 246:	e7df      	b.n	208 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x208>
+ 248:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 24c:	2100      	movs	r1, #0
+ 24e:	4620      	mov	r0, r4
+ 250:	469b      	mov	fp, r3
+ 252:	f7ff fffe 	bl	0 <memset>
+ 256:	2200      	movs	r2, #0
+ 258:	f10a 0a03 	add.w	sl, sl, #3
+ 25c:	4611      	mov	r1, r2
+ 25e:	4623      	mov	r3, r4
+ 260:	e001      	b.n	266 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x266>
+ 262:	f813 1f01 	ldrb.w	r1, [r3, #1]!
+ 266:	4598      	cmp	r8, r3
+ 268:	eb01 0676 	add.w	r6, r1, r6, ror #1
+ 26c:	d1f9      	bne.n	262 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x262>
+ 26e:	682b      	ldr	r3, [r5, #0]
+ 270:	4622      	mov	r2, r4
+ 272:	4659      	mov	r1, fp
+ 274:	4628      	mov	r0, r5
+ 276:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 278:	4798      	blx	r3
+ 27a:	2800      	cmp	r0, #0
+ 27c:	d08a      	beq.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 27e:	682b      	ldr	r3, [r5, #0]
+ 280:	4622      	mov	r2, r4
+ 282:	f10b 010c 	add.w	r1, fp, #12
+ 286:	4628      	mov	r0, r5
+ 288:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 28a:	4798      	blx	r3
+ 28c:	2800      	cmp	r0, #0
+ 28e:	d081      	beq.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 290:	f10b 0101 	add.w	r1, fp, #1
+ 294:	458a      	cmp	sl, r1
+ 296:	d16a      	bne.n	36e <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x36e>
+ 298:	1f23      	subs	r3, r4, #4
+ 29a:	f504 72fe 	add.w	r2, r4, #508	; 0x1fc
+ 29e:	f843 6f04 	str.w	r6, [r3, #4]!
+ 2a2:	429a      	cmp	r2, r3
+ 2a4:	d1fb      	bne.n	29e <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x29e>
+ 2a6:	682b      	ldr	r3, [r5, #0]
+ 2a8:	4622      	mov	r2, r4
+ 2aa:	4628      	mov	r0, r5
+ 2ac:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 2ae:	4798      	blx	r3
+ 2b0:	2800      	cmp	r0, #0
+ 2b2:	f43f af6f 	beq.w	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 2b6:	682b      	ldr	r3, [r5, #0]
+ 2b8:	f10b 010d 	add.w	r1, fp, #13
+ 2bc:	4622      	mov	r2, r4
+ 2be:	4628      	mov	r0, r5
+ 2c0:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 2c2:	4798      	blx	r3
+ 2c4:	2800      	cmp	r0, #0
+ 2c6:	f43f af65 	beq.w	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 2ca:	b12f      	cbz	r7, 2d8 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x2d8>
+ 2cc:	683b      	ldr	r3, [r7, #0]
+ 2ce:	220c      	movs	r2, #12
+ 2d0:	496c      	ldr	r1, [pc, #432]	; (484 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x484>)
+ 2d2:	4638      	mov	r0, r7
+ 2d4:	685b      	ldr	r3, [r3, #4]
+ 2d6:	4798      	blx	r3
+ 2d8:	9a06      	ldr	r2, [sp, #24]
+ 2da:	2100      	movs	r1, #0
+ 2dc:	9b01      	ldr	r3, [sp, #4]
+ 2de:	4620      	mov	r0, r4
+ 2e0:	2600      	movs	r6, #0
+ 2e2:	4413      	add	r3, r2
+ 2e4:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 2e8:	4699      	mov	r9, r3
+ 2ea:	9b05      	ldr	r3, [sp, #20]
+ 2ec:	ea4f 0883 	mov.w	r8, r3, lsl #2
+ 2f0:	f7ff fffe 	bl	0 <memset>
+ 2f4:	4623      	mov	r3, r4
+ 2f6:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 2fa:	f208 2807 	addw	r8, r8, #519	; 0x207
+ 2fe:	21f8      	movs	r1, #248	; 0xf8
+ 300:	f1b7 0b00 	subs.w	fp, r7, #0
+ 304:	ea4f 2a58 	mov.w	sl, r8, lsr #9
+ 308:	f803 1b01 	strb.w	r1, [r3], #1
+ 30c:	ea4f 3898 	mov.w	r8, r8, lsr #14
+ 310:	f8c4 2001 	str.w	r2, [r4, #1]
+ 314:	bf18      	it	ne
+ 316:	f04f 0b01 	movne.w	fp, #1
+ 31a:	60da      	str	r2, [r3, #12]
+ 31c:	605a      	str	r2, [r3, #4]
+ 31e:	609a      	str	r2, [r3, #8]
+ 320:	f8c3 200f 	str.w	r2, [r3, #15]
+ 324:	e002      	b.n	32c <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x32c>
+ 326:	3601      	adds	r6, #1
+ 328:	45b2      	cmp	sl, r6
+ 32a:	d023      	beq.n	374 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x374>
+ 32c:	fbb6 f3f8 	udiv	r3, r6, r8
+ 330:	fb08 6313 	mls	r3, r8, r3, r6
+ 334:	b943      	cbnz	r3, 348 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x348>
+ 336:	f1bb 0f00 	cmp.w	fp, #0
+ 33a:	d005      	beq.n	348 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x348>
+ 33c:	683b      	ldr	r3, [r7, #0]
+ 33e:	2201      	movs	r2, #1
+ 340:	4951      	ldr	r1, [pc, #324]	; (488 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x488>)
+ 342:	4638      	mov	r0, r7
+ 344:	685b      	ldr	r3, [r3, #4]
+ 346:	4798      	blx	r3
+ 348:	682b      	ldr	r3, [r5, #0]
+ 34a:	eb09 0106 	add.w	r1, r9, r6
+ 34e:	4622      	mov	r2, r4
+ 350:	4628      	mov	r0, r5
+ 352:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 354:	4798      	blx	r3
+ 356:	2800      	cmp	r0, #0
+ 358:	f43f af1c 	beq.w	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 35c:	2e00      	cmp	r6, #0
+ 35e:	d1e2      	bne.n	326 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x326>
+ 360:	4631      	mov	r1, r6
+ 362:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 366:	4620      	mov	r0, r4
+ 368:	f7ff fffe 	bl	0 <memset>
+ 36c:	e7db      	b.n	326 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x326>
+ 36e:	468b      	mov	fp, r1
+ 370:	7821      	ldrb	r1, [r4, #0]
+ 372:	e774      	b.n	25e <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x25e>
+ 374:	2f00      	cmp	r7, #0
+ 376:	d034      	beq.n	3e2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x3e2>
+ 378:	683b      	ldr	r3, [r7, #0]
+ 37a:	2202      	movs	r2, #2
+ 37c:	4943      	ldr	r1, [pc, #268]	; (48c <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x48c>)
+ 37e:	4638      	mov	r0, r7
+ 380:	685b      	ldr	r3, [r3, #4]
+ 382:	4798      	blx	r3
+ 384:	9e05      	ldr	r6, [sp, #20]
+ 386:	9a07      	ldr	r2, [sp, #28]
+ 388:	3607      	adds	r6, #7
+ 38a:	08f6      	lsrs	r6, r6, #3
+ 38c:	f206 13ff 	addw	r3, r6, #511	; 0x1ff
+ 390:	ebb2 2f53 	cmp.w	r2, r3, lsr #9
+ 394:	ea4f 2953 	mov.w	r9, r3, lsr #9
+ 398:	f4ff aefd 	bcc.w	196 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x196>
+ 39c:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 3a0:	2100      	movs	r1, #0
+ 3a2:	4620      	mov	r0, r4
+ 3a4:	f7ff fffe 	bl	0 <memset>
+ 3a8:	2307      	movs	r3, #7
+ 3aa:	7023      	strb	r3, [r4, #0]
+ 3ac:	f1b9 0f00 	cmp.w	r9, #0
+ 3b0:	f000 808a 	beq.w	4c8 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x4c8>
+ 3b4:	f04f 0800 	mov.w	r8, #0
+ 3b8:	e008      	b.n	3cc <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x3cc>
+ 3ba:	f1b8 0f00 	cmp.w	r8, #0
+ 3be:	d101      	bne.n	3c4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x3c4>
+ 3c0:	f884 8000 	strb.w	r8, [r4]
+ 3c4:	f108 0801 	add.w	r8, r8, #1
+ 3c8:	45c1      	cmp	r9, r8
+ 3ca:	d97b      	bls.n	4c4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x4c4>
+ 3cc:	9a03      	ldr	r2, [sp, #12]
+ 3ce:	4628      	mov	r0, r5
+ 3d0:	682b      	ldr	r3, [r5, #0]
+ 3d2:	eb02 0108 	add.w	r1, r2, r8
+ 3d6:	4622      	mov	r2, r4
+ 3d8:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 3da:	4798      	blx	r3
+ 3dc:	2800      	cmp	r0, #0
+ 3de:	d1ec      	bne.n	3ba <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x3ba>
+ 3e0:	e6d8      	b.n	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 3e2:	9e05      	ldr	r6, [sp, #20]
+ 3e4:	9a07      	ldr	r2, [sp, #28]
+ 3e6:	3607      	adds	r6, #7
+ 3e8:	08f6      	lsrs	r6, r6, #3
+ 3ea:	f206 13ff 	addw	r3, r6, #511	; 0x1ff
+ 3ee:	ebb2 2f53 	cmp.w	r2, r3, lsr #9
+ 3f2:	ea4f 2953 	mov.w	r9, r3, lsr #9
+ 3f6:	f4ff aed4 	bcc.w	1a2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a2>
+ 3fa:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 3fe:	4639      	mov	r1, r7
+ 400:	4620      	mov	r0, r4
+ 402:	f7ff fffe 	bl	0 <memset>
+ 406:	2307      	movs	r3, #7
+ 408:	7023      	strb	r3, [r4, #0]
+ 40a:	f1b9 0f00 	cmp.w	r9, #0
+ 40e:	d1d1      	bne.n	3b4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x3b4>
+ 410:	9b03      	ldr	r3, [sp, #12]
+ 412:	9a07      	ldr	r2, [sp, #28]
+ 414:	9804      	ldr	r0, [sp, #16]
+ 416:	1899      	adds	r1, r3, r2
+ 418:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print>
+ 41c:	2800      	cmp	r0, #0
+ 41e:	f43f aec0 	beq.w	1a2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a2>
+ 422:	9a02      	ldr	r2, [sp, #8]
+ 424:	f44f 7300 	mov.w	r3, #512	; 0x200
+ 428:	4093      	lsls	r3, r2
+ 42a:	9a04      	ldr	r2, [sp, #16]
+ 42c:	6892      	ldr	r2, [r2, #8]
+ 42e:	429a      	cmp	r2, r3
+ 430:	f63f aeb7 	bhi.w	1a2 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a2>
+ 434:	f04f 0802 	mov.w	r8, #2
+ 438:	9b02      	ldr	r3, [sp, #8]
+ 43a:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 43e:	2100      	movs	r1, #0
+ 440:	fa08 f903 	lsl.w	r9, r8, r3
+ 444:	9b03      	ldr	r3, [sp, #12]
+ 446:	4620      	mov	r0, r4
+ 448:	4499      	add	r9, r3
+ 44a:	f7ff fffe 	bl	0 <memset>
+ 44e:	2281      	movs	r2, #129	; 0x81
+ 450:	2303      	movs	r3, #3
+ 452:	9904      	ldr	r1, [sp, #16]
+ 454:	f109 39ff 	add.w	r9, r9, #4294967295	; 0xffffffff
+ 458:	f884 2020 	strb.w	r2, [r4, #32]
+ 45c:	2282      	movs	r2, #130	; 0x82
+ 45e:	7023      	strb	r3, [r4, #0]
+ 460:	f884 2040 	strb.w	r2, [r4, #64]	; 0x40
+ 464:	e9c4 860d 	strd	r8, r6, [r4, #52]	; 0x34
+ 468:	684a      	ldr	r2, [r1, #4]
+ 46a:	f04f 0801 	mov.w	r8, #1
+ 46e:	6563      	str	r3, [r4, #84]	; 0x54
+ 470:	6462      	str	r2, [r4, #68]	; 0x44
+ 472:	688b      	ldr	r3, [r1, #8]
+ 474:	65a3      	str	r3, [r4, #88]	; 0x58
+ 476:	2300      	movs	r3, #0
+ 478:	65e3      	str	r3, [r4, #92]	; 0x5c
+ 47a:	e00e      	b.n	49a <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x49a>
+ 47c:	00000068 	.word	0x00000068
+ 480:	00000000 	.word	0x00000000
+ 484:	00000018 	.word	0x00000018
+ 488:	00000028 	.word	0x00000028
+ 48c:	0000002c 	.word	0x0000002c
+ 490:	9b07      	ldr	r3, [sp, #28]
+ 492:	4598      	cmp	r8, r3
+ 494:	d23b      	bcs.n	50e <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x50e>
+ 496:	f108 0801 	add.w	r8, r8, #1
+ 49a:	682b      	ldr	r3, [r5, #0]
+ 49c:	eb09 0108 	add.w	r1, r9, r8
+ 4a0:	4622      	mov	r2, r4
+ 4a2:	4628      	mov	r0, r5
+ 4a4:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+ 4a6:	4798      	blx	r3
+ 4a8:	4606      	mov	r6, r0
+ 4aa:	2800      	cmp	r0, #0
+ 4ac:	f43f ae72 	beq.w	194 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x194>
+ 4b0:	f1b8 0f01 	cmp.w	r8, #1
+ 4b4:	d1ec      	bne.n	490 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x490>
+ 4b6:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 4ba:	2100      	movs	r1, #0
+ 4bc:	4620      	mov	r0, r4
+ 4be:	f7ff fffe 	bl	0 <memset>
+ 4c2:	e7e8      	b.n	496 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x496>
+ 4c4:	2f00      	cmp	r7, #0
+ 4c6:	d0a3      	beq.n	410 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x410>
+ 4c8:	683b      	ldr	r3, [r7, #0]
+ 4ca:	2216      	movs	r2, #22
+ 4cc:	4914      	ldr	r1, [pc, #80]	; (520 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x520>)
+ 4ce:	4638      	mov	r0, r7
+ 4d0:	685b      	ldr	r3, [r3, #4]
+ 4d2:	4798      	blx	r3
+ 4d4:	9b03      	ldr	r3, [sp, #12]
+ 4d6:	9a07      	ldr	r2, [sp, #28]
+ 4d8:	9804      	ldr	r0, [sp, #16]
+ 4da:	1899      	adds	r1, r3, r2
+ 4dc:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print>
+ 4e0:	2800      	cmp	r0, #0
+ 4e2:	f43f ae58 	beq.w	196 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x196>
+ 4e6:	9a02      	ldr	r2, [sp, #8]
+ 4e8:	f44f 7300 	mov.w	r3, #512	; 0x200
+ 4ec:	4093      	lsls	r3, r2
+ 4ee:	9a04      	ldr	r2, [sp, #16]
+ 4f0:	6892      	ldr	r2, [r2, #8]
+ 4f2:	429a      	cmp	r2, r3
+ 4f4:	f63f ae4f 	bhi.w	196 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x196>
+ 4f8:	490a      	ldr	r1, [pc, #40]	; (524 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x524>)
+ 4fa:	4638      	mov	r0, r7
+ 4fc:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print>
+ 500:	e798      	b.n	434 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x434>
+ 502:	f44f 7280 	mov.w	r2, #256	; 0x100
+ 506:	f8cd 8008 	str.w	r8, [sp, #8]
+ 50a:	9207      	str	r2, [sp, #28]
+ 50c:	e5a1      	b.n	52 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x52>
+ 50e:	2f00      	cmp	r7, #0
+ 510:	f43f ae48 	beq.w	1a4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a4>
+ 514:	4904      	ldr	r1, [pc, #16]	; (528 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x528>)
+ 516:	4638      	mov	r0, r7
+ 518:	f7ff fffe 	bl	0 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print>
+ 51c:	e642      	b.n	1a4 <_ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print+0x1a4>
+ 51e:	bf00      	nop
+ 520:	00000030 	.word	0x00000030
+ 524:	00000048 	.word	0x00000048
+ 528:	00000058 	.word	0x00000058

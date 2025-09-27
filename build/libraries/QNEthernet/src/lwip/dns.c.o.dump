@@ -1,0 +1,1232 @@
+
+build/./libraries/QNEthernet/src/lwip/dns.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 dns.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.dns_call_found	00000000 .text.dns_call_found
+00000000 l     F .text.dns_call_found	000000a8 dns_call_found
+00000000 l    d  .rodata.dns_send.isra.0.str1.4	00000000 .rodata.dns_send.isra.0.str1.4
+00000000 l    d  .text.dns_send.isra.0	00000000 .text.dns_send.isra.0
+00000000 l     F .text.dns_send.isra.0	00000190 dns_send.isra.0
+00000000 l    d  .rodata.dns_check_entry.str1.4	00000000 .rodata.dns_check_entry.str1.4
+00000000 l    d  .text.dns_check_entry	00000000 .text.dns_check_entry
+00000000 l     F .text.dns_check_entry	00000120 dns_check_entry
+00000000 l    d  .text.dns_recv	00000000 .text.dns_recv
+00000000 l     F .text.dns_recv	00000328 dns_recv
+00000000 l    d  .text.dns_init	00000000 .text.dns_init
+00000000 l    d  .text.dns_setserver	00000000 .text.dns_setserver
+00000000 l    d  .text.dns_getserver	00000000 .text.dns_getserver
+00000000 l    d  .text.dns_tmr	00000000 .text.dns_tmr
+00000000 l    d  .rodata.dns_gethostbyname_addrtype.str1.4	00000000 .rodata.dns_gethostbyname_addrtype.str1.4
+00000000 l    d  .text.dns_gethostbyname_addrtype	00000000 .text.dns_gethostbyname_addrtype
+00000000 l    d  .text.dns_gethostbyname	00000000 .text.dns_gethostbyname
+00000000 l    d  .bss.dns_last_pcb_idx	00000000 .bss.dns_last_pcb_idx
+00000000 l     O .bss.dns_last_pcb_idx	00000001 dns_last_pcb_idx
+00000000 l    d  .bss.dns_pcbs	00000000 .bss.dns_pcbs
+00000000 l     O .bss.dns_pcbs	00000010 dns_pcbs
+00000000 l    d  .bss.dns_requests	00000000 .bss.dns_requests
+00000000 l     O .bss.dns_requests	00000030 dns_requests
+00000000 l    d  .bss.dns_seqno	00000000 .bss.dns_seqno
+00000000 l     O .bss.dns_seqno	00000001 dns_seqno
+00000000 l    d  .bss.dns_servers	00000000 .bss.dns_servers
+00000000 l     O .bss.dns_servers	00000008 dns_servers
+00000000 l    d  .bss.dns_table	00000000 .bss.dns_table
+00000000 l     O .bss.dns_table	00000450 dns_table
+00000000 l    d  .rodata.dns_mquery_v4group	00000000 .rodata.dns_mquery_v4group
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 udp_remove
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 pbuf_alloc
+00000000         *UND*	00000000 pbuf_take
+00000000         *UND*	00000000 pbuf_put_at
+00000000         *UND*	00000000 pbuf_take_at
+00000000         *UND*	00000000 udp_sendto
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000         *UND*	00000000 qnethernet_hal_rand
+00000000         *UND*	00000000 pbuf_copy_partial
+00000000         *UND*	00000000 pbuf_try_get_at
+00000000         *UND*	00000000 _ctype_
+00000000 g     F .text.dns_init	00000002 dns_init
+00000000 g     F .text.dns_setserver	00000028 dns_setserver
+00000000         *UND*	00000000 ip_addr_any
+00000000 g     F .text.dns_getserver	00000018 dns_getserver
+00000000 g     F .text.dns_tmr	0000001e dns_tmr
+00000000 g     F .text.dns_gethostbyname_addrtype	000002c0 dns_gethostbyname_addrtype
+00000000         *UND*	00000000 ip4addr_aton
+00000000         *UND*	00000000 strstr
+00000000         *UND*	00000000 lwip_strnicmp
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 udp_new_ip_type
+00000000         *UND*	00000000 udp_bind
+00000000         *UND*	00000000 udp_recv
+00000000 g     F .text.dns_gethostbyname	00000010 dns_gethostbyname
+00000000 g     O .rodata.dns_mquery_v4group	00000004 dns_mquery_v4group
+
+
+Contents of section .text.dns_call_found:
+ 0000 2de9f047 4ff48a73 244e254c 054603fb  -..GO..s$N%L.F..
+ 0010 00638946 04f13008 4ff0000a 03f11007  .c.F..0.O.......
+ 0020 236843b1 227aaa42 05d16268 49463846  #hC."z.B..bhIF8F
+ 0030 9847c4f8 00a00c34 4445f1d1 4ff48a73  .G.....4DE..O..s
+ 0040 002403fb 0563154e d97b3246 e3b20134  .$...c.N.{2F...4
+ 0050 9d4202d0 937a022b 15d0042c 02f58a72  .B...z.+...,...r
+ 0060 f4d10329 0dd80f4f 57f82100 fff7feff  ...)...OW.!.....
+ 0070 4ff48a73 002203fb 0566f37b f47347f8  O..s."...f.{.sG.
+ 0080 2320bde8 f087d37b 8b42e6d1 4ff48a73  # .....{.B..O..s
+ 0090 042203fb 0563da73 f3e700bf 00000000  ."...c.s........
+ 00a0 00000000 00000000                    ........        
+Contents of section .rodata.dns_send.isra.0.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f646e  rnet/src/lwip/dn
+ 0020 732e6300 646e7320 73657276 6572206f  s.c.dns server o
+ 0030 7574206f 66206172 72617900 41737365  ut of array.Asse
+ 0040 7274696f 6e202225 73222066 61696c65  rtion "%s" faile
+ 0050 64206174 206c696e 65202564 20696e20  d at line %d in 
+ 0060 25730a00                             %s..            
+Contents of section .text.dns_send.isra.0:
+ 0000 2de9f04f dff884a1 4ff48a74 87b004fb  -..O....O..t....
+ 0010 00a40190 e37a012b 00f29d80 554a52f8  .....z.+....UJR.
+ 0020 233023b9 94f81051 002d00f0 8d80019b  #0#....Q.-......
+ 0030 4ff48a74 03fb04f4 04f11007 57443846  O..t........WD8F
+ 0040 fff7feff 12304ff4 207281b2 3820fff7  .....0O. r..8 ..
+ 0050 feff8046 00286bd0 54440023 0c2603a9  ...F.(k.TD.#.&..
+ 0060 2289013f 03934ff6 fe7952ba cde90433  "..?..O..yR....3
+ 0070 0123adf8 0c203246 8df80e30 4ff48073  .#... 2F...0O..s
+ 0080 adf81030 fff7feff 7b787d1c 2e2b52d0  ...0....{x}..+R.
+ 0090 002b50d0 2b46c5f1 01001c18 1a4613f8  .+P.+F.......F..
+ 00a0 011fe4b2 2e2901d0 0029f6d1 d21b2146  .....)...)....!F
+ 00b0 1f461ffa 82fb3144 494536dc 31462246  .F....1DIE6.1F"F
+ 00c0 40463444 fff7feff 731ca4b2 5a462946  @F4D....s...ZF)F
+ 00d0 9bb24046 661cfff7 feff3a78 b6b2002a  ..@Ff.....:x...*
+ 00e0 d2d13146 4046fff7 feff4ff0 0122a31c  ..1F@F....O.."..
+ 00f0 02a90292 40469bb2 0422fff7 feff4ff4  ....@F..."....O.
+ 0100 8a73019a 03fb02aa 9af81031 9af80f00  .s.........1....
+ 0110 b3b99af8 0b203523 164901eb 82021649  ..... 5#.I.....I
+ 0120 51f82000 4146fff7 feff4046 fff7feff  Q. .AF....@F....
+ 0130 07b0bde8 f08f0021 2f468b46 0c46bae7  .......!/F.F.F..
+ 0140 41f2e943 0d4aeae7 2946fff7 feffa572  A..C.J..)F.....r
+ 0150 07b0bde8 f08f0a4b 40f20d32 09490a48  .......K@..2.I.H
+ 0160 fff7feff 0020fff7 feff0120 fff7feff  ..... ..... ....
+ 0170 fff7feff 00000000 00000000 00000000  ................
+ 0180 00000000 24000000 3c000000 00000000  ....$...<.......
+Contents of section .rodata.dns_check_entry.str1.4:
+ 0000 61727261 7920696e 64657820 6f757420  array index out 
+ 0010 6f662062 6f756e64 73000000 756e6b6e  of bounds...unkn
+ 0020 6f776e20 646e735f 7461626c 6520656e  own dns_table en
+ 0030 74727920 73746174 653a00             try state:.     
+Contents of section .text.dns_check_entry:
+ 0000 032870b5 6ad83f4d 4ff48a73 044603fb  .(p.j.?MO..s.F..
+ 0010 00539b7a 032b70d8 dfe803f0 0f102a02  .S.z.+p.......*.
+ 0020 4ff48a73 00fb03f3 ea58002a 3ad14ff4  O..s.....X.*:.O.
+ 0030 8a730022 03fb0453 9a7270bd 324efff7  .s."...S.rp.2N..
+ 0040 feff304b 81b29a7a 022a27d0 03f58a73  ..0K...z.*'....s
+ 0050 9e42f8d1 4ff48a73 02260122 204603fb  .B..O..s.&." F..
+ 0060 04535e81 19819a81 bde87040 fff7febf  .S^.......p@....
+ 0070 4ff48a72 02fb0052 137b013b dbb21373  O..r...R.{.;...s
+ 0080 002bdad1 537b0133 dbb2042b 53730ed0  .+..S{.3...+Ss..
+ 0090 13732046 bde87040 fff7febf 1a898a42  .s F..p@.......B
+ 00a0 d4d1cce7 013aea50 002ac0d0 c5e7d37a  .....:.P.*.....z
+ 00b0 4bb9164b 5b6833b1 92f81031 1bb90123  K..K[h3....1...#
+ 00c0 d3729381 e5e70021 2046fff7 feff4ff4  .r.....! F....O.
+ 00d0 8a730022 03fb0453 9a7270bd 0c4b40f2  .s."...S.rp..K@.
+ 00e0 2f420c49 0c48fff7 feff0020 fff7feff  /B.I.H..... ....
+ 00f0 0120fff7 fefffff7 feff054b 40f26e42  . .........K@.nB
+ 0100 0649efe7 00000000 50040000 00000000  .I......P.......
+ 0110 00000000 00000000 3c000000 1c000000  ........<.......
+Contents of section .text.dns_recv:
+ 0000 2de9f04f 99461389 8db01446 0f2b05d8  -..O.F.....F.+..
+ 0010 2046fff7 feff0db0 bde8f08f 00230c22   F...........#."
+ 0020 06a92046 fff7feff 0c280646 f0d1dff8  .. F.....(.F....
+ 0030 f0820025 bdf81810 4346efb2 49ba9a7a  ...%....CF..I..z
+ 0040 89b2022a 08d00135 03f58a73 042ddfd0  ...*...5...s.-..
+ 0050 9a7aefb2 022af6d1 1a898a42 f3d1bdf8  .z...*.....B....
+ 0060 1c309df8 1a205bba bdf81e10 d2099bb2  .0... [.........
+ 0070 0091cdd0 012bcbd1 4ff48a73 03fb0583  .....+..O..s....
+ 0080 93f81021 3ab9d97a a34bd9f8 002053f8  ...!:..z.K... S.
+ 0090 21309a42 bcd14ff4 8a730297 03954ff6  !0.B..O..s....O.
+ 00a0 ff7b03fb 05f3dff8 7c923546 03f11002  .{......|.5F....
+ 00b0 01934244 17462946 2046fff7 feff0028  ..BD.F)F F.....(
+ 00c0 a6db5d45 a4d000f0 c003691c c02b8db2  ..]E......i..+..
+ 00d0 9ed030b3 3e4607eb 000a2946 2046fff7  ..0.>F....)F F..
+ 00e0 feff031e 94db16f8 010bdbb2 19f80020  ............... 
+ 00f0 01463746 02f00302 012a19f8 032002f0  .F7F.....*... ..
+ 0100 030208bf 00f12001 681c012a 08bf2033  ...... .h..*.. 3
+ 0110 5d4585b2 3ff47caf 99427ff4 79afb245  ]E..?.|..B..y..E
+ 0120 dbd12946 2046fff7 feff0028 07f10107  ..)F F.....(....
+ 0130 fff66eaf bfd12e46 4ff6ff79 4e45dde9  ..n....FO..yNE..
+ 0140 02753ff4 65af06f1 010a1ffa 8afaca45  .u?.e..........E
+ 0150 3ff45eaf 53460422 04a92046 fff7feff  ?.^.SF.".. F....
+ 0160 04287ff4 55afbdf8 1230b3f5 807f7ff4  .(..U....0......
+ 0170 4fafbdf8 1030b3f5 807f7ff4 49af4ff6  O....0......I.O.
+ 0180 fb739a45 3ff644af 9df81b30 1b0717d0  .s.E?.D....0....
+ 0190 4ff48a73 03fb0583 db7a002b 40f0ab80  O..s.....z.+@...
+ 01a0 5d4b5b68 002b00f0 a6804ff4 8a7340f2  ]K[h.+....O..s@.
+ 01b0 01323846 03fb0583 9a81fff7 feff27e7  .28F..........'.
+ 01c0 009b0536 93fa93fa b6b21ffa 8afabaf1  ...6............
+ 01d0 000f00f0 90802389 b34240f2 8c80a346  ......#..B@....F
+ 01e0 0ae0bbf8 08209342 49da3146 fff7feff  ..... .BI.1F....
+ 01f0 002844db 00f08d80 31465846 fff7feff  .(D.....1FXF....
+ 0200 741c0346 5846a4b2 002b03f0 c0022344  t..FXF...+....#D
+ 0210 35db9eb2 9cb3c02a e3d1a346 04465e46  5......*...F.F^F
+ 0220 4e453ff4 f5ae06f1 010b1ffa 8bfbcb45  NE?............E
+ 0230 3ff4eeae 5b460a22 09a92046 fff7feff  ?...[F.".. F....
+ 0240 4ff6f573 9b453ff6 e3ae0a28 7ff4e0ae  O..s.E?....(....
+ 0250 bdf82620 06f10b03 b2f5807f 9bb210d0  ..& ............
+ 0260 bdf82c60 76ba13fa 86f6b6f5 803fbff6  ..,`v........?..
+ 0270 cfae0af1 ff3ab6b2 1ffa8afa a7e75c46  .....:........\F
+ 0280 c6e6bdf8 2420b2f5 807fe9d1 bdf82c20  ....$ ........, 
+ 0290 b2f5806f e4d10422 05a92046 fff7feff  ...o...".. F....
+ 02a0 04287ff4 b5ae2046 4ff48a74 059b05fb  .(.... FO..t....
+ 02b0 04f408eb 04067360 fff7feff 0a9b174a  ......s`.......J
+ 02c0 38461bba 01999342 01f10401 28bf1346  8F.....B....(..F
+ 02d0 414448f8 04300323 b372fff7 feff58f8  ADH..0.#.r....X.
+ 02e0 0430002b 7ff497ae b37a032b 7ff493ae  .0.+.....z.+....
+ 02f0 0022b272 8fe62046 fff7feff 00213846  .".r.. F.....!8F
+ 0300 fff7feff 4ff48a73 002203fb 05839a72  ....O..s.".....r
+ 0310 81e65c46 84e700bf 00000000 803a0900  ..\F.........:..
+ 0320 00000000 01000000                    ........        
+Contents of section .text.dns_init:
+ 0000 704700bf                             pG..            
+Contents of section .text.dns_setserver:
+ 0000 012800d9 704721b1 054b0a68 43f82020  .(..pG!..K.hC.  
+ 0010 7047044a 024b1268 43f82020 704700bf  pG.J.K.hC.  pG..
+ 0020 00000000 00000000                    ........        
+Contents of section .text.dns_getserver:
+ 0000 012801d9 02487047 024b03eb 80007047  .(...HpG.K....pG
+ 0010 00000000 00000000                    ........        
+Contents of section .text.dns_tmr:
+ 0000 08b50020 fff7feff 0120fff7 feff0220  ... ..... ..... 
+ 0010 fff7feff 0320bde8 0840fff7 febf00bf  ..... ...@......
+Contents of section .rodata.dns_gethostbyname_addrtype.str1.4:
+ 0000 2e6c6f63 616c00                      .local.         
+Contents of section .text.dns_gethostbyname_addrtype:
+ 0000 2de9f04f 83b00093 002900f0 2581b0fa  -..O.....)..%...
+ 0010 80f40646 64090028 00f01e81 0378002b  ...Fd..(.....x.+
+ 0020 00f01a81 88461546 fff7feff 431e8146  .....F.F....C..F
+ 0030 f15c2e29 08bf9946 b9f1ff0f 00f20c81  .\.)...F........
+ 0040 41463046 fff7feff 18b12046 03b0bde8  AF0F...... F....
+ 0050 f08fdff8 64a20446 574617f8 063c032b  ....d..FWF...<.+
+ 0060 45d00134 07f58a77 042cf6d1 8a493046  E..4...w.,...I0F
+ 0070 fff7feff a9f10603 33449842 68d0874b  ........3D.Bh..K
+ 0080 1b68002b 00f00481 00230193 0024844f  .h.+.....#...$.O
+ 0090 1af8063c 5ffa84f8 022b44d0 01340af5  ...<_....+D..4..
+ 00a0 8a7a042c f4d17f4b a4467f4a 00241878  .z.,...K.F.J.$.x
+ 00b0 27461346 997a5ffa 84f80029 4bd00329  'F.F.z_....)K..)
+ 00c0 04f10104 27d0042c 03f58a73 f2d1bcf1  ....'..,...s....
+ 00d0 040f07d0 4ff48a74 04fb0c24 a37a032b  ....O..t...$.z.+
+ 00e0 00f0b880 4ff0ff30 03b0bde8 f08f3946  ....O..0......9F
+ 00f0 4a463046 fff7feff 0028b2d1 17f80900  JF0F.....(......
+ 0100 0028aed1 684b4ff4 8a7202fb 04335b68  .(..hKO..r...3[h
+ 0110 c8f80030 9ae7997b 411ac9b2 b942d2d9  ...0...{A....B..
+ 0120 c4460f46 cfe74a46 51463046 fff7feff  .F.F..JFQF0F....
+ 0130 0028b3d1 1af80930 002bafd1 584a1168  .(.....0.+..XJ.h
+ 0140 0c320029 00f09780 0133042b f7d1a5e7  .2.).....3.+....
+ 0150 01230193 9ae74ff4 8a7303fb 0424dff8  .#....O..s...$..
+ 0160 40a10027 53461a68 0c332ab1 0137042f  @..'SF.h.3*..7./
+ 0170 f9d14ff0 ff30b7e7 07eb4703 9346009a  ..O..0....G..F..
+ 0180 31464af8 23500aeb 8303a073 04f11000  1FJ.#P.....s....
+ 0190 5a604a46 83f80880 01235d46 a372fff7  Z`JF.....#]F.r..
+ 01a0 feff04eb 09027b00 82f810b0 00933f4b  ......{.......?K
+ 01b0 53f8042b eeb202b3 0135042d f8d13c48  S..+.....5.-..<H
+ 01c0 04230678 0136f6b2 032e3246 01d90026  .#.x.6....2F...&
+ 01d0 3246364d 711c013b 55f82220 5abb13f0  2F6Mq..;U." Z...
+ 01e0 ff03ceb2 f0d1009a 4ff0ff30 a3723a44  ........O..0.r:D
+ 01f0 4af82230 0423e373 28e72e20 fff7feff  J."0.#.s(.. ....
+ 0200 8146a0b3 dff8b4b0 fff7feff 82b2b2f5  .F..............
+ 0210 806ff9d3 59464846 fff7feff 10f1080f  .o..YFHF........
+ 0220 f2d0e0b9 02462349 4846fff7 feff1f4b  .....F#IHF.....K
+ 0230 1f4843f8 25901b4a 01991378 06704046  .HC.%..J...x.p@F
+ 0240 0133e673 84f81011 1370fff7 feff6ff0  .3.s.....p....o.
+ 0250 0400fbe6 e04682e7 6ff00f00 f6e64846  .....F..o.....HF
+ 0260 fff7feff 0023114a 42f82530 a7e70f4b  .....#.JB.%0...K
+ 0270 43f82590 a3e703eb 43036ff0 040047f8  C.%.....C.o...G.
+ 0280 235007eb 8307009b 87f80880 7b60dde6  #P..........{`..
+ 0290 6ff00500 dae600bf 00000000 00000000  o...............
+ 02a0 00000000 00000000 00000000 00000000  ................
+ 02b0 00000000 00000000 10000000 00000000  ................
+Contents of section .text.dns_gethostbyname:
+ 0000 10b50024 82b00094 fff7feff 02b010bd  ...$............
+Contents of section .rodata.dns_mquery_v4group:
+ 0000 e00000fb                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.dns_call_found:
+
+00000000 <dns_call_found>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	f44f 738a 	mov.w	r3, #276	; 0x114
+   8:	4e24      	ldr	r6, [pc, #144]	; (9c <dns_call_found+0x9c>)
+   a:	4c25      	ldr	r4, [pc, #148]	; (a0 <dns_call_found+0xa0>)
+   c:	4605      	mov	r5, r0
+   e:	fb03 6300 	mla	r3, r3, r0, r6
+  12:	4689      	mov	r9, r1
+  14:	f104 0830 	add.w	r8, r4, #48	; 0x30
+  18:	f04f 0a00 	mov.w	sl, #0
+  1c:	f103 0710 	add.w	r7, r3, #16
+  20:	6823      	ldr	r3, [r4, #0]
+  22:	b143      	cbz	r3, 36 <dns_call_found+0x36>
+  24:	7a22      	ldrb	r2, [r4, #8]
+  26:	42aa      	cmp	r2, r5
+  28:	d105      	bne.n	36 <dns_call_found+0x36>
+  2a:	6862      	ldr	r2, [r4, #4]
+  2c:	4649      	mov	r1, r9
+  2e:	4638      	mov	r0, r7
+  30:	4798      	blx	r3
+  32:	f8c4 a000 	str.w	sl, [r4]
+  36:	340c      	adds	r4, #12
+  38:	4544      	cmp	r4, r8
+  3a:	d1f1      	bne.n	20 <dns_call_found+0x20>
+  3c:	f44f 738a 	mov.w	r3, #276	; 0x114
+  40:	2400      	movs	r4, #0
+  42:	fb03 6305 	mla	r3, r3, r5, r6
+  46:	4e15      	ldr	r6, [pc, #84]	; (9c <dns_call_found+0x9c>)
+  48:	7bd9      	ldrb	r1, [r3, #15]
+  4a:	4632      	mov	r2, r6
+  4c:	b2e3      	uxtb	r3, r4
+  4e:	3401      	adds	r4, #1
+  50:	429d      	cmp	r5, r3
+  52:	d002      	beq.n	5a <dns_call_found+0x5a>
+  54:	7a93      	ldrb	r3, [r2, #10]
+  56:	2b02      	cmp	r3, #2
+  58:	d015      	beq.n	86 <dns_call_found+0x86>
+  5a:	2c04      	cmp	r4, #4
+  5c:	f502 728a 	add.w	r2, r2, #276	; 0x114
+  60:	d1f4      	bne.n	4c <dns_call_found+0x4c>
+  62:	2903      	cmp	r1, #3
+  64:	d80d      	bhi.n	82 <dns_call_found+0x82>
+  66:	4f0f      	ldr	r7, [pc, #60]	; (a4 <dns_call_found+0xa4>)
+  68:	f857 0021 	ldr.w	r0, [r7, r1, lsl #2]
+  6c:	f7ff fffe 	bl	0 <udp_remove>
+  70:	f44f 738a 	mov.w	r3, #276	; 0x114
+  74:	2200      	movs	r2, #0
+  76:	fb03 6605 	mla	r6, r3, r5, r6
+  7a:	7bf3      	ldrb	r3, [r6, #15]
+  7c:	73f4      	strb	r4, [r6, #15]
+  7e:	f847 2023 	str.w	r2, [r7, r3, lsl #2]
+  82:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  86:	7bd3      	ldrb	r3, [r2, #15]
+  88:	428b      	cmp	r3, r1
+  8a:	d1e6      	bne.n	5a <dns_call_found+0x5a>
+  8c:	f44f 738a 	mov.w	r3, #276	; 0x114
+  90:	2204      	movs	r2, #4
+  92:	fb03 6305 	mla	r3, r3, r5, r6
+  96:	73da      	strb	r2, [r3, #15]
+  98:	e7f3      	b.n	82 <dns_call_found+0x82>
+  9a:	bf00      	nop
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.dns_send.isra.0:
+
+00000000 <dns_send.isra.0>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8df a184 	ldr.w	sl, [pc, #388]	; 18c <dns_send.isra.0+0x18c>
+   8:	f44f 748a 	mov.w	r4, #276	; 0x114
+   c:	b087      	sub	sp, #28
+   e:	fb04 a400 	mla	r4, r4, r0, sl
+  12:	9001      	str	r0, [sp, #4]
+  14:	7ae3      	ldrb	r3, [r4, #11]
+  16:	2b01      	cmp	r3, #1
+  18:	f200 809d 	bhi.w	156 <dns_send.isra.0+0x156>
+  1c:	4a55      	ldr	r2, [pc, #340]	; (174 <dns_send.isra.0+0x174>)
+  1e:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+  22:	b923      	cbnz	r3, 2e <dns_send.isra.0+0x2e>
+  24:	f894 5110 	ldrb.w	r5, [r4, #272]	; 0x110
+  28:	2d00      	cmp	r5, #0
+  2a:	f000 808d 	beq.w	148 <dns_send.isra.0+0x148>
+  2e:	9b01      	ldr	r3, [sp, #4]
+  30:	f44f 748a 	mov.w	r4, #276	; 0x114
+  34:	fb03 f404 	mul.w	r4, r3, r4
+  38:	f104 0710 	add.w	r7, r4, #16
+  3c:	4457      	add	r7, sl
+  3e:	4638      	mov	r0, r7
+  40:	f7ff fffe 	bl	0 <strlen>
+  44:	3012      	adds	r0, #18
+  46:	f44f 7220 	mov.w	r2, #640	; 0x280
+  4a:	b281      	uxth	r1, r0
+  4c:	2038      	movs	r0, #56	; 0x38
+  4e:	f7ff fffe 	bl	0 <pbuf_alloc>
+  52:	4680      	mov	r8, r0
+  54:	2800      	cmp	r0, #0
+  56:	d06b      	beq.n	130 <dns_send.isra.0+0x130>
+  58:	4454      	add	r4, sl
+  5a:	2300      	movs	r3, #0
+  5c:	260c      	movs	r6, #12
+  5e:	a903      	add	r1, sp, #12
+  60:	8922      	ldrh	r2, [r4, #8]
+  62:	3f01      	subs	r7, #1
+  64:	9303      	str	r3, [sp, #12]
+  66:	f64f 79fe 	movw	r9, #65534	; 0xfffe
+  6a:	ba52      	rev16	r2, r2
+  6c:	e9cd 3304 	strd	r3, r3, [sp, #16]
+  70:	2301      	movs	r3, #1
+  72:	f8ad 200c 	strh.w	r2, [sp, #12]
+  76:	4632      	mov	r2, r6
+  78:	f88d 300e 	strb.w	r3, [sp, #14]
+  7c:	f44f 7380 	mov.w	r3, #256	; 0x100
+  80:	f8ad 3010 	strh.w	r3, [sp, #16]
+  84:	f7ff fffe 	bl	0 <pbuf_take>
+  88:	787b      	ldrb	r3, [r7, #1]
+  8a:	1c7d      	adds	r5, r7, #1
+  8c:	2b2e      	cmp	r3, #46	; 0x2e
+  8e:	d052      	beq.n	136 <dns_send.isra.0+0x136>
+  90:	2b00      	cmp	r3, #0
+  92:	d050      	beq.n	136 <dns_send.isra.0+0x136>
+  94:	462b      	mov	r3, r5
+  96:	f1c5 0001 	rsb	r0, r5, #1
+  9a:	181c      	adds	r4, r3, r0
+  9c:	461a      	mov	r2, r3
+  9e:	f813 1f01 	ldrb.w	r1, [r3, #1]!
+  a2:	b2e4      	uxtb	r4, r4
+  a4:	292e      	cmp	r1, #46	; 0x2e
+  a6:	d001      	beq.n	ac <dns_send.isra.0+0xac>
+  a8:	2900      	cmp	r1, #0
+  aa:	d1f6      	bne.n	9a <dns_send.isra.0+0x9a>
+  ac:	1bd2      	subs	r2, r2, r7
+  ae:	4621      	mov	r1, r4
+  b0:	461f      	mov	r7, r3
+  b2:	fa1f fb82 	uxth.w	fp, r2
+  b6:	4431      	add	r1, r6
+  b8:	4549      	cmp	r1, r9
+  ba:	dc36      	bgt.n	12a <dns_send.isra.0+0x12a>
+  bc:	4631      	mov	r1, r6
+  be:	4622      	mov	r2, r4
+  c0:	4640      	mov	r0, r8
+  c2:	4434      	add	r4, r6
+  c4:	f7ff fffe 	bl	0 <pbuf_put_at>
+  c8:	1c73      	adds	r3, r6, #1
+  ca:	b2a4      	uxth	r4, r4
+  cc:	465a      	mov	r2, fp
+  ce:	4629      	mov	r1, r5
+  d0:	b29b      	uxth	r3, r3
+  d2:	4640      	mov	r0, r8
+  d4:	1c66      	adds	r6, r4, #1
+  d6:	f7ff fffe 	bl	0 <pbuf_take_at>
+  da:	783a      	ldrb	r2, [r7, #0]
+  dc:	b2b6      	uxth	r6, r6
+  de:	2a00      	cmp	r2, #0
+  e0:	d1d2      	bne.n	88 <dns_send.isra.0+0x88>
+  e2:	4631      	mov	r1, r6
+  e4:	4640      	mov	r0, r8
+  e6:	f7ff fffe 	bl	0 <pbuf_put_at>
+  ea:	f04f 2201 	mov.w	r2, #16777472	; 0x1000100
+  ee:	1ca3      	adds	r3, r4, #2
+  f0:	a902      	add	r1, sp, #8
+  f2:	9202      	str	r2, [sp, #8]
+  f4:	4640      	mov	r0, r8
+  f6:	b29b      	uxth	r3, r3
+  f8:	2204      	movs	r2, #4
+  fa:	f7ff fffe 	bl	0 <pbuf_take_at>
+  fe:	f44f 738a 	mov.w	r3, #276	; 0x114
+ 102:	9a01      	ldr	r2, [sp, #4]
+ 104:	fb03 aa02 	mla	sl, r3, r2, sl
+ 108:	f89a 3110 	ldrb.w	r3, [sl, #272]	; 0x110
+ 10c:	f89a 000f 	ldrb.w	r0, [sl, #15]
+ 110:	b9b3      	cbnz	r3, 140 <dns_send.isra.0+0x140>
+ 112:	f89a 200b 	ldrb.w	r2, [sl, #11]
+ 116:	2335      	movs	r3, #53	; 0x35
+ 118:	4916      	ldr	r1, [pc, #88]	; (174 <dns_send.isra.0+0x174>)
+ 11a:	eb01 0282 	add.w	r2, r1, r2, lsl #2
+ 11e:	4916      	ldr	r1, [pc, #88]	; (178 <dns_send.isra.0+0x178>)
+ 120:	f851 0020 	ldr.w	r0, [r1, r0, lsl #2]
+ 124:	4641      	mov	r1, r8
+ 126:	f7ff fffe 	bl	0 <udp_sendto>
+ 12a:	4640      	mov	r0, r8
+ 12c:	f7ff fffe 	bl	0 <pbuf_free>
+ 130:	b007      	add	sp, #28
+ 132:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 136:	2100      	movs	r1, #0
+ 138:	462f      	mov	r7, r5
+ 13a:	468b      	mov	fp, r1
+ 13c:	460c      	mov	r4, r1
+ 13e:	e7ba      	b.n	b6 <dns_send.isra.0+0xb6>
+ 140:	f241 43e9 	movw	r3, #5353	; 0x14e9
+ 144:	4a0d      	ldr	r2, [pc, #52]	; (17c <dns_send.isra.0+0x17c>)
+ 146:	e7ea      	b.n	11e <dns_send.isra.0+0x11e>
+ 148:	4629      	mov	r1, r5
+ 14a:	f7ff fffe 	bl	0 <dns_send.isra.0>
+ 14e:	72a5      	strb	r5, [r4, #10]
+ 150:	b007      	add	sp, #28
+ 152:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 156:	4b0a      	ldr	r3, [pc, #40]	; (180 <dns_send.isra.0+0x180>)
+ 158:	f240 320d 	movw	r2, #781	; 0x30d
+ 15c:	4909      	ldr	r1, [pc, #36]	; (184 <dns_send.isra.0+0x184>)
+ 15e:	480a      	ldr	r0, [pc, #40]	; (188 <dns_send.isra.0+0x188>)
+ 160:	f7ff fffe 	bl	0 <printf>
+ 164:	2000      	movs	r0, #0
+ 166:	f7ff fffe 	bl	0 <fflush>
+ 16a:	2001      	movs	r0, #1
+ 16c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 170:	f7ff fffe 	bl	0 <abort>
+ 174:	00000000 	.word	0x00000000
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000
+ 184:	00000024 	.word	0x00000024
+ 188:	0000003c 	.word	0x0000003c
+ 18c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.dns_check_entry:
+
+00000000 <dns_check_entry>:
+   0:	2803      	cmp	r0, #3
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	d86a      	bhi.n	dc <dns_check_entry+0xdc>
+   6:	4d3f      	ldr	r5, [pc, #252]	; (104 <dns_check_entry+0x104>)
+   8:	f44f 738a 	mov.w	r3, #276	; 0x114
+   c:	4604      	mov	r4, r0
+   e:	fb03 5300 	mla	r3, r3, r0, r5
+  12:	7a9b      	ldrb	r3, [r3, #10]
+  14:	2b03      	cmp	r3, #3
+  16:	d870      	bhi.n	fa <dns_check_entry+0xfa>
+  18:	e8df f003 	tbb	[pc, r3]
+  1c:	022a100f 	.word	0x022a100f
+  20:	f44f 738a 	mov.w	r3, #276	; 0x114
+  24:	fb00 f303 	mul.w	r3, r0, r3
+  28:	58ea      	ldr	r2, [r5, r3]
+  2a:	2a00      	cmp	r2, #0
+  2c:	d13a      	bne.n	a4 <dns_check_entry+0xa4>
+  2e:	f44f 738a 	mov.w	r3, #276	; 0x114
+  32:	2200      	movs	r2, #0
+  34:	fb03 5304 	mla	r3, r3, r4, r5
+  38:	729a      	strb	r2, [r3, #10]
+  3a:	bd70      	pop	{r4, r5, r6, pc}
+  3c:	4e32      	ldr	r6, [pc, #200]	; (108 <dns_check_entry+0x108>)
+  3e:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+  42:	4b30      	ldr	r3, [pc, #192]	; (104 <dns_check_entry+0x104>)
+  44:	b281      	uxth	r1, r0
+  46:	7a9a      	ldrb	r2, [r3, #10]
+  48:	2a02      	cmp	r2, #2
+  4a:	d027      	beq.n	9c <dns_check_entry+0x9c>
+  4c:	f503 738a 	add.w	r3, r3, #276	; 0x114
+  50:	429e      	cmp	r6, r3
+  52:	d1f8      	bne.n	46 <dns_check_entry+0x46>
+  54:	f44f 738a 	mov.w	r3, #276	; 0x114
+  58:	2602      	movs	r6, #2
+  5a:	2201      	movs	r2, #1
+  5c:	4620      	mov	r0, r4
+  5e:	fb03 5304 	mla	r3, r3, r4, r5
+  62:	815e      	strh	r6, [r3, #10]
+  64:	8119      	strh	r1, [r3, #8]
+  66:	819a      	strh	r2, [r3, #12]
+  68:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  6c:	f7ff bffe 	b.w	0 <dns_check_entry>
+  70:	f44f 728a 	mov.w	r2, #276	; 0x114
+  74:	fb02 5200 	mla	r2, r2, r0, r5
+  78:	7b13      	ldrb	r3, [r2, #12]
+  7a:	3b01      	subs	r3, #1
+  7c:	b2db      	uxtb	r3, r3
+  7e:	7313      	strb	r3, [r2, #12]
+  80:	2b00      	cmp	r3, #0
+  82:	d1da      	bne.n	3a <dns_check_entry+0x3a>
+  84:	7b53      	ldrb	r3, [r2, #13]
+  86:	3301      	adds	r3, #1
+  88:	b2db      	uxtb	r3, r3
+  8a:	2b04      	cmp	r3, #4
+  8c:	7353      	strb	r3, [r2, #13]
+  8e:	d00e      	beq.n	ae <dns_check_entry+0xae>
+  90:	7313      	strb	r3, [r2, #12]
+  92:	4620      	mov	r0, r4
+  94:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  98:	f7ff bffe 	b.w	0 <dns_check_entry>
+  9c:	891a      	ldrh	r2, [r3, #8]
+  9e:	428a      	cmp	r2, r1
+  a0:	d1d4      	bne.n	4c <dns_check_entry+0x4c>
+  a2:	e7cc      	b.n	3e <dns_check_entry+0x3e>
+  a4:	3a01      	subs	r2, #1
+  a6:	50ea      	str	r2, [r5, r3]
+  a8:	2a00      	cmp	r2, #0
+  aa:	d0c0      	beq.n	2e <dns_check_entry+0x2e>
+  ac:	e7c5      	b.n	3a <dns_check_entry+0x3a>
+  ae:	7ad3      	ldrb	r3, [r2, #11]
+  b0:	b94b      	cbnz	r3, c6 <dns_check_entry+0xc6>
+  b2:	4b16      	ldr	r3, [pc, #88]	; (10c <dns_check_entry+0x10c>)
+  b4:	685b      	ldr	r3, [r3, #4]
+  b6:	b133      	cbz	r3, c6 <dns_check_entry+0xc6>
+  b8:	f892 3110 	ldrb.w	r3, [r2, #272]	; 0x110
+  bc:	b91b      	cbnz	r3, c6 <dns_check_entry+0xc6>
+  be:	2301      	movs	r3, #1
+  c0:	72d3      	strb	r3, [r2, #11]
+  c2:	8193      	strh	r3, [r2, #12]
+  c4:	e7e5      	b.n	92 <dns_check_entry+0x92>
+  c6:	2100      	movs	r1, #0
+  c8:	4620      	mov	r0, r4
+  ca:	f7ff fffe 	bl	0 <dns_check_entry>
+  ce:	f44f 738a 	mov.w	r3, #276	; 0x114
+  d2:	2200      	movs	r2, #0
+  d4:	fb03 5304 	mla	r3, r3, r4, r5
+  d8:	729a      	strb	r2, [r3, #10]
+  da:	bd70      	pop	{r4, r5, r6, pc}
+  dc:	4b0c      	ldr	r3, [pc, #48]	; (110 <dns_check_entry+0x110>)
+  de:	f240 422f 	movw	r2, #1071	; 0x42f
+  e2:	490c      	ldr	r1, [pc, #48]	; (114 <dns_check_entry+0x114>)
+  e4:	480c      	ldr	r0, [pc, #48]	; (118 <dns_check_entry+0x118>)
+  e6:	f7ff fffe 	bl	0 <printf>
+  ea:	2000      	movs	r0, #0
+  ec:	f7ff fffe 	bl	0 <fflush>
+  f0:	2001      	movs	r0, #1
+  f2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  f6:	f7ff fffe 	bl	0 <abort>
+  fa:	4b05      	ldr	r3, [pc, #20]	; (110 <dns_check_entry+0x110>)
+  fc:	f240 426e 	movw	r2, #1134	; 0x46e
+ 100:	4906      	ldr	r1, [pc, #24]	; (11c <dns_check_entry+0x11c>)
+ 102:	e7ef      	b.n	e4 <dns_check_entry+0xe4>
+ 104:	00000000 	.word	0x00000000
+ 108:	00000450 	.word	0x00000450
+ 10c:	00000000 	.word	0x00000000
+ 110:	00000000 	.word	0x00000000
+ 114:	00000000 	.word	0x00000000
+ 118:	0000003c 	.word	0x0000003c
+ 11c:	0000001c 	.word	0x0000001c
+
+Disassembly of section .text.dns_recv:
+
+00000000 <dns_recv>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4699      	mov	r9, r3
+   6:	8913      	ldrh	r3, [r2, #8]
+   8:	b08d      	sub	sp, #52	; 0x34
+   a:	4614      	mov	r4, r2
+   c:	2b0f      	cmp	r3, #15
+   e:	d805      	bhi.n	1c <dns_recv+0x1c>
+  10:	4620      	mov	r0, r4
+  12:	f7ff fffe 	bl	0 <pbuf_free>
+  16:	b00d      	add	sp, #52	; 0x34
+  18:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  1c:	2300      	movs	r3, #0
+  1e:	220c      	movs	r2, #12
+  20:	a906      	add	r1, sp, #24
+  22:	4620      	mov	r0, r4
+  24:	f7ff fffe 	bl	0 <pbuf_copy_partial>
+  28:	280c      	cmp	r0, #12
+  2a:	4606      	mov	r6, r0
+  2c:	d1f0      	bne.n	10 <dns_recv+0x10>
+  2e:	f8df 82f0 	ldr.w	r8, [pc, #752]	; 320 <dns_recv+0x320>
+  32:	2500      	movs	r5, #0
+  34:	f8bd 1018 	ldrh.w	r1, [sp, #24]
+  38:	4643      	mov	r3, r8
+  3a:	b2ef      	uxtb	r7, r5
+  3c:	ba49      	rev16	r1, r1
+  3e:	7a9a      	ldrb	r2, [r3, #10]
+  40:	b289      	uxth	r1, r1
+  42:	2a02      	cmp	r2, #2
+  44:	d008      	beq.n	58 <dns_recv+0x58>
+  46:	3501      	adds	r5, #1
+  48:	f503 738a 	add.w	r3, r3, #276	; 0x114
+  4c:	2d04      	cmp	r5, #4
+  4e:	d0df      	beq.n	10 <dns_recv+0x10>
+  50:	7a9a      	ldrb	r2, [r3, #10]
+  52:	b2ef      	uxtb	r7, r5
+  54:	2a02      	cmp	r2, #2
+  56:	d1f6      	bne.n	46 <dns_recv+0x46>
+  58:	891a      	ldrh	r2, [r3, #8]
+  5a:	428a      	cmp	r2, r1
+  5c:	d1f3      	bne.n	46 <dns_recv+0x46>
+  5e:	f8bd 301c 	ldrh.w	r3, [sp, #28]
+  62:	f89d 201a 	ldrb.w	r2, [sp, #26]
+  66:	ba5b      	rev16	r3, r3
+  68:	f8bd 101e 	ldrh.w	r1, [sp, #30]
+  6c:	09d2      	lsrs	r2, r2, #7
+  6e:	b29b      	uxth	r3, r3
+  70:	9100      	str	r1, [sp, #0]
+  72:	d0cd      	beq.n	10 <dns_recv+0x10>
+  74:	2b01      	cmp	r3, #1
+  76:	d1cb      	bne.n	10 <dns_recv+0x10>
+  78:	f44f 738a 	mov.w	r3, #276	; 0x114
+  7c:	fb03 8305 	mla	r3, r3, r5, r8
+  80:	f893 2110 	ldrb.w	r2, [r3, #272]	; 0x110
+  84:	b93a      	cbnz	r2, 96 <dns_recv+0x96>
+  86:	7ad9      	ldrb	r1, [r3, #11]
+  88:	4ba3      	ldr	r3, [pc, #652]	; (318 <dns_recv+0x318>)
+  8a:	f8d9 2000 	ldr.w	r2, [r9]
+  8e:	f853 3021 	ldr.w	r3, [r3, r1, lsl #2]
+  92:	429a      	cmp	r2, r3
+  94:	d1bc      	bne.n	10 <dns_recv+0x10>
+  96:	f44f 738a 	mov.w	r3, #276	; 0x114
+  9a:	9702      	str	r7, [sp, #8]
+  9c:	9503      	str	r5, [sp, #12]
+  9e:	f64f 7bff 	movw	fp, #65535	; 0xffff
+  a2:	fb03 f305 	mul.w	r3, r3, r5
+  a6:	f8df 927c 	ldr.w	r9, [pc, #636]	; 324 <dns_recv+0x324>
+  aa:	4635      	mov	r5, r6
+  ac:	f103 0210 	add.w	r2, r3, #16
+  b0:	9301      	str	r3, [sp, #4]
+  b2:	4442      	add	r2, r8
+  b4:	4617      	mov	r7, r2
+  b6:	4629      	mov	r1, r5
+  b8:	4620      	mov	r0, r4
+  ba:	f7ff fffe 	bl	0 <pbuf_try_get_at>
+  be:	2800      	cmp	r0, #0
+  c0:	dba6      	blt.n	10 <dns_recv+0x10>
+  c2:	455d      	cmp	r5, fp
+  c4:	d0a4      	beq.n	10 <dns_recv+0x10>
+  c6:	f000 03c0 	and.w	r3, r0, #192	; 0xc0
+  ca:	1c69      	adds	r1, r5, #1
+  cc:	2bc0      	cmp	r3, #192	; 0xc0
+  ce:	b28d      	uxth	r5, r1
+  d0:	d09e      	beq.n	10 <dns_recv+0x10>
+  d2:	b330      	cbz	r0, 122 <dns_recv+0x122>
+  d4:	463e      	mov	r6, r7
+  d6:	eb07 0a00 	add.w	sl, r7, r0
+  da:	4629      	mov	r1, r5
+  dc:	4620      	mov	r0, r4
+  de:	f7ff fffe 	bl	0 <pbuf_try_get_at>
+  e2:	1e03      	subs	r3, r0, #0
+  e4:	db94      	blt.n	10 <dns_recv+0x10>
+  e6:	f816 0b01 	ldrb.w	r0, [r6], #1
+  ea:	b2db      	uxtb	r3, r3
+  ec:	f819 2000 	ldrb.w	r2, [r9, r0]
+  f0:	4601      	mov	r1, r0
+  f2:	4637      	mov	r7, r6
+  f4:	f002 0203 	and.w	r2, r2, #3
+  f8:	2a01      	cmp	r2, #1
+  fa:	f819 2003 	ldrb.w	r2, [r9, r3]
+  fe:	f002 0203 	and.w	r2, r2, #3
+ 102:	bf08      	it	eq
+ 104:	f100 0120 	addeq.w	r1, r0, #32
+ 108:	1c68      	adds	r0, r5, #1
+ 10a:	2a01      	cmp	r2, #1
+ 10c:	bf08      	it	eq
+ 10e:	3320      	addeq	r3, #32
+ 110:	455d      	cmp	r5, fp
+ 112:	b285      	uxth	r5, r0
+ 114:	f43f af7c 	beq.w	10 <dns_recv+0x10>
+ 118:	4299      	cmp	r1, r3
+ 11a:	f47f af79 	bne.w	10 <dns_recv+0x10>
+ 11e:	45b2      	cmp	sl, r6
+ 120:	d1db      	bne.n	da <dns_recv+0xda>
+ 122:	4629      	mov	r1, r5
+ 124:	4620      	mov	r0, r4
+ 126:	f7ff fffe 	bl	0 <pbuf_try_get_at>
+ 12a:	2800      	cmp	r0, #0
+ 12c:	f107 0701 	add.w	r7, r7, #1
+ 130:	f6ff af6e 	blt.w	10 <dns_recv+0x10>
+ 134:	d1bf      	bne.n	b6 <dns_recv+0xb6>
+ 136:	462e      	mov	r6, r5
+ 138:	f64f 79ff 	movw	r9, #65535	; 0xffff
+ 13c:	454e      	cmp	r6, r9
+ 13e:	e9dd 7502 	ldrd	r7, r5, [sp, #8]
+ 142:	f43f af65 	beq.w	10 <dns_recv+0x10>
+ 146:	f106 0a01 	add.w	sl, r6, #1
+ 14a:	fa1f fa8a 	uxth.w	sl, sl
+ 14e:	45ca      	cmp	sl, r9
+ 150:	f43f af5e 	beq.w	10 <dns_recv+0x10>
+ 154:	4653      	mov	r3, sl
+ 156:	2204      	movs	r2, #4
+ 158:	a904      	add	r1, sp, #16
+ 15a:	4620      	mov	r0, r4
+ 15c:	f7ff fffe 	bl	0 <pbuf_copy_partial>
+ 160:	2804      	cmp	r0, #4
+ 162:	f47f af55 	bne.w	10 <dns_recv+0x10>
+ 166:	f8bd 3012 	ldrh.w	r3, [sp, #18]
+ 16a:	f5b3 7f80 	cmp.w	r3, #256	; 0x100
+ 16e:	f47f af4f 	bne.w	10 <dns_recv+0x10>
+ 172:	f8bd 3010 	ldrh.w	r3, [sp, #16]
+ 176:	f5b3 7f80 	cmp.w	r3, #256	; 0x100
+ 17a:	f47f af49 	bne.w	10 <dns_recv+0x10>
+ 17e:	f64f 73fb 	movw	r3, #65531	; 0xfffb
+ 182:	459a      	cmp	sl, r3
+ 184:	f63f af44 	bhi.w	10 <dns_recv+0x10>
+ 188:	f89d 301b 	ldrb.w	r3, [sp, #27]
+ 18c:	071b      	lsls	r3, r3, #28
+ 18e:	d017      	beq.n	1c0 <dns_recv+0x1c0>
+ 190:	f44f 738a 	mov.w	r3, #276	; 0x114
+ 194:	fb03 8305 	mla	r3, r3, r5, r8
+ 198:	7adb      	ldrb	r3, [r3, #11]
+ 19a:	2b00      	cmp	r3, #0
+ 19c:	f040 80ab 	bne.w	2f6 <dns_recv+0x2f6>
+ 1a0:	4b5d      	ldr	r3, [pc, #372]	; (318 <dns_recv+0x318>)
+ 1a2:	685b      	ldr	r3, [r3, #4]
+ 1a4:	2b00      	cmp	r3, #0
+ 1a6:	f000 80a6 	beq.w	2f6 <dns_recv+0x2f6>
+ 1aa:	f44f 738a 	mov.w	r3, #276	; 0x114
+ 1ae:	f240 3201 	movw	r2, #769	; 0x301
+ 1b2:	4638      	mov	r0, r7
+ 1b4:	fb03 8305 	mla	r3, r3, r5, r8
+ 1b8:	819a      	strh	r2, [r3, #12]
+ 1ba:	f7ff fffe 	bl	0 <dns_recv>
+ 1be:	e727      	b.n	10 <dns_recv+0x10>
+ 1c0:	9b00      	ldr	r3, [sp, #0]
+ 1c2:	3605      	adds	r6, #5
+ 1c4:	fa93 fa93 	rev16.w	sl, r3
+ 1c8:	b2b6      	uxth	r6, r6
+ 1ca:	fa1f fa8a 	uxth.w	sl, sl
+ 1ce:	f1ba 0f00 	cmp.w	sl, #0
+ 1d2:	f000 8090 	beq.w	2f6 <dns_recv+0x2f6>
+ 1d6:	8923      	ldrh	r3, [r4, #8]
+ 1d8:	42b3      	cmp	r3, r6
+ 1da:	f240 808c 	bls.w	2f6 <dns_recv+0x2f6>
+ 1de:	46a3      	mov	fp, r4
+ 1e0:	e00a      	b.n	1f8 <dns_recv+0x1f8>
+ 1e2:	f8bb 2008 	ldrh.w	r2, [fp, #8]
+ 1e6:	4293      	cmp	r3, r2
+ 1e8:	da49      	bge.n	27e <dns_recv+0x27e>
+ 1ea:	4631      	mov	r1, r6
+ 1ec:	f7ff fffe 	bl	0 <pbuf_try_get_at>
+ 1f0:	2800      	cmp	r0, #0
+ 1f2:	db44      	blt.n	27e <dns_recv+0x27e>
+ 1f4:	f000 808d 	beq.w	312 <dns_recv+0x312>
+ 1f8:	4631      	mov	r1, r6
+ 1fa:	4658      	mov	r0, fp
+ 1fc:	f7ff fffe 	bl	0 <pbuf_try_get_at>
+ 200:	1c74      	adds	r4, r6, #1
+ 202:	4603      	mov	r3, r0
+ 204:	4658      	mov	r0, fp
+ 206:	b2a4      	uxth	r4, r4
+ 208:	2b00      	cmp	r3, #0
+ 20a:	f003 02c0 	and.w	r2, r3, #192	; 0xc0
+ 20e:	4423      	add	r3, r4
+ 210:	db35      	blt.n	27e <dns_recv+0x27e>
+ 212:	b29e      	uxth	r6, r3
+ 214:	b39c      	cbz	r4, 27e <dns_recv+0x27e>
+ 216:	2ac0      	cmp	r2, #192	; 0xc0
+ 218:	d1e3      	bne.n	1e2 <dns_recv+0x1e2>
+ 21a:	46a3      	mov	fp, r4
+ 21c:	4604      	mov	r4, r0
+ 21e:	465e      	mov	r6, fp
+ 220:	454e      	cmp	r6, r9
+ 222:	f43f aef5 	beq.w	10 <dns_recv+0x10>
+ 226:	f106 0b01 	add.w	fp, r6, #1
+ 22a:	fa1f fb8b 	uxth.w	fp, fp
+ 22e:	45cb      	cmp	fp, r9
+ 230:	f43f aeee 	beq.w	10 <dns_recv+0x10>
+ 234:	465b      	mov	r3, fp
+ 236:	220a      	movs	r2, #10
+ 238:	a909      	add	r1, sp, #36	; 0x24
+ 23a:	4620      	mov	r0, r4
+ 23c:	f7ff fffe 	bl	0 <pbuf_copy_partial>
+ 240:	f64f 73f5 	movw	r3, #65525	; 0xfff5
+ 244:	459b      	cmp	fp, r3
+ 246:	f63f aee3 	bhi.w	10 <dns_recv+0x10>
+ 24a:	280a      	cmp	r0, #10
+ 24c:	f47f aee0 	bne.w	10 <dns_recv+0x10>
+ 250:	f8bd 2026 	ldrh.w	r2, [sp, #38]	; 0x26
+ 254:	f106 030b 	add.w	r3, r6, #11
+ 258:	f5b2 7f80 	cmp.w	r2, #256	; 0x100
+ 25c:	b29b      	uxth	r3, r3
+ 25e:	d010      	beq.n	282 <dns_recv+0x282>
+ 260:	f8bd 602c 	ldrh.w	r6, [sp, #44]	; 0x2c
+ 264:	ba76      	rev16	r6, r6
+ 266:	fa13 f686 	uxtah	r6, r3, r6
+ 26a:	f5b6 3f80 	cmp.w	r6, #65536	; 0x10000
+ 26e:	f6bf aecf 	bge.w	10 <dns_recv+0x10>
+ 272:	f10a 3aff 	add.w	sl, sl, #4294967295	; 0xffffffff
+ 276:	b2b6      	uxth	r6, r6
+ 278:	fa1f fa8a 	uxth.w	sl, sl
+ 27c:	e7a7      	b.n	1ce <dns_recv+0x1ce>
+ 27e:	465c      	mov	r4, fp
+ 280:	e6c6      	b.n	10 <dns_recv+0x10>
+ 282:	f8bd 2024 	ldrh.w	r2, [sp, #36]	; 0x24
+ 286:	f5b2 7f80 	cmp.w	r2, #256	; 0x100
+ 28a:	d1e9      	bne.n	260 <dns_recv+0x260>
+ 28c:	f8bd 202c 	ldrh.w	r2, [sp, #44]	; 0x2c
+ 290:	f5b2 6f80 	cmp.w	r2, #1024	; 0x400
+ 294:	d1e4      	bne.n	260 <dns_recv+0x260>
+ 296:	2204      	movs	r2, #4
+ 298:	a905      	add	r1, sp, #20
+ 29a:	4620      	mov	r0, r4
+ 29c:	f7ff fffe 	bl	0 <pbuf_copy_partial>
+ 2a0:	2804      	cmp	r0, #4
+ 2a2:	f47f aeb5 	bne.w	10 <dns_recv+0x10>
+ 2a6:	4620      	mov	r0, r4
+ 2a8:	f44f 748a 	mov.w	r4, #276	; 0x114
+ 2ac:	9b05      	ldr	r3, [sp, #20]
+ 2ae:	fb05 f404 	mul.w	r4, r5, r4
+ 2b2:	eb08 0604 	add.w	r6, r8, r4
+ 2b6:	6073      	str	r3, [r6, #4]
+ 2b8:	f7ff fffe 	bl	0 <pbuf_free>
+ 2bc:	9b0a      	ldr	r3, [sp, #40]	; 0x28
+ 2be:	4a17      	ldr	r2, [pc, #92]	; (31c <dns_recv+0x31c>)
+ 2c0:	4638      	mov	r0, r7
+ 2c2:	ba1b      	rev	r3, r3
+ 2c4:	9901      	ldr	r1, [sp, #4]
+ 2c6:	4293      	cmp	r3, r2
+ 2c8:	f101 0104 	add.w	r1, r1, #4
+ 2cc:	bf28      	it	cs
+ 2ce:	4613      	movcs	r3, r2
+ 2d0:	4441      	add	r1, r8
+ 2d2:	f848 3004 	str.w	r3, [r8, r4]
+ 2d6:	2303      	movs	r3, #3
+ 2d8:	72b3      	strb	r3, [r6, #10]
+ 2da:	f7ff fffe 	bl	0 <dns_recv>
+ 2de:	f858 3004 	ldr.w	r3, [r8, r4]
+ 2e2:	2b00      	cmp	r3, #0
+ 2e4:	f47f ae97 	bne.w	16 <dns_recv+0x16>
+ 2e8:	7ab3      	ldrb	r3, [r6, #10]
+ 2ea:	2b03      	cmp	r3, #3
+ 2ec:	f47f ae93 	bne.w	16 <dns_recv+0x16>
+ 2f0:	2200      	movs	r2, #0
+ 2f2:	72b2      	strb	r2, [r6, #10]
+ 2f4:	e68f      	b.n	16 <dns_recv+0x16>
+ 2f6:	4620      	mov	r0, r4
+ 2f8:	f7ff fffe 	bl	0 <pbuf_free>
+ 2fc:	2100      	movs	r1, #0
+ 2fe:	4638      	mov	r0, r7
+ 300:	f7ff fffe 	bl	0 <dns_recv>
+ 304:	f44f 738a 	mov.w	r3, #276	; 0x114
+ 308:	2200      	movs	r2, #0
+ 30a:	fb03 8305 	mla	r3, r3, r5, r8
+ 30e:	729a      	strb	r2, [r3, #10]
+ 310:	e681      	b.n	16 <dns_recv+0x16>
+ 312:	465c      	mov	r4, fp
+ 314:	e784      	b.n	220 <dns_recv+0x220>
+ 316:	bf00      	nop
+ 318:	00000000 	.word	0x00000000
+ 31c:	00093a80 	.word	0x00093a80
+ 320:	00000000 	.word	0x00000000
+ 324:	00000001 	.word	0x00000001
+
+Disassembly of section .text.dns_init:
+
+00000000 <dns_init>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text.dns_setserver:
+
+00000000 <dns_setserver>:
+   0:	2801      	cmp	r0, #1
+   2:	d900      	bls.n	6 <dns_setserver+0x6>
+   4:	4770      	bx	lr
+   6:	b121      	cbz	r1, 12 <dns_setserver+0x12>
+   8:	4b05      	ldr	r3, [pc, #20]	; (20 <dns_setserver+0x20>)
+   a:	680a      	ldr	r2, [r1, #0]
+   c:	f843 2020 	str.w	r2, [r3, r0, lsl #2]
+  10:	4770      	bx	lr
+  12:	4a04      	ldr	r2, [pc, #16]	; (24 <dns_setserver+0x24>)
+  14:	4b02      	ldr	r3, [pc, #8]	; (20 <dns_setserver+0x20>)
+  16:	6812      	ldr	r2, [r2, #0]
+  18:	f843 2020 	str.w	r2, [r3, r0, lsl #2]
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.dns_getserver:
+
+00000000 <dns_getserver>:
+   0:	2801      	cmp	r0, #1
+   2:	d901      	bls.n	8 <dns_getserver+0x8>
+   4:	4802      	ldr	r0, [pc, #8]	; (10 <dns_getserver+0x10>)
+   6:	4770      	bx	lr
+   8:	4b02      	ldr	r3, [pc, #8]	; (14 <dns_getserver+0x14>)
+   a:	eb03 0080 	add.w	r0, r3, r0, lsl #2
+   e:	4770      	bx	lr
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.dns_tmr:
+
+00000000 <dns_tmr>:
+   0:	b508      	push	{r3, lr}
+   2:	2000      	movs	r0, #0
+   4:	f7ff fffe 	bl	0 <dns_tmr>
+   8:	2001      	movs	r0, #1
+   a:	f7ff fffe 	bl	0 <dns_tmr>
+   e:	2002      	movs	r0, #2
+  10:	f7ff fffe 	bl	0 <dns_tmr>
+  14:	2003      	movs	r0, #3
+  16:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  1a:	f7ff bffe 	b.w	0 <dns_tmr>
+  1e:	bf00      	nop
+
+Disassembly of section .text.dns_gethostbyname_addrtype:
+
+00000000 <dns_gethostbyname_addrtype>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b083      	sub	sp, #12
+   6:	9300      	str	r3, [sp, #0]
+   8:	2900      	cmp	r1, #0
+   a:	f000 8125 	beq.w	258 <dns_gethostbyname_addrtype+0x258>
+   e:	fab0 f480 	clz	r4, r0
+  12:	4606      	mov	r6, r0
+  14:	0964      	lsrs	r4, r4, #5
+  16:	2800      	cmp	r0, #0
+  18:	f000 811e 	beq.w	258 <dns_gethostbyname_addrtype+0x258>
+  1c:	7803      	ldrb	r3, [r0, #0]
+  1e:	2b00      	cmp	r3, #0
+  20:	f000 811a 	beq.w	258 <dns_gethostbyname_addrtype+0x258>
+  24:	4688      	mov	r8, r1
+  26:	4615      	mov	r5, r2
+  28:	f7ff fffe 	bl	0 <strlen>
+  2c:	1e43      	subs	r3, r0, #1
+  2e:	4681      	mov	r9, r0
+  30:	5cf1      	ldrb	r1, [r6, r3]
+  32:	292e      	cmp	r1, #46	; 0x2e
+  34:	bf08      	it	eq
+  36:	4699      	moveq	r9, r3
+  38:	f1b9 0fff 	cmp.w	r9, #255	; 0xff
+  3c:	f200 810c 	bhi.w	258 <dns_gethostbyname_addrtype+0x258>
+  40:	4641      	mov	r1, r8
+  42:	4630      	mov	r0, r6
+  44:	f7ff fffe 	bl	0 <ip4addr_aton>
+  48:	b118      	cbz	r0, 52 <dns_gethostbyname_addrtype+0x52>
+  4a:	4620      	mov	r0, r4
+  4c:	b003      	add	sp, #12
+  4e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  52:	f8df a264 	ldr.w	sl, [pc, #612]	; 2b8 <dns_gethostbyname_addrtype+0x2b8>
+  56:	4604      	mov	r4, r0
+  58:	4657      	mov	r7, sl
+  5a:	f817 3c06 	ldrb.w	r3, [r7, #-6]
+  5e:	2b03      	cmp	r3, #3
+  60:	d045      	beq.n	ee <dns_gethostbyname_addrtype+0xee>
+  62:	3401      	adds	r4, #1
+  64:	f507 778a 	add.w	r7, r7, #276	; 0x114
+  68:	2c04      	cmp	r4, #4
+  6a:	d1f6      	bne.n	5a <dns_gethostbyname_addrtype+0x5a>
+  6c:	498a      	ldr	r1, [pc, #552]	; (298 <dns_gethostbyname_addrtype+0x298>)
+  6e:	4630      	mov	r0, r6
+  70:	f7ff fffe 	bl	0 <strstr>
+  74:	f1a9 0306 	sub.w	r3, r9, #6
+  78:	4433      	add	r3, r6
+  7a:	4298      	cmp	r0, r3
+  7c:	d068      	beq.n	150 <dns_gethostbyname_addrtype+0x150>
+  7e:	4b87      	ldr	r3, [pc, #540]	; (29c <dns_gethostbyname_addrtype+0x29c>)
+  80:	681b      	ldr	r3, [r3, #0]
+  82:	2b00      	cmp	r3, #0
+  84:	f000 8104 	beq.w	290 <dns_gethostbyname_addrtype+0x290>
+  88:	2300      	movs	r3, #0
+  8a:	9301      	str	r3, [sp, #4]
+  8c:	2400      	movs	r4, #0
+  8e:	4f84      	ldr	r7, [pc, #528]	; (2a0 <dns_gethostbyname_addrtype+0x2a0>)
+  90:	f81a 3c06 	ldrb.w	r3, [sl, #-6]
+  94:	fa5f f884 	uxtb.w	r8, r4
+  98:	2b02      	cmp	r3, #2
+  9a:	d044      	beq.n	126 <dns_gethostbyname_addrtype+0x126>
+  9c:	3401      	adds	r4, #1
+  9e:	f50a 7a8a 	add.w	sl, sl, #276	; 0x114
+  a2:	2c04      	cmp	r4, #4
+  a4:	d1f4      	bne.n	90 <dns_gethostbyname_addrtype+0x90>
+  a6:	4b7f      	ldr	r3, [pc, #508]	; (2a4 <dns_gethostbyname_addrtype+0x2a4>)
+  a8:	46a4      	mov	ip, r4
+  aa:	4a7f      	ldr	r2, [pc, #508]	; (2a8 <dns_gethostbyname_addrtype+0x2a8>)
+  ac:	2400      	movs	r4, #0
+  ae:	7818      	ldrb	r0, [r3, #0]
+  b0:	4627      	mov	r7, r4
+  b2:	4613      	mov	r3, r2
+  b4:	7a99      	ldrb	r1, [r3, #10]
+  b6:	fa5f f884 	uxtb.w	r8, r4
+  ba:	2900      	cmp	r1, #0
+  bc:	d04b      	beq.n	156 <dns_gethostbyname_addrtype+0x156>
+  be:	2903      	cmp	r1, #3
+  c0:	f104 0401 	add.w	r4, r4, #1
+  c4:	d027      	beq.n	116 <dns_gethostbyname_addrtype+0x116>
+  c6:	2c04      	cmp	r4, #4
+  c8:	f503 738a 	add.w	r3, r3, #276	; 0x114
+  cc:	d1f2      	bne.n	b4 <dns_gethostbyname_addrtype+0xb4>
+  ce:	f1bc 0f04 	cmp.w	ip, #4
+  d2:	d007      	beq.n	e4 <dns_gethostbyname_addrtype+0xe4>
+  d4:	f44f 748a 	mov.w	r4, #276	; 0x114
+  d8:	fb04 240c 	mla	r4, r4, ip, r2
+  dc:	7aa3      	ldrb	r3, [r4, #10]
+  de:	2b03      	cmp	r3, #3
+  e0:	f000 80b8 	beq.w	254 <dns_gethostbyname_addrtype+0x254>
+  e4:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  e8:	b003      	add	sp, #12
+  ea:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ee:	4639      	mov	r1, r7
+  f0:	464a      	mov	r2, r9
+  f2:	4630      	mov	r0, r6
+  f4:	f7ff fffe 	bl	0 <lwip_strnicmp>
+  f8:	2800      	cmp	r0, #0
+  fa:	d1b2      	bne.n	62 <dns_gethostbyname_addrtype+0x62>
+  fc:	f817 0009 	ldrb.w	r0, [r7, r9]
+ 100:	2800      	cmp	r0, #0
+ 102:	d1ae      	bne.n	62 <dns_gethostbyname_addrtype+0x62>
+ 104:	4b68      	ldr	r3, [pc, #416]	; (2a8 <dns_gethostbyname_addrtype+0x2a8>)
+ 106:	f44f 728a 	mov.w	r2, #276	; 0x114
+ 10a:	fb02 3304 	mla	r3, r2, r4, r3
+ 10e:	685b      	ldr	r3, [r3, #4]
+ 110:	f8c8 3000 	str.w	r3, [r8]
+ 114:	e79a      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 116:	7b99      	ldrb	r1, [r3, #14]
+ 118:	1a41      	subs	r1, r0, r1
+ 11a:	b2c9      	uxtb	r1, r1
+ 11c:	42b9      	cmp	r1, r7
+ 11e:	d9d2      	bls.n	c6 <dns_gethostbyname_addrtype+0xc6>
+ 120:	46c4      	mov	ip, r8
+ 122:	460f      	mov	r7, r1
+ 124:	e7cf      	b.n	c6 <dns_gethostbyname_addrtype+0xc6>
+ 126:	464a      	mov	r2, r9
+ 128:	4651      	mov	r1, sl
+ 12a:	4630      	mov	r0, r6
+ 12c:	f7ff fffe 	bl	0 <lwip_strnicmp>
+ 130:	2800      	cmp	r0, #0
+ 132:	d1b3      	bne.n	9c <dns_gethostbyname_addrtype+0x9c>
+ 134:	f81a 3009 	ldrb.w	r3, [sl, r9]
+ 138:	2b00      	cmp	r3, #0
+ 13a:	d1af      	bne.n	9c <dns_gethostbyname_addrtype+0x9c>
+ 13c:	4a58      	ldr	r2, [pc, #352]	; (2a0 <dns_gethostbyname_addrtype+0x2a0>)
+ 13e:	6811      	ldr	r1, [r2, #0]
+ 140:	320c      	adds	r2, #12
+ 142:	2900      	cmp	r1, #0
+ 144:	f000 8097 	beq.w	276 <dns_gethostbyname_addrtype+0x276>
+ 148:	3301      	adds	r3, #1
+ 14a:	2b04      	cmp	r3, #4
+ 14c:	d1f7      	bne.n	13e <dns_gethostbyname_addrtype+0x13e>
+ 14e:	e7a5      	b.n	9c <dns_gethostbyname_addrtype+0x9c>
+ 150:	2301      	movs	r3, #1
+ 152:	9301      	str	r3, [sp, #4]
+ 154:	e79a      	b.n	8c <dns_gethostbyname_addrtype+0x8c>
+ 156:	f44f 738a 	mov.w	r3, #276	; 0x114
+ 15a:	fb03 2404 	mla	r4, r3, r4, r2
+ 15e:	f8df a140 	ldr.w	sl, [pc, #320]	; 2a0 <dns_gethostbyname_addrtype+0x2a0>
+ 162:	2700      	movs	r7, #0
+ 164:	4653      	mov	r3, sl
+ 166:	681a      	ldr	r2, [r3, #0]
+ 168:	330c      	adds	r3, #12
+ 16a:	b12a      	cbz	r2, 178 <dns_gethostbyname_addrtype+0x178>
+ 16c:	3701      	adds	r7, #1
+ 16e:	2f04      	cmp	r7, #4
+ 170:	d1f9      	bne.n	166 <dns_gethostbyname_addrtype+0x166>
+ 172:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 176:	e7b7      	b.n	e8 <dns_gethostbyname_addrtype+0xe8>
+ 178:	eb07 0347 	add.w	r3, r7, r7, lsl #1
+ 17c:	4693      	mov	fp, r2
+ 17e:	9a00      	ldr	r2, [sp, #0]
+ 180:	4631      	mov	r1, r6
+ 182:	f84a 5023 	str.w	r5, [sl, r3, lsl #2]
+ 186:	eb0a 0383 	add.w	r3, sl, r3, lsl #2
+ 18a:	73a0      	strb	r0, [r4, #14]
+ 18c:	f104 0010 	add.w	r0, r4, #16
+ 190:	605a      	str	r2, [r3, #4]
+ 192:	464a      	mov	r2, r9
+ 194:	f883 8008 	strb.w	r8, [r3, #8]
+ 198:	2301      	movs	r3, #1
+ 19a:	465d      	mov	r5, fp
+ 19c:	72a3      	strb	r3, [r4, #10]
+ 19e:	f7ff fffe 	bl	0 <memcpy>
+ 1a2:	eb04 0209 	add.w	r2, r4, r9
+ 1a6:	007b      	lsls	r3, r7, #1
+ 1a8:	f882 b010 	strb.w	fp, [r2, #16]
+ 1ac:	9300      	str	r3, [sp, #0]
+ 1ae:	4b3f      	ldr	r3, [pc, #252]	; (2ac <dns_gethostbyname_addrtype+0x2ac>)
+ 1b0:	f853 2b04 	ldr.w	r2, [r3], #4
+ 1b4:	b2ee      	uxtb	r6, r5
+ 1b6:	b302      	cbz	r2, 1fa <dns_gethostbyname_addrtype+0x1fa>
+ 1b8:	3501      	adds	r5, #1
+ 1ba:	2d04      	cmp	r5, #4
+ 1bc:	d1f8      	bne.n	1b0 <dns_gethostbyname_addrtype+0x1b0>
+ 1be:	483c      	ldr	r0, [pc, #240]	; (2b0 <dns_gethostbyname_addrtype+0x2b0>)
+ 1c0:	2304      	movs	r3, #4
+ 1c2:	7806      	ldrb	r6, [r0, #0]
+ 1c4:	3601      	adds	r6, #1
+ 1c6:	b2f6      	uxtb	r6, r6
+ 1c8:	2e03      	cmp	r6, #3
+ 1ca:	4632      	mov	r2, r6
+ 1cc:	d901      	bls.n	1d2 <dns_gethostbyname_addrtype+0x1d2>
+ 1ce:	2600      	movs	r6, #0
+ 1d0:	4632      	mov	r2, r6
+ 1d2:	4d36      	ldr	r5, [pc, #216]	; (2ac <dns_gethostbyname_addrtype+0x2ac>)
+ 1d4:	1c71      	adds	r1, r6, #1
+ 1d6:	3b01      	subs	r3, #1
+ 1d8:	f855 2022 	ldr.w	r2, [r5, r2, lsl #2]
+ 1dc:	bb5a      	cbnz	r2, 236 <dns_gethostbyname_addrtype+0x236>
+ 1de:	f013 03ff 	ands.w	r3, r3, #255	; 0xff
+ 1e2:	b2ce      	uxtb	r6, r1
+ 1e4:	d1f0      	bne.n	1c8 <dns_gethostbyname_addrtype+0x1c8>
+ 1e6:	9a00      	ldr	r2, [sp, #0]
+ 1e8:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 1ec:	72a3      	strb	r3, [r4, #10]
+ 1ee:	443a      	add	r2, r7
+ 1f0:	f84a 3022 	str.w	r3, [sl, r2, lsl #2]
+ 1f4:	2304      	movs	r3, #4
+ 1f6:	73e3      	strb	r3, [r4, #15]
+ 1f8:	e728      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 1fa:	202e      	movs	r0, #46	; 0x2e
+ 1fc:	f7ff fffe 	bl	0 <udp_new_ip_type>
+ 200:	4681      	mov	r9, r0
+ 202:	b3a0      	cbz	r0, 26e <dns_gethostbyname_addrtype+0x26e>
+ 204:	f8df b0b4 	ldr.w	fp, [pc, #180]	; 2bc <dns_gethostbyname_addrtype+0x2bc>
+ 208:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+ 20c:	b282      	uxth	r2, r0
+ 20e:	f5b2 6f80 	cmp.w	r2, #1024	; 0x400
+ 212:	d3f9      	bcc.n	208 <dns_gethostbyname_addrtype+0x208>
+ 214:	4659      	mov	r1, fp
+ 216:	4648      	mov	r0, r9
+ 218:	f7ff fffe 	bl	0 <udp_bind>
+ 21c:	f110 0f08 	cmn.w	r0, #8
+ 220:	d0f2      	beq.n	208 <dns_gethostbyname_addrtype+0x208>
+ 222:	b9e0      	cbnz	r0, 25e <dns_gethostbyname_addrtype+0x25e>
+ 224:	4602      	mov	r2, r0
+ 226:	4923      	ldr	r1, [pc, #140]	; (2b4 <dns_gethostbyname_addrtype+0x2b4>)
+ 228:	4648      	mov	r0, r9
+ 22a:	f7ff fffe 	bl	0 <udp_recv>
+ 22e:	4b1f      	ldr	r3, [pc, #124]	; (2ac <dns_gethostbyname_addrtype+0x2ac>)
+ 230:	481f      	ldr	r0, [pc, #124]	; (2b0 <dns_gethostbyname_addrtype+0x2b0>)
+ 232:	f843 9025 	str.w	r9, [r3, r5, lsl #2]
+ 236:	4a1b      	ldr	r2, [pc, #108]	; (2a4 <dns_gethostbyname_addrtype+0x2a4>)
+ 238:	9901      	ldr	r1, [sp, #4]
+ 23a:	7813      	ldrb	r3, [r2, #0]
+ 23c:	7006      	strb	r6, [r0, #0]
+ 23e:	4640      	mov	r0, r8
+ 240:	3301      	adds	r3, #1
+ 242:	73e6      	strb	r6, [r4, #15]
+ 244:	f884 1110 	strb.w	r1, [r4, #272]	; 0x110
+ 248:	7013      	strb	r3, [r2, #0]
+ 24a:	f7ff fffe 	bl	0 <dns_gethostbyname_addrtype>
+ 24e:	f06f 0004 	mvn.w	r0, #4
+ 252:	e6fb      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 254:	46e0      	mov	r8, ip
+ 256:	e782      	b.n	15e <dns_gethostbyname_addrtype+0x15e>
+ 258:	f06f 000f 	mvn.w	r0, #15
+ 25c:	e6f6      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 25e:	4648      	mov	r0, r9
+ 260:	f7ff fffe 	bl	0 <udp_remove>
+ 264:	2300      	movs	r3, #0
+ 266:	4a11      	ldr	r2, [pc, #68]	; (2ac <dns_gethostbyname_addrtype+0x2ac>)
+ 268:	f842 3025 	str.w	r3, [r2, r5, lsl #2]
+ 26c:	e7a7      	b.n	1be <dns_gethostbyname_addrtype+0x1be>
+ 26e:	4b0f      	ldr	r3, [pc, #60]	; (2ac <dns_gethostbyname_addrtype+0x2ac>)
+ 270:	f843 9025 	str.w	r9, [r3, r5, lsl #2]
+ 274:	e7a3      	b.n	1be <dns_gethostbyname_addrtype+0x1be>
+ 276:	eb03 0343 	add.w	r3, r3, r3, lsl #1
+ 27a:	f06f 0004 	mvn.w	r0, #4
+ 27e:	f847 5023 	str.w	r5, [r7, r3, lsl #2]
+ 282:	eb07 0783 	add.w	r7, r7, r3, lsl #2
+ 286:	9b00      	ldr	r3, [sp, #0]
+ 288:	f887 8008 	strb.w	r8, [r7, #8]
+ 28c:	607b      	str	r3, [r7, #4]
+ 28e:	e6dd      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 290:	f06f 0005 	mvn.w	r0, #5
+ 294:	e6da      	b.n	4c <dns_gethostbyname_addrtype+0x4c>
+ 296:	bf00      	nop
+ 298:	00000000 	.word	0x00000000
+ 29c:	00000000 	.word	0x00000000
+ 2a0:	00000000 	.word	0x00000000
+ 2a4:	00000000 	.word	0x00000000
+ 2a8:	00000000 	.word	0x00000000
+ 2ac:	00000000 	.word	0x00000000
+ 2b0:	00000000 	.word	0x00000000
+ 2b4:	00000000 	.word	0x00000000
+ 2b8:	00000010 	.word	0x00000010
+ 2bc:	00000000 	.word	0x00000000
+
+Disassembly of section .text.dns_gethostbyname:
+
+00000000 <dns_gethostbyname>:
+   0:	b510      	push	{r4, lr}
+   2:	2400      	movs	r4, #0
+   4:	b082      	sub	sp, #8
+   6:	9400      	str	r4, [sp, #0]
+   8:	f7ff fffe 	bl	0 <dns_gethostbyname>
+   c:	b002      	add	sp, #8
+   e:	bd10      	pop	{r4, pc}

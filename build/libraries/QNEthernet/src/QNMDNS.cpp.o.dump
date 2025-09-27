@@ -1,0 +1,959 @@
+
+build/./libraries/QNEthernet/src/QNMDNS.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 QNMDNS.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4	00000000 .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4
+00000000 l    d  .text._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv	00000000 .text._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv
+00000000 l     F .text._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv	000000b8 _ZN9qindesign7networkL7srv_txtEP12mdns_servicePv
+00000000 l    d  .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	00000000 .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev
+00000000 l    d  .flashmem	00000000 .flashmem
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass5beginEPKc	00000000 .text._ZN9qindesign7network9MDNSClass5beginEPKc
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass3endEv	00000000 .text._ZN9qindesign7network9MDNSClass3endEv
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass7restartEv	00000000 .text._ZN9qindesign7network9MDNSClass7restartEv
+00000000 l    d  .rodata._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE.str1.4	00000000 .rodata._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE.str1.4
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE	00000000 .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t	00000000 .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t	00000000 .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE	00000000 .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t	00000000 .text._ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0	00000000 .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0
+00000000 l     F .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0	0000008c _ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t	00000000 .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t
+00000000 l    d  .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t	00000000 .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t
+00000000 l    d  .text._ZNK9qindesign7network9MDNSClass8announceEv	00000000 .text._ZNK9qindesign7network9MDNSClass8announceEv
+00000000 l    d  .text.startup._GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE	00000000 .text.startup._GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+00000000 l     F .text.startup._GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE	0000004c _GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE	00000000 .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+00000000 l    d  .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE2pTE	00000000 .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE2pTE
+00000000 l    d  .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE3bufE	00000000 .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE3bufE
+00000000 l    d  .bss._ZN9qindesign7network4MDNSE	00000000 .bss._ZN9qindesign7network4MDNSE
+00000000 l    d  .bss._ZN9qindesign7networkL10netifAddedE	00000000 .bss._ZN9qindesign7networkL10netifAddedE
+00000000 l     O .bss._ZN9qindesign7networkL10netifAddedE	00000001 _ZN9qindesign7networkL10netifAddedE
+00000000 l    d  .bss._ZN9qindesign7networkL11initializedE	00000000 .bss._ZN9qindesign7networkL11initializedE
+00000000 l     O .bss._ZN9qindesign7networkL11initializedE	00000001 _ZN9qindesign7networkL11initializedE
+00000000 l    d  .bss._ZN9qindesign7networkL8MDNSInitE	00000000 .bss._ZN9qindesign7networkL8MDNSInitE
+00000000 l     O .bss._ZN9qindesign7networkL8MDNSInitE	00000001 _ZN9qindesign7networkL8MDNSInitE
+00000000 l       .group	00000000 _ZN10StaticInitIN9qindesign7network9MDNSClassEED5Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000         *UND*	00000000 mdns_resp_add_service_txtitem
+00000000         *UND*	00000000 _ZN6StringD1Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000         *UND*	00000000 err_to_errno
+00000000         *UND*	00000000 __errno
+00000000         *UND*	00000000 _ZN6String15zeroterminationE
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	0000009c _ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev
+00000000         *UND*	00000000 mdns_resp_remove_netif
+00000000         *UND*	00000000 _ZN6StringaSEPKc
+00000000  w    F .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev	0000009c _ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev
+00000000 g     F .flashmem	00000042 _ZN9qindesign7network9MDNSClassC2Ev
+00000000         *UND*	00000000 _ZN6StringC1EPKc
+00000000 g     F .flashmem	00000042 _ZN9qindesign7network9MDNSClassC1Ev
+00000044 g     F .flashmem	00000070 _ZN9qindesign7network9MDNSClassD2Ev
+00000044 g     F .flashmem	00000070 _ZN9qindesign7network9MDNSClassD1Ev
+00000000 g     F .text._ZN9qindesign7network9MDNSClass5beginEPKc	000000d0 _ZN9qindesign7network9MDNSClass5beginEPKc
+00000000         *UND*	00000000 _ZNK6String6equalsEPKc
+00000000         *UND*	00000000 mdns_resp_add_netif
+00000000         *UND*	00000000 mdns_resp_init
+00000000         *UND*	00000000 netif_default
+00000000 g     F .text._ZN9qindesign7network9MDNSClass3endEv	00000040 _ZN9qindesign7network9MDNSClass3endEv
+00000000 g     F .text._ZN9qindesign7network9MDNSClass7restartEv	00000014 _ZN9qindesign7network9MDNSClass7restartEv
+00000000         *UND*	00000000 mdns_resp_restart
+00000000 g     F .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE	00000144 _ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE
+00000000         *UND*	00000000 _ZNK6String16equalsIgnoreCaseERKS_
+00000000         *UND*	00000000 mdns_resp_add_service
+00000000         *UND*	00000000 mdns_resp_del_service
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 _ZN6StringaSERKS_
+00000000 g     F .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t	00000024 _ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t
+00000000 g     F .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t	00000016 _ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t
+00000000 g     F .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE	00000028 _ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE
+00000000 g     F .text._ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t	000000a6 _ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t
+00000000         *UND*	00000000 _ZNK6String6equalsERKS_
+00000000 g     F .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t	00000030 _ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t
+00000000 g     F .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t	00000020 _ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t
+00000000 g     F .text._ZNK9qindesign7network9MDNSClass8announceEv	00000020 _ZNK9qindesign7network9MDNSClass8announceEv
+00000000         *UND*	00000000 mdns_resp_announce
+00000000         *UND*	00000000 __aeabi_atexit
+00000000         *UND*	00000000 .hidden __dso_handle
+00000000 g     O .bss._ZN9qindesign7network4MDNSE	00000004 _ZN9qindesign7network4MDNSE
+00000000 g     O .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE2pTE	00000004 _ZN10StaticInitIN9qindesign7network9MDNSClassEE2pTE
+00000000 g     O .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE3bufE	000000a0 _ZN10StaticInitIN9qindesign7network9MDNSClassEE3bufE
+00000000 g     O .bss._ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE	00000004 _ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+
+
+Contents of section .group:
+ 0000 01000000 08000000 09000000           ............    
+Contents of section .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4:
+ 0000 00                                   .               
+Contents of section .text._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv:
+ 0000 f0b585b0 00293cd0 054601a8 8847dde9  .....)<..F...G..
+ 0010 0146b442 40d0264f 21682846 a2680c34  .F.B@.&O!h(F.h.4
+ 0020 002908bf 39463f2a 28bf3f22 d2b2fff7  .)..9F?*(.?"....
+ 0030 feffa0b9 a642efd1 dde90145 ac4206d0  .....B.....E.B..
+ 0040 20460c34 fff7feff a542f9d1 019d25b1   F.4.....B....%.
+ 0050 03992846 491bfff7 feff05b0 f0bdfff7  ..(FI...........
+ 0060 feff0446 fff7feff 0460dde9 0145ac42  ...F.....`...E.B
+ 0070 edd02046 0c34fff7 feffa542 f9d1019d  .. F.4.....B....
+ 0080 e5e70a46 0b49fff7 fefffff7 feff0446  ...F.I.........F
+ 0090 fff7feff 0460e0e7 00220649 2846fff7  .....`...".I(F..
+ 00a0 fefffff7 feff0446 fff7feff 0460dce7  .......F.....`..
+ 00b0 00000000 00000000                    ........        
+Contents of section .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev:
+ 0000 2de9f843 214b0546 1c68013c 1c6014b1  -..C!K.F.h.<.`..
+ 0010 2846bde8 f883dff8 80801d4f 98f80030  (F.........O...0
+ 0020 3e68d3b9 06f10408 06f17004 203e04f1  >h........p. >..
+ 0030 1c00fff7 feff04f1 1000fff7 feff201d  .............. .
+ 0040 303cfff7 feffb442 f1d14046 fff7feff  0<.....B..@F....
+ 0050 00232846 3b60bde8 f8833068 fff7feff  .#(F;`....0h....
+ 0060 88f80040 b0468146 0a4948f8 044b4046  ...@.F.F.IH..K@F
+ 0070 fff7feff b9f1000f d6d04846 fff7feff  ..........HF....
+ 0080 0446fff7 feff0460 cee700bf 00000000  .F.....`........
+ 0090 00000000 00000000 00000000           ............    
+Contents of section .flashmem:
+ 0000 f8b50546 002605f1 140405f1 a4073146  ...F.&........1F
+ 0010 40f8046b fff7feff 04f8046c 00212046  @..k.......l.! F
+ 0020 fff7feff 002104f1 0c00fff7 feff04f1  .....!..........
+ 0030 18003034 0021fff7 feffbc42 ecd12846  ..04.!.....B..(F
+ 0040 f8bd00bf f8b5194c 05462378 bbb9071d  .......L.F#x....
+ 0050 05f17004 a5f12006 04f11c00 fff7feff  ..p... .........
+ 0060 04f11000 fff7feff 201d303c fff7feff  ........ .0<....
+ 0070 b442f1d1 3846fff7 feff2846 f8bd0068  .B..8F....(F...h
+ 0080 2f46fff7 feff0023 06460949 47f8043b  /F.....#.F.IG..;
+ 0090 38462370 fff7feff 002ed9d0 3046fff7  8F#p........0F..
+ 00a0 feff0446 fff7feff 0460d1e7 00000000  ...F.....`......
+ 00b0 00000000                             ....            
+Contents of section .text._ZN9qindesign7network9MDNSClass5beginEPKc:
+ 0000 2de9f047 dff8c480 d8f80040 002c4bd0  -..G.......@.,K.
+ 0010 2b4c0546 0e462378 0bb3002e 49d0294f  +L.F.F#x....I.)O
+ 0020 3c784cb1 05f1040a 31465046 fff7feff  <xL.....1FPF....
+ 0030 814688b9 3b780bbb 3146d8f8 0000fff7  .F..;x..1F......
+ 0040 feff88b9 d8f80030 28460124 314640f8  .......0(F.$1F@.
+ 0050 043b3c70 fff7feff 2046bde8 f087fff7  .;<p.... F......
+ 0060 feff0123 2370d8e7 fff7feff 00240546  ...##p.......$.F
+ 0070 fff7feff 05602046 bde8f087 2868fff7  .....` F....(h..
+ 0080 feff0446 10495046 c5f80090 87f80090  ...F.IPF........
+ 0090 fff7feff 002ccfd0 2046fff7 feff0446  .....,.. F.....F
+ 00a0 fff7feff 0460c7e7 fff7feff 80230360  .....`.......#.`
+ 00b0 d2e7fff7 feff1623 34460360 cce700bf  .......#4F.`....
+ 00c0 00000000 00000000 00000000 00000000  ................
+Contents of section .text._ZN9qindesign7network9MDNSClass3endEv:
+ 0000 70b50d4d 2b7803b9 70bd0446 0068fff7  p..M+x..p..F.h..
+ 0010 feff0023 06460949 44f8043b 20462b70  ...#.F.ID..; F+p
+ 0020 fff7feff 002eefd0 3046fff7 feff0446  ........0F.....F
+ 0030 fff7feff 046070bd 00000000 00000000  .....`p.........
+Contents of section .text._ZN9qindesign7network9MDNSClass7restartEv:
+ 0000 034b1b78 03b97047 0068fff7 febf00bf  .K.x..pG.h......
+ 0010 00000000                             ....            
+Contents of section .rodata._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE.str1.4:
+ 0000 5f746370 00                          _tcp.           
+Contents of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE:
+ 0000 2de9f04f 1d464c4b 95b01f78 bdf878a0  -..O.FLK...x..x.
+ 0010 002f7dd0 d0f800b0 89460646 294608a8  ./}......F.F)F..
+ 0020 9046fff7 feff4549 05a8fff7 feff05a9  .F....EI........
+ 0030 08a8fff7 feff0446 05a8fff7 feff08a8  .......F........
+ 0040 fff7feff 1f9a231e 49460292 58463c4a  ......#.IF..XF<J
+ 0050 18bf0123 cdf800a0 01924246 fff7feff  ...#......BF....
+ 0060 0446c1b2 02290dd9 002859db 30680027  .F...)...(Y.0h.'
+ 0070 fff7feff fff7feff 69230360 384615b0  ........i#.`8F..
+ 0080 bde8f08f 302208a8 0021fff7 feff0123  ....0"...!.....#
+ 0090 494609a8 8df82030 fff7feff 41460ca8  IF.... 0....AF..
+ 00a0 fff7feff 294625b2 0fa8fff7 feff1f9b  ....)F%.........
+ 00b0 05eb4505 09a904eb 44041393 2d019df8  ..E.....D...-...
+ 00c0 203006eb 0414adf8 48a005f1 14002374   0......H.....#t
+ 00d0 3044fff7 feff05f1 20002c35 0ca93044  0D...... .,5..0D
+ 00e0 fff7feff 0fa97019 fff7feff bdf84830  ......p.......H0
+ 00f0 0fa82387 139be363 fff7feff 0ca8fff7  ..#....c........
+ 0100 feff09a8 fff7feff 384615b0 bde8f08f  ........8F......
+ 0110 fff7feff 80230360 384615b0 bde8f08f  .....#.`8F......
+ 0120 fff7feff 00270446 fff7feff 04603846  .....'.F.....`8F
+ 0130 15b0bde8 f08f00bf 00000000 00000000  ................
+ 0140 00000000                             ....            
+Contents of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t:
+ 0000 10b54468 82b04cb1 00931346 0a462146  ..Dh..L....F.F!F
+ 0010 00240194 fff7feff 02b010bd 004cf3e7  .$...........L..
+ 0020 00000000                             ....            
+Contents of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t:
+ 0000 10b582b0 bdf81040 00940024 0194fff7  .......@...$....
+ 0010 feff02b0 10bd00bf                    ........        
+Contents of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE:
+ 0000 30b54568 83b01c46 1346069a 3db10192  0.Eh...F.F..=...
+ 0010 0a462946 0094fff7 feff03b0 30bd014d  .F)F........0..M
+ 0020 f5e700bf 00000000                    ........        
+Contents of section .text._ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t:
+ 0000 2de9f041 8cb00f46 16460021 302200f1  -..A...F.F.!0"..
+ 0010 2c046846 1d46bdf8 4880fff7 feff0123  ,.hF.F..H......#
+ 0020 394601a8 8df80030 fff7feff 314604a8  9F.....0....1F..
+ 0030 fff7feff 29460025 07a8fff7 feffadf8  ....)F.%........
+ 0040 288014f8 1c3c01a9 a4f11800 2bb19df8  (....<......+...
+ 0050 003013b1 fff7feff 90b90135 3034032d  .0.........504.-
+ 0060 efd14ff0 ff3507a8 fff7feff 04a8fff7  ..O..5..........
+ 0070 feff01a8 fff7feff 28460cb0 bde8f081  ........(F......
+ 0080 04a9a4f1 0c00fff7 feff0028 e5d02046  ...........(.. F
+ 0090 07a9fff7 feff0028 dfd0a289 bdf82830  .......(......(0
+ 00a0 9a42dad1 dfe700bf                    .B......        
+Contents of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0:
+ 0000 2de9f041 82b00546 bdf82040 0094fff7  -..A...F.. @....
+ 0010 feff041e 34db022c 08dde1b2 2868fff7  ....4..,....(h..
+ 0020 feff10bb 012002b0 bde8f081 04eb4406  ..... ........D.
+ 0030 4ff00008 14493701 05eb0616 07f12000  O....I7....... .
+ 0040 86f81080 2844fff7 feff07f1 2c000e49  ....(D......,..I
+ 0050 2844fff7 feff2868 e1b2a6f8 3880c6f8  (D....(h....8...
+ 0060 3c80fff7 feff0028 dcd0fff7 feff0446  <......(.......F
+ 0070 fff7feff 03460020 1c6002b0 bde8f081  .....F. .`......
+ 0080 002002b0 bde8f081 00000000           . ..........    
+Contents of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t:
+ 0000 70b54668 82b01d46 66b1074b 1c7834b1  p.Fh...Ff..K.x4.
+ 0010 13460095 0a463146 fff7feff 04462046  .F...F1F.....F F
+ 0020 02b070bd 014ef0e7 00000000 00000000  ..p..N..........
+Contents of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t:
+ 0000 30b4064c bdf80850 247814b9 204630bc  0..L...P$x.. F0.
+ 0010 70470295 30bcfff7 febf00bf 00000000  pG..0...........
+Contents of section .text._ZNK9qindesign7network9MDNSClass8announceEv:
+ 0000 08b5064b 1b7823b1 0068bde8 0840fff7  ...K.x#..h...@..
+ 0010 febffff7 feff8023 036008bd 00000000  .......#.`......
+Contents of section .text.startup._GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE:
+ 0000 0b4a38b5 1368591c 11604bb1 094c0a4a  .J8..hY..`K..L.J
+ 0010 0a490b48 fff7feff 0a4b2268 1a6038bd  .I.H.....K"h.`8.
+ 0020 094d044c 2846fff7 feff2560 efe700bf  .M.L(F....%`....
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000           ............    
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv:
+
+00000000 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	b085      	sub	sp, #20
+   4:	2900      	cmp	r1, #0
+   6:	d03c      	beq.n	82 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x82>
+   8:	4605      	mov	r5, r0
+   a:	a801      	add	r0, sp, #4
+   c:	4788      	blx	r1
+   e:	e9dd 4601 	ldrd	r4, r6, [sp, #4]
+  12:	42b4      	cmp	r4, r6
+  14:	d040      	beq.n	98 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x98>
+  16:	4f26      	ldr	r7, [pc, #152]	; (b0 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0xb0>)
+  18:	6821      	ldr	r1, [r4, #0]
+  1a:	4628      	mov	r0, r5
+  1c:	68a2      	ldr	r2, [r4, #8]
+  1e:	340c      	adds	r4, #12
+  20:	2900      	cmp	r1, #0
+  22:	bf08      	it	eq
+  24:	4639      	moveq	r1, r7
+  26:	2a3f      	cmp	r2, #63	; 0x3f
+  28:	bf28      	it	cs
+  2a:	223f      	movcs	r2, #63	; 0x3f
+  2c:	b2d2      	uxtb	r2, r2
+  2e:	f7ff fffe 	bl	0 <mdns_resp_add_service_txtitem>
+  32:	b9a0      	cbnz	r0, 5e <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x5e>
+  34:	42a6      	cmp	r6, r4
+  36:	d1ef      	bne.n	18 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x18>
+  38:	e9dd 4501 	ldrd	r4, r5, [sp, #4]
+  3c:	42ac      	cmp	r4, r5
+  3e:	d006      	beq.n	4e <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x4e>
+  40:	4620      	mov	r0, r4
+  42:	340c      	adds	r4, #12
+  44:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  48:	42a5      	cmp	r5, r4
+  4a:	d1f9      	bne.n	40 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x40>
+  4c:	9d01      	ldr	r5, [sp, #4]
+  4e:	b125      	cbz	r5, 5a <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x5a>
+  50:	9903      	ldr	r1, [sp, #12]
+  52:	4628      	mov	r0, r5
+  54:	1b49      	subs	r1, r1, r5
+  56:	f7ff fffe 	bl	0 <_ZdlPvj>
+  5a:	b005      	add	sp, #20
+  5c:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  5e:	f7ff fffe 	bl	0 <err_to_errno>
+  62:	4604      	mov	r4, r0
+  64:	f7ff fffe 	bl	0 <__errno>
+  68:	6004      	str	r4, [r0, #0]
+  6a:	e9dd 4501 	ldrd	r4, r5, [sp, #4]
+  6e:	42ac      	cmp	r4, r5
+  70:	d0ed      	beq.n	4e <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x4e>
+  72:	4620      	mov	r0, r4
+  74:	340c      	adds	r4, #12
+  76:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  7a:	42a5      	cmp	r5, r4
+  7c:	d1f9      	bne.n	72 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x72>
+  7e:	9d01      	ldr	r5, [sp, #4]
+  80:	e7e5      	b.n	4e <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x4e>
+  82:	460a      	mov	r2, r1
+  84:	490b      	ldr	r1, [pc, #44]	; (b4 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0xb4>)
+  86:	f7ff fffe 	bl	0 <mdns_resp_add_service_txtitem>
+  8a:	f7ff fffe 	bl	0 <err_to_errno>
+  8e:	4604      	mov	r4, r0
+  90:	f7ff fffe 	bl	0 <__errno>
+  94:	6004      	str	r4, [r0, #0]
+  96:	e7e0      	b.n	5a <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x5a>
+  98:	2200      	movs	r2, #0
+  9a:	4906      	ldr	r1, [pc, #24]	; (b4 <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0xb4>)
+  9c:	4628      	mov	r0, r5
+  9e:	f7ff fffe 	bl	0 <mdns_resp_add_service_txtitem>
+  a2:	f7ff fffe 	bl	0 <err_to_errno>
+  a6:	4604      	mov	r4, r0
+  a8:	f7ff fffe 	bl	0 <__errno>
+  ac:	6004      	str	r4, [r0, #0]
+  ae:	e7dc      	b.n	6a <_ZN9qindesign7networkL7srv_txtEP12mdns_servicePv+0x6a>
+  b0:	00000000 	.word	0x00000000
+  b4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN10StaticInitIN9qindesign7network9MDNSClassEED2Ev:
+
+00000000 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4b21      	ldr	r3, [pc, #132]	; (8c <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x8c>)
+   6:	4605      	mov	r5, r0
+   8:	681c      	ldr	r4, [r3, #0]
+   a:	3c01      	subs	r4, #1
+   c:	601c      	str	r4, [r3, #0]
+   e:	b114      	cbz	r4, 16 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x16>
+  10:	4628      	mov	r0, r5
+  12:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  16:	f8df 8080 	ldr.w	r8, [pc, #128]	; 98 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x98>
+  1a:	4f1d      	ldr	r7, [pc, #116]	; (90 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x90>)
+  1c:	f898 3000 	ldrb.w	r3, [r8]
+  20:	683e      	ldr	r6, [r7, #0]
+  22:	b9d3      	cbnz	r3, 5a <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x5a>
+  24:	f106 0804 	add.w	r8, r6, #4
+  28:	f106 0470 	add.w	r4, r6, #112	; 0x70
+  2c:	3e20      	subs	r6, #32
+  2e:	f104 001c 	add.w	r0, r4, #28
+  32:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  36:	f104 0010 	add.w	r0, r4, #16
+  3a:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  3e:	1d20      	adds	r0, r4, #4
+  40:	3c30      	subs	r4, #48	; 0x30
+  42:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  46:	42b4      	cmp	r4, r6
+  48:	d1f1      	bne.n	2e <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x2e>
+  4a:	4640      	mov	r0, r8
+  4c:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  50:	2300      	movs	r3, #0
+  52:	4628      	mov	r0, r5
+  54:	603b      	str	r3, [r7, #0]
+  56:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  5a:	6830      	ldr	r0, [r6, #0]
+  5c:	f7ff fffe 	bl	0 <mdns_resp_remove_netif>
+  60:	f888 4000 	strb.w	r4, [r8]
+  64:	46b0      	mov	r8, r6
+  66:	4681      	mov	r9, r0
+  68:	490a      	ldr	r1, [pc, #40]	; (94 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x94>)
+  6a:	f848 4b04 	str.w	r4, [r8], #4
+  6e:	4640      	mov	r0, r8
+  70:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  74:	f1b9 0f00 	cmp.w	r9, #0
+  78:	d0d6      	beq.n	28 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x28>
+  7a:	4648      	mov	r0, r9
+  7c:	f7ff fffe 	bl	0 <err_to_errno>
+  80:	4604      	mov	r4, r0
+  82:	f7ff fffe 	bl	0 <__errno>
+  86:	6004      	str	r4, [r0, #0]
+  88:	e7ce      	b.n	28 <_ZN10StaticInitIN9qindesign7network9MDNSClassEED1Ev+0x28>
+  8a:	bf00      	nop
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+
+Disassembly of section .flashmem:
+
+00000000 <_ZN9qindesign7network9MDNSClassC1Ev>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4605      	mov	r5, r0
+   4:	2600      	movs	r6, #0
+   6:	f105 0414 	add.w	r4, r5, #20
+   a:	f105 07a4 	add.w	r7, r5, #164	; 0xa4
+   e:	4631      	mov	r1, r6
+  10:	f840 6b04 	str.w	r6, [r0], #4
+  14:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  18:	f804 6c04 	strb.w	r6, [r4, #-4]
+  1c:	2100      	movs	r1, #0
+  1e:	4620      	mov	r0, r4
+  20:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  24:	2100      	movs	r1, #0
+  26:	f104 000c 	add.w	r0, r4, #12
+  2a:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  2e:	f104 0018 	add.w	r0, r4, #24
+  32:	3430      	adds	r4, #48	; 0x30
+  34:	2100      	movs	r1, #0
+  36:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  3a:	42bc      	cmp	r4, r7
+  3c:	d1ec      	bne.n	18 <_ZN9qindesign7network9MDNSClassC1Ev+0x18>
+  3e:	4628      	mov	r0, r5
+  40:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  42:	bf00      	nop
+
+00000044 <_ZN9qindesign7network9MDNSClassD1Ev>:
+  44:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+  46:	4c19      	ldr	r4, [pc, #100]	; (ac <_ZN9qindesign7network9MDNSClassD1Ev+0x68>)
+  48:	4605      	mov	r5, r0
+  4a:	7823      	ldrb	r3, [r4, #0]
+  4c:	b9bb      	cbnz	r3, 7e <_ZN9qindesign7network9MDNSClassD1Ev+0x3a>
+  4e:	1d07      	adds	r7, r0, #4
+  50:	f105 0470 	add.w	r4, r5, #112	; 0x70
+  54:	f1a5 0620 	sub.w	r6, r5, #32
+  58:	f104 001c 	add.w	r0, r4, #28
+  5c:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  60:	f104 0010 	add.w	r0, r4, #16
+  64:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  68:	1d20      	adds	r0, r4, #4
+  6a:	3c30      	subs	r4, #48	; 0x30
+  6c:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  70:	42b4      	cmp	r4, r6
+  72:	d1f1      	bne.n	58 <_ZN9qindesign7network9MDNSClassD1Ev+0x14>
+  74:	4638      	mov	r0, r7
+  76:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  7a:	4628      	mov	r0, r5
+  7c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  7e:	6800      	ldr	r0, [r0, #0]
+  80:	462f      	mov	r7, r5
+  82:	f7ff fffe 	bl	0 <mdns_resp_remove_netif>
+  86:	2300      	movs	r3, #0
+  88:	4606      	mov	r6, r0
+  8a:	4909      	ldr	r1, [pc, #36]	; (b0 <_ZN9qindesign7network9MDNSClassD1Ev+0x6c>)
+  8c:	f847 3b04 	str.w	r3, [r7], #4
+  90:	4638      	mov	r0, r7
+  92:	7023      	strb	r3, [r4, #0]
+  94:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  98:	2e00      	cmp	r6, #0
+  9a:	d0d9      	beq.n	50 <_ZN9qindesign7network9MDNSClassD1Ev+0xc>
+  9c:	4630      	mov	r0, r6
+  9e:	f7ff fffe 	bl	0 <err_to_errno>
+  a2:	4604      	mov	r4, r0
+  a4:	f7ff fffe 	bl	0 <__errno>
+  a8:	6004      	str	r4, [r0, #0]
+  aa:	e7d1      	b.n	50 <_ZN9qindesign7network9MDNSClassD1Ev+0xc>
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass5beginEPKc:
+
+00000000 <_ZN9qindesign7network9MDNSClass5beginEPKc>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	f8df 80c4 	ldr.w	r8, [pc, #196]	; cc <_ZN9qindesign7network9MDNSClass5beginEPKc+0xcc>
+   8:	f8d8 4000 	ldr.w	r4, [r8]
+   c:	2c00      	cmp	r4, #0
+   e:	d04b      	beq.n	a8 <_ZN9qindesign7network9MDNSClass5beginEPKc+0xa8>
+  10:	4c2b      	ldr	r4, [pc, #172]	; (c0 <_ZN9qindesign7network9MDNSClass5beginEPKc+0xc0>)
+  12:	4605      	mov	r5, r0
+  14:	460e      	mov	r6, r1
+  16:	7823      	ldrb	r3, [r4, #0]
+  18:	b30b      	cbz	r3, 5e <_ZN9qindesign7network9MDNSClass5beginEPKc+0x5e>
+  1a:	2e00      	cmp	r6, #0
+  1c:	d049      	beq.n	b2 <_ZN9qindesign7network9MDNSClass5beginEPKc+0xb2>
+  1e:	4f29      	ldr	r7, [pc, #164]	; (c4 <_ZN9qindesign7network9MDNSClass5beginEPKc+0xc4>)
+  20:	783c      	ldrb	r4, [r7, #0]
+  22:	b14c      	cbz	r4, 38 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x38>
+  24:	f105 0a04 	add.w	sl, r5, #4
+  28:	4631      	mov	r1, r6
+  2a:	4650      	mov	r0, sl
+  2c:	f7ff fffe 	bl	0 <_ZNK6String6equalsEPKc>
+  30:	4681      	mov	r9, r0
+  32:	b988      	cbnz	r0, 58 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x58>
+  34:	783b      	ldrb	r3, [r7, #0]
+  36:	bb0b      	cbnz	r3, 7c <_ZN9qindesign7network9MDNSClass5beginEPKc+0x7c>
+  38:	4631      	mov	r1, r6
+  3a:	f8d8 0000 	ldr.w	r0, [r8]
+  3e:	f7ff fffe 	bl	0 <mdns_resp_add_netif>
+  42:	b988      	cbnz	r0, 68 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x68>
+  44:	f8d8 3000 	ldr.w	r3, [r8]
+  48:	4628      	mov	r0, r5
+  4a:	2401      	movs	r4, #1
+  4c:	4631      	mov	r1, r6
+  4e:	f840 3b04 	str.w	r3, [r0], #4
+  52:	703c      	strb	r4, [r7, #0]
+  54:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  58:	4620      	mov	r0, r4
+  5a:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  5e:	f7ff fffe 	bl	0 <mdns_resp_init>
+  62:	2301      	movs	r3, #1
+  64:	7023      	strb	r3, [r4, #0]
+  66:	e7d8      	b.n	1a <_ZN9qindesign7network9MDNSClass5beginEPKc+0x1a>
+  68:	f7ff fffe 	bl	0 <err_to_errno>
+  6c:	2400      	movs	r4, #0
+  6e:	4605      	mov	r5, r0
+  70:	f7ff fffe 	bl	0 <__errno>
+  74:	6005      	str	r5, [r0, #0]
+  76:	4620      	mov	r0, r4
+  78:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  7c:	6828      	ldr	r0, [r5, #0]
+  7e:	f7ff fffe 	bl	0 <mdns_resp_remove_netif>
+  82:	4604      	mov	r4, r0
+  84:	4910      	ldr	r1, [pc, #64]	; (c8 <_ZN9qindesign7network9MDNSClass5beginEPKc+0xc8>)
+  86:	4650      	mov	r0, sl
+  88:	f8c5 9000 	str.w	r9, [r5]
+  8c:	f887 9000 	strb.w	r9, [r7]
+  90:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  94:	2c00      	cmp	r4, #0
+  96:	d0cf      	beq.n	38 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x38>
+  98:	4620      	mov	r0, r4
+  9a:	f7ff fffe 	bl	0 <err_to_errno>
+  9e:	4604      	mov	r4, r0
+  a0:	f7ff fffe 	bl	0 <__errno>
+  a4:	6004      	str	r4, [r0, #0]
+  a6:	e7c7      	b.n	38 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x38>
+  a8:	f7ff fffe 	bl	0 <__errno>
+  ac:	2380      	movs	r3, #128	; 0x80
+  ae:	6003      	str	r3, [r0, #0]
+  b0:	e7d2      	b.n	58 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x58>
+  b2:	f7ff fffe 	bl	0 <__errno>
+  b6:	2316      	movs	r3, #22
+  b8:	4634      	mov	r4, r6
+  ba:	6003      	str	r3, [r0, #0]
+  bc:	e7cc      	b.n	58 <_ZN9qindesign7network9MDNSClass5beginEPKc+0x58>
+  be:	bf00      	nop
+  c0:	00000000 	.word	0x00000000
+  c4:	00000000 	.word	0x00000000
+  c8:	00000000 	.word	0x00000000
+  cc:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass3endEv:
+
+00000000 <_ZN9qindesign7network9MDNSClass3endEv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4d0d      	ldr	r5, [pc, #52]	; (38 <_ZN9qindesign7network9MDNSClass3endEv+0x38>)
+   4:	782b      	ldrb	r3, [r5, #0]
+   6:	b903      	cbnz	r3, a <_ZN9qindesign7network9MDNSClass3endEv+0xa>
+   8:	bd70      	pop	{r4, r5, r6, pc}
+   a:	4604      	mov	r4, r0
+   c:	6800      	ldr	r0, [r0, #0]
+   e:	f7ff fffe 	bl	0 <mdns_resp_remove_netif>
+  12:	2300      	movs	r3, #0
+  14:	4606      	mov	r6, r0
+  16:	4909      	ldr	r1, [pc, #36]	; (3c <_ZN9qindesign7network9MDNSClass3endEv+0x3c>)
+  18:	f844 3b04 	str.w	r3, [r4], #4
+  1c:	4620      	mov	r0, r4
+  1e:	702b      	strb	r3, [r5, #0]
+  20:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  24:	2e00      	cmp	r6, #0
+  26:	d0ef      	beq.n	8 <_ZN9qindesign7network9MDNSClass3endEv+0x8>
+  28:	4630      	mov	r0, r6
+  2a:	f7ff fffe 	bl	0 <err_to_errno>
+  2e:	4604      	mov	r4, r0
+  30:	f7ff fffe 	bl	0 <__errno>
+  34:	6004      	str	r4, [r0, #0]
+  36:	bd70      	pop	{r4, r5, r6, pc}
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass7restartEv:
+
+00000000 <_ZN9qindesign7network9MDNSClass7restartEv>:
+   0:	4b03      	ldr	r3, [pc, #12]	; (10 <_ZN9qindesign7network9MDNSClass7restartEv+0x10>)
+   2:	781b      	ldrb	r3, [r3, #0]
+   4:	b903      	cbnz	r3, 8 <_ZN9qindesign7network9MDNSClass7restartEv+0x8>
+   6:	4770      	bx	lr
+   8:	6800      	ldr	r0, [r0, #0]
+   a:	f7ff bffe 	b.w	0 <mdns_resp_restart>
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE:
+
+00000000 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	461d      	mov	r5, r3
+   6:	4b4c      	ldr	r3, [pc, #304]	; (138 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x138>)
+   8:	b095      	sub	sp, #84	; 0x54
+   a:	781f      	ldrb	r7, [r3, #0]
+   c:	f8bd a078 	ldrh.w	sl, [sp, #120]	; 0x78
+  10:	2f00      	cmp	r7, #0
+  12:	d07d      	beq.n	110 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x110>
+  14:	f8d0 b000 	ldr.w	fp, [r0]
+  18:	4689      	mov	r9, r1
+  1a:	4606      	mov	r6, r0
+  1c:	4629      	mov	r1, r5
+  1e:	a808      	add	r0, sp, #32
+  20:	4690      	mov	r8, r2
+  22:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  26:	4945      	ldr	r1, [pc, #276]	; (13c <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x13c>)
+  28:	a805      	add	r0, sp, #20
+  2a:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  2e:	a905      	add	r1, sp, #20
+  30:	a808      	add	r0, sp, #32
+  32:	f7ff fffe 	bl	0 <_ZNK6String16equalsIgnoreCaseERKS_>
+  36:	4604      	mov	r4, r0
+  38:	a805      	add	r0, sp, #20
+  3a:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  3e:	a808      	add	r0, sp, #32
+  40:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  44:	9a1f      	ldr	r2, [sp, #124]	; 0x7c
+  46:	1e23      	subs	r3, r4, #0
+  48:	4649      	mov	r1, r9
+  4a:	9202      	str	r2, [sp, #8]
+  4c:	4658      	mov	r0, fp
+  4e:	4a3c      	ldr	r2, [pc, #240]	; (140 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x140>)
+  50:	bf18      	it	ne
+  52:	2301      	movne	r3, #1
+  54:	f8cd a000 	str.w	sl, [sp]
+  58:	9201      	str	r2, [sp, #4]
+  5a:	4642      	mov	r2, r8
+  5c:	f7ff fffe 	bl	0 <mdns_resp_add_service>
+  60:	4604      	mov	r4, r0
+  62:	b2c1      	uxtb	r1, r0
+  64:	2902      	cmp	r1, #2
+  66:	d90d      	bls.n	84 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x84>
+  68:	2800      	cmp	r0, #0
+  6a:	db59      	blt.n	120 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_tPFSt6vectorI6StringSaIS5_EEvE+0x120>
+  6c:	6830      	ldr	r0, [r6, #0]
+  6e:	2700      	movs	r7, #0
+  70:	f7ff fffe 	bl	0 <mdns_resp_del_service>
+  74:	f7ff fffe 	bl	0 <__errno>
+  78:	2369      	movs	r3, #105	; 0x69
+  7a:	6003      	str	r3, [r0, #0]
+  7c:	4638      	mov	r0, r7
+  7e:	b015      	add	sp, #84	; 0x54
+  80:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  84:	2230      	movs	r2, #48	; 0x30
+  86:	a808      	add	r0, sp, #32
+  88:	2100      	movs	r1, #0
+  8a:	f7ff fffe 	bl	0 <memset>
+  8e:	2301      	movs	r3, #1
+  90:	4649      	mov	r1, r9
+  92:	a809      	add	r0, sp, #36	; 0x24
+  94:	f88d 3020 	strb.w	r3, [sp, #32]
+  98:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  9c:	4641      	mov	r1, r8
+  9e:	a80c      	add	r0, sp, #48	; 0x30
+  a0:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  a4:	4629      	mov	r1, r5
+  a6:	b225      	sxth	r5, r4
+  a8:	a80f      	add	r0, sp, #60	; 0x3c
+  aa:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  ae:	9b1f      	ldr	r3, [sp, #124]	; 0x7c
+  b0:	eb05 0545 	add.w	r5, r5, r5, lsl #1
+  b4:	a909      	add	r1, sp, #36	; 0x24
+  b6:	eb04 0444 	add.w	r4, r4, r4, lsl #1
+  ba:	9313      	str	r3, [sp, #76]	; 0x4c
+  bc:	012d      	lsls	r5, r5, #4
+  be:	f89d 3020 	ldrb.w	r3, [sp, #32]
+  c2:	eb06 1404 	add.w	r4, r6, r4, lsl #4
+  c6:	f8ad a048 	strh.w	sl, [sp, #72]	; 0x48
+  ca:	f105 0014 	add.w	r0, r5, #20
+  ce:	7423      	strb	r3, [r4, #16]
+  d0:	4430      	add	r0, r6
+  d2:	f7ff fffe 	bl	0 <_ZN6StringaSERKS_>
+  d6:	f105 0020 	add.w	r0, r5, #32
+  da:	352c      	adds	r5, #44	; 0x2c
+  dc:	a90c      	add	r1, sp, #48	; 0x30
+  de:	4430      	add	r0, r6
+  e0:	f7ff fffe 	bl	0 <_ZN6StringaSERKS_>
+  e4:	a90f      	add	r1, sp, #60	; 0x3c
+  e6:	1970      	adds	r0, r6, r5
+  e8:	f7ff fffe 	bl	0 <_ZN6StringaSERKS_>
+  ec:	f8bd 3048 	ldrh.w	r3, [sp, #72]	; 0x48
+  f0:	a80f      	add	r0, sp, #60	; 0x3c
+  f2:	8723      	strh	r3, [r4, #56]	; 0x38
+  f4:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+  f6:	63e3      	str	r3, [r4, #60]	; 0x3c
+  f8:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  fc:	a80c      	add	r0, sp, #48	; 0x30
+  fe:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+ 102:	a809      	add	r0, sp, #36	; 0x24
+ 104:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+ 108:	4638      	mov	r0, r7
+ 10a:	b015      	add	sp, #84	; 0x54
+ 10c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 110:	f7ff fffe 	bl	0 <__errno>
+ 114:	2380      	movs	r3, #128	; 0x80
+ 116:	6003      	str	r3, [r0, #0]
+ 118:	4638      	mov	r0, r7
+ 11a:	b015      	add	sp, #84	; 0x54
+ 11c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 120:	f7ff fffe 	bl	0 <err_to_errno>
+ 124:	2700      	movs	r7, #0
+ 126:	4604      	mov	r4, r0
+ 128:	f7ff fffe 	bl	0 <__errno>
+ 12c:	6004      	str	r4, [r0, #0]
+ 12e:	4638      	mov	r0, r7
+ 130:	b015      	add	sp, #84	; 0x54
+ 132:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 136:	bf00      	nop
+ 138:	00000000 	.word	0x00000000
+ 13c:	00000000 	.word	0x00000000
+ 140:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t:
+
+00000000 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t>:
+   0:	b510      	push	{r4, lr}
+   2:	6844      	ldr	r4, [r0, #4]
+   4:	b082      	sub	sp, #8
+   6:	b14c      	cbz	r4, 1c <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t+0x1c>
+   8:	9300      	str	r3, [sp, #0]
+   a:	4613      	mov	r3, r2
+   c:	460a      	mov	r2, r1
+   e:	4621      	mov	r1, r4
+  10:	2400      	movs	r4, #0
+  12:	9401      	str	r4, [sp, #4]
+  14:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t>
+  18:	b002      	add	sp, #8
+  1a:	bd10      	pop	{r4, pc}
+  1c:	4c00      	ldr	r4, [pc, #0]	; (20 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t+0x20>)
+  1e:	e7f3      	b.n	8 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_t+0x8>
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t:
+
+00000000 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t>:
+   0:	b510      	push	{r4, lr}
+   2:	b082      	sub	sp, #8
+   4:	f8bd 4010 	ldrh.w	r4, [sp, #16]
+   8:	9400      	str	r4, [sp, #0]
+   a:	2400      	movs	r4, #0
+   c:	9401      	str	r4, [sp, #4]
+   e:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_S3_t>
+  12:	b002      	add	sp, #8
+  14:	bd10      	pop	{r4, pc}
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE:
+
+00000000 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	6845      	ldr	r5, [r0, #4]
+   4:	b083      	sub	sp, #12
+   6:	461c      	mov	r4, r3
+   8:	4613      	mov	r3, r2
+   a:	9a06      	ldr	r2, [sp, #24]
+   c:	b13d      	cbz	r5, 1e <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE+0x1e>
+   e:	9201      	str	r2, [sp, #4]
+  10:	460a      	mov	r2, r1
+  12:	4629      	mov	r1, r5
+  14:	9400      	str	r4, [sp, #0]
+  16:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE>
+  1a:	b003      	add	sp, #12
+  1c:	bd30      	pop	{r4, r5, pc}
+  1e:	4d01      	ldr	r5, [pc, #4]	; (24 <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE+0x24>)
+  20:	e7f5      	b.n	e <_ZN9qindesign7network9MDNSClass10addServiceEPKcS3_tPFSt6vectorI6StringSaIS5_EEvE+0xe>
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t:
+
+00000000 <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	b08c      	sub	sp, #48	; 0x30
+   6:	460f      	mov	r7, r1
+   8:	4616      	mov	r6, r2
+   a:	2100      	movs	r1, #0
+   c:	2230      	movs	r2, #48	; 0x30
+   e:	f100 042c 	add.w	r4, r0, #44	; 0x2c
+  12:	4668      	mov	r0, sp
+  14:	461d      	mov	r5, r3
+  16:	f8bd 8048 	ldrh.w	r8, [sp, #72]	; 0x48
+  1a:	f7ff fffe 	bl	0 <memset>
+  1e:	2301      	movs	r3, #1
+  20:	4639      	mov	r1, r7
+  22:	a801      	add	r0, sp, #4
+  24:	f88d 3000 	strb.w	r3, [sp]
+  28:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  2c:	4631      	mov	r1, r6
+  2e:	a804      	add	r0, sp, #16
+  30:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  34:	4629      	mov	r1, r5
+  36:	2500      	movs	r5, #0
+  38:	a807      	add	r0, sp, #28
+  3a:	f7ff fffe 	bl	0 <_ZN6StringC1EPKc>
+  3e:	f8ad 8028 	strh.w	r8, [sp, #40]	; 0x28
+  42:	f814 3c1c 	ldrb.w	r3, [r4, #-28]
+  46:	a901      	add	r1, sp, #4
+  48:	f1a4 0018 	sub.w	r0, r4, #24
+  4c:	b12b      	cbz	r3, 5a <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x5a>
+  4e:	f89d 3000 	ldrb.w	r3, [sp]
+  52:	b113      	cbz	r3, 5a <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x5a>
+  54:	f7ff fffe 	bl	0 <_ZNK6String6equalsERKS_>
+  58:	b990      	cbnz	r0, 80 <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x80>
+  5a:	3501      	adds	r5, #1
+  5c:	3430      	adds	r4, #48	; 0x30
+  5e:	2d03      	cmp	r5, #3
+  60:	d1ef      	bne.n	42 <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x42>
+  62:	f04f 35ff 	mov.w	r5, #4294967295	; 0xffffffff
+  66:	a807      	add	r0, sp, #28
+  68:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  6c:	a804      	add	r0, sp, #16
+  6e:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  72:	a801      	add	r0, sp, #4
+  74:	f7ff fffe 	bl	0 <_ZN6StringD1Ev>
+  78:	4628      	mov	r0, r5
+  7a:	b00c      	add	sp, #48	; 0x30
+  7c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  80:	a904      	add	r1, sp, #16
+  82:	f1a4 000c 	sub.w	r0, r4, #12
+  86:	f7ff fffe 	bl	0 <_ZNK6String6equalsERKS_>
+  8a:	2800      	cmp	r0, #0
+  8c:	d0e5      	beq.n	5a <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x5a>
+  8e:	4620      	mov	r0, r4
+  90:	a907      	add	r1, sp, #28
+  92:	f7ff fffe 	bl	0 <_ZNK6String6equalsERKS_>
+  96:	2800      	cmp	r0, #0
+  98:	d0df      	beq.n	5a <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x5a>
+  9a:	89a2      	ldrh	r2, [r4, #12]
+  9c:	f8bd 3028 	ldrh.w	r3, [sp, #40]	; 0x28
+  a0:	429a      	cmp	r2, r3
+  a2:	d1da      	bne.n	5a <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x5a>
+  a4:	e7df      	b.n	66 <_ZN9qindesign7network9MDNSClass11findServiceEPKcS3_S3_t+0x66>
+  a6:	bf00      	nop
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0:
+
+00000000 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	b082      	sub	sp, #8
+   6:	4605      	mov	r5, r0
+   8:	f8bd 4020 	ldrh.w	r4, [sp, #32]
+   c:	9400      	str	r4, [sp, #0]
+   e:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0>
+  12:	1e04      	subs	r4, r0, #0
+  14:	db34      	blt.n	80 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x80>
+  16:	2c02      	cmp	r4, #2
+  18:	dd08      	ble.n	2c <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x2c>
+  1a:	b2e1      	uxtb	r1, r4
+  1c:	6828      	ldr	r0, [r5, #0]
+  1e:	f7ff fffe 	bl	0 <mdns_resp_del_service>
+  22:	bb10      	cbnz	r0, 6a <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x6a>
+  24:	2001      	movs	r0, #1
+  26:	b002      	add	sp, #8
+  28:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  2c:	eb04 0644 	add.w	r6, r4, r4, lsl #1
+  30:	f04f 0800 	mov.w	r8, #0
+  34:	4914      	ldr	r1, [pc, #80]	; (88 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x88>)
+  36:	0137      	lsls	r7, r6, #4
+  38:	eb05 1606 	add.w	r6, r5, r6, lsl #4
+  3c:	f107 0020 	add.w	r0, r7, #32
+  40:	f886 8010 	strb.w	r8, [r6, #16]
+  44:	4428      	add	r0, r5
+  46:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  4a:	f107 002c 	add.w	r0, r7, #44	; 0x2c
+  4e:	490e      	ldr	r1, [pc, #56]	; (88 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x88>)
+  50:	4428      	add	r0, r5
+  52:	f7ff fffe 	bl	0 <_ZN6StringaSEPKc>
+  56:	6828      	ldr	r0, [r5, #0]
+  58:	b2e1      	uxtb	r1, r4
+  5a:	f8a6 8038 	strh.w	r8, [r6, #56]	; 0x38
+  5e:	f8c6 803c 	str.w	r8, [r6, #60]	; 0x3c
+  62:	f7ff fffe 	bl	0 <mdns_resp_del_service>
+  66:	2800      	cmp	r0, #0
+  68:	d0dc      	beq.n	24 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t.part.0+0x24>
+  6a:	f7ff fffe 	bl	0 <err_to_errno>
+  6e:	4604      	mov	r4, r0
+  70:	f7ff fffe 	bl	0 <__errno>
+  74:	4603      	mov	r3, r0
+  76:	2000      	movs	r0, #0
+  78:	601c      	str	r4, [r3, #0]
+  7a:	b002      	add	sp, #8
+  7c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  80:	2000      	movs	r0, #0
+  82:	b002      	add	sp, #8
+  84:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t:
+
+00000000 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	6846      	ldr	r6, [r0, #4]
+   4:	b082      	sub	sp, #8
+   6:	461d      	mov	r5, r3
+   8:	b166      	cbz	r6, 24 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t+0x24>
+   a:	4b07      	ldr	r3, [pc, #28]	; (28 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t+0x28>)
+   c:	781c      	ldrb	r4, [r3, #0]
+   e:	b134      	cbz	r4, 1e <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t+0x1e>
+  10:	4613      	mov	r3, r2
+  12:	9500      	str	r5, [sp, #0]
+  14:	460a      	mov	r2, r1
+  16:	4631      	mov	r1, r6
+  18:	f7ff fffe 	bl	0 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t>
+  1c:	4604      	mov	r4, r0
+  1e:	4620      	mov	r0, r4
+  20:	b002      	add	sp, #8
+  22:	bd70      	pop	{r4, r5, r6, pc}
+  24:	4e01      	ldr	r6, [pc, #4]	; (2c <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t+0x2c>)
+  26:	e7f0      	b.n	a <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_t+0xa>
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t:
+
+00000000 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t>:
+   0:	b430      	push	{r4, r5}
+   2:	4c06      	ldr	r4, [pc, #24]	; (1c <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t+0x1c>)
+   4:	f8bd 5008 	ldrh.w	r5, [sp, #8]
+   8:	7824      	ldrb	r4, [r4, #0]
+   a:	b914      	cbnz	r4, 12 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t+0x12>
+   c:	4620      	mov	r0, r4
+   e:	bc30      	pop	{r4, r5}
+  10:	4770      	bx	lr
+  12:	9502      	str	r5, [sp, #8]
+  14:	bc30      	pop	{r4, r5}
+  16:	f7ff bffe 	b.w	0 <_ZN9qindesign7network9MDNSClass13removeServiceEPKcS3_S3_t>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNK9qindesign7network9MDNSClass8announceEv:
+
+00000000 <_ZNK9qindesign7network9MDNSClass8announceEv>:
+   0:	b508      	push	{r3, lr}
+   2:	4b06      	ldr	r3, [pc, #24]	; (1c <_ZNK9qindesign7network9MDNSClass8announceEv+0x1c>)
+   4:	781b      	ldrb	r3, [r3, #0]
+   6:	b123      	cbz	r3, 12 <_ZNK9qindesign7network9MDNSClass8announceEv+0x12>
+   8:	6800      	ldr	r0, [r0, #0]
+   a:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+   e:	f7ff bffe 	b.w	0 <mdns_resp_announce>
+  12:	f7ff fffe 	bl	0 <__errno>
+  16:	2380      	movs	r3, #128	; 0x80
+  18:	6003      	str	r3, [r0, #0]
+  1a:	bd08      	pop	{r3, pc}
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE:
+
+00000000 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE>:
+   0:	4a0b      	ldr	r2, [pc, #44]	; (30 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x30>)
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	6813      	ldr	r3, [r2, #0]
+   6:	1c59      	adds	r1, r3, #1
+   8:	6011      	str	r1, [r2, #0]
+   a:	b14b      	cbz	r3, 20 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x20>
+   c:	4c09      	ldr	r4, [pc, #36]	; (34 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x34>)
+   e:	4a0a      	ldr	r2, [pc, #40]	; (38 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x38>)
+  10:	490a      	ldr	r1, [pc, #40]	; (3c <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x3c>)
+  12:	480b      	ldr	r0, [pc, #44]	; (40 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x40>)
+  14:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  18:	4b0a      	ldr	r3, [pc, #40]	; (44 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x44>)
+  1a:	6822      	ldr	r2, [r4, #0]
+  1c:	601a      	str	r2, [r3, #0]
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	4d09      	ldr	r5, [pc, #36]	; (48 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x48>)
+  22:	4c04      	ldr	r4, [pc, #16]	; (34 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0x34>)
+  24:	4628      	mov	r0, r5
+  26:	f7ff fffe 	bl	0 <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE>
+  2a:	6025      	str	r5, [r4, #0]
+  2c:	e7ef      	b.n	e <_GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE+0xe>
+  2e:	bf00      	nop
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000

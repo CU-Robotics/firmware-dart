@@ -1,0 +1,51 @@
+
+build/./libraries/QNEthernet/src/lwip/init.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.lwip_init	00000000 .text.lwip_init
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.lwip_init	00000026 lwip_init
+00000000         *UND*	00000000 mem_init
+00000000         *UND*	00000000 memp_init
+00000000         *UND*	00000000 netif_init
+00000000         *UND*	00000000 udp_init
+00000000         *UND*	00000000 tcp_init
+00000000         *UND*	00000000 igmp_init
+00000000         *UND*	00000000 dns_init
+00000000         *UND*	00000000 sys_timeouts_init
+
+
+Contents of section .text.lwip_init:
+ 0000 08b5fff7 fefffff7 fefffff7 fefffff7  ................
+ 0010 fefffff7 fefffff7 fefffff7 feffbde8  ................
+ 0020 0840fff7 febf00bf                    .@......        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.lwip_init:
+
+00000000 <lwip_init>:
+   0:	b508      	push	{r3, lr}
+   2:	f7ff fffe 	bl	0 <mem_init>
+   6:	f7ff fffe 	bl	0 <memp_init>
+   a:	f7ff fffe 	bl	0 <netif_init>
+   e:	f7ff fffe 	bl	0 <udp_init>
+  12:	f7ff fffe 	bl	0 <tcp_init>
+  16:	f7ff fffe 	bl	0 <igmp_init>
+  1a:	f7ff fffe 	bl	0 <dns_init>
+  1e:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  22:	f7ff bffe 	b.w	0 <sys_timeouts_init>
+  26:	bf00      	nop

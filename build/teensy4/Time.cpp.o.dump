@@ -1,0 +1,284 @@
+
+build/./teensy4/Time.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 Time.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._Z9breakTimemR14DateTimeFields	00000000 .text._Z9breakTimemR14DateTimeFields
+00000000 l    d  .text._Z8makeTimeRK14DateTimeFields	00000000 .text._Z8makeTimeRK14DateTimeFields
+00000000 l    d  .rodata._ZL9monthDays	00000000 .rodata._ZL9monthDays
+00000000 l     O .rodata._ZL9monthDays	0000000c _ZL9monthDays
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z9breakTimemR14DateTimeFields	00000158 _Z9breakTimemR14DateTimeFields
+00000000 g     F .text._Z8makeTimeRK14DateTimeFields	000000f4 _Z8makeTimeRK14DateTimeFields
+
+
+Contents of section .text._Z9breakTimemR14DateTimeFields:
+ 0000 4d4a2de9 f047a2fb 004340f2 6d1a4b4f  MJ-..G...C@.m.KO
+ 0010 5b09dff8 3881dff8 3891a2fb 0342c3eb  [...8...8....B..
+ 0020 03145209 a0eb8400 454cc2eb 02150870  ..R.....EL.....p
+ 0030 a3eb8503 a4fb0254 24094b70 414b251d  .......T$.KpAK%.
+ 0040 04eb4400 a2ebc002 a3fb0503 00208a70  ..D.......... .p
+ 0050 ea1a03eb 52030246 9b08c3eb c303ed1a  ....R..F........
+ 0060 cd705ffa 80fe40f2 6d1c0ef2 b27313f0  .p_...@.m....s..
+ 0070 030507fb 03f608d1 b8ebb60f 4ff4b77c  ............O..|
+ 0080 03d3b9eb 361f38bf d4466244 01309442  ....6.8..FbD.0.B
+ 0090 e7d20ef1 460e2c4e 81f806e0 a6fb0306  ....F.,N........
+ 00a0 85b37709 4ff0640c 4ff4c870 f6090cfb  ..w.O.d.O..p....
+ 00b0 173700fb 163640f2 6d10a41a 00230122  .7...6@.m....#."
+ 00c0 dff890e0 20440ae0 13f80e40 84420ed8  .... D.....@.B..
+ 00d0 0c2aa0eb 04000bd0 01320133 d2b2012b  .*.......2.3...+
+ 00e0 5ffa83fc f0d145b9 cfb11d24 06e06246  _.....E....$..bF
+ 00f0 01304a71 0871bde8 f0871c24 a04218d3  .0Jq.q.....$.B..
+ 0100 001be9e7 64207709 f60900fb 17374ff4  ....d w......7O.
+ 0110 c87000fb 16363fb1 4ff4b770 cde7002e  .p...6?.O..p....
+ 0120 14bf1c24 1d24e9e7 002ec4d1 4ff4b770  ...$.$......O..p
+ 0130 c3e70122 dce700bf 89888888 295c8fc2  ..."........)\..
+ 0140 abaaaaaa 25499224 1f85eb51 285c8f02  ....%I.$...Q(\..
+ 0150 0ad7a300 00000000                    ........        
+Contents of section .text._Z8makeTimeRK14DateTimeFields:
+ 0000 2de9f041 90f806c0 324aacf1 4603002b  -..A....2J..F..+
+ 0010 03fb02f2 1cdd0cf2 6c7540f2 b3732e4c  ........lu@..s.L
+ 0020 2e4e2f4f dff8c4e0 9d4204fb 03f10fd0  .N/O.....B......
+ 0030 13f0030f 03f10103 f6d1b6eb b10f02d3  ................
+ 0040 beeb311f f0d39d42 3a4404fb 03f1efd1  ..1....B:D......
+ 0050 45795db3 0cf26c71 224b6426 4ff4c874  Ey]...lq"Kd&O..t
+ 0060 a3fb013c 204f0023 dff88480 4fea5c1e  ...< O.#....O.\.
+ 0070 4feadc1c 06fb1e1e 194e04fb 1c1c01f0  O........N......
+ 0080 030405e0 d95d0133 ab4206fb 01220dd0  .....].3.B..."..
+ 0090 012bf7d1 002cf5d1 bef1000f 02d1bcf1  .+...,..........
+ 00a0 000fefd1 01334244 ab42f1d1 43784ff4  .....3BD.B..CxO.
+ 00b0 61648178 c3eb0313 05789b00 04fb0133  ad.x.....x.....3
+ 00c0 0179074c 58194b1e 04fb0300 1044bde8  .y.LX.K......D..
+ 00d0 f08100bf 8033e101 295c8fc2 285c8f02  .....3..)\..(\..
+ 00e0 80510100 1f85eb51 00000000 0ad7a300  .Q.....Q........
+ 00f0 803b2600                             .;&.            
+Contents of section .rodata._ZL9monthDays:
+ 0000 1f1c1f1e 1f1e1f1f 1e1f1e1f           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z9breakTimemR14DateTimeFields:
+
+00000000 <_Z9breakTimemR14DateTimeFields>:
+   0:	4a4d      	ldr	r2, [pc, #308]	; (138 <_Z9breakTimemR14DateTimeFields+0x138>)
+   2:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   6:	fba2 4300 	umull	r4, r3, r2, r0
+   a:	f240 1a6d 	movw	sl, #365	; 0x16d
+   e:	4f4b      	ldr	r7, [pc, #300]	; (13c <_Z9breakTimemR14DateTimeFields+0x13c>)
+  10:	095b      	lsrs	r3, r3, #5
+  12:	f8df 8138 	ldr.w	r8, [pc, #312]	; 14c <_Z9breakTimemR14DateTimeFields+0x14c>
+  16:	f8df 9138 	ldr.w	r9, [pc, #312]	; 150 <_Z9breakTimemR14DateTimeFields+0x150>
+  1a:	fba2 4203 	umull	r4, r2, r2, r3
+  1e:	ebc3 1403 	rsb	r4, r3, r3, lsl #4
+  22:	0952      	lsrs	r2, r2, #5
+  24:	eba0 0084 	sub.w	r0, r0, r4, lsl #2
+  28:	4c45      	ldr	r4, [pc, #276]	; (140 <_Z9breakTimemR14DateTimeFields+0x140>)
+  2a:	ebc2 1502 	rsb	r5, r2, r2, lsl #4
+  2e:	7008      	strb	r0, [r1, #0]
+  30:	eba3 0385 	sub.w	r3, r3, r5, lsl #2
+  34:	fba4 5402 	umull	r5, r4, r4, r2
+  38:	0924      	lsrs	r4, r4, #4
+  3a:	704b      	strb	r3, [r1, #1]
+  3c:	4b41      	ldr	r3, [pc, #260]	; (144 <_Z9breakTimemR14DateTimeFields+0x144>)
+  3e:	1d25      	adds	r5, r4, #4
+  40:	eb04 0044 	add.w	r0, r4, r4, lsl #1
+  44:	eba2 02c0 	sub.w	r2, r2, r0, lsl #3
+  48:	fba3 0305 	umull	r0, r3, r3, r5
+  4c:	2000      	movs	r0, #0
+  4e:	708a      	strb	r2, [r1, #2]
+  50:	1aea      	subs	r2, r5, r3
+  52:	eb03 0352 	add.w	r3, r3, r2, lsr #1
+  56:	4602      	mov	r2, r0
+  58:	089b      	lsrs	r3, r3, #2
+  5a:	ebc3 03c3 	rsb	r3, r3, r3, lsl #3
+  5e:	1aed      	subs	r5, r5, r3
+  60:	70cd      	strb	r5, [r1, #3]
+  62:	fa5f fe80 	uxtb.w	lr, r0
+  66:	f240 1c6d 	movw	ip, #365	; 0x16d
+  6a:	f20e 73b2 	addw	r3, lr, #1970	; 0x7b2
+  6e:	f013 0503 	ands.w	r5, r3, #3
+  72:	fb07 f603 	mul.w	r6, r7, r3
+  76:	d108      	bne.n	8a <_Z9breakTimemR14DateTimeFields+0x8a>
+  78:	ebb8 0fb6 	cmp.w	r8, r6, ror #2
+  7c:	f44f 7cb7 	mov.w	ip, #366	; 0x16e
+  80:	d303      	bcc.n	8a <_Z9breakTimemR14DateTimeFields+0x8a>
+  82:	ebb9 1f36 	cmp.w	r9, r6, ror #4
+  86:	bf38      	it	cc
+  88:	46d4      	movcc	ip, sl
+  8a:	4462      	add	r2, ip
+  8c:	3001      	adds	r0, #1
+  8e:	4294      	cmp	r4, r2
+  90:	d2e7      	bcs.n	62 <_Z9breakTimemR14DateTimeFields+0x62>
+  92:	f10e 0e46 	add.w	lr, lr, #70	; 0x46
+  96:	4e2c      	ldr	r6, [pc, #176]	; (148 <_Z9breakTimemR14DateTimeFields+0x148>)
+  98:	f881 e006 	strb.w	lr, [r1, #6]
+  9c:	fba6 0603 	umull	r0, r6, r6, r3
+  a0:	b385      	cbz	r5, 104 <_Z9breakTimemR14DateTimeFields+0x104>
+  a2:	0977      	lsrs	r7, r6, #5
+  a4:	f04f 0c64 	mov.w	ip, #100	; 0x64
+  a8:	f44f 70c8 	mov.w	r0, #400	; 0x190
+  ac:	09f6      	lsrs	r6, r6, #7
+  ae:	fb0c 3717 	mls	r7, ip, r7, r3
+  b2:	fb00 3616 	mls	r6, r0, r6, r3
+  b6:	f240 106d 	movw	r0, #365	; 0x16d
+  ba:	1aa4      	subs	r4, r4, r2
+  bc:	2300      	movs	r3, #0
+  be:	2201      	movs	r2, #1
+  c0:	f8df e090 	ldr.w	lr, [pc, #144]	; 154 <_Z9breakTimemR14DateTimeFields+0x154>
+  c4:	4420      	add	r0, r4
+  c6:	e00a      	b.n	de <_Z9breakTimemR14DateTimeFields+0xde>
+  c8:	f813 400e 	ldrb.w	r4, [r3, lr]
+  cc:	4284      	cmp	r4, r0
+  ce:	d80e      	bhi.n	ee <_Z9breakTimemR14DateTimeFields+0xee>
+  d0:	2a0c      	cmp	r2, #12
+  d2:	eba0 0004 	sub.w	r0, r0, r4
+  d6:	d00b      	beq.n	f0 <_Z9breakTimemR14DateTimeFields+0xf0>
+  d8:	3201      	adds	r2, #1
+  da:	3301      	adds	r3, #1
+  dc:	b2d2      	uxtb	r2, r2
+  de:	2b01      	cmp	r3, #1
+  e0:	fa5f fc83 	uxtb.w	ip, r3
+  e4:	d1f0      	bne.n	c8 <_Z9breakTimemR14DateTimeFields+0xc8>
+  e6:	b945      	cbnz	r5, fa <_Z9breakTimemR14DateTimeFields+0xfa>
+  e8:	b1cf      	cbz	r7, 11e <_Z9breakTimemR14DateTimeFields+0x11e>
+  ea:	241d      	movs	r4, #29
+  ec:	e006      	b.n	fc <_Z9breakTimemR14DateTimeFields+0xfc>
+  ee:	4662      	mov	r2, ip
+  f0:	3001      	adds	r0, #1
+  f2:	714a      	strb	r2, [r1, #5]
+  f4:	7108      	strb	r0, [r1, #4]
+  f6:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  fa:	241c      	movs	r4, #28
+  fc:	42a0      	cmp	r0, r4
+  fe:	d318      	bcc.n	132 <_Z9breakTimemR14DateTimeFields+0x132>
+ 100:	1b00      	subs	r0, r0, r4
+ 102:	e7e9      	b.n	d8 <_Z9breakTimemR14DateTimeFields+0xd8>
+ 104:	2064      	movs	r0, #100	; 0x64
+ 106:	0977      	lsrs	r7, r6, #5
+ 108:	09f6      	lsrs	r6, r6, #7
+ 10a:	fb00 3717 	mls	r7, r0, r7, r3
+ 10e:	f44f 70c8 	mov.w	r0, #400	; 0x190
+ 112:	fb00 3616 	mls	r6, r0, r6, r3
+ 116:	b13f      	cbz	r7, 128 <_Z9breakTimemR14DateTimeFields+0x128>
+ 118:	f44f 70b7 	mov.w	r0, #366	; 0x16e
+ 11c:	e7cd      	b.n	ba <_Z9breakTimemR14DateTimeFields+0xba>
+ 11e:	2e00      	cmp	r6, #0
+ 120:	bf14      	ite	ne
+ 122:	241c      	movne	r4, #28
+ 124:	241d      	moveq	r4, #29
+ 126:	e7e9      	b.n	fc <_Z9breakTimemR14DateTimeFields+0xfc>
+ 128:	2e00      	cmp	r6, #0
+ 12a:	d1c4      	bne.n	b6 <_Z9breakTimemR14DateTimeFields+0xb6>
+ 12c:	f44f 70b7 	mov.w	r0, #366	; 0x16e
+ 130:	e7c3      	b.n	ba <_Z9breakTimemR14DateTimeFields+0xba>
+ 132:	2201      	movs	r2, #1
+ 134:	e7dc      	b.n	f0 <_Z9breakTimemR14DateTimeFields+0xf0>
+ 136:	bf00      	nop
+ 138:	88888889 	.word	0x88888889
+ 13c:	c28f5c29 	.word	0xc28f5c29
+ 140:	aaaaaaab 	.word	0xaaaaaaab
+ 144:	24924925 	.word	0x24924925
+ 148:	51eb851f 	.word	0x51eb851f
+ 14c:	028f5c28 	.word	0x028f5c28
+ 150:	00a3d70a 	.word	0x00a3d70a
+ 154:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z8makeTimeRK14DateTimeFields:
+
+00000000 <_Z8makeTimeRK14DateTimeFields>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	f890 c006 	ldrb.w	ip, [r0, #6]
+   8:	4a32      	ldr	r2, [pc, #200]	; (d4 <_Z8makeTimeRK14DateTimeFields+0xd4>)
+   a:	f1ac 0346 	sub.w	r3, ip, #70	; 0x46
+   e:	2b00      	cmp	r3, #0
+  10:	fb03 f202 	mul.w	r2, r3, r2
+  14:	dd1c      	ble.n	50 <_Z8makeTimeRK14DateTimeFields+0x50>
+  16:	f20c 756c 	addw	r5, ip, #1900	; 0x76c
+  1a:	f240 73b3 	movw	r3, #1971	; 0x7b3
+  1e:	4c2e      	ldr	r4, [pc, #184]	; (d8 <_Z8makeTimeRK14DateTimeFields+0xd8>)
+  20:	4e2e      	ldr	r6, [pc, #184]	; (dc <_Z8makeTimeRK14DateTimeFields+0xdc>)
+  22:	4f2f      	ldr	r7, [pc, #188]	; (e0 <_Z8makeTimeRK14DateTimeFields+0xe0>)
+  24:	f8df e0c4 	ldr.w	lr, [pc, #196]	; ec <_Z8makeTimeRK14DateTimeFields+0xec>
+  28:	429d      	cmp	r5, r3
+  2a:	fb04 f103 	mul.w	r1, r4, r3
+  2e:	d00f      	beq.n	50 <_Z8makeTimeRK14DateTimeFields+0x50>
+  30:	f013 0f03 	tst.w	r3, #3
+  34:	f103 0301 	add.w	r3, r3, #1
+  38:	d1f6      	bne.n	28 <_Z8makeTimeRK14DateTimeFields+0x28>
+  3a:	ebb6 0fb1 	cmp.w	r6, r1, ror #2
+  3e:	d302      	bcc.n	46 <_Z8makeTimeRK14DateTimeFields+0x46>
+  40:	ebbe 1f31 	cmp.w	lr, r1, ror #4
+  44:	d3f0      	bcc.n	28 <_Z8makeTimeRK14DateTimeFields+0x28>
+  46:	429d      	cmp	r5, r3
+  48:	443a      	add	r2, r7
+  4a:	fb04 f103 	mul.w	r1, r4, r3
+  4e:	d1ef      	bne.n	30 <_Z8makeTimeRK14DateTimeFields+0x30>
+  50:	7945      	ldrb	r5, [r0, #5]
+  52:	b35d      	cbz	r5, ac <_Z8makeTimeRK14DateTimeFields+0xac>
+  54:	f20c 716c 	addw	r1, ip, #1900	; 0x76c
+  58:	4b22      	ldr	r3, [pc, #136]	; (e4 <_Z8makeTimeRK14DateTimeFields+0xe4>)
+  5a:	2664      	movs	r6, #100	; 0x64
+  5c:	f44f 74c8 	mov.w	r4, #400	; 0x190
+  60:	fba3 3c01 	umull	r3, ip, r3, r1
+  64:	4f20      	ldr	r7, [pc, #128]	; (e8 <_Z8makeTimeRK14DateTimeFields+0xe8>)
+  66:	2300      	movs	r3, #0
+  68:	f8df 8084 	ldr.w	r8, [pc, #132]	; f0 <_Z8makeTimeRK14DateTimeFields+0xf0>
+  6c:	ea4f 1e5c 	mov.w	lr, ip, lsr #5
+  70:	ea4f 1cdc 	mov.w	ip, ip, lsr #7
+  74:	fb06 1e1e 	mls	lr, r6, lr, r1
+  78:	4e19      	ldr	r6, [pc, #100]	; (e0 <_Z8makeTimeRK14DateTimeFields+0xe0>)
+  7a:	fb04 1c1c 	mls	ip, r4, ip, r1
+  7e:	f001 0403 	and.w	r4, r1, #3
+  82:	e005      	b.n	90 <_Z8makeTimeRK14DateTimeFields+0x90>
+  84:	5dd9      	ldrb	r1, [r3, r7]
+  86:	3301      	adds	r3, #1
+  88:	42ab      	cmp	r3, r5
+  8a:	fb06 2201 	mla	r2, r6, r1, r2
+  8e:	d00d      	beq.n	ac <_Z8makeTimeRK14DateTimeFields+0xac>
+  90:	2b01      	cmp	r3, #1
+  92:	d1f7      	bne.n	84 <_Z8makeTimeRK14DateTimeFields+0x84>
+  94:	2c00      	cmp	r4, #0
+  96:	d1f5      	bne.n	84 <_Z8makeTimeRK14DateTimeFields+0x84>
+  98:	f1be 0f00 	cmp.w	lr, #0
+  9c:	d102      	bne.n	a4 <_Z8makeTimeRK14DateTimeFields+0xa4>
+  9e:	f1bc 0f00 	cmp.w	ip, #0
+  a2:	d1ef      	bne.n	84 <_Z8makeTimeRK14DateTimeFields+0x84>
+  a4:	3301      	adds	r3, #1
+  a6:	4442      	add	r2, r8
+  a8:	42ab      	cmp	r3, r5
+  aa:	d1f1      	bne.n	90 <_Z8makeTimeRK14DateTimeFields+0x90>
+  ac:	7843      	ldrb	r3, [r0, #1]
+  ae:	f44f 6461 	mov.w	r4, #3600	; 0xe10
+  b2:	7881      	ldrb	r1, [r0, #2]
+  b4:	ebc3 1303 	rsb	r3, r3, r3, lsl #4
+  b8:	7805      	ldrb	r5, [r0, #0]
+  ba:	009b      	lsls	r3, r3, #2
+  bc:	fb04 3301 	mla	r3, r4, r1, r3
+  c0:	7901      	ldrb	r1, [r0, #4]
+  c2:	4c07      	ldr	r4, [pc, #28]	; (e0 <_Z8makeTimeRK14DateTimeFields+0xe0>)
+  c4:	1958      	adds	r0, r3, r5
+  c6:	1e4b      	subs	r3, r1, #1
+  c8:	fb04 0003 	mla	r0, r4, r3, r0
+  cc:	4410      	add	r0, r2
+  ce:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  d2:	bf00      	nop
+  d4:	01e13380 	.word	0x01e13380
+  d8:	c28f5c29 	.word	0xc28f5c29
+  dc:	028f5c28 	.word	0x028f5c28
+  e0:	00015180 	.word	0x00015180
+  e4:	51eb851f 	.word	0x51eb851f
+  e8:	00000000 	.word	0x00000000
+  ec:	00a3d70a 	.word	0x00a3d70a
+  f0:	00263b80 	.word	0x00263b80

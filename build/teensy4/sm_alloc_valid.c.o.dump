@@ -1,0 +1,97 @@
+
+build/./teensy4/sm_alloc_valid.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 sm_alloc_valid.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.sm_alloc_valid_pool	00000000 .text.sm_alloc_valid_pool
+00000000 l    d  .text.sm_alloc_valid	00000000 .text.sm_alloc_valid
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.sm_alloc_valid_pool	00000036 sm_alloc_valid_pool
+00000000         *UND*	00000000 smalloc_verify_pool
+00000000         *UND*	00000000 smalloc_is_alloc
+00000000         *UND*	00000000 __errno
+00000000 g     F .text.sm_alloc_valid	0000003c sm_alloc_valid
+00000000         *UND*	00000000 smalloc_curr_pool
+
+
+Contents of section .text.sm_alloc_valid_pool:
+ 0000 70b50646 0d46fff7 feff68b1 4db1a5f1  p..F.F....h.M...
+ 0010 0c013046 fff7feff 041e18bf 01242046  ..0F.........$ F
+ 0020 70bd2c46 204670bd 0446fff7 feff1623  p.,F Fp..F.....#
+ 0030 03602046 70bd00bf                    .` Fp...        
+Contents of section .text.sm_alloc_valid:
+ 0000 38b50546 0c48fff7 feff68b1 4db1a5f1  8..F.H....h.M...
+ 0010 0c010948 fff7feff 041e18bf 01242046  ...H.........$ F
+ 0020 38bd2c46 204638bd 0446fff7 feff1623  8.,F F8..F.....#
+ 0030 03602046 38bd00bf 00000000           .` F8.......    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.sm_alloc_valid_pool:
+
+00000000 <sm_alloc_valid_pool>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4606      	mov	r6, r0
+   4:	460d      	mov	r5, r1
+   6:	f7ff fffe 	bl	0 <smalloc_verify_pool>
+   a:	b168      	cbz	r0, 28 <sm_alloc_valid_pool+0x28>
+   c:	b14d      	cbz	r5, 22 <sm_alloc_valid_pool+0x22>
+   e:	f1a5 010c 	sub.w	r1, r5, #12
+  12:	4630      	mov	r0, r6
+  14:	f7ff fffe 	bl	0 <smalloc_is_alloc>
+  18:	1e04      	subs	r4, r0, #0
+  1a:	bf18      	it	ne
+  1c:	2401      	movne	r4, #1
+  1e:	4620      	mov	r0, r4
+  20:	bd70      	pop	{r4, r5, r6, pc}
+  22:	462c      	mov	r4, r5
+  24:	4620      	mov	r0, r4
+  26:	bd70      	pop	{r4, r5, r6, pc}
+  28:	4604      	mov	r4, r0
+  2a:	f7ff fffe 	bl	0 <__errno>
+  2e:	2316      	movs	r3, #22
+  30:	6003      	str	r3, [r0, #0]
+  32:	4620      	mov	r0, r4
+  34:	bd70      	pop	{r4, r5, r6, pc}
+  36:	bf00      	nop
+
+Disassembly of section .text.sm_alloc_valid:
+
+00000000 <sm_alloc_valid>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4605      	mov	r5, r0
+   4:	480c      	ldr	r0, [pc, #48]	; (38 <sm_alloc_valid+0x38>)
+   6:	f7ff fffe 	bl	0 <smalloc_verify_pool>
+   a:	b168      	cbz	r0, 28 <sm_alloc_valid+0x28>
+   c:	b14d      	cbz	r5, 22 <sm_alloc_valid+0x22>
+   e:	f1a5 010c 	sub.w	r1, r5, #12
+  12:	4809      	ldr	r0, [pc, #36]	; (38 <sm_alloc_valid+0x38>)
+  14:	f7ff fffe 	bl	0 <smalloc_is_alloc>
+  18:	1e04      	subs	r4, r0, #0
+  1a:	bf18      	it	ne
+  1c:	2401      	movne	r4, #1
+  1e:	4620      	mov	r0, r4
+  20:	bd38      	pop	{r3, r4, r5, pc}
+  22:	462c      	mov	r4, r5
+  24:	4620      	mov	r0, r4
+  26:	bd38      	pop	{r3, r4, r5, pc}
+  28:	4604      	mov	r4, r0
+  2a:	f7ff fffe 	bl	0 <__errno>
+  2e:	2316      	movs	r3, #22
+  30:	6003      	str	r3, [r0, #0]
+  32:	4620      	mov	r0, r4
+  34:	bd38      	pop	{r3, r4, r5, pc}
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000

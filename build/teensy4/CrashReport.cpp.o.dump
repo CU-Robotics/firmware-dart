@@ -1,0 +1,1109 @@
+
+build/./teensy4/CrashReport.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 CrashReport.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .flashmem	00000000 .flashmem
+00000000 l    d  .rodata.str1.4	00000000 .rodata.str1.4
+00000000 l    d  .data.CrashReport	00000000 .data.CrashReport
+00000000 l    d  .rodata._ZTV16CrashReportClass	00000000 .rodata._ZTV16CrashReportClass
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .flashmem	0000009c _ZN16CrashReportClass5clearEv
+0000009c g     F .flashmem	00000704 _ZNK16CrashReportClass7printToER5Print
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 _ZN5Print11printNumberEmhh
+00000000         *UND*	00000000 _ZN5Print10printFloatEdh
+00000000         *UND*	00000000 F_CPU_ACTUAL
+00000000         *UND*	00000000 _ZN5Print5printEl
+00000000         *UND*	00000000 _ebss
+000007a0 g     F .flashmem	0000005c _ZN16CrashReportClasscvbEv
+00000000 g     O .rodata._ZTV16CrashReportClass	0000000c _ZTV16CrashReportClass
+00000000 g     O .data.CrashReport	00000004 CrashReport
+
+
+Contents of section .flashmem:
+ 0000 204b0020 30b4c3e9 2000c3e9 2200c3e9   K. 0... ..."...
+ 0010 2400c3e9 2600c3f8 a800bff3 4f8f4ff0  $...&.......O.O.
+ 0020 e0231949 194ac3f8 701fc3f8 702fbff3  .#.I.J..p...p/..
+ 0030 4f8fbff3 6f8f164b 0146164c 01229d68  O...o..K.F.L.".h
+ 0040 04f6dc74 9d601863 134b44f8 1c0c1846  ...t.`.c.KD....F
+ 0050 02330088 a34212fa 80f21144 f7d192b2  .3...B.....D....
+ 0060 0c4b42ea 0142c3f8 dc2fbff3 4f8f4ff0  .KB..B.../..O.O.
+ 0070 e023094a c3f8682f bff34f8f bff36f8f  .#.J..h/..O...o.
+ 0080 30bc7047 00ff2720 80ff2720 a0ff2720  0.pG..' ..' ..' 
+ 0090 00800f40 00f02720 c0ff2720 b24bd3f8  ...@..' ..' .K..
+ 00a0 80200b2a 2de9f047 0d461bd1 4ff0ff30  . .*-..G.F..O..0
+ 00b0 ae49af4b af4e01f1 040c5040 202400f0  .I.K.N....P@ $..
+ 00c0 0102013c 03fb02f2 82ea5000 f7d1b445  ...<......P....E
+ 00d0 02d04a68 6146eee7 dff88c82 d8f8a830  ..JhaF.........0
+ 00e0 984279d0 2b681722 a3492846 5b689847  .By.+h.".I(F[h.G
+ 00f0 2846fff7 feff2b68 4822a049 5b682846  (F....+hH".I[h(F
+ 0100 98472846 fff7feff 2b684922 9c495b68  .G(F....+hI".I[h
+ 0110 28469847 2846fff7 feff2b68 24229949  (F.G(F....+h$".I
+ 0120 5b682846 98472846 fff7feff 2b684722  [h(F.G(F....+hG"
+ 0130 95495b68 28469847 2846fff7 feff2b68  .I[h(F.G(F....+h
+ 0140 3f229249 5b682846 98472846 fff7feff  ?".I[h(F.G(F....
+ 0150 8f4b9c68 a2070dd5 1a6b8e4b 9a422b68  .K.h.....k.K.B+h
+ 0160 00f07481 40228c49 5b682846 98472846  ..t.@".I[h(F.G(F
+ 0170 fff7feff 670700f1 5f812607 00f15281  ....g..._.&...R.
+ 0180 e00600f1 4581a106 00f13881 620600f1  ....E.....8.b...
+ 0190 2b812306 00f1dd80 14f48074 40f0ad80  +.#........t@...
+ 01a0 714bd3f8 c06096b1 d3f8dc70 0122c033  qK...`.....p.".3
+ 01b0 7a481946 02330988 834212fa 81f21444  zH.F.3...B.....D
+ 01c0 f7d193b2 43ea0443 9f4200f0 7c81fff7  ....C..C.B..|...
+ 01d0 feff0120 bde8f087 2b680c22 70492846  ... ....+h."pI(F
+ 01e0 5b689847 2846fff7 feff2a68 d8f8a490  [h.G(F....*h....
+ 01f0 28466c4b d2f804a0 a3fb0927 6a497f09  (FlK.......'jI..
+ 0200 a3fb0723 26225e09 c8f8a460 d0476749  ...#&"^....`.GgI
+ 0210 0a222846 a1fb0631 23460909 01eb4101  ."(F...1#F....A.
+ 0220 a6ebc101 fff7feff 2b68c6eb 06160122  ........+h....."
+ 0230 5b682846 5e499847 2346a7eb 86010a22  [h(F^I.G#F....."
+ 0240 2846c7eb 0717fff7 feff2b68 01225849  (F........+h."XI
+ 0250 5b682846 98472346 a9eb8701 0a222846  [h(F.G#F....."(F
+ 0260 fff7feff 2846fff7 feff2b68 24225149  ....(F....+h$"QI
+ 0270 5b682846 98472346 1022d8f8 98102846  [h(F.G#F."....(F
+ 0280 fff7feff 2846fff7 feffd8f8 8860002e  ....(F.......`..
+ 0290 40f0df80 344ed6f8 8c40002c 40f0fa80  @...4N...@.,@...
+ 02a0 2b682222 44492846 5b689847 2e4b0221  +h""DI(F[h.G.K.!
+ 02b0 284693ed 280ab7ee c00afff7 feff2b68  (F..(.........+h
+ 02c0 05223e49 5b682846 98472b68 1d223c49  .">I[h(F.G+h."<I
+ 02d0 5b682846 98473b4a 3b480023 11680a22  [h(F.G;J;H.#.h."
+ 02e0 a0fb0101 2846890c fff7feff 2b680422  ....(F......+h."
+ 02f0 36495b68 28469847 2ae72b68 29223449  6I[h(F.G*.+h)"4I
+ 0300 28465b68 98472846 fff7feff 20492868  (F[h.G(F.... I(h
+ 0310 21228b68 44682846 23f48073 8b602d49  !".hDh(F#..s.`-I
+ 0320 a0472846 fff7feff 2b684222 2a495b68  .G(F....+hB"*I[h
+ 0330 28469847 2846fff7 feff284a 284b0721  (F.G(F....(J(K.!
+ 0340 1964936b 43f04003 9363bff3 4f8f30bf  .d.kC.@..c..O.0.
+ 0350 fde72b68 21222349 28465b68 98472846  ..+h!"#I(F[h.G(F
+ 0360 fff7feff 18e700bf 00ff2720 80ff2720  ..........' ..' 
+ 0370 2083b8ed a8ff2720 18050000 30050000   .....' ....0...
+ 0380 7c050000 c8050000 f0050000 38060000  |...........8...
+ 0390 00800f40 f100ad0b c4060000 dcff2720  ...@..........' 
+ 03a0 00000000 89888888 10000000 abaaaaaa  ................
+ 03b0 38000000 3c000000 c4040000 e8040000  8...<...........
+ 03c0 f0040000 00000000 83de1b43 10050000  ...........C....
+ 03d0 f8070000 24080000 48080000 00400d40  ....$...H....@.@
+ 03e0 00c00a40 d4070000 2b682122 9c492846  ...@....+h!".I(F
+ 03f0 5b689847 2846fff7 feffcae6 2b682922  [h.G(F......+h)"
+ 0400 98492846 5b689847 2846fff7 feffbde6  .I(F[h.G(F......
+ 0410 2b682622 94492846 5b689847 2846fff7  +h&".I(F[h.G(F..
+ 0420 feffb0e6 2b682a22 90492846 5b689847  ....+h*".I(F[h.G
+ 0430 2846fff7 feffa3e6 2b682722 8c492846  (F......+h'".I(F
+ 0440 5b689847 2846fff7 feff96e6 48228949  [h.G(F......H".I
+ 0450 8ae62b68 08228849 28465b68 98472346  ..+h.".I(F[h.G#F
+ 0460 1022d8f8 88102846 fff7feff 2846fff7  ."....(F....(F..
+ 0470 fefff407 69d4b007 00f15381 310700f1  ....i.....S.1...
+ 0480 4481f206 00f15d81 b30667d5 2b682a22  D.....]...g.+h*"
+ 0490 7a495de0 2b680822 79492846 5b689847  zI].+h."yI(F[h.G
+ 04a0 00231022 d6f88c10 2846fff7 feff2846  .#."....(F....(F
+ 04b0 fff7feff a00767d4 61007ff5 f1ae2b68  ......g.a.....+h
+ 04c0 1b227049 63e00124 dff8f4a1 dff8f491  ."pIc..$........
+ 04d0 dff8d481 05e00134 072c3ff4 78aed8f8  .......4.,?.x...
+ 04e0 c060631e 012707fa 03f23242 f3d009eb  .`c..'....2B....
+ 04f0 83062b68 0e225146 5b682846 98472146  ..+h."QF[h(F.G!F
+ 0500 2846fff7 feff2b68 05225f49 5b682846  (F....+h."_I[h(F
+ 0510 98477168 00230a22 2846fff7 feff2b68  .Gqh.#."(F....+h
+ 0520 04225a49 5b682846 98477168 00231022  ."ZI[h(F.Gqh.#."
+ 0530 2846fff7 feff2b68 3a465549 5b682846  (F....+h:FUI[h(F
+ 0540 98472846 fff7feff c5e72b68 28225149  .G(F......+h("QI
+ 0550 5b682846 98472846 fff7feff 37063cd4  [h(F.G(F....7.<.
+ 0560 f4051bd4 b00500f1 d8807105 00f1d180  ..........q.....
+ 0570 320500f1 e280f304 00f1db80 b70416d5  2...............
+ 0580 2b683122 44490ce0 2b682622 43492846  +h1"DI..+h&"CI(F
+ 0590 5b689847 2846fff7 feff81e6 2b682022  [h.G(F......+h "
+ 05a0 3f495b68 28469847 2846fff7 feff3404  ?I[h(F.G(F....4.
+ 05b0 40d4f003 2ed4b103 00f1b780 72034bd4  @...........r.K.
+ 05c0 330300f1 c680f701 00f1bf80 b4017ff5  3...............
+ 05d0 61ae2b68 1b223349 1fe02b68 2122324c  a.+h."3I..+h!"2L
+ 05e0 28463249 5b689847 10220023 d4f89010  (F2I[h.G.".#....
+ 05f0 2846fff7 feffd4f8 90201f2a 64d92c4b  (F....... .*d.,K
+ 0600 9a4203d3 20339a42 c0f0a780 2846fff7  .B.. 3.B....(F..
+ 0610 feffa5e7 2b682322 26495b68 2846224e  ....+h#"&I[h(F"N
+ 0620 98472846 fff7feff d6f88c40 002c3ff4  .G(F.......@.,?.
+ 0630 37ae2fe7 2b682122 1f492846 5b689847  7./.+h!".I(F[h.G
+ 0640 19490023 1022d1f8 94102846 fff7feff  .I.#."....(F....
+ 0650 2846fff7 fefface7 2b682822 1749dce7  (F......+h(".I..
+ 0660 b0070000 84070000 5c070000 30070000  ........\...0...
+ 0670 08070000 78060000 64000000 14010000  ....x...d.......
+ 0680 74040000 a8040000 9c080000 a4080000  t...............
+ 0690 ac080000 70000000 38030000 80040000  ....p...8.......
+ 06a0 28020000 58040000 00ff2720 40010000  (...X.....' @...
+ 06b0 00000000 90030000 6c030000 e8030000  ........l.......
+ 06c0 8c080000 c0ff2720 2b681e22 26492846  ......' +h."&I(F
+ 06d0 5b689847 d4f89810 00231022 2846fff7  [h.G.....#."(F..
+ 06e0 feff2b68 3e222149 5b682846 9847d4f8  ..+h>"!I[h(F.G..
+ 06f0 98100023 10222846 fff7feff 2b681d22  ...#."(F....+h."
+ 0700 1b495b68 28469847 80e72b68 29221949  .I[h(F.G..+h)".I
+ 0710 1ee72b68 44221849 43e72b68 2c221749  ..+hD".IC.+h,".I
+ 0720 3fe72b68 21221649 12e72b68 32221549  ?.+h!".I..+h2".I
+ 0730 73e72b68 33221449 33e72b68 3f221349  s.+h3".I3.+h?".I
+ 0740 2fe72b68 25221249 02e72b68 28221149  /.+h%".I..+h(".I
+ 0750 63e72b68 16221049 5fe72b68 41220f49  c.+h.".I_.+hA".I
+ 0760 28465b68 984751e7 64010000 84010000  (F[h.GQ.d.......
+ 0770 c4010000 c0000000 7c020000 4c020000  ........|...L...
+ 0780 9c000000 b4030000 04030000 c4020000  ................
+ 0790 ec000000 2c040000 14040000 e4010000  ....,...........
+ 07a0 124bd3f8 80300b2b 1ed14ff0 ff321048  .K...0.+..O..2.H
+ 07b0 30b5104d 104c01e0 6b687546 05f1040e  0..M.L..khuF....
+ 07c0 5a402021 02f00103 013900fb 03f383ea  Z@ !.....9......
+ 07d0 5202f7d1 a645efd1 044bd3f8 a800801a  R....E...K......
+ 07e0 b0fa80f0 400930bd 00207047 00ff2720  ....@.0.. pG..' 
+ 07f0 2083b8ed 80ff2720 a8ff2720            .....' ..'     
+Contents of section .rodata.str1.4:
+ 0000 43726173 68526570 6f72743a 00000000  CrashReport:....
+ 0010 20204120 70726f62 6c656d20 6f636375    A problem occu
+ 0020 72726564 20617420 28737973 74656d20  rred at (system 
+ 0030 74696d65 29200000 3a000000 2020436f  time) ..:...  Co
+ 0040 64652077 61732065 78656375 74696e67  de was executing
+ 0050 2066726f 6d206164 64726573 73203078   from address 0x
+ 0060 00000000 20204346 53523a20 00000000  ....  CFSR: ....
+ 0070 09284941 43435649 4f4c2920 496e7374  .(IACCVIOL) Inst
+ 0080 72756374 696f6e20 41636365 73732056  ruction Access V
+ 0090 696f6c61 74696f6e 00000000 09284441  iolation.....(DA
+ 00a0 43435649 4f4c2920 44617461 20416363  CCVIOL) Data Acc
+ 00b0 65737320 56696f6c 6174696f 6e000000  ess Violation...
+ 00c0 09284d55 4e53544b 45525229 204d656d  .(MUNSTKERR) Mem
+ 00d0 4d616e67 65204661 756c7420 6f6e2055  Mange Fault on U
+ 00e0 6e737461 636b696e 67000000 09284d53  nstacking....(MS
+ 00f0 544b4552 5229204d 656d4d61 6e676520  TKERR) MemMange 
+ 0100 4661756c 74206f6e 20737461 636b696e  Fault on stackin
+ 0110 67000000 09284d4c 53504552 5229204d  g....(MLSPERR) M
+ 0120 656d4d61 6e676520 4661756c 74206f6e  emMange Fault on
+ 0130 20465020 4c617a79 20537461 74650000   FP Lazy State..
+ 0140 09284d4d 41525641 4c494429 20416363  .(MMARVALID) Acc
+ 0150 65737365 64204164 64726573 733a2030  essed Address: 0
+ 0160 78000000 20286e75 6c6c7074 72290a09  x... (nullptr)..
+ 0170 20204368 65636b20 636f6465 20617420    Check code at 
+ 0180 30780000 202d2076 65727920 6c696b65  0x.. - very like
+ 0190 6c792061 20627567 210a0920 2052756e  ly a bug!..  Run
+ 01a0 20226164 6472326c 696e6520 2d65206d   "addr2line -e m
+ 01b0 79736b65 7463682e 696e6f2e 656c6620  ysketch.ino.elf 
+ 01c0 30780000 2220666f 72206669 6c656e61  0x.." for filena
+ 01d0 6d652026 206c696e 65206e75 6d626572  me & line number
+ 01e0 2e000000 20285374 61636b20 70726f62  .... (Stack prob
+ 01f0 6c656d29 0a092020 43686563 6b20666f  lem)..  Check fo
+ 0200 72207374 61636b20 6f766572 666c6f77  r stack overflow
+ 0210 732c2061 72726179 20626f75 6e64732c  s, array bounds,
+ 0220 20657463 2e000000 09284942 55534552   etc.....(IBUSER
+ 0230 52292049 6e737472 75637469 6f6e2042  R) Instruction B
+ 0240 75732045 72726f72 00000000 09285052  us Error.....(PR
+ 0250 45434953 45525229 20446174 61206275  ECISERR) Data bu
+ 0260 73206572 726f7228 61646472 65737320  s error(address 
+ 0270 696e2042 46415229 00000000 0928494d  in BFAR).....(IM
+ 0280 50524543 49534552 52292044 61746120  PRECISERR) Data 
+ 0290 62757320 6572726f 72206275 74206164  bus error but ad
+ 02a0 64726573 73206e6f 74207265 6c617465  dress not relate
+ 02b0 6420746f 20696e73 74727563 74696f6e  d to instruction
+ 02c0 00000000 0928554e 53544b45 52522920  .....(UNSTKERR) 
+ 02d0 42757320 4661756c 74206f6e 20756e73  Bus Fault on uns
+ 02e0 7461636b 696e6720 666f7220 61207265  tacking for a re
+ 02f0 7475726e 2066726f 6d206578 63657074  turn from except
+ 0300 696f6e00 09285354 4b455252 29204275  ion..(STKERR) Bu
+ 0310 73204661 756c7420 6f6e2073 7461636b  s Fault on stack
+ 0320 696e6720 666f7220 65786365 7074696f  ing for exceptio
+ 0330 6e20656e 74727900 09284c53 50455252  n entry..(LSPERR
+ 0340 29204275 73204661 756c7420 6f6e2046  ) Bus Fault on F
+ 0350 50206c61 7a792073 74617465 20707265  P lazy state pre
+ 0360 73657276 6174696f 6e000000 09284246  servation....(BF
+ 0370 41525641 4c494429 20416363 65737365  ARVALID) Accesse
+ 0380 64204164 64726573 733a2030 78000000  d Address: 0x...
+ 0390 0928554e 44454649 4e535452 2920556e  .(UNDEFINSTR) Un
+ 03a0 64656669 6e656420 696e7374 72756374  defined instruct
+ 03b0 696f6e00 0928494e 56535441 54452920  ion..(INVSTATE) 
+ 03c0 496e7374 72756374 696f6e20 6d616b65  Instruction make
+ 03d0 7320696c 6c656761 6c207573 65206f66  s illegal use of
+ 03e0 20455053 52290000 0928494e 56504329   EPSR)...(INVPC)
+ 03f0 20557361 67652066 61756c74 3a20696e   Usage fault: in
+ 0400 76616c69 64204558 435f5245 5455524e  valid EXC_RETURN
+ 0410 00000000 09284e4f 43502920 4e6f2043  .....(NOCP) No C
+ 0420 6f70726f 63657373 6f720000 0928554e  oprocessor...(UN
+ 0430 414c4947 4e454429 20556e61 6c69676e  ALIGNED) Unalign
+ 0440 65642061 63636573 73205573 61676546  ed access UsageF
+ 0450 61756c74 00000000 09284449 5642595a  ault.....(DIVBYZ
+ 0460 45524f29 20446976 69646520 6279207a  ERO) Divide by z
+ 0470 65726f00 20204854 53523a20 00000000  ero.  HTSR: ....
+ 0480 09285645 43545442 4c292042 75732046  .(VECTTBL) Bus F
+ 0490 61756c74 206f6e20 56656320 5461626c  ault on Vec Tabl
+ 04a0 65205265 61640000 0928464f 52434544  e Read...(FORCED
+ 04b0 2920466f 72636564 20486172 64204661  ) Forced Hard Fa
+ 04c0 756c7400 20205465 6d706572 61747572  ult.  Temperatur
+ 04d0 6520696e 73696465 20746865 20636869  e inside the chi
+ 04e0 70207761 73200000 20c2b043 0a000000  p was .. ..C....
+ 04f0 20205374 61727475 70204350 5520636c    Startup CPU cl
+ 0500 6f636b20 73706565 64206973 20000000  ock speed is ...
+ 0510 4d487a0a 00000000 4e6f2043 72617368  MHz.....No Crash
+ 0520 20446174 6120546f 20526570 6f727400   Data To Report.
+ 0530 2020486f 70656675 6c6c7920 616c6c20    Hopefully all 
+ 0540 69732077 656c6c2c 20627574 20636572  is well, but cer
+ 0550 7461696e 20747970 6573206f 66206372  tain types of cr
+ 0560 61736865 73206361 6e277420 62652072  ashes can't be r
+ 0570 65706f72 7465643a 00000000 09737475  eported:.....stu
+ 0580 636b2069 6e20616e 20696e66 696e6974  ck in an infinit
+ 0590 65206c6f 6f702028 74656368 6e696361  e loop (technica
+ 05a0 6c6c792c 20686172 64776172 65207374  lly, hardware st
+ 05b0 696c6c20 72756e6e 696e6720 70726f70  ill running prop
+ 05c0 65726c79 29000000 0972656d 61696e69  erly)....remaini
+ 05d0 6e672069 6e206120 6c6f7720 706f7765  ng in a low powe
+ 05e0 7220736c 65657020 6d6f6465 00000000  r sleep mode....
+ 05f0 09616363 65737320 746f2063 65727461  .access to certa
+ 0600 696e2070 65726970 68657261 6c732077  in peripherals w
+ 0610 6974686f 75742074 68656972 20636c6f  ithout their clo
+ 0620 636b2065 6e61626c 65642028 65672c20  ck enabled (eg, 
+ 0630 466c6578 494f2900 09636861 6e676520  FlexIO)..change 
+ 0640 6f662043 5055206f 72206275 7320636c  of CPU or bus cl
+ 0650 6f636b20 73706565 64207769 74686f75  ock speed withou
+ 0660 74207573 65206f66 20676c69 7463686c  t use of glitchl
+ 0670 65737320 6d757800 20205265 626f6f74  ess mux.  Reboot
+ 0680 20776173 20636175 73656420 62792061   was caused by a
+ 0690 75746f20 7265626f 6f742061 66746572  uto reboot after
+ 06a0 20666175 6c74206f 72206261 6420696e   fault or bad in
+ 06b0 74657272 75707420 64657465 63746564  terrupt detected
+ 06c0 00000000 20205265 626f6f74 20776173  ....  Reboot was
+ 06d0 20636175 73656420 62792073 6f667477   caused by softw
+ 06e0 61726520 77726974 6520746f 20534342  are write to SCB
+ 06f0 5f414952 4352206f 72204350 55206c6f  _AIRCR or CPU lo
+ 0700 636b7570 00000000 20205265 626f6f74  ckup....  Reboot
+ 0710 20776173 20636175 73656420 62792073   was caused by s
+ 0720 65637572 69747920 6d6f6e69 746f7200  ecurity monitor.
+ 0730 20205265 626f6f74 20776173 20636175    Reboot was cau
+ 0740 73656420 62792070 6f776572 206f6e2f  sed by power on/
+ 0750 6f666620 62757474 6f6e0000 20205265  off button..  Re
+ 0760 626f6f74 20776173 20636175 73656420  boot was caused 
+ 0770 62792077 61746368 646f6720 31206f72  by watchdog 1 or
+ 0780 20320000 20205265 626f6f74 20776173   2..  Reboot was
+ 0790 20636175 73656420 6279204a 54414720   caused by JTAG 
+ 07a0 626f756e 64617279 20736361 6e000000  boundary scan...
+ 07b0 20205265 626f6f74 20776173 20636175    Reboot was cau
+ 07c0 73656420 6279204a 54414720 64656275  sed by JTAG debu
+ 07d0 67000000 20205265 626f6f74 20776173  g...  Reboot was
+ 07e0 20636175 73656420 62792077 61746368   caused by watch
+ 07f0 646f6720 33000000 20205265 626f6f74  dog 3...  Reboot
+ 0800 20776173 20636175 73656420 62792074   was caused by t
+ 0810 656d7065 72617475 72652073 656e736f  emperature senso
+ 0820 72000000 50616e69 63205465 6d702045  r...Panic Temp E
+ 0830 78636565 64656420 53687574 74696e67  xceeded Shutting
+ 0840 20446f77 6e000000 43616e20 62652063   Down...Can be c
+ 0850 61757365 64206279 204f7665 72636c6f  aused by Overclo
+ 0860 636b696e 6720772f 6f204865 61747369  cking w/o Heatsi
+ 0870 6e6b206f 72206f74 68657220 756e6b6e  nk or other unkn
+ 0880 6f776e20 72656173 6f6e0000 20204272  own reason..  Br
+ 0890 65616463 72756d62 20230000 20776173  eadcrumb #.. was
+ 08a0 20000000 20283078 00000000 2900       ... (0x....).  
+Contents of section .data.CrashReport:
+ 0000 08000000                             ....            
+Contents of section .rodata._ZTV16CrashReportClass:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .flashmem:
+
+00000000 <_ZN16CrashReportClass5clearEv>:
+   0:	4b20      	ldr	r3, [pc, #128]	; (84 <_ZN16CrashReportClass5clearEv+0x84>)
+   2:	2000      	movs	r0, #0
+   4:	b430      	push	{r4, r5}
+   6:	e9c3 0020 	strd	r0, r0, [r3, #128]	; 0x80
+   a:	e9c3 0022 	strd	r0, r0, [r3, #136]	; 0x88
+   e:	e9c3 0024 	strd	r0, r0, [r3, #144]	; 0x90
+  12:	e9c3 0026 	strd	r0, r0, [r3, #152]	; 0x98
+  16:	f8c3 00a8 	str.w	r0, [r3, #168]	; 0xa8
+  1a:	f3bf 8f4f 	dsb	sy
+  1e:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  22:	4919      	ldr	r1, [pc, #100]	; (88 <_ZN16CrashReportClass5clearEv+0x88>)
+  24:	4a19      	ldr	r2, [pc, #100]	; (8c <_ZN16CrashReportClass5clearEv+0x8c>)
+  26:	f8c3 1f70 	str.w	r1, [r3, #3952]	; 0xf70
+  2a:	f8c3 2f70 	str.w	r2, [r3, #3952]	; 0xf70
+  2e:	f3bf 8f4f 	dsb	sy
+  32:	f3bf 8f6f 	isb	sy
+  36:	4b16      	ldr	r3, [pc, #88]	; (90 <_ZN16CrashReportClass5clearEv+0x90>)
+  38:	4601      	mov	r1, r0
+  3a:	4c16      	ldr	r4, [pc, #88]	; (94 <_ZN16CrashReportClass5clearEv+0x94>)
+  3c:	2201      	movs	r2, #1
+  3e:	689d      	ldr	r5, [r3, #8]
+  40:	f604 74dc 	addw	r4, r4, #4060	; 0xfdc
+  44:	609d      	str	r5, [r3, #8]
+  46:	6318      	str	r0, [r3, #48]	; 0x30
+  48:	4b13      	ldr	r3, [pc, #76]	; (98 <_ZN16CrashReportClass5clearEv+0x98>)
+  4a:	f844 0c1c 	str.w	r0, [r4, #-28]
+  4e:	4618      	mov	r0, r3
+  50:	3302      	adds	r3, #2
+  52:	8800      	ldrh	r0, [r0, #0]
+  54:	42a3      	cmp	r3, r4
+  56:	fa12 f280 	uxtah	r2, r2, r0
+  5a:	4411      	add	r1, r2
+  5c:	d1f7      	bne.n	4e <_ZN16CrashReportClass5clearEv+0x4e>
+  5e:	b292      	uxth	r2, r2
+  60:	4b0c      	ldr	r3, [pc, #48]	; (94 <_ZN16CrashReportClass5clearEv+0x94>)
+  62:	ea42 4201 	orr.w	r2, r2, r1, lsl #16
+  66:	f8c3 2fdc 	str.w	r2, [r3, #4060]	; 0xfdc
+  6a:	f3bf 8f4f 	dsb	sy
+  6e:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  72:	4a09      	ldr	r2, [pc, #36]	; (98 <_ZN16CrashReportClass5clearEv+0x98>)
+  74:	f8c3 2f68 	str.w	r2, [r3, #3944]	; 0xf68
+  78:	f3bf 8f4f 	dsb	sy
+  7c:	f3bf 8f6f 	isb	sy
+  80:	bc30      	pop	{r4, r5}
+  82:	4770      	bx	lr
+  84:	2027ff00 	.word	0x2027ff00
+  88:	2027ff80 	.word	0x2027ff80
+  8c:	2027ffa0 	.word	0x2027ffa0
+  90:	400f8000 	.word	0x400f8000
+  94:	2027f000 	.word	0x2027f000
+  98:	2027ffc0 	.word	0x2027ffc0
+
+0000009c <_ZNK16CrashReportClass7printToER5Print>:
+  9c:	4bb2      	ldr	r3, [pc, #712]	; (368 <_ZNK16CrashReportClass7printToER5Print+0x2cc>)
+  9e:	f8d3 2080 	ldr.w	r2, [r3, #128]	; 0x80
+  a2:	2a0b      	cmp	r2, #11
+  a4:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+  a8:	460d      	mov	r5, r1
+  aa:	d11b      	bne.n	e4 <_ZNK16CrashReportClass7printToER5Print+0x48>
+  ac:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  b0:	49ae      	ldr	r1, [pc, #696]	; (36c <_ZNK16CrashReportClass7printToER5Print+0x2d0>)
+  b2:	4baf      	ldr	r3, [pc, #700]	; (370 <_ZNK16CrashReportClass7printToER5Print+0x2d4>)
+  b4:	4eaf      	ldr	r6, [pc, #700]	; (374 <_ZNK16CrashReportClass7printToER5Print+0x2d8>)
+  b6:	f101 0c04 	add.w	ip, r1, #4
+  ba:	4050      	eors	r0, r2
+  bc:	2420      	movs	r4, #32
+  be:	f000 0201 	and.w	r2, r0, #1
+  c2:	3c01      	subs	r4, #1
+  c4:	fb03 f202 	mul.w	r2, r3, r2
+  c8:	ea82 0050 	eor.w	r0, r2, r0, lsr #1
+  cc:	d1f7      	bne.n	be <_ZNK16CrashReportClass7printToER5Print+0x22>
+  ce:	45b4      	cmp	ip, r6
+  d0:	d002      	beq.n	d8 <_ZNK16CrashReportClass7printToER5Print+0x3c>
+  d2:	684a      	ldr	r2, [r1, #4]
+  d4:	4661      	mov	r1, ip
+  d6:	e7ee      	b.n	b6 <_ZNK16CrashReportClass7printToER5Print+0x1a>
+  d8:	f8df 828c 	ldr.w	r8, [pc, #652]	; 368 <_ZNK16CrashReportClass7printToER5Print+0x2cc>
+  dc:	f8d8 30a8 	ldr.w	r3, [r8, #168]	; 0xa8
+  e0:	4298      	cmp	r0, r3
+  e2:	d079      	beq.n	1d8 <_ZNK16CrashReportClass7printToER5Print+0x13c>
+  e4:	682b      	ldr	r3, [r5, #0]
+  e6:	2217      	movs	r2, #23
+  e8:	49a3      	ldr	r1, [pc, #652]	; (378 <_ZNK16CrashReportClass7printToER5Print+0x2dc>)
+  ea:	4628      	mov	r0, r5
+  ec:	685b      	ldr	r3, [r3, #4]
+  ee:	4798      	blx	r3
+  f0:	4628      	mov	r0, r5
+  f2:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  f6:	682b      	ldr	r3, [r5, #0]
+  f8:	2248      	movs	r2, #72	; 0x48
+  fa:	49a0      	ldr	r1, [pc, #640]	; (37c <_ZNK16CrashReportClass7printToER5Print+0x2e0>)
+  fc:	685b      	ldr	r3, [r3, #4]
+  fe:	4628      	mov	r0, r5
+ 100:	4798      	blx	r3
+ 102:	4628      	mov	r0, r5
+ 104:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 108:	682b      	ldr	r3, [r5, #0]
+ 10a:	2249      	movs	r2, #73	; 0x49
+ 10c:	499c      	ldr	r1, [pc, #624]	; (380 <_ZNK16CrashReportClass7printToER5Print+0x2e4>)
+ 10e:	685b      	ldr	r3, [r3, #4]
+ 110:	4628      	mov	r0, r5
+ 112:	4798      	blx	r3
+ 114:	4628      	mov	r0, r5
+ 116:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 11a:	682b      	ldr	r3, [r5, #0]
+ 11c:	2224      	movs	r2, #36	; 0x24
+ 11e:	4999      	ldr	r1, [pc, #612]	; (384 <_ZNK16CrashReportClass7printToER5Print+0x2e8>)
+ 120:	685b      	ldr	r3, [r3, #4]
+ 122:	4628      	mov	r0, r5
+ 124:	4798      	blx	r3
+ 126:	4628      	mov	r0, r5
+ 128:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 12c:	682b      	ldr	r3, [r5, #0]
+ 12e:	2247      	movs	r2, #71	; 0x47
+ 130:	4995      	ldr	r1, [pc, #596]	; (388 <_ZNK16CrashReportClass7printToER5Print+0x2ec>)
+ 132:	685b      	ldr	r3, [r3, #4]
+ 134:	4628      	mov	r0, r5
+ 136:	4798      	blx	r3
+ 138:	4628      	mov	r0, r5
+ 13a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 13e:	682b      	ldr	r3, [r5, #0]
+ 140:	223f      	movs	r2, #63	; 0x3f
+ 142:	4992      	ldr	r1, [pc, #584]	; (38c <_ZNK16CrashReportClass7printToER5Print+0x2f0>)
+ 144:	685b      	ldr	r3, [r3, #4]
+ 146:	4628      	mov	r0, r5
+ 148:	4798      	blx	r3
+ 14a:	4628      	mov	r0, r5
+ 14c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 150:	4b8f      	ldr	r3, [pc, #572]	; (390 <_ZNK16CrashReportClass7printToER5Print+0x2f4>)
+ 152:	689c      	ldr	r4, [r3, #8]
+ 154:	07a2      	lsls	r2, r4, #30
+ 156:	d50d      	bpl.n	174 <_ZNK16CrashReportClass7printToER5Print+0xd8>
+ 158:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+ 15a:	4b8e      	ldr	r3, [pc, #568]	; (394 <_ZNK16CrashReportClass7printToER5Print+0x2f8>)
+ 15c:	429a      	cmp	r2, r3
+ 15e:	682b      	ldr	r3, [r5, #0]
+ 160:	f000 8174 	beq.w	44c <_ZNK16CrashReportClass7printToER5Print+0x3b0>
+ 164:	2240      	movs	r2, #64	; 0x40
+ 166:	498c      	ldr	r1, [pc, #560]	; (398 <_ZNK16CrashReportClass7printToER5Print+0x2fc>)
+ 168:	685b      	ldr	r3, [r3, #4]
+ 16a:	4628      	mov	r0, r5
+ 16c:	4798      	blx	r3
+ 16e:	4628      	mov	r0, r5
+ 170:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 174:	0767      	lsls	r7, r4, #29
+ 176:	f100 815f 	bmi.w	438 <_ZNK16CrashReportClass7printToER5Print+0x39c>
+ 17a:	0726      	lsls	r6, r4, #28
+ 17c:	f100 8152 	bmi.w	424 <_ZNK16CrashReportClass7printToER5Print+0x388>
+ 180:	06e0      	lsls	r0, r4, #27
+ 182:	f100 8145 	bmi.w	410 <_ZNK16CrashReportClass7printToER5Print+0x374>
+ 186:	06a1      	lsls	r1, r4, #26
+ 188:	f100 8138 	bmi.w	3fc <_ZNK16CrashReportClass7printToER5Print+0x360>
+ 18c:	0662      	lsls	r2, r4, #25
+ 18e:	f100 812b 	bmi.w	3e8 <_ZNK16CrashReportClass7printToER5Print+0x34c>
+ 192:	0623      	lsls	r3, r4, #24
+ 194:	f100 80dd 	bmi.w	352 <_ZNK16CrashReportClass7printToER5Print+0x2b6>
+ 198:	f414 7480 	ands.w	r4, r4, #256	; 0x100
+ 19c:	f040 80ad 	bne.w	2fa <_ZNK16CrashReportClass7printToER5Print+0x25e>
+ 1a0:	4b71      	ldr	r3, [pc, #452]	; (368 <_ZNK16CrashReportClass7printToER5Print+0x2cc>)
+ 1a2:	f8d3 60c0 	ldr.w	r6, [r3, #192]	; 0xc0
+ 1a6:	b196      	cbz	r6, 1ce <_ZNK16CrashReportClass7printToER5Print+0x132>
+ 1a8:	f8d3 70dc 	ldr.w	r7, [r3, #220]	; 0xdc
+ 1ac:	2201      	movs	r2, #1
+ 1ae:	33c0      	adds	r3, #192	; 0xc0
+ 1b0:	487a      	ldr	r0, [pc, #488]	; (39c <_ZNK16CrashReportClass7printToER5Print+0x300>)
+ 1b2:	4619      	mov	r1, r3
+ 1b4:	3302      	adds	r3, #2
+ 1b6:	8809      	ldrh	r1, [r1, #0]
+ 1b8:	4283      	cmp	r3, r0
+ 1ba:	fa12 f281 	uxtah	r2, r2, r1
+ 1be:	4414      	add	r4, r2
+ 1c0:	d1f7      	bne.n	1b2 <_ZNK16CrashReportClass7printToER5Print+0x116>
+ 1c2:	b293      	uxth	r3, r2
+ 1c4:	ea43 4304 	orr.w	r3, r3, r4, lsl #16
+ 1c8:	429f      	cmp	r7, r3
+ 1ca:	f000 817c 	beq.w	4c6 <_ZNK16CrashReportClass7printToER5Print+0x42a>
+ 1ce:	f7ff fffe 	bl	0 <_ZN16CrashReportClass5clearEv>
+ 1d2:	2001      	movs	r0, #1
+ 1d4:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 1d8:	682b      	ldr	r3, [r5, #0]
+ 1da:	220c      	movs	r2, #12
+ 1dc:	4970      	ldr	r1, [pc, #448]	; (3a0 <_ZNK16CrashReportClass7printToER5Print+0x304>)
+ 1de:	4628      	mov	r0, r5
+ 1e0:	685b      	ldr	r3, [r3, #4]
+ 1e2:	4798      	blx	r3
+ 1e4:	4628      	mov	r0, r5
+ 1e6:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 1ea:	682a      	ldr	r2, [r5, #0]
+ 1ec:	f8d8 90a4 	ldr.w	r9, [r8, #164]	; 0xa4
+ 1f0:	4628      	mov	r0, r5
+ 1f2:	4b6c      	ldr	r3, [pc, #432]	; (3a4 <_ZNK16CrashReportClass7printToER5Print+0x308>)
+ 1f4:	f8d2 a004 	ldr.w	sl, [r2, #4]
+ 1f8:	fba3 2709 	umull	r2, r7, r3, r9
+ 1fc:	496a      	ldr	r1, [pc, #424]	; (3a8 <_ZNK16CrashReportClass7printToER5Print+0x30c>)
+ 1fe:	097f      	lsrs	r7, r7, #5
+ 200:	fba3 2307 	umull	r2, r3, r3, r7
+ 204:	2226      	movs	r2, #38	; 0x26
+ 206:	095e      	lsrs	r6, r3, #5
+ 208:	f8c8 60a4 	str.w	r6, [r8, #164]	; 0xa4
+ 20c:	47d0      	blx	sl
+ 20e:	4967      	ldr	r1, [pc, #412]	; (3ac <_ZNK16CrashReportClass7printToER5Print+0x310>)
+ 210:	220a      	movs	r2, #10
+ 212:	4628      	mov	r0, r5
+ 214:	fba1 3106 	umull	r3, r1, r1, r6
+ 218:	4623      	mov	r3, r4
+ 21a:	0909      	lsrs	r1, r1, #4
+ 21c:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+ 220:	eba6 01c1 	sub.w	r1, r6, r1, lsl #3
+ 224:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 228:	682b      	ldr	r3, [r5, #0]
+ 22a:	ebc6 1606 	rsb	r6, r6, r6, lsl #4
+ 22e:	2201      	movs	r2, #1
+ 230:	685b      	ldr	r3, [r3, #4]
+ 232:	4628      	mov	r0, r5
+ 234:	495e      	ldr	r1, [pc, #376]	; (3b0 <_ZNK16CrashReportClass7printToER5Print+0x314>)
+ 236:	4798      	blx	r3
+ 238:	4623      	mov	r3, r4
+ 23a:	eba7 0186 	sub.w	r1, r7, r6, lsl #2
+ 23e:	220a      	movs	r2, #10
+ 240:	4628      	mov	r0, r5
+ 242:	ebc7 1707 	rsb	r7, r7, r7, lsl #4
+ 246:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 24a:	682b      	ldr	r3, [r5, #0]
+ 24c:	2201      	movs	r2, #1
+ 24e:	4958      	ldr	r1, [pc, #352]	; (3b0 <_ZNK16CrashReportClass7printToER5Print+0x314>)
+ 250:	685b      	ldr	r3, [r3, #4]
+ 252:	4628      	mov	r0, r5
+ 254:	4798      	blx	r3
+ 256:	4623      	mov	r3, r4
+ 258:	eba9 0187 	sub.w	r1, r9, r7, lsl #2
+ 25c:	220a      	movs	r2, #10
+ 25e:	4628      	mov	r0, r5
+ 260:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 264:	4628      	mov	r0, r5
+ 266:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 26a:	682b      	ldr	r3, [r5, #0]
+ 26c:	2224      	movs	r2, #36	; 0x24
+ 26e:	4951      	ldr	r1, [pc, #324]	; (3b4 <_ZNK16CrashReportClass7printToER5Print+0x318>)
+ 270:	685b      	ldr	r3, [r3, #4]
+ 272:	4628      	mov	r0, r5
+ 274:	4798      	blx	r3
+ 276:	4623      	mov	r3, r4
+ 278:	2210      	movs	r2, #16
+ 27a:	f8d8 1098 	ldr.w	r1, [r8, #152]	; 0x98
+ 27e:	4628      	mov	r0, r5
+ 280:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 284:	4628      	mov	r0, r5
+ 286:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 28a:	f8d8 6088 	ldr.w	r6, [r8, #136]	; 0x88
+ 28e:	2e00      	cmp	r6, #0
+ 290:	f040 80df 	bne.w	452 <_ZNK16CrashReportClass7printToER5Print+0x3b6>
+ 294:	4e34      	ldr	r6, [pc, #208]	; (368 <_ZNK16CrashReportClass7printToER5Print+0x2cc>)
+ 296:	f8d6 408c 	ldr.w	r4, [r6, #140]	; 0x8c
+ 29a:	2c00      	cmp	r4, #0
+ 29c:	f040 80fa 	bne.w	494 <_ZNK16CrashReportClass7printToER5Print+0x3f8>
+ 2a0:	682b      	ldr	r3, [r5, #0]
+ 2a2:	2222      	movs	r2, #34	; 0x22
+ 2a4:	4944      	ldr	r1, [pc, #272]	; (3b8 <_ZNK16CrashReportClass7printToER5Print+0x31c>)
+ 2a6:	4628      	mov	r0, r5
+ 2a8:	685b      	ldr	r3, [r3, #4]
+ 2aa:	4798      	blx	r3
+ 2ac:	4b2e      	ldr	r3, [pc, #184]	; (368 <_ZNK16CrashReportClass7printToER5Print+0x2cc>)
+ 2ae:	2102      	movs	r1, #2
+ 2b0:	4628      	mov	r0, r5
+ 2b2:	ed93 0a28 	vldr	s0, [r3, #160]	; 0xa0
+ 2b6:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+ 2ba:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+ 2be:	682b      	ldr	r3, [r5, #0]
+ 2c0:	2205      	movs	r2, #5
+ 2c2:	493e      	ldr	r1, [pc, #248]	; (3bc <_ZNK16CrashReportClass7printToER5Print+0x320>)
+ 2c4:	685b      	ldr	r3, [r3, #4]
+ 2c6:	4628      	mov	r0, r5
+ 2c8:	4798      	blx	r3
+ 2ca:	682b      	ldr	r3, [r5, #0]
+ 2cc:	221d      	movs	r2, #29
+ 2ce:	493c      	ldr	r1, [pc, #240]	; (3c0 <_ZNK16CrashReportClass7printToER5Print+0x324>)
+ 2d0:	685b      	ldr	r3, [r3, #4]
+ 2d2:	4628      	mov	r0, r5
+ 2d4:	4798      	blx	r3
+ 2d6:	4a3b      	ldr	r2, [pc, #236]	; (3c4 <_ZNK16CrashReportClass7printToER5Print+0x328>)
+ 2d8:	483b      	ldr	r0, [pc, #236]	; (3c8 <_ZNK16CrashReportClass7printToER5Print+0x32c>)
+ 2da:	2300      	movs	r3, #0
+ 2dc:	6811      	ldr	r1, [r2, #0]
+ 2de:	220a      	movs	r2, #10
+ 2e0:	fba0 0101 	umull	r0, r1, r0, r1
+ 2e4:	4628      	mov	r0, r5
+ 2e6:	0c89      	lsrs	r1, r1, #18
+ 2e8:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 2ec:	682b      	ldr	r3, [r5, #0]
+ 2ee:	2204      	movs	r2, #4
+ 2f0:	4936      	ldr	r1, [pc, #216]	; (3cc <_ZNK16CrashReportClass7printToER5Print+0x330>)
+ 2f2:	685b      	ldr	r3, [r3, #4]
+ 2f4:	4628      	mov	r0, r5
+ 2f6:	4798      	blx	r3
+ 2f8:	e72a      	b.n	150 <_ZNK16CrashReportClass7printToER5Print+0xb4>
+ 2fa:	682b      	ldr	r3, [r5, #0]
+ 2fc:	2229      	movs	r2, #41	; 0x29
+ 2fe:	4934      	ldr	r1, [pc, #208]	; (3d0 <_ZNK16CrashReportClass7printToER5Print+0x334>)
+ 300:	4628      	mov	r0, r5
+ 302:	685b      	ldr	r3, [r3, #4]
+ 304:	4798      	blx	r3
+ 306:	4628      	mov	r0, r5
+ 308:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 30c:	4920      	ldr	r1, [pc, #128]	; (390 <_ZNK16CrashReportClass7printToER5Print+0x2f4>)
+ 30e:	6828      	ldr	r0, [r5, #0]
+ 310:	2221      	movs	r2, #33	; 0x21
+ 312:	688b      	ldr	r3, [r1, #8]
+ 314:	6844      	ldr	r4, [r0, #4]
+ 316:	4628      	mov	r0, r5
+ 318:	f423 7380 	bic.w	r3, r3, #256	; 0x100
+ 31c:	608b      	str	r3, [r1, #8]
+ 31e:	492d      	ldr	r1, [pc, #180]	; (3d4 <_ZNK16CrashReportClass7printToER5Print+0x338>)
+ 320:	47a0      	blx	r4
+ 322:	4628      	mov	r0, r5
+ 324:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 328:	682b      	ldr	r3, [r5, #0]
+ 32a:	2242      	movs	r2, #66	; 0x42
+ 32c:	492a      	ldr	r1, [pc, #168]	; (3d8 <_ZNK16CrashReportClass7printToER5Print+0x33c>)
+ 32e:	685b      	ldr	r3, [r3, #4]
+ 330:	4628      	mov	r0, r5
+ 332:	4798      	blx	r3
+ 334:	4628      	mov	r0, r5
+ 336:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 33a:	4a28      	ldr	r2, [pc, #160]	; (3dc <_ZNK16CrashReportClass7printToER5Print+0x340>)
+ 33c:	4b28      	ldr	r3, [pc, #160]	; (3e0 <_ZNK16CrashReportClass7printToER5Print+0x344>)
+ 33e:	2107      	movs	r1, #7
+ 340:	6419      	str	r1, [r3, #64]	; 0x40
+ 342:	6b93      	ldr	r3, [r2, #56]	; 0x38
+ 344:	f043 0340 	orr.w	r3, r3, #64	; 0x40
+ 348:	6393      	str	r3, [r2, #56]	; 0x38
+ 34a:	f3bf 8f4f 	dsb	sy
+ 34e:	bf30      	wfi
+ 350:	e7fd      	b.n	34e <_ZNK16CrashReportClass7printToER5Print+0x2b2>
+ 352:	682b      	ldr	r3, [r5, #0]
+ 354:	2221      	movs	r2, #33	; 0x21
+ 356:	4923      	ldr	r1, [pc, #140]	; (3e4 <_ZNK16CrashReportClass7printToER5Print+0x348>)
+ 358:	4628      	mov	r0, r5
+ 35a:	685b      	ldr	r3, [r3, #4]
+ 35c:	4798      	blx	r3
+ 35e:	4628      	mov	r0, r5
+ 360:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 364:	e718      	b.n	198 <_ZNK16CrashReportClass7printToER5Print+0xfc>
+ 366:	bf00      	nop
+ 368:	2027ff00 	.word	0x2027ff00
+ 36c:	2027ff80 	.word	0x2027ff80
+ 370:	edb88320 	.word	0xedb88320
+ 374:	2027ffa8 	.word	0x2027ffa8
+ 378:	00000518 	.word	0x00000518
+ 37c:	00000530 	.word	0x00000530
+ 380:	0000057c 	.word	0x0000057c
+ 384:	000005c8 	.word	0x000005c8
+ 388:	000005f0 	.word	0x000005f0
+ 38c:	00000638 	.word	0x00000638
+ 390:	400f8000 	.word	0x400f8000
+ 394:	0bad00f1 	.word	0x0bad00f1
+ 398:	000006c4 	.word	0x000006c4
+ 39c:	2027ffdc 	.word	0x2027ffdc
+ 3a0:	00000000 	.word	0x00000000
+ 3a4:	88888889 	.word	0x88888889
+ 3a8:	00000010 	.word	0x00000010
+ 3ac:	aaaaaaab 	.word	0xaaaaaaab
+ 3b0:	00000038 	.word	0x00000038
+ 3b4:	0000003c 	.word	0x0000003c
+ 3b8:	000004c4 	.word	0x000004c4
+ 3bc:	000004e8 	.word	0x000004e8
+ 3c0:	000004f0 	.word	0x000004f0
+ 3c4:	00000000 	.word	0x00000000
+ 3c8:	431bde83 	.word	0x431bde83
+ 3cc:	00000510 	.word	0x00000510
+ 3d0:	000007f8 	.word	0x000007f8
+ 3d4:	00000824 	.word	0x00000824
+ 3d8:	00000848 	.word	0x00000848
+ 3dc:	400d4000 	.word	0x400d4000
+ 3e0:	400ac000 	.word	0x400ac000
+ 3e4:	000007d4 	.word	0x000007d4
+ 3e8:	682b      	ldr	r3, [r5, #0]
+ 3ea:	2221      	movs	r2, #33	; 0x21
+ 3ec:	499c      	ldr	r1, [pc, #624]	; (660 <_ZNK16CrashReportClass7printToER5Print+0x5c4>)
+ 3ee:	4628      	mov	r0, r5
+ 3f0:	685b      	ldr	r3, [r3, #4]
+ 3f2:	4798      	blx	r3
+ 3f4:	4628      	mov	r0, r5
+ 3f6:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 3fa:	e6ca      	b.n	192 <_ZNK16CrashReportClass7printToER5Print+0xf6>
+ 3fc:	682b      	ldr	r3, [r5, #0]
+ 3fe:	2229      	movs	r2, #41	; 0x29
+ 400:	4998      	ldr	r1, [pc, #608]	; (664 <_ZNK16CrashReportClass7printToER5Print+0x5c8>)
+ 402:	4628      	mov	r0, r5
+ 404:	685b      	ldr	r3, [r3, #4]
+ 406:	4798      	blx	r3
+ 408:	4628      	mov	r0, r5
+ 40a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 40e:	e6bd      	b.n	18c <_ZNK16CrashReportClass7printToER5Print+0xf0>
+ 410:	682b      	ldr	r3, [r5, #0]
+ 412:	2226      	movs	r2, #38	; 0x26
+ 414:	4994      	ldr	r1, [pc, #592]	; (668 <_ZNK16CrashReportClass7printToER5Print+0x5cc>)
+ 416:	4628      	mov	r0, r5
+ 418:	685b      	ldr	r3, [r3, #4]
+ 41a:	4798      	blx	r3
+ 41c:	4628      	mov	r0, r5
+ 41e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 422:	e6b0      	b.n	186 <_ZNK16CrashReportClass7printToER5Print+0xea>
+ 424:	682b      	ldr	r3, [r5, #0]
+ 426:	222a      	movs	r2, #42	; 0x2a
+ 428:	4990      	ldr	r1, [pc, #576]	; (66c <_ZNK16CrashReportClass7printToER5Print+0x5d0>)
+ 42a:	4628      	mov	r0, r5
+ 42c:	685b      	ldr	r3, [r3, #4]
+ 42e:	4798      	blx	r3
+ 430:	4628      	mov	r0, r5
+ 432:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 436:	e6a3      	b.n	180 <_ZNK16CrashReportClass7printToER5Print+0xe4>
+ 438:	682b      	ldr	r3, [r5, #0]
+ 43a:	2227      	movs	r2, #39	; 0x27
+ 43c:	498c      	ldr	r1, [pc, #560]	; (670 <_ZNK16CrashReportClass7printToER5Print+0x5d4>)
+ 43e:	4628      	mov	r0, r5
+ 440:	685b      	ldr	r3, [r3, #4]
+ 442:	4798      	blx	r3
+ 444:	4628      	mov	r0, r5
+ 446:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 44a:	e696      	b.n	17a <_ZNK16CrashReportClass7printToER5Print+0xde>
+ 44c:	2248      	movs	r2, #72	; 0x48
+ 44e:	4989      	ldr	r1, [pc, #548]	; (674 <_ZNK16CrashReportClass7printToER5Print+0x5d8>)
+ 450:	e68a      	b.n	168 <_ZNK16CrashReportClass7printToER5Print+0xcc>
+ 452:	682b      	ldr	r3, [r5, #0]
+ 454:	2208      	movs	r2, #8
+ 456:	4988      	ldr	r1, [pc, #544]	; (678 <_ZNK16CrashReportClass7printToER5Print+0x5dc>)
+ 458:	4628      	mov	r0, r5
+ 45a:	685b      	ldr	r3, [r3, #4]
+ 45c:	4798      	blx	r3
+ 45e:	4623      	mov	r3, r4
+ 460:	2210      	movs	r2, #16
+ 462:	f8d8 1088 	ldr.w	r1, [r8, #136]	; 0x88
+ 466:	4628      	mov	r0, r5
+ 468:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 46c:	4628      	mov	r0, r5
+ 46e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 472:	07f4      	lsls	r4, r6, #31
+ 474:	d469      	bmi.n	54a <_ZNK16CrashReportClass7printToER5Print+0x4ae>
+ 476:	07b0      	lsls	r0, r6, #30
+ 478:	f100 8153 	bmi.w	722 <_ZNK16CrashReportClass7printToER5Print+0x686>
+ 47c:	0731      	lsls	r1, r6, #28
+ 47e:	f100 8144 	bmi.w	70a <_ZNK16CrashReportClass7printToER5Print+0x66e>
+ 482:	06f2      	lsls	r2, r6, #27
+ 484:	f100 815d 	bmi.w	742 <_ZNK16CrashReportClass7printToER5Print+0x6a6>
+ 488:	06b3      	lsls	r3, r6, #26
+ 48a:	d567      	bpl.n	55c <_ZNK16CrashReportClass7printToER5Print+0x4c0>
+ 48c:	682b      	ldr	r3, [r5, #0]
+ 48e:	222a      	movs	r2, #42	; 0x2a
+ 490:	497a      	ldr	r1, [pc, #488]	; (67c <_ZNK16CrashReportClass7printToER5Print+0x5e0>)
+ 492:	e05d      	b.n	550 <_ZNK16CrashReportClass7printToER5Print+0x4b4>
+ 494:	682b      	ldr	r3, [r5, #0]
+ 496:	2208      	movs	r2, #8
+ 498:	4979      	ldr	r1, [pc, #484]	; (680 <_ZNK16CrashReportClass7printToER5Print+0x5e4>)
+ 49a:	4628      	mov	r0, r5
+ 49c:	685b      	ldr	r3, [r3, #4]
+ 49e:	4798      	blx	r3
+ 4a0:	2300      	movs	r3, #0
+ 4a2:	2210      	movs	r2, #16
+ 4a4:	f8d6 108c 	ldr.w	r1, [r6, #140]	; 0x8c
+ 4a8:	4628      	mov	r0, r5
+ 4aa:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 4ae:	4628      	mov	r0, r5
+ 4b0:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 4b4:	07a0      	lsls	r0, r4, #30
+ 4b6:	d467      	bmi.n	588 <_ZNK16CrashReportClass7printToER5Print+0x4ec>
+ 4b8:	0061      	lsls	r1, r4, #1
+ 4ba:	f57f aef1 	bpl.w	2a0 <_ZNK16CrashReportClass7printToER5Print+0x204>
+ 4be:	682b      	ldr	r3, [r5, #0]
+ 4c0:	221b      	movs	r2, #27
+ 4c2:	4970      	ldr	r1, [pc, #448]	; (684 <_ZNK16CrashReportClass7printToER5Print+0x5e8>)
+ 4c4:	e063      	b.n	58e <_ZNK16CrashReportClass7printToER5Print+0x4f2>
+ 4c6:	2401      	movs	r4, #1
+ 4c8:	f8df a1f4 	ldr.w	sl, [pc, #500]	; 6c0 <_ZNK16CrashReportClass7printToER5Print+0x624>
+ 4cc:	f8df 91f4 	ldr.w	r9, [pc, #500]	; 6c4 <_ZNK16CrashReportClass7printToER5Print+0x628>
+ 4d0:	f8df 81d4 	ldr.w	r8, [pc, #468]	; 6a8 <_ZNK16CrashReportClass7printToER5Print+0x60c>
+ 4d4:	e005      	b.n	4e2 <_ZNK16CrashReportClass7printToER5Print+0x446>
+ 4d6:	3401      	adds	r4, #1
+ 4d8:	2c07      	cmp	r4, #7
+ 4da:	f43f ae78 	beq.w	1ce <_ZNK16CrashReportClass7printToER5Print+0x132>
+ 4de:	f8d8 60c0 	ldr.w	r6, [r8, #192]	; 0xc0
+ 4e2:	1e63      	subs	r3, r4, #1
+ 4e4:	2701      	movs	r7, #1
+ 4e6:	fa07 f203 	lsl.w	r2, r7, r3
+ 4ea:	4232      	tst	r2, r6
+ 4ec:	d0f3      	beq.n	4d6 <_ZNK16CrashReportClass7printToER5Print+0x43a>
+ 4ee:	eb09 0683 	add.w	r6, r9, r3, lsl #2
+ 4f2:	682b      	ldr	r3, [r5, #0]
+ 4f4:	220e      	movs	r2, #14
+ 4f6:	4651      	mov	r1, sl
+ 4f8:	685b      	ldr	r3, [r3, #4]
+ 4fa:	4628      	mov	r0, r5
+ 4fc:	4798      	blx	r3
+ 4fe:	4621      	mov	r1, r4
+ 500:	4628      	mov	r0, r5
+ 502:	f7ff fffe 	bl	0 <_ZN5Print5printEl>
+ 506:	682b      	ldr	r3, [r5, #0]
+ 508:	2205      	movs	r2, #5
+ 50a:	495f      	ldr	r1, [pc, #380]	; (688 <_ZNK16CrashReportClass7printToER5Print+0x5ec>)
+ 50c:	685b      	ldr	r3, [r3, #4]
+ 50e:	4628      	mov	r0, r5
+ 510:	4798      	blx	r3
+ 512:	6871      	ldr	r1, [r6, #4]
+ 514:	2300      	movs	r3, #0
+ 516:	220a      	movs	r2, #10
+ 518:	4628      	mov	r0, r5
+ 51a:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 51e:	682b      	ldr	r3, [r5, #0]
+ 520:	2204      	movs	r2, #4
+ 522:	495a      	ldr	r1, [pc, #360]	; (68c <_ZNK16CrashReportClass7printToER5Print+0x5f0>)
+ 524:	685b      	ldr	r3, [r3, #4]
+ 526:	4628      	mov	r0, r5
+ 528:	4798      	blx	r3
+ 52a:	6871      	ldr	r1, [r6, #4]
+ 52c:	2300      	movs	r3, #0
+ 52e:	2210      	movs	r2, #16
+ 530:	4628      	mov	r0, r5
+ 532:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 536:	682b      	ldr	r3, [r5, #0]
+ 538:	463a      	mov	r2, r7
+ 53a:	4955      	ldr	r1, [pc, #340]	; (690 <_ZNK16CrashReportClass7printToER5Print+0x5f4>)
+ 53c:	685b      	ldr	r3, [r3, #4]
+ 53e:	4628      	mov	r0, r5
+ 540:	4798      	blx	r3
+ 542:	4628      	mov	r0, r5
+ 544:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 548:	e7c5      	b.n	4d6 <_ZNK16CrashReportClass7printToER5Print+0x43a>
+ 54a:	682b      	ldr	r3, [r5, #0]
+ 54c:	2228      	movs	r2, #40	; 0x28
+ 54e:	4951      	ldr	r1, [pc, #324]	; (694 <_ZNK16CrashReportClass7printToER5Print+0x5f8>)
+ 550:	685b      	ldr	r3, [r3, #4]
+ 552:	4628      	mov	r0, r5
+ 554:	4798      	blx	r3
+ 556:	4628      	mov	r0, r5
+ 558:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 55c:	0637      	lsls	r7, r6, #24
+ 55e:	d43c      	bmi.n	5da <_ZNK16CrashReportClass7printToER5Print+0x53e>
+ 560:	05f4      	lsls	r4, r6, #23
+ 562:	d41b      	bmi.n	59c <_ZNK16CrashReportClass7printToER5Print+0x500>
+ 564:	05b0      	lsls	r0, r6, #22
+ 566:	f100 80d8 	bmi.w	71a <_ZNK16CrashReportClass7printToER5Print+0x67e>
+ 56a:	0571      	lsls	r1, r6, #21
+ 56c:	f100 80d1 	bmi.w	712 <_ZNK16CrashReportClass7printToER5Print+0x676>
+ 570:	0532      	lsls	r2, r6, #20
+ 572:	f100 80e2 	bmi.w	73a <_ZNK16CrashReportClass7printToER5Print+0x69e>
+ 576:	04f3      	lsls	r3, r6, #19
+ 578:	f100 80db 	bmi.w	732 <_ZNK16CrashReportClass7printToER5Print+0x696>
+ 57c:	04b7      	lsls	r7, r6, #18
+ 57e:	d516      	bpl.n	5ae <_ZNK16CrashReportClass7printToER5Print+0x512>
+ 580:	682b      	ldr	r3, [r5, #0]
+ 582:	2231      	movs	r2, #49	; 0x31
+ 584:	4944      	ldr	r1, [pc, #272]	; (698 <_ZNK16CrashReportClass7printToER5Print+0x5fc>)
+ 586:	e00c      	b.n	5a2 <_ZNK16CrashReportClass7printToER5Print+0x506>
+ 588:	682b      	ldr	r3, [r5, #0]
+ 58a:	2226      	movs	r2, #38	; 0x26
+ 58c:	4943      	ldr	r1, [pc, #268]	; (69c <_ZNK16CrashReportClass7printToER5Print+0x600>)
+ 58e:	4628      	mov	r0, r5
+ 590:	685b      	ldr	r3, [r3, #4]
+ 592:	4798      	blx	r3
+ 594:	4628      	mov	r0, r5
+ 596:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 59a:	e681      	b.n	2a0 <_ZNK16CrashReportClass7printToER5Print+0x204>
+ 59c:	682b      	ldr	r3, [r5, #0]
+ 59e:	2220      	movs	r2, #32
+ 5a0:	493f      	ldr	r1, [pc, #252]	; (6a0 <_ZNK16CrashReportClass7printToER5Print+0x604>)
+ 5a2:	685b      	ldr	r3, [r3, #4]
+ 5a4:	4628      	mov	r0, r5
+ 5a6:	4798      	blx	r3
+ 5a8:	4628      	mov	r0, r5
+ 5aa:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 5ae:	0434      	lsls	r4, r6, #16
+ 5b0:	d440      	bmi.n	634 <_ZNK16CrashReportClass7printToER5Print+0x598>
+ 5b2:	03f0      	lsls	r0, r6, #15
+ 5b4:	d42e      	bmi.n	614 <_ZNK16CrashReportClass7printToER5Print+0x578>
+ 5b6:	03b1      	lsls	r1, r6, #14
+ 5b8:	f100 80b7 	bmi.w	72a <_ZNK16CrashReportClass7printToER5Print+0x68e>
+ 5bc:	0372      	lsls	r2, r6, #13
+ 5be:	d44b      	bmi.n	658 <_ZNK16CrashReportClass7printToER5Print+0x5bc>
+ 5c0:	0333      	lsls	r3, r6, #12
+ 5c2:	f100 80c6 	bmi.w	752 <_ZNK16CrashReportClass7printToER5Print+0x6b6>
+ 5c6:	01f7      	lsls	r7, r6, #7
+ 5c8:	f100 80bf 	bmi.w	74a <_ZNK16CrashReportClass7printToER5Print+0x6ae>
+ 5cc:	01b4      	lsls	r4, r6, #6
+ 5ce:	f57f ae61 	bpl.w	294 <_ZNK16CrashReportClass7printToER5Print+0x1f8>
+ 5d2:	682b      	ldr	r3, [r5, #0]
+ 5d4:	221b      	movs	r2, #27
+ 5d6:	4933      	ldr	r1, [pc, #204]	; (6a4 <_ZNK16CrashReportClass7printToER5Print+0x608>)
+ 5d8:	e01f      	b.n	61a <_ZNK16CrashReportClass7printToER5Print+0x57e>
+ 5da:	682b      	ldr	r3, [r5, #0]
+ 5dc:	2221      	movs	r2, #33	; 0x21
+ 5de:	4c32      	ldr	r4, [pc, #200]	; (6a8 <_ZNK16CrashReportClass7printToER5Print+0x60c>)
+ 5e0:	4628      	mov	r0, r5
+ 5e2:	4932      	ldr	r1, [pc, #200]	; (6ac <_ZNK16CrashReportClass7printToER5Print+0x610>)
+ 5e4:	685b      	ldr	r3, [r3, #4]
+ 5e6:	4798      	blx	r3
+ 5e8:	2210      	movs	r2, #16
+ 5ea:	2300      	movs	r3, #0
+ 5ec:	f8d4 1090 	ldr.w	r1, [r4, #144]	; 0x90
+ 5f0:	4628      	mov	r0, r5
+ 5f2:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 5f6:	f8d4 2090 	ldr.w	r2, [r4, #144]	; 0x90
+ 5fa:	2a1f      	cmp	r2, #31
+ 5fc:	d964      	bls.n	6c8 <_ZNK16CrashReportClass7printToER5Print+0x62c>
+ 5fe:	4b2c      	ldr	r3, [pc, #176]	; (6b0 <_ZNK16CrashReportClass7printToER5Print+0x614>)
+ 600:	429a      	cmp	r2, r3
+ 602:	d303      	bcc.n	60c <_ZNK16CrashReportClass7printToER5Print+0x570>
+ 604:	3320      	adds	r3, #32
+ 606:	429a      	cmp	r2, r3
+ 608:	f0c0 80a7 	bcc.w	75a <_ZNK16CrashReportClass7printToER5Print+0x6be>
+ 60c:	4628      	mov	r0, r5
+ 60e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 612:	e7a5      	b.n	560 <_ZNK16CrashReportClass7printToER5Print+0x4c4>
+ 614:	682b      	ldr	r3, [r5, #0]
+ 616:	2223      	movs	r2, #35	; 0x23
+ 618:	4926      	ldr	r1, [pc, #152]	; (6b4 <_ZNK16CrashReportClass7printToER5Print+0x618>)
+ 61a:	685b      	ldr	r3, [r3, #4]
+ 61c:	4628      	mov	r0, r5
+ 61e:	4e22      	ldr	r6, [pc, #136]	; (6a8 <_ZNK16CrashReportClass7printToER5Print+0x60c>)
+ 620:	4798      	blx	r3
+ 622:	4628      	mov	r0, r5
+ 624:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 628:	f8d6 408c 	ldr.w	r4, [r6, #140]	; 0x8c
+ 62c:	2c00      	cmp	r4, #0
+ 62e:	f43f ae37 	beq.w	2a0 <_ZNK16CrashReportClass7printToER5Print+0x204>
+ 632:	e72f      	b.n	494 <_ZNK16CrashReportClass7printToER5Print+0x3f8>
+ 634:	682b      	ldr	r3, [r5, #0]
+ 636:	2221      	movs	r2, #33	; 0x21
+ 638:	491f      	ldr	r1, [pc, #124]	; (6b8 <_ZNK16CrashReportClass7printToER5Print+0x61c>)
+ 63a:	4628      	mov	r0, r5
+ 63c:	685b      	ldr	r3, [r3, #4]
+ 63e:	4798      	blx	r3
+ 640:	4919      	ldr	r1, [pc, #100]	; (6a8 <_ZNK16CrashReportClass7printToER5Print+0x60c>)
+ 642:	2300      	movs	r3, #0
+ 644:	2210      	movs	r2, #16
+ 646:	f8d1 1094 	ldr.w	r1, [r1, #148]	; 0x94
+ 64a:	4628      	mov	r0, r5
+ 64c:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 650:	4628      	mov	r0, r5
+ 652:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+ 656:	e7ac      	b.n	5b2 <_ZNK16CrashReportClass7printToER5Print+0x516>
+ 658:	682b      	ldr	r3, [r5, #0]
+ 65a:	2228      	movs	r2, #40	; 0x28
+ 65c:	4917      	ldr	r1, [pc, #92]	; (6bc <_ZNK16CrashReportClass7printToER5Print+0x620>)
+ 65e:	e7dc      	b.n	61a <_ZNK16CrashReportClass7printToER5Print+0x57e>
+ 660:	000007b0 	.word	0x000007b0
+ 664:	00000784 	.word	0x00000784
+ 668:	0000075c 	.word	0x0000075c
+ 66c:	00000730 	.word	0x00000730
+ 670:	00000708 	.word	0x00000708
+ 674:	00000678 	.word	0x00000678
+ 678:	00000064 	.word	0x00000064
+ 67c:	00000114 	.word	0x00000114
+ 680:	00000474 	.word	0x00000474
+ 684:	000004a8 	.word	0x000004a8
+ 688:	0000089c 	.word	0x0000089c
+ 68c:	000008a4 	.word	0x000008a4
+ 690:	000008ac 	.word	0x000008ac
+ 694:	00000070 	.word	0x00000070
+ 698:	00000338 	.word	0x00000338
+ 69c:	00000480 	.word	0x00000480
+ 6a0:	00000228 	.word	0x00000228
+ 6a4:	00000458 	.word	0x00000458
+ 6a8:	2027ff00 	.word	0x2027ff00
+ 6ac:	00000140 	.word	0x00000140
+ 6b0:	00000000 	.word	0x00000000
+ 6b4:	00000390 	.word	0x00000390
+ 6b8:	0000036c 	.word	0x0000036c
+ 6bc:	000003e8 	.word	0x000003e8
+ 6c0:	0000088c 	.word	0x0000088c
+ 6c4:	2027ffc0 	.word	0x2027ffc0
+ 6c8:	682b      	ldr	r3, [r5, #0]
+ 6ca:	221e      	movs	r2, #30
+ 6cc:	4926      	ldr	r1, [pc, #152]	; (768 <_ZNK16CrashReportClass7printToER5Print+0x6cc>)
+ 6ce:	4628      	mov	r0, r5
+ 6d0:	685b      	ldr	r3, [r3, #4]
+ 6d2:	4798      	blx	r3
+ 6d4:	f8d4 1098 	ldr.w	r1, [r4, #152]	; 0x98
+ 6d8:	2300      	movs	r3, #0
+ 6da:	2210      	movs	r2, #16
+ 6dc:	4628      	mov	r0, r5
+ 6de:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 6e2:	682b      	ldr	r3, [r5, #0]
+ 6e4:	223e      	movs	r2, #62	; 0x3e
+ 6e6:	4921      	ldr	r1, [pc, #132]	; (76c <_ZNK16CrashReportClass7printToER5Print+0x6d0>)
+ 6e8:	685b      	ldr	r3, [r3, #4]
+ 6ea:	4628      	mov	r0, r5
+ 6ec:	4798      	blx	r3
+ 6ee:	f8d4 1098 	ldr.w	r1, [r4, #152]	; 0x98
+ 6f2:	2300      	movs	r3, #0
+ 6f4:	2210      	movs	r2, #16
+ 6f6:	4628      	mov	r0, r5
+ 6f8:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+ 6fc:	682b      	ldr	r3, [r5, #0]
+ 6fe:	221d      	movs	r2, #29
+ 700:	491b      	ldr	r1, [pc, #108]	; (770 <_ZNK16CrashReportClass7printToER5Print+0x6d4>)
+ 702:	685b      	ldr	r3, [r3, #4]
+ 704:	4628      	mov	r0, r5
+ 706:	4798      	blx	r3
+ 708:	e780      	b.n	60c <_ZNK16CrashReportClass7printToER5Print+0x570>
+ 70a:	682b      	ldr	r3, [r5, #0]
+ 70c:	2229      	movs	r2, #41	; 0x29
+ 70e:	4919      	ldr	r1, [pc, #100]	; (774 <_ZNK16CrashReportClass7printToER5Print+0x6d8>)
+ 710:	e71e      	b.n	550 <_ZNK16CrashReportClass7printToER5Print+0x4b4>
+ 712:	682b      	ldr	r3, [r5, #0]
+ 714:	2244      	movs	r2, #68	; 0x44
+ 716:	4918      	ldr	r1, [pc, #96]	; (778 <_ZNK16CrashReportClass7printToER5Print+0x6dc>)
+ 718:	e743      	b.n	5a2 <_ZNK16CrashReportClass7printToER5Print+0x506>
+ 71a:	682b      	ldr	r3, [r5, #0]
+ 71c:	222c      	movs	r2, #44	; 0x2c
+ 71e:	4917      	ldr	r1, [pc, #92]	; (77c <_ZNK16CrashReportClass7printToER5Print+0x6e0>)
+ 720:	e73f      	b.n	5a2 <_ZNK16CrashReportClass7printToER5Print+0x506>
+ 722:	682b      	ldr	r3, [r5, #0]
+ 724:	2221      	movs	r2, #33	; 0x21
+ 726:	4916      	ldr	r1, [pc, #88]	; (780 <_ZNK16CrashReportClass7printToER5Print+0x6e4>)
+ 728:	e712      	b.n	550 <_ZNK16CrashReportClass7printToER5Print+0x4b4>
+ 72a:	682b      	ldr	r3, [r5, #0]
+ 72c:	2232      	movs	r2, #50	; 0x32
+ 72e:	4915      	ldr	r1, [pc, #84]	; (784 <_ZNK16CrashReportClass7printToER5Print+0x6e8>)
+ 730:	e773      	b.n	61a <_ZNK16CrashReportClass7printToER5Print+0x57e>
+ 732:	682b      	ldr	r3, [r5, #0]
+ 734:	2233      	movs	r2, #51	; 0x33
+ 736:	4914      	ldr	r1, [pc, #80]	; (788 <_ZNK16CrashReportClass7printToER5Print+0x6ec>)
+ 738:	e733      	b.n	5a2 <_ZNK16CrashReportClass7printToER5Print+0x506>
+ 73a:	682b      	ldr	r3, [r5, #0]
+ 73c:	223f      	movs	r2, #63	; 0x3f
+ 73e:	4913      	ldr	r1, [pc, #76]	; (78c <_ZNK16CrashReportClass7printToER5Print+0x6f0>)
+ 740:	e72f      	b.n	5a2 <_ZNK16CrashReportClass7printToER5Print+0x506>
+ 742:	682b      	ldr	r3, [r5, #0]
+ 744:	2225      	movs	r2, #37	; 0x25
+ 746:	4912      	ldr	r1, [pc, #72]	; (790 <_ZNK16CrashReportClass7printToER5Print+0x6f4>)
+ 748:	e702      	b.n	550 <_ZNK16CrashReportClass7printToER5Print+0x4b4>
+ 74a:	682b      	ldr	r3, [r5, #0]
+ 74c:	2228      	movs	r2, #40	; 0x28
+ 74e:	4911      	ldr	r1, [pc, #68]	; (794 <_ZNK16CrashReportClass7printToER5Print+0x6f8>)
+ 750:	e763      	b.n	61a <_ZNK16CrashReportClass7printToER5Print+0x57e>
+ 752:	682b      	ldr	r3, [r5, #0]
+ 754:	2216      	movs	r2, #22
+ 756:	4910      	ldr	r1, [pc, #64]	; (798 <_ZNK16CrashReportClass7printToER5Print+0x6fc>)
+ 758:	e75f      	b.n	61a <_ZNK16CrashReportClass7printToER5Print+0x57e>
+ 75a:	682b      	ldr	r3, [r5, #0]
+ 75c:	2241      	movs	r2, #65	; 0x41
+ 75e:	490f      	ldr	r1, [pc, #60]	; (79c <_ZNK16CrashReportClass7printToER5Print+0x700>)
+ 760:	4628      	mov	r0, r5
+ 762:	685b      	ldr	r3, [r3, #4]
+ 764:	4798      	blx	r3
+ 766:	e751      	b.n	60c <_ZNK16CrashReportClass7printToER5Print+0x570>
+ 768:	00000164 	.word	0x00000164
+ 76c:	00000184 	.word	0x00000184
+ 770:	000001c4 	.word	0x000001c4
+ 774:	000000c0 	.word	0x000000c0
+ 778:	0000027c 	.word	0x0000027c
+ 77c:	0000024c 	.word	0x0000024c
+ 780:	0000009c 	.word	0x0000009c
+ 784:	000003b4 	.word	0x000003b4
+ 788:	00000304 	.word	0x00000304
+ 78c:	000002c4 	.word	0x000002c4
+ 790:	000000ec 	.word	0x000000ec
+ 794:	0000042c 	.word	0x0000042c
+ 798:	00000414 	.word	0x00000414
+ 79c:	000001e4 	.word	0x000001e4
+
+000007a0 <_ZN16CrashReportClasscvbEv>:
+ 7a0:	4b12      	ldr	r3, [pc, #72]	; (7ec <_ZN16CrashReportClasscvbEv+0x4c>)
+ 7a2:	f8d3 3080 	ldr.w	r3, [r3, #128]	; 0x80
+ 7a6:	2b0b      	cmp	r3, #11
+ 7a8:	d11e      	bne.n	7e8 <_ZN16CrashReportClasscvbEv+0x48>
+ 7aa:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 7ae:	4810      	ldr	r0, [pc, #64]	; (7f0 <_ZN16CrashReportClasscvbEv+0x50>)
+ 7b0:	b530      	push	{r4, r5, lr}
+ 7b2:	4d10      	ldr	r5, [pc, #64]	; (7f4 <_ZN16CrashReportClasscvbEv+0x54>)
+ 7b4:	4c10      	ldr	r4, [pc, #64]	; (7f8 <_ZN16CrashReportClasscvbEv+0x58>)
+ 7b6:	e001      	b.n	7bc <_ZN16CrashReportClasscvbEv+0x1c>
+ 7b8:	686b      	ldr	r3, [r5, #4]
+ 7ba:	4675      	mov	r5, lr
+ 7bc:	f105 0e04 	add.w	lr, r5, #4
+ 7c0:	405a      	eors	r2, r3
+ 7c2:	2120      	movs	r1, #32
+ 7c4:	f002 0301 	and.w	r3, r2, #1
+ 7c8:	3901      	subs	r1, #1
+ 7ca:	fb00 f303 	mul.w	r3, r0, r3
+ 7ce:	ea83 0252 	eor.w	r2, r3, r2, lsr #1
+ 7d2:	d1f7      	bne.n	7c4 <_ZN16CrashReportClasscvbEv+0x24>
+ 7d4:	45a6      	cmp	lr, r4
+ 7d6:	d1ef      	bne.n	7b8 <_ZN16CrashReportClasscvbEv+0x18>
+ 7d8:	4b04      	ldr	r3, [pc, #16]	; (7ec <_ZN16CrashReportClasscvbEv+0x4c>)
+ 7da:	f8d3 00a8 	ldr.w	r0, [r3, #168]	; 0xa8
+ 7de:	1a80      	subs	r0, r0, r2
+ 7e0:	fab0 f080 	clz	r0, r0
+ 7e4:	0940      	lsrs	r0, r0, #5
+ 7e6:	bd30      	pop	{r4, r5, pc}
+ 7e8:	2000      	movs	r0, #0
+ 7ea:	4770      	bx	lr
+ 7ec:	2027ff00 	.word	0x2027ff00
+ 7f0:	edb88320 	.word	0xedb88320
+ 7f4:	2027ff80 	.word	0x2027ff80
+ 7f8:	2027ffa8 	.word	0x2027ffa8

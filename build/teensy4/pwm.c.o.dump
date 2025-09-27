@@ -1,0 +1,726 @@
+
+build/./teensy4/pwm.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pwm.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.flexpwmWrite	00000000 .text.flexpwmWrite
+00000000 l    d  .text.flexpwmFrequency	00000000 .text.flexpwmFrequency
+00000000 l    d  .text.quadtimerWrite	00000000 .text.quadtimerWrite
+00000000 l    d  .text.quadtimerFrequency	00000000 .text.quadtimerFrequency
+00000000 l    d  .text.analogWrite	00000000 .text.analogWrite
+00000000 l    d  .text.analogWriteFrequency	00000000 .text.analogWriteFrequency
+00000000 l    d  .text.flexpwm_init	00000000 .text.flexpwm_init
+00000000 l    d  .text.quadtimer_init	00000000 .text.quadtimer_init
+00000000 l    d  .text.pwm_init	00000000 .text.pwm_init
+00000000 l    d  .text.xbar_connect	00000000 .text.xbar_connect
+00000000 l    d  .text.analogWriteRes	00000000 .text.analogWriteRes
+00000000 l    d  .data.analog_write_res	00000000 .data.analog_write_res
+00000000 l    d  .rodata.pwm_pin_info	00000000 .rodata.pwm_pin_info
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.flexpwmWrite	000000b4 flexpwmWrite
+00000000 g     F .text.flexpwmFrequency	000000dc flexpwmFrequency
+00000000         *UND*	00000000 F_BUS_ACTUAL
+00000000 g     F .text.quadtimerWrite	00000054 quadtimerWrite
+00000000 g     F .text.quadtimerFrequency	0000008c quadtimerFrequency
+00000000 g     F .text.analogWrite	000000cc analogWrite
+00000000         *UND*	00000000 digital_pin_to_info_PGM
+00000000 g     F .text.analogWriteFrequency	00000070 analogWriteFrequency
+00000000 g     F .text.flexpwm_init	0000007a flexpwm_init
+00000000 g     F .text.quadtimer_init	00000038 quadtimer_init
+00000000 g     F .text.pwm_init	000000f4 pwm_init
+00000000 g     F .text.xbar_connect	00000034 xbar_connect
+00000000 g     F .text.analogWriteRes	0000001c analogWriteRes
+00000000 g     O .rodata.pwm_pin_info	000000dc pwm_pin_info
+00000000 g     O .data.analog_write_res	00000001 analog_write_res
+
+
+Contents of section .text.flexpwmWrite:
+ 0000 4ff0010c 0cfa01fc 01eb4101 00eb4111  O.........A...A.
+ 0010 70b5b1f8 0ee01ffa 8cf5254c 1ffa8efe  p.........%L....
+ 0020 24782e01 0efb0333 06f0f006 e340b0f8  $x.....3.....@..
+ 0030 88417345 a4b228bf 73463443 012aa0f8  .AsE..(.sF4C.*..
+ 0040 88410dd0 022a28d0 c2b10cf0 0f02b0f8  .A...*(.........
+ 0050 88c11ffa 8cfc4cea 020ca0f8 88c170bd  ......L.......p.
+ 0060 9bb20cf0 0f022d02 cb82b0f8 803105f4  ......-......1..
+ 0070 70659bb2 2b43a0f8 8031e8e7 aeeb030e  pe..+C...1......
+ 0080 0cf00f02 1ffa8efe a1f80ae0 b0f88031  ...............1
+ 0090 9bb21343 a0f88031 d9e79bb2 0cf00f02  ...C...1........
+ 00a0 cb83b0f8 80319bb2 1e43a0f8 8061cee7  .....1...C...a..
+ 00b0 00000000                             ....            
+Contents of section .text.flexpwmFrequency:
+ 0000 01eb4103 f6ee006a 00eb4313 b3f80ec0  ..A....j..C.....
+ 0010 314b1ffa 8cfc93ed 007ab8ee 477a70b5  1K.......z..Gzp.
+ 0020 c7ee007a 4ff0010e 4e000efa 01fe1ffa  ...zO...N.......
+ 0030 8ef577ee a67afcee e77a17ee 903ab3f5  ..w..z...z...:..
+ 0040 803f46d3 00224ff6 ff745b08 0132a342  .?F.."O..t[..2.B
+ 0050 01d9062a f9d91201 42f48062 92b2022b  ...*....B..b...+
+ 0060 4ff6ff74 4fea0515 314438bf 02230ef0  O..tO...1D8..#..
+ 0070 0f0eedb2 a34200eb 411128bf 2346b0f8  .....B..A.(.#F..
+ 0080 8841a4b2 2c43a0f8 8841ca80 5a1e92b2  .A..,C...A..Z...
+ 0090 ca814a89 92b203fb 02f2b2fb fcf292b2  ..J.............
+ 00a0 4a81ca8a 92b203fb 02f2b2fb fcf292b2  J...............
+ 00b0 ca82ca8b 92b202fb 03f3b3fb fcf39bb2  ................
+ 00c0 cb83b0f8 88319bb2 43ea0e03 a0f88831  .....1..C......1
+ 00d0 70bd4ff4 8062c2e7 00000000           p.O..b......    
+Contents of section .text.quadtimerWrite:
+ 0000 10b54fea 411e124b 00eb4111 1c78b1f8  ..O.A..K..A..x..
+ 0010 06c00b8a 1ffa8cfc ccf1011c 1cfa83f3  ................
+ 0020 03f1ff3c 0cfb02f2 e2409445 08d99b1a  ...<.....@.E....
+ 0030 704492b2 c3f10103 9bb2cb80 028210bd  pD..............
+ 0040 9a1e7044 4ff6ff73 92b2cb80 028210bd  ..pDO..s........
+ 0050 00000000                             ....            
+Contents of section .text.quadtimerFrequency:
+ 0000 214bf6ee 006a4ff6 fe7c93ed 007ab8ee  !K...jO..|...z..
+ 0010 477ac7ee 007a77ee a67afcee e77a17ee  Gz...zw..z...z..
+ 0020 903a6345 2cd90022 5b080132 634501d9  .:cE,.."[..2cE..
+ 0030 062af9d9 083242f2 260c4cea 422c1ffa  .*...2B.&.L.B,..
+ 0040 8cfc022b 00eb4111 4ff6fe70 38bf0223  ...+..A.O..p8..#
+ 0050 0a8a8342 92b228bf 0346c888 80b2c0f1  ...B..(..F......
+ 0060 01101044 03fb02f2 b2fbf0f2 9b1a92b2  ...D............
+ 0070 c3f10103 9bb2cb80 0a82a1f8 0cc07047  ..............pG
+ 0080 43f2260c dde700bf 00000000           C.&.........    
+Contents of section .text.analogWrite:
+ 0000 36284bd8 f8b52a4d 044615f8 202005eb  6(K...*M.F..  ..
+ 0010 8005012a 2dd0022a 3fd16b78 c3f30110  ...*-..*?.kx....
+ 0020 03283ed0 234a02eb 803203f0 030c2248  .(>.#J...2...."H
+ 0030 89b26346 02eb4c1c 0678bcf8 06e05801  ..cF..L..x....X.
+ 0040 bcf81030 1ffa8efe cef1011e 1efa83f3  ...0............
+ 0050 03f1ff3e 0efb01f1 f1408e45 23d95b1a  ...>.....@.E#.[.
+ 0060 c3f10103 9bb289b2 0244acf8 06301182  .........D...0..
+ 0070 0de06a78 c2f30113 032b10d0 0f4800eb  ..jx.....+...H..
+ 0080 83308bb2 02f00301 aa78fff7 feff0c4b  .0.......x.....K
+ 0090 ea7803eb 04135b68 1a60f8bd 70470948  .x....[h.`..pG.H
+ 00a0 efe7094a c1e7991e 4ff6ff73 dbe700bf  ...J....O..s....
+ 00b0 00000000 00c01d40 00000000 00c03d40  .......@......=@
+ 00c0 00000000 00803e40 00801e40           ......>@...@    
+Contents of section .text.analogWriteFrequency:
+ 0000 362808d8 154b13f8 202003eb 8003012a  6(...K..  .....*
+ 0010 02d0022a 0dd07047 5978c1f3 0112032a  ...*..pGYx.....*
+ 0020 13d00f48 01f00301 00eb8230 9a78fff7  ...H.......0.x..
+ 0030 febf5978 c1f30113 032b0cd0 094800eb  ..Yx.....+...H..
+ 0040 833001f0 0301fff7 febf0748 01f00301  .0.........H....
+ 0050 9a78fff7 febf0548 f3e700bf 00000000  .x.....H........
+ 0060 00c03d40 00c01d40 00803e40 00801e40  ..=@...@..>@...@
+Contents of section .text.flexpwm_init:
+ 0000 00230f22 48f2b82c 194610b5 4ff47044  .#."H..,.F..O.pD
+ 0010 4ff4806e a0f88c41 4ff46044 a0f88e21  O..n...AO.`D...!
+ 0020 0a46a0f8 9031b0f8 88319bb2 43f0f003  .F...1...1..C...
+ 0030 a0f88831 01eb4103 013100eb 43130429  ...1..A..1..C..)
+ 0040 9c80a3f8 06e05a84 1a865a80 5a81a3f8  ......Z...Z.Z...
+ 0050 0ec05a82 da825a83 da83ebd1 b0f88831  ..Z...Z........1
+ 0060 9bb243f0 0f03a0f8 8831b0f8 88319bb2  ..C......1...1..
+ 0070 43f47063 a0f88831 10bd00bf           C.pc...1....    
+Contents of section .text.quadtimer_init:
+ 0000 002270b5 11460f26 41f20105 45f6c054  ."p..F.&A...E..T
+ 0010 43f2260e 00eb4213 4fea421c 01329981  C.&...B.O.B..2..
+ 0020 042a5981 de819d82 dc8020f8 0c101982  .*Y....... .....
+ 0030 a3f80ce0 eed170bd                    ......p.        
+Contents of section .text.pwm_init:
+ 0000 374b384a 996f3848 41f47f01 70b59967  7K8J.o8HA...p..g
+ 0010 41f20106 d3f88010 45f6c055 43f22604  A.......E..UC.&.
+ 0020 0a43c3f8 8020fff7 feff00f5 8040fff7  .C... .......@..
+ 0030 feff00f5 8040fff7 feff00f5 8040fff7  .....@.......@..
+ 0040 feff0022 a0f50310 4ff00f0e 114600eb  ..."....O....F..
+ 0050 42134fea 421c0132 9981042a 5981a3f8  B.O.B..2...*Y...
+ 0060 0ee09e82 dd8020f8 0c101982 9c81eed1  ...... .........
+ 0070 00221e48 4ff00f0e 41f20106 114645f6  .".HO...A....FE.
+ 0080 c05543f2 260400eb 42134fea 421c0132  .UC.&...B.O.B..2
+ 0090 9981042a 5981a3f8 0ee09e82 dd8020f8  ...*Y......... .
+ 00a0 0c101982 9c81eed1 00221148 0f2641f2  .........".H.&A.
+ 00b0 01051146 45f6c054 43f2260e 00eb4213  ...FE..TC.&...B.
+ 00c0 4fea421c 01329981 042a5981 de819d82  O.B..2...*Y.....
+ 00d0 dc8020f8 0c101982 a3f80ce0 eed170bd  .. ...........p.
+ 00e0 00c00f40 000003fc 00c03d40 00001e40  ...@......=@...@
+ 00f0 00401e40                             .@.@            
+Contents of section .text.xbar_connect:
+ 0000 57280fd8 83290dd8 21f0010c 084ac907  W(...)..!....J..
+ 0010 3cf80230 9bb206d4 03f47f43 03439bb2  <..0.......C.C..
+ 0020 2cf80230 7047dbb2 43ea0023 9bb2f7e7  ,..0pG..C..#....
+ 0030 00c03b40                             ..;@            
+Contents of section .text.analogWriteRes:
+ 0000 10280346 044a28bf 10231078 012b38bf  .(.F.J(..#.x.+8.
+ 0010 01231370 704700bf 00000000           .#.ppG......    
+Contents of section .data.analog_write_res:
+ 0000 08                                   .               
+Contents of section .rodata.pwm_pin_info:
+ 0000 01010004 01000004 01320101 01320201  .........2...2..
+ 0010 01100101 01110101 01120102 01030206  ................
+ 0020 01030106 01120202 02000001 02020001  ................
+ 0030 02010001 02100001 02220001 02230001  ........."...#..
+ 0040 00000000 00000000 02210001 02200001  .........!... ..
+ 0050 00000000 00000000 01300101 01310101  .........0...1..
+ 0060 01020004 01030004 00000000 00000000  ................
+ 0070 01210201 01210101 00000000 00000000  .!...!..........
+ 0080 00000000 01100201 00000000 00000000  ................
+ 0090 01130106 01130206 00000000 00000000  ................
+ 00a0 00000000 00000000 01010201 01010101  ................
+ 00b0 01000201 01000101 01020201 01020101  ................
+ 00c0 00000000 00000000 00000000 01230201  .............#..
+ 00d0 00000000 00000000 01200101           ......... ..    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.flexpwmWrite:
+
+00000000 <flexpwmWrite>:
+   0:	f04f 0c01 	mov.w	ip, #1
+   4:	fa0c fc01 	lsl.w	ip, ip, r1
+   8:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+   c:	eb00 1141 	add.w	r1, r0, r1, lsl #5
+  10:	b570      	push	{r4, r5, r6, lr}
+  12:	f8b1 e00e 	ldrh.w	lr, [r1, #14]
+  16:	fa1f f58c 	uxth.w	r5, ip
+  1a:	4c25      	ldr	r4, [pc, #148]	; (b0 <flexpwmWrite+0xb0>)
+  1c:	fa1f fe8e 	uxth.w	lr, lr
+  20:	7824      	ldrb	r4, [r4, #0]
+  22:	012e      	lsls	r6, r5, #4
+  24:	fb0e 3303 	mla	r3, lr, r3, r3
+  28:	f006 06f0 	and.w	r6, r6, #240	; 0xf0
+  2c:	40e3      	lsrs	r3, r4
+  2e:	f8b0 4188 	ldrh.w	r4, [r0, #392]	; 0x188
+  32:	4573      	cmp	r3, lr
+  34:	b2a4      	uxth	r4, r4
+  36:	bf28      	it	cs
+  38:	4673      	movcs	r3, lr
+  3a:	4334      	orrs	r4, r6
+  3c:	2a01      	cmp	r2, #1
+  3e:	f8a0 4188 	strh.w	r4, [r0, #392]	; 0x188
+  42:	d00d      	beq.n	60 <flexpwmWrite+0x60>
+  44:	2a02      	cmp	r2, #2
+  46:	d028      	beq.n	9a <flexpwmWrite+0x9a>
+  48:	b1c2      	cbz	r2, 7c <flexpwmWrite+0x7c>
+  4a:	f00c 020f 	and.w	r2, ip, #15
+  4e:	f8b0 c188 	ldrh.w	ip, [r0, #392]	; 0x188
+  52:	fa1f fc8c 	uxth.w	ip, ip
+  56:	ea4c 0c02 	orr.w	ip, ip, r2
+  5a:	f8a0 c188 	strh.w	ip, [r0, #392]	; 0x188
+  5e:	bd70      	pop	{r4, r5, r6, pc}
+  60:	b29b      	uxth	r3, r3
+  62:	f00c 020f 	and.w	r2, ip, #15
+  66:	022d      	lsls	r5, r5, #8
+  68:	82cb      	strh	r3, [r1, #22]
+  6a:	f8b0 3180 	ldrh.w	r3, [r0, #384]	; 0x180
+  6e:	f405 6570 	and.w	r5, r5, #3840	; 0xf00
+  72:	b29b      	uxth	r3, r3
+  74:	432b      	orrs	r3, r5
+  76:	f8a0 3180 	strh.w	r3, [r0, #384]	; 0x180
+  7a:	e7e8      	b.n	4e <flexpwmWrite+0x4e>
+  7c:	ebae 0e03 	sub.w	lr, lr, r3
+  80:	f00c 020f 	and.w	r2, ip, #15
+  84:	fa1f fe8e 	uxth.w	lr, lr
+  88:	f8a1 e00a 	strh.w	lr, [r1, #10]
+  8c:	f8b0 3180 	ldrh.w	r3, [r0, #384]	; 0x180
+  90:	b29b      	uxth	r3, r3
+  92:	4313      	orrs	r3, r2
+  94:	f8a0 3180 	strh.w	r3, [r0, #384]	; 0x180
+  98:	e7d9      	b.n	4e <flexpwmWrite+0x4e>
+  9a:	b29b      	uxth	r3, r3
+  9c:	f00c 020f 	and.w	r2, ip, #15
+  a0:	83cb      	strh	r3, [r1, #30]
+  a2:	f8b0 3180 	ldrh.w	r3, [r0, #384]	; 0x180
+  a6:	b29b      	uxth	r3, r3
+  a8:	431e      	orrs	r6, r3
+  aa:	f8a0 6180 	strh.w	r6, [r0, #384]	; 0x180
+  ae:	e7ce      	b.n	4e <flexpwmWrite+0x4e>
+  b0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.flexpwmFrequency:
+
+00000000 <flexpwmFrequency>:
+   0:	eb01 0341 	add.w	r3, r1, r1, lsl #1
+   4:	eef6 6a00 	vmov.f32	s13, #96	; 0x3f000000  0.5
+   8:	eb00 1343 	add.w	r3, r0, r3, lsl #5
+   c:	f8b3 c00e 	ldrh.w	ip, [r3, #14]
+  10:	4b31      	ldr	r3, [pc, #196]	; (d8 <flexpwmFrequency+0xd8>)
+  12:	fa1f fc8c 	uxth.w	ip, ip
+  16:	ed93 7a00 	vldr	s14, [r3]
+  1a:	eeb8 7a47 	vcvt.f32.u32	s14, s14
+  1e:	b570      	push	{r4, r5, r6, lr}
+  20:	eec7 7a00 	vdiv.f32	s15, s14, s0
+  24:	f04f 0e01 	mov.w	lr, #1
+  28:	004e      	lsls	r6, r1, #1
+  2a:	fa0e fe01 	lsl.w	lr, lr, r1
+  2e:	fa1f f58e 	uxth.w	r5, lr
+  32:	ee77 7aa6 	vadd.f32	s15, s15, s13
+  36:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  3a:	ee17 3a90 	vmov	r3, s15
+  3e:	f5b3 3f80 	cmp.w	r3, #65536	; 0x10000
+  42:	d346      	bcc.n	d2 <flexpwmFrequency+0xd2>
+  44:	2200      	movs	r2, #0
+  46:	f64f 74ff 	movw	r4, #65535	; 0xffff
+  4a:	085b      	lsrs	r3, r3, #1
+  4c:	3201      	adds	r2, #1
+  4e:	42a3      	cmp	r3, r4
+  50:	d901      	bls.n	56 <flexpwmFrequency+0x56>
+  52:	2a06      	cmp	r2, #6
+  54:	d9f9      	bls.n	4a <flexpwmFrequency+0x4a>
+  56:	0112      	lsls	r2, r2, #4
+  58:	f442 6280 	orr.w	r2, r2, #1024	; 0x400
+  5c:	b292      	uxth	r2, r2
+  5e:	2b02      	cmp	r3, #2
+  60:	f64f 74ff 	movw	r4, #65535	; 0xffff
+  64:	ea4f 1505 	mov.w	r5, r5, lsl #4
+  68:	4431      	add	r1, r6
+  6a:	bf38      	it	cc
+  6c:	2302      	movcc	r3, #2
+  6e:	f00e 0e0f 	and.w	lr, lr, #15
+  72:	b2ed      	uxtb	r5, r5
+  74:	42a3      	cmp	r3, r4
+  76:	eb00 1141 	add.w	r1, r0, r1, lsl #5
+  7a:	bf28      	it	cs
+  7c:	4623      	movcs	r3, r4
+  7e:	f8b0 4188 	ldrh.w	r4, [r0, #392]	; 0x188
+  82:	b2a4      	uxth	r4, r4
+  84:	432c      	orrs	r4, r5
+  86:	f8a0 4188 	strh.w	r4, [r0, #392]	; 0x188
+  8a:	80ca      	strh	r2, [r1, #6]
+  8c:	1e5a      	subs	r2, r3, #1
+  8e:	b292      	uxth	r2, r2
+  90:	81ca      	strh	r2, [r1, #14]
+  92:	894a      	ldrh	r2, [r1, #10]
+  94:	b292      	uxth	r2, r2
+  96:	fb03 f202 	mul.w	r2, r3, r2
+  9a:	fbb2 f2fc 	udiv	r2, r2, ip
+  9e:	b292      	uxth	r2, r2
+  a0:	814a      	strh	r2, [r1, #10]
+  a2:	8aca      	ldrh	r2, [r1, #22]
+  a4:	b292      	uxth	r2, r2
+  a6:	fb03 f202 	mul.w	r2, r3, r2
+  aa:	fbb2 f2fc 	udiv	r2, r2, ip
+  ae:	b292      	uxth	r2, r2
+  b0:	82ca      	strh	r2, [r1, #22]
+  b2:	8bca      	ldrh	r2, [r1, #30]
+  b4:	b292      	uxth	r2, r2
+  b6:	fb02 f303 	mul.w	r3, r2, r3
+  ba:	fbb3 f3fc 	udiv	r3, r3, ip
+  be:	b29b      	uxth	r3, r3
+  c0:	83cb      	strh	r3, [r1, #30]
+  c2:	f8b0 3188 	ldrh.w	r3, [r0, #392]	; 0x188
+  c6:	b29b      	uxth	r3, r3
+  c8:	ea43 030e 	orr.w	r3, r3, lr
+  cc:	f8a0 3188 	strh.w	r3, [r0, #392]	; 0x188
+  d0:	bd70      	pop	{r4, r5, r6, pc}
+  d2:	f44f 6280 	mov.w	r2, #1024	; 0x400
+  d6:	e7c2      	b.n	5e <flexpwmFrequency+0x5e>
+  d8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.quadtimerWrite:
+
+00000000 <quadtimerWrite>:
+   0:	b510      	push	{r4, lr}
+   2:	ea4f 1e41 	mov.w	lr, r1, lsl #5
+   6:	4b12      	ldr	r3, [pc, #72]	; (50 <quadtimerWrite+0x50>)
+   8:	eb00 1141 	add.w	r1, r0, r1, lsl #5
+   c:	781c      	ldrb	r4, [r3, #0]
+   e:	f8b1 c006 	ldrh.w	ip, [r1, #6]
+  12:	8a0b      	ldrh	r3, [r1, #16]
+  14:	fa1f fc8c 	uxth.w	ip, ip
+  18:	f1cc 1c01 	rsb	ip, ip, #65537	; 0x10001
+  1c:	fa1c f383 	uxtah	r3, ip, r3
+  20:	f103 3cff 	add.w	ip, r3, #4294967295	; 0xffffffff
+  24:	fb0c f202 	mul.w	r2, ip, r2
+  28:	40e2      	lsrs	r2, r4
+  2a:	4594      	cmp	ip, r2
+  2c:	d908      	bls.n	40 <quadtimerWrite+0x40>
+  2e:	1a9b      	subs	r3, r3, r2
+  30:	4470      	add	r0, lr
+  32:	b292      	uxth	r2, r2
+  34:	f1c3 0301 	rsb	r3, r3, #1
+  38:	b29b      	uxth	r3, r3
+  3a:	80cb      	strh	r3, [r1, #6]
+  3c:	8202      	strh	r2, [r0, #16]
+  3e:	bd10      	pop	{r4, pc}
+  40:	1e9a      	subs	r2, r3, #2
+  42:	4470      	add	r0, lr
+  44:	f64f 73ff 	movw	r3, #65535	; 0xffff
+  48:	b292      	uxth	r2, r2
+  4a:	80cb      	strh	r3, [r1, #6]
+  4c:	8202      	strh	r2, [r0, #16]
+  4e:	bd10      	pop	{r4, pc}
+  50:	00000000 	.word	0x00000000
+
+Disassembly of section .text.quadtimerFrequency:
+
+00000000 <quadtimerFrequency>:
+   0:	4b21      	ldr	r3, [pc, #132]	; (88 <quadtimerFrequency+0x88>)
+   2:	eef6 6a00 	vmov.f32	s13, #96	; 0x3f000000  0.5
+   6:	f64f 7cfe 	movw	ip, #65534	; 0xfffe
+   a:	ed93 7a00 	vldr	s14, [r3]
+   e:	eeb8 7a47 	vcvt.f32.u32	s14, s14
+  12:	eec7 7a00 	vdiv.f32	s15, s14, s0
+  16:	ee77 7aa6 	vadd.f32	s15, s15, s13
+  1a:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  1e:	ee17 3a90 	vmov	r3, s15
+  22:	4563      	cmp	r3, ip
+  24:	d92c      	bls.n	80 <quadtimerFrequency+0x80>
+  26:	2200      	movs	r2, #0
+  28:	085b      	lsrs	r3, r3, #1
+  2a:	3201      	adds	r2, #1
+  2c:	4563      	cmp	r3, ip
+  2e:	d901      	bls.n	34 <quadtimerFrequency+0x34>
+  30:	2a06      	cmp	r2, #6
+  32:	d9f9      	bls.n	28 <quadtimerFrequency+0x28>
+  34:	3208      	adds	r2, #8
+  36:	f242 0c26 	movw	ip, #8230	; 0x2026
+  3a:	ea4c 2c42 	orr.w	ip, ip, r2, lsl #9
+  3e:	fa1f fc8c 	uxth.w	ip, ip
+  42:	2b02      	cmp	r3, #2
+  44:	eb00 1141 	add.w	r1, r0, r1, lsl #5
+  48:	f64f 70fe 	movw	r0, #65534	; 0xfffe
+  4c:	bf38      	it	cc
+  4e:	2302      	movcc	r3, #2
+  50:	8a0a      	ldrh	r2, [r1, #16]
+  52:	4283      	cmp	r3, r0
+  54:	b292      	uxth	r2, r2
+  56:	bf28      	it	cs
+  58:	4603      	movcs	r3, r0
+  5a:	88c8      	ldrh	r0, [r1, #6]
+  5c:	b280      	uxth	r0, r0
+  5e:	f1c0 1001 	rsb	r0, r0, #65537	; 0x10001
+  62:	4410      	add	r0, r2
+  64:	fb03 f202 	mul.w	r2, r3, r2
+  68:	fbb2 f2f0 	udiv	r2, r2, r0
+  6c:	1a9b      	subs	r3, r3, r2
+  6e:	b292      	uxth	r2, r2
+  70:	f1c3 0301 	rsb	r3, r3, #1
+  74:	b29b      	uxth	r3, r3
+  76:	80cb      	strh	r3, [r1, #6]
+  78:	820a      	strh	r2, [r1, #16]
+  7a:	f8a1 c00c 	strh.w	ip, [r1, #12]
+  7e:	4770      	bx	lr
+  80:	f243 0c26 	movw	ip, #12326	; 0x3026
+  84:	e7dd      	b.n	42 <quadtimerFrequency+0x42>
+  86:	bf00      	nop
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text.analogWrite:
+
+00000000 <analogWrite>:
+   0:	2836      	cmp	r0, #54	; 0x36
+   2:	d84b      	bhi.n	9c <analogWrite+0x9c>
+   4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   6:	4d2a      	ldr	r5, [pc, #168]	; (b0 <analogWrite+0xb0>)
+   8:	4604      	mov	r4, r0
+   a:	f815 2020 	ldrb.w	r2, [r5, r0, lsl #2]
+   e:	eb05 0580 	add.w	r5, r5, r0, lsl #2
+  12:	2a01      	cmp	r2, #1
+  14:	d02d      	beq.n	72 <analogWrite+0x72>
+  16:	2a02      	cmp	r2, #2
+  18:	d13f      	bne.n	9a <analogWrite+0x9a>
+  1a:	786b      	ldrb	r3, [r5, #1]
+  1c:	f3c3 1001 	ubfx	r0, r3, #4, #2
+  20:	2803      	cmp	r0, #3
+  22:	d03e      	beq.n	a2 <analogWrite+0xa2>
+  24:	4a23      	ldr	r2, [pc, #140]	; (b4 <analogWrite+0xb4>)
+  26:	eb02 3280 	add.w	r2, r2, r0, lsl #14
+  2a:	f003 0c03 	and.w	ip, r3, #3
+  2e:	4822      	ldr	r0, [pc, #136]	; (b8 <analogWrite+0xb8>)
+  30:	b289      	uxth	r1, r1
+  32:	4663      	mov	r3, ip
+  34:	eb02 1c4c 	add.w	ip, r2, ip, lsl #5
+  38:	7806      	ldrb	r6, [r0, #0]
+  3a:	f8bc e006 	ldrh.w	lr, [ip, #6]
+  3e:	0158      	lsls	r0, r3, #5
+  40:	f8bc 3010 	ldrh.w	r3, [ip, #16]
+  44:	fa1f fe8e 	uxth.w	lr, lr
+  48:	f1ce 1e01 	rsb	lr, lr, #65537	; 0x10001
+  4c:	fa1e f383 	uxtah	r3, lr, r3
+  50:	f103 3eff 	add.w	lr, r3, #4294967295	; 0xffffffff
+  54:	fb0e f101 	mul.w	r1, lr, r1
+  58:	40f1      	lsrs	r1, r6
+  5a:	458e      	cmp	lr, r1
+  5c:	d923      	bls.n	a6 <analogWrite+0xa6>
+  5e:	1a5b      	subs	r3, r3, r1
+  60:	f1c3 0301 	rsb	r3, r3, #1
+  64:	b29b      	uxth	r3, r3
+  66:	b289      	uxth	r1, r1
+  68:	4402      	add	r2, r0
+  6a:	f8ac 3006 	strh.w	r3, [ip, #6]
+  6e:	8211      	strh	r1, [r2, #16]
+  70:	e00d      	b.n	8e <analogWrite+0x8e>
+  72:	786a      	ldrb	r2, [r5, #1]
+  74:	f3c2 1301 	ubfx	r3, r2, #4, #2
+  78:	2b03      	cmp	r3, #3
+  7a:	d010      	beq.n	9e <analogWrite+0x9e>
+  7c:	480f      	ldr	r0, [pc, #60]	; (bc <analogWrite+0xbc>)
+  7e:	eb00 3083 	add.w	r0, r0, r3, lsl #14
+  82:	b28b      	uxth	r3, r1
+  84:	f002 0103 	and.w	r1, r2, #3
+  88:	78aa      	ldrb	r2, [r5, #2]
+  8a:	f7ff fffe 	bl	0 <analogWrite>
+  8e:	4b0c      	ldr	r3, [pc, #48]	; (c0 <analogWrite+0xc0>)
+  90:	78ea      	ldrb	r2, [r5, #3]
+  92:	eb03 1304 	add.w	r3, r3, r4, lsl #4
+  96:	685b      	ldr	r3, [r3, #4]
+  98:	601a      	str	r2, [r3, #0]
+  9a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  9c:	4770      	bx	lr
+  9e:	4809      	ldr	r0, [pc, #36]	; (c4 <analogWrite+0xc4>)
+  a0:	e7ef      	b.n	82 <analogWrite+0x82>
+  a2:	4a09      	ldr	r2, [pc, #36]	; (c8 <analogWrite+0xc8>)
+  a4:	e7c1      	b.n	2a <analogWrite+0x2a>
+  a6:	1e99      	subs	r1, r3, #2
+  a8:	f64f 73ff 	movw	r3, #65535	; 0xffff
+  ac:	e7db      	b.n	66 <analogWrite+0x66>
+  ae:	bf00      	nop
+  b0:	00000000 	.word	0x00000000
+  b4:	401dc000 	.word	0x401dc000
+  b8:	00000000 	.word	0x00000000
+  bc:	403dc000 	.word	0x403dc000
+  c0:	00000000 	.word	0x00000000
+  c4:	403e8000 	.word	0x403e8000
+  c8:	401e8000 	.word	0x401e8000
+
+Disassembly of section .text.analogWriteFrequency:
+
+00000000 <analogWriteFrequency>:
+   0:	2836      	cmp	r0, #54	; 0x36
+   2:	d808      	bhi.n	16 <analogWriteFrequency+0x16>
+   4:	4b15      	ldr	r3, [pc, #84]	; (5c <analogWriteFrequency+0x5c>)
+   6:	f813 2020 	ldrb.w	r2, [r3, r0, lsl #2]
+   a:	eb03 0380 	add.w	r3, r3, r0, lsl #2
+   e:	2a01      	cmp	r2, #1
+  10:	d002      	beq.n	18 <analogWriteFrequency+0x18>
+  12:	2a02      	cmp	r2, #2
+  14:	d00d      	beq.n	32 <analogWriteFrequency+0x32>
+  16:	4770      	bx	lr
+  18:	7859      	ldrb	r1, [r3, #1]
+  1a:	f3c1 1201 	ubfx	r2, r1, #4, #2
+  1e:	2a03      	cmp	r2, #3
+  20:	d013      	beq.n	4a <analogWriteFrequency+0x4a>
+  22:	480f      	ldr	r0, [pc, #60]	; (60 <analogWriteFrequency+0x60>)
+  24:	f001 0103 	and.w	r1, r1, #3
+  28:	eb00 3082 	add.w	r0, r0, r2, lsl #14
+  2c:	789a      	ldrb	r2, [r3, #2]
+  2e:	f7ff bffe 	b.w	0 <analogWriteFrequency>
+  32:	7859      	ldrb	r1, [r3, #1]
+  34:	f3c1 1301 	ubfx	r3, r1, #4, #2
+  38:	2b03      	cmp	r3, #3
+  3a:	d00c      	beq.n	56 <analogWriteFrequency+0x56>
+  3c:	4809      	ldr	r0, [pc, #36]	; (64 <analogWriteFrequency+0x64>)
+  3e:	eb00 3083 	add.w	r0, r0, r3, lsl #14
+  42:	f001 0103 	and.w	r1, r1, #3
+  46:	f7ff bffe 	b.w	0 <analogWriteFrequency>
+  4a:	4807      	ldr	r0, [pc, #28]	; (68 <analogWriteFrequency+0x68>)
+  4c:	f001 0103 	and.w	r1, r1, #3
+  50:	789a      	ldrb	r2, [r3, #2]
+  52:	f7ff bffe 	b.w	0 <analogWriteFrequency>
+  56:	4805      	ldr	r0, [pc, #20]	; (6c <analogWriteFrequency+0x6c>)
+  58:	e7f3      	b.n	42 <analogWriteFrequency+0x42>
+  5a:	bf00      	nop
+  5c:	00000000 	.word	0x00000000
+  60:	403dc000 	.word	0x403dc000
+  64:	401dc000 	.word	0x401dc000
+  68:	403e8000 	.word	0x403e8000
+  6c:	401e8000 	.word	0x401e8000
+
+Disassembly of section .text.flexpwm_init:
+
+00000000 <flexpwm_init>:
+   0:	2300      	movs	r3, #0
+   2:	220f      	movs	r2, #15
+   4:	f248 2cb8 	movw	ip, #33464	; 0x82b8
+   8:	4619      	mov	r1, r3
+   a:	b510      	push	{r4, lr}
+   c:	f44f 4470 	mov.w	r4, #61440	; 0xf000
+  10:	f44f 6e80 	mov.w	lr, #1024	; 0x400
+  14:	f8a0 418c 	strh.w	r4, [r0, #396]	; 0x18c
+  18:	f44f 4460 	mov.w	r4, #57344	; 0xe000
+  1c:	f8a0 218e 	strh.w	r2, [r0, #398]	; 0x18e
+  20:	460a      	mov	r2, r1
+  22:	f8a0 3190 	strh.w	r3, [r0, #400]	; 0x190
+  26:	f8b0 3188 	ldrh.w	r3, [r0, #392]	; 0x188
+  2a:	b29b      	uxth	r3, r3
+  2c:	f043 03f0 	orr.w	r3, r3, #240	; 0xf0
+  30:	f8a0 3188 	strh.w	r3, [r0, #392]	; 0x188
+  34:	eb01 0341 	add.w	r3, r1, r1, lsl #1
+  38:	3101      	adds	r1, #1
+  3a:	eb00 1343 	add.w	r3, r0, r3, lsl #5
+  3e:	2904      	cmp	r1, #4
+  40:	809c      	strh	r4, [r3, #4]
+  42:	f8a3 e006 	strh.w	lr, [r3, #6]
+  46:	845a      	strh	r2, [r3, #34]	; 0x22
+  48:	861a      	strh	r2, [r3, #48]	; 0x30
+  4a:	805a      	strh	r2, [r3, #2]
+  4c:	815a      	strh	r2, [r3, #10]
+  4e:	f8a3 c00e 	strh.w	ip, [r3, #14]
+  52:	825a      	strh	r2, [r3, #18]
+  54:	82da      	strh	r2, [r3, #22]
+  56:	835a      	strh	r2, [r3, #26]
+  58:	83da      	strh	r2, [r3, #30]
+  5a:	d1eb      	bne.n	34 <flexpwm_init+0x34>
+  5c:	f8b0 3188 	ldrh.w	r3, [r0, #392]	; 0x188
+  60:	b29b      	uxth	r3, r3
+  62:	f043 030f 	orr.w	r3, r3, #15
+  66:	f8a0 3188 	strh.w	r3, [r0, #392]	; 0x188
+  6a:	f8b0 3188 	ldrh.w	r3, [r0, #392]	; 0x188
+  6e:	b29b      	uxth	r3, r3
+  70:	f443 6370 	orr.w	r3, r3, #3840	; 0xf00
+  74:	f8a0 3188 	strh.w	r3, [r0, #392]	; 0x188
+  78:	bd10      	pop	{r4, pc}
+  7a:	bf00      	nop
+
+Disassembly of section .text.quadtimer_init:
+
+00000000 <quadtimer_init>:
+   0:	2200      	movs	r2, #0
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4611      	mov	r1, r2
+   6:	260f      	movs	r6, #15
+   8:	f241 0501 	movw	r5, #4097	; 0x1001
+   c:	f645 54c0 	movw	r4, #24000	; 0x5dc0
+  10:	f243 0e26 	movw	lr, #12326	; 0x3026
+  14:	eb00 1342 	add.w	r3, r0, r2, lsl #5
+  18:	ea4f 1c42 	mov.w	ip, r2, lsl #5
+  1c:	3201      	adds	r2, #1
+  1e:	8199      	strh	r1, [r3, #12]
+  20:	2a04      	cmp	r2, #4
+  22:	8159      	strh	r1, [r3, #10]
+  24:	81de      	strh	r6, [r3, #14]
+  26:	829d      	strh	r5, [r3, #20]
+  28:	80dc      	strh	r4, [r3, #6]
+  2a:	f820 100c 	strh.w	r1, [r0, ip]
+  2e:	8219      	strh	r1, [r3, #16]
+  30:	f8a3 e00c 	strh.w	lr, [r3, #12]
+  34:	d1ee      	bne.n	14 <quadtimer_init+0x14>
+  36:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text.pwm_init:
+
+00000000 <pwm_init>:
+   0:	4b37      	ldr	r3, [pc, #220]	; (e0 <pwm_init+0xe0>)
+   2:	4a38      	ldr	r2, [pc, #224]	; (e4 <pwm_init+0xe4>)
+   4:	6f99      	ldr	r1, [r3, #120]	; 0x78
+   6:	4838      	ldr	r0, [pc, #224]	; (e8 <pwm_init+0xe8>)
+   8:	f441 017f 	orr.w	r1, r1, #16711680	; 0xff0000
+   c:	b570      	push	{r4, r5, r6, lr}
+   e:	6799      	str	r1, [r3, #120]	; 0x78
+  10:	f241 0601 	movw	r6, #4097	; 0x1001
+  14:	f8d3 1080 	ldr.w	r1, [r3, #128]	; 0x80
+  18:	f645 55c0 	movw	r5, #24000	; 0x5dc0
+  1c:	f243 0426 	movw	r4, #12326	; 0x3026
+  20:	430a      	orrs	r2, r1
+  22:	f8c3 2080 	str.w	r2, [r3, #128]	; 0x80
+  26:	f7ff fffe 	bl	0 <pwm_init>
+  2a:	f500 4080 	add.w	r0, r0, #16384	; 0x4000
+  2e:	f7ff fffe 	bl	0 <pwm_init>
+  32:	f500 4080 	add.w	r0, r0, #16384	; 0x4000
+  36:	f7ff fffe 	bl	0 <pwm_init>
+  3a:	f500 4080 	add.w	r0, r0, #16384	; 0x4000
+  3e:	f7ff fffe 	bl	0 <pwm_init>
+  42:	2200      	movs	r2, #0
+  44:	f5a0 1003 	sub.w	r0, r0, #2146304	; 0x20c000
+  48:	f04f 0e0f 	mov.w	lr, #15
+  4c:	4611      	mov	r1, r2
+  4e:	eb00 1342 	add.w	r3, r0, r2, lsl #5
+  52:	ea4f 1c42 	mov.w	ip, r2, lsl #5
+  56:	3201      	adds	r2, #1
+  58:	8199      	strh	r1, [r3, #12]
+  5a:	2a04      	cmp	r2, #4
+  5c:	8159      	strh	r1, [r3, #10]
+  5e:	f8a3 e00e 	strh.w	lr, [r3, #14]
+  62:	829e      	strh	r6, [r3, #20]
+  64:	80dd      	strh	r5, [r3, #6]
+  66:	f820 100c 	strh.w	r1, [r0, ip]
+  6a:	8219      	strh	r1, [r3, #16]
+  6c:	819c      	strh	r4, [r3, #12]
+  6e:	d1ee      	bne.n	4e <pwm_init+0x4e>
+  70:	2200      	movs	r2, #0
+  72:	481e      	ldr	r0, [pc, #120]	; (ec <pwm_init+0xec>)
+  74:	f04f 0e0f 	mov.w	lr, #15
+  78:	f241 0601 	movw	r6, #4097	; 0x1001
+  7c:	4611      	mov	r1, r2
+  7e:	f645 55c0 	movw	r5, #24000	; 0x5dc0
+  82:	f243 0426 	movw	r4, #12326	; 0x3026
+  86:	eb00 1342 	add.w	r3, r0, r2, lsl #5
+  8a:	ea4f 1c42 	mov.w	ip, r2, lsl #5
+  8e:	3201      	adds	r2, #1
+  90:	8199      	strh	r1, [r3, #12]
+  92:	2a04      	cmp	r2, #4
+  94:	8159      	strh	r1, [r3, #10]
+  96:	f8a3 e00e 	strh.w	lr, [r3, #14]
+  9a:	829e      	strh	r6, [r3, #20]
+  9c:	80dd      	strh	r5, [r3, #6]
+  9e:	f820 100c 	strh.w	r1, [r0, ip]
+  a2:	8219      	strh	r1, [r3, #16]
+  a4:	819c      	strh	r4, [r3, #12]
+  a6:	d1ee      	bne.n	86 <pwm_init+0x86>
+  a8:	2200      	movs	r2, #0
+  aa:	4811      	ldr	r0, [pc, #68]	; (f0 <pwm_init+0xf0>)
+  ac:	260f      	movs	r6, #15
+  ae:	f241 0501 	movw	r5, #4097	; 0x1001
+  b2:	4611      	mov	r1, r2
+  b4:	f645 54c0 	movw	r4, #24000	; 0x5dc0
+  b8:	f243 0e26 	movw	lr, #12326	; 0x3026
+  bc:	eb00 1342 	add.w	r3, r0, r2, lsl #5
+  c0:	ea4f 1c42 	mov.w	ip, r2, lsl #5
+  c4:	3201      	adds	r2, #1
+  c6:	8199      	strh	r1, [r3, #12]
+  c8:	2a04      	cmp	r2, #4
+  ca:	8159      	strh	r1, [r3, #10]
+  cc:	81de      	strh	r6, [r3, #14]
+  ce:	829d      	strh	r5, [r3, #20]
+  d0:	80dc      	strh	r4, [r3, #6]
+  d2:	f820 100c 	strh.w	r1, [r0, ip]
+  d6:	8219      	strh	r1, [r3, #16]
+  d8:	f8a3 e00c 	strh.w	lr, [r3, #12]
+  dc:	d1ee      	bne.n	bc <pwm_init+0xbc>
+  de:	bd70      	pop	{r4, r5, r6, pc}
+  e0:	400fc000 	.word	0x400fc000
+  e4:	fc030000 	.word	0xfc030000
+  e8:	403dc000 	.word	0x403dc000
+  ec:	401e0000 	.word	0x401e0000
+  f0:	401e4000 	.word	0x401e4000
+
+Disassembly of section .text.xbar_connect:
+
+00000000 <xbar_connect>:
+   0:	2857      	cmp	r0, #87	; 0x57
+   2:	d80f      	bhi.n	24 <xbar_connect+0x24>
+   4:	2983      	cmp	r1, #131	; 0x83
+   6:	d80d      	bhi.n	24 <xbar_connect+0x24>
+   8:	f021 0c01 	bic.w	ip, r1, #1
+   c:	4a08      	ldr	r2, [pc, #32]	; (30 <xbar_connect+0x30>)
+   e:	07c9      	lsls	r1, r1, #31
+  10:	f83c 3002 	ldrh.w	r3, [ip, r2]
+  14:	b29b      	uxth	r3, r3
+  16:	d406      	bmi.n	26 <xbar_connect+0x26>
+  18:	f403 437f 	and.w	r3, r3, #65280	; 0xff00
+  1c:	4303      	orrs	r3, r0
+  1e:	b29b      	uxth	r3, r3
+  20:	f82c 3002 	strh.w	r3, [ip, r2]
+  24:	4770      	bx	lr
+  26:	b2db      	uxtb	r3, r3
+  28:	ea43 2300 	orr.w	r3, r3, r0, lsl #8
+  2c:	b29b      	uxth	r3, r3
+  2e:	e7f7      	b.n	20 <xbar_connect+0x20>
+  30:	403bc000 	.word	0x403bc000
+
+Disassembly of section .text.analogWriteRes:
+
+00000000 <analogWriteRes>:
+   0:	2810      	cmp	r0, #16
+   2:	4603      	mov	r3, r0
+   4:	4a04      	ldr	r2, [pc, #16]	; (18 <analogWriteRes+0x18>)
+   6:	bf28      	it	cs
+   8:	2310      	movcs	r3, #16
+   a:	7810      	ldrb	r0, [r2, #0]
+   c:	2b01      	cmp	r3, #1
+   e:	bf38      	it	cc
+  10:	2301      	movcc	r3, #1
+  12:	7013      	strb	r3, [r2, #0]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+  18:	00000000 	.word	0x00000000

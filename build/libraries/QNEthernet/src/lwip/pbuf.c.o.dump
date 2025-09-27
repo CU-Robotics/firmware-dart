@@ -1,0 +1,1872 @@
+
+build/./libraries/QNEthernet/src/lwip/pbuf.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pbuf.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.pbuf_ref.part.0.str1.4	00000000 .rodata.pbuf_ref.part.0.str1.4
+00000000 l    d  .text.pbuf_ref.part.0	00000000 .text.pbuf_ref.part.0
+00000000 l     F .text.pbuf_ref.part.0	0000002c pbuf_ref.part.0
+00000000 l    d  .rodata.pbuf_clone.part.0.str1.4	00000000 .rodata.pbuf_clone.part.0.str1.4
+00000000 l    d  .text.pbuf_clone.part.0	00000000 .text.pbuf_clone.part.0
+00000000 l     F .text.pbuf_clone.part.0	0000002c pbuf_clone.part.0
+00000000 l    d  .text.pbuf_free_ooseq	00000000 .text.pbuf_free_ooseq
+00000000 l    d  .rodata.pbuf_alloc_reference.str1.4	00000000 .rodata.pbuf_alloc_reference.str1.4
+00000000 l    d  .text.pbuf_alloc_reference	00000000 .text.pbuf_alloc_reference
+00000000 l    d  .text.pbuf_alloced_custom	00000000 .text.pbuf_alloced_custom
+00000000 l    d  .rodata.pbuf_add_header.str1.4	00000000 .rodata.pbuf_add_header.str1.4
+00000000 l    d  .text.pbuf_add_header	00000000 .text.pbuf_add_header
+00000000 l    d  .text.pbuf_add_header_force	00000000 .text.pbuf_add_header_force
+00000000 l    d  .text.pbuf_remove_header	00000000 .text.pbuf_remove_header
+00000000 l    d  .text.pbuf_header	00000000 .text.pbuf_header
+00000000 l    d  .text.pbuf_header_force	00000000 .text.pbuf_header_force
+00000000 l    d  .rodata.pbuf_free.str1.4	00000000 .rodata.pbuf_free.str1.4
+00000000 l    d  .text.pbuf_free	00000000 .text.pbuf_free
+00000000 l    d  .rodata.pbuf_alloc.str1.4	00000000 .rodata.pbuf_alloc.str1.4
+00000000 l    d  .text.pbuf_alloc	00000000 .text.pbuf_alloc
+00000000 l    d  .rodata.pbuf_realloc.str1.4	00000000 .rodata.pbuf_realloc.str1.4
+00000000 l    d  .text.pbuf_realloc	00000000 .text.pbuf_realloc
+00000000 l    d  .text.pbuf_free_header	00000000 .text.pbuf_free_header
+00000000 l    d  .text.pbuf_clen	00000000 .text.pbuf_clen
+00000000 l    d  .text.pbuf_ref	00000000 .text.pbuf_ref
+00000000 l    d  .rodata.pbuf_cat.str1.4	00000000 .rodata.pbuf_cat.str1.4
+00000000 l    d  .text.pbuf_cat	00000000 .text.pbuf_cat
+00000000 l    d  .text.pbuf_chain	00000000 .text.pbuf_chain
+00000000 l    d  .rodata.pbuf_dechain.str1.4	00000000 .rodata.pbuf_dechain.str1.4
+00000000 l    d  .text.pbuf_dechain	00000000 .text.pbuf_dechain
+00000000 l    d  .rodata.pbuf_copy_partial_pbuf.str1.4	00000000 .rodata.pbuf_copy_partial_pbuf.str1.4
+00000000 l    d  .text.pbuf_copy_partial_pbuf	00000000 .text.pbuf_copy_partial_pbuf
+00000000 l    d  .text.pbuf_copy	00000000 .text.pbuf_copy
+00000000 l    d  .text.pbuf_copy_partial	00000000 .text.pbuf_copy_partial
+00000000 l    d  .text.pbuf_get_contiguous	00000000 .text.pbuf_get_contiguous
+00000000 l    d  .text.pbuf_skip	00000000 .text.pbuf_skip
+00000000 l    d  .rodata.pbuf_take.str1.4	00000000 .rodata.pbuf_take.str1.4
+00000000 l    d  .text.pbuf_take	00000000 .text.pbuf_take
+00000000 l    d  .text.pbuf_take_at	00000000 .text.pbuf_take_at
+00000000 l    d  .text.pbuf_coalesce	00000000 .text.pbuf_coalesce
+00000000 l    d  .text.pbuf_clone	00000000 .text.pbuf_clone
+00000000 l    d  .text.pbuf_get_at	00000000 .text.pbuf_get_at
+00000000 l    d  .text.pbuf_try_get_at	00000000 .text.pbuf_try_get_at
+00000000 l    d  .text.pbuf_put_at	00000000 .text.pbuf_put_at
+00000000 l    d  .text.pbuf_memcmp	00000000 .text.pbuf_memcmp
+00000000 l    d  .text.pbuf_memfind	00000000 .text.pbuf_memfind
+00000000 l    d  .text.pbuf_strstr	00000000 .text.pbuf_strstr
+00000000 l    d  .bss.pbuf_free_ooseq_pending	00000000 .bss.pbuf_free_ooseq_pending
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000 g     F .text.pbuf_free_ooseq	00000028 pbuf_free_ooseq
+00000000         *UND*	00000000 tcp_free_ooseq
+00000000         *UND*	00000000 tcp_active_pcbs
+00000000 g     F .text.pbuf_alloc_reference	00000058 pbuf_alloc_reference
+00000000         *UND*	00000000 memp_malloc
+00000000 g     F .text.pbuf_alloced_custom	00000036 pbuf_alloced_custom
+00000000 g     F .text.pbuf_add_header	00000070 pbuf_add_header
+00000000 g     F .text.pbuf_add_header_force	00000074 pbuf_add_header_force
+00000000 g     F .text.pbuf_remove_header	0000005c pbuf_remove_header
+00000000 g     F .text.pbuf_header	00000074 pbuf_header
+00000000 g     F .text.pbuf_header_force	00000078 pbuf_header_force
+00000000 g     F .text.pbuf_free	000000d4 pbuf_free
+00000000         *UND*	00000000 mem_free
+00000000         *UND*	00000000 memp_free
+00000000 g     F .text.pbuf_alloc	0000011c pbuf_alloc
+00000000         *UND*	00000000 mem_malloc
+00000000 g     F .text.pbuf_realloc	000000dc pbuf_realloc
+00000000         *UND*	00000000 mem_trim
+00000000 g     F .text.pbuf_free_header	00000046 pbuf_free_header
+00000000 g     F .text.pbuf_clen	00000018 pbuf_clen
+00000000 g     F .text.pbuf_ref	00000016 pbuf_ref
+00000000 g     F .text.pbuf_cat	00000088 pbuf_cat
+00000000 g     F .text.pbuf_chain	0000001a pbuf_chain
+00000000 g     F .text.pbuf_dechain	00000078 pbuf_dechain
+00000000 g     F .text.pbuf_copy_partial_pbuf	00000154 pbuf_copy_partial_pbuf
+00000000         *UND*	00000000 memcpy
+00000000 g     F .text.pbuf_copy	00000010 pbuf_copy
+00000000 g     F .text.pbuf_copy_partial	0000006c pbuf_copy_partial
+00000000 g     F .text.pbuf_get_contiguous	00000050 pbuf_get_contiguous
+00000000 g     F .text.pbuf_skip	0000001a pbuf_skip
+00000000 g     F .text.pbuf_take	000000a8 pbuf_take
+00000000 g     F .text.pbuf_take_at	0000006e pbuf_take_at
+00000000 g     F .text.pbuf_coalesce	00000068 pbuf_coalesce
+00000000 g     F .text.pbuf_clone	00000024 pbuf_clone
+00000000 g     F .text.pbuf_get_at	0000001c pbuf_get_at
+00000000 g     F .text.pbuf_try_get_at	00000020 pbuf_try_get_at
+00000000 g     F .text.pbuf_put_at	0000001c pbuf_put_at
+00000000 g     F .text.pbuf_memcmp	0000006e pbuf_memcmp
+00000000 g     F .text.pbuf_memfind	00000048 pbuf_memfind
+00000000 g     F .text.pbuf_strstr	00000064 pbuf_strstr
+00000000         *UND*	00000000 strlen
+00000000 g     O .bss.pbuf_free_ooseq_pending	00000001 pbuf_free_ooseq_pending
+
+
+Contents of section .rodata.pbuf_ref.part.0.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f7062  rnet/src/lwip/pb
+ 0020 75662e63 00000000 70627566 20726566  uf.c....pbuf ref
+ 0030 206f7665 72666c6f 77000000 41737365   overflow...Asse
+ 0040 7274696f 6e202225 73222066 61696c65  rtion "%s" faile
+ 0050 64206174 206c696e 65202564 20696e20  d at line %d in 
+ 0060 25730a00                             %s..            
+Contents of section .text.pbuf_ref.part.0:
+ 0000 08b540f2 4632064b 06490748 fff7feff  ..@.F2.K.I.H....
+ 0010 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0020 00000000 28000000 3c000000           ....(...<...    
+Contents of section .rodata.pbuf_clone.part.0.str1.4:
+ 0000 70627566 5f636f70 79206661 696c6564  pbuf_copy failed
+ 0010 00                                   .               
+Contents of section .text.pbuf_clone.part.0:
+ 0000 08b540f2 4c52064b 06490748 fff7feff  ..@.LR.K.I.H....
+ 0010 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0020 00000000 00000000 3c000000           ........<...    
+Contents of section .text.pbuf_free_ooseq:
+ 0000 07490022 074b0868 1a7010b9 06e0c068  .I.".K.h.p.....h
+ 0010 20b1436f 002bfad0 fff7febf 704700bf   .Co.+......pG..
+ 0020 00000000 00000000                    ........        
+Contents of section .rodata.pbuf_alloc_reference.str1.4:
+ 0000 696e7661 6c696420 70627566 5f747970  invalid pbuf_typ
+ 0010 6500                                 e.              
+Contents of section .text.pbuf_alloc_reference:
+ 0000 f8b522f0 4003012b 10d10646 08201446  ..".@..+...F. .F
+ 0010 0d469fb2 fff7feff 38b10023 46600581  .F......8..#F`..
+ 0020 45810473 c7810360 4373f8bd 074b4ff4  E..s...`Cs...KO.
+ 0030 a6720749 0748fff7 feff0020 fff7feff  .r.I.H..... ....
+ 0040 0120fff7 fefffff7 feff00bf 00000000  . ..............
+ 0050 00000000 3c000000                    ....<...        
+Contents of section .text.pbuf_alloced_custom:
+ 0000 033020f0 030010b5 01eb000e bdf80cc0  .0 .............
+ 0010 029ce645 0dd804b1 04441846 00234460  ...E.....D.F.#D`
+ 0020 02240360 01230181 41810273 4473c381  .$.`.#..A..sDs..
+ 0030 10bd0020 10bd00bf                    ... ....        
+Contents of section .rodata.pbuf_add_header.str1.4:
+ 0000 7020213d 204e554c 4c00               p != NULL.      
+Contents of section .text.pbuf_add_header:
+ 0000 10b50446 f8b1b1f5 803f0ad2 59b18ab2  ...F.....?..Y...
+ 0010 03891344 9bb29a42 03d890f9 0c000028  ...D...B.......(
+ 0020 03db0120 10bd0846 10bd6068 411a04f1  ... ...F..`hA...
+ 0030 10008142 f5d3b4f8 0ac00020 61606244  ...B....... a`bD
+ 0040 23816281 10bd074b 4ff4f272 06490748  #.b....KO..r.I.H
+ 0050 fff7feff 2046fff7 feff0120 fff7feff  .... F..... ....
+ 0060 fff7feff 00000000 00000000 3c000000  ............<...
+Contents of section .text.pbuf_add_header_force:
+ 0000 10b50446 00b3b1f5 803f19d2 d1b18ab2  ...F.....?......
+ 0010 03891344 9bb29a42 12d890f9 0c000028  ...D...B.......(
+ 0020 6068a0eb 010107db b4f80ac0 00206160  `h........... a`
+ 0030 62442381 628110bd 04f11000 8142f3d2  bD#.b........B..
+ 0040 012010bd 084610bd 074b4ff4 f2720749  . ...F...KO..r.I
+ 0050 0748fff7 feff2046 fff7feff 0120fff7  .H.... F..... ..
+ 0060 fefffff7 feff00bf 00000000 00000000  ................
+ 0070 3c000000                             <...            
+Contents of section .text.pbuf_remove_header:
+ 0000 38b50446 a8b1b1f5 803f10d2 69b18ab2  8..F.....?..i...
+ 0010 43899342 0bd34068 9b1a4518 21896381  C..B..@h..E.!.c.
+ 0020 00208b1a 65602381 38bd0846 38bd0120  . ..e`#.8..F8.. 
+ 0030 38bd074b 4ff41472 06490748 fff7feff  8..KO..r.I.H....
+ 0040 2046fff7 feff0120 fff7feff fff7feff   F..... ........
+ 0050 00000000 00000000 3c000000           ........<...    
+Contents of section .text.pbuf_header:
+ 0000 00291ddb 10b50446 f8b1e1b1 8ab20389  .).....F........
+ 0010 13449bb2 9a4211d8 90f90c00 00280dda  .D...B.......(..
+ 0020 6068411a 04f11000 814207d3 b4f80ac0  `hA......B......
+ 0030 00206160 62442381 628110bd 012010bd  . a`bD#.b.... ..
+ 0040 4942fff7 febf0846 10bd074b 4ff4f272  IB.....F...KO..r
+ 0050 06490748 fff7feff 2046fff7 feff0120  .I.H.... F..... 
+ 0060 fff7feff fff7feff 00000000 00000000  ................
+ 0070 3c000000                             <...            
+Contents of section .text.pbuf_header_force:
+ 0000 002918db 10b50446 00b3b9b1 8ab20389  .).....F........
+ 0010 13449bb2 9a4217d8 90f90c00 00286068  .D...B.......(`h
+ 0020 a0eb0101 0cdbb4f8 0ac00020 61606244  ........... a`bD
+ 0030 23816281 10bd4942 fff7febf 084610bd  #.b...IB.....F..
+ 0040 04f11000 8142eed2 012010bd 074b4ff4  .....B... ...KO.
+ 0050 f2720749 0748fff7 feff2046 fff7feff  .r.I.H.... F....
+ 0060 0120fff7 fefffff7 feff00bf 00000000  . ..............
+ 0070 00000000 3c000000                    ....<...        
+Contents of section .rodata.pbuf_free.str1.4:
+ 0000 70627566 5f667265 653a2070 2d3e7265  pbuf_free: p->re
+ 0010 66203e20 30000000 70632d3e 63757374  f > 0...pc->cust
+ 0020 6f6d5f66 7265655f 66756e63 74696f6e  om_free_function
+ 0030 20213d20 4e554c4c 00000000 696e7661   != NULL....inva
+ 0040 6c696420 70627566 20747970 6500      lid pbuf type.  
+Contents of section .text.pbuf_free:
+ 0000 f8b50546 002849d0 002608e0 2c69002c  ...F.(I..&..,i.,
+ 0010 3ad02846 a0470136 f6b2d7b1 3d46ac7b  :.(F.G.6....=F.{
+ 0020 1cb3013c e4b2ac73 9cb96b7b 2f6813f0  ...<...s..k{/h..
+ 0030 02042a7b ead102f0 0f02022a 0bd0012a  ..*{.......*...*
+ 0040 0ed032bb 01362846 fff7feff f6b2002f  ..2..6(F......./
+ 0050 e4d13046 f8bd2946 0920fff7 feffdae7  ..0F..)F. ......
+ 0060 29460820 fff7feff d5e7144b 40f2f522  )F. .......K@.."
+ 0070 13491448 fff7feff 2046fff7 feff0120  .I.H.... F..... 
+ 0080 fff7feff fff7feff 0c4b40f2 03320e49  .........K@..2.I
+ 0090 efe70a4b 40f21332 0c49eae7 074b4ff4  ...K@..2.I...KO.
+ 00a0 38720b49 0748fff7 feff2846 fff7feff  8r.I.H....(F....
+ 00b0 0120fff7 fefffff7 feff00bf 00000000  . ..............
+ 00c0 00000000 3c000000 18000000 3c000000  ....<.......<...
+ 00d0 00000000                             ....            
+Contents of section .rodata.pbuf_alloc.str1.4:
+ 0000 70627566 5f616c6c 6f633a20 6572726f  pbuf_alloc: erro
+ 0010 6e656f75 73207479 706500             neous type.     
+Contents of section .text.pbuf_alloc:
+ 0000 b2f5c17f 2de9f843 81460f46 41d012d8  ....-..C.F.FA...
+ 0010 22f04003 012b37d0 3a4b40f2 29123a49  ".@..+7.:K@.).:I
+ 0020 3a48fff7 feff0020 fff7feff 0120fff7  :H..... ..... ..
+ 0030 fefffff7 feffb2f5 207fedd1 c31cca1c  ........ .......
+ 0040 23f00303 22f00302 134403f1 10008342  #..."....D.....B
+ 0050 28bf0346 9a4212d8 fff7feff 804680b1  (..F.B.......F..
+ 0060 81440021 2a4a09f1 13030781 016023f0  .D.!*J.......`#.
+ 0070 03034781 c2604360 4046bde8 f8834ff0  ..G..`C`@F....O.
+ 0080 00084046 bde8f883 0020bde8 f843fff7  ..@F..... ...C..
+ 0090 febf0022 1ffa80f9 40f2ec55 1d4c9046  ..."....@..U.L.F
+ 00a0 06e03260 fb1a4ff0 00099fb2 002fe8d0  ..2`..O....../..
+ 00b0 09201646 fff7feff 0246c0b1 09f10303  . .F.....F......
+ 00c0 00eb0901 00201781 23f00303 13311060  ..... ..#....1.`
+ 00d0 eb1a21f0 0301d460 9bb25160 bb4228bf  ..!....`..Q`.B(.
+ 00e0 3b465381 b8f1000f dbd19046 dae70a4b  ;FS........F...K
+ 00f0 01211970 b8f1000f c1d04046 9046fff7  .!.p......@F.F..
+ 0100 feffbee7 00000000 00000000 3c000000  ............<...
+ 0110 80000100 82000100 00000000           ............    
+Contents of section .rodata.pbuf_realloc.str1.4:
+ 0000 70627566 5f726561 6c6c6f63 3a207020  pbuf_realloc: p 
+ 0010 213d204e 554c4c00 70627566 5f726561  != NULL.pbuf_rea
+ 0020 6c6c6f63 3a207120 213d204e 554c4c00  lloc: q != NULL.
+ 0030 6d656d5f 7472696d 20726574 75726e65  mem_trim returne
+ 0040 64207220 3d3d204e 554c4c00 6d656d5f  d r == NULL.mem_
+ 0050 7472696d 20726574 75726e65 64207220  trim returned r 
+ 0060 213d2071 00                          != q.           
+Contents of section .text.pbuf_realloc:
+ 0000 f8b50446 002858d0 03898b42 1dd90d46  ...F.(X....B...F
+ 0010 c91a06e0 2289eb1a 0a449db2 22812468  ...."....D..".$h
+ 0020 6cb36389 ab42f5d3 227b1207 05d1ab42  l.c..B.."{.....B
+ 0030 03d0637b 13f00206 08d02068 65812581  ..c{...... he.%.
+ 0040 08b1fff7 feff0023 2360f8bd 63682046  .......##`..ch F
+ 0050 1b1b5919 fff7feff 0746f8b1 8442ecd0  ..Y......F...B..
+ 0060 184b40f2 c1121849 1848fff7 feff3046  .K@....I.H....0F
+ 0070 fff7feff 0120fff7 fefffff7 feff114b  ..... .........K
+ 0080 40f2b112 12491148 fff7feff 2046fff7  @....I.H.... F..
+ 0090 feff0120 fff7feff fff7feff 094b40f2  ... .........K@.
+ 00a0 bf120c49 0948fff7 feff3846 fff7feff  ...I.H....8F....
+ 00b0 0120fff7 fefffff7 feff024b 4ff4cd72  . .........KO..r
+ 00c0 0549e0e7 00000000 4c000000 3c000000  .I......L...<...
+ 00d0 18000000 30000000 00000000           ....0.......    
+Contents of section .text.pbuf_free_header:
+ 0000 0346f1b1 e8b170b5 0c460026 5a891846  .F....p..F.&Z..F
+ 0010 a242a4eb 020109d9 5868121b 19892044  .B......Xh.... D
+ 0020 5a81091b 58601981 184670bd 1d688cb2  Z...X`...Fp..h..
+ 0030 1e60fff7 feff2b46 0cb1002d e6d12b46  .`....+F...-..+F
+ 0040 f2e71846 704700bf                    ...FpG..        
+Contents of section .text.pbuf_clen:
+ 0000 38b10023 01330068 9bb20028 fad11846  8..#.3.h...(...F
+ 0010 70470346 18467047                    pG.F.FpG        
+Contents of section .text.pbuf_ref:
+ 0000 30b108b5 837b0133 dbb28373 0bb108bd  0....{.3...s....
+ 0010 7047fff7 feff00bf                    pG......        
+Contents of section .rodata.pbuf_cat.str1.4:
+ 0000 43726561 74696e67 20616e20 696e6669  Creating an infi
+ 0010 6e697465 206c6f6f 70000000 702d3e74  nite loop...p->t
+ 0020 6f745f6c 656e203d 3d20702d 3e6c656e  ot_len == p->len
+ 0030 20286f66 206c6173 74207062 75662069   (of last pbuf i
+ 0040 6e206368 61696e29 00                 n chain).       
+Contents of section .text.pbuf_cat:
+ 0000 d0b110b5 b1fa81f4 6409a1b1 884214d0  ........d....B..
+ 0010 036843b1 0289b1f8 08c06244 02811846  .hC.......bD...F
+ 0020 1b68002b f6d10289 43899342 14d10a89  .h.+....C..B....
+ 0030 01601344 038110bd 70470f4b 40f25f32  .`.D....pG.K@._2
+ 0040 0e490f48 fff7feff 2046fff7 feff0120  .I.H.... F..... 
+ 0050 fff7feff fff7feff 074b40f2 67320949  .........K@.g2.I
+ 0060 0748fff7 feff0020 fff7feff 0120fff7  .H..... ..... ..
+ 0070 fefffff7 feff00bf 00000000 00000000  ................
+ 0080 3c000000 1c000000                    <.......        
+Contents of section .text.pbuf_chain:
+ 0000 10b50c46 fff7feff 24b1a37b 0133dbb2  ...F....$..{.3..
+ 0010 a37303b1 10bdfff7 feff00bf           .s..........    
+Contents of section .rodata.pbuf_dechain.str1.4:
+ 0000 702d3e74 6f745f6c 656e203d 3d20702d  p->tot_len == p-
+ 0010 3e6c656e 00000000 702d3e74 6f745f6c  >len....p->tot_l
+ 0020 656e203d 3d20702d 3e6c656e 202b2071  en == p->len + q
+ 0030 2d3e746f 745f6c65 6e00               ->tot_len.      
+Contents of section .text.pbuf_dechain:
+ 0000 38b50568 04469db1 03894289 29899b1a  8..h.F....B.)...
+ 0010 994223d1 00232981 02812846 2360fff7  .B#..#)...(F#`..
+ 0020 feff2289 63899a42 09d128b9 284638bd  ..".c..B..(.(F8.
+ 0030 02894389 9a4202d1 00252846 38bd0a4b  ..C..B...%(F8..K
+ 0040 40f2af32 09490a48 fff7feff 0020fff7  @..2.I.H..... ..
+ 0050 feff0120 fff7feff fff7feff 024b40f2  ... .........K@.
+ 0060 9e320449 efe700bf 00000000 00000000  .2.I............
+ 0070 3c000000 18000000                    <.......        
+Contents of section .rodata.pbuf_copy_partial_pbuf.str1.4:
+ 0000 6f666673 65745f74 6f203c3d 20705f74  offset_to <= p_t
+ 0010 6f2d3e6c 656e0000 6f666673 65745f66  o->len..offset_f
+ 0020 726f6d20 3c3d2070 5f66726f 6d2d3e6c  rom <= p_from->l
+ 0030 656e00                               en.             
+Contents of section .text.pbuf_copy_partial_pbuf:
+ 0000 002900f0 9b802de9 f8431f46 0b890d46  .)....-..C.F...F
+ 0010 16469342 70d3b0fa 80f98046 4fea5919  .F.Bp......FO.Y.
+ 0020 002869d0 0289bb19 9a4265db b8f80a40  .(i......Be....@
+ 0030 6b89e41b d8f80400 a3eb0903 69683844  k...........ih8D
+ 0040 9c424944 28bf1c46 b44228bf 34462246  .BID(..F.B(.4F"F
+ 0050 2744fff7 feffb8f8 0a30361b a144bb42  'D.......06..D.B
+ 0060 b6b24dd3 6a894a45 59d319d1 2d680db9  ..M.j.JEY...-h..
+ 0070 002e41d1 bb421cd0 002d3ad1 a946b8f8  ..A..B...-:..F..
+ 0080 08209a42 04d0002e d0d13046 bde8f883  . .B......0F....
+ 0090 d8f80030 002bf6d0 6ff00500 bde8f883  ...0.+..o.......
+ 00a0 bb4208d0 2a896b89 9a421ed0 b8f80a30  .B..*.k..B.....0
+ 00b0 e5e74ff0 0009d8f8 0080b8f1 000f00d1  ..O.............
+ 00c0 d6b91db1 6a892b89 9a4206d0 b8f1000f  ....j.+..B......
+ 00d0 09d14746 002ea9d1 d7e72b68 002bdbd1  ..GF......+h.+..
+ 00e0 b8f1000f f5d00027 e0e72b68 002bddd0  .......'..+h.+..
+ 00f0 d2e74ff0 0009d5e7 6ff00f00 bde8f883  ..O.....o.......
+ 0100 104b40f2 fa321049 1048fff7 feff0020  .K@..2.I.H..... 
+ 0110 fff7feff 0120fff7 fefffff7 feff094b  ..... .........K
+ 0120 40f2fb32 0a490948 fff7feff 0020fff7  @..2.I.H..... ..
+ 0130 feff0120 fff7feff fff7feff 6ff00f00  ... ........o...
+ 0140 704700bf 00000000 00000000 3c000000  pG..........<...
+ 0150 18000000                             ....            
+Contents of section .text.pbuf_copy:
+ 0000 19b10023 0a89fff7 febf6ff0 0f007047  ...#......o...pG
+Contents of section .text.pbuf_copy_partial:
+ 0000 2de9f041 60b3b1fa 81f68846 760939b3  -..A`......Fv.9.
+ 0010 05461746 22b927e0 93b22d68 efb1e5b1  .F.F".'...-h....
+ 0020 08eb0600 b5f80ac0 1bb19c45 a3eb0c02  ...........E....
+ 0030 f2d9aceb 030c6968 1ffa8cf4 1944bc42  ......ih.....D.B
+ 0040 28bf3c46 22462644 fff7feff 3a1b0023  (.<F"F&D....:..#
+ 0050 b6b297b2 2d68002f e1d13046 bde8f081  ....-h./..0F....
+ 0060 00263046 bde8f081 1646f6e7           .&0F.....F..    
+Contents of section .text.pbuf_get_contiguous:
+ 0000 70b5bdf8 10c078b1 0d461e46 09b19342  p.....x..F.F...B
+ 0010 0ad8b0f8 0ae0e645 aceb0e04 06d80068  .......E.......h
+ 0020 1ffa84fc 0028f4d1 002070bd 0ceb0603  .....(... p.....
+ 0030 9e450ada 002df7d0 63463246 2946fff7  .E...-..cF2F)F..
+ 0040 feffb042 f0d12846 70bd4068 604470bd  ...B..(Fp.@h`Dp.
+Contents of section .text.pbuf_skip:
+ 0000 40b14389 8b42a1eb 030303d8 006899b2  @.C..B.......h..
+ 0010 0028f6d1 02b11180 704700bf           .(......pG..    
+Contents of section .rodata.pbuf_take.str1.4:
+ 0000 70627566 5f74616b 653a2069 6e76616c  pbuf_take: inval
+ 0010 69642070 62756600 64696420 6e6f7420  id pbuf.did not 
+ 0020 636f7079 20616c6c 20646174 6100      copy all data.  
+Contents of section .text.pbuf_take:
+ 0000 b9b32de9 f843b0fa 80f70546 7f09f0b1  ..-..C.....F....
+ 0010 03899146 934217d3 9ab18846 164600e0  ...F.B.....F.F..
+ 0020 c5b16c89 08eb0701 6868b442 28bf3446  ..l.....hh.B(.4F
+ 0030 22462744 fff7feff 361b2d68 f0d1b945  "F'D....6.-h...E
+ 0040 1ad10020 bde8f883 4ff0ff30 fae76ff0  ... ....O..0..o.
+ 0050 0f00f7e7 104b40f2 e5421049 1048fff7  .....K@..B.I.H..
+ 0060 feff2846 fff7feff 0120fff7 fefffff7  ..(F..... ......
+ 0070 feff6ff0 0f007047 074b4ff4 9e620949  ..o...pG.KO..b.I
+ 0080 0748fff7 feff3046 fff7feff 0120fff7  .H....0F..... ..
+ 0090 fefffff7 feff00bf 00000000 00000000  ................
+ 00a0 3c000000 18000000                    <.......        
+Contents of section .text.pbuf_take_at:
+ 0000 90b32de9 f0410f46 044602e0 246883b2  ..-..A.F.F..$h..
+ 0010 34b36589 9d42a3eb 0500f7d9 21899e18  4.e..B......!...
+ 0020 b1421ddb e91a8a42 07dc6068 39461844  .B.....B..`h9F.D
+ 0030 fff7feff 0020bde8 f0811ffa 81f86068  ..... ........`h
+ 0040 39464246 1844fff7 feff701b 82b2002a  9FBF.D....p....*
+ 0050 f0d007eb 08012068 bde8f041 fff7febf  ...... h...A....
+ 0060 4ff0ff30 bde8f081 4ff0ff30 704700bf  O..0....O..0pG..
+Contents of section .text.pbuf_coalesce:
+ 0000 f8b50368 064643b3 0789cb1c 0c46fa1c  ...h.FC......F..
+ 0010 23f00303 22f00302 134403f1 10008342  #..."....D.....B
+ 0020 28bf0346 9a4218d8 fff7feff 0546a0b1  (..F.B.......F..
+ 0030 04440c4b 07813146 1334c360 00233289  .D.K..1F.4.`.#2.
+ 0040 24f00304 47810360 4460fff7 feff38b9  $...G..`D`....8.
+ 0050 3046fff7 feff2846 f8bd3546 2846f8bd  0F....(F..5F(F..
+ 0060 fff7feff 80000100                    ........        
+Contents of section .text.pbuf_clone:
+ 0000 38b51446 0a462189 fff7feff 054628b1  8..F.F!......F(.
+ 0010 00232289 2146fff7 feff08b9 284638bd  .#".!F......(F8.
+ 0020 fff7feff                             ....            
+Contents of section .text.pbuf_get_at:
+ 0000 18b90ae0 006899b2 30b14389 8b42a1eb  .....h..0.C..B..
+ 0010 0303f7d9 4368585c 70477047           ....ChX\pGpG    
+Contents of section .text.pbuf_try_get_at:
+ 0000 40b14389 8b42a1eb 030306d8 006899b2  @.C..B.......h..
+ 0010 0028f6d1 4ff0ff30 70474368 585c7047  .(..O..0pGChX\pG
+Contents of section .text.pbuf_put_at:
+ 0000 18b90ae0 006899b2 30b14389 8b42a1eb  .....h..0.C..B..
+ 0010 0303f7d9 43685a54 70477047           ....ChZTpGpG    
+Contents of section .text.pbuf_memcmp:
+ 0000 70b50589 cc18a542 2edb4489 8c42a1eb  p......B..D..B..
+ 0010 040403d8 0068a1b2 0028f6d1 f3b10025  .....h...(.....%
+ 0020 561eae46 01eb0e0c 04461ffa 8cfc20b9  V..F.....F.... .
+ 0030 0be02468 1ffa82fc 3cb16289 9445aceb  ..$h....<.b..E..
+ 0040 0202f6d2 626812f8 0c4016f8 012fa242  ....bh...@.../.B
+ 0050 06d10135 1ffa85fe 7345e3d8 002070bd  ...5....sE... p.
+ 0060 0ef10103 98b270bd 4ff6ff70 70bd00bf  ......p.O..pp...
+Contents of section .text.pbuf_memfind:
+ 0000 2de9f041 1c460589 d3189d42 18dbad1a  -..A.F.....B....
+ 0010 07461646 8846adb2 a54204d2 10e01ffa  .F.F.F...B......
+ 0020 8cf4a542 0cd32146 33464246 3846fff7  ...B..!F3FBF8F..
+ 0030 feff04f1 010c0028 f1d12046 bde8f081  .......(.. F....
+ 0040 4ff6ff70 bde8f081                    O..p....        
+Contents of section .text.pbuf_strstr:
+ 0000 2de9f843 29b30b78 0d4613b3 04894ff6  -..C)..x.F....O.
+ 0010 ff760746 b4421ed0 0846fff7 feff4ff6  .v.F.B...F....O.
+ 0020 fe739842 1ad88442 18db1ffa 80f80026  .s.B...B.......&
+ 0030 a4eb0809 32461ffa 89f91446 01362a46  ....2F.....F.6*F
+ 0040 43462146 3846fff7 feffb2b2 18b19145  CF!F8F.........E
+ 0050 f3d24ff6 ff742046 bde8f883 34462046  ..O..t F....4F F
+ 0060 bde8f883                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.pbuf_ref.part.0:
+
+00000000 <pbuf_ref.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	f240 3246 	movw	r2, #838	; 0x346
+   6:	4b06      	ldr	r3, [pc, #24]	; (20 <pbuf_ref.part.0+0x20>)
+   8:	4906      	ldr	r1, [pc, #24]	; (24 <pbuf_ref.part.0+0x24>)
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <pbuf_ref.part.0+0x28>)
+   c:	f7ff fffe 	bl	0 <printf>
+  10:	2000      	movs	r0, #0
+  12:	f7ff fffe 	bl	0 <fflush>
+  16:	2001      	movs	r0, #1
+  18:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1c:	f7ff fffe 	bl	0 <abort>
+  20:	00000000 	.word	0x00000000
+  24:	00000028 	.word	0x00000028
+  28:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_clone.part.0:
+
+00000000 <pbuf_clone.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	f240 524c 	movw	r2, #1356	; 0x54c
+   6:	4b06      	ldr	r3, [pc, #24]	; (20 <pbuf_clone.part.0+0x20>)
+   8:	4906      	ldr	r1, [pc, #24]	; (24 <pbuf_clone.part.0+0x24>)
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <pbuf_clone.part.0+0x28>)
+   c:	f7ff fffe 	bl	0 <printf>
+  10:	2000      	movs	r0, #0
+  12:	f7ff fffe 	bl	0 <fflush>
+  16:	2001      	movs	r0, #1
+  18:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1c:	f7ff fffe 	bl	0 <abort>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+  28:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_free_ooseq:
+
+00000000 <pbuf_free_ooseq>:
+   0:	4907      	ldr	r1, [pc, #28]	; (20 <pbuf_free_ooseq+0x20>)
+   2:	2200      	movs	r2, #0
+   4:	4b07      	ldr	r3, [pc, #28]	; (24 <pbuf_free_ooseq+0x24>)
+   6:	6808      	ldr	r0, [r1, #0]
+   8:	701a      	strb	r2, [r3, #0]
+   a:	b910      	cbnz	r0, 12 <pbuf_free_ooseq+0x12>
+   c:	e006      	b.n	1c <pbuf_free_ooseq+0x1c>
+   e:	68c0      	ldr	r0, [r0, #12]
+  10:	b120      	cbz	r0, 1c <pbuf_free_ooseq+0x1c>
+  12:	6f43      	ldr	r3, [r0, #116]	; 0x74
+  14:	2b00      	cmp	r3, #0
+  16:	d0fa      	beq.n	e <pbuf_free_ooseq+0xe>
+  18:	f7ff bffe 	b.w	0 <tcp_free_ooseq>
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.pbuf_alloc_reference:
+
+00000000 <pbuf_alloc_reference>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	f022 0340 	bic.w	r3, r2, #64	; 0x40
+   6:	2b01      	cmp	r3, #1
+   8:	d110      	bne.n	2c <pbuf_alloc_reference+0x2c>
+   a:	4606      	mov	r6, r0
+   c:	2008      	movs	r0, #8
+   e:	4614      	mov	r4, r2
+  10:	460d      	mov	r5, r1
+  12:	b29f      	uxth	r7, r3
+  14:	f7ff fffe 	bl	0 <memp_malloc>
+  18:	b138      	cbz	r0, 2a <pbuf_alloc_reference+0x2a>
+  1a:	2300      	movs	r3, #0
+  1c:	6046      	str	r6, [r0, #4]
+  1e:	8105      	strh	r5, [r0, #8]
+  20:	8145      	strh	r5, [r0, #10]
+  22:	7304      	strb	r4, [r0, #12]
+  24:	81c7      	strh	r7, [r0, #14]
+  26:	6003      	str	r3, [r0, #0]
+  28:	7343      	strb	r3, [r0, #13]
+  2a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  2c:	4b07      	ldr	r3, [pc, #28]	; (4c <pbuf_alloc_reference+0x4c>)
+  2e:	f44f 72a6 	mov.w	r2, #332	; 0x14c
+  32:	4907      	ldr	r1, [pc, #28]	; (50 <pbuf_alloc_reference+0x50>)
+  34:	4807      	ldr	r0, [pc, #28]	; (54 <pbuf_alloc_reference+0x54>)
+  36:	f7ff fffe 	bl	0 <printf>
+  3a:	2000      	movs	r0, #0
+  3c:	f7ff fffe 	bl	0 <fflush>
+  40:	2001      	movs	r0, #1
+  42:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  46:	f7ff fffe 	bl	0 <abort>
+  4a:	bf00      	nop
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_alloced_custom:
+
+00000000 <pbuf_alloced_custom>:
+   0:	3003      	adds	r0, #3
+   2:	f020 0003 	bic.w	r0, r0, #3
+   6:	b510      	push	{r4, lr}
+   8:	eb01 0e00 	add.w	lr, r1, r0
+   c:	f8bd c00c 	ldrh.w	ip, [sp, #12]
+  10:	9c02      	ldr	r4, [sp, #8]
+  12:	45e6      	cmp	lr, ip
+  14:	d80d      	bhi.n	32 <pbuf_alloced_custom+0x32>
+  16:	b104      	cbz	r4, 1a <pbuf_alloced_custom+0x1a>
+  18:	4404      	add	r4, r0
+  1a:	4618      	mov	r0, r3
+  1c:	2300      	movs	r3, #0
+  1e:	6044      	str	r4, [r0, #4]
+  20:	2402      	movs	r4, #2
+  22:	6003      	str	r3, [r0, #0]
+  24:	2301      	movs	r3, #1
+  26:	8101      	strh	r1, [r0, #8]
+  28:	8141      	strh	r1, [r0, #10]
+  2a:	7302      	strb	r2, [r0, #12]
+  2c:	7344      	strb	r4, [r0, #13]
+  2e:	81c3      	strh	r3, [r0, #14]
+  30:	bd10      	pop	{r4, pc}
+  32:	2000      	movs	r0, #0
+  34:	bd10      	pop	{r4, pc}
+  36:	bf00      	nop
+
+Disassembly of section .text.pbuf_add_header:
+
+00000000 <pbuf_add_header>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	b1f8      	cbz	r0, 46 <pbuf_add_header+0x46>
+   6:	f5b1 3f80 	cmp.w	r1, #65536	; 0x10000
+   a:	d20a      	bcs.n	22 <pbuf_add_header+0x22>
+   c:	b159      	cbz	r1, 26 <pbuf_add_header+0x26>
+   e:	b28a      	uxth	r2, r1
+  10:	8903      	ldrh	r3, [r0, #8]
+  12:	4413      	add	r3, r2
+  14:	b29b      	uxth	r3, r3
+  16:	429a      	cmp	r2, r3
+  18:	d803      	bhi.n	22 <pbuf_add_header+0x22>
+  1a:	f990 000c 	ldrsb.w	r0, [r0, #12]
+  1e:	2800      	cmp	r0, #0
+  20:	db03      	blt.n	2a <pbuf_add_header+0x2a>
+  22:	2001      	movs	r0, #1
+  24:	bd10      	pop	{r4, pc}
+  26:	4608      	mov	r0, r1
+  28:	bd10      	pop	{r4, pc}
+  2a:	6860      	ldr	r0, [r4, #4]
+  2c:	1a41      	subs	r1, r0, r1
+  2e:	f104 0010 	add.w	r0, r4, #16
+  32:	4281      	cmp	r1, r0
+  34:	d3f5      	bcc.n	22 <pbuf_add_header+0x22>
+  36:	f8b4 c00a 	ldrh.w	ip, [r4, #10]
+  3a:	2000      	movs	r0, #0
+  3c:	6061      	str	r1, [r4, #4]
+  3e:	4462      	add	r2, ip
+  40:	8123      	strh	r3, [r4, #8]
+  42:	8162      	strh	r2, [r4, #10]
+  44:	bd10      	pop	{r4, pc}
+  46:	4b07      	ldr	r3, [pc, #28]	; (64 <pbuf_add_header+0x64>)
+  48:	f44f 72f2 	mov.w	r2, #484	; 0x1e4
+  4c:	4906      	ldr	r1, [pc, #24]	; (68 <pbuf_add_header+0x68>)
+  4e:	4807      	ldr	r0, [pc, #28]	; (6c <pbuf_add_header+0x6c>)
+  50:	f7ff fffe 	bl	0 <printf>
+  54:	4620      	mov	r0, r4
+  56:	f7ff fffe 	bl	0 <fflush>
+  5a:	2001      	movs	r0, #1
+  5c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  60:	f7ff fffe 	bl	0 <abort>
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_add_header_force:
+
+00000000 <pbuf_add_header_force>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	b300      	cbz	r0, 48 <pbuf_add_header_force+0x48>
+   6:	f5b1 3f80 	cmp.w	r1, #65536	; 0x10000
+   a:	d219      	bcs.n	40 <pbuf_add_header_force+0x40>
+   c:	b1d1      	cbz	r1, 44 <pbuf_add_header_force+0x44>
+   e:	b28a      	uxth	r2, r1
+  10:	8903      	ldrh	r3, [r0, #8]
+  12:	4413      	add	r3, r2
+  14:	b29b      	uxth	r3, r3
+  16:	429a      	cmp	r2, r3
+  18:	d812      	bhi.n	40 <pbuf_add_header_force+0x40>
+  1a:	f990 000c 	ldrsb.w	r0, [r0, #12]
+  1e:	2800      	cmp	r0, #0
+  20:	6860      	ldr	r0, [r4, #4]
+  22:	eba0 0101 	sub.w	r1, r0, r1
+  26:	db07      	blt.n	38 <pbuf_add_header_force+0x38>
+  28:	f8b4 c00a 	ldrh.w	ip, [r4, #10]
+  2c:	2000      	movs	r0, #0
+  2e:	6061      	str	r1, [r4, #4]
+  30:	4462      	add	r2, ip
+  32:	8123      	strh	r3, [r4, #8]
+  34:	8162      	strh	r2, [r4, #10]
+  36:	bd10      	pop	{r4, pc}
+  38:	f104 0010 	add.w	r0, r4, #16
+  3c:	4281      	cmp	r1, r0
+  3e:	d2f3      	bcs.n	28 <pbuf_add_header_force+0x28>
+  40:	2001      	movs	r0, #1
+  42:	bd10      	pop	{r4, pc}
+  44:	4608      	mov	r0, r1
+  46:	bd10      	pop	{r4, pc}
+  48:	4b07      	ldr	r3, [pc, #28]	; (68 <pbuf_add_header_force+0x68>)
+  4a:	f44f 72f2 	mov.w	r2, #484	; 0x1e4
+  4e:	4907      	ldr	r1, [pc, #28]	; (6c <pbuf_add_header_force+0x6c>)
+  50:	4807      	ldr	r0, [pc, #28]	; (70 <pbuf_add_header_force+0x70>)
+  52:	f7ff fffe 	bl	0 <printf>
+  56:	4620      	mov	r0, r4
+  58:	f7ff fffe 	bl	0 <fflush>
+  5c:	2001      	movs	r0, #1
+  5e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  62:	f7ff fffe 	bl	0 <abort>
+  66:	bf00      	nop
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_remove_header:
+
+00000000 <pbuf_remove_header>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b1a8      	cbz	r0, 32 <pbuf_remove_header+0x32>
+   6:	f5b1 3f80 	cmp.w	r1, #65536	; 0x10000
+   a:	d210      	bcs.n	2e <pbuf_remove_header+0x2e>
+   c:	b169      	cbz	r1, 2a <pbuf_remove_header+0x2a>
+   e:	b28a      	uxth	r2, r1
+  10:	8943      	ldrh	r3, [r0, #10]
+  12:	4293      	cmp	r3, r2
+  14:	d30b      	bcc.n	2e <pbuf_remove_header+0x2e>
+  16:	6840      	ldr	r0, [r0, #4]
+  18:	1a9b      	subs	r3, r3, r2
+  1a:	1845      	adds	r5, r0, r1
+  1c:	8921      	ldrh	r1, [r4, #8]
+  1e:	8163      	strh	r3, [r4, #10]
+  20:	2000      	movs	r0, #0
+  22:	1a8b      	subs	r3, r1, r2
+  24:	6065      	str	r5, [r4, #4]
+  26:	8123      	strh	r3, [r4, #8]
+  28:	bd38      	pop	{r3, r4, r5, pc}
+  2a:	4608      	mov	r0, r1
+  2c:	bd38      	pop	{r3, r4, r5, pc}
+  2e:	2001      	movs	r0, #1
+  30:	bd38      	pop	{r3, r4, r5, pc}
+  32:	4b07      	ldr	r3, [pc, #28]	; (50 <pbuf_remove_header+0x50>)
+  34:	f44f 7214 	mov.w	r2, #592	; 0x250
+  38:	4906      	ldr	r1, [pc, #24]	; (54 <pbuf_remove_header+0x54>)
+  3a:	4807      	ldr	r0, [pc, #28]	; (58 <pbuf_remove_header+0x58>)
+  3c:	f7ff fffe 	bl	0 <printf>
+  40:	4620      	mov	r0, r4
+  42:	f7ff fffe 	bl	0 <fflush>
+  46:	2001      	movs	r0, #1
+  48:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  4c:	f7ff fffe 	bl	0 <abort>
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+  58:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_header:
+
+00000000 <pbuf_header>:
+   0:	2900      	cmp	r1, #0
+   2:	db1d      	blt.n	40 <pbuf_header+0x40>
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
+   8:	b1f8      	cbz	r0, 4a <pbuf_header+0x4a>
+   a:	b1e1      	cbz	r1, 46 <pbuf_header+0x46>
+   c:	b28a      	uxth	r2, r1
+   e:	8903      	ldrh	r3, [r0, #8]
+  10:	4413      	add	r3, r2
+  12:	b29b      	uxth	r3, r3
+  14:	429a      	cmp	r2, r3
+  16:	d811      	bhi.n	3c <pbuf_header+0x3c>
+  18:	f990 000c 	ldrsb.w	r0, [r0, #12]
+  1c:	2800      	cmp	r0, #0
+  1e:	da0d      	bge.n	3c <pbuf_header+0x3c>
+  20:	6860      	ldr	r0, [r4, #4]
+  22:	1a41      	subs	r1, r0, r1
+  24:	f104 0010 	add.w	r0, r4, #16
+  28:	4281      	cmp	r1, r0
+  2a:	d307      	bcc.n	3c <pbuf_header+0x3c>
+  2c:	f8b4 c00a 	ldrh.w	ip, [r4, #10]
+  30:	2000      	movs	r0, #0
+  32:	6061      	str	r1, [r4, #4]
+  34:	4462      	add	r2, ip
+  36:	8123      	strh	r3, [r4, #8]
+  38:	8162      	strh	r2, [r4, #10]
+  3a:	bd10      	pop	{r4, pc}
+  3c:	2001      	movs	r0, #1
+  3e:	bd10      	pop	{r4, pc}
+  40:	4249      	negs	r1, r1
+  42:	f7ff bffe 	b.w	0 <pbuf_header>
+  46:	4608      	mov	r0, r1
+  48:	bd10      	pop	{r4, pc}
+  4a:	4b07      	ldr	r3, [pc, #28]	; (68 <pbuf_header+0x68>)
+  4c:	f44f 72f2 	mov.w	r2, #484	; 0x1e4
+  50:	4906      	ldr	r1, [pc, #24]	; (6c <pbuf_header+0x6c>)
+  52:	4807      	ldr	r0, [pc, #28]	; (70 <pbuf_header+0x70>)
+  54:	f7ff fffe 	bl	0 <printf>
+  58:	4620      	mov	r0, r4
+  5a:	f7ff fffe 	bl	0 <fflush>
+  5e:	2001      	movs	r0, #1
+  60:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  64:	f7ff fffe 	bl	0 <abort>
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_header_force:
+
+00000000 <pbuf_header_force>:
+   0:	2900      	cmp	r1, #0
+   2:	db18      	blt.n	36 <pbuf_header_force+0x36>
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
+   8:	b300      	cbz	r0, 4c <pbuf_header_force+0x4c>
+   a:	b1b9      	cbz	r1, 3c <pbuf_header_force+0x3c>
+   c:	b28a      	uxth	r2, r1
+   e:	8903      	ldrh	r3, [r0, #8]
+  10:	4413      	add	r3, r2
+  12:	b29b      	uxth	r3, r3
+  14:	429a      	cmp	r2, r3
+  16:	d817      	bhi.n	48 <pbuf_header_force+0x48>
+  18:	f990 000c 	ldrsb.w	r0, [r0, #12]
+  1c:	2800      	cmp	r0, #0
+  1e:	6860      	ldr	r0, [r4, #4]
+  20:	eba0 0101 	sub.w	r1, r0, r1
+  24:	db0c      	blt.n	40 <pbuf_header_force+0x40>
+  26:	f8b4 c00a 	ldrh.w	ip, [r4, #10]
+  2a:	2000      	movs	r0, #0
+  2c:	6061      	str	r1, [r4, #4]
+  2e:	4462      	add	r2, ip
+  30:	8123      	strh	r3, [r4, #8]
+  32:	8162      	strh	r2, [r4, #10]
+  34:	bd10      	pop	{r4, pc}
+  36:	4249      	negs	r1, r1
+  38:	f7ff bffe 	b.w	0 <pbuf_header_force>
+  3c:	4608      	mov	r0, r1
+  3e:	bd10      	pop	{r4, pc}
+  40:	f104 0010 	add.w	r0, r4, #16
+  44:	4281      	cmp	r1, r0
+  46:	d2ee      	bcs.n	26 <pbuf_header_force+0x26>
+  48:	2001      	movs	r0, #1
+  4a:	bd10      	pop	{r4, pc}
+  4c:	4b07      	ldr	r3, [pc, #28]	; (6c <pbuf_header_force+0x6c>)
+  4e:	f44f 72f2 	mov.w	r2, #484	; 0x1e4
+  52:	4907      	ldr	r1, [pc, #28]	; (70 <pbuf_header_force+0x70>)
+  54:	4807      	ldr	r0, [pc, #28]	; (74 <pbuf_header_force+0x74>)
+  56:	f7ff fffe 	bl	0 <printf>
+  5a:	4620      	mov	r0, r4
+  5c:	f7ff fffe 	bl	0 <fflush>
+  60:	2001      	movs	r0, #1
+  62:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  66:	f7ff fffe 	bl	0 <abort>
+  6a:	bf00      	nop
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+  74:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.pbuf_free:
+
+00000000 <pbuf_free>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4605      	mov	r5, r0
+   4:	2800      	cmp	r0, #0
+   6:	d049      	beq.n	9c <pbuf_free+0x9c>
+   8:	2600      	movs	r6, #0
+   a:	e008      	b.n	1e <pbuf_free+0x1e>
+   c:	692c      	ldr	r4, [r5, #16]
+   e:	2c00      	cmp	r4, #0
+  10:	d03a      	beq.n	88 <pbuf_free+0x88>
+  12:	4628      	mov	r0, r5
+  14:	47a0      	blx	r4
+  16:	3601      	adds	r6, #1
+  18:	b2f6      	uxtb	r6, r6
+  1a:	b1d7      	cbz	r7, 52 <pbuf_free+0x52>
+  1c:	463d      	mov	r5, r7
+  1e:	7bac      	ldrb	r4, [r5, #14]
+  20:	b31c      	cbz	r4, 6a <pbuf_free+0x6a>
+  22:	3c01      	subs	r4, #1
+  24:	b2e4      	uxtb	r4, r4
+  26:	73ac      	strb	r4, [r5, #14]
+  28:	b99c      	cbnz	r4, 52 <pbuf_free+0x52>
+  2a:	7b6b      	ldrb	r3, [r5, #13]
+  2c:	682f      	ldr	r7, [r5, #0]
+  2e:	f013 0402 	ands.w	r4, r3, #2
+  32:	7b2a      	ldrb	r2, [r5, #12]
+  34:	d1ea      	bne.n	c <pbuf_free+0xc>
+  36:	f002 020f 	and.w	r2, r2, #15
+  3a:	2a02      	cmp	r2, #2
+  3c:	d00b      	beq.n	56 <pbuf_free+0x56>
+  3e:	2a01      	cmp	r2, #1
+  40:	d00e      	beq.n	60 <pbuf_free+0x60>
+  42:	bb32      	cbnz	r2, 92 <pbuf_free+0x92>
+  44:	3601      	adds	r6, #1
+  46:	4628      	mov	r0, r5
+  48:	f7ff fffe 	bl	0 <mem_free>
+  4c:	b2f6      	uxtb	r6, r6
+  4e:	2f00      	cmp	r7, #0
+  50:	d1e4      	bne.n	1c <pbuf_free+0x1c>
+  52:	4630      	mov	r0, r6
+  54:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  56:	4629      	mov	r1, r5
+  58:	2009      	movs	r0, #9
+  5a:	f7ff fffe 	bl	0 <memp_free>
+  5e:	e7da      	b.n	16 <pbuf_free+0x16>
+  60:	4629      	mov	r1, r5
+  62:	2008      	movs	r0, #8
+  64:	f7ff fffe 	bl	0 <memp_free>
+  68:	e7d5      	b.n	16 <pbuf_free+0x16>
+  6a:	4b14      	ldr	r3, [pc, #80]	; (bc <pbuf_free+0xbc>)
+  6c:	f240 22f5 	movw	r2, #757	; 0x2f5
+  70:	4913      	ldr	r1, [pc, #76]	; (c0 <pbuf_free+0xc0>)
+  72:	4814      	ldr	r0, [pc, #80]	; (c4 <pbuf_free+0xc4>)
+  74:	f7ff fffe 	bl	0 <printf>
+  78:	4620      	mov	r0, r4
+  7a:	f7ff fffe 	bl	0 <fflush>
+  7e:	2001      	movs	r0, #1
+  80:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  84:	f7ff fffe 	bl	0 <abort>
+  88:	4b0c      	ldr	r3, [pc, #48]	; (bc <pbuf_free+0xbc>)
+  8a:	f240 3203 	movw	r2, #771	; 0x303
+  8e:	490e      	ldr	r1, [pc, #56]	; (c8 <pbuf_free+0xc8>)
+  90:	e7ef      	b.n	72 <pbuf_free+0x72>
+  92:	4b0a      	ldr	r3, [pc, #40]	; (bc <pbuf_free+0xbc>)
+  94:	f240 3213 	movw	r2, #787	; 0x313
+  98:	490c      	ldr	r1, [pc, #48]	; (cc <pbuf_free+0xcc>)
+  9a:	e7ea      	b.n	72 <pbuf_free+0x72>
+  9c:	4b07      	ldr	r3, [pc, #28]	; (bc <pbuf_free+0xbc>)
+  9e:	f44f 7238 	mov.w	r2, #736	; 0x2e0
+  a2:	490b      	ldr	r1, [pc, #44]	; (d0 <pbuf_free+0xd0>)
+  a4:	4807      	ldr	r0, [pc, #28]	; (c4 <pbuf_free+0xc4>)
+  a6:	f7ff fffe 	bl	0 <printf>
+  aa:	4628      	mov	r0, r5
+  ac:	f7ff fffe 	bl	0 <fflush>
+  b0:	2001      	movs	r0, #1
+  b2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  b6:	f7ff fffe 	bl	0 <abort>
+  ba:	bf00      	nop
+  bc:	00000000 	.word	0x00000000
+  c0:	00000000 	.word	0x00000000
+  c4:	0000003c 	.word	0x0000003c
+  c8:	00000018 	.word	0x00000018
+  cc:	0000003c 	.word	0x0000003c
+  d0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.pbuf_alloc:
+
+00000000 <pbuf_alloc>:
+   0:	f5b2 7fc1 	cmp.w	r2, #386	; 0x182
+   4:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   8:	4681      	mov	r9, r0
+   a:	460f      	mov	r7, r1
+   c:	d041      	beq.n	92 <pbuf_alloc+0x92>
+   e:	d812      	bhi.n	36 <pbuf_alloc+0x36>
+  10:	f022 0340 	bic.w	r3, r2, #64	; 0x40
+  14:	2b01      	cmp	r3, #1
+  16:	d037      	beq.n	88 <pbuf_alloc+0x88>
+  18:	4b3a      	ldr	r3, [pc, #232]	; (104 <pbuf_alloc+0x104>)
+  1a:	f240 1229 	movw	r2, #297	; 0x129
+  1e:	493a      	ldr	r1, [pc, #232]	; (108 <pbuf_alloc+0x108>)
+  20:	483a      	ldr	r0, [pc, #232]	; (10c <pbuf_alloc+0x10c>)
+  22:	f7ff fffe 	bl	0 <printf>
+  26:	2000      	movs	r0, #0
+  28:	f7ff fffe 	bl	0 <fflush>
+  2c:	2001      	movs	r0, #1
+  2e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  32:	f7ff fffe 	bl	0 <abort>
+  36:	f5b2 7f20 	cmp.w	r2, #640	; 0x280
+  3a:	d1ed      	bne.n	18 <pbuf_alloc+0x18>
+  3c:	1cc3      	adds	r3, r0, #3
+  3e:	1cca      	adds	r2, r1, #3
+  40:	f023 0303 	bic.w	r3, r3, #3
+  44:	f022 0203 	bic.w	r2, r2, #3
+  48:	4413      	add	r3, r2
+  4a:	f103 0010 	add.w	r0, r3, #16
+  4e:	4283      	cmp	r3, r0
+  50:	bf28      	it	cs
+  52:	4603      	movcs	r3, r0
+  54:	429a      	cmp	r2, r3
+  56:	d812      	bhi.n	7e <pbuf_alloc+0x7e>
+  58:	f7ff fffe 	bl	0 <mem_malloc>
+  5c:	4680      	mov	r8, r0
+  5e:	b180      	cbz	r0, 82 <pbuf_alloc+0x82>
+  60:	4481      	add	r9, r0
+  62:	2100      	movs	r1, #0
+  64:	4a2a      	ldr	r2, [pc, #168]	; (110 <pbuf_alloc+0x110>)
+  66:	f109 0313 	add.w	r3, r9, #19
+  6a:	8107      	strh	r7, [r0, #8]
+  6c:	6001      	str	r1, [r0, #0]
+  6e:	f023 0303 	bic.w	r3, r3, #3
+  72:	8147      	strh	r7, [r0, #10]
+  74:	60c2      	str	r2, [r0, #12]
+  76:	6043      	str	r3, [r0, #4]
+  78:	4640      	mov	r0, r8
+  7a:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  7e:	f04f 0800 	mov.w	r8, #0
+  82:	4640      	mov	r0, r8
+  84:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  88:	2000      	movs	r0, #0
+  8a:	e8bd 43f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+  8e:	f7ff bffe 	b.w	0 <pbuf_alloc>
+  92:	2200      	movs	r2, #0
+  94:	fa1f f980 	uxth.w	r9, r0
+  98:	f240 55ec 	movw	r5, #1516	; 0x5ec
+  9c:	4c1d      	ldr	r4, [pc, #116]	; (114 <pbuf_alloc+0x114>)
+  9e:	4690      	mov	r8, r2
+  a0:	e006      	b.n	b0 <pbuf_alloc+0xb0>
+  a2:	6032      	str	r2, [r6, #0]
+  a4:	1afb      	subs	r3, r7, r3
+  a6:	f04f 0900 	mov.w	r9, #0
+  aa:	b29f      	uxth	r7, r3
+  ac:	2f00      	cmp	r7, #0
+  ae:	d0e8      	beq.n	82 <pbuf_alloc+0x82>
+  b0:	2009      	movs	r0, #9
+  b2:	4616      	mov	r6, r2
+  b4:	f7ff fffe 	bl	0 <memp_malloc>
+  b8:	4602      	mov	r2, r0
+  ba:	b1c0      	cbz	r0, ee <pbuf_alloc+0xee>
+  bc:	f109 0303 	add.w	r3, r9, #3
+  c0:	eb00 0109 	add.w	r1, r0, r9
+  c4:	2000      	movs	r0, #0
+  c6:	8117      	strh	r7, [r2, #8]
+  c8:	f023 0303 	bic.w	r3, r3, #3
+  cc:	3113      	adds	r1, #19
+  ce:	6010      	str	r0, [r2, #0]
+  d0:	1aeb      	subs	r3, r5, r3
+  d2:	f021 0103 	bic.w	r1, r1, #3
+  d6:	60d4      	str	r4, [r2, #12]
+  d8:	b29b      	uxth	r3, r3
+  da:	6051      	str	r1, [r2, #4]
+  dc:	42bb      	cmp	r3, r7
+  de:	bf28      	it	cs
+  e0:	463b      	movcs	r3, r7
+  e2:	8153      	strh	r3, [r2, #10]
+  e4:	f1b8 0f00 	cmp.w	r8, #0
+  e8:	d1db      	bne.n	a2 <pbuf_alloc+0xa2>
+  ea:	4690      	mov	r8, r2
+  ec:	e7da      	b.n	a4 <pbuf_alloc+0xa4>
+  ee:	4b0a      	ldr	r3, [pc, #40]	; (118 <pbuf_alloc+0x118>)
+  f0:	2101      	movs	r1, #1
+  f2:	7019      	strb	r1, [r3, #0]
+  f4:	f1b8 0f00 	cmp.w	r8, #0
+  f8:	d0c1      	beq.n	7e <pbuf_alloc+0x7e>
+  fa:	4640      	mov	r0, r8
+  fc:	4690      	mov	r8, r2
+  fe:	f7ff fffe 	bl	0 <pbuf_alloc>
+ 102:	e7be      	b.n	82 <pbuf_alloc+0x82>
+ 104:	00000000 	.word	0x00000000
+ 108:	00000000 	.word	0x00000000
+ 10c:	0000003c 	.word	0x0000003c
+ 110:	00010080 	.word	0x00010080
+ 114:	00010082 	.word	0x00010082
+ 118:	00000000 	.word	0x00000000
+
+Disassembly of section .text.pbuf_realloc:
+
+00000000 <pbuf_realloc>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	2800      	cmp	r0, #0
+   6:	d058      	beq.n	ba <pbuf_realloc+0xba>
+   8:	8903      	ldrh	r3, [r0, #8]
+   a:	428b      	cmp	r3, r1
+   c:	d91d      	bls.n	4a <pbuf_realloc+0x4a>
+   e:	460d      	mov	r5, r1
+  10:	1ac9      	subs	r1, r1, r3
+  12:	e006      	b.n	22 <pbuf_realloc+0x22>
+  14:	8922      	ldrh	r2, [r4, #8]
+  16:	1aeb      	subs	r3, r5, r3
+  18:	440a      	add	r2, r1
+  1a:	b29d      	uxth	r5, r3
+  1c:	8122      	strh	r2, [r4, #8]
+  1e:	6824      	ldr	r4, [r4, #0]
+  20:	b36c      	cbz	r4, 7e <pbuf_realloc+0x7e>
+  22:	8963      	ldrh	r3, [r4, #10]
+  24:	42ab      	cmp	r3, r5
+  26:	d3f5      	bcc.n	14 <pbuf_realloc+0x14>
+  28:	7b22      	ldrb	r2, [r4, #12]
+  2a:	0712      	lsls	r2, r2, #28
+  2c:	d105      	bne.n	3a <pbuf_realloc+0x3a>
+  2e:	42ab      	cmp	r3, r5
+  30:	d003      	beq.n	3a <pbuf_realloc+0x3a>
+  32:	7b63      	ldrb	r3, [r4, #13]
+  34:	f013 0602 	ands.w	r6, r3, #2
+  38:	d008      	beq.n	4c <pbuf_realloc+0x4c>
+  3a:	6820      	ldr	r0, [r4, #0]
+  3c:	8165      	strh	r5, [r4, #10]
+  3e:	8125      	strh	r5, [r4, #8]
+  40:	b108      	cbz	r0, 46 <pbuf_realloc+0x46>
+  42:	f7ff fffe 	bl	0 <pbuf_realloc>
+  46:	2300      	movs	r3, #0
+  48:	6023      	str	r3, [r4, #0]
+  4a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  4c:	6863      	ldr	r3, [r4, #4]
+  4e:	4620      	mov	r0, r4
+  50:	1b1b      	subs	r3, r3, r4
+  52:	1959      	adds	r1, r3, r5
+  54:	f7ff fffe 	bl	0 <mem_trim>
+  58:	4607      	mov	r7, r0
+  5a:	b1f8      	cbz	r0, 9c <pbuf_realloc+0x9c>
+  5c:	4284      	cmp	r4, r0
+  5e:	d0ec      	beq.n	3a <pbuf_realloc+0x3a>
+  60:	4b18      	ldr	r3, [pc, #96]	; (c4 <pbuf_realloc+0xc4>)
+  62:	f240 12c1 	movw	r2, #449	; 0x1c1
+  66:	4918      	ldr	r1, [pc, #96]	; (c8 <pbuf_realloc+0xc8>)
+  68:	4818      	ldr	r0, [pc, #96]	; (cc <pbuf_realloc+0xcc>)
+  6a:	f7ff fffe 	bl	0 <printf>
+  6e:	4630      	mov	r0, r6
+  70:	f7ff fffe 	bl	0 <fflush>
+  74:	2001      	movs	r0, #1
+  76:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  7a:	f7ff fffe 	bl	0 <abort>
+  7e:	4b11      	ldr	r3, [pc, #68]	; (c4 <pbuf_realloc+0xc4>)
+  80:	f240 12b1 	movw	r2, #433	; 0x1b1
+  84:	4912      	ldr	r1, [pc, #72]	; (d0 <pbuf_realloc+0xd0>)
+  86:	4811      	ldr	r0, [pc, #68]	; (cc <pbuf_realloc+0xcc>)
+  88:	f7ff fffe 	bl	0 <printf>
+  8c:	4620      	mov	r0, r4
+  8e:	f7ff fffe 	bl	0 <fflush>
+  92:	2001      	movs	r0, #1
+  94:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  98:	f7ff fffe 	bl	0 <abort>
+  9c:	4b09      	ldr	r3, [pc, #36]	; (c4 <pbuf_realloc+0xc4>)
+  9e:	f240 12bf 	movw	r2, #447	; 0x1bf
+  a2:	490c      	ldr	r1, [pc, #48]	; (d4 <pbuf_realloc+0xd4>)
+  a4:	4809      	ldr	r0, [pc, #36]	; (cc <pbuf_realloc+0xcc>)
+  a6:	f7ff fffe 	bl	0 <printf>
+  aa:	4638      	mov	r0, r7
+  ac:	f7ff fffe 	bl	0 <fflush>
+  b0:	2001      	movs	r0, #1
+  b2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  b6:	f7ff fffe 	bl	0 <abort>
+  ba:	4b02      	ldr	r3, [pc, #8]	; (c4 <pbuf_realloc+0xc4>)
+  bc:	f44f 72cd 	mov.w	r2, #410	; 0x19a
+  c0:	4905      	ldr	r1, [pc, #20]	; (d8 <pbuf_realloc+0xd8>)
+  c2:	e7e0      	b.n	86 <pbuf_realloc+0x86>
+  c4:	00000000 	.word	0x00000000
+  c8:	0000004c 	.word	0x0000004c
+  cc:	0000003c 	.word	0x0000003c
+  d0:	00000018 	.word	0x00000018
+  d4:	00000030 	.word	0x00000030
+  d8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.pbuf_free_header:
+
+00000000 <pbuf_free_header>:
+   0:	4603      	mov	r3, r0
+   2:	b1f1      	cbz	r1, 42 <pbuf_free_header+0x42>
+   4:	b1e8      	cbz	r0, 42 <pbuf_free_header+0x42>
+   6:	b570      	push	{r4, r5, r6, lr}
+   8:	460c      	mov	r4, r1
+   a:	2600      	movs	r6, #0
+   c:	895a      	ldrh	r2, [r3, #10]
+   e:	4618      	mov	r0, r3
+  10:	42a2      	cmp	r2, r4
+  12:	eba4 0102 	sub.w	r1, r4, r2
+  16:	d909      	bls.n	2c <pbuf_free_header+0x2c>
+  18:	6858      	ldr	r0, [r3, #4]
+  1a:	1b12      	subs	r2, r2, r4
+  1c:	8919      	ldrh	r1, [r3, #8]
+  1e:	4420      	add	r0, r4
+  20:	815a      	strh	r2, [r3, #10]
+  22:	1b09      	subs	r1, r1, r4
+  24:	6058      	str	r0, [r3, #4]
+  26:	8119      	strh	r1, [r3, #8]
+  28:	4618      	mov	r0, r3
+  2a:	bd70      	pop	{r4, r5, r6, pc}
+  2c:	681d      	ldr	r5, [r3, #0]
+  2e:	b28c      	uxth	r4, r1
+  30:	601e      	str	r6, [r3, #0]
+  32:	f7ff fffe 	bl	0 <pbuf_free_header>
+  36:	462b      	mov	r3, r5
+  38:	b10c      	cbz	r4, 3e <pbuf_free_header+0x3e>
+  3a:	2d00      	cmp	r5, #0
+  3c:	d1e6      	bne.n	c <pbuf_free_header+0xc>
+  3e:	462b      	mov	r3, r5
+  40:	e7f2      	b.n	28 <pbuf_free_header+0x28>
+  42:	4618      	mov	r0, r3
+  44:	4770      	bx	lr
+  46:	bf00      	nop
+
+Disassembly of section .text.pbuf_clen:
+
+00000000 <pbuf_clen>:
+   0:	b138      	cbz	r0, 12 <pbuf_clen+0x12>
+   2:	2300      	movs	r3, #0
+   4:	3301      	adds	r3, #1
+   6:	6800      	ldr	r0, [r0, #0]
+   8:	b29b      	uxth	r3, r3
+   a:	2800      	cmp	r0, #0
+   c:	d1fa      	bne.n	4 <pbuf_clen+0x4>
+   e:	4618      	mov	r0, r3
+  10:	4770      	bx	lr
+  12:	4603      	mov	r3, r0
+  14:	4618      	mov	r0, r3
+  16:	4770      	bx	lr
+
+Disassembly of section .text.pbuf_ref:
+
+00000000 <pbuf_ref>:
+   0:	b130      	cbz	r0, 10 <pbuf_ref+0x10>
+   2:	b508      	push	{r3, lr}
+   4:	7b83      	ldrb	r3, [r0, #14]
+   6:	3301      	adds	r3, #1
+   8:	b2db      	uxtb	r3, r3
+   a:	7383      	strb	r3, [r0, #14]
+   c:	b10b      	cbz	r3, 12 <pbuf_ref+0x12>
+   e:	bd08      	pop	{r3, pc}
+  10:	4770      	bx	lr
+  12:	f7ff fffe 	bl	0 <pbuf_ref>
+  16:	bf00      	nop
+
+Disassembly of section .text.pbuf_cat:
+
+00000000 <pbuf_cat>:
+   0:	b1d0      	cbz	r0, 38 <pbuf_cat+0x38>
+   2:	b510      	push	{r4, lr}
+   4:	fab1 f481 	clz	r4, r1
+   8:	0964      	lsrs	r4, r4, #5
+   a:	b1a1      	cbz	r1, 36 <pbuf_cat+0x36>
+   c:	4288      	cmp	r0, r1
+   e:	d014      	beq.n	3a <pbuf_cat+0x3a>
+  10:	6803      	ldr	r3, [r0, #0]
+  12:	b143      	cbz	r3, 26 <pbuf_cat+0x26>
+  14:	8902      	ldrh	r2, [r0, #8]
+  16:	f8b1 c008 	ldrh.w	ip, [r1, #8]
+  1a:	4462      	add	r2, ip
+  1c:	8102      	strh	r2, [r0, #8]
+  1e:	4618      	mov	r0, r3
+  20:	681b      	ldr	r3, [r3, #0]
+  22:	2b00      	cmp	r3, #0
+  24:	d1f6      	bne.n	14 <pbuf_cat+0x14>
+  26:	8902      	ldrh	r2, [r0, #8]
+  28:	8943      	ldrh	r3, [r0, #10]
+  2a:	4293      	cmp	r3, r2
+  2c:	d114      	bne.n	58 <pbuf_cat+0x58>
+  2e:	890a      	ldrh	r2, [r1, #8]
+  30:	6001      	str	r1, [r0, #0]
+  32:	4413      	add	r3, r2
+  34:	8103      	strh	r3, [r0, #8]
+  36:	bd10      	pop	{r4, pc}
+  38:	4770      	bx	lr
+  3a:	4b0f      	ldr	r3, [pc, #60]	; (78 <pbuf_cat+0x78>)
+  3c:	f240 325f 	movw	r2, #863	; 0x35f
+  40:	490e      	ldr	r1, [pc, #56]	; (7c <pbuf_cat+0x7c>)
+  42:	480f      	ldr	r0, [pc, #60]	; (80 <pbuf_cat+0x80>)
+  44:	f7ff fffe 	bl	0 <printf>
+  48:	4620      	mov	r0, r4
+  4a:	f7ff fffe 	bl	0 <fflush>
+  4e:	2001      	movs	r0, #1
+  50:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  54:	f7ff fffe 	bl	0 <abort>
+  58:	4b07      	ldr	r3, [pc, #28]	; (78 <pbuf_cat+0x78>)
+  5a:	f240 3267 	movw	r2, #871	; 0x367
+  5e:	4909      	ldr	r1, [pc, #36]	; (84 <pbuf_cat+0x84>)
+  60:	4807      	ldr	r0, [pc, #28]	; (80 <pbuf_cat+0x80>)
+  62:	f7ff fffe 	bl	0 <printf>
+  66:	2000      	movs	r0, #0
+  68:	f7ff fffe 	bl	0 <fflush>
+  6c:	2001      	movs	r0, #1
+  6e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  72:	f7ff fffe 	bl	0 <abort>
+  76:	bf00      	nop
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	0000003c 	.word	0x0000003c
+  84:	0000001c 	.word	0x0000001c
+
+Disassembly of section .text.pbuf_chain:
+
+00000000 <pbuf_chain>:
+   0:	b510      	push	{r4, lr}
+   2:	460c      	mov	r4, r1
+   4:	f7ff fffe 	bl	0 <pbuf_chain>
+   8:	b124      	cbz	r4, 14 <pbuf_chain+0x14>
+   a:	7ba3      	ldrb	r3, [r4, #14]
+   c:	3301      	adds	r3, #1
+   e:	b2db      	uxtb	r3, r3
+  10:	73a3      	strb	r3, [r4, #14]
+  12:	b103      	cbz	r3, 16 <pbuf_chain+0x16>
+  14:	bd10      	pop	{r4, pc}
+  16:	f7ff fffe 	bl	0 <pbuf_chain>
+  1a:	bf00      	nop
+
+Disassembly of section .text.pbuf_dechain:
+
+00000000 <pbuf_dechain>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6805      	ldr	r5, [r0, #0]
+   4:	4604      	mov	r4, r0
+   6:	b19d      	cbz	r5, 30 <pbuf_dechain+0x30>
+   8:	8903      	ldrh	r3, [r0, #8]
+   a:	8942      	ldrh	r2, [r0, #10]
+   c:	8929      	ldrh	r1, [r5, #8]
+   e:	1a9b      	subs	r3, r3, r2
+  10:	4299      	cmp	r1, r3
+  12:	d123      	bne.n	5c <pbuf_dechain+0x5c>
+  14:	2300      	movs	r3, #0
+  16:	8129      	strh	r1, [r5, #8]
+  18:	8102      	strh	r2, [r0, #8]
+  1a:	4628      	mov	r0, r5
+  1c:	6023      	str	r3, [r4, #0]
+  1e:	f7ff fffe 	bl	0 <pbuf_dechain>
+  22:	8922      	ldrh	r2, [r4, #8]
+  24:	8963      	ldrh	r3, [r4, #10]
+  26:	429a      	cmp	r2, r3
+  28:	d109      	bne.n	3e <pbuf_dechain+0x3e>
+  2a:	b928      	cbnz	r0, 38 <pbuf_dechain+0x38>
+  2c:	4628      	mov	r0, r5
+  2e:	bd38      	pop	{r3, r4, r5, pc}
+  30:	8902      	ldrh	r2, [r0, #8]
+  32:	8943      	ldrh	r3, [r0, #10]
+  34:	429a      	cmp	r2, r3
+  36:	d102      	bne.n	3e <pbuf_dechain+0x3e>
+  38:	2500      	movs	r5, #0
+  3a:	4628      	mov	r0, r5
+  3c:	bd38      	pop	{r3, r4, r5, pc}
+  3e:	4b0a      	ldr	r3, [pc, #40]	; (68 <pbuf_dechain+0x68>)
+  40:	f240 32af 	movw	r2, #943	; 0x3af
+  44:	4909      	ldr	r1, [pc, #36]	; (6c <pbuf_dechain+0x6c>)
+  46:	480a      	ldr	r0, [pc, #40]	; (70 <pbuf_dechain+0x70>)
+  48:	f7ff fffe 	bl	0 <printf>
+  4c:	2000      	movs	r0, #0
+  4e:	f7ff fffe 	bl	0 <fflush>
+  52:	2001      	movs	r0, #1
+  54:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  58:	f7ff fffe 	bl	0 <abort>
+  5c:	4b02      	ldr	r3, [pc, #8]	; (68 <pbuf_dechain+0x68>)
+  5e:	f240 329e 	movw	r2, #926	; 0x39e
+  62:	4904      	ldr	r1, [pc, #16]	; (74 <pbuf_dechain+0x74>)
+  64:	e7ef      	b.n	46 <pbuf_dechain+0x46>
+  66:	bf00      	nop
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	0000003c 	.word	0x0000003c
+  74:	00000018 	.word	0x00000018
+
+Disassembly of section .text.pbuf_copy_partial_pbuf:
+
+00000000 <pbuf_copy_partial_pbuf>:
+   0:	2900      	cmp	r1, #0
+   2:	f000 809b 	beq.w	13c <pbuf_copy_partial_pbuf+0x13c>
+   6:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   a:	461f      	mov	r7, r3
+   c:	890b      	ldrh	r3, [r1, #8]
+   e:	460d      	mov	r5, r1
+  10:	4616      	mov	r6, r2
+  12:	4293      	cmp	r3, r2
+  14:	d370      	bcc.n	f8 <pbuf_copy_partial_pbuf+0xf8>
+  16:	fab0 f980 	clz	r9, r0
+  1a:	4680      	mov	r8, r0
+  1c:	ea4f 1959 	mov.w	r9, r9, lsr #5
+  20:	2800      	cmp	r0, #0
+  22:	d069      	beq.n	f8 <pbuf_copy_partial_pbuf+0xf8>
+  24:	8902      	ldrh	r2, [r0, #8]
+  26:	19bb      	adds	r3, r7, r6
+  28:	429a      	cmp	r2, r3
+  2a:	db65      	blt.n	f8 <pbuf_copy_partial_pbuf+0xf8>
+  2c:	f8b8 400a 	ldrh.w	r4, [r8, #10]
+  30:	896b      	ldrh	r3, [r5, #10]
+  32:	1be4      	subs	r4, r4, r7
+  34:	f8d8 0004 	ldr.w	r0, [r8, #4]
+  38:	eba3 0309 	sub.w	r3, r3, r9
+  3c:	6869      	ldr	r1, [r5, #4]
+  3e:	4438      	add	r0, r7
+  40:	429c      	cmp	r4, r3
+  42:	4449      	add	r1, r9
+  44:	bf28      	it	cs
+  46:	461c      	movcs	r4, r3
+  48:	42b4      	cmp	r4, r6
+  4a:	bf28      	it	cs
+  4c:	4634      	movcs	r4, r6
+  4e:	4622      	mov	r2, r4
+  50:	4427      	add	r7, r4
+  52:	f7ff fffe 	bl	0 <memcpy>
+  56:	f8b8 300a 	ldrh.w	r3, [r8, #10]
+  5a:	1b36      	subs	r6, r6, r4
+  5c:	44a1      	add	r9, r4
+  5e:	42bb      	cmp	r3, r7
+  60:	b2b6      	uxth	r6, r6
+  62:	d34d      	bcc.n	100 <pbuf_copy_partial_pbuf+0x100>
+  64:	896a      	ldrh	r2, [r5, #10]
+  66:	454a      	cmp	r2, r9
+  68:	d359      	bcc.n	11e <pbuf_copy_partial_pbuf+0x11e>
+  6a:	d119      	bne.n	a0 <pbuf_copy_partial_pbuf+0xa0>
+  6c:	682d      	ldr	r5, [r5, #0]
+  6e:	b90d      	cbnz	r5, 74 <pbuf_copy_partial_pbuf+0x74>
+  70:	2e00      	cmp	r6, #0
+  72:	d141      	bne.n	f8 <pbuf_copy_partial_pbuf+0xf8>
+  74:	42bb      	cmp	r3, r7
+  76:	d01c      	beq.n	b2 <pbuf_copy_partial_pbuf+0xb2>
+  78:	2d00      	cmp	r5, #0
+  7a:	d13a      	bne.n	f2 <pbuf_copy_partial_pbuf+0xf2>
+  7c:	46a9      	mov	r9, r5
+  7e:	f8b8 2008 	ldrh.w	r2, [r8, #8]
+  82:	429a      	cmp	r2, r3
+  84:	d004      	beq.n	90 <pbuf_copy_partial_pbuf+0x90>
+  86:	2e00      	cmp	r6, #0
+  88:	d1d0      	bne.n	2c <pbuf_copy_partial_pbuf+0x2c>
+  8a:	4630      	mov	r0, r6
+  8c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  90:	f8d8 3000 	ldr.w	r3, [r8]
+  94:	2b00      	cmp	r3, #0
+  96:	d0f6      	beq.n	86 <pbuf_copy_partial_pbuf+0x86>
+  98:	f06f 0005 	mvn.w	r0, #5
+  9c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  a0:	42bb      	cmp	r3, r7
+  a2:	d008      	beq.n	b6 <pbuf_copy_partial_pbuf+0xb6>
+  a4:	892a      	ldrh	r2, [r5, #8]
+  a6:	896b      	ldrh	r3, [r5, #10]
+  a8:	429a      	cmp	r2, r3
+  aa:	d01e      	beq.n	ea <pbuf_copy_partial_pbuf+0xea>
+  ac:	f8b8 300a 	ldrh.w	r3, [r8, #10]
+  b0:	e7e5      	b.n	7e <pbuf_copy_partial_pbuf+0x7e>
+  b2:	f04f 0900 	mov.w	r9, #0
+  b6:	f8d8 8000 	ldr.w	r8, [r8]
+  ba:	f1b8 0f00 	cmp.w	r8, #0
+  be:	d100      	bne.n	c2 <pbuf_copy_partial_pbuf+0xc2>
+  c0:	b9d6      	cbnz	r6, f8 <pbuf_copy_partial_pbuf+0xf8>
+  c2:	b11d      	cbz	r5, cc <pbuf_copy_partial_pbuf+0xcc>
+  c4:	896a      	ldrh	r2, [r5, #10]
+  c6:	892b      	ldrh	r3, [r5, #8]
+  c8:	429a      	cmp	r2, r3
+  ca:	d006      	beq.n	da <pbuf_copy_partial_pbuf+0xda>
+  cc:	f1b8 0f00 	cmp.w	r8, #0
+  d0:	d109      	bne.n	e6 <pbuf_copy_partial_pbuf+0xe6>
+  d2:	4647      	mov	r7, r8
+  d4:	2e00      	cmp	r6, #0
+  d6:	d1a9      	bne.n	2c <pbuf_copy_partial_pbuf+0x2c>
+  d8:	e7d7      	b.n	8a <pbuf_copy_partial_pbuf+0x8a>
+  da:	682b      	ldr	r3, [r5, #0]
+  dc:	2b00      	cmp	r3, #0
+  de:	d1db      	bne.n	98 <pbuf_copy_partial_pbuf+0x98>
+  e0:	f1b8 0f00 	cmp.w	r8, #0
+  e4:	d0f5      	beq.n	d2 <pbuf_copy_partial_pbuf+0xd2>
+  e6:	2700      	movs	r7, #0
+  e8:	e7e0      	b.n	ac <pbuf_copy_partial_pbuf+0xac>
+  ea:	682b      	ldr	r3, [r5, #0]
+  ec:	2b00      	cmp	r3, #0
+  ee:	d0dd      	beq.n	ac <pbuf_copy_partial_pbuf+0xac>
+  f0:	e7d2      	b.n	98 <pbuf_copy_partial_pbuf+0x98>
+  f2:	f04f 0900 	mov.w	r9, #0
+  f6:	e7d5      	b.n	a4 <pbuf_copy_partial_pbuf+0xa4>
+  f8:	f06f 000f 	mvn.w	r0, #15
+  fc:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+ 100:	4b10      	ldr	r3, [pc, #64]	; (144 <pbuf_copy_partial_pbuf+0x144>)
+ 102:	f240 32fa 	movw	r2, #1018	; 0x3fa
+ 106:	4910      	ldr	r1, [pc, #64]	; (148 <pbuf_copy_partial_pbuf+0x148>)
+ 108:	4810      	ldr	r0, [pc, #64]	; (14c <pbuf_copy_partial_pbuf+0x14c>)
+ 10a:	f7ff fffe 	bl	0 <printf>
+ 10e:	2000      	movs	r0, #0
+ 110:	f7ff fffe 	bl	0 <fflush>
+ 114:	2001      	movs	r0, #1
+ 116:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 11a:	f7ff fffe 	bl	0 <abort>
+ 11e:	4b09      	ldr	r3, [pc, #36]	; (144 <pbuf_copy_partial_pbuf+0x144>)
+ 120:	f240 32fb 	movw	r2, #1019	; 0x3fb
+ 124:	490a      	ldr	r1, [pc, #40]	; (150 <pbuf_copy_partial_pbuf+0x150>)
+ 126:	4809      	ldr	r0, [pc, #36]	; (14c <pbuf_copy_partial_pbuf+0x14c>)
+ 128:	f7ff fffe 	bl	0 <printf>
+ 12c:	2000      	movs	r0, #0
+ 12e:	f7ff fffe 	bl	0 <fflush>
+ 132:	2001      	movs	r0, #1
+ 134:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 138:	f7ff fffe 	bl	0 <abort>
+ 13c:	f06f 000f 	mvn.w	r0, #15
+ 140:	4770      	bx	lr
+ 142:	bf00      	nop
+ 144:	00000000 	.word	0x00000000
+ 148:	00000000 	.word	0x00000000
+ 14c:	0000003c 	.word	0x0000003c
+ 150:	00000018 	.word	0x00000018
+
+Disassembly of section .text.pbuf_copy:
+
+00000000 <pbuf_copy>:
+   0:	b119      	cbz	r1, a <pbuf_copy+0xa>
+   2:	2300      	movs	r3, #0
+   4:	890a      	ldrh	r2, [r1, #8]
+   6:	f7ff bffe 	b.w	0 <pbuf_copy>
+   a:	f06f 000f 	mvn.w	r0, #15
+   e:	4770      	bx	lr
+
+Disassembly of section .text.pbuf_copy_partial:
+
+00000000 <pbuf_copy_partial>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	b360      	cbz	r0, 60 <pbuf_copy_partial+0x60>
+   6:	fab1 f681 	clz	r6, r1
+   a:	4688      	mov	r8, r1
+   c:	0976      	lsrs	r6, r6, #5
+   e:	b339      	cbz	r1, 60 <pbuf_copy_partial+0x60>
+  10:	4605      	mov	r5, r0
+  12:	4617      	mov	r7, r2
+  14:	b922      	cbnz	r2, 20 <pbuf_copy_partial+0x20>
+  16:	e027      	b.n	68 <pbuf_copy_partial+0x68>
+  18:	b293      	uxth	r3, r2
+  1a:	682d      	ldr	r5, [r5, #0]
+  1c:	b1ef      	cbz	r7, 5a <pbuf_copy_partial+0x5a>
+  1e:	b1e5      	cbz	r5, 5a <pbuf_copy_partial+0x5a>
+  20:	eb08 0006 	add.w	r0, r8, r6
+  24:	f8b5 c00a 	ldrh.w	ip, [r5, #10]
+  28:	b11b      	cbz	r3, 32 <pbuf_copy_partial+0x32>
+  2a:	459c      	cmp	ip, r3
+  2c:	eba3 020c 	sub.w	r2, r3, ip
+  30:	d9f2      	bls.n	18 <pbuf_copy_partial+0x18>
+  32:	ebac 0c03 	sub.w	ip, ip, r3
+  36:	6869      	ldr	r1, [r5, #4]
+  38:	fa1f f48c 	uxth.w	r4, ip
+  3c:	4419      	add	r1, r3
+  3e:	42bc      	cmp	r4, r7
+  40:	bf28      	it	cs
+  42:	463c      	movcs	r4, r7
+  44:	4622      	mov	r2, r4
+  46:	4426      	add	r6, r4
+  48:	f7ff fffe 	bl	0 <memcpy>
+  4c:	1b3a      	subs	r2, r7, r4
+  4e:	2300      	movs	r3, #0
+  50:	b2b6      	uxth	r6, r6
+  52:	b297      	uxth	r7, r2
+  54:	682d      	ldr	r5, [r5, #0]
+  56:	2f00      	cmp	r7, #0
+  58:	d1e1      	bne.n	1e <pbuf_copy_partial+0x1e>
+  5a:	4630      	mov	r0, r6
+  5c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  60:	2600      	movs	r6, #0
+  62:	4630      	mov	r0, r6
+  64:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  68:	4616      	mov	r6, r2
+  6a:	e7f6      	b.n	5a <pbuf_copy_partial+0x5a>
+
+Disassembly of section .text.pbuf_get_contiguous:
+
+00000000 <pbuf_get_contiguous>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	f8bd c010 	ldrh.w	ip, [sp, #16]
+   6:	b178      	cbz	r0, 28 <pbuf_get_contiguous+0x28>
+   8:	460d      	mov	r5, r1
+   a:	461e      	mov	r6, r3
+   c:	b109      	cbz	r1, 12 <pbuf_get_contiguous+0x12>
+   e:	4293      	cmp	r3, r2
+  10:	d80a      	bhi.n	28 <pbuf_get_contiguous+0x28>
+  12:	f8b0 e00a 	ldrh.w	lr, [r0, #10]
+  16:	45e6      	cmp	lr, ip
+  18:	ebac 040e 	sub.w	r4, ip, lr
+  1c:	d806      	bhi.n	2c <pbuf_get_contiguous+0x2c>
+  1e:	6800      	ldr	r0, [r0, #0]
+  20:	fa1f fc84 	uxth.w	ip, r4
+  24:	2800      	cmp	r0, #0
+  26:	d1f4      	bne.n	12 <pbuf_get_contiguous+0x12>
+  28:	2000      	movs	r0, #0
+  2a:	bd70      	pop	{r4, r5, r6, pc}
+  2c:	eb0c 0306 	add.w	r3, ip, r6
+  30:	459e      	cmp	lr, r3
+  32:	da0a      	bge.n	4a <pbuf_get_contiguous+0x4a>
+  34:	2d00      	cmp	r5, #0
+  36:	d0f7      	beq.n	28 <pbuf_get_contiguous+0x28>
+  38:	4663      	mov	r3, ip
+  3a:	4632      	mov	r2, r6
+  3c:	4629      	mov	r1, r5
+  3e:	f7ff fffe 	bl	0 <pbuf_get_contiguous>
+  42:	42b0      	cmp	r0, r6
+  44:	d1f0      	bne.n	28 <pbuf_get_contiguous+0x28>
+  46:	4628      	mov	r0, r5
+  48:	bd70      	pop	{r4, r5, r6, pc}
+  4a:	6840      	ldr	r0, [r0, #4]
+  4c:	4460      	add	r0, ip
+  4e:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text.pbuf_skip:
+
+00000000 <pbuf_skip>:
+   0:	b140      	cbz	r0, 14 <pbuf_skip+0x14>
+   2:	8943      	ldrh	r3, [r0, #10]
+   4:	428b      	cmp	r3, r1
+   6:	eba1 0303 	sub.w	r3, r1, r3
+   a:	d803      	bhi.n	14 <pbuf_skip+0x14>
+   c:	6800      	ldr	r0, [r0, #0]
+   e:	b299      	uxth	r1, r3
+  10:	2800      	cmp	r0, #0
+  12:	d1f6      	bne.n	2 <pbuf_skip+0x2>
+  14:	b102      	cbz	r2, 18 <pbuf_skip+0x18>
+  16:	8011      	strh	r1, [r2, #0]
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+
+Disassembly of section .text.pbuf_take:
+
+00000000 <pbuf_take>:
+   0:	b3b9      	cbz	r1, 72 <pbuf_take+0x72>
+   2:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   6:	fab0 f780 	clz	r7, r0
+   a:	4605      	mov	r5, r0
+   c:	097f      	lsrs	r7, r7, #5
+   e:	b1f0      	cbz	r0, 4e <pbuf_take+0x4e>
+  10:	8903      	ldrh	r3, [r0, #8]
+  12:	4691      	mov	r9, r2
+  14:	4293      	cmp	r3, r2
+  16:	d317      	bcc.n	48 <pbuf_take+0x48>
+  18:	b19a      	cbz	r2, 42 <pbuf_take+0x42>
+  1a:	4688      	mov	r8, r1
+  1c:	4616      	mov	r6, r2
+  1e:	e000      	b.n	22 <pbuf_take+0x22>
+  20:	b1c5      	cbz	r5, 54 <pbuf_take+0x54>
+  22:	896c      	ldrh	r4, [r5, #10]
+  24:	eb08 0107 	add.w	r1, r8, r7
+  28:	6868      	ldr	r0, [r5, #4]
+  2a:	42b4      	cmp	r4, r6
+  2c:	bf28      	it	cs
+  2e:	4634      	movcs	r4, r6
+  30:	4622      	mov	r2, r4
+  32:	4427      	add	r7, r4
+  34:	f7ff fffe 	bl	0 <memcpy>
+  38:	1b36      	subs	r6, r6, r4
+  3a:	682d      	ldr	r5, [r5, #0]
+  3c:	d1f0      	bne.n	20 <pbuf_take+0x20>
+  3e:	45b9      	cmp	r9, r7
+  40:	d11a      	bne.n	78 <pbuf_take+0x78>
+  42:	2000      	movs	r0, #0
+  44:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  48:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4c:	e7fa      	b.n	44 <pbuf_take+0x44>
+  4e:	f06f 000f 	mvn.w	r0, #15
+  52:	e7f7      	b.n	44 <pbuf_take+0x44>
+  54:	4b10      	ldr	r3, [pc, #64]	; (98 <pbuf_take+0x98>)
+  56:	f240 42e5 	movw	r2, #1253	; 0x4e5
+  5a:	4910      	ldr	r1, [pc, #64]	; (9c <pbuf_take+0x9c>)
+  5c:	4810      	ldr	r0, [pc, #64]	; (a0 <pbuf_take+0xa0>)
+  5e:	f7ff fffe 	bl	0 <printf>
+  62:	4628      	mov	r0, r5
+  64:	f7ff fffe 	bl	0 <fflush>
+  68:	2001      	movs	r0, #1
+  6a:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  6e:	f7ff fffe 	bl	0 <abort>
+  72:	f06f 000f 	mvn.w	r0, #15
+  76:	4770      	bx	lr
+  78:	4b07      	ldr	r3, [pc, #28]	; (98 <pbuf_take+0x98>)
+  7a:	f44f 629e 	mov.w	r2, #1264	; 0x4f0
+  7e:	4909      	ldr	r1, [pc, #36]	; (a4 <pbuf_take+0xa4>)
+  80:	4807      	ldr	r0, [pc, #28]	; (a0 <pbuf_take+0xa0>)
+  82:	f7ff fffe 	bl	0 <printf>
+  86:	4630      	mov	r0, r6
+  88:	f7ff fffe 	bl	0 <fflush>
+  8c:	2001      	movs	r0, #1
+  8e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  92:	f7ff fffe 	bl	0 <abort>
+  96:	bf00      	nop
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	0000003c 	.word	0x0000003c
+  a4:	00000018 	.word	0x00000018
+
+Disassembly of section .text.pbuf_take_at:
+
+00000000 <pbuf_take_at>:
+   0:	b390      	cbz	r0, 68 <pbuf_take_at+0x68>
+   2:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   6:	460f      	mov	r7, r1
+   8:	4604      	mov	r4, r0
+   a:	e002      	b.n	12 <pbuf_take_at+0x12>
+   c:	6824      	ldr	r4, [r4, #0]
+   e:	b283      	uxth	r3, r0
+  10:	b334      	cbz	r4, 60 <pbuf_take_at+0x60>
+  12:	8965      	ldrh	r5, [r4, #10]
+  14:	429d      	cmp	r5, r3
+  16:	eba3 0005 	sub.w	r0, r3, r5
+  1a:	d9f7      	bls.n	c <pbuf_take_at+0xc>
+  1c:	8921      	ldrh	r1, [r4, #8]
+  1e:	189e      	adds	r6, r3, r2
+  20:	42b1      	cmp	r1, r6
+  22:	db1d      	blt.n	60 <pbuf_take_at+0x60>
+  24:	1ae9      	subs	r1, r5, r3
+  26:	428a      	cmp	r2, r1
+  28:	dc07      	bgt.n	3a <pbuf_take_at+0x3a>
+  2a:	6860      	ldr	r0, [r4, #4]
+  2c:	4639      	mov	r1, r7
+  2e:	4418      	add	r0, r3
+  30:	f7ff fffe 	bl	0 <memcpy>
+  34:	2000      	movs	r0, #0
+  36:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  3a:	fa1f f881 	uxth.w	r8, r1
+  3e:	6860      	ldr	r0, [r4, #4]
+  40:	4639      	mov	r1, r7
+  42:	4642      	mov	r2, r8
+  44:	4418      	add	r0, r3
+  46:	f7ff fffe 	bl	0 <memcpy>
+  4a:	1b70      	subs	r0, r6, r5
+  4c:	b282      	uxth	r2, r0
+  4e:	2a00      	cmp	r2, #0
+  50:	d0f0      	beq.n	34 <pbuf_take_at+0x34>
+  52:	eb07 0108 	add.w	r1, r7, r8
+  56:	6820      	ldr	r0, [r4, #0]
+  58:	e8bd 41f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, lr}
+  5c:	f7ff bffe 	b.w	0 <pbuf_take_at>
+  60:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  64:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  68:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  6c:	4770      	bx	lr
+  6e:	bf00      	nop
+
+Disassembly of section .text.pbuf_coalesce:
+
+00000000 <pbuf_coalesce>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	6803      	ldr	r3, [r0, #0]
+   4:	4606      	mov	r6, r0
+   6:	b343      	cbz	r3, 5a <pbuf_coalesce+0x5a>
+   8:	8907      	ldrh	r7, [r0, #8]
+   a:	1ccb      	adds	r3, r1, #3
+   c:	460c      	mov	r4, r1
+   e:	1cfa      	adds	r2, r7, #3
+  10:	f023 0303 	bic.w	r3, r3, #3
+  14:	f022 0203 	bic.w	r2, r2, #3
+  18:	4413      	add	r3, r2
+  1a:	f103 0010 	add.w	r0, r3, #16
+  1e:	4283      	cmp	r3, r0
+  20:	bf28      	it	cs
+  22:	4603      	movcs	r3, r0
+  24:	429a      	cmp	r2, r3
+  26:	d818      	bhi.n	5a <pbuf_coalesce+0x5a>
+  28:	f7ff fffe 	bl	0 <mem_malloc>
+  2c:	4605      	mov	r5, r0
+  2e:	b1a0      	cbz	r0, 5a <pbuf_coalesce+0x5a>
+  30:	4404      	add	r4, r0
+  32:	4b0c      	ldr	r3, [pc, #48]	; (64 <pbuf_coalesce+0x64>)
+  34:	8107      	strh	r7, [r0, #8]
+  36:	4631      	mov	r1, r6
+  38:	3413      	adds	r4, #19
+  3a:	60c3      	str	r3, [r0, #12]
+  3c:	2300      	movs	r3, #0
+  3e:	8932      	ldrh	r2, [r6, #8]
+  40:	f024 0403 	bic.w	r4, r4, #3
+  44:	8147      	strh	r7, [r0, #10]
+  46:	6003      	str	r3, [r0, #0]
+  48:	6044      	str	r4, [r0, #4]
+  4a:	f7ff fffe 	bl	0 <pbuf_coalesce>
+  4e:	b938      	cbnz	r0, 60 <pbuf_coalesce+0x60>
+  50:	4630      	mov	r0, r6
+  52:	f7ff fffe 	bl	0 <pbuf_coalesce>
+  56:	4628      	mov	r0, r5
+  58:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  5a:	4635      	mov	r5, r6
+  5c:	4628      	mov	r0, r5
+  5e:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  60:	f7ff fffe 	bl	0 <pbuf_coalesce>
+  64:	00010080 	.word	0x00010080
+
+Disassembly of section .text.pbuf_clone:
+
+00000000 <pbuf_clone>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4614      	mov	r4, r2
+   4:	460a      	mov	r2, r1
+   6:	8921      	ldrh	r1, [r4, #8]
+   8:	f7ff fffe 	bl	0 <pbuf_clone>
+   c:	4605      	mov	r5, r0
+   e:	b128      	cbz	r0, 1c <pbuf_clone+0x1c>
+  10:	2300      	movs	r3, #0
+  12:	8922      	ldrh	r2, [r4, #8]
+  14:	4621      	mov	r1, r4
+  16:	f7ff fffe 	bl	0 <pbuf_clone>
+  1a:	b908      	cbnz	r0, 20 <pbuf_clone+0x20>
+  1c:	4628      	mov	r0, r5
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	f7ff fffe 	bl	0 <pbuf_clone>
+
+Disassembly of section .text.pbuf_get_at:
+
+00000000 <pbuf_get_at>:
+   0:	b918      	cbnz	r0, a <pbuf_get_at+0xa>
+   2:	e00a      	b.n	1a <pbuf_get_at+0x1a>
+   4:	6800      	ldr	r0, [r0, #0]
+   6:	b299      	uxth	r1, r3
+   8:	b130      	cbz	r0, 18 <pbuf_get_at+0x18>
+   a:	8943      	ldrh	r3, [r0, #10]
+   c:	428b      	cmp	r3, r1
+   e:	eba1 0303 	sub.w	r3, r1, r3
+  12:	d9f7      	bls.n	4 <pbuf_get_at+0x4>
+  14:	6843      	ldr	r3, [r0, #4]
+  16:	5c58      	ldrb	r0, [r3, r1]
+  18:	4770      	bx	lr
+  1a:	4770      	bx	lr
+
+Disassembly of section .text.pbuf_try_get_at:
+
+00000000 <pbuf_try_get_at>:
+   0:	b140      	cbz	r0, 14 <pbuf_try_get_at+0x14>
+   2:	8943      	ldrh	r3, [r0, #10]
+   4:	428b      	cmp	r3, r1
+   6:	eba1 0303 	sub.w	r3, r1, r3
+   a:	d806      	bhi.n	1a <pbuf_try_get_at+0x1a>
+   c:	6800      	ldr	r0, [r0, #0]
+   e:	b299      	uxth	r1, r3
+  10:	2800      	cmp	r0, #0
+  12:	d1f6      	bne.n	2 <pbuf_try_get_at+0x2>
+  14:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  18:	4770      	bx	lr
+  1a:	6843      	ldr	r3, [r0, #4]
+  1c:	5c58      	ldrb	r0, [r3, r1]
+  1e:	4770      	bx	lr
+
+Disassembly of section .text.pbuf_put_at:
+
+00000000 <pbuf_put_at>:
+   0:	b918      	cbnz	r0, a <pbuf_put_at+0xa>
+   2:	e00a      	b.n	1a <pbuf_put_at+0x1a>
+   4:	6800      	ldr	r0, [r0, #0]
+   6:	b299      	uxth	r1, r3
+   8:	b130      	cbz	r0, 18 <pbuf_put_at+0x18>
+   a:	8943      	ldrh	r3, [r0, #10]
+   c:	428b      	cmp	r3, r1
+   e:	eba1 0303 	sub.w	r3, r1, r3
+  12:	d9f7      	bls.n	4 <pbuf_put_at+0x4>
+  14:	6843      	ldr	r3, [r0, #4]
+  16:	545a      	strb	r2, [r3, r1]
+  18:	4770      	bx	lr
+  1a:	4770      	bx	lr
+
+Disassembly of section .text.pbuf_memcmp:
+
+00000000 <pbuf_memcmp>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	8905      	ldrh	r5, [r0, #8]
+   4:	18cc      	adds	r4, r1, r3
+   6:	42a5      	cmp	r5, r4
+   8:	db2e      	blt.n	68 <pbuf_memcmp+0x68>
+   a:	8944      	ldrh	r4, [r0, #10]
+   c:	428c      	cmp	r4, r1
+   e:	eba1 0404 	sub.w	r4, r1, r4
+  12:	d803      	bhi.n	1c <pbuf_memcmp+0x1c>
+  14:	6800      	ldr	r0, [r0, #0]
+  16:	b2a1      	uxth	r1, r4
+  18:	2800      	cmp	r0, #0
+  1a:	d1f6      	bne.n	a <pbuf_memcmp+0xa>
+  1c:	b1f3      	cbz	r3, 5c <pbuf_memcmp+0x5c>
+  1e:	2500      	movs	r5, #0
+  20:	1e56      	subs	r6, r2, #1
+  22:	46ae      	mov	lr, r5
+  24:	eb01 0c0e 	add.w	ip, r1, lr
+  28:	4604      	mov	r4, r0
+  2a:	fa1f fc8c 	uxth.w	ip, ip
+  2e:	b920      	cbnz	r0, 3a <pbuf_memcmp+0x3a>
+  30:	e00b      	b.n	4a <pbuf_memcmp+0x4a>
+  32:	6824      	ldr	r4, [r4, #0]
+  34:	fa1f fc82 	uxth.w	ip, r2
+  38:	b13c      	cbz	r4, 4a <pbuf_memcmp+0x4a>
+  3a:	8962      	ldrh	r2, [r4, #10]
+  3c:	4594      	cmp	ip, r2
+  3e:	ebac 0202 	sub.w	r2, ip, r2
+  42:	d2f6      	bcs.n	32 <pbuf_memcmp+0x32>
+  44:	6862      	ldr	r2, [r4, #4]
+  46:	f812 400c 	ldrb.w	r4, [r2, ip]
+  4a:	f816 2f01 	ldrb.w	r2, [r6, #1]!
+  4e:	42a2      	cmp	r2, r4
+  50:	d106      	bne.n	60 <pbuf_memcmp+0x60>
+  52:	3501      	adds	r5, #1
+  54:	fa1f fe85 	uxth.w	lr, r5
+  58:	4573      	cmp	r3, lr
+  5a:	d8e3      	bhi.n	24 <pbuf_memcmp+0x24>
+  5c:	2000      	movs	r0, #0
+  5e:	bd70      	pop	{r4, r5, r6, pc}
+  60:	f10e 0301 	add.w	r3, lr, #1
+  64:	b298      	uxth	r0, r3
+  66:	bd70      	pop	{r4, r5, r6, pc}
+  68:	f64f 70ff 	movw	r0, #65535	; 0xffff
+  6c:	bd70      	pop	{r4, r5, r6, pc}
+  6e:	bf00      	nop
+
+Disassembly of section .text.pbuf_memfind:
+
+00000000 <pbuf_memfind>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	461c      	mov	r4, r3
+   6:	8905      	ldrh	r5, [r0, #8]
+   8:	18d3      	adds	r3, r2, r3
+   a:	429d      	cmp	r5, r3
+   c:	db18      	blt.n	40 <pbuf_memfind+0x40>
+   e:	1aad      	subs	r5, r5, r2
+  10:	4607      	mov	r7, r0
+  12:	4616      	mov	r6, r2
+  14:	4688      	mov	r8, r1
+  16:	b2ad      	uxth	r5, r5
+  18:	42a5      	cmp	r5, r4
+  1a:	d204      	bcs.n	26 <pbuf_memfind+0x26>
+  1c:	e010      	b.n	40 <pbuf_memfind+0x40>
+  1e:	fa1f f48c 	uxth.w	r4, ip
+  22:	42a5      	cmp	r5, r4
+  24:	d30c      	bcc.n	40 <pbuf_memfind+0x40>
+  26:	4621      	mov	r1, r4
+  28:	4633      	mov	r3, r6
+  2a:	4642      	mov	r2, r8
+  2c:	4638      	mov	r0, r7
+  2e:	f7ff fffe 	bl	0 <pbuf_memfind>
+  32:	f104 0c01 	add.w	ip, r4, #1
+  36:	2800      	cmp	r0, #0
+  38:	d1f1      	bne.n	1e <pbuf_memfind+0x1e>
+  3a:	4620      	mov	r0, r4
+  3c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  40:	f64f 70ff 	movw	r0, #65535	; 0xffff
+  44:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+
+Disassembly of section .text.pbuf_strstr:
+
+00000000 <pbuf_strstr>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	b329      	cbz	r1, 52 <pbuf_strstr+0x52>
+   6:	780b      	ldrb	r3, [r1, #0]
+   8:	460d      	mov	r5, r1
+   a:	b313      	cbz	r3, 52 <pbuf_strstr+0x52>
+   c:	8904      	ldrh	r4, [r0, #8]
+   e:	f64f 76ff 	movw	r6, #65535	; 0xffff
+  12:	4607      	mov	r7, r0
+  14:	42b4      	cmp	r4, r6
+  16:	d01e      	beq.n	56 <pbuf_strstr+0x56>
+  18:	4608      	mov	r0, r1
+  1a:	f7ff fffe 	bl	0 <strlen>
+  1e:	f64f 73fe 	movw	r3, #65534	; 0xfffe
+  22:	4298      	cmp	r0, r3
+  24:	d81a      	bhi.n	5c <pbuf_strstr+0x5c>
+  26:	4284      	cmp	r4, r0
+  28:	db18      	blt.n	5c <pbuf_strstr+0x5c>
+  2a:	fa1f f880 	uxth.w	r8, r0
+  2e:	2600      	movs	r6, #0
+  30:	eba4 0908 	sub.w	r9, r4, r8
+  34:	4632      	mov	r2, r6
+  36:	fa1f f989 	uxth.w	r9, r9
+  3a:	4614      	mov	r4, r2
+  3c:	3601      	adds	r6, #1
+  3e:	462a      	mov	r2, r5
+  40:	4643      	mov	r3, r8
+  42:	4621      	mov	r1, r4
+  44:	4638      	mov	r0, r7
+  46:	f7ff fffe 	bl	0 <pbuf_strstr>
+  4a:	b2b2      	uxth	r2, r6
+  4c:	b118      	cbz	r0, 56 <pbuf_strstr+0x56>
+  4e:	4591      	cmp	r9, r2
+  50:	d2f3      	bcs.n	3a <pbuf_strstr+0x3a>
+  52:	f64f 74ff 	movw	r4, #65535	; 0xffff
+  56:	4620      	mov	r0, r4
+  58:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  5c:	4634      	mov	r4, r6
+  5e:	4620      	mov	r0, r4
+  60:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}

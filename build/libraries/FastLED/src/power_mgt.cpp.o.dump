@@ -1,0 +1,302 @@
+
+build/./libraries/FastLED/src/power_mgt.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 power_mgt.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN14CLEDController4sizeEv	00000000 .text._ZN14CLEDController4sizeEv
+00000000 l    d  .text._Z27calculate_unscaled_power_mWPK4CRGBt	00000000 .text._Z27calculate_unscaled_power_mWPK4CRGBt
+00000000 l    d  .text._Z37calculate_max_brightness_for_power_mWhm	00000000 .text._Z37calculate_max_brightness_for_power_mWhm
+00000000 l    d  .text._Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm	00000000 .text._Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm
+00000000 l    d  .text._Z37calculate_max_brightness_for_power_mWPK4CRGBthm	00000000 .text._Z37calculate_max_brightness_for_power_mWPK4CRGBthm
+00000000 l    d  .text._Z27set_max_power_indicator_LEDh	00000000 .text._Z27set_max_power_indicator_LEDh
+00000000 l    d  .text._Z36set_max_power_in_volts_and_milliampshm	00000000 .text._Z36set_max_power_in_volts_and_milliampshm
+00000000 l    d  .text._Z27set_max_power_in_milliwattsm	00000000 .text._Z27set_max_power_in_milliwattsm
+00000000 l    d  .text._Z32show_at_max_brightness_for_powerv	00000000 .text._Z32show_at_max_brightness_for_powerv
+00000000 l    d  .text._Z33delay_at_max_brightness_for_powert	00000000 .text._Z33delay_at_max_brightness_for_powert
+00000000 l    d  .bss._ZL30gMaxPowerIndicatorLEDPinNumber	00000000 .bss._ZL30gMaxPowerIndicatorLEDPinNumber
+00000000 l     O .bss._ZL30gMaxPowerIndicatorLEDPinNumber	00000001 _ZL30gMaxPowerIndicatorLEDPinNumber
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN14CLEDController4sizeEv	00000004 _ZN14CLEDController4sizeEv
+00000000 g     F .text._Z27calculate_unscaled_power_mWPK4CRGBt	0000006a _Z27calculate_unscaled_power_mWPK4CRGBt
+00000000 g     F .text._Z37calculate_max_brightness_for_power_mWhm	000000b4 _Z37calculate_max_brightness_for_power_mWhm
+00000000         *UND*	00000000 _ZN14CLEDController7m_pHeadE
+00000000         *UND*	00000000 digital_pin_to_info_PGM
+00000000 g     F .text._Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm	00000028 _Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm
+00000000 g     F .text._Z37calculate_max_brightness_for_power_mWPK4CRGBthm	00000024 _Z37calculate_max_brightness_for_power_mWPK4CRGBthm
+00000000 g     F .text._Z27set_max_power_indicator_LEDh	0000000c _Z27set_max_power_indicator_LEDh
+00000000 g     F .text._Z36set_max_power_in_volts_and_milliampshm	00000018 _Z36set_max_power_in_volts_and_milliampshm
+00000000         *UND*	00000000 FastLED
+00000000 g     F .text._Z27set_max_power_in_milliwattsm	00000014 _Z27set_max_power_in_milliwattsm
+00000000 g     F .text._Z32show_at_max_brightness_for_powerv	0000000c _Z32show_at_max_brightness_for_powerv
+00000000         *UND*	00000000 _ZN8CFastLED4showEh
+00000000 g     F .text._Z33delay_at_max_brightness_for_powert	0000000c _Z33delay_at_max_brightness_for_powert
+00000000         *UND*	00000000 _ZN8CFastLED5delayEm
+
+
+Contents of section .group:
+ 0000 01000000 05000000                    ........        
+Contents of section .text._ZN14CLEDController4sizeEv:
+ 0000 40697047                             @ipG            
+Contents of section .text._Z27calculate_unscaled_power_mWPK4CRGBt:
+ 0000 61b301f1 ff3cc31c 002270b5 841d1ffa  a....<..."p.....
+ 0010 8cf09646 944600eb 40002044 13f8036c  ...F.F..@. D...l
+ 0020 033313f8 055c13f8 044c9842 b444ae44  .3...\...L.B.D.D
+ 0030 2244f3d1 0ceb8c03 ceebce00 02eb8202  "D..............
+ 0040 c3f31713 ceebc00e c2eb0212 03eb1e23  ...............#
+ 0050 120a01eb 81011344 c81870bd 0a460b46  .......D..p..F.F
+ 0060 01eb8101 1344c818 704700bf           .....D..pG..    
+Contents of section .text._Z37calculate_max_brightness_for_power_mWhm:
+ 0000 284b2de9 f0431c68 87b00746 89467d25  (K-..C.h...F.F}%
+ 0010 9cb1dff8 9c8007e0 61693046 89b2fff7  ........ai0F....
+ 0020 feffa468 054444b1 d4e90036 1b694345  ...h.DD....6.iCE
+ 0030 f2d02046 98470146 efe707fb 05f5b9eb  .. F.G.F........
+ 0040 152f4fea 152315d8 09fb07f0 164ab0fb  ./O..#.......J..
+ 0050 f3f01378 c0b253b1 144a1901 02eb0313  ...x..S..J......
+ 0060 5258db68 0493049b 11680b43 136007b0  RX.h.....h.C.`..
+ 0070 bde8f083 0c4b1b78 7bb10c4a 19013846  .....K.x{..J..8F
+ 0080 02eb0313 5258db68 04930499 136823ea  ....RX.h.....h#.
+ 0090 01031360 07b0bde8 f0833846 07b0bde8  ...`......8F....
+ 00a0 f08300bf 00000000 00000000 00000000  ................
+ 00b0 00000000                             ....            
+Contents of section .text._Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm:
+ 0000 38b5049c 154603fb 04f4fff7 feff05fb  8....F..........
+ 0010 00f0b4eb 102f05d2 05fb04f2 030ab2fb  ...../..........
+ 0020 f3f2d5b2 284638bd                    ....(F8.        
+Contents of section .text._Z37calculate_max_brightness_for_power_mWPK4CRGBthm:
+ 0000 38b51446 1d46fff7 feff04fb 00f0b5eb  8..F.F..........
+ 0010 102f05d2 020a05fb 04f3b3fb f2f4e4b2  ./..............
+ 0020 204638bd                              F8.            
+Contents of section .text._Z27set_max_power_indicator_LEDh:
+ 0000 014b1870 704700bf 00000000           .K.ppG......    
+Contents of section .text._Z36set_max_power_in_volts_and_milliampshm:
+ 0000 034b00fb 01f1034a c3e90212 704700bf  .K.....J....pG..
+ 0010 00000000 00000000                    ........        
+Contents of section .text._Z27set_max_power_in_milliwattsm:
+ 0000 024b034a c3e90202 704700bf 00000000  .K.J....pG......
+ 0010 00000000                             ....            
+Contents of section .text._Z32show_at_max_brightness_for_powerv:
+ 0000 01480178 fff7febf 00000000           .H.x........    
+Contents of section .text._Z33delay_at_max_brightness_for_powert:
+ 0000 01460148 fff7febf 00000000           .F.H........    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN14CLEDController4sizeEv:
+
+00000000 <_ZN14CLEDController4sizeEv>:
+   0:	6940      	ldr	r0, [r0, #20]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._Z27calculate_unscaled_power_mWPK4CRGBt:
+
+00000000 <_Z27calculate_unscaled_power_mWPK4CRGBt>:
+   0:	b361      	cbz	r1, 5c <_Z27calculate_unscaled_power_mWPK4CRGBt+0x5c>
+   2:	f101 3cff 	add.w	ip, r1, #4294967295	; 0xffffffff
+   6:	1cc3      	adds	r3, r0, #3
+   8:	2200      	movs	r2, #0
+   a:	b570      	push	{r4, r5, r6, lr}
+   c:	1d84      	adds	r4, r0, #6
+   e:	fa1f f08c 	uxth.w	r0, ip
+  12:	4696      	mov	lr, r2
+  14:	4694      	mov	ip, r2
+  16:	eb00 0040 	add.w	r0, r0, r0, lsl #1
+  1a:	4420      	add	r0, r4
+  1c:	f813 6c03 	ldrb.w	r6, [r3, #-3]
+  20:	3303      	adds	r3, #3
+  22:	f813 5c05 	ldrb.w	r5, [r3, #-5]
+  26:	f813 4c04 	ldrb.w	r4, [r3, #-4]
+  2a:	4298      	cmp	r0, r3
+  2c:	44b4      	add	ip, r6
+  2e:	44ae      	add	lr, r5
+  30:	4422      	add	r2, r4
+  32:	d1f3      	bne.n	1c <_Z27calculate_unscaled_power_mWPK4CRGBt+0x1c>
+  34:	eb0c 038c 	add.w	r3, ip, ip, lsl #2
+  38:	ebce 00ce 	rsb	r0, lr, lr, lsl #3
+  3c:	eb02 0282 	add.w	r2, r2, r2, lsl #2
+  40:	f3c3 1317 	ubfx	r3, r3, #4, #24
+  44:	ebce 0ec0 	rsb	lr, lr, r0, lsl #3
+  48:	ebc2 1202 	rsb	r2, r2, r2, lsl #4
+  4c:	eb03 231e 	add.w	r3, r3, lr, lsr #8
+  50:	0a12      	lsrs	r2, r2, #8
+  52:	eb01 0181 	add.w	r1, r1, r1, lsl #2
+  56:	4413      	add	r3, r2
+  58:	18c8      	adds	r0, r1, r3
+  5a:	bd70      	pop	{r4, r5, r6, pc}
+  5c:	460a      	mov	r2, r1
+  5e:	460b      	mov	r3, r1
+  60:	eb01 0181 	add.w	r1, r1, r1, lsl #2
+  64:	4413      	add	r3, r2
+  66:	18c8      	adds	r0, r1, r3
+  68:	4770      	bx	lr
+  6a:	bf00      	nop
+
+Disassembly of section .text._Z37calculate_max_brightness_for_power_mWhm:
+
+00000000 <_Z37calculate_max_brightness_for_power_mWhm>:
+   0:	4b28      	ldr	r3, [pc, #160]	; (a4 <_Z37calculate_max_brightness_for_power_mWhm+0xa4>)
+   2:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   6:	681c      	ldr	r4, [r3, #0]
+   8:	b087      	sub	sp, #28
+   a:	4607      	mov	r7, r0
+   c:	4689      	mov	r9, r1
+   e:	257d      	movs	r5, #125	; 0x7d
+  10:	b19c      	cbz	r4, 3a <_Z37calculate_max_brightness_for_power_mWhm+0x3a>
+  12:	f8df 809c 	ldr.w	r8, [pc, #156]	; b0 <_Z37calculate_max_brightness_for_power_mWhm+0xb0>
+  16:	e007      	b.n	28 <_Z37calculate_max_brightness_for_power_mWhm+0x28>
+  18:	6961      	ldr	r1, [r4, #20]
+  1a:	4630      	mov	r0, r6
+  1c:	b289      	uxth	r1, r1
+  1e:	f7ff fffe 	bl	0 <_Z37calculate_max_brightness_for_power_mWhm>
+  22:	68a4      	ldr	r4, [r4, #8]
+  24:	4405      	add	r5, r0
+  26:	b144      	cbz	r4, 3a <_Z37calculate_max_brightness_for_power_mWhm+0x3a>
+  28:	e9d4 3600 	ldrd	r3, r6, [r4]
+  2c:	691b      	ldr	r3, [r3, #16]
+  2e:	4543      	cmp	r3, r8
+  30:	d0f2      	beq.n	18 <_Z37calculate_max_brightness_for_power_mWhm+0x18>
+  32:	4620      	mov	r0, r4
+  34:	4798      	blx	r3
+  36:	4601      	mov	r1, r0
+  38:	e7ef      	b.n	1a <_Z37calculate_max_brightness_for_power_mWhm+0x1a>
+  3a:	fb07 f505 	mul.w	r5, r7, r5
+  3e:	ebb9 2f15 	cmp.w	r9, r5, lsr #8
+  42:	ea4f 2315 	mov.w	r3, r5, lsr #8
+  46:	d815      	bhi.n	74 <_Z37calculate_max_brightness_for_power_mWhm+0x74>
+  48:	fb09 f007 	mul.w	r0, r9, r7
+  4c:	4a16      	ldr	r2, [pc, #88]	; (a8 <_Z37calculate_max_brightness_for_power_mWhm+0xa8>)
+  4e:	fbb0 f0f3 	udiv	r0, r0, r3
+  52:	7813      	ldrb	r3, [r2, #0]
+  54:	b2c0      	uxtb	r0, r0
+  56:	b153      	cbz	r3, 6e <_Z37calculate_max_brightness_for_power_mWhm+0x6e>
+  58:	4a14      	ldr	r2, [pc, #80]	; (ac <_Z37calculate_max_brightness_for_power_mWhm+0xac>)
+  5a:	0119      	lsls	r1, r3, #4
+  5c:	eb02 1303 	add.w	r3, r2, r3, lsl #4
+  60:	5852      	ldr	r2, [r2, r1]
+  62:	68db      	ldr	r3, [r3, #12]
+  64:	9304      	str	r3, [sp, #16]
+  66:	9b04      	ldr	r3, [sp, #16]
+  68:	6811      	ldr	r1, [r2, #0]
+  6a:	430b      	orrs	r3, r1
+  6c:	6013      	str	r3, [r2, #0]
+  6e:	b007      	add	sp, #28
+  70:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  74:	4b0c      	ldr	r3, [pc, #48]	; (a8 <_Z37calculate_max_brightness_for_power_mWhm+0xa8>)
+  76:	781b      	ldrb	r3, [r3, #0]
+  78:	b17b      	cbz	r3, 9a <_Z37calculate_max_brightness_for_power_mWhm+0x9a>
+  7a:	4a0c      	ldr	r2, [pc, #48]	; (ac <_Z37calculate_max_brightness_for_power_mWhm+0xac>)
+  7c:	0119      	lsls	r1, r3, #4
+  7e:	4638      	mov	r0, r7
+  80:	eb02 1303 	add.w	r3, r2, r3, lsl #4
+  84:	5852      	ldr	r2, [r2, r1]
+  86:	68db      	ldr	r3, [r3, #12]
+  88:	9304      	str	r3, [sp, #16]
+  8a:	9904      	ldr	r1, [sp, #16]
+  8c:	6813      	ldr	r3, [r2, #0]
+  8e:	ea23 0301 	bic.w	r3, r3, r1
+  92:	6013      	str	r3, [r2, #0]
+  94:	b007      	add	sp, #28
+  96:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  9a:	4638      	mov	r0, r7
+  9c:	b007      	add	sp, #28
+  9e:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  a2:	bf00      	nop
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm:
+
+00000000 <_Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	9c04      	ldr	r4, [sp, #16]
+   4:	4615      	mov	r5, r2
+   6:	fb03 f404 	mul.w	r4, r3, r4
+   a:	f7ff fffe 	bl	0 <_Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm>
+   e:	fb05 f000 	mul.w	r0, r5, r0
+  12:	ebb4 2f10 	cmp.w	r4, r0, lsr #8
+  16:	d205      	bcs.n	24 <_Z38calculate_max_brightness_for_power_vmAPK4CRGBthmm+0x24>
+  18:	fb05 f204 	mul.w	r2, r5, r4
+  1c:	0a03      	lsrs	r3, r0, #8
+  1e:	fbb2 f2f3 	udiv	r2, r2, r3
+  22:	b2d5      	uxtb	r5, r2
+  24:	4628      	mov	r0, r5
+  26:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text._Z37calculate_max_brightness_for_power_mWPK4CRGBthm:
+
+00000000 <_Z37calculate_max_brightness_for_power_mWPK4CRGBthm>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4614      	mov	r4, r2
+   4:	461d      	mov	r5, r3
+   6:	f7ff fffe 	bl	0 <_Z37calculate_max_brightness_for_power_mWPK4CRGBthm>
+   a:	fb04 f000 	mul.w	r0, r4, r0
+   e:	ebb5 2f10 	cmp.w	r5, r0, lsr #8
+  12:	d205      	bcs.n	20 <_Z37calculate_max_brightness_for_power_mWPK4CRGBthm+0x20>
+  14:	0a02      	lsrs	r2, r0, #8
+  16:	fb05 f304 	mul.w	r3, r5, r4
+  1a:	fbb3 f4f2 	udiv	r4, r3, r2
+  1e:	b2e4      	uxtb	r4, r4
+  20:	4620      	mov	r0, r4
+  22:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text._Z27set_max_power_indicator_LEDh:
+
+00000000 <_Z27set_max_power_indicator_LEDh>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <_Z27set_max_power_indicator_LEDh+0x8>)
+   2:	7018      	strb	r0, [r3, #0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z36set_max_power_in_volts_and_milliampshm:
+
+00000000 <_Z36set_max_power_in_volts_and_milliampshm>:
+   0:	4b03      	ldr	r3, [pc, #12]	; (10 <_Z36set_max_power_in_volts_and_milliampshm+0x10>)
+   2:	fb00 f101 	mul.w	r1, r0, r1
+   6:	4a03      	ldr	r2, [pc, #12]	; (14 <_Z36set_max_power_in_volts_and_milliampshm+0x14>)
+   8:	e9c3 1202 	strd	r1, r2, [r3, #8]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z27set_max_power_in_milliwattsm:
+
+00000000 <_Z27set_max_power_in_milliwattsm>:
+   0:	4b02      	ldr	r3, [pc, #8]	; (c <_Z27set_max_power_in_milliwattsm+0xc>)
+   2:	4a03      	ldr	r2, [pc, #12]	; (10 <_Z27set_max_power_in_milliwattsm+0x10>)
+   4:	e9c3 0202 	strd	r0, r2, [r3, #8]
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+   c:	00000000 	.word	0x00000000
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z32show_at_max_brightness_for_powerv:
+
+00000000 <_Z32show_at_max_brightness_for_powerv>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <_Z32show_at_max_brightness_for_powerv+0x8>)
+   2:	7801      	ldrb	r1, [r0, #0]
+   4:	f7ff bffe 	b.w	0 <_ZN8CFastLED4showEh>
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z33delay_at_max_brightness_for_powert:
+
+00000000 <_Z33delay_at_max_brightness_for_powert>:
+   0:	4601      	mov	r1, r0
+   2:	4801      	ldr	r0, [pc, #4]	; (8 <_Z33delay_at_max_brightness_for_powert+0x8>)
+   4:	f7ff bffe 	b.w	0 <_ZN8CFastLED5delayEm>
+   8:	00000000 	.word	0x00000000

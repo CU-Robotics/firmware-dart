@@ -1,0 +1,1324 @@
+
+build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FlexIO_t4.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._Z18IRQHandler_FlexIO1v	00000000 .text._Z18IRQHandler_FlexIO1v
+00000000 l    d  .text._Z18IRQHandler_FlexIO2v	00000000 .text._Z18IRQHandler_FlexIO2v
+00000000 l    d  .text._Z18IRQHandler_FlexIO3v	00000000 .text._Z18IRQHandler_FlexIO3v
+00000000 l    d  .flashmem	00000000 .flashmem
+00000000 l     F .flashmem	00000070 _ZL14pll_fractionalmmmm
+00000070 l     F .flashmem	000001a0 _ZL15best_pll_configfRhRmS0_S_S_
+00000000 l    d  .text._ZN13FlexIOHandler17mapIOPinToFlexPinEh	00000000 .text._ZN13FlexIOHandler17mapIOPinToFlexPinEh
+00000000 l    d  .text._ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh	00000000 .text._ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh
+00000000 l    d  .text._ZN13FlexIOHandler17mapFlexPinToIOPinEh	00000000 .text._ZN13FlexIOHandler17mapFlexPinToIOPinEh
+00000000 l    d  .text._ZN13FlexIOHandler18setIOPinToFlexModeEh	00000000 .text._ZN13FlexIOHandler18setIOPinToFlexModeEh
+00000000 l    d  .text._ZN13FlexIOHandler11FlexIOIndexEv	00000000 .text._ZN13FlexIOHandler11FlexIOIndexEv
+00000000 l    d  .text._ZN13FlexIOHandler13requestTimersEh	00000000 .text._ZN13FlexIOHandler13requestTimersEh
+00000000 l    d  .text._ZN13FlexIOHandler14requestShifterEh	00000000 .text._ZN13FlexIOHandler14requestShifterEh
+00000000 l    d  .text._ZN13FlexIOHandler18shiftersDMAChannelEh	00000000 .text._ZN13FlexIOHandler18shiftersDMAChannelEh
+00000000 l    d  .text._ZN13FlexIOHandler10claimTimerEh	00000000 .text._ZN13FlexIOHandler10claimTimerEh
+00000000 l    d  .text._ZN13FlexIOHandler12claimShifterEh	00000000 .text._ZN13FlexIOHandler12claimShifterEh
+00000000 l    d  .text._ZN13FlexIOHandler10IRQHandlerEv	00000000 .text._ZN13FlexIOHandler10IRQHandlerEv
+00000000 l    d  .text._ZN13FlexIOHandler10freeTimersEhh	00000000 .text._ZN13FlexIOHandler10freeTimersEhh
+00000000 l    d  .text._ZN13FlexIOHandler11freeShifterEh	00000000 .text._ZN13FlexIOHandler11freeShifterEh
+00000000 l    d  .text._ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback	00000000 .text._ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback
+00000000 l    d  .text._ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback	00000000 .text._ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback
+00000000 l    d  .text.startup._GLOBAL__sub_I_flex1_Handler_callbacks	00000000 .text.startup._GLOBAL__sub_I_flex1_Handler_callbacks
+00000000 l     F .text.startup._GLOBAL__sub_I_flex1_Handler_callbacks	0000007c _GLOBAL__sub_I_flex1_Handler_callbacks
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .bss._ZL7flexIO1	00000000 .bss._ZL7flexIO1
+00000000 l     O .bss._ZL7flexIO1	00000014 _ZL7flexIO1
+00000000 l    d  .bss._ZL7flexIO2	00000000 .bss._ZL7flexIO2
+00000000 l     O .bss._ZL7flexIO2	00000014 _ZL7flexIO2
+00000000 l    d  .bss._ZL7flexIO3	00000000 .bss._ZL7flexIO3
+00000000 l     O .bss._ZL7flexIO3	00000014 _ZL7flexIO3
+00000000 l    d  .bss.flex1_Handler_callbacks	00000000 .bss.flex1_Handler_callbacks
+00000000 l    d  .bss.flex2_Handler_callbacks	00000000 .bss.flex2_Handler_callbacks
+00000000 l    d  .bss.flex3_Handler_callbacks	00000000 .bss.flex3_Handler_callbacks
+00000000 l    d  .data._ZN13FlexIOHandler18flexIOHandler_listE	00000000 .data._ZN13FlexIOHandler18flexIOHandler_listE
+00000000 l    d  .progmem	00000000 .progmem
+00000000 l     O .progmem	00000040 _ZL22flexio_t4_pins_flexio1
+00000040 l     O .progmem	00000080 _ZL22flexio_t4_pins_flexio2
+000000c0 l     O .progmem	00000080 _ZL22flexio_t4_pins_flexio3
+00000000 l    d  .rodata._ZN13FlexIOHandler14flex1_hardwareE	00000000 .rodata._ZN13FlexIOHandler14flex1_hardwareE
+00000000 l    d  .rodata._ZN13FlexIOHandler14flex2_hardwareE	00000000 .rodata._ZN13FlexIOHandler14flex2_hardwareE
+00000000 l    d  .rodata._ZN13FlexIOHandler14flex3_hardwareE	00000000 .rodata._ZN13FlexIOHandler14flex3_hardwareE
+00000000 l    d  .rodata._ZZL15best_flexio_divfPfE9uniquediv	00000000 .rodata._ZZL15best_flexio_divfPfE9uniquediv
+00000000 l     O .rodata._ZZL15best_flexio_divfPfE9uniquediv	0000001e _ZZL15best_flexio_divfPfE9uniquediv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z18IRQHandler_FlexIO1v	00000030 _Z18IRQHandler_FlexIO1v
+00000000 g     F .text._Z18IRQHandler_FlexIO2v	00000030 _Z18IRQHandler_FlexIO2v
+00000000 g     F .text._Z18IRQHandler_FlexIO3v	00000030 _Z18IRQHandler_FlexIO3v
+00000000         *UND*	00000000 modff
+00000000 g     F .text._ZN13FlexIOHandler17mapIOPinToFlexPinEh	00000054 _ZN13FlexIOHandler17mapIOPinToFlexPinEh
+00000000         *UND*	00000000 digital_pin_to_info_PGM
+00000000 g     F .text._ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh	00000034 _ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh
+00000000 g     F .text._ZN13FlexIOHandler17mapFlexPinToIOPinEh	0000003c _ZN13FlexIOHandler17mapFlexPinToIOPinEh
+00000000 g     F .text._ZN13FlexIOHandler18setIOPinToFlexModeEh	00000050 _ZN13FlexIOHandler18setIOPinToFlexModeEh
+00000000 g     F .text._ZN13FlexIOHandler11FlexIOIndexEv	00000028 _ZN13FlexIOHandler11FlexIOIndexEv
+00000000 g     F .text._ZN13FlexIOHandler13requestTimersEh	00000040 _ZN13FlexIOHandler13requestTimersEh
+00000000 g     F .text._ZN13FlexIOHandler14requestShifterEh	0000003c _ZN13FlexIOHandler14requestShifterEh
+00000000 g     F .text._ZN13FlexIOHandler18shiftersDMAChannelEh	00000010 _ZN13FlexIOHandler18shiftersDMAChannelEh
+00000000 g     F .text._ZN13FlexIOHandler10claimTimerEh	00000020 _ZN13FlexIOHandler10claimTimerEh
+00000000 g     F .text._ZN13FlexIOHandler12claimShifterEh	00000020 _ZN13FlexIOHandler12claimShifterEh
+00000000 g     F .text._ZN13FlexIOHandler10IRQHandlerEv	00000002 _ZN13FlexIOHandler10IRQHandlerEv
+00000000 g     F .text._ZN13FlexIOHandler10freeTimersEhh	00000014 _ZN13FlexIOHandler10freeTimersEhh
+00000000 g     F .text._ZN13FlexIOHandler11freeShifterEh	0000000e _ZN13FlexIOHandler11freeShifterEh
+00000000 g     F .text._ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback	0000006c _ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback
+00000000         *UND*	00000000 _VectorsRam
+00000000 g     F .text._ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback	0000001e _ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback
+00000210 g     F .flashmem	000000d4 _ZN13FlexIOHandler16computeClockRateEv
+000002e4 g     F .flashmem	0000002c _ZN13FlexIOHandler13usesSameClockEPKS_
+00000310 g     F .flashmem	000000b0 _ZN13FlexIOHandler16setClockSettingsEhhh
+000003c0 g     F .flashmem	00000110 _ZN13FlexIOHandler8setClockEf
+000004d0 g     F .flashmem	000000a4 _ZN13FlexIOHandler21setClockUsingAudioPLLEf
+00000574 g     F .flashmem	0000009c _ZN13FlexIOHandler21setClockUsingVideoPLLEf
+00000000 g     O .data._ZN13FlexIOHandler18flexIOHandler_listE	0000000c _ZN13FlexIOHandler18flexIOHandler_listE
+00000000 g     O .rodata._ZN13FlexIOHandler14flex3_hardwareE	0000001c _ZN13FlexIOHandler14flex3_hardwareE
+00000000 g     O .rodata._ZN13FlexIOHandler14flex2_hardwareE	0000001c _ZN13FlexIOHandler14flex2_hardwareE
+00000000 g     O .rodata._ZN13FlexIOHandler14flex1_hardwareE	0000001c _ZN13FlexIOHandler14flex1_hardwareE
+00000000 g     O .bss.flex3_Handler_callbacks	00000020 flex3_Handler_callbacks
+00000000 g     O .bss.flex2_Handler_callbacks	00000020 flex2_Handler_callbacks
+00000000 g     O .bss.flex1_Handler_callbacks	00000020 flex1_Handler_callbacks
+
+
+Contents of section .text._Z18IRQHandler_FlexIO1v:
+ 0000 70b5094c 094d04f1 200654f8 043f2946  p..L.M.. .T..?)F
+ 0010 18461bb1 1b681b68 984718b9 b442f4d1  .F...h.h.G...B..
+ 0020 bff34f8f 70bd00bf fcffffff 00000000  ..O.p...........
+Contents of section .text._Z18IRQHandler_FlexIO2v:
+ 0000 70b5094c 094d04f1 200654f8 043f2946  p..L.M.. .T..?)F
+ 0010 18461bb1 1b681b68 984718b9 b442f4d1  .F...h.h.G...B..
+ 0020 bff34f8f 70bd00bf fcffffff 00000000  ..O.p...........
+Contents of section .text._Z18IRQHandler_FlexIO3v:
+ 0000 70b5094c 094d04f1 200654f8 043f2946  p..L.M.. .T..?)F
+ 0010 18461bb1 1b681b68 984718b9 b442f4d1  .F...h.h.G...B..
+ 0020 bff34f8f 70bd00bf fcffffff 00000000  ..O.p...........
+Contents of section .flashmem:
+ 0000 07ee901a dfed196a 10f4c01f b8ee677a  .......j......gz
+ 0010 07ee902a 00f07f02 f8ee677a 87ee270a  ...*......gz..'.
+ 0020 07ee902a c0f3c142 f8eee77a 30ee270a  ...*...B...z0.'.
+ 0030 20ee260a 08d1f5ee 007a20ee 270a012b   .&......z .'..+
+ 0040 0ad0032b 0dd07047 012af8d1 f6ee007a  ...+..pG.*.....z
+ 0050 012b20ee 270af4d1 f6ee007a 20ee270a  .+ .'......z .'.
+ 0060 7047f5ee 007a20ee 270a7047 001bb74b  pG...z .'.pG...K
+ 0070 dfed5d7a b4eee70a 2de9f043 f1ee10fa  ..]z....-..C....
+ 0080 83b00446 0e461546 0a980cdc dfed577a  ...F.F.F......Wz
+ 0090 b4eee70a f1ee10fa 40f39480 b1ee006a  ........@......j
+ 00a0 41220427 03e0b0ee 006a2122 0227dfed  A".'.....j!".'..
+ 00b0 506a4ff0 880c1a70 4ff00008 c6ee807a  PjO....pO......z
+ 00c0 4c4a9fed 4d7a02f1 010e02f1 1e01c7ee  LJ..Mz..........
+ 00d0 866a01e0 1ef801cb 4fea1c13 0cf00f09  .j......O.......
+ 00e0 aeeb020c 13fb09f3 07ee903a 0cf1ff33  ...........:...3
+ 00f0 f8eee77a 77eee67a f0eee77a f4eec77a  ...zw..z...z...z
+ 0100 f1ee10fa 02d5b0ee 677a9846 8e45e1d1  ........gz.F.E..
+ 0110 12f80830 20ee060a dfed386a 4fea1318  ...0 .....8jO...
+ 0120 037003f0 0f039fed 367a18fb 03f807ee  .p......6z......
+ 0130 908af8ee e77a60ee 277a87ee a60ab4ee  .....z`.'z......
+ 0140 c70af1ee 10fa3ad4 dfed2e7a b4ee670a  ......:....z..g.
+ 0150 f1ee10fa 37fe800a 01a807fb 08f8fff7  ....7...........
+ 0160 feffdfed 297added 016a6ff0 604220ee  ....)z...jo.`B .
+ 0170 270a9fed 226afcee e66a07ee 908abcee  '..."j...j......
+ 0180 c07a16ee 903af8ee e77a2370 f8ee475a  .z...:...z#p..GZ
+ 0190 2a6086ed 007ad5ed 006a2378 f8ee666a  *`...z...j#x..fj
+ 01a0 07ee103a 85eea60a b8ee477a 30ee070a  ...:......Gz0...
+ 01b0 20ee060a 80ee270a 03b0bde8 f083b0ee   .....'.........
+ 01c0 470ac9e7 9fed117a b2ee006a f3ee007a  G......z...j...z
+ 01d0 b4eec70a f1ee10fa cbbf4222 44220827  ..........B"D".'
+ 01e0 102736fe 276a62e7 daf81a4d daf89a4c  .'6.'jb....M...L
+ 01f0 4775684e 00000000 0000807f 001bb74b  GuhN...........K
+ 0200 fca9d841 02ab5842 0000004e daf81a4c  ...A..XB...N...L
+ 0210 026838b5 2e4b9a42 15d02e4b 1a6a9d6a  .h8..K.B...K.j.j
+ 0220 c2f3c142 9c6ac5f3 4225012a c4f34264  ...B.j..B%.*..Bd
+ 0230 16d0022a 35d0d2b1 631c2748 05fb0333  ...*5...c.'H...3
+ 0240 b0fbf3f0 38bda3f5 30231a6b 1d6bc2f3  ....8...0#.k.k..
+ 0250 c1121c6b c5f30235 012ac4f3 4224e8d1  ...k...5.*..B$..
+ 0260 631c1e48 05fb0333 b0fbf3f0 38bd1c4a  c..H...3....8..J
+ 0270 d2f87031 106f990d c3f3c033 01f00201  ..p1.o.....3....
+ 0280 0b43d2f8 8010d2f8 9020fff7 b9fefcee  .C....... ......
+ 0290 c07a631c 17ee900a 05fb0333 b0fbf3f0  .zc........3....
+ 02a0 38bd0f4b d3f8a000 d3f8b010 d3f8c020  8..K........... 
+ 02b0 d3f87031 9b0ffff7 a3fefcee c07a631c  ..p1.........zc.
+ 02c0 17ee900a 05fb0333 b0fbf3f0 38bd00bf  .......3....8...
+ 02d0 00c01a40 00c00f40 00389c1c 80204b1e  ...@...@.8... K.
+ 02e0 00800d40 094b0a68 10b40468 9c4208bf  ...@.K.h...h.B..
+ 02f0 9a420cbf 01200020 05d09c42 18bf9a42  .B... . ...B...B
+ 0300 14bf0120 00205df8 044b7047 00c01a40  ... . ]..KpG...@
+ 0310 022970b4 08d1274c 4ff48835 c4f8a850  .)p...'LO..5...P
+ 0320 4ff40055 c4f8a450 234c0568 a54222d0  O..U...P#L.h.B".
+ 0330 4568c904 5b062868 01f4c011 6e685202  Eh..[.(h....nhR.
+ 0340 046803f0 606302f4 606224ea 06040460  .h..`c..`b$....`
+ 0350 1a4c266a 26f4c01c 41ea0c01 2162a16a  .L&j&...A...!b.j
+ 0360 21f00e21 0b431a43 a2626a68 03681343  !..!.C.C.bjh.h.C
+ 0370 70bc0360 70474068 5b021203 046803f4  p..`pG@h[....h..
+ 0380 60634668 02f4e042 2568c901 25ea0605  `cFh...B%h..%...
+ 0390 0a4e01f4 c0712560 356b25f4 ff452b43  .N...q%`5k%..E+C
+ 03a0 13430b43 33632368 42681343 236070bc  .C.C3c#hBh.C#`p.
+ 03b0 704700bf 00800d40 00c01a40 00c00f40  pG.....@...@...@
+ 03c0 70b53f4c 8822dfed 3f7a0026 611c9fed  p.?L."..?z.&a...
+ 03d0 3e7ac7ee 806a04f1 1e0c0d46 01e015f8  >z...j.....F....
+ 03e0 012b1309 02f00f0e 2a1b13fb 0ef307ee  .+......*.......
+ 03f0 903a531e f8eee77a 77eee67a f0eee77a  .:S....zw..z...z
+ 0400 b4eee77a f1ee10fa 02ddb0ee 677a1e46  ...z........gz.F
+ 0410 6545e4d1 dfed2d7a 8822a65d 002587ee  eE....-z.".].%..
+ 0420 806adfed 296a01e0 11f8012b 130902f0  .j..)j.....+....
+ 0430 0f0e0a1b 13fb0ef3 07ee903a 531ef8ee  ...........:S...
+ 0440 e77a77ee c67af0ee e77af4ee e76af1ee  .zw..z...z...j..
+ 0450 10fa02dd f0ee676a 1d466145 e4d1f4ee  ......gj.FaE....
+ 0460 c76a635d f1ee10fa 14db3409 06f00f06  .jc]......4.....
+ 0470 03219fed 147a621e 731e14fb 06f4dbb2  .!...zb.s.......
+ 0480 07ee904a d2b2fff7 fefff8ee e77a87ee  ...J.........z..
+ 0490 270a70bd 1c0903f0 0f050121 9fed0b7a  '.p........!...z
+ 04a0 621e6b1e 14fb05f4 dbb207ee 904ad2b2  b.k..........J..
+ 04b0 fff7feff f8eee77a 87ee270a 70bd00bf  .......z..'.p...
+ 04c0 00000000 c0e1e44d 0000807f 0459f24d  .......M.....Y.M
+ 04d0 30b587b0 0df10f04 0df10e03 05aa04a9  0...............
+ 04e0 00940446 0df10d00 fff7c2fd 9df80e20  ...F........... 
+ 04f0 9df80d30 10091d49 03f03f03 02f00f02  ...0...I..?.....
+ 0500 a0f10200 022ab0fa 80f04fea 501043ea  .....*....O.P.C.
+ 0510 c0430b67 049bc1f8 8030059b c1f89030  .C.g.....0.....0
+ 0520 20d0042a 18d1124b 1d46c1f8 78310f4b   ..*...K.F..x1.K
+ 0530 4ff40052 20460021 c3f87451 5a679df8  O..R F.!..tQZg..
+ 0540 0f2002f0 0f031209 013b013a dbb2d2b2  . .......;.:....
+ 0550 fff7feff 07b030bd 0025044b 044ac3f8  ......0..%.K.J..
+ 0560 7821e4e7 4ff40045 f7e700bf 00800d40  x!..O..E.......@
+ 0570 00808000 10b586b0 0df10f04 0df10e03  ................
+ 0580 05aa04a9 00940446 0df10d00 fff770fd  .......F......p.
+ 0590 9df80e20 9df80d30 10091c49 03f07f03  ... ...0...I....
+ 05a0 02f00f02 a0f10200 022ab0fa 80f04fea  .........*....O.
+ 05b0 501043ea c043c1f8 a030049b c1f8b030  P.C..C...0.....0
+ 05c0 059bc1f8 c0301ed0 042a14bf 00214ff0  .....0...*...!O.
+ 05d0 40410e4b 4ff04042 2046c3f8 78214ff4  @A.KO.@B F..x!O.
+ 05e0 0052c3f8 74110221 c3f8a420 9df80f20  .R..t..!... ... 
+ 05f0 02f00f03 1209013b 013adbb2 d2b2fff7  .......;.:......
+ 0600 feff06b0 10bd4ff0 8041e2e7 00800d40  ......O..A.....@
+Contents of section .text._ZN13FlexIOHandler17mapIOPinToFlexPinEh:
+ 0000 362921d8 124bc268 03eb0113 70b4057c  6)!..K.h....p..|
+ 0010 5e68a5b1 00231946 01e08d42 0fd91468  ^h...#.F...B...h
+ 0020 01338c46 0432b442 d9b2f6d1 43686046  .3.F.2.B....Ch`F
+ 0030 d3e90021 70bc1368 0b431360 70474ff0  ...!p..h.C.`pGO.
+ 0040 ff0c70bc 60467047 4ff0ff0c 60467047  ..p.`FpGO...`FpG
+ 0050 00000000                             ....            
+Contents of section .text._ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh:
+ 0000 ff282de9 f0410fd0 094c0646 0f4604f1  .(-..A...L.F.F..
+ 0010 0c0854f8 045b3146 2846fff7 feffff28  ..T..[1F(F.....(
+ 0020 387002d1 4445f4d1 00252846 bde8f081  8p..DE...%(F....
+ 0030 00000000                             ....            
+Contents of section .text._ZN13FlexIOHandler17mapFlexPinToIOPinEh:
+ 0000 037c8b42 11d9c068 00230b4a 10b450f8  .|.B...h.#.J..P.
+ 0010 214001e0 372b0ad0 5168d8b2 10320133  !@..7+..Qh...2.3
+ 0020 8c42f7d1 5df8044b 7047ff20 7047ff20  .B..]..KpG. pG. 
+ 0030 5df8044b 704700bf 00000000           ]..KpG......    
+Contents of section .text._ZN13FlexIOHandler18setIOPinToFlexModeEh:
+ 0000 36291ad8 c36810b4 104c027c 04eb0111  6)...h...L.|....
+ 0010 4c68c2b1 013a191d d2b201eb 820101e0  Lh...:..........
+ 0020 8b420cd0 1a680433 a242f9d1 43680120  .B...h.3.B..Ch. 
+ 0030 1b7c2360 5df8044b 70470020 70470020  .|#`]..KpG. pG. 
+ 0040 5df8044b 70471046 f4e700bf 00000000  ]..KpG.F........
+Contents of section .text._ZN13FlexIOHandler11FlexIOIndexEv:
+ 0000 084b1a68 904209d0 5a689042 08d09b68  .K.h.B..Zh.B...h
+ 0010 98420cbf 02204ff0 ff307047 00207047  .B... O..0pG. pG
+ 0020 01207047 00000000                    . pG....        
+Contents of section .text._ZN13FlexIOHandler13requestTimersEh:
+ 0000 01291ad0 c1f1090c bcf1000f 0edd0321  .).............!
+ 0010 427c12ea 01030cd0 002301e0 114208d0  B|.......#...B..
+ 0020 01334900 dbb2c9b2 6345f7db ff231846  .3I.....cE...#.F
+ 0030 70470a43 42741846 70474ff0 080ce7e7  pG.CBt.FpGO.....
+Contents of section .text._ZN13FlexIOHandler14requestShifterEh:
+ 0000 70b50023 0122857c 15424fea 420cdcb2  p..#.".|.BO.B...
+ 0010 08d1ff29 0ed04668 06eb030e 9ef811e0  ...)..Fh........
+ 0020 8e4507d1 01335ffa 8cf2082b ecd1ff24  .E...3_....+...$
+ 0030 204670bd 15438574 204670bd            Fp..C.t Fp.    
+Contents of section .text._ZN13FlexIOHandler18shiftersDMAChannelEh:
+ 0000 032903d8 43680b44 587c7047 ff207047  .)..Ch.DX|pG. pG
+Contents of section .text._ZN13FlexIOHandler10claimTimerEh:
+ 0000 01230246 407c03fa 01f10142 5ffa81fc  .#.F@|.....B_...
+ 0010 01d00020 704740ea 0c011846 51747047  ... pG@....FQtpG
+Contents of section .text._ZN13FlexIOHandler12claimShifterEh:
+ 0000 01230246 807c03fa 01f10142 5ffa81fc  .#.F.|.....B_...
+ 0010 01d00020 704740ea 0c011846 91747047  ... pG@....F.tpG
+Contents of section .text._ZN13FlexIOHandler10IRQHandlerEv:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN13FlexIOHandler10freeTimersEhh:
+ 0000 ff2906d0 012a427c 0cbffe23 fc231340  .)...*B|...#.#.@
+ 0010 43747047                             CtpG            
+Contents of section .text._ZN13FlexIOHandler11freeShifterEh:
+ 0000 ff2903d0 837c23f0 01038374 704700bf  .)...|#....tpG..
+Contents of section .text._ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback:
+ 0000 836800b5 03f1200c 86461a68 5ab18a42  .h.... ..F.hZ..B
+ 0010 03f10403 04d09c45 f7d10020 5df804fb  .......E... ]...
+ 0020 01205df8 04fb9ef8 13201960 002af7d1  . ]...... .`.*..
+ 0030 def80420 0b49137a d2681033 41f82320  ... .I.z.h.3A.# 
+ 0040 def80410 0122084b 91f808c0 10460cf0  .....".K.....F..
+ 0050 1f0103eb 5c1302fa 01f19b00 19608ef8  ....\........`..
+ 0060 1320dbe7 00000000 40380038           . ......@8.8    
+Contents of section .text._ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback:
+ 0000 836803f1 20001a68 8a4204d0 04338342  .h.. ..h.B...3.B
+ 0010 f9d10020 70470022 01201a60 704700bf  ... pG.". .`pG..
+Contents of section .text.startup._GLOBAL__sub_I_flex1_Handler_callbacks:
+ 0000 30b41149 2024114b 11480c61 1c61114c  0..I $.K.H.a.a.L
+ 0010 114a4460 114c124d 84601024 05600461  .JD`.L.M.`.$.`.a
+ 0020 c260104c 1048c1e9 004002f1 40000f4c  .`.L.H...@..@..L
+ 0030 c032c1e9 02400e4c 0e480f49 1c60da60  .2...@.L.H.I.`.`
+ 0040 30bcc3e9 01017047 00000000 00000000  0.....pG........
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00c01a40 00001b40 00000000 00000000  ...@...@........
+ 0070 00000242 00000000 00000000           ...B........    
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .data._ZN13FlexIOHandler18flexIOHandler_listE:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .progmem:
+ 0000 14801f40 18801f40 1c801f40 20801f40  ...@...@...@ ..@
+ 0010 24801f40 28801f40 2c801f40 30801f40  $..@(..@,..@0..@
+ 0020 34801f40 38801f40 3c801f40 40801f40  4..@8..@<..@@..@
+ 0030 7c801f40 80801f40 84801f40 88801f40  |..@...@...@...@
+ 0040 3c811f40 40811f40 44811f40 48811f40  <..@@..@D..@H..@
+ 0050 4c811f40 50811f40 54811f40 58811f40  L..@P..@T..@X..@
+ 0060 5c811f40 60811f40 64811f40 68811f40  \..@`..@d..@h..@
+ 0070 6c811f40 70811f40 74811f40 78811f40  l..@p..@t..@x..@
+ 0080 7c811f40 80811f40 84811f40 88811f40  |..@...@...@...@
+ 0090 8c811f40 90811f40 94811f40 98811f40  ...@...@...@...@
+ 00a0 9c811f40 a0811f40 a4811f40 a8811f40  ...@...@...@...@
+ 00b0 ac811f40 b0811f40 b4811f40 b8811f40  ...@...@...@...@
+ 00c0 fc801f40 00811f40 04811f40 08811f40  ...@...@...@...@
+ 00d0 0c811f40 10811f40 14811f40 18811f40  ...@...@...@...@
+ 00e0 1c811f40 20811f40 24811f40 28811f40  ...@ ..@$..@(..@
+ 00f0 2c811f40 30811f40 34811f40 38811f40  ,..@0..@4..@8..@
+ 0100 7c811f40 80811f40 84811f40 88811f40  |..@...@...@...@
+ 0110 8c811f40 90811f40 94811f40 98811f40  ...@...@...@...@
+ 0120 9c811f40 a0811f40 a4811f40 a8811f40  ...@...@...@...@
+ 0130 ac811f40 b0811f40 b4811f40 b8811f40  ...@...@...@...@
+Contents of section .rodata._ZN13FlexIOHandler14flex1_hardwareE:
+ 0000 7cc00f40 0c000000 5a000000 00000000  |..@....Z.......
+ 0010 14000040 40ffffff ff000000           ...@@.......    
+Contents of section .rodata._ZN13FlexIOHandler14flex2_hardwareE:
+ 0000 74c00f40 03000000 5b000000 00000000  t..@....[.......
+ 0010 14010141 41ffffff ff000000           ...AA.......    
+Contents of section .rodata._ZN13FlexIOHandler14flex3_hardwareE:
+ 0000 84c00f40 00300000 9c000000 00000000  ...@.0..........
+ 0010 19ffffff ffffffff ff000000           ............    
+Contents of section .rodata._ZZL15best_flexio_divfPfE9uniquediv:
+ 0000 88877786 76856675 84657455 83735463  ..w.v.fu.etU.sTc
+ 0010 82537262 52338171 61514131 2111      .SrbR3.qaQA1!.  
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z18IRQHandler_FlexIO1v:
+
+00000000 <_Z18IRQHandler_FlexIO1v>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4c09      	ldr	r4, [pc, #36]	; (28 <_Z18IRQHandler_FlexIO1v+0x28>)
+   4:	4d09      	ldr	r5, [pc, #36]	; (2c <_Z18IRQHandler_FlexIO1v+0x2c>)
+   6:	f104 0620 	add.w	r6, r4, #32
+   a:	f854 3f04 	ldr.w	r3, [r4, #4]!
+   e:	4629      	mov	r1, r5
+  10:	4618      	mov	r0, r3
+  12:	b11b      	cbz	r3, 1c <_Z18IRQHandler_FlexIO1v+0x1c>
+  14:	681b      	ldr	r3, [r3, #0]
+  16:	681b      	ldr	r3, [r3, #0]
+  18:	4798      	blx	r3
+  1a:	b918      	cbnz	r0, 24 <_Z18IRQHandler_FlexIO1v+0x24>
+  1c:	42b4      	cmp	r4, r6
+  1e:	d1f4      	bne.n	a <_Z18IRQHandler_FlexIO1v+0xa>
+  20:	f3bf 8f4f 	dsb	sy
+  24:	bd70      	pop	{r4, r5, r6, pc}
+  26:	bf00      	nop
+  28:	fffffffc 	.word	0xfffffffc
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z18IRQHandler_FlexIO2v:
+
+00000000 <_Z18IRQHandler_FlexIO2v>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4c09      	ldr	r4, [pc, #36]	; (28 <_Z18IRQHandler_FlexIO2v+0x28>)
+   4:	4d09      	ldr	r5, [pc, #36]	; (2c <_Z18IRQHandler_FlexIO2v+0x2c>)
+   6:	f104 0620 	add.w	r6, r4, #32
+   a:	f854 3f04 	ldr.w	r3, [r4, #4]!
+   e:	4629      	mov	r1, r5
+  10:	4618      	mov	r0, r3
+  12:	b11b      	cbz	r3, 1c <_Z18IRQHandler_FlexIO2v+0x1c>
+  14:	681b      	ldr	r3, [r3, #0]
+  16:	681b      	ldr	r3, [r3, #0]
+  18:	4798      	blx	r3
+  1a:	b918      	cbnz	r0, 24 <_Z18IRQHandler_FlexIO2v+0x24>
+  1c:	42b4      	cmp	r4, r6
+  1e:	d1f4      	bne.n	a <_Z18IRQHandler_FlexIO2v+0xa>
+  20:	f3bf 8f4f 	dsb	sy
+  24:	bd70      	pop	{r4, r5, r6, pc}
+  26:	bf00      	nop
+  28:	fffffffc 	.word	0xfffffffc
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._Z18IRQHandler_FlexIO3v:
+
+00000000 <_Z18IRQHandler_FlexIO3v>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4c09      	ldr	r4, [pc, #36]	; (28 <_Z18IRQHandler_FlexIO3v+0x28>)
+   4:	4d09      	ldr	r5, [pc, #36]	; (2c <_Z18IRQHandler_FlexIO3v+0x2c>)
+   6:	f104 0620 	add.w	r6, r4, #32
+   a:	f854 3f04 	ldr.w	r3, [r4, #4]!
+   e:	4629      	mov	r1, r5
+  10:	4618      	mov	r0, r3
+  12:	b11b      	cbz	r3, 1c <_Z18IRQHandler_FlexIO3v+0x1c>
+  14:	681b      	ldr	r3, [r3, #0]
+  16:	681b      	ldr	r3, [r3, #0]
+  18:	4798      	blx	r3
+  1a:	b918      	cbnz	r0, 24 <_Z18IRQHandler_FlexIO3v+0x24>
+  1c:	42b4      	cmp	r4, r6
+  1e:	d1f4      	bne.n	a <_Z18IRQHandler_FlexIO3v+0xa>
+  20:	f3bf 8f4f 	dsb	sy
+  24:	bd70      	pop	{r4, r5, r6, pc}
+  26:	bf00      	nop
+  28:	fffffffc 	.word	0xfffffffc
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .flashmem:
+
+00000000 <_ZL14pll_fractionalmmmm>:
+   0:	ee07 1a90 	vmov	s15, r1
+   4:	eddf 6a19 	vldr	s13, [pc, #100]	; 6c <_ZL14pll_fractionalmmmm+0x6c>
+   8:	f410 1fc0 	tst.w	r0, #1572864	; 0x180000
+   c:	eeb8 7a67 	vcvt.f32.u32	s14, s15
+  10:	ee07 2a90 	vmov	s15, r2
+  14:	f000 027f 	and.w	r2, r0, #127	; 0x7f
+  18:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  1c:	ee87 0a27 	vdiv.f32	s0, s14, s15
+  20:	ee07 2a90 	vmov	s15, r2
+  24:	f3c0 42c1 	ubfx	r2, r0, #19, #2
+  28:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  2c:	ee30 0a27 	vadd.f32	s0, s0, s15
+  30:	ee20 0a26 	vmul.f32	s0, s0, s13
+  34:	d108      	bne.n	48 <_ZL14pll_fractionalmmmm+0x48>
+  36:	eef5 7a00 	vmov.f32	s15, #80	; 0x3e800000  0.250
+  3a:	ee20 0a27 	vmul.f32	s0, s0, s15
+  3e:	2b01      	cmp	r3, #1
+  40:	d00a      	beq.n	58 <_ZL14pll_fractionalmmmm+0x58>
+  42:	2b03      	cmp	r3, #3
+  44:	d00d      	beq.n	62 <_ZL14pll_fractionalmmmm+0x62>
+  46:	4770      	bx	lr
+  48:	2a01      	cmp	r2, #1
+  4a:	d1f8      	bne.n	3e <_ZL14pll_fractionalmmmm+0x3e>
+  4c:	eef6 7a00 	vmov.f32	s15, #96	; 0x3f000000  0.5
+  50:	2b01      	cmp	r3, #1
+  52:	ee20 0a27 	vmul.f32	s0, s0, s15
+  56:	d1f4      	bne.n	42 <_ZL14pll_fractionalmmmm+0x42>
+  58:	eef6 7a00 	vmov.f32	s15, #96	; 0x3f000000  0.5
+  5c:	ee20 0a27 	vmul.f32	s0, s0, s15
+  60:	4770      	bx	lr
+  62:	eef5 7a00 	vmov.f32	s15, #80	; 0x3e800000  0.250
+  66:	ee20 0a27 	vmul.f32	s0, s0, s15
+  6a:	4770      	bx	lr
+  6c:	4bb71b00 	.word	0x4bb71b00
+
+00000070 <_ZL15best_pll_configfRhRmS0_S_S_>:
+  70:	eddf 7a5d 	vldr	s15, [pc, #372]	; 1e8 <_ZL15best_pll_configfRhRmS0_S_S_+0x178>
+  74:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  78:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+  7c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  80:	b083      	sub	sp, #12
+  82:	4604      	mov	r4, r0
+  84:	460e      	mov	r6, r1
+  86:	4615      	mov	r5, r2
+  88:	980a      	ldr	r0, [sp, #40]	; 0x28
+  8a:	dc0c      	bgt.n	a6 <_ZL15best_pll_configfRhRmS0_S_S_+0x36>
+  8c:	eddf 7a57 	vldr	s15, [pc, #348]	; 1ec <_ZL15best_pll_configfRhRmS0_S_S_+0x17c>
+  90:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  94:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  98:	f340 8094 	ble.w	1c4 <_ZL15best_pll_configfRhRmS0_S_S_+0x154>
+  9c:	eeb1 6a00 	vmov.f32	s12, #16	; 0x40800000  4.0
+  a0:	2241      	movs	r2, #65	; 0x41
+  a2:	2704      	movs	r7, #4
+  a4:	e003      	b.n	ae <_ZL15best_pll_configfRhRmS0_S_S_+0x3e>
+  a6:	eeb0 6a00 	vmov.f32	s12, #0	; 0x40000000  2.0
+  aa:	2221      	movs	r2, #33	; 0x21
+  ac:	2702      	movs	r7, #2
+  ae:	eddf 6a50 	vldr	s13, [pc, #320]	; 1f0 <_ZL15best_pll_configfRhRmS0_S_S_+0x180>
+  b2:	f04f 0c88 	mov.w	ip, #136	; 0x88
+  b6:	701a      	strb	r2, [r3, #0]
+  b8:	f04f 0800 	mov.w	r8, #0
+  bc:	eec6 7a80 	vdiv.f32	s15, s13, s0
+  c0:	4a4c      	ldr	r2, [pc, #304]	; (1f4 <_ZL15best_pll_configfRhRmS0_S_S_+0x184>)
+  c2:	ed9f 7a4d 	vldr	s14, [pc, #308]	; 1f8 <_ZL15best_pll_configfRhRmS0_S_S_+0x188>
+  c6:	f102 0e01 	add.w	lr, r2, #1
+  ca:	f102 011e 	add.w	r1, r2, #30
+  ce:	eec7 6a86 	vdiv.f32	s13, s15, s12
+  d2:	e001      	b.n	d8 <_ZL15best_pll_configfRhRmS0_S_S_+0x68>
+  d4:	f81e cb01 	ldrb.w	ip, [lr], #1
+  d8:	ea4f 131c 	mov.w	r3, ip, lsr #4
+  dc:	f00c 090f 	and.w	r9, ip, #15
+  e0:	ebae 0c02 	sub.w	ip, lr, r2
+  e4:	fb13 f309 	smulbb	r3, r3, r9
+  e8:	ee07 3a90 	vmov	s15, r3
+  ec:	f10c 33ff 	add.w	r3, ip, #4294967295	; 0xffffffff
+  f0:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  f4:	ee77 7ae6 	vsub.f32	s15, s15, s13
+  f8:	eef0 7ae7 	vabs.f32	s15, s15
+  fc:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 100:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 104:	d502      	bpl.n	10c <_ZL15best_pll_configfRhRmS0_S_S_+0x9c>
+ 106:	eeb0 7a67 	vmov.f32	s14, s15
+ 10a:	4698      	mov	r8, r3
+ 10c:	458e      	cmp	lr, r1
+ 10e:	d1e1      	bne.n	d4 <_ZL15best_pll_configfRhRmS0_S_S_+0x64>
+ 110:	f812 3008 	ldrb.w	r3, [r2, r8]
+ 114:	ee20 0a06 	vmul.f32	s0, s0, s12
+ 118:	eddf 6a38 	vldr	s13, [pc, #224]	; 1fc <_ZL15best_pll_configfRhRmS0_S_S_+0x18c>
+ 11c:	ea4f 1813 	mov.w	r8, r3, lsr #4
+ 120:	7003      	strb	r3, [r0, #0]
+ 122:	f003 030f 	and.w	r3, r3, #15
+ 126:	ed9f 7a36 	vldr	s14, [pc, #216]	; 200 <_ZL15best_pll_configfRhRmS0_S_S_+0x190>
+ 12a:	fb18 f803 	smulbb	r8, r8, r3
+ 12e:	ee07 8a90 	vmov	s15, r8
+ 132:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 136:	ee60 7a27 	vmul.f32	s15, s0, s15
+ 13a:	ee87 0aa6 	vdiv.f32	s0, s15, s13
+ 13e:	eeb4 0ac7 	vcmpe.f32	s0, s14
+ 142:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 146:	d43a      	bmi.n	1be <_ZL15best_pll_configfRhRmS0_S_S_+0x14e>
+ 148:	eddf 7a2e 	vldr	s15, [pc, #184]	; 204 <_ZL15best_pll_configfRhRmS0_S_S_+0x194>
+ 14c:	eeb4 0a67 	vcmp.f32	s0, s15
+ 150:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 154:	fe37 0a80 	vselgt.f32	s0, s15, s0
+ 158:	a801      	add	r0, sp, #4
+ 15a:	fb07 f808 	mul.w	r8, r7, r8
+ 15e:	f7ff fffe 	bl	0 <modff>
+ 162:	eddf 7a29 	vldr	s15, [pc, #164]	; 208 <_ZL15best_pll_configfRhRmS0_S_S_+0x198>
+ 166:	eddd 6a01 	vldr	s13, [sp, #4]
+ 16a:	f06f 4260 	mvn.w	r2, #3758096384	; 0xe0000000
+ 16e:	ee20 0a27 	vmul.f32	s0, s0, s15
+ 172:	ed9f 6a22 	vldr	s12, [pc, #136]	; 1fc <_ZL15best_pll_configfRhRmS0_S_S_+0x18c>
+ 176:	eefc 6ae6 	vcvt.u32.f32	s13, s13
+ 17a:	ee07 8a90 	vmov	s15, r8
+ 17e:	eebc 7ac0 	vcvt.u32.f32	s14, s0
+ 182:	ee16 3a90 	vmov	r3, s13
+ 186:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 18a:	7023      	strb	r3, [r4, #0]
+ 18c:	eef8 5a47 	vcvt.f32.u32	s11, s14
+ 190:	602a      	str	r2, [r5, #0]
+ 192:	ed86 7a00 	vstr	s14, [r6]
+ 196:	edd5 6a00 	vldr	s13, [r5]
+ 19a:	7823      	ldrb	r3, [r4, #0]
+ 19c:	eef8 6a66 	vcvt.f32.u32	s13, s13
+ 1a0:	ee07 3a10 	vmov	s14, r3
+ 1a4:	ee85 0aa6 	vdiv.f32	s0, s11, s13
+ 1a8:	eeb8 7a47 	vcvt.f32.u32	s14, s14
+ 1ac:	ee30 0a07 	vadd.f32	s0, s0, s14
+ 1b0:	ee20 0a06 	vmul.f32	s0, s0, s12
+ 1b4:	ee80 0a27 	vdiv.f32	s0, s0, s15
+ 1b8:	b003      	add	sp, #12
+ 1ba:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+ 1be:	eeb0 0a47 	vmov.f32	s0, s14
+ 1c2:	e7c9      	b.n	158 <_ZL15best_pll_configfRhRmS0_S_S_+0xe8>
+ 1c4:	ed9f 7a11 	vldr	s14, [pc, #68]	; 20c <_ZL15best_pll_configfRhRmS0_S_S_+0x19c>
+ 1c8:	eeb2 6a00 	vmov.f32	s12, #32	; 0x41000000  8.0
+ 1cc:	eef3 7a00 	vmov.f32	s15, #48	; 0x41800000  16.0
+ 1d0:	eeb4 0ac7 	vcmpe.f32	s0, s14
+ 1d4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1d8:	bfcb      	itete	gt
+ 1da:	2242      	movgt	r2, #66	; 0x42
+ 1dc:	2244      	movle	r2, #68	; 0x44
+ 1de:	2708      	movgt	r7, #8
+ 1e0:	2710      	movle	r7, #16
+ 1e2:	fe36 6a27 	vselgt.f32	s12, s12, s15
+ 1e6:	e762      	b.n	ae <_ZL15best_pll_configfRhRmS0_S_S_+0x3e>
+ 1e8:	4d1af8da 	.word	0x4d1af8da
+ 1ec:	4c9af8da 	.word	0x4c9af8da
+ 1f0:	4e687547 	.word	0x4e687547
+ 1f4:	00000000 	.word	0x00000000
+ 1f8:	7f800000 	.word	0x7f800000
+ 1fc:	4bb71b00 	.word	0x4bb71b00
+ 200:	41d8a9fc 	.word	0x41d8a9fc
+ 204:	4258ab02 	.word	0x4258ab02
+ 208:	4e000000 	.word	0x4e000000
+ 20c:	4c1af8da 	.word	0x4c1af8da
+
+00000210 <_ZN13FlexIOHandler16computeClockRateEv>:
+ 210:	6802      	ldr	r2, [r0, #0]
+ 212:	b538      	push	{r3, r4, r5, lr}
+ 214:	4b2e      	ldr	r3, [pc, #184]	; (2d0 <_ZN13FlexIOHandler16computeClockRateEv+0xc0>)
+ 216:	429a      	cmp	r2, r3
+ 218:	d015      	beq.n	246 <_ZN13FlexIOHandler16computeClockRateEv+0x36>
+ 21a:	4b2e      	ldr	r3, [pc, #184]	; (2d4 <_ZN13FlexIOHandler16computeClockRateEv+0xc4>)
+ 21c:	6a1a      	ldr	r2, [r3, #32]
+ 21e:	6a9d      	ldr	r5, [r3, #40]	; 0x28
+ 220:	f3c2 42c1 	ubfx	r2, r2, #19, #2
+ 224:	6a9c      	ldr	r4, [r3, #40]	; 0x28
+ 226:	f3c5 2542 	ubfx	r5, r5, #9, #3
+ 22a:	2a01      	cmp	r2, #1
+ 22c:	f3c4 6442 	ubfx	r4, r4, #25, #3
+ 230:	d016      	beq.n	260 <_ZN13FlexIOHandler16computeClockRateEv+0x50>
+ 232:	2a02      	cmp	r2, #2
+ 234:	d035      	beq.n	2a2 <_ZN13FlexIOHandler16computeClockRateEv+0x92>
+ 236:	b1d2      	cbz	r2, 26e <_ZN13FlexIOHandler16computeClockRateEv+0x5e>
+ 238:	1c63      	adds	r3, r4, #1
+ 23a:	4827      	ldr	r0, [pc, #156]	; (2d8 <_ZN13FlexIOHandler16computeClockRateEv+0xc8>)
+ 23c:	fb05 3303 	mla	r3, r5, r3, r3
+ 240:	fbb0 f0f3 	udiv	r0, r0, r3
+ 244:	bd38      	pop	{r3, r4, r5, pc}
+ 246:	f5a3 2330 	sub.w	r3, r3, #720896	; 0xb0000
+ 24a:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+ 24c:	6b1d      	ldr	r5, [r3, #48]	; 0x30
+ 24e:	f3c2 12c1 	ubfx	r2, r2, #7, #2
+ 252:	6b1c      	ldr	r4, [r3, #48]	; 0x30
+ 254:	f3c5 3502 	ubfx	r5, r5, #12, #3
+ 258:	2a01      	cmp	r2, #1
+ 25a:	f3c4 2442 	ubfx	r4, r4, #9, #3
+ 25e:	d1e8      	bne.n	232 <_ZN13FlexIOHandler16computeClockRateEv+0x22>
+ 260:	1c63      	adds	r3, r4, #1
+ 262:	481e      	ldr	r0, [pc, #120]	; (2dc <_ZN13FlexIOHandler16computeClockRateEv+0xcc>)
+ 264:	fb05 3303 	mla	r3, r5, r3, r3
+ 268:	fbb0 f0f3 	udiv	r0, r0, r3
+ 26c:	bd38      	pop	{r3, r4, r5, pc}
+ 26e:	4a1c      	ldr	r2, [pc, #112]	; (2e0 <_ZN13FlexIOHandler16computeClockRateEv+0xd0>)
+ 270:	f8d2 3170 	ldr.w	r3, [r2, #368]	; 0x170
+ 274:	6f10      	ldr	r0, [r2, #112]	; 0x70
+ 276:	0d99      	lsrs	r1, r3, #22
+ 278:	f3c3 33c0 	ubfx	r3, r3, #15, #1
+ 27c:	f001 0102 	and.w	r1, r1, #2
+ 280:	430b      	orrs	r3, r1
+ 282:	f8d2 1080 	ldr.w	r1, [r2, #128]	; 0x80
+ 286:	f8d2 2090 	ldr.w	r2, [r2, #144]	; 0x90
+ 28a:	f7ff feb9 	bl	0 <_ZL14pll_fractionalmmmm>
+ 28e:	eefc 7ac0 	vcvt.u32.f32	s15, s0
+ 292:	1c63      	adds	r3, r4, #1
+ 294:	ee17 0a90 	vmov	r0, s15
+ 298:	fb05 3303 	mla	r3, r5, r3, r3
+ 29c:	fbb0 f0f3 	udiv	r0, r0, r3
+ 2a0:	bd38      	pop	{r3, r4, r5, pc}
+ 2a2:	4b0f      	ldr	r3, [pc, #60]	; (2e0 <_ZN13FlexIOHandler16computeClockRateEv+0xd0>)
+ 2a4:	f8d3 00a0 	ldr.w	r0, [r3, #160]	; 0xa0
+ 2a8:	f8d3 10b0 	ldr.w	r1, [r3, #176]	; 0xb0
+ 2ac:	f8d3 20c0 	ldr.w	r2, [r3, #192]	; 0xc0
+ 2b0:	f8d3 3170 	ldr.w	r3, [r3, #368]	; 0x170
+ 2b4:	0f9b      	lsrs	r3, r3, #30
+ 2b6:	f7ff fea3 	bl	0 <_ZL14pll_fractionalmmmm>
+ 2ba:	eefc 7ac0 	vcvt.u32.f32	s15, s0
+ 2be:	1c63      	adds	r3, r4, #1
+ 2c0:	ee17 0a90 	vmov	r0, s15
+ 2c4:	fb05 3303 	mla	r3, r5, r3, r3
+ 2c8:	fbb0 f0f3 	udiv	r0, r0, r3
+ 2cc:	bd38      	pop	{r3, r4, r5, pc}
+ 2ce:	bf00      	nop
+ 2d0:	401ac000 	.word	0x401ac000
+ 2d4:	400fc000 	.word	0x400fc000
+ 2d8:	1c9c3800 	.word	0x1c9c3800
+ 2dc:	1e4b2080 	.word	0x1e4b2080
+ 2e0:	400d8000 	.word	0x400d8000
+
+000002e4 <_ZN13FlexIOHandler13usesSameClockEPKS_>:
+ 2e4:	4b09      	ldr	r3, [pc, #36]	; (30c <_ZN13FlexIOHandler13usesSameClockEPKS_+0x28>)
+ 2e6:	680a      	ldr	r2, [r1, #0]
+ 2e8:	b410      	push	{r4}
+ 2ea:	6804      	ldr	r4, [r0, #0]
+ 2ec:	429c      	cmp	r4, r3
+ 2ee:	bf08      	it	eq
+ 2f0:	429a      	cmpeq	r2, r3
+ 2f2:	bf0c      	ite	eq
+ 2f4:	2001      	moveq	r0, #1
+ 2f6:	2000      	movne	r0, #0
+ 2f8:	d005      	beq.n	306 <_ZN13FlexIOHandler13usesSameClockEPKS_+0x22>
+ 2fa:	429c      	cmp	r4, r3
+ 2fc:	bf18      	it	ne
+ 2fe:	429a      	cmpne	r2, r3
+ 300:	bf14      	ite	ne
+ 302:	2001      	movne	r0, #1
+ 304:	2000      	moveq	r0, #0
+ 306:	f85d 4b04 	ldr.w	r4, [sp], #4
+ 30a:	4770      	bx	lr
+ 30c:	401ac000 	.word	0x401ac000
+
+00000310 <_ZN13FlexIOHandler16setClockSettingsEhhh>:
+ 310:	2902      	cmp	r1, #2
+ 312:	b470      	push	{r4, r5, r6}
+ 314:	d108      	bne.n	328 <_ZN13FlexIOHandler16setClockSettingsEhhh+0x18>
+ 316:	4c27      	ldr	r4, [pc, #156]	; (3b4 <_ZN13FlexIOHandler16setClockSettingsEhhh+0xa4>)
+ 318:	f44f 3588 	mov.w	r5, #69632	; 0x11000
+ 31c:	f8c4 50a8 	str.w	r5, [r4, #168]	; 0xa8
+ 320:	f44f 5500 	mov.w	r5, #8192	; 0x2000
+ 324:	f8c4 50a4 	str.w	r5, [r4, #164]	; 0xa4
+ 328:	4c23      	ldr	r4, [pc, #140]	; (3b8 <_ZN13FlexIOHandler16setClockSettingsEhhh+0xa8>)
+ 32a:	6805      	ldr	r5, [r0, #0]
+ 32c:	42a5      	cmp	r5, r4
+ 32e:	d022      	beq.n	376 <_ZN13FlexIOHandler16setClockSettingsEhhh+0x66>
+ 330:	6845      	ldr	r5, [r0, #4]
+ 332:	04c9      	lsls	r1, r1, #19
+ 334:	065b      	lsls	r3, r3, #25
+ 336:	6828      	ldr	r0, [r5, #0]
+ 338:	f401 11c0 	and.w	r1, r1, #1572864	; 0x180000
+ 33c:	686e      	ldr	r6, [r5, #4]
+ 33e:	0252      	lsls	r2, r2, #9
+ 340:	6804      	ldr	r4, [r0, #0]
+ 342:	f003 6360 	and.w	r3, r3, #234881024	; 0xe000000
+ 346:	f402 6260 	and.w	r2, r2, #3584	; 0xe00
+ 34a:	ea24 0406 	bic.w	r4, r4, r6
+ 34e:	6004      	str	r4, [r0, #0]
+ 350:	4c1a      	ldr	r4, [pc, #104]	; (3bc <_ZN13FlexIOHandler16setClockSettingsEhhh+0xac>)
+ 352:	6a26      	ldr	r6, [r4, #32]
+ 354:	f426 1cc0 	bic.w	ip, r6, #1572864	; 0x180000
+ 358:	ea41 010c 	orr.w	r1, r1, ip
+ 35c:	6221      	str	r1, [r4, #32]
+ 35e:	6aa1      	ldr	r1, [r4, #40]	; 0x28
+ 360:	f021 210e 	bic.w	r1, r1, #234884608	; 0xe000e00
+ 364:	430b      	orrs	r3, r1
+ 366:	431a      	orrs	r2, r3
+ 368:	62a2      	str	r2, [r4, #40]	; 0x28
+ 36a:	686a      	ldr	r2, [r5, #4]
+ 36c:	6803      	ldr	r3, [r0, #0]
+ 36e:	4313      	orrs	r3, r2
+ 370:	bc70      	pop	{r4, r5, r6}
+ 372:	6003      	str	r3, [r0, #0]
+ 374:	4770      	bx	lr
+ 376:	6840      	ldr	r0, [r0, #4]
+ 378:	025b      	lsls	r3, r3, #9
+ 37a:	0312      	lsls	r2, r2, #12
+ 37c:	6804      	ldr	r4, [r0, #0]
+ 37e:	f403 6360 	and.w	r3, r3, #3584	; 0xe00
+ 382:	6846      	ldr	r6, [r0, #4]
+ 384:	f402 42e0 	and.w	r2, r2, #28672	; 0x7000
+ 388:	6825      	ldr	r5, [r4, #0]
+ 38a:	01c9      	lsls	r1, r1, #7
+ 38c:	ea25 0506 	bic.w	r5, r5, r6
+ 390:	4e0a      	ldr	r6, [pc, #40]	; (3bc <_ZN13FlexIOHandler16setClockSettingsEhhh+0xac>)
+ 392:	f401 71c0 	and.w	r1, r1, #384	; 0x180
+ 396:	6025      	str	r5, [r4, #0]
+ 398:	6b35      	ldr	r5, [r6, #48]	; 0x30
+ 39a:	f425 45ff 	bic.w	r5, r5, #32640	; 0x7f80
+ 39e:	432b      	orrs	r3, r5
+ 3a0:	4313      	orrs	r3, r2
+ 3a2:	430b      	orrs	r3, r1
+ 3a4:	6333      	str	r3, [r6, #48]	; 0x30
+ 3a6:	6823      	ldr	r3, [r4, #0]
+ 3a8:	6842      	ldr	r2, [r0, #4]
+ 3aa:	4313      	orrs	r3, r2
+ 3ac:	6023      	str	r3, [r4, #0]
+ 3ae:	bc70      	pop	{r4, r5, r6}
+ 3b0:	4770      	bx	lr
+ 3b2:	bf00      	nop
+ 3b4:	400d8000 	.word	0x400d8000
+ 3b8:	401ac000 	.word	0x401ac000
+ 3bc:	400fc000 	.word	0x400fc000
+
+000003c0 <_ZN13FlexIOHandler8setClockEf>:
+ 3c0:	b570      	push	{r4, r5, r6, lr}
+ 3c2:	4c3f      	ldr	r4, [pc, #252]	; (4c0 <_ZN13FlexIOHandler8setClockEf+0x100>)
+ 3c4:	2288      	movs	r2, #136	; 0x88
+ 3c6:	eddf 7a3f 	vldr	s15, [pc, #252]	; 4c4 <_ZN13FlexIOHandler8setClockEf+0x104>
+ 3ca:	2600      	movs	r6, #0
+ 3cc:	1c61      	adds	r1, r4, #1
+ 3ce:	ed9f 7a3e 	vldr	s14, [pc, #248]	; 4c8 <_ZN13FlexIOHandler8setClockEf+0x108>
+ 3d2:	eec7 6a80 	vdiv.f32	s13, s15, s0
+ 3d6:	f104 0c1e 	add.w	ip, r4, #30
+ 3da:	460d      	mov	r5, r1
+ 3dc:	e001      	b.n	3e2 <_ZN13FlexIOHandler8setClockEf+0x22>
+ 3de:	f815 2b01 	ldrb.w	r2, [r5], #1
+ 3e2:	0913      	lsrs	r3, r2, #4
+ 3e4:	f002 0e0f 	and.w	lr, r2, #15
+ 3e8:	1b2a      	subs	r2, r5, r4
+ 3ea:	fb13 f30e 	smulbb	r3, r3, lr
+ 3ee:	ee07 3a90 	vmov	s15, r3
+ 3f2:	1e53      	subs	r3, r2, #1
+ 3f4:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 3f8:	ee77 7ae6 	vsub.f32	s15, s15, s13
+ 3fc:	eef0 7ae7 	vabs.f32	s15, s15
+ 400:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 404:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 408:	dd02      	ble.n	410 <_ZN13FlexIOHandler8setClockEf+0x50>
+ 40a:	eeb0 7a67 	vmov.f32	s14, s15
+ 40e:	461e      	mov	r6, r3
+ 410:	4565      	cmp	r5, ip
+ 412:	d1e4      	bne.n	3de <_ZN13FlexIOHandler8setClockEf+0x1e>
+ 414:	eddf 7a2d 	vldr	s15, [pc, #180]	; 4cc <_ZN13FlexIOHandler8setClockEf+0x10c>
+ 418:	2288      	movs	r2, #136	; 0x88
+ 41a:	5da6      	ldrb	r6, [r4, r6]
+ 41c:	2500      	movs	r5, #0
+ 41e:	ee87 6a80 	vdiv.f32	s12, s15, s0
+ 422:	eddf 6a29 	vldr	s13, [pc, #164]	; 4c8 <_ZN13FlexIOHandler8setClockEf+0x108>
+ 426:	e001      	b.n	42c <_ZN13FlexIOHandler8setClockEf+0x6c>
+ 428:	f811 2b01 	ldrb.w	r2, [r1], #1
+ 42c:	0913      	lsrs	r3, r2, #4
+ 42e:	f002 0e0f 	and.w	lr, r2, #15
+ 432:	1b0a      	subs	r2, r1, r4
+ 434:	fb13 f30e 	smulbb	r3, r3, lr
+ 438:	ee07 3a90 	vmov	s15, r3
+ 43c:	1e53      	subs	r3, r2, #1
+ 43e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 442:	ee77 7ac6 	vsub.f32	s15, s15, s12
+ 446:	eef0 7ae7 	vabs.f32	s15, s15
+ 44a:	eef4 6ae7 	vcmpe.f32	s13, s15
+ 44e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 452:	dd02      	ble.n	45a <_ZN13FlexIOHandler8setClockEf+0x9a>
+ 454:	eef0 6a67 	vmov.f32	s13, s15
+ 458:	461d      	mov	r5, r3
+ 45a:	4561      	cmp	r1, ip
+ 45c:	d1e4      	bne.n	428 <_ZN13FlexIOHandler8setClockEf+0x68>
+ 45e:	eef4 6ac7 	vcmpe.f32	s13, s14
+ 462:	5d63      	ldrb	r3, [r4, r5]
+ 464:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 468:	db14      	blt.n	494 <_ZN13FlexIOHandler8setClockEf+0xd4>
+ 46a:	0934      	lsrs	r4, r6, #4
+ 46c:	f006 060f 	and.w	r6, r6, #15
+ 470:	2103      	movs	r1, #3
+ 472:	ed9f 7a14 	vldr	s14, [pc, #80]	; 4c4 <_ZN13FlexIOHandler8setClockEf+0x104>
+ 476:	1e62      	subs	r2, r4, #1
+ 478:	1e73      	subs	r3, r6, #1
+ 47a:	fb14 f406 	smulbb	r4, r4, r6
+ 47e:	b2db      	uxtb	r3, r3
+ 480:	ee07 4a90 	vmov	s15, r4
+ 484:	b2d2      	uxtb	r2, r2
+ 486:	f7ff fffe 	bl	310 <_ZN13FlexIOHandler16setClockSettingsEhhh>
+ 48a:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 48e:	ee87 0a27 	vdiv.f32	s0, s14, s15
+ 492:	bd70      	pop	{r4, r5, r6, pc}
+ 494:	091c      	lsrs	r4, r3, #4
+ 496:	f003 050f 	and.w	r5, r3, #15
+ 49a:	2101      	movs	r1, #1
+ 49c:	ed9f 7a0b 	vldr	s14, [pc, #44]	; 4cc <_ZN13FlexIOHandler8setClockEf+0x10c>
+ 4a0:	1e62      	subs	r2, r4, #1
+ 4a2:	1e6b      	subs	r3, r5, #1
+ 4a4:	fb14 f405 	smulbb	r4, r4, r5
+ 4a8:	b2db      	uxtb	r3, r3
+ 4aa:	ee07 4a90 	vmov	s15, r4
+ 4ae:	b2d2      	uxtb	r2, r2
+ 4b0:	f7ff fffe 	bl	310 <_ZN13FlexIOHandler16setClockSettingsEhhh>
+ 4b4:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 4b8:	ee87 0a27 	vdiv.f32	s0, s14, s15
+ 4bc:	bd70      	pop	{r4, r5, r6, pc}
+ 4be:	bf00      	nop
+ 4c0:	00000000 	.word	0x00000000
+ 4c4:	4de4e1c0 	.word	0x4de4e1c0
+ 4c8:	7f800000 	.word	0x7f800000
+ 4cc:	4df25904 	.word	0x4df25904
+
+000004d0 <_ZN13FlexIOHandler21setClockUsingAudioPLLEf>:
+ 4d0:	b530      	push	{r4, r5, lr}
+ 4d2:	b087      	sub	sp, #28
+ 4d4:	f10d 040f 	add.w	r4, sp, #15
+ 4d8:	f10d 030e 	add.w	r3, sp, #14
+ 4dc:	aa05      	add	r2, sp, #20
+ 4de:	a904      	add	r1, sp, #16
+ 4e0:	9400      	str	r4, [sp, #0]
+ 4e2:	4604      	mov	r4, r0
+ 4e4:	f10d 000d 	add.w	r0, sp, #13
+ 4e8:	f7ff fdc2 	bl	70 <_ZL15best_pll_configfRhRmS0_S_S_>
+ 4ec:	f89d 200e 	ldrb.w	r2, [sp, #14]
+ 4f0:	f89d 300d 	ldrb.w	r3, [sp, #13]
+ 4f4:	0910      	lsrs	r0, r2, #4
+ 4f6:	491d      	ldr	r1, [pc, #116]	; (56c <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x9c>)
+ 4f8:	f003 033f 	and.w	r3, r3, #63	; 0x3f
+ 4fc:	f002 020f 	and.w	r2, r2, #15
+ 500:	f1a0 0002 	sub.w	r0, r0, #2
+ 504:	2a02      	cmp	r2, #2
+ 506:	fab0 f080 	clz	r0, r0
+ 50a:	ea4f 1050 	mov.w	r0, r0, lsr #5
+ 50e:	ea43 43c0 	orr.w	r3, r3, r0, lsl #19
+ 512:	670b      	str	r3, [r1, #112]	; 0x70
+ 514:	9b04      	ldr	r3, [sp, #16]
+ 516:	f8c1 3080 	str.w	r3, [r1, #128]	; 0x80
+ 51a:	9b05      	ldr	r3, [sp, #20]
+ 51c:	f8c1 3090 	str.w	r3, [r1, #144]	; 0x90
+ 520:	d020      	beq.n	564 <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x94>
+ 522:	2a04      	cmp	r2, #4
+ 524:	d118      	bne.n	558 <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x88>
+ 526:	4b12      	ldr	r3, [pc, #72]	; (570 <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0xa0>)
+ 528:	461d      	mov	r5, r3
+ 52a:	f8c1 3178 	str.w	r3, [r1, #376]	; 0x178
+ 52e:	4b0f      	ldr	r3, [pc, #60]	; (56c <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x9c>)
+ 530:	f44f 5200 	mov.w	r2, #8192	; 0x2000
+ 534:	4620      	mov	r0, r4
+ 536:	2100      	movs	r1, #0
+ 538:	f8c3 5174 	str.w	r5, [r3, #372]	; 0x174
+ 53c:	675a      	str	r2, [r3, #116]	; 0x74
+ 53e:	f89d 200f 	ldrb.w	r2, [sp, #15]
+ 542:	f002 030f 	and.w	r3, r2, #15
+ 546:	0912      	lsrs	r2, r2, #4
+ 548:	3b01      	subs	r3, #1
+ 54a:	3a01      	subs	r2, #1
+ 54c:	b2db      	uxtb	r3, r3
+ 54e:	b2d2      	uxtb	r2, r2
+ 550:	f7ff fffe 	bl	310 <_ZN13FlexIOHandler16setClockSettingsEhhh>
+ 554:	b007      	add	sp, #28
+ 556:	bd30      	pop	{r4, r5, pc}
+ 558:	2500      	movs	r5, #0
+ 55a:	4b04      	ldr	r3, [pc, #16]	; (56c <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x9c>)
+ 55c:	4a04      	ldr	r2, [pc, #16]	; (570 <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0xa0>)
+ 55e:	f8c3 2178 	str.w	r2, [r3, #376]	; 0x178
+ 562:	e7e4      	b.n	52e <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x5e>
+ 564:	f44f 4500 	mov.w	r5, #32768	; 0x8000
+ 568:	e7f7      	b.n	55a <_ZN13FlexIOHandler21setClockUsingAudioPLLEf+0x8a>
+ 56a:	bf00      	nop
+ 56c:	400d8000 	.word	0x400d8000
+ 570:	00808000 	.word	0x00808000
+
+00000574 <_ZN13FlexIOHandler21setClockUsingVideoPLLEf>:
+ 574:	b510      	push	{r4, lr}
+ 576:	b086      	sub	sp, #24
+ 578:	f10d 040f 	add.w	r4, sp, #15
+ 57c:	f10d 030e 	add.w	r3, sp, #14
+ 580:	aa05      	add	r2, sp, #20
+ 582:	a904      	add	r1, sp, #16
+ 584:	9400      	str	r4, [sp, #0]
+ 586:	4604      	mov	r4, r0
+ 588:	f10d 000d 	add.w	r0, sp, #13
+ 58c:	f7ff fd70 	bl	70 <_ZL15best_pll_configfRhRmS0_S_S_>
+ 590:	f89d 200e 	ldrb.w	r2, [sp, #14]
+ 594:	f89d 300d 	ldrb.w	r3, [sp, #13]
+ 598:	0910      	lsrs	r0, r2, #4
+ 59a:	491c      	ldr	r1, [pc, #112]	; (60c <_ZN13FlexIOHandler21setClockUsingVideoPLLEf+0x98>)
+ 59c:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 5a0:	f002 020f 	and.w	r2, r2, #15
+ 5a4:	f1a0 0002 	sub.w	r0, r0, #2
+ 5a8:	2a02      	cmp	r2, #2
+ 5aa:	fab0 f080 	clz	r0, r0
+ 5ae:	ea4f 1050 	mov.w	r0, r0, lsr #5
+ 5b2:	ea43 43c0 	orr.w	r3, r3, r0, lsl #19
+ 5b6:	f8c1 30a0 	str.w	r3, [r1, #160]	; 0xa0
+ 5ba:	9b04      	ldr	r3, [sp, #16]
+ 5bc:	f8c1 30b0 	str.w	r3, [r1, #176]	; 0xb0
+ 5c0:	9b05      	ldr	r3, [sp, #20]
+ 5c2:	f8c1 30c0 	str.w	r3, [r1, #192]	; 0xc0
+ 5c6:	d01e      	beq.n	606 <_ZN13FlexIOHandler21setClockUsingVideoPLLEf+0x92>
+ 5c8:	2a04      	cmp	r2, #4
+ 5ca:	bf14      	ite	ne
+ 5cc:	2100      	movne	r1, #0
+ 5ce:	f04f 4140 	moveq.w	r1, #3221225472	; 0xc0000000
+ 5d2:	4b0e      	ldr	r3, [pc, #56]	; (60c <_ZN13FlexIOHandler21setClockUsingVideoPLLEf+0x98>)
+ 5d4:	f04f 4240 	mov.w	r2, #3221225472	; 0xc0000000
+ 5d8:	4620      	mov	r0, r4
+ 5da:	f8c3 2178 	str.w	r2, [r3, #376]	; 0x178
+ 5de:	f44f 5200 	mov.w	r2, #8192	; 0x2000
+ 5e2:	f8c3 1174 	str.w	r1, [r3, #372]	; 0x174
+ 5e6:	2102      	movs	r1, #2
+ 5e8:	f8c3 20a4 	str.w	r2, [r3, #164]	; 0xa4
+ 5ec:	f89d 200f 	ldrb.w	r2, [sp, #15]
+ 5f0:	f002 030f 	and.w	r3, r2, #15
+ 5f4:	0912      	lsrs	r2, r2, #4
+ 5f6:	3b01      	subs	r3, #1
+ 5f8:	3a01      	subs	r2, #1
+ 5fa:	b2db      	uxtb	r3, r3
+ 5fc:	b2d2      	uxtb	r2, r2
+ 5fe:	f7ff fffe 	bl	310 <_ZN13FlexIOHandler16setClockSettingsEhhh>
+ 602:	b006      	add	sp, #24
+ 604:	bd10      	pop	{r4, pc}
+ 606:	f04f 4180 	mov.w	r1, #1073741824	; 0x40000000
+ 60a:	e7e2      	b.n	5d2 <_ZN13FlexIOHandler21setClockUsingVideoPLLEf+0x5e>
+ 60c:	400d8000 	.word	0x400d8000
+
+Disassembly of section .text._ZN13FlexIOHandler17mapIOPinToFlexPinEh:
+
+00000000 <_ZN13FlexIOHandler17mapIOPinToFlexPinEh>:
+   0:	2936      	cmp	r1, #54	; 0x36
+   2:	d821      	bhi.n	48 <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x48>
+   4:	4b12      	ldr	r3, [pc, #72]	; (50 <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x50>)
+   6:	68c2      	ldr	r2, [r0, #12]
+   8:	eb03 1301 	add.w	r3, r3, r1, lsl #4
+   c:	b470      	push	{r4, r5, r6}
+   e:	7c05      	ldrb	r5, [r0, #16]
+  10:	685e      	ldr	r6, [r3, #4]
+  12:	b1a5      	cbz	r5, 3e <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x3e>
+  14:	2300      	movs	r3, #0
+  16:	4619      	mov	r1, r3
+  18:	e001      	b.n	1e <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x1e>
+  1a:	428d      	cmp	r5, r1
+  1c:	d90f      	bls.n	3e <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x3e>
+  1e:	6814      	ldr	r4, [r2, #0]
+  20:	3301      	adds	r3, #1
+  22:	468c      	mov	ip, r1
+  24:	3204      	adds	r2, #4
+  26:	42b4      	cmp	r4, r6
+  28:	b2d9      	uxtb	r1, r3
+  2a:	d1f6      	bne.n	1a <_ZN13FlexIOHandler17mapIOPinToFlexPinEh+0x1a>
+  2c:	6843      	ldr	r3, [r0, #4]
+  2e:	4660      	mov	r0, ip
+  30:	e9d3 2100 	ldrd	r2, r1, [r3]
+  34:	bc70      	pop	{r4, r5, r6}
+  36:	6813      	ldr	r3, [r2, #0]
+  38:	430b      	orrs	r3, r1
+  3a:	6013      	str	r3, [r2, #0]
+  3c:	4770      	bx	lr
+  3e:	f04f 0cff 	mov.w	ip, #255	; 0xff
+  42:	bc70      	pop	{r4, r5, r6}
+  44:	4660      	mov	r0, ip
+  46:	4770      	bx	lr
+  48:	f04f 0cff 	mov.w	ip, #255	; 0xff
+  4c:	4660      	mov	r0, ip
+  4e:	4770      	bx	lr
+  50:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh:
+
+00000000 <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh>:
+   0:	28ff      	cmp	r0, #255	; 0xff
+   2:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   6:	d00f      	beq.n	28 <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh+0x28>
+   8:	4c09      	ldr	r4, [pc, #36]	; (30 <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh+0x30>)
+   a:	4606      	mov	r6, r0
+   c:	460f      	mov	r7, r1
+   e:	f104 080c 	add.w	r8, r4, #12
+  12:	f854 5b04 	ldr.w	r5, [r4], #4
+  16:	4631      	mov	r1, r6
+  18:	4628      	mov	r0, r5
+  1a:	f7ff fffe 	bl	0 <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh>
+  1e:	28ff      	cmp	r0, #255	; 0xff
+  20:	7038      	strb	r0, [r7, #0]
+  22:	d102      	bne.n	2a <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh+0x2a>
+  24:	4544      	cmp	r4, r8
+  26:	d1f4      	bne.n	12 <_ZN13FlexIOHandler23mapIOPinToFlexIOHandlerEhRh+0x12>
+  28:	2500      	movs	r5, #0
+  2a:	4628      	mov	r0, r5
+  2c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13FlexIOHandler17mapFlexPinToIOPinEh:
+
+00000000 <_ZN13FlexIOHandler17mapFlexPinToIOPinEh>:
+   0:	7c03      	ldrb	r3, [r0, #16]
+   2:	428b      	cmp	r3, r1
+   4:	d911      	bls.n	2a <_ZN13FlexIOHandler17mapFlexPinToIOPinEh+0x2a>
+   6:	68c0      	ldr	r0, [r0, #12]
+   8:	2300      	movs	r3, #0
+   a:	4a0b      	ldr	r2, [pc, #44]	; (38 <_ZN13FlexIOHandler17mapFlexPinToIOPinEh+0x38>)
+   c:	b410      	push	{r4}
+   e:	f850 4021 	ldr.w	r4, [r0, r1, lsl #2]
+  12:	e001      	b.n	18 <_ZN13FlexIOHandler17mapFlexPinToIOPinEh+0x18>
+  14:	2b37      	cmp	r3, #55	; 0x37
+  16:	d00a      	beq.n	2e <_ZN13FlexIOHandler17mapFlexPinToIOPinEh+0x2e>
+  18:	6851      	ldr	r1, [r2, #4]
+  1a:	b2d8      	uxtb	r0, r3
+  1c:	3210      	adds	r2, #16
+  1e:	3301      	adds	r3, #1
+  20:	428c      	cmp	r4, r1
+  22:	d1f7      	bne.n	14 <_ZN13FlexIOHandler17mapFlexPinToIOPinEh+0x14>
+  24:	f85d 4b04 	ldr.w	r4, [sp], #4
+  28:	4770      	bx	lr
+  2a:	20ff      	movs	r0, #255	; 0xff
+  2c:	4770      	bx	lr
+  2e:	20ff      	movs	r0, #255	; 0xff
+  30:	f85d 4b04 	ldr.w	r4, [sp], #4
+  34:	4770      	bx	lr
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13FlexIOHandler18setIOPinToFlexModeEh:
+
+00000000 <_ZN13FlexIOHandler18setIOPinToFlexModeEh>:
+   0:	2936      	cmp	r1, #54	; 0x36
+   2:	d81a      	bhi.n	3a <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x3a>
+   4:	68c3      	ldr	r3, [r0, #12]
+   6:	b410      	push	{r4}
+   8:	4c10      	ldr	r4, [pc, #64]	; (4c <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x4c>)
+   a:	7c02      	ldrb	r2, [r0, #16]
+   c:	eb04 1101 	add.w	r1, r4, r1, lsl #4
+  10:	684c      	ldr	r4, [r1, #4]
+  12:	b1c2      	cbz	r2, 46 <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x46>
+  14:	3a01      	subs	r2, #1
+  16:	1d19      	adds	r1, r3, #4
+  18:	b2d2      	uxtb	r2, r2
+  1a:	eb01 0182 	add.w	r1, r1, r2, lsl #2
+  1e:	e001      	b.n	24 <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x24>
+  20:	428b      	cmp	r3, r1
+  22:	d00c      	beq.n	3e <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x3e>
+  24:	681a      	ldr	r2, [r3, #0]
+  26:	3304      	adds	r3, #4
+  28:	42a2      	cmp	r2, r4
+  2a:	d1f9      	bne.n	20 <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x20>
+  2c:	6843      	ldr	r3, [r0, #4]
+  2e:	2001      	movs	r0, #1
+  30:	7c1b      	ldrb	r3, [r3, #16]
+  32:	6023      	str	r3, [r4, #0]
+  34:	f85d 4b04 	ldr.w	r4, [sp], #4
+  38:	4770      	bx	lr
+  3a:	2000      	movs	r0, #0
+  3c:	4770      	bx	lr
+  3e:	2000      	movs	r0, #0
+  40:	f85d 4b04 	ldr.w	r4, [sp], #4
+  44:	4770      	bx	lr
+  46:	4610      	mov	r0, r2
+  48:	e7f4      	b.n	34 <_ZN13FlexIOHandler18setIOPinToFlexModeEh+0x34>
+  4a:	bf00      	nop
+  4c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13FlexIOHandler11FlexIOIndexEv:
+
+00000000 <_ZN13FlexIOHandler11FlexIOIndexEv>:
+   0:	4b08      	ldr	r3, [pc, #32]	; (24 <_ZN13FlexIOHandler11FlexIOIndexEv+0x24>)
+   2:	681a      	ldr	r2, [r3, #0]
+   4:	4290      	cmp	r0, r2
+   6:	d009      	beq.n	1c <_ZN13FlexIOHandler11FlexIOIndexEv+0x1c>
+   8:	685a      	ldr	r2, [r3, #4]
+   a:	4290      	cmp	r0, r2
+   c:	d008      	beq.n	20 <_ZN13FlexIOHandler11FlexIOIndexEv+0x20>
+   e:	689b      	ldr	r3, [r3, #8]
+  10:	4298      	cmp	r0, r3
+  12:	bf0c      	ite	eq
+  14:	2002      	moveq	r0, #2
+  16:	f04f 30ff 	movne.w	r0, #4294967295	; 0xffffffff
+  1a:	4770      	bx	lr
+  1c:	2000      	movs	r0, #0
+  1e:	4770      	bx	lr
+  20:	2001      	movs	r0, #1
+  22:	4770      	bx	lr
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13FlexIOHandler13requestTimersEh:
+
+00000000 <_ZN13FlexIOHandler13requestTimersEh>:
+   0:	2901      	cmp	r1, #1
+   2:	d01a      	beq.n	3a <_ZN13FlexIOHandler13requestTimersEh+0x3a>
+   4:	f1c1 0c09 	rsb	ip, r1, #9
+   8:	f1bc 0f00 	cmp.w	ip, #0
+   c:	dd0e      	ble.n	2c <_ZN13FlexIOHandler13requestTimersEh+0x2c>
+   e:	2103      	movs	r1, #3
+  10:	7c42      	ldrb	r2, [r0, #17]
+  12:	ea12 0301 	ands.w	r3, r2, r1
+  16:	d00c      	beq.n	32 <_ZN13FlexIOHandler13requestTimersEh+0x32>
+  18:	2300      	movs	r3, #0
+  1a:	e001      	b.n	20 <_ZN13FlexIOHandler13requestTimersEh+0x20>
+  1c:	4211      	tst	r1, r2
+  1e:	d008      	beq.n	32 <_ZN13FlexIOHandler13requestTimersEh+0x32>
+  20:	3301      	adds	r3, #1
+  22:	0049      	lsls	r1, r1, #1
+  24:	b2db      	uxtb	r3, r3
+  26:	b2c9      	uxtb	r1, r1
+  28:	4563      	cmp	r3, ip
+  2a:	dbf7      	blt.n	1c <_ZN13FlexIOHandler13requestTimersEh+0x1c>
+  2c:	23ff      	movs	r3, #255	; 0xff
+  2e:	4618      	mov	r0, r3
+  30:	4770      	bx	lr
+  32:	430a      	orrs	r2, r1
+  34:	7442      	strb	r2, [r0, #17]
+  36:	4618      	mov	r0, r3
+  38:	4770      	bx	lr
+  3a:	f04f 0c08 	mov.w	ip, #8
+  3e:	e7e7      	b.n	10 <_ZN13FlexIOHandler13requestTimersEh+0x10>
+
+Disassembly of section .text._ZN13FlexIOHandler14requestShifterEh:
+
+00000000 <_ZN13FlexIOHandler14requestShifterEh>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2300      	movs	r3, #0
+   4:	2201      	movs	r2, #1
+   6:	7c85      	ldrb	r5, [r0, #18]
+   8:	4215      	tst	r5, r2
+   a:	ea4f 0c42 	mov.w	ip, r2, lsl #1
+   e:	b2dc      	uxtb	r4, r3
+  10:	d108      	bne.n	24 <_ZN13FlexIOHandler14requestShifterEh+0x24>
+  12:	29ff      	cmp	r1, #255	; 0xff
+  14:	d00e      	beq.n	34 <_ZN13FlexIOHandler14requestShifterEh+0x34>
+  16:	6846      	ldr	r6, [r0, #4]
+  18:	eb06 0e03 	add.w	lr, r6, r3
+  1c:	f89e e011 	ldrb.w	lr, [lr, #17]
+  20:	458e      	cmp	lr, r1
+  22:	d107      	bne.n	34 <_ZN13FlexIOHandler14requestShifterEh+0x34>
+  24:	3301      	adds	r3, #1
+  26:	fa5f f28c 	uxtb.w	r2, ip
+  2a:	2b08      	cmp	r3, #8
+  2c:	d1ec      	bne.n	8 <_ZN13FlexIOHandler14requestShifterEh+0x8>
+  2e:	24ff      	movs	r4, #255	; 0xff
+  30:	4620      	mov	r0, r4
+  32:	bd70      	pop	{r4, r5, r6, pc}
+  34:	4315      	orrs	r5, r2
+  36:	7485      	strb	r5, [r0, #18]
+  38:	4620      	mov	r0, r4
+  3a:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text._ZN13FlexIOHandler18shiftersDMAChannelEh:
+
+00000000 <_ZN13FlexIOHandler18shiftersDMAChannelEh>:
+   0:	2903      	cmp	r1, #3
+   2:	d803      	bhi.n	c <_ZN13FlexIOHandler18shiftersDMAChannelEh+0xc>
+   4:	6843      	ldr	r3, [r0, #4]
+   6:	440b      	add	r3, r1
+   8:	7c58      	ldrb	r0, [r3, #17]
+   a:	4770      	bx	lr
+   c:	20ff      	movs	r0, #255	; 0xff
+   e:	4770      	bx	lr
+
+Disassembly of section .text._ZN13FlexIOHandler10claimTimerEh:
+
+00000000 <_ZN13FlexIOHandler10claimTimerEh>:
+   0:	2301      	movs	r3, #1
+   2:	4602      	mov	r2, r0
+   4:	7c40      	ldrb	r0, [r0, #17]
+   6:	fa03 f101 	lsl.w	r1, r3, r1
+   a:	4201      	tst	r1, r0
+   c:	fa5f fc81 	uxtb.w	ip, r1
+  10:	d001      	beq.n	16 <_ZN13FlexIOHandler10claimTimerEh+0x16>
+  12:	2000      	movs	r0, #0
+  14:	4770      	bx	lr
+  16:	ea40 010c 	orr.w	r1, r0, ip
+  1a:	4618      	mov	r0, r3
+  1c:	7451      	strb	r1, [r2, #17]
+  1e:	4770      	bx	lr
+
+Disassembly of section .text._ZN13FlexIOHandler12claimShifterEh:
+
+00000000 <_ZN13FlexIOHandler12claimShifterEh>:
+   0:	2301      	movs	r3, #1
+   2:	4602      	mov	r2, r0
+   4:	7c80      	ldrb	r0, [r0, #18]
+   6:	fa03 f101 	lsl.w	r1, r3, r1
+   a:	4201      	tst	r1, r0
+   c:	fa5f fc81 	uxtb.w	ip, r1
+  10:	d001      	beq.n	16 <_ZN13FlexIOHandler12claimShifterEh+0x16>
+  12:	2000      	movs	r0, #0
+  14:	4770      	bx	lr
+  16:	ea40 010c 	orr.w	r1, r0, ip
+  1a:	4618      	mov	r0, r3
+  1c:	7491      	strb	r1, [r2, #18]
+  1e:	4770      	bx	lr
+
+Disassembly of section .text._ZN13FlexIOHandler10IRQHandlerEv:
+
+00000000 <_ZN13FlexIOHandler10IRQHandlerEv>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN13FlexIOHandler10freeTimersEhh:
+
+00000000 <_ZN13FlexIOHandler10freeTimersEhh>:
+   0:	29ff      	cmp	r1, #255	; 0xff
+   2:	d006      	beq.n	12 <_ZN13FlexIOHandler10freeTimersEhh+0x12>
+   4:	2a01      	cmp	r2, #1
+   6:	7c42      	ldrb	r2, [r0, #17]
+   8:	bf0c      	ite	eq
+   a:	23fe      	moveq	r3, #254	; 0xfe
+   c:	23fc      	movne	r3, #252	; 0xfc
+   e:	4013      	ands	r3, r2
+  10:	7443      	strb	r3, [r0, #17]
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN13FlexIOHandler11freeShifterEh:
+
+00000000 <_ZN13FlexIOHandler11freeShifterEh>:
+   0:	29ff      	cmp	r1, #255	; 0xff
+   2:	d003      	beq.n	c <_ZN13FlexIOHandler11freeShifterEh+0xc>
+   4:	7c83      	ldrb	r3, [r0, #18]
+   6:	f023 0301 	bic.w	r3, r3, #1
+   a:	7483      	strb	r3, [r0, #18]
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback:
+
+00000000 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback>:
+   0:	6883      	ldr	r3, [r0, #8]
+   2:	b500      	push	{lr}
+   4:	f103 0c20 	add.w	ip, r3, #32
+   8:	4686      	mov	lr, r0
+   a:	681a      	ldr	r2, [r3, #0]
+   c:	b15a      	cbz	r2, 26 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x26>
+   e:	428a      	cmp	r2, r1
+  10:	f103 0304 	add.w	r3, r3, #4
+  14:	d004      	beq.n	20 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x20>
+  16:	459c      	cmp	ip, r3
+  18:	d1f7      	bne.n	a <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0xa>
+  1a:	2000      	movs	r0, #0
+  1c:	f85d fb04 	ldr.w	pc, [sp], #4
+  20:	2001      	movs	r0, #1
+  22:	f85d fb04 	ldr.w	pc, [sp], #4
+  26:	f89e 2013 	ldrb.w	r2, [lr, #19]
+  2a:	6019      	str	r1, [r3, #0]
+  2c:	2a00      	cmp	r2, #0
+  2e:	d1f7      	bne.n	20 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x20>
+  30:	f8de 2004 	ldr.w	r2, [lr, #4]
+  34:	490b      	ldr	r1, [pc, #44]	; (64 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x64>)
+  36:	7a13      	ldrb	r3, [r2, #8]
+  38:	68d2      	ldr	r2, [r2, #12]
+  3a:	3310      	adds	r3, #16
+  3c:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
+  40:	f8de 1004 	ldr.w	r1, [lr, #4]
+  44:	2201      	movs	r2, #1
+  46:	4b08      	ldr	r3, [pc, #32]	; (68 <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x68>)
+  48:	f891 c008 	ldrb.w	ip, [r1, #8]
+  4c:	4610      	mov	r0, r2
+  4e:	f00c 011f 	and.w	r1, ip, #31
+  52:	eb03 135c 	add.w	r3, r3, ip, lsr #5
+  56:	fa02 f101 	lsl.w	r1, r2, r1
+  5a:	009b      	lsls	r3, r3, #2
+  5c:	6019      	str	r1, [r3, #0]
+  5e:	f88e 2013 	strb.w	r2, [lr, #19]
+  62:	e7db      	b.n	1c <_ZN13FlexIOHandler20addIOHandlerCallbackEP21FlexIOHandlerCallback+0x1c>
+  64:	00000000 	.word	0x00000000
+  68:	38003840 	.word	0x38003840
+
+Disassembly of section .text._ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback:
+
+00000000 <_ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback>:
+   0:	6883      	ldr	r3, [r0, #8]
+   2:	f103 0020 	add.w	r0, r3, #32
+   6:	681a      	ldr	r2, [r3, #0]
+   8:	428a      	cmp	r2, r1
+   a:	d004      	beq.n	16 <_ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback+0x16>
+   c:	3304      	adds	r3, #4
+   e:	4283      	cmp	r3, r0
+  10:	d1f9      	bne.n	6 <_ZN13FlexIOHandler23removeIOHandlerCallbackEP21FlexIOHandlerCallback+0x6>
+  12:	2000      	movs	r0, #0
+  14:	4770      	bx	lr
+  16:	2200      	movs	r2, #0
+  18:	2001      	movs	r0, #1
+  1a:	601a      	str	r2, [r3, #0]
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+
+Disassembly of section .text.startup._GLOBAL__sub_I_flex1_Handler_callbacks:
+
+00000000 <_GLOBAL__sub_I_flex1_Handler_callbacks>:
+   0:	b430      	push	{r4, r5}
+   2:	4911      	ldr	r1, [pc, #68]	; (48 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x48>)
+   4:	2420      	movs	r4, #32
+   6:	4b11      	ldr	r3, [pc, #68]	; (4c <_GLOBAL__sub_I_flex1_Handler_callbacks+0x4c>)
+   8:	4811      	ldr	r0, [pc, #68]	; (50 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x50>)
+   a:	610c      	str	r4, [r1, #16]
+   c:	611c      	str	r4, [r3, #16]
+   e:	4c11      	ldr	r4, [pc, #68]	; (54 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x54>)
+  10:	4a11      	ldr	r2, [pc, #68]	; (58 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x58>)
+  12:	6044      	str	r4, [r0, #4]
+  14:	4c11      	ldr	r4, [pc, #68]	; (5c <_GLOBAL__sub_I_flex1_Handler_callbacks+0x5c>)
+  16:	4d12      	ldr	r5, [pc, #72]	; (60 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x60>)
+  18:	6084      	str	r4, [r0, #8]
+  1a:	2410      	movs	r4, #16
+  1c:	6005      	str	r5, [r0, #0]
+  1e:	6104      	str	r4, [r0, #16]
+  20:	60c2      	str	r2, [r0, #12]
+  22:	4c10      	ldr	r4, [pc, #64]	; (64 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x64>)
+  24:	4810      	ldr	r0, [pc, #64]	; (68 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x68>)
+  26:	e9c1 4000 	strd	r4, r0, [r1]
+  2a:	f102 0040 	add.w	r0, r2, #64	; 0x40
+  2e:	4c0f      	ldr	r4, [pc, #60]	; (6c <_GLOBAL__sub_I_flex1_Handler_callbacks+0x6c>)
+  30:	32c0      	adds	r2, #192	; 0xc0
+  32:	e9c1 4002 	strd	r4, r0, [r1, #8]
+  36:	4c0e      	ldr	r4, [pc, #56]	; (70 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x70>)
+  38:	480e      	ldr	r0, [pc, #56]	; (74 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x74>)
+  3a:	490f      	ldr	r1, [pc, #60]	; (78 <_GLOBAL__sub_I_flex1_Handler_callbacks+0x78>)
+  3c:	601c      	str	r4, [r3, #0]
+  3e:	60da      	str	r2, [r3, #12]
+  40:	bc30      	pop	{r4, r5}
+  42:	e9c3 0101 	strd	r0, r1, [r3, #4]
+  46:	4770      	bx	lr
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+  60:	401ac000 	.word	0x401ac000
+  64:	401b0000 	.word	0x401b0000
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	42020000 	.word	0x42020000
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000

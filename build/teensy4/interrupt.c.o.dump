@@ -1,0 +1,317 @@
+
+build/./teensy4/interrupt.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 interrupt.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.dummy_isr	00000000 .text.dummy_isr
+00000000 l     F .text.dummy_isr	00000002 dummy_isr
+00000000 l    d  .fastrun	00000000 .fastrun
+00000000 l    d  .text.attachInterrupt	00000000 .text.attachInterrupt
+00000000 l    d  .text.detachInterrupt	00000000 .text.detachInterrupt
+00000000 l    d  .data.isr_table_gpio1	00000000 .data.isr_table_gpio1
+00000000 l    d  .data.isr_table_gpio2	00000000 .data.isr_table_gpio2
+00000000 l    d  .data.isr_table_gpio3	00000000 .data.isr_table_gpio3
+00000000 l    d  .data.isr_table_gpio4	00000000 .data.isr_table_gpio4
+00000000 l    d  .rodata.CSWTCH.6	00000000 .rodata.CSWTCH.6
+00000000 l     O .rodata.CSWTCH.6	00000014 CSWTCH.6
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .fastrun	000000c0 irq_gpio6789
+00000000 g     F .text.attachInterrupt	00000104 attachInterrupt
+00000000         *UND*	00000000 digital_pin_to_info_PGM
+00000000         *UND*	00000000 _VectorsRam
+00000000 g     F .text.detachInterrupt	00000020 detachInterrupt
+00000000 g     O .data.isr_table_gpio4	00000080 isr_table_gpio4
+00000000 g     O .data.isr_table_gpio3	00000080 isr_table_gpio3
+00000000 g     O .data.isr_table_gpio2	00000080 isr_table_gpio2
+00000000 g     O .data.isr_table_gpio1	00000080 isr_table_gpio1
+
+
+Contents of section .text.dummy_isr:
+ 0000 704700bf                             pG..            
+Contents of section .fastrun:
+ 0000 f8b54ff0 84439d69 5a691540 0dd0254f  ..O..C.iZi.@..%O
+ 0010 01269d61 95faa5f4 b4fa84f4 57f82430  .&.a........W.$0
+ 0020 06fa04f4 9847a543 f4d11f4b 9d695a69  .....G.C...K.iZi
+ 0030 15400dd0 1d4f0126 9d6195fa a5f4b4fa  .@...O.&.a......
+ 0040 84f457f8 243006fa 04f49847 a543f4d1  ..W.$0.....G.C..
+ 0050 174b9d69 5a691540 0dd0164f 01269d61  .K.iZi.@...O.&.a
+ 0060 95faa5f4 b4fa84f4 57f82430 06fa04f4  ........W.$0....
+ 0070 9847a543 f4d1104b 9d695a69 15400dd0  .G.C...K.iZi.@..
+ 0080 0e4f0126 9d6195fa a5f4b4fa 84f457f8  .O.&.a........W.
+ 0090 243006fa 04f49847 a543f4d1 bff34f8f  $0.....G.C....O.
+ 00a0 f8bd00bf 00000000 00400042 00000000  .........@.B....
+ 00b0 00800042 00000000 00c00042 00000000  ...B.......B....
+Contents of section .text.attachInterrupt:
+ 0000 362858d8 0001f0b4 344c354d 2358ab42  6(X.....4L5M#X.B
+ 0010 56d049d8 b3f1844f 4bd0a5f5 8045ab42  V.I....OK....E.B
+ 0020 40d1304d 2044304e 304cc4f8 b462d0e9  @.0M D0N0L...b..
+ 0030 01c4c068 4ff0e026 4ff00057 042ac6f8  ...hO..&O..W.*..
+ 0040 10712fd8 5e6926ea 00065e61 4ff00506  .q/.^i&...^aO...
+ 0050 ccf80060 266846f4 80362660 5c6824ea  ...`&hF..6&`\h$.
+ 0060 00045c60 224c54f8 224090fa a0f2b2fa  ..\`"LT."@......
+ 0070 82f245f8 22106fea 00011dd0 dd690f2a  ..E.".o......i.*
+ 0080 01ea0501 d9611ddc 52000325 d9689440  .....a..R..%.h.@
+ 0090 05fa02f2 21ea0202 2243da60 98615a69  ....!..."C.`.aZi
+ 00a0 02435a61 f0bc7047 124dab42 fad1124d  .CZa..pG.M.B...M
+ 00b0 b8e7124d b6e77047 da690243 da61ede7  ...M..pG.i.C.a..
+ 00c0 0f4dafe7 103a0325 19695200 944005fa  .M...:.%.iR..@..
+ 00d0 02f221ea 02022243 1a61dfe7 00000000  ..!..."C.a......
+ 00e0 00800042 00000000 00000000 00000000  ...B............
+ 00f0 00000000 00c00042 00000000 00000000  .......B........
+ 0100 00000000                             ....            
+Contents of section .text.detachInterrupt:
+ 0000 362809d8 054b0201 03eb0010 9a58c168  6(...K.......X.h
+ 0010 536923ea 01035361 704700bf 00000000  Si#...SapG......
+Contents of section .data.isr_table_gpio1:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000 00000000  ................
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00000000 00000000 00000000 00000000  ................
+ 0070 00000000 00000000 00000000 00000000  ................
+Contents of section .data.isr_table_gpio2:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000 00000000  ................
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00000000 00000000 00000000 00000000  ................
+ 0070 00000000 00000000 00000000 00000000  ................
+Contents of section .data.isr_table_gpio3:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000 00000000  ................
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00000000 00000000 00000000 00000000  ................
+ 0070 00000000 00000000 00000000 00000000  ................
+Contents of section .data.isr_table_gpio4:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+ 0030 00000000 00000000 00000000 00000000  ................
+ 0040 00000000 00000000 00000000 00000000  ................
+ 0050 00000000 00000000 00000000 00000000  ................
+ 0060 00000000 00000000 00000000 00000000  ................
+ 0070 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata.CSWTCH.6:
+ 0000 00000000 01000000 03000000 02000000  ................
+ 0010 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.dummy_isr:
+
+00000000 <dummy_isr>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .fastrun:
+
+00000000 <irq_gpio6789>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	f04f 4384 	mov.w	r3, #1107296256	; 0x42000000
+   6:	699d      	ldr	r5, [r3, #24]
+   8:	695a      	ldr	r2, [r3, #20]
+   a:	4015      	ands	r5, r2
+   c:	d00d      	beq.n	2a <irq_gpio6789+0x2a>
+   e:	4f25      	ldr	r7, [pc, #148]	; (a4 <irq_gpio6789+0xa4>)
+  10:	2601      	movs	r6, #1
+  12:	619d      	str	r5, [r3, #24]
+  14:	fa95 f4a5 	rbit	r4, r5
+  18:	fab4 f484 	clz	r4, r4
+  1c:	f857 3024 	ldr.w	r3, [r7, r4, lsl #2]
+  20:	fa06 f404 	lsl.w	r4, r6, r4
+  24:	4798      	blx	r3
+  26:	43a5      	bics	r5, r4
+  28:	d1f4      	bne.n	14 <irq_gpio6789+0x14>
+  2a:	4b1f      	ldr	r3, [pc, #124]	; (a8 <irq_gpio6789+0xa8>)
+  2c:	699d      	ldr	r5, [r3, #24]
+  2e:	695a      	ldr	r2, [r3, #20]
+  30:	4015      	ands	r5, r2
+  32:	d00d      	beq.n	50 <irq_gpio6789+0x50>
+  34:	4f1d      	ldr	r7, [pc, #116]	; (ac <irq_gpio6789+0xac>)
+  36:	2601      	movs	r6, #1
+  38:	619d      	str	r5, [r3, #24]
+  3a:	fa95 f4a5 	rbit	r4, r5
+  3e:	fab4 f484 	clz	r4, r4
+  42:	f857 3024 	ldr.w	r3, [r7, r4, lsl #2]
+  46:	fa06 f404 	lsl.w	r4, r6, r4
+  4a:	4798      	blx	r3
+  4c:	43a5      	bics	r5, r4
+  4e:	d1f4      	bne.n	3a <irq_gpio6789+0x3a>
+  50:	4b17      	ldr	r3, [pc, #92]	; (b0 <irq_gpio6789+0xb0>)
+  52:	699d      	ldr	r5, [r3, #24]
+  54:	695a      	ldr	r2, [r3, #20]
+  56:	4015      	ands	r5, r2
+  58:	d00d      	beq.n	76 <irq_gpio6789+0x76>
+  5a:	4f16      	ldr	r7, [pc, #88]	; (b4 <irq_gpio6789+0xb4>)
+  5c:	2601      	movs	r6, #1
+  5e:	619d      	str	r5, [r3, #24]
+  60:	fa95 f4a5 	rbit	r4, r5
+  64:	fab4 f484 	clz	r4, r4
+  68:	f857 3024 	ldr.w	r3, [r7, r4, lsl #2]
+  6c:	fa06 f404 	lsl.w	r4, r6, r4
+  70:	4798      	blx	r3
+  72:	43a5      	bics	r5, r4
+  74:	d1f4      	bne.n	60 <irq_gpio6789+0x60>
+  76:	4b10      	ldr	r3, [pc, #64]	; (b8 <irq_gpio6789+0xb8>)
+  78:	699d      	ldr	r5, [r3, #24]
+  7a:	695a      	ldr	r2, [r3, #20]
+  7c:	4015      	ands	r5, r2
+  7e:	d00d      	beq.n	9c <irq_gpio6789+0x9c>
+  80:	4f0e      	ldr	r7, [pc, #56]	; (bc <irq_gpio6789+0xbc>)
+  82:	2601      	movs	r6, #1
+  84:	619d      	str	r5, [r3, #24]
+  86:	fa95 f4a5 	rbit	r4, r5
+  8a:	fab4 f484 	clz	r4, r4
+  8e:	f857 3024 	ldr.w	r3, [r7, r4, lsl #2]
+  92:	fa06 f404 	lsl.w	r4, r6, r4
+  96:	4798      	blx	r3
+  98:	43a5      	bics	r5, r4
+  9a:	d1f4      	bne.n	86 <irq_gpio6789+0x86>
+  9c:	f3bf 8f4f 	dsb	sy
+  a0:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  a2:	bf00      	nop
+  a4:	00000000 	.word	0x00000000
+  a8:	42004000 	.word	0x42004000
+  ac:	00000000 	.word	0x00000000
+  b0:	42008000 	.word	0x42008000
+  b4:	00000000 	.word	0x00000000
+  b8:	4200c000 	.word	0x4200c000
+  bc:	00000000 	.word	0x00000000
+
+Disassembly of section .text.attachInterrupt:
+
+00000000 <attachInterrupt>:
+   0:	2836      	cmp	r0, #54	; 0x36
+   2:	d858      	bhi.n	b6 <attachInterrupt+0xb6>
+   4:	0100      	lsls	r0, r0, #4
+   6:	b4f0      	push	{r4, r5, r6, r7}
+   8:	4c34      	ldr	r4, [pc, #208]	; (dc <attachInterrupt+0xdc>)
+   a:	4d35      	ldr	r5, [pc, #212]	; (e0 <attachInterrupt+0xe0>)
+   c:	5823      	ldr	r3, [r4, r0]
+   e:	42ab      	cmp	r3, r5
+  10:	d056      	beq.n	c0 <attachInterrupt+0xc0>
+  12:	d849      	bhi.n	a8 <attachInterrupt+0xa8>
+  14:	f1b3 4f84 	cmp.w	r3, #1107296256	; 0x42000000
+  18:	d04b      	beq.n	b2 <attachInterrupt+0xb2>
+  1a:	f5a5 4580 	sub.w	r5, r5, #16384	; 0x4000
+  1e:	42ab      	cmp	r3, r5
+  20:	d140      	bne.n	a4 <attachInterrupt+0xa4>
+  22:	4d30      	ldr	r5, [pc, #192]	; (e4 <attachInterrupt+0xe4>)
+  24:	4420      	add	r0, r4
+  26:	4e30      	ldr	r6, [pc, #192]	; (e8 <attachInterrupt+0xe8>)
+  28:	4c30      	ldr	r4, [pc, #192]	; (ec <attachInterrupt+0xec>)
+  2a:	f8c4 62b4 	str.w	r6, [r4, #692]	; 0x2b4
+  2e:	e9d0 c401 	ldrd	ip, r4, [r0, #4]
+  32:	68c0      	ldr	r0, [r0, #12]
+  34:	f04f 26e0 	mov.w	r6, #3758153728	; 0xe000e000
+  38:	f04f 5700 	mov.w	r7, #536870912	; 0x20000000
+  3c:	2a04      	cmp	r2, #4
+  3e:	f8c6 7110 	str.w	r7, [r6, #272]	; 0x110
+  42:	d82f      	bhi.n	a4 <attachInterrupt+0xa4>
+  44:	695e      	ldr	r6, [r3, #20]
+  46:	ea26 0600 	bic.w	r6, r6, r0
+  4a:	615e      	str	r6, [r3, #20]
+  4c:	f04f 0605 	mov.w	r6, #5
+  50:	f8cc 6000 	str.w	r6, [ip]
+  54:	6826      	ldr	r6, [r4, #0]
+  56:	f446 3680 	orr.w	r6, r6, #65536	; 0x10000
+  5a:	6026      	str	r6, [r4, #0]
+  5c:	685c      	ldr	r4, [r3, #4]
+  5e:	ea24 0400 	bic.w	r4, r4, r0
+  62:	605c      	str	r4, [r3, #4]
+  64:	4c22      	ldr	r4, [pc, #136]	; (f0 <attachInterrupt+0xf0>)
+  66:	f854 4022 	ldr.w	r4, [r4, r2, lsl #2]
+  6a:	fa90 f2a0 	rbit	r2, r0
+  6e:	fab2 f282 	clz	r2, r2
+  72:	f845 1022 	str.w	r1, [r5, r2, lsl #2]
+  76:	ea6f 0100 	mvn.w	r1, r0
+  7a:	d01d      	beq.n	b8 <attachInterrupt+0xb8>
+  7c:	69dd      	ldr	r5, [r3, #28]
+  7e:	2a0f      	cmp	r2, #15
+  80:	ea01 0105 	and.w	r1, r1, r5
+  84:	61d9      	str	r1, [r3, #28]
+  86:	dc1d      	bgt.n	c4 <attachInterrupt+0xc4>
+  88:	0052      	lsls	r2, r2, #1
+  8a:	2503      	movs	r5, #3
+  8c:	68d9      	ldr	r1, [r3, #12]
+  8e:	4094      	lsls	r4, r2
+  90:	fa05 f202 	lsl.w	r2, r5, r2
+  94:	ea21 0202 	bic.w	r2, r1, r2
+  98:	4322      	orrs	r2, r4
+  9a:	60da      	str	r2, [r3, #12]
+  9c:	6198      	str	r0, [r3, #24]
+  9e:	695a      	ldr	r2, [r3, #20]
+  a0:	4302      	orrs	r2, r0
+  a2:	615a      	str	r2, [r3, #20]
+  a4:	bcf0      	pop	{r4, r5, r6, r7}
+  a6:	4770      	bx	lr
+  a8:	4d12      	ldr	r5, [pc, #72]	; (f4 <attachInterrupt+0xf4>)
+  aa:	42ab      	cmp	r3, r5
+  ac:	d1fa      	bne.n	a4 <attachInterrupt+0xa4>
+  ae:	4d12      	ldr	r5, [pc, #72]	; (f8 <attachInterrupt+0xf8>)
+  b0:	e7b8      	b.n	24 <attachInterrupt+0x24>
+  b2:	4d12      	ldr	r5, [pc, #72]	; (fc <attachInterrupt+0xfc>)
+  b4:	e7b6      	b.n	24 <attachInterrupt+0x24>
+  b6:	4770      	bx	lr
+  b8:	69da      	ldr	r2, [r3, #28]
+  ba:	4302      	orrs	r2, r0
+  bc:	61da      	str	r2, [r3, #28]
+  be:	e7ed      	b.n	9c <attachInterrupt+0x9c>
+  c0:	4d0f      	ldr	r5, [pc, #60]	; (100 <attachInterrupt+0x100>)
+  c2:	e7af      	b.n	24 <attachInterrupt+0x24>
+  c4:	3a10      	subs	r2, #16
+  c6:	2503      	movs	r5, #3
+  c8:	6919      	ldr	r1, [r3, #16]
+  ca:	0052      	lsls	r2, r2, #1
+  cc:	4094      	lsls	r4, r2
+  ce:	fa05 f202 	lsl.w	r2, r5, r2
+  d2:	ea21 0202 	bic.w	r2, r1, r2
+  d6:	4322      	orrs	r2, r4
+  d8:	611a      	str	r2, [r3, #16]
+  da:	e7df      	b.n	9c <attachInterrupt+0x9c>
+  dc:	00000000 	.word	0x00000000
+  e0:	42008000 	.word	0x42008000
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+  ec:	00000000 	.word	0x00000000
+  f0:	00000000 	.word	0x00000000
+  f4:	4200c000 	.word	0x4200c000
+  f8:	00000000 	.word	0x00000000
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+
+Disassembly of section .text.detachInterrupt:
+
+00000000 <detachInterrupt>:
+   0:	2836      	cmp	r0, #54	; 0x36
+   2:	d809      	bhi.n	18 <detachInterrupt+0x18>
+   4:	4b05      	ldr	r3, [pc, #20]	; (1c <detachInterrupt+0x1c>)
+   6:	0102      	lsls	r2, r0, #4
+   8:	eb03 1000 	add.w	r0, r3, r0, lsl #4
+   c:	589a      	ldr	r2, [r3, r2]
+   e:	68c1      	ldr	r1, [r0, #12]
+  10:	6953      	ldr	r3, [r2, #20]
+  12:	ea23 0301 	bic.w	r3, r3, r1
+  16:	6153      	str	r3, [r2, #20]
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000

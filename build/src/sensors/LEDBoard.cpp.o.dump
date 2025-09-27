@@ -1,0 +1,1627 @@
+
+build/./src/sensors/LEDBoard.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 LEDBoard.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN14CLEDController4sizeEv	00000000 .text._ZN14CLEDController4sizeEv
+00000000 l    d  .text._ZN14CLEDController5lanesEv	00000000 .text._ZN14CLEDController5lanesEv
+00000000 l    d  .text._ZN14CLEDController13beginShowLedsEv	00000000 .text._ZN14CLEDController13beginShowLedsEv
+00000000 l    d  .text._ZN14CLEDController11endShowLedsEPv	00000000 .text._ZN14CLEDController11endShowLedsEPv
+00000000 l    d  .text._ZNK14CLEDController17getMaxRefreshRateEv	00000000 .text._ZNK14CLEDController17getMaxRefreshRateEv
+00000000 l    d  .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv	00000000 .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv
+00000000 l    d  .text._ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv	00000000 .text._ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv
+00000000 l    d  .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv	00000000 .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv
+00000000 l    d  .text._ZN11RgbwInvalid5valueEv	00000000 .text._ZN11RgbwInvalid5valueEv
+00000000 l    d  .text._ZN8LEDBoardC2Eih	00000000 .text._ZN8LEDBoardC2Eih
+00000000 l    d  .text._ZN8LEDBoard10setup_LEDSEv	00000000 .text._ZN8LEDBoard10setup_LEDSEv
+00000000 l    d  .text._ZN8LEDBoard4initEv	00000000 .text._ZN8LEDBoard4initEv
+00000000 l    d  .rodata._ZN8LEDBoard8blinkLEDEv.str1.4	00000000 .rodata._ZN8LEDBoard8blinkLEDEv.str1.4
+00000000 l    d  .text._ZN8LEDBoard8blinkLEDEv	00000000 .text._ZN8LEDBoard8blinkLEDEv
+00000000 l    d  .text._ZN8LEDBoard18displayHexOnMatrixEt	00000000 .text._ZN8LEDBoard18displayHexOnMatrixEt
+00000000 l    d  .text._ZN8LEDBoard19convertIntegerToHexEi	00000000 .text._ZN8LEDBoard19convertIntegerToHexEi
+00000000 l    d  .text._ZN8LEDBoard18displayIntOnMatrixEi	00000000 .text._ZN8LEDBoard18displayIntOnMatrixEi
+00000000 l    d  .text._ZN8LEDBoard14setLedOnMatrixEi4CRGB	00000000 .text._ZN8LEDBoard14setLedOnMatrixEi4CRGB
+00000000 l    d  .text._ZN8LEDBoard15updateLEDMatrixEv	00000000 .text._ZN8LEDBoard15updateLEDMatrixEv
+00000000 l    d  .text._ZN8LEDBoard16getColorFromBitsEh	00000000 .text._ZN8LEDBoard16getColorFromBitsEh
+00000000 l    d  .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE	00000000 .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE
+00000000 l    d  .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE	00000000 .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE
+00000000 l    d  .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_	00000000 .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_
+00000000 l    d  .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_	00000000 .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_
+00000000 l    d  .text._ZN14CLEDController9clearLedsEi	00000000 .text._ZN14CLEDController9clearLedsEi
+00000000 l    d  .bss._ZZN15PixelControllerIL6EOrder66ELi1ELm4294967295EE21init_binary_ditheringEvE1R	00000000 .bss._ZZN15PixelControllerIL6EOrder66ELi1ELm4294967295EE21init_binary_ditheringEvE1R
+00000000 l    d  .rodata._ZTV14CLEDController	00000000 .rodata._ZTV14CLEDController
+00000000 l    d  .rodata._ZTV7WS2812BILh6EL6EOrder66EE	00000000 .rodata._ZTV7WS2812BILh6EL6EOrder66EE
+00000000 l    d  .bss._ZGVZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c	00000000 .bss._ZGVZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c
+00000000 l    d  .bss._ZZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c	00000000 .bss._ZZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN14CLEDController4sizeEv	00000004 _ZN14CLEDController4sizeEv
+00000000  w    F .text._ZN14CLEDController5lanesEv	00000004 _ZN14CLEDController5lanesEv
+00000000  w    F .text._ZN14CLEDController13beginShowLedsEv	00000004 _ZN14CLEDController13beginShowLedsEv
+00000000  w    F .text._ZN14CLEDController11endShowLedsEPv	00000004 _ZN14CLEDController11endShowLedsEPv
+00000000  w    F .text._ZNK14CLEDController17getMaxRefreshRateEv	00000004 _ZNK14CLEDController17getMaxRefreshRateEv
+00000000  w    F .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv	00000004 _ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv
+00000000  w    F .text._ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv	00000006 _ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv
+00000000  w    F .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv	00000020 _ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv
+00000000         *UND*	00000000 pinMode
+00000000  w    F .text._ZN11RgbwInvalid5valueEv	0000000c _ZN11RgbwInvalid5valueEv
+00000000 g     F .text._ZN8LEDBoardC2Eih	0000001a _ZN8LEDBoardC2Eih
+00000000 g     F .text._ZN8LEDBoardC2Eih	0000001a _ZN8LEDBoardC1Eih
+00000000 g     F .text._ZN8LEDBoard10setup_LEDSEv	0000009c _ZN8LEDBoard10setup_LEDSEv
+00000000         *UND*	00000000 _ZN8CFastLED7addLedsEP14CLEDControllerP4CRGBii
+00000000         *UND*	00000000 __cxa_guard_acquire
+00000000         *UND*	00000000 __cxa_guard_release
+00000000  w    O .bss._ZGVZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c	00000004 _ZGVZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c
+00000000  w    O .bss._ZZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c	00000034 _ZZN8CFastLED7addLedsI7WS2812BLh6EL6EOrder66EEER14CLEDControllerP4CRGBiiE1c
+00000000         *UND*	00000000 FastLED
+00000000  w    O .rodata._ZTV14CLEDController	0000002c _ZTV14CLEDController
+00000000         *UND*	00000000 _ZN14CLEDController7m_pHeadE
+00000000         *UND*	00000000 _ZN14CLEDController7m_pTailE
+00000000  w    O .rodata._ZTV7WS2812BILh6EL6EOrder66EE	00000030 _ZTV7WS2812BILh6EL6EOrder66EE
+00000000 g     F .text._ZN8LEDBoard4initEv	00000004 _ZN8LEDBoard4initEv
+00000000 g     F .text._ZN8LEDBoard8blinkLEDEv	000000f8 _ZN8LEDBoard8blinkLEDEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 _ZN8Profiler5beginEPKc
+00000000         *UND*	00000000 _ZN8CFastLED4showEh
+00000000         *UND*	00000000 _ZN8Profiler3endEPKc
+00000000         *UND*	00000000 _ZN8Profiler5printEPKc
+00000000         *UND*	00000000 Serial
+00000000         *UND*	00000000 F_CPU_ACTUAL
+00000000         *UND*	00000000 prof
+00000000 g     F .text._ZN8LEDBoard18displayHexOnMatrixEt	00000064 _ZN8LEDBoard18displayHexOnMatrixEt
+00000000 g     F .text._ZN8LEDBoard19convertIntegerToHexEi	00000004 _ZN8LEDBoard19convertIntegerToHexEi
+00000000 g     F .text._ZN8LEDBoard18displayIntOnMatrixEi	00000066 _ZN8LEDBoard18displayIntOnMatrixEi
+00000000 g     F .text._ZN8LEDBoard14setLedOnMatrixEi4CRGB	00000026 _ZN8LEDBoard14setLedOnMatrixEi4CRGB
+00000000 g     F .text._ZN8LEDBoard15updateLEDMatrixEv	0000000c _ZN8LEDBoard15updateLEDMatrixEv
+00000000 g     F .text._ZN8LEDBoard16getColorFromBitsEh	0000003e _ZN8LEDBoard16getColorFromBitsEh
+00000000  w    F .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE	0000033a _ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE
+00000000  w    F .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE	000000bc _ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE
+00000000         *UND*	00000000 micros
+00000000  w    F .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_	00000184 _ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_
+00000000  w    O .bss._ZZN15PixelControllerIL6EOrder66ELi1ELm4294967295EE21init_binary_ditheringEvE1R	00000001 _ZZN15PixelControllerIL6EOrder66ELi1ELm4294967295EE21init_binary_ditheringEvE1R
+00000000  w    F .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_	00000194 _ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_
+00000000  w    F .text._ZN14CLEDController9clearLedsEi	000001a4 _ZN14CLEDController9clearLedsEi
+00000000  w      *UND*	00000000 __cxa_pure_virtual
+
+
+Contents of section .group:
+ 0000 01000000 17000000                    ........        
+Contents of section .group:
+ 0000 01000000 18000000                    ........        
+Contents of section .group:
+ 0000 01000000 19000000                    ........        
+Contents of section .group:
+ 0000 01000000 1a000000                    ........        
+Contents of section .group:
+ 0000 01000000 1b000000                    ........        
+Contents of section .group:
+ 0000 01000000 1c000000                    ........        
+Contents of section .group:
+ 0000 01000000 1d000000                    ........        
+Contents of section .group:
+ 0000 01000000 1e000000 1f000000           ............    
+Contents of section .group:
+ 0000 01000000 20000000                    .... ...        
+Contents of section .group:
+ 0000 01000000 30000000 31000000           ....0...1...    
+Contents of section .group:
+ 0000 01000000 32000000 33000000           ....2...3...    
+Contents of section .group:
+ 0000 01000000 34000000 35000000           ....4...5...    
+Contents of section .group:
+ 0000 01000000 36000000 37000000           ....6...7...    
+Contents of section .group:
+ 0000 01000000 38000000 39000000           ....8...9...    
+Contents of section .group:
+ 0000 01000000 3a000000                    ....:...        
+Contents of section .group:
+ 0000 01000000 3b000000 3c000000           ....;...<...    
+Contents of section .group:
+ 0000 01000000 3d000000 3e000000           ....=...>...    
+Contents of section .group:
+ 0000 01000000 3f000000                    ....?...        
+Contents of section .group:
+ 0000 01000000 40000000                    ....@...        
+Contents of section .text._ZN14CLEDController4sizeEv:
+ 0000 40697047                             @ipG            
+Contents of section .text._ZN14CLEDController5lanesEv:
+ 0000 01207047                             . pG            
+Contents of section .text._ZN14CLEDController13beginShowLedsEv:
+ 0000 807c7047                             .|pG            
+Contents of section .text._ZN14CLEDController11endShowLedsEPv:
+ 0000 81747047                             .tpG            
+Contents of section .text._ZNK14CLEDController17getMaxRefreshRateEv:
+ 0000 00207047                             . pG            
+Contents of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv:
+ 0000 01207047                             . pG            
+Contents of section .text._ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv:
+ 0000 4ff4c870 704700bf                    O..ppG..        
+Contents of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv:
+ 0000 10b50121 04460620 fff7feff 4ff48062  ...!.F. ....O..b
+ 0010 024bc4e9 0723c3f8 882010bd 00400042  .K...#... ...@.B
+Contents of section .text._ZN11RgbwInvalid5valueEv:
+ 0000 82b00148 02b07047 70170300           ...H..pGp...    
+Contents of section .text._ZN8LEDBoardC2Eih:
+ 0000 10b40024 81610277 c0e90044 c0e90244  ...$.a.w...D...D
+ 0010 c0e90444 5df8044b 704700bf           ...D]..KpG..    
+Contents of section .text._ZN8LEDBoard10setup_LEDSEv:
+ 0000 1f498269 70b50d68 82b00446 bff35b8f  .I.ip..h...F..[.
+ 0010 15f00105 09d00023 21461a48 fff7feff  .......#!F.H....
+ 0020 194b227f 1a7002b0 70bd0846 0192fff7  .K"..p..p..F....
+ 0030 feff019a 0028eed0 124e144b 7561c6e9  .....(...N.Kua..
+ 0040 00354ff0 ff33f360 33820123 b374fff7  .5O..3.`3..#.t..
+ 0050 feff0f4b 019a1968 b560b061 71b10d4b  ...K...h.`.aq..K
+ 0060 196801b1 8e600021 1e600b4b 04480192  .h...`.!.`.K.H..
+ 0070 b1843360 fff7feff 019acce7 1e60eee7  ..3`.........`..
+ 0080 00000000 00000000 00000000 08000000  ................
+ 0090 00000000 00000000 08000000           ............    
+Contents of section .text._ZN8LEDBoard4initEv:
+ 0000 fff7febf                             ....            
+Contents of section .rodata._ZN8LEDBoard8blinkLEDEv.str1.4:
+ 0000 696e2062 6c696e6b 6c656400 626c696e  in blinkled.blin
+ 0010 6b00                                 k.              
+Contents of section .text._ZN8LEDBoard8blinkLEDEv:
+ 0000 2de9f84f 33498246 33480a25 334cdff8  -..O3I.F3H.%3L..
+ 0010 dc90dff8 dc80dff8 dcb0314f 314efff7  ..........1O1N..
+ 0020 feff4946 4046fff7 feff0023 20468af8  ..IF@F.....# F..
+ 0030 00308af8 01308af8 02308af8 03308af8  .0...0...0...0..
+ 0040 04308af8 05302178 fff7feff 49464046  .0...0!x....IF@F
+ 0050 fff7feff 244bdbf8 04001968 a7fb0131  ....$K.....h...1
+ 0060 890c06fb 01f1dbf8 04301b1a 9942fad8  .........0...B..
+ 0070 ff232046 8af80030 8af80130 21788af8  .# F...0...0!x..
+ 0080 02308af8 03308af8 04308af8 0530fff7  .0...0...0...0..
+ 0090 feff154b dbf80400 1968a7fb 0131890c  ...K.....h...1..
+ 00a0 06fb01f1 dbf80430 1b1a9942 fad8013d  .......0...B...=
+ 00b0 b7d18af8 00500948 21788af8 01508af8  .....P.H!x...P..
+ 00c0 0250fff7 feff0949 0948bde8 f84ffff7  .P.....I.H...O..
+ 00d0 febf00bf 00000000 00000000 00000000  ................
+ 00e0 83de1b43 20a10700 00000000 0c000000  ...C ...........
+ 00f0 00000000 001000e0                    ........        
+Contents of section .text._ZN8LEDBoard18displayHexOnMatrixEt:
+ 0000 8369002b 2ddd0246 4ff0000c 10b510e0  .i.+-..FO.......
+ 0010 012b4ff0 ff3318bf 0023dbb2 54700cf1  .+O..3...#..Tp..
+ 0020 010c82f8 02e00332 02f8033c 83696345  .......2...<.icE
+ 0030 16dd4fea 4c034ff0 000e41fa 03f37446  ..O.L.O...A...tF
+ 0040 03f00303 022b06d0 032be1d1 00244ff0  .....+...+...$O.
+ 0050 ff0e2346 e2e74ff0 000e8024 7346dde7  ..#F..O....$sF..
+ 0060 10bd7047                             ..pG            
+Contents of section .text._ZN8LEDBoard19convertIntegerToHexEi:
+ 0000 88b27047                             ..pG            
+Contents of section .text._ZN8LEDBoard18displayIntOnMatrixEi:
+ 0000 8369002b 2edd0246 4ff0000c 10b58cb2  .i.+...FO.......
+ 0010 10e0012b 4ff0ff33 18bf0023 dbb25170  ...+O..3...#..Qp
+ 0020 0cf1010c 82f802e0 033202f8 033c8369  .........2...<.i
+ 0030 9c4516da 4fea4c03 4ff0000e 44fa03f3  .E..O.L.O...D...
+ 0040 714603f0 0303022b 06d0032b e1d10021  qF.....+...+...!
+ 0050 4ff0ff0e 0b46e2e7 4ff0000e 80217346  O....F..O....!sF
+ 0060 dde710bd 704700bf                    ....pG..        
+Contents of section .text._ZN8LEDBoard14setLedOnMatrixEi4CRGB:
+ 0000 82b00029 01920cdb 83698b42 09dd01eb  ...).....i.B....
+ 0010 4101bdf8 04c09df8 06204318 20f801c0  A........ C. ...
+ 0020 9a7002b0 704700bf                    .p..pG..        
+Contents of section .text._ZN8LEDBoard15updateLEDMatrixEv:
+ 0000 01480178 fff7febf 00000000           .H.x........    
+Contents of section .text._ZN8LEDBoard16getColorFromBitsEh:
+ 0000 022982b0 17d00329 11d00129 4ff00003  .).....)...)O...
+ 0010 4ff0ff31 18bf0021 1a46c9b2 002061f3  O..1...!.F... a.
+ 0020 070063f3 0f2062f3 174002b0 70470021  ..c.. b..@..pG.!
+ 0030 ff220b46 f2e70021 80230a46 eee700bf  .".F...!.#.F....
+Contents of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE:
+ 0000 ba4b2de9 f04fd3f8 04b00d46 4a7b0b7c  .K-..O.....FJ{.|
+ 0010 9b1a0a68 dbb24b73 92f801c0 bcf1000f  ...h..Ks........
+ 0020 05d09c44 bcf1ff0f 28bf4ff0 ff0ceb7c  ...D....(.O....|
+ 0030 03fb0ccc 4fea2c2c 72b6ad4e 40f2e241  ....O.,,r..N@..A
+ 0040 4ff47a73 40f27714 3268120c 01fb02f2  O.zs@.w.2h......
+ 0050 3168090c 520803fb 01f13368 36681b0c  1h..R.....3h6h..
+ 0060 490804fb 03f3a34c 360c5b08 a4fb01e1  I......L6.[.....
+ 0070 a4fb02e2 a4fb03e3 090a120a 1b0ac162  ...............b
+ 0080 a9680363 4bf66873 82620029 03fb06f6  .h.cK.hs.b.)....
+ 0090 964b4fea 5606a4fb 06465c68 4fea1626  .KO.V....F\hO..&
+ 00a0 224440f3 f080dff8 50e24ff4 806495f8  "D@.....P.O..d..
+ 00b0 0c8095f8 0f90697b a9eb0809 95f81080  ......i{........
+ 00c0 95f80ea0 a8eb0108 697c85f8 0c90a1eb  ........i|......
+ 00d0 0a0185f8 0d80a973 72b65968 914204d9  .......sr.Yh.B..
+ 00e0 5968891a b14200f2 22814ff0 07085968  Yh...B..".O...Yh
+ 00f0 9142fcd3 5a681cf0 800f816a cef88440  .B..Zh.....j...@
+ 0100 0a4400f0 d580076b 5968511a b942fbd8  .D.....kYhQ..B..
+ 0110 b8f10108 4fea4c0c cef88840 e7d15968  ....O.L....@..Yh
+ 0120 8a42fcd8 5a681cf0 800f816a cef88440  .B..Zh.....j...@
+ 0130 0a4400f0 f580d0f8 30c05968 511a6145  .D......0.YhQ.aE
+ 0140 fbd8d5f8 0080cef8 884098f8 00100029  .........@.....)
+ 0150 00f0e480 95f80cc0 8c44bcf1 ff0f28bf  .........D....(.
+ 0160 4ff0ff0c a97c4ff0 070901fb 0ccc4fea  O....|O.......O.
+ 0170 2c2c5968 9142fcd3 5a681cf0 800f816a  ,,Yh.B..Zh.....j
+ 0180 cef88440 0a4400f0 a180076b 5968511a  ...@.D.....kYhQ.
+ 0190 b942fbd8 b9f10109 4fea4c0c cef88840  .B......O.L....@
+ 01a0 e7d15968 8a42fcd8 5a681cf0 800f816a  ..Yh.B..Zh.....j
+ 01b0 cef88440 0a4400f0 aa80d0f8 30c05968  ...@.D......0.Yh
+ 01c0 511a6145 fbd8cef8 884098f8 02100029  Q.aE.....@.....)
+ 01d0 00f09b80 95f80ec0 0ceb0109 b9f1ff0f  ................
+ 01e0 28bf4ff0 ff09297d 4ff0070a 01fb0999  (.O...)}O.......
+ 01f0 4fea2929 59689142 fcd35a68 19f0800f  O.))Yh.B..Zh....
+ 0200 816acef8 84400a44 44d0076b 5968511a  .j...@.DD..kYhQ.
+ 0210 b942fbd8 baf1010a 4fea4909 cef88840  .B......O.I....@
+ 0220 e8d15968 8a42fcd8 5a6819f0 800f816a  ..Yh.B..Zh.....j
+ 0230 cef88440 0a4461d0 d0f830c0 5968511a  ...@.Da...0.YhQ.
+ 0240 6145fbd8 cef88840 a96895f9 159001f1  aE.....@.h......
+ 0250 ff3c08eb 0901c5f8 08c02960 49780029  .<........)`Ix.)
+ 0260 42d095f8 0dc08c44 bcf1ff0f 28bf4ff0  B......D....(.O.
+ 0270 ff0ce97c 01fb0ccc 4fea2c2c 62b6a968  ...|....O.,,b..h
+ 0280 00293ff7 14af62b6 184b5868 a0eb0b00  .)?...b..KXh....
+ 0290 bde8f08f c76a5968 a2eb010c bc45fad8  .....jYh.....E..
+ 02a0 baf1010a 4fea4909 cef88840 a2d1b8e7  ....O.I....@....
+ 02b0 c76a5968 511ab942 fbd8b8f1 01084fea  .jYhQ..B......O.
+ 02c0 4c0ccef8 88407ff4 12af28e7 c76a5968  L....@....(..jYh
+ 02d0 511ab942 fbd8b9f1 01094fea 4c0ccef8  Q..B......O.L...
+ 02e0 88407ff4 46af5ce7 8c46c2e7 001000e0  .@..F.\..F......
+ 02f0 00000000 11239708 00400042 d0f82cc0  .....#...@.B..,.
+ 0300 5968511a 6145fbd8 9ce78946 6be7d0f8  YhQ.aE.....Fk...
+ 0310 2cc05968 511a6145 fbd854e7 8c4621e7  ,.YhQ.aE..T..F!.
+ 0320 d0f82cc0 5968511a 6145fbd8 09e762b6  ..,.YhQ.aE....b.
+ 0330 5868a0eb 0b00bde8 f08f00bf           Xh..........    
+Contents of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE:
+ 0000 70b50446 88b00d46 fff7feff a38cc31a  p..F...F........
+ 0010 9bb2312b f8d92e46 2b8aea68 01a9adf8  ..1+...F+..h....
+ 0020 14302046 56f8123b 04920193 6b686a8a  .0 FV..;....khj.
+ 0030 cde90233 b378adf8 16208df8 18306a7d  ...3.x... ...0j}
+ 0040 ab698df8 19200793 fff7feff 50bb62b6  .i... ......P.b.
+ 0050 17494ff0 320c174a 174b4868 1268a3fb  .IO.2..J.KHh.h..
+ 0060 0232920c 0cfb02f2 4b681b1a 9a42fbd8  .2......Kh...B..
+ 0070 72b6b378 01a96a7d 20468df8 18306b68  r..x..j} F...0kh
+ 0080 8df81920 6a8acde9 0233ab69 adf81620  ... j....3.i... 
+ 0090 0793eb68 04932b8a adf81430 2b680193  ...h..+....0+h..
+ 00a0 fff7feff fff7feff a08408b0 70bd00bf  ............p...
+ 00b0 001000e0 00000000 83de1b43           ...........C    
+Contents of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_:
+ 0000 70b590b0 04460193 bdf80430 0492adf8  p....F.....0....
+ 0010 1a30837c cde90212 012b9df8 06208df8  .0.|.....+... ..
+ 0020 1c2067d0 00230593 adf81830 22680023  . g..#.....0"h.#
+ 0030 4f49526a 8df81d30 8a420893 40f09280  OIRj...0.B..@...
+ 0040 fff7feff a38cc31a 9bb2312b f8d9bdf8  ..........1+....
+ 0050 18302046 0299adf8 3430bdf8 1a30059a  .0 F....40...0..
+ 0060 adf83630 039b0991 9df81d10 0c929df8  ..60............
+ 0070 1c208df8 391009a9 8df83820 cde90a33  . ..9.....8 ...3
+ 0080 089b0f93 fff7feff 00282ed1 62b63949  .........(..b.9I
+ 0090 4ff0320c 384a394b 48681268 a3fb0232  O.2.8J9KHh.h...2
+ 00a0 920c0cfb 02f24b68 1b1a9a42 fbd872b6  ......Kh...B..r.
+ 00b0 059a09a9 9df81d00 0c92bdf8 18209df8  ............. ..
+ 00c0 1c30adf8 3420029a 8df83900 08988df8  .0..4 ....9.....
+ 00d0 38300992 039bbdf8 1a200f90 20460a93  80....... .. F..
+ 00e0 0b93adf8 3620fff7 fefffff7 feffa084  ....6 ..........
+ 00f0 10b070bd 224a0df1 17054ff4 80761378  ..p."J....O..v.x
+ 0100 013303f0 0703d901 13709a07 c9b248bf  .3.......p....H.
+ 0110 41f04001 5b0705ab 48bf41f0 20019a79  A.@.[...H.A. ..y
+ 0120 1031c9b2 dab1b6fb f2f2d2b2 501cc0b2  .1..........P...
+ 0130 00fb011c d870ccf3 072e5fea 2c2c0ef1  .....p...._.,,..
+ 0140 ff3e0cbf 83f800c0 83f800e0 00b1da70  .>.............p
+ 0150 01339d42 3ff46aaf 9a79002a e3d1da70  .3.B?.j..y.*...p
+ 0160 1a70f5e7 02a92046 904710b0 70bd00bf  .p.... F.G..p...
+ 0170 00000000 001000e0 00000000 83de1b43  ...............C
+ 0180 00000000                             ....            
+Contents of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_:
+ 0000 f0b591b0 04460193 82eae273 0291bdf8  .....F.....s....
+ 0010 0410a3eb e273adf8 1a10817c cde90333  .....s.....|...3
+ 0020 01299df8 06308df8 1c306bd0 00230593  .)...0...0k..#..
+ 0030 adf81830 2368002a 514a4ff0 00015b6a  ...0#h.*QJO...[j
+ 0040 b4bf6ff0 02000320 08919342 8df81d00  ..o.... ...B....
+ 0050 40f09080 fff7feff a38cc31a 9bb2312b  @.............1+
+ 0060 f8d9bdf8 18302046 0299adf8 3430bdf8  .....0 F....40..
+ 0070 1a30059a adf83630 039b0991 9df81d10  .0....60........
+ 0080 0c929df8 1c208df8 391009a9 8df83820  ..... ..9.....8 
+ 0090 cde90a33 089b0f93 fff7feff 68bb62b6  ...3........h.b.
+ 00a0 38493225 384a394b 48681268 a3fb0232  8I2%8J9KHh.h...2
+ 00b0 920c05fb 02f24b68 1b1a9a42 fbd872b6  ......Kh...B..r.
+ 00c0 059a09a9 9df81d00 0c92bdf8 18209df8  ............. ..
+ 00d0 1c30adf8 3420029a 8df83900 08988df8  .0..4 ....9.....
+ 00e0 38300992 039bbdf8 1a200f90 20460a93  80....... .. F..
+ 00f0 0b93adf8 3620fff7 fefffff7 feffa084  ....6 ..........
+ 0100 11b0f0bd 22490df1 17064ff4 80770b78  ...."I....O..w.x
+ 0110 013303f0 0703d801 0b709907 c0b248bf  .3.......p....H.
+ 0120 40f04000 5b0705ab 48bf40f0 20009979  @.@.[...H.@. ..y
+ 0130 1030c0b2 d9b1b7fb f1f1c9b2 4d1cedb2  .0..........M...
+ 0140 05fb000c dd70ccf3 072e5fea 2c2c0ef1  .....p...._.,,..
+ 0150 ff3e0cbf 83f800c0 83f800e0 05b1d970  .>.............p
+ 0160 0133b342 3ff466af 99790029 e3d1d970  .3.B?.f..y.)...p
+ 0170 1970f5e7 02a92046 984711b0 f0bd00bf  .p.... F.G......
+ 0180 00000000 001000e0 00000000 83de1b43  ...............C
+ 0190 00000000                             ....            
+Contents of section .text._ZN14CLEDController9clearLedsEi:
+ 0000 70b50023 90b00268 604eadf8 04308df8  p..#...h`N...0..
+ 0010 06301568 b5426fd1 0446807c adf81a30  .0.h.Bo..F.|...0
+ 0020 01288df8 1c30cde9 031101a9 02916dd0  .(...0........m.
+ 0030 0593adf8 1830526a 00235549 8df81d30  .....0Rj.#UI...0
+ 0040 8a420893 40f09c80 fff7feff a38cc31a  .B..@...........
+ 0050 9bb2312b f8d9bdf8 18302046 0299adf8  ..1+.....0 F....
+ 0060 3430bdf8 1a30059a adf83630 039b0991  40...0....60....
+ 0070 9df81d10 0c929df8 1c208df8 391009a9  ......... ..9...
+ 0080 8df83820 cde90a33 089b0f93 fff7feff  ..8 ...3........
+ 0090 68bb62b6 3f493225 3f4a404b 48681268  h.b.?I2%?J@KHh.h
+ 00a0 a3fb0232 920c05fb 02f24b68 1b1a9a42  ...2......Kh...B
+ 00b0 fbd872b6 059a09a9 9df81d00 0c92bdf8  ..r.............
+ 00c0 18209df8 1c30adf8 3420029a 8df83900  . ...0..4 ....9.
+ 00d0 08988df8 38300992 039bbdf8 1a200f90  ....80....... ..
+ 00e0 20460a93 0b93adf8 3620fff7 fefffff7   F......6 ......
+ 00f0 feffa084 10b070bd adf82430 0a468df8  ......p...$0.F..
+ 0100 263001a9 099ba847 10b070bd 244a0df1  &0.....G..p.$J..
+ 0110 170c4ff4 807e1378 013303f0 0703d901  ..O..~.x.3......
+ 0120 13709a07 4ff00002 c9b248bf 41f04001  .p..O.....H.A.@.
+ 0130 5b0705ab 48bf41f0 20011031 c9b2bab1  [...H.A. ..1....
+ 0140 befbf2f2 d2b2501c c0b200fb 0115d870  ......P........p
+ 0150 c5f30726 2d1206f1 ff360cbf 1d701e70  ...&-....6...p.p
+ 0160 00b1da70 01336345 08d09a79 002ae7d1  ...p.3cE...y.*..
+ 0170 da700133 03f8012c 6345f6d1 22685ae7  .p.3...,cE.."hZ.
+ 0180 02a92046 904710b0 70bd00bf 00000000  .. F.G..p.......
+ 0190 00000000 001000e0 00000000 83de1b43  ...............C
+ 01a0 00000000                             ....            
+Contents of section .rodata._ZTV14CLEDController:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000           ............    
+Contents of section .rodata._ZTV7WS2812BILh6EL6EOrder66EE:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000 00000000  ................
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN14CLEDController4sizeEv:
+
+00000000 <_ZN14CLEDController4sizeEv>:
+   0:	6940      	ldr	r0, [r0, #20]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN14CLEDController5lanesEv:
+
+00000000 <_ZN14CLEDController5lanesEv>:
+   0:	2001      	movs	r0, #1
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN14CLEDController13beginShowLedsEv:
+
+00000000 <_ZN14CLEDController13beginShowLedsEv>:
+   0:	7c80      	ldrb	r0, [r0, #18]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN14CLEDController11endShowLedsEPv:
+
+00000000 <_ZN14CLEDController11endShowLedsEPv>:
+   0:	7481      	strb	r1, [r0, #18]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZNK14CLEDController17getMaxRefreshRateEv:
+
+00000000 <_ZNK14CLEDController17getMaxRefreshRateEv>:
+   0:	2000      	movs	r0, #0
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv:
+
+00000000 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE5lanesEv>:
+   0:	2001      	movs	r0, #1
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv:
+
+00000000 <_ZNK19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE17getMaxRefreshRateEv>:
+   0:	f44f 70c8 	mov.w	r0, #400	; 0x190
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv:
+
+00000000 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv>:
+   0:	b510      	push	{r4, lr}
+   2:	2101      	movs	r1, #1
+   4:	4604      	mov	r4, r0
+   6:	2006      	movs	r0, #6
+   8:	f7ff fffe 	bl	0 <pinMode>
+   c:	f44f 6280 	mov.w	r2, #1024	; 0x400
+  10:	4b02      	ldr	r3, [pc, #8]	; (1c <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE4initEv+0x1c>)
+  12:	e9c4 2307 	strd	r2, r3, [r4, #28]
+  16:	f8c3 2088 	str.w	r2, [r3, #136]	; 0x88
+  1a:	bd10      	pop	{r4, pc}
+  1c:	42004000 	.word	0x42004000
+
+Disassembly of section .text._ZN11RgbwInvalid5valueEv:
+
+00000000 <_ZN11RgbwInvalid5valueEv>:
+   0:	b082      	sub	sp, #8
+   2:	4801      	ldr	r0, [pc, #4]	; (8 <_ZN11RgbwInvalid5valueEv+0x8>)
+   4:	b002      	add	sp, #8
+   6:	4770      	bx	lr
+   8:	00031770 	.word	0x00031770
+
+Disassembly of section .text._ZN8LEDBoardC2Eih:
+
+00000000 <_ZN8LEDBoardC1Eih>:
+   0:	b410      	push	{r4}
+   2:	2400      	movs	r4, #0
+   4:	6181      	str	r1, [r0, #24]
+   6:	7702      	strb	r2, [r0, #28]
+   8:	e9c0 4400 	strd	r4, r4, [r0]
+   c:	e9c0 4402 	strd	r4, r4, [r0, #8]
+  10:	e9c0 4404 	strd	r4, r4, [r0, #16]
+  14:	f85d 4b04 	ldr.w	r4, [sp], #4
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+
+Disassembly of section .text._ZN8LEDBoard10setup_LEDSEv:
+
+00000000 <_ZN8LEDBoard10setup_LEDSEv>:
+   0:	491f      	ldr	r1, [pc, #124]	; (80 <_ZN8LEDBoard10setup_LEDSEv+0x80>)
+   2:	6982      	ldr	r2, [r0, #24]
+   4:	b570      	push	{r4, r5, r6, lr}
+   6:	680d      	ldr	r5, [r1, #0]
+   8:	b082      	sub	sp, #8
+   a:	4604      	mov	r4, r0
+   c:	f3bf 8f5b 	dmb	ish
+  10:	f015 0501 	ands.w	r5, r5, #1
+  14:	d009      	beq.n	2a <_ZN8LEDBoard10setup_LEDSEv+0x2a>
+  16:	2300      	movs	r3, #0
+  18:	4621      	mov	r1, r4
+  1a:	481a      	ldr	r0, [pc, #104]	; (84 <_ZN8LEDBoard10setup_LEDSEv+0x84>)
+  1c:	f7ff fffe 	bl	0 <_ZN8CFastLED7addLedsEP14CLEDControllerP4CRGBii>
+  20:	4b19      	ldr	r3, [pc, #100]	; (88 <_ZN8LEDBoard10setup_LEDSEv+0x88>)
+  22:	7f22      	ldrb	r2, [r4, #28]
+  24:	701a      	strb	r2, [r3, #0]
+  26:	b002      	add	sp, #8
+  28:	bd70      	pop	{r4, r5, r6, pc}
+  2a:	4608      	mov	r0, r1
+  2c:	9201      	str	r2, [sp, #4]
+  2e:	f7ff fffe 	bl	0 <__cxa_guard_acquire>
+  32:	9a01      	ldr	r2, [sp, #4]
+  34:	2800      	cmp	r0, #0
+  36:	d0ee      	beq.n	16 <_ZN8LEDBoard10setup_LEDSEv+0x16>
+  38:	4e12      	ldr	r6, [pc, #72]	; (84 <_ZN8LEDBoard10setup_LEDSEv+0x84>)
+  3a:	4b14      	ldr	r3, [pc, #80]	; (8c <_ZN8LEDBoard10setup_LEDSEv+0x8c>)
+  3c:	6175      	str	r5, [r6, #20]
+  3e:	e9c6 3500 	strd	r3, r5, [r6]
+  42:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  46:	60f3      	str	r3, [r6, #12]
+  48:	8233      	strh	r3, [r6, #16]
+  4a:	2301      	movs	r3, #1
+  4c:	74b3      	strb	r3, [r6, #18]
+  4e:	f7ff fffe 	bl	0 <_ZN8LEDBoard10setup_LEDSEv>
+  52:	4b0f      	ldr	r3, [pc, #60]	; (90 <_ZN8LEDBoard10setup_LEDSEv+0x90>)
+  54:	9a01      	ldr	r2, [sp, #4]
+  56:	6819      	ldr	r1, [r3, #0]
+  58:	60b5      	str	r5, [r6, #8]
+  5a:	61b0      	str	r0, [r6, #24]
+  5c:	b171      	cbz	r1, 7c <_ZN8LEDBoard10setup_LEDSEv+0x7c>
+  5e:	4b0d      	ldr	r3, [pc, #52]	; (94 <_ZN8LEDBoard10setup_LEDSEv+0x94>)
+  60:	6819      	ldr	r1, [r3, #0]
+  62:	b101      	cbz	r1, 66 <_ZN8LEDBoard10setup_LEDSEv+0x66>
+  64:	608e      	str	r6, [r1, #8]
+  66:	2100      	movs	r1, #0
+  68:	601e      	str	r6, [r3, #0]
+  6a:	4b0b      	ldr	r3, [pc, #44]	; (98 <_ZN8LEDBoard10setup_LEDSEv+0x98>)
+  6c:	4804      	ldr	r0, [pc, #16]	; (80 <_ZN8LEDBoard10setup_LEDSEv+0x80>)
+  6e:	9201      	str	r2, [sp, #4]
+  70:	84b1      	strh	r1, [r6, #36]	; 0x24
+  72:	6033      	str	r3, [r6, #0]
+  74:	f7ff fffe 	bl	0 <__cxa_guard_release>
+  78:	9a01      	ldr	r2, [sp, #4]
+  7a:	e7cc      	b.n	16 <_ZN8LEDBoard10setup_LEDSEv+0x16>
+  7c:	601e      	str	r6, [r3, #0]
+  7e:	e7ee      	b.n	5e <_ZN8LEDBoard10setup_LEDSEv+0x5e>
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+  8c:	00000008 	.word	0x00000008
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN8LEDBoard4initEv:
+
+00000000 <_ZN8LEDBoard4initEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN8LEDBoard4initEv>
+
+Disassembly of section .text._ZN8LEDBoard8blinkLEDEv:
+
+00000000 <_ZN8LEDBoard8blinkLEDEv>:
+   0:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4933      	ldr	r1, [pc, #204]	; (d4 <_ZN8LEDBoard8blinkLEDEv+0xd4>)
+   6:	4682      	mov	sl, r0
+   8:	4833      	ldr	r0, [pc, #204]	; (d8 <_ZN8LEDBoard8blinkLEDEv+0xd8>)
+   a:	250a      	movs	r5, #10
+   c:	4c33      	ldr	r4, [pc, #204]	; (dc <_ZN8LEDBoard8blinkLEDEv+0xdc>)
+   e:	f8df 90dc 	ldr.w	r9, [pc, #220]	; ec <_ZN8LEDBoard8blinkLEDEv+0xec>
+  12:	f8df 80dc 	ldr.w	r8, [pc, #220]	; f0 <_ZN8LEDBoard8blinkLEDEv+0xf0>
+  16:	f8df b0dc 	ldr.w	fp, [pc, #220]	; f4 <_ZN8LEDBoard8blinkLEDEv+0xf4>
+  1a:	4f31      	ldr	r7, [pc, #196]	; (e0 <_ZN8LEDBoard8blinkLEDEv+0xe0>)
+  1c:	4e31      	ldr	r6, [pc, #196]	; (e4 <_ZN8LEDBoard8blinkLEDEv+0xe4>)
+  1e:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  22:	4649      	mov	r1, r9
+  24:	4640      	mov	r0, r8
+  26:	f7ff fffe 	bl	0 <_ZN8Profiler5beginEPKc>
+  2a:	2300      	movs	r3, #0
+  2c:	4620      	mov	r0, r4
+  2e:	f88a 3000 	strb.w	r3, [sl]
+  32:	f88a 3001 	strb.w	r3, [sl, #1]
+  36:	f88a 3002 	strb.w	r3, [sl, #2]
+  3a:	f88a 3003 	strb.w	r3, [sl, #3]
+  3e:	f88a 3004 	strb.w	r3, [sl, #4]
+  42:	f88a 3005 	strb.w	r3, [sl, #5]
+  46:	7821      	ldrb	r1, [r4, #0]
+  48:	f7ff fffe 	bl	0 <_ZN8CFastLED4showEh>
+  4c:	4649      	mov	r1, r9
+  4e:	4640      	mov	r0, r8
+  50:	f7ff fffe 	bl	0 <_ZN8Profiler3endEPKc>
+  54:	4b24      	ldr	r3, [pc, #144]	; (e8 <_ZN8LEDBoard8blinkLEDEv+0xe8>)
+  56:	f8db 0004 	ldr.w	r0, [fp, #4]
+  5a:	6819      	ldr	r1, [r3, #0]
+  5c:	fba7 3101 	umull	r3, r1, r7, r1
+  60:	0c89      	lsrs	r1, r1, #18
+  62:	fb06 f101 	mul.w	r1, r6, r1
+  66:	f8db 3004 	ldr.w	r3, [fp, #4]
+  6a:	1a1b      	subs	r3, r3, r0
+  6c:	4299      	cmp	r1, r3
+  6e:	d8fa      	bhi.n	66 <_ZN8LEDBoard8blinkLEDEv+0x66>
+  70:	23ff      	movs	r3, #255	; 0xff
+  72:	4620      	mov	r0, r4
+  74:	f88a 3000 	strb.w	r3, [sl]
+  78:	f88a 3001 	strb.w	r3, [sl, #1]
+  7c:	7821      	ldrb	r1, [r4, #0]
+  7e:	f88a 3002 	strb.w	r3, [sl, #2]
+  82:	f88a 3003 	strb.w	r3, [sl, #3]
+  86:	f88a 3004 	strb.w	r3, [sl, #4]
+  8a:	f88a 3005 	strb.w	r3, [sl, #5]
+  8e:	f7ff fffe 	bl	0 <_ZN8CFastLED4showEh>
+  92:	4b15      	ldr	r3, [pc, #84]	; (e8 <_ZN8LEDBoard8blinkLEDEv+0xe8>)
+  94:	f8db 0004 	ldr.w	r0, [fp, #4]
+  98:	6819      	ldr	r1, [r3, #0]
+  9a:	fba7 3101 	umull	r3, r1, r7, r1
+  9e:	0c89      	lsrs	r1, r1, #18
+  a0:	fb06 f101 	mul.w	r1, r6, r1
+  a4:	f8db 3004 	ldr.w	r3, [fp, #4]
+  a8:	1a1b      	subs	r3, r3, r0
+  aa:	4299      	cmp	r1, r3
+  ac:	d8fa      	bhi.n	a4 <_ZN8LEDBoard8blinkLEDEv+0xa4>
+  ae:	3d01      	subs	r5, #1
+  b0:	d1b7      	bne.n	22 <_ZN8LEDBoard8blinkLEDEv+0x22>
+  b2:	f88a 5000 	strb.w	r5, [sl]
+  b6:	4809      	ldr	r0, [pc, #36]	; (dc <_ZN8LEDBoard8blinkLEDEv+0xdc>)
+  b8:	7821      	ldrb	r1, [r4, #0]
+  ba:	f88a 5001 	strb.w	r5, [sl, #1]
+  be:	f88a 5002 	strb.w	r5, [sl, #2]
+  c2:	f7ff fffe 	bl	0 <_ZN8CFastLED4showEh>
+  c6:	4909      	ldr	r1, [pc, #36]	; (ec <_ZN8LEDBoard8blinkLEDEv+0xec>)
+  c8:	4809      	ldr	r0, [pc, #36]	; (f0 <_ZN8LEDBoard8blinkLEDEv+0xf0>)
+  ca:	e8bd 4ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  ce:	f7ff bffe 	b.w	0 <_ZN8Profiler5printEPKc>
+  d2:	bf00      	nop
+  d4:	00000000 	.word	0x00000000
+  d8:	00000000 	.word	0x00000000
+  dc:	00000000 	.word	0x00000000
+  e0:	431bde83 	.word	0x431bde83
+  e4:	0007a120 	.word	0x0007a120
+  e8:	00000000 	.word	0x00000000
+  ec:	0000000c 	.word	0x0000000c
+  f0:	00000000 	.word	0x00000000
+  f4:	e0001000 	.word	0xe0001000
+
+Disassembly of section .text._ZN8LEDBoard18displayHexOnMatrixEt:
+
+00000000 <_ZN8LEDBoard18displayHexOnMatrixEt>:
+   0:	6983      	ldr	r3, [r0, #24]
+   2:	2b00      	cmp	r3, #0
+   4:	dd2d      	ble.n	62 <_ZN8LEDBoard18displayHexOnMatrixEt+0x62>
+   6:	4602      	mov	r2, r0
+   8:	f04f 0c00 	mov.w	ip, #0
+   c:	b510      	push	{r4, lr}
+   e:	e010      	b.n	32 <_ZN8LEDBoard18displayHexOnMatrixEt+0x32>
+  10:	2b01      	cmp	r3, #1
+  12:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  16:	bf18      	it	ne
+  18:	2300      	movne	r3, #0
+  1a:	b2db      	uxtb	r3, r3
+  1c:	7054      	strb	r4, [r2, #1]
+  1e:	f10c 0c01 	add.w	ip, ip, #1
+  22:	f882 e002 	strb.w	lr, [r2, #2]
+  26:	3203      	adds	r2, #3
+  28:	f802 3c03 	strb.w	r3, [r2, #-3]
+  2c:	6983      	ldr	r3, [r0, #24]
+  2e:	4563      	cmp	r3, ip
+  30:	dd16      	ble.n	60 <_ZN8LEDBoard18displayHexOnMatrixEt+0x60>
+  32:	ea4f 034c 	mov.w	r3, ip, lsl #1
+  36:	f04f 0e00 	mov.w	lr, #0
+  3a:	fa41 f303 	asr.w	r3, r1, r3
+  3e:	4674      	mov	r4, lr
+  40:	f003 0303 	and.w	r3, r3, #3
+  44:	2b02      	cmp	r3, #2
+  46:	d006      	beq.n	56 <_ZN8LEDBoard18displayHexOnMatrixEt+0x56>
+  48:	2b03      	cmp	r3, #3
+  4a:	d1e1      	bne.n	10 <_ZN8LEDBoard18displayHexOnMatrixEt+0x10>
+  4c:	2400      	movs	r4, #0
+  4e:	f04f 0eff 	mov.w	lr, #255	; 0xff
+  52:	4623      	mov	r3, r4
+  54:	e7e2      	b.n	1c <_ZN8LEDBoard18displayHexOnMatrixEt+0x1c>
+  56:	f04f 0e00 	mov.w	lr, #0
+  5a:	2480      	movs	r4, #128	; 0x80
+  5c:	4673      	mov	r3, lr
+  5e:	e7dd      	b.n	1c <_ZN8LEDBoard18displayHexOnMatrixEt+0x1c>
+  60:	bd10      	pop	{r4, pc}
+  62:	4770      	bx	lr
+
+Disassembly of section .text._ZN8LEDBoard19convertIntegerToHexEi:
+
+00000000 <_ZN8LEDBoard19convertIntegerToHexEi>:
+   0:	b288      	uxth	r0, r1
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN8LEDBoard18displayIntOnMatrixEi:
+
+00000000 <_ZN8LEDBoard18displayIntOnMatrixEi>:
+   0:	6983      	ldr	r3, [r0, #24]
+   2:	2b00      	cmp	r3, #0
+   4:	dd2e      	ble.n	64 <_ZN8LEDBoard18displayIntOnMatrixEi+0x64>
+   6:	4602      	mov	r2, r0
+   8:	f04f 0c00 	mov.w	ip, #0
+   c:	b510      	push	{r4, lr}
+   e:	b28c      	uxth	r4, r1
+  10:	e010      	b.n	34 <_ZN8LEDBoard18displayIntOnMatrixEi+0x34>
+  12:	2b01      	cmp	r3, #1
+  14:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  18:	bf18      	it	ne
+  1a:	2300      	movne	r3, #0
+  1c:	b2db      	uxtb	r3, r3
+  1e:	7051      	strb	r1, [r2, #1]
+  20:	f10c 0c01 	add.w	ip, ip, #1
+  24:	f882 e002 	strb.w	lr, [r2, #2]
+  28:	3203      	adds	r2, #3
+  2a:	f802 3c03 	strb.w	r3, [r2, #-3]
+  2e:	6983      	ldr	r3, [r0, #24]
+  30:	459c      	cmp	ip, r3
+  32:	da16      	bge.n	62 <_ZN8LEDBoard18displayIntOnMatrixEi+0x62>
+  34:	ea4f 034c 	mov.w	r3, ip, lsl #1
+  38:	f04f 0e00 	mov.w	lr, #0
+  3c:	fa44 f303 	asr.w	r3, r4, r3
+  40:	4671      	mov	r1, lr
+  42:	f003 0303 	and.w	r3, r3, #3
+  46:	2b02      	cmp	r3, #2
+  48:	d006      	beq.n	58 <_ZN8LEDBoard18displayIntOnMatrixEi+0x58>
+  4a:	2b03      	cmp	r3, #3
+  4c:	d1e1      	bne.n	12 <_ZN8LEDBoard18displayIntOnMatrixEi+0x12>
+  4e:	2100      	movs	r1, #0
+  50:	f04f 0eff 	mov.w	lr, #255	; 0xff
+  54:	460b      	mov	r3, r1
+  56:	e7e2      	b.n	1e <_ZN8LEDBoard18displayIntOnMatrixEi+0x1e>
+  58:	f04f 0e00 	mov.w	lr, #0
+  5c:	2180      	movs	r1, #128	; 0x80
+  5e:	4673      	mov	r3, lr
+  60:	e7dd      	b.n	1e <_ZN8LEDBoard18displayIntOnMatrixEi+0x1e>
+  62:	bd10      	pop	{r4, pc}
+  64:	4770      	bx	lr
+  66:	bf00      	nop
+
+Disassembly of section .text._ZN8LEDBoard14setLedOnMatrixEi4CRGB:
+
+00000000 <_ZN8LEDBoard14setLedOnMatrixEi4CRGB>:
+   0:	b082      	sub	sp, #8
+   2:	2900      	cmp	r1, #0
+   4:	9201      	str	r2, [sp, #4]
+   6:	db0c      	blt.n	22 <_ZN8LEDBoard14setLedOnMatrixEi4CRGB+0x22>
+   8:	6983      	ldr	r3, [r0, #24]
+   a:	428b      	cmp	r3, r1
+   c:	dd09      	ble.n	22 <_ZN8LEDBoard14setLedOnMatrixEi4CRGB+0x22>
+   e:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+  12:	f8bd c004 	ldrh.w	ip, [sp, #4]
+  16:	f89d 2006 	ldrb.w	r2, [sp, #6]
+  1a:	1843      	adds	r3, r0, r1
+  1c:	f820 c001 	strh.w	ip, [r0, r1]
+  20:	709a      	strb	r2, [r3, #2]
+  22:	b002      	add	sp, #8
+  24:	4770      	bx	lr
+  26:	bf00      	nop
+
+Disassembly of section .text._ZN8LEDBoard15updateLEDMatrixEv:
+
+00000000 <_ZN8LEDBoard15updateLEDMatrixEv>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <_ZN8LEDBoard15updateLEDMatrixEv+0x8>)
+   2:	7801      	ldrb	r1, [r0, #0]
+   4:	f7ff bffe 	b.w	0 <_ZN8CFastLED4showEh>
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN8LEDBoard16getColorFromBitsEh:
+
+00000000 <_ZN8LEDBoard16getColorFromBitsEh>:
+   0:	2902      	cmp	r1, #2
+   2:	b082      	sub	sp, #8
+   4:	d017      	beq.n	36 <_ZN8LEDBoard16getColorFromBitsEh+0x36>
+   6:	2903      	cmp	r1, #3
+   8:	d011      	beq.n	2e <_ZN8LEDBoard16getColorFromBitsEh+0x2e>
+   a:	2901      	cmp	r1, #1
+   c:	f04f 0300 	mov.w	r3, #0
+  10:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+  14:	bf18      	it	ne
+  16:	2100      	movne	r1, #0
+  18:	461a      	mov	r2, r3
+  1a:	b2c9      	uxtb	r1, r1
+  1c:	2000      	movs	r0, #0
+  1e:	f361 0007 	bfi	r0, r1, #0, #8
+  22:	f363 200f 	bfi	r0, r3, #8, #8
+  26:	f362 4017 	bfi	r0, r2, #16, #8
+  2a:	b002      	add	sp, #8
+  2c:	4770      	bx	lr
+  2e:	2100      	movs	r1, #0
+  30:	22ff      	movs	r2, #255	; 0xff
+  32:	460b      	mov	r3, r1
+  34:	e7f2      	b.n	1c <_ZN8LEDBoard16getColorFromBitsEh+0x1c>
+  36:	2100      	movs	r1, #0
+  38:	2380      	movs	r3, #128	; 0x80
+  3a:	460a      	mov	r2, r1
+  3c:	e7ee      	b.n	1c <_ZN8LEDBoard16getColorFromBitsEh+0x1c>
+  3e:	bf00      	nop
+
+Disassembly of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE:
+
+00000000 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE>:
+   0:	4bba      	ldr	r3, [pc, #744]	; (2ec <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2ec>)
+   2:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   6:	f8d3 b004 	ldr.w	fp, [r3, #4]
+   a:	460d      	mov	r5, r1
+   c:	7b4a      	ldrb	r2, [r1, #13]
+   e:	7c0b      	ldrb	r3, [r1, #16]
+  10:	1a9b      	subs	r3, r3, r2
+  12:	680a      	ldr	r2, [r1, #0]
+  14:	b2db      	uxtb	r3, r3
+  16:	734b      	strb	r3, [r1, #13]
+  18:	f892 c001 	ldrb.w	ip, [r2, #1]
+  1c:	f1bc 0f00 	cmp.w	ip, #0
+  20:	d005      	beq.n	2e <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2e>
+  22:	449c      	add	ip, r3
+  24:	f1bc 0fff 	cmp.w	ip, #255	; 0xff
+  28:	bf28      	it	cs
+  2a:	f04f 0cff 	movcs.w	ip, #255	; 0xff
+  2e:	7ceb      	ldrb	r3, [r5, #19]
+  30:	fb03 cc0c 	mla	ip, r3, ip, ip
+  34:	ea4f 2c2c 	mov.w	ip, ip, asr #8
+  38:	b672      	cpsid	i
+  3a:	4ead      	ldr	r6, [pc, #692]	; (2f0 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2f0>)
+  3c:	f240 41e2 	movw	r1, #1250	; 0x4e2
+  40:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+  44:	f240 1477 	movw	r4, #375	; 0x177
+  48:	6832      	ldr	r2, [r6, #0]
+  4a:	0c12      	lsrs	r2, r2, #16
+  4c:	fb01 f202 	mul.w	r2, r1, r2
+  50:	6831      	ldr	r1, [r6, #0]
+  52:	0c09      	lsrs	r1, r1, #16
+  54:	0852      	lsrs	r2, r2, #1
+  56:	fb03 f101 	mul.w	r1, r3, r1
+  5a:	6833      	ldr	r3, [r6, #0]
+  5c:	6836      	ldr	r6, [r6, #0]
+  5e:	0c1b      	lsrs	r3, r3, #16
+  60:	0849      	lsrs	r1, r1, #1
+  62:	fb04 f303 	mul.w	r3, r4, r3
+  66:	4ca3      	ldr	r4, [pc, #652]	; (2f4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2f4>)
+  68:	0c36      	lsrs	r6, r6, #16
+  6a:	085b      	lsrs	r3, r3, #1
+  6c:	fba4 e101 	umull	lr, r1, r4, r1
+  70:	fba4 e202 	umull	lr, r2, r4, r2
+  74:	fba4 e303 	umull	lr, r3, r4, r3
+  78:	0a09      	lsrs	r1, r1, #8
+  7a:	0a12      	lsrs	r2, r2, #8
+  7c:	0a1b      	lsrs	r3, r3, #8
+  7e:	62c1      	str	r1, [r0, #44]	; 0x2c
+  80:	68a9      	ldr	r1, [r5, #8]
+  82:	6303      	str	r3, [r0, #48]	; 0x30
+  84:	f64b 7368 	movw	r3, #49000	; 0xbf68
+  88:	6282      	str	r2, [r0, #40]	; 0x28
+  8a:	2900      	cmp	r1, #0
+  8c:	fb03 f606 	mul.w	r6, r3, r6
+  90:	4b96      	ldr	r3, [pc, #600]	; (2ec <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2ec>)
+  92:	ea4f 0656 	mov.w	r6, r6, lsr #1
+  96:	fba4 4606 	umull	r4, r6, r4, r6
+  9a:	685c      	ldr	r4, [r3, #4]
+  9c:	ea4f 2616 	mov.w	r6, r6, lsr #8
+  a0:	4422      	add	r2, r4
+  a2:	f340 80f0 	ble.w	286 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x286>
+  a6:	f8df e250 	ldr.w	lr, [pc, #592]	; 2f8 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2f8>
+  aa:	f44f 6480 	mov.w	r4, #1024	; 0x400
+  ae:	f895 800c 	ldrb.w	r8, [r5, #12]
+  b2:	f895 900f 	ldrb.w	r9, [r5, #15]
+  b6:	7b69      	ldrb	r1, [r5, #13]
+  b8:	eba9 0908 	sub.w	r9, r9, r8
+  bc:	f895 8010 	ldrb.w	r8, [r5, #16]
+  c0:	f895 a00e 	ldrb.w	sl, [r5, #14]
+  c4:	eba8 0801 	sub.w	r8, r8, r1
+  c8:	7c69      	ldrb	r1, [r5, #17]
+  ca:	f885 900c 	strb.w	r9, [r5, #12]
+  ce:	eba1 010a 	sub.w	r1, r1, sl
+  d2:	f885 800d 	strb.w	r8, [r5, #13]
+  d6:	73a9      	strb	r1, [r5, #14]
+  d8:	b672      	cpsid	i
+  da:	6859      	ldr	r1, [r3, #4]
+  dc:	4291      	cmp	r1, r2
+  de:	d904      	bls.n	ea <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0xea>
+  e0:	6859      	ldr	r1, [r3, #4]
+  e2:	1a89      	subs	r1, r1, r2
+  e4:	42b1      	cmp	r1, r6
+  e6:	f200 8122 	bhi.w	32e <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x32e>
+  ea:	f04f 0807 	mov.w	r8, #7
+  ee:	6859      	ldr	r1, [r3, #4]
+  f0:	4291      	cmp	r1, r2
+  f2:	d3fc      	bcc.n	ee <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0xee>
+  f4:	685a      	ldr	r2, [r3, #4]
+  f6:	f01c 0f80 	tst.w	ip, #128	; 0x80
+  fa:	6a81      	ldr	r1, [r0, #40]	; 0x28
+  fc:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 100:	440a      	add	r2, r1
+ 102:	f000 80d5 	beq.w	2b0 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2b0>
+ 106:	6b07      	ldr	r7, [r0, #48]	; 0x30
+ 108:	6859      	ldr	r1, [r3, #4]
+ 10a:	1a51      	subs	r1, r2, r1
+ 10c:	42b9      	cmp	r1, r7
+ 10e:	d8fb      	bhi.n	108 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x108>
+ 110:	f1b8 0801 	subs.w	r8, r8, #1
+ 114:	ea4f 0c4c 	mov.w	ip, ip, lsl #1
+ 118:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 11c:	d1e7      	bne.n	ee <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0xee>
+ 11e:	6859      	ldr	r1, [r3, #4]
+ 120:	428a      	cmp	r2, r1
+ 122:	d8fc      	bhi.n	11e <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x11e>
+ 124:	685a      	ldr	r2, [r3, #4]
+ 126:	f01c 0f80 	tst.w	ip, #128	; 0x80
+ 12a:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 12c:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 130:	440a      	add	r2, r1
+ 132:	f000 80f5 	beq.w	320 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x320>
+ 136:	f8d0 c030 	ldr.w	ip, [r0, #48]	; 0x30
+ 13a:	6859      	ldr	r1, [r3, #4]
+ 13c:	1a51      	subs	r1, r2, r1
+ 13e:	4561      	cmp	r1, ip
+ 140:	d8fb      	bhi.n	13a <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x13a>
+ 142:	f8d5 8000 	ldr.w	r8, [r5]
+ 146:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 14a:	f898 1000 	ldrb.w	r1, [r8]
+ 14e:	2900      	cmp	r1, #0
+ 150:	f000 80e4 	beq.w	31c <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x31c>
+ 154:	f895 c00c 	ldrb.w	ip, [r5, #12]
+ 158:	448c      	add	ip, r1
+ 15a:	f1bc 0fff 	cmp.w	ip, #255	; 0xff
+ 15e:	bf28      	it	cs
+ 160:	f04f 0cff 	movcs.w	ip, #255	; 0xff
+ 164:	7ca9      	ldrb	r1, [r5, #18]
+ 166:	f04f 0907 	mov.w	r9, #7
+ 16a:	fb01 cc0c 	mla	ip, r1, ip, ip
+ 16e:	ea4f 2c2c 	mov.w	ip, ip, asr #8
+ 172:	6859      	ldr	r1, [r3, #4]
+ 174:	4291      	cmp	r1, r2
+ 176:	d3fc      	bcc.n	172 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x172>
+ 178:	685a      	ldr	r2, [r3, #4]
+ 17a:	f01c 0f80 	tst.w	ip, #128	; 0x80
+ 17e:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 180:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 184:	440a      	add	r2, r1
+ 186:	f000 80a1 	beq.w	2cc <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2cc>
+ 18a:	6b07      	ldr	r7, [r0, #48]	; 0x30
+ 18c:	6859      	ldr	r1, [r3, #4]
+ 18e:	1a51      	subs	r1, r2, r1
+ 190:	42b9      	cmp	r1, r7
+ 192:	d8fb      	bhi.n	18c <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x18c>
+ 194:	f1b9 0901 	subs.w	r9, r9, #1
+ 198:	ea4f 0c4c 	mov.w	ip, ip, lsl #1
+ 19c:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 1a0:	d1e7      	bne.n	172 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x172>
+ 1a2:	6859      	ldr	r1, [r3, #4]
+ 1a4:	428a      	cmp	r2, r1
+ 1a6:	d8fc      	bhi.n	1a2 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1a2>
+ 1a8:	685a      	ldr	r2, [r3, #4]
+ 1aa:	f01c 0f80 	tst.w	ip, #128	; 0x80
+ 1ae:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 1b0:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 1b4:	440a      	add	r2, r1
+ 1b6:	f000 80aa 	beq.w	30e <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x30e>
+ 1ba:	f8d0 c030 	ldr.w	ip, [r0, #48]	; 0x30
+ 1be:	6859      	ldr	r1, [r3, #4]
+ 1c0:	1a51      	subs	r1, r2, r1
+ 1c2:	4561      	cmp	r1, ip
+ 1c4:	d8fb      	bhi.n	1be <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1be>
+ 1c6:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 1ca:	f898 1002 	ldrb.w	r1, [r8, #2]
+ 1ce:	2900      	cmp	r1, #0
+ 1d0:	f000 809b 	beq.w	30a <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x30a>
+ 1d4:	f895 c00e 	ldrb.w	ip, [r5, #14]
+ 1d8:	eb0c 0901 	add.w	r9, ip, r1
+ 1dc:	f1b9 0fff 	cmp.w	r9, #255	; 0xff
+ 1e0:	bf28      	it	cs
+ 1e2:	f04f 09ff 	movcs.w	r9, #255	; 0xff
+ 1e6:	7d29      	ldrb	r1, [r5, #20]
+ 1e8:	f04f 0a07 	mov.w	sl, #7
+ 1ec:	fb01 9909 	mla	r9, r1, r9, r9
+ 1f0:	ea4f 2929 	mov.w	r9, r9, asr #8
+ 1f4:	6859      	ldr	r1, [r3, #4]
+ 1f6:	4291      	cmp	r1, r2
+ 1f8:	d3fc      	bcc.n	1f4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1f4>
+ 1fa:	685a      	ldr	r2, [r3, #4]
+ 1fc:	f019 0f80 	tst.w	r9, #128	; 0x80
+ 200:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 202:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 206:	440a      	add	r2, r1
+ 208:	d044      	beq.n	294 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x294>
+ 20a:	6b07      	ldr	r7, [r0, #48]	; 0x30
+ 20c:	6859      	ldr	r1, [r3, #4]
+ 20e:	1a51      	subs	r1, r2, r1
+ 210:	42b9      	cmp	r1, r7
+ 212:	d8fb      	bhi.n	20c <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x20c>
+ 214:	f1ba 0a01 	subs.w	sl, sl, #1
+ 218:	ea4f 0949 	mov.w	r9, r9, lsl #1
+ 21c:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 220:	d1e8      	bne.n	1f4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1f4>
+ 222:	6859      	ldr	r1, [r3, #4]
+ 224:	428a      	cmp	r2, r1
+ 226:	d8fc      	bhi.n	222 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x222>
+ 228:	685a      	ldr	r2, [r3, #4]
+ 22a:	f019 0f80 	tst.w	r9, #128	; 0x80
+ 22e:	6a81      	ldr	r1, [r0, #40]	; 0x28
+ 230:	f8ce 4084 	str.w	r4, [lr, #132]	; 0x84
+ 234:	440a      	add	r2, r1
+ 236:	d061      	beq.n	2fc <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2fc>
+ 238:	f8d0 c030 	ldr.w	ip, [r0, #48]	; 0x30
+ 23c:	6859      	ldr	r1, [r3, #4]
+ 23e:	1a51      	subs	r1, r2, r1
+ 240:	4561      	cmp	r1, ip
+ 242:	d8fb      	bhi.n	23c <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x23c>
+ 244:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 248:	68a9      	ldr	r1, [r5, #8]
+ 24a:	f995 9015 	ldrsb.w	r9, [r5, #21]
+ 24e:	f101 3cff 	add.w	ip, r1, #4294967295	; 0xffffffff
+ 252:	eb08 0109 	add.w	r1, r8, r9
+ 256:	f8c5 c008 	str.w	ip, [r5, #8]
+ 25a:	6029      	str	r1, [r5, #0]
+ 25c:	7849      	ldrb	r1, [r1, #1]
+ 25e:	2900      	cmp	r1, #0
+ 260:	d042      	beq.n	2e8 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2e8>
+ 262:	f895 c00d 	ldrb.w	ip, [r5, #13]
+ 266:	448c      	add	ip, r1
+ 268:	f1bc 0fff 	cmp.w	ip, #255	; 0xff
+ 26c:	bf28      	it	cs
+ 26e:	f04f 0cff 	movcs.w	ip, #255	; 0xff
+ 272:	7ce9      	ldrb	r1, [r5, #19]
+ 274:	fb01 cc0c 	mla	ip, r1, ip, ip
+ 278:	ea4f 2c2c 	mov.w	ip, ip, asr #8
+ 27c:	b662      	cpsie	i
+ 27e:	68a9      	ldr	r1, [r5, #8]
+ 280:	2900      	cmp	r1, #0
+ 282:	f73f af14 	bgt.w	ae <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0xae>
+ 286:	b662      	cpsie	i
+ 288:	4b18      	ldr	r3, [pc, #96]	; (2ec <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2ec>)
+ 28a:	6858      	ldr	r0, [r3, #4]
+ 28c:	eba0 000b 	sub.w	r0, r0, fp
+ 290:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 294:	6ac7      	ldr	r7, [r0, #44]	; 0x2c
+ 296:	6859      	ldr	r1, [r3, #4]
+ 298:	eba2 0c01 	sub.w	ip, r2, r1
+ 29c:	45bc      	cmp	ip, r7
+ 29e:	d8fa      	bhi.n	296 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x296>
+ 2a0:	f1ba 0a01 	subs.w	sl, sl, #1
+ 2a4:	ea4f 0949 	mov.w	r9, r9, lsl #1
+ 2a8:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 2ac:	d1a2      	bne.n	1f4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1f4>
+ 2ae:	e7b8      	b.n	222 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x222>
+ 2b0:	6ac7      	ldr	r7, [r0, #44]	; 0x2c
+ 2b2:	6859      	ldr	r1, [r3, #4]
+ 2b4:	1a51      	subs	r1, r2, r1
+ 2b6:	42b9      	cmp	r1, r7
+ 2b8:	d8fb      	bhi.n	2b2 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2b2>
+ 2ba:	f1b8 0801 	subs.w	r8, r8, #1
+ 2be:	ea4f 0c4c 	mov.w	ip, ip, lsl #1
+ 2c2:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 2c6:	f47f af12 	bne.w	ee <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0xee>
+ 2ca:	e728      	b.n	11e <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x11e>
+ 2cc:	6ac7      	ldr	r7, [r0, #44]	; 0x2c
+ 2ce:	6859      	ldr	r1, [r3, #4]
+ 2d0:	1a51      	subs	r1, r2, r1
+ 2d2:	42b9      	cmp	r1, r7
+ 2d4:	d8fb      	bhi.n	2ce <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x2ce>
+ 2d6:	f1b9 0901 	subs.w	r9, r9, #1
+ 2da:	ea4f 0c4c 	mov.w	ip, ip, lsl #1
+ 2de:	f8ce 4088 	str.w	r4, [lr, #136]	; 0x88
+ 2e2:	f47f af46 	bne.w	172 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x172>
+ 2e6:	e75c      	b.n	1a2 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1a2>
+ 2e8:	468c      	mov	ip, r1
+ 2ea:	e7c2      	b.n	272 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x272>
+ 2ec:	e0001000 	.word	0xe0001000
+ 2f0:	00000000 	.word	0x00000000
+ 2f4:	08972311 	.word	0x08972311
+ 2f8:	42004000 	.word	0x42004000
+ 2fc:	f8d0 c02c 	ldr.w	ip, [r0, #44]	; 0x2c
+ 300:	6859      	ldr	r1, [r3, #4]
+ 302:	1a51      	subs	r1, r2, r1
+ 304:	4561      	cmp	r1, ip
+ 306:	d8fb      	bhi.n	300 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x300>
+ 308:	e79c      	b.n	244 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x244>
+ 30a:	4689      	mov	r9, r1
+ 30c:	e76b      	b.n	1e6 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1e6>
+ 30e:	f8d0 c02c 	ldr.w	ip, [r0, #44]	; 0x2c
+ 312:	6859      	ldr	r1, [r3, #4]
+ 314:	1a51      	subs	r1, r2, r1
+ 316:	4561      	cmp	r1, ip
+ 318:	d8fb      	bhi.n	312 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x312>
+ 31a:	e754      	b.n	1c6 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x1c6>
+ 31c:	468c      	mov	ip, r1
+ 31e:	e721      	b.n	164 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x164>
+ 320:	f8d0 c02c 	ldr.w	ip, [r0, #44]	; 0x2c
+ 324:	6859      	ldr	r1, [r3, #4]
+ 326:	1a51      	subs	r1, r2, r1
+ 328:	4561      	cmp	r1, ip
+ 32a:	d8fb      	bhi.n	324 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x324>
+ 32c:	e709      	b.n	142 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE15showRGBInternalE15PixelControllerILS0_66ELi1ELm4294967295EE+0x142>
+ 32e:	b662      	cpsie	i
+ 330:	6858      	ldr	r0, [r3, #4]
+ 332:	eba0 000b 	sub.w	r0, r0, fp
+ 336:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 33a:	bf00      	nop
+
+Disassembly of section .text._ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE:
+
+00000000 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	b088      	sub	sp, #32
+   6:	460d      	mov	r5, r1
+   8:	f7ff fffe 	bl	0 <micros>
+   c:	8ca3      	ldrh	r3, [r4, #36]	; 0x24
+   e:	1ac3      	subs	r3, r0, r3
+  10:	b29b      	uxth	r3, r3
+  12:	2b31      	cmp	r3, #49	; 0x31
+  14:	d9f8      	bls.n	8 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0x8>
+  16:	462e      	mov	r6, r5
+  18:	8a2b      	ldrh	r3, [r5, #16]
+  1a:	68ea      	ldr	r2, [r5, #12]
+  1c:	a901      	add	r1, sp, #4
+  1e:	f8ad 3014 	strh.w	r3, [sp, #20]
+  22:	4620      	mov	r0, r4
+  24:	f856 3b12 	ldr.w	r3, [r6], #18
+  28:	9204      	str	r2, [sp, #16]
+  2a:	9301      	str	r3, [sp, #4]
+  2c:	686b      	ldr	r3, [r5, #4]
+  2e:	8a6a      	ldrh	r2, [r5, #18]
+  30:	e9cd 3302 	strd	r3, r3, [sp, #8]
+  34:	78b3      	ldrb	r3, [r6, #2]
+  36:	f8ad 2016 	strh.w	r2, [sp, #22]
+  3a:	f88d 3018 	strb.w	r3, [sp, #24]
+  3e:	7d6a      	ldrb	r2, [r5, #21]
+  40:	69ab      	ldr	r3, [r5, #24]
+  42:	f88d 2019 	strb.w	r2, [sp, #25]
+  46:	9307      	str	r3, [sp, #28]
+  48:	f7ff fffe 	bl	0 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE>
+  4c:	bb50      	cbnz	r0, a4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0xa4>
+  4e:	b662      	cpsie	i
+  50:	4917      	ldr	r1, [pc, #92]	; (b0 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0xb0>)
+  52:	f04f 0c32 	mov.w	ip, #50	; 0x32
+  56:	4a17      	ldr	r2, [pc, #92]	; (b4 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0xb4>)
+  58:	4b17      	ldr	r3, [pc, #92]	; (b8 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0xb8>)
+  5a:	6848      	ldr	r0, [r1, #4]
+  5c:	6812      	ldr	r2, [r2, #0]
+  5e:	fba3 3202 	umull	r3, r2, r3, r2
+  62:	0c92      	lsrs	r2, r2, #18
+  64:	fb0c f202 	mul.w	r2, ip, r2
+  68:	684b      	ldr	r3, [r1, #4]
+  6a:	1a1b      	subs	r3, r3, r0
+  6c:	429a      	cmp	r2, r3
+  6e:	d8fb      	bhi.n	68 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE+0x68>
+  70:	b672      	cpsid	i
+  72:	78b3      	ldrb	r3, [r6, #2]
+  74:	a901      	add	r1, sp, #4
+  76:	7d6a      	ldrb	r2, [r5, #21]
+  78:	4620      	mov	r0, r4
+  7a:	f88d 3018 	strb.w	r3, [sp, #24]
+  7e:	686b      	ldr	r3, [r5, #4]
+  80:	f88d 2019 	strb.w	r2, [sp, #25]
+  84:	8a6a      	ldrh	r2, [r5, #18]
+  86:	e9cd 3302 	strd	r3, r3, [sp, #8]
+  8a:	69ab      	ldr	r3, [r5, #24]
+  8c:	f8ad 2016 	strh.w	r2, [sp, #22]
+  90:	9307      	str	r3, [sp, #28]
+  92:	68eb      	ldr	r3, [r5, #12]
+  94:	9304      	str	r3, [sp, #16]
+  96:	8a2b      	ldrh	r3, [r5, #16]
+  98:	f8ad 3014 	strh.w	r3, [sp, #20]
+  9c:	682b      	ldr	r3, [r5, #0]
+  9e:	9301      	str	r3, [sp, #4]
+  a0:	f7ff fffe 	bl	0 <_ZN19ClocklessControllerILi6ELi250ELi625ELi375EL6EOrder66ELi0ELb0ELi50EE10showPixelsER15PixelControllerILS0_66ELi1ELm4294967295EE>
+  a4:	f7ff fffe 	bl	0 <micros>
+  a8:	84a0      	strh	r0, [r4, #36]	; 0x24
+  aa:	b008      	add	sp, #32
+  ac:	bd70      	pop	{r4, r5, r6, pc}
+  ae:	bf00      	nop
+  b0:	e0001000 	.word	0xe0001000
+  b4:	00000000 	.word	0x00000000
+  b8:	431bde83 	.word	0x431bde83
+
+Disassembly of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_:
+
+00000000 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	b090      	sub	sp, #64	; 0x40
+   4:	4604      	mov	r4, r0
+   6:	9301      	str	r3, [sp, #4]
+   8:	f8bd 3004 	ldrh.w	r3, [sp, #4]
+   c:	9204      	str	r2, [sp, #16]
+   e:	f8ad 301a 	strh.w	r3, [sp, #26]
+  12:	7c83      	ldrb	r3, [r0, #18]
+  14:	e9cd 1202 	strd	r1, r2, [sp, #8]
+  18:	2b01      	cmp	r3, #1
+  1a:	f89d 2006 	ldrb.w	r2, [sp, #6]
+  1e:	f88d 201c 	strb.w	r2, [sp, #28]
+  22:	d067      	beq.n	f4 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0xf4>
+  24:	2300      	movs	r3, #0
+  26:	9305      	str	r3, [sp, #20]
+  28:	f8ad 3018 	strh.w	r3, [sp, #24]
+  2c:	6822      	ldr	r2, [r4, #0]
+  2e:	2300      	movs	r3, #0
+  30:	494f      	ldr	r1, [pc, #316]	; (170 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x170>)
+  32:	6a52      	ldr	r2, [r2, #36]	; 0x24
+  34:	f88d 301d 	strb.w	r3, [sp, #29]
+  38:	428a      	cmp	r2, r1
+  3a:	9308      	str	r3, [sp, #32]
+  3c:	f040 8092 	bne.w	164 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x164>
+  40:	f7ff fffe 	bl	0 <micros>
+  44:	8ca3      	ldrh	r3, [r4, #36]	; 0x24
+  46:	1ac3      	subs	r3, r0, r3
+  48:	b29b      	uxth	r3, r3
+  4a:	2b31      	cmp	r3, #49	; 0x31
+  4c:	d9f8      	bls.n	40 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x40>
+  4e:	f8bd 3018 	ldrh.w	r3, [sp, #24]
+  52:	4620      	mov	r0, r4
+  54:	9902      	ldr	r1, [sp, #8]
+  56:	f8ad 3034 	strh.w	r3, [sp, #52]	; 0x34
+  5a:	f8bd 301a 	ldrh.w	r3, [sp, #26]
+  5e:	9a05      	ldr	r2, [sp, #20]
+  60:	f8ad 3036 	strh.w	r3, [sp, #54]	; 0x36
+  64:	9b03      	ldr	r3, [sp, #12]
+  66:	9109      	str	r1, [sp, #36]	; 0x24
+  68:	f89d 101d 	ldrb.w	r1, [sp, #29]
+  6c:	920c      	str	r2, [sp, #48]	; 0x30
+  6e:	f89d 201c 	ldrb.w	r2, [sp, #28]
+  72:	f88d 1039 	strb.w	r1, [sp, #57]	; 0x39
+  76:	a909      	add	r1, sp, #36	; 0x24
+  78:	f88d 2038 	strb.w	r2, [sp, #56]	; 0x38
+  7c:	e9cd 330a 	strd	r3, r3, [sp, #40]	; 0x28
+  80:	9b08      	ldr	r3, [sp, #32]
+  82:	930f      	str	r3, [sp, #60]	; 0x3c
+  84:	f7ff fffe 	bl	0 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_>
+  88:	2800      	cmp	r0, #0
+  8a:	d12e      	bne.n	ea <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0xea>
+  8c:	b662      	cpsie	i
+  8e:	4939      	ldr	r1, [pc, #228]	; (174 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x174>)
+  90:	f04f 0c32 	mov.w	ip, #50	; 0x32
+  94:	4a38      	ldr	r2, [pc, #224]	; (178 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x178>)
+  96:	4b39      	ldr	r3, [pc, #228]	; (17c <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x17c>)
+  98:	6848      	ldr	r0, [r1, #4]
+  9a:	6812      	ldr	r2, [r2, #0]
+  9c:	fba3 3202 	umull	r3, r2, r3, r2
+  a0:	0c92      	lsrs	r2, r2, #18
+  a2:	fb0c f202 	mul.w	r2, ip, r2
+  a6:	684b      	ldr	r3, [r1, #4]
+  a8:	1a1b      	subs	r3, r3, r0
+  aa:	429a      	cmp	r2, r3
+  ac:	d8fb      	bhi.n	a6 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0xa6>
+  ae:	b672      	cpsid	i
+  b0:	9a05      	ldr	r2, [sp, #20]
+  b2:	a909      	add	r1, sp, #36	; 0x24
+  b4:	f89d 001d 	ldrb.w	r0, [sp, #29]
+  b8:	920c      	str	r2, [sp, #48]	; 0x30
+  ba:	f8bd 2018 	ldrh.w	r2, [sp, #24]
+  be:	f89d 301c 	ldrb.w	r3, [sp, #28]
+  c2:	f8ad 2034 	strh.w	r2, [sp, #52]	; 0x34
+  c6:	9a02      	ldr	r2, [sp, #8]
+  c8:	f88d 0039 	strb.w	r0, [sp, #57]	; 0x39
+  cc:	9808      	ldr	r0, [sp, #32]
+  ce:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+  d2:	9209      	str	r2, [sp, #36]	; 0x24
+  d4:	9b03      	ldr	r3, [sp, #12]
+  d6:	f8bd 201a 	ldrh.w	r2, [sp, #26]
+  da:	900f      	str	r0, [sp, #60]	; 0x3c
+  dc:	4620      	mov	r0, r4
+  de:	930a      	str	r3, [sp, #40]	; 0x28
+  e0:	930b      	str	r3, [sp, #44]	; 0x2c
+  e2:	f8ad 2036 	strh.w	r2, [sp, #54]	; 0x36
+  e6:	f7ff fffe 	bl	0 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_>
+  ea:	f7ff fffe 	bl	0 <micros>
+  ee:	84a0      	strh	r0, [r4, #36]	; 0x24
+  f0:	b010      	add	sp, #64	; 0x40
+  f2:	bd70      	pop	{r4, r5, r6, pc}
+  f4:	4a22      	ldr	r2, [pc, #136]	; (180 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x180>)
+  f6:	f10d 0517 	add.w	r5, sp, #23
+  fa:	f44f 7680 	mov.w	r6, #256	; 0x100
+  fe:	7813      	ldrb	r3, [r2, #0]
+ 100:	3301      	adds	r3, #1
+ 102:	f003 0307 	and.w	r3, r3, #7
+ 106:	01d9      	lsls	r1, r3, #7
+ 108:	7013      	strb	r3, [r2, #0]
+ 10a:	079a      	lsls	r2, r3, #30
+ 10c:	b2c9      	uxtb	r1, r1
+ 10e:	bf48      	it	mi
+ 110:	f041 0140 	orrmi.w	r1, r1, #64	; 0x40
+ 114:	075b      	lsls	r3, r3, #29
+ 116:	ab05      	add	r3, sp, #20
+ 118:	bf48      	it	mi
+ 11a:	f041 0120 	orrmi.w	r1, r1, #32
+ 11e:	799a      	ldrb	r2, [r3, #6]
+ 120:	3110      	adds	r1, #16
+ 122:	b2c9      	uxtb	r1, r1
+ 124:	b1da      	cbz	r2, 15e <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x15e>
+ 126:	fbb6 f2f2 	udiv	r2, r6, r2
+ 12a:	b2d2      	uxtb	r2, r2
+ 12c:	1c50      	adds	r0, r2, #1
+ 12e:	b2c0      	uxtb	r0, r0
+ 130:	fb00 1c01 	mla	ip, r0, r1, r1
+ 134:	70d8      	strb	r0, [r3, #3]
+ 136:	f3cc 2e07 	ubfx	lr, ip, #8, #8
+ 13a:	ea5f 2c2c 	movs.w	ip, ip, asr #8
+ 13e:	f10e 3eff 	add.w	lr, lr, #4294967295	; 0xffffffff
+ 142:	bf0c      	ite	eq
+ 144:	f883 c000 	strbeq.w	ip, [r3]
+ 148:	f883 e000 	strbne.w	lr, [r3]
+ 14c:	b100      	cbz	r0, 150 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x150>
+ 14e:	70da      	strb	r2, [r3, #3]
+ 150:	3301      	adds	r3, #1
+ 152:	429d      	cmp	r5, r3
+ 154:	f43f af6a 	beq.w	2c <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x2c>
+ 158:	799a      	ldrb	r2, [r3, #6]
+ 15a:	2a00      	cmp	r2, #0
+ 15c:	d1e3      	bne.n	126 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x126>
+ 15e:	70da      	strb	r2, [r3, #3]
+ 160:	701a      	strb	r2, [r3, #0]
+ 162:	e7f5      	b.n	150 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE9showColorERK4CRGBiS2_+0x150>
+ 164:	a902      	add	r1, sp, #8
+ 166:	4620      	mov	r0, r4
+ 168:	4790      	blx	r2
+ 16a:	b010      	add	sp, #64	; 0x40
+ 16c:	bd70      	pop	{r4, r5, r6, pc}
+ 16e:	bf00      	nop
+ 170:	00000000 	.word	0x00000000
+ 174:	e0001000 	.word	0xe0001000
+ 178:	00000000 	.word	0x00000000
+ 17c:	431bde83 	.word	0x431bde83
+ 180:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_:
+
+00000000 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	b091      	sub	sp, #68	; 0x44
+   4:	4604      	mov	r4, r0
+   6:	9301      	str	r3, [sp, #4]
+   8:	ea82 73e2 	eor.w	r3, r2, r2, asr #31
+   c:	9102      	str	r1, [sp, #8]
+   e:	f8bd 1004 	ldrh.w	r1, [sp, #4]
+  12:	eba3 73e2 	sub.w	r3, r3, r2, asr #31
+  16:	f8ad 101a 	strh.w	r1, [sp, #26]
+  1a:	7c81      	ldrb	r1, [r0, #18]
+  1c:	e9cd 3303 	strd	r3, r3, [sp, #12]
+  20:	2901      	cmp	r1, #1
+  22:	f89d 3006 	ldrb.w	r3, [sp, #6]
+  26:	f88d 301c 	strb.w	r3, [sp, #28]
+  2a:	d06b      	beq.n	104 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x104>
+  2c:	2300      	movs	r3, #0
+  2e:	9305      	str	r3, [sp, #20]
+  30:	f8ad 3018 	strh.w	r3, [sp, #24]
+  34:	6823      	ldr	r3, [r4, #0]
+  36:	2a00      	cmp	r2, #0
+  38:	4a51      	ldr	r2, [pc, #324]	; (180 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x180>)
+  3a:	f04f 0100 	mov.w	r1, #0
+  3e:	6a5b      	ldr	r3, [r3, #36]	; 0x24
+  40:	bfb4      	ite	lt
+  42:	f06f 0002 	mvnlt.w	r0, #2
+  46:	2003      	movge	r0, #3
+  48:	9108      	str	r1, [sp, #32]
+  4a:	4293      	cmp	r3, r2
+  4c:	f88d 001d 	strb.w	r0, [sp, #29]
+  50:	f040 8090 	bne.w	174 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x174>
+  54:	f7ff fffe 	bl	0 <micros>
+  58:	8ca3      	ldrh	r3, [r4, #36]	; 0x24
+  5a:	1ac3      	subs	r3, r0, r3
+  5c:	b29b      	uxth	r3, r3
+  5e:	2b31      	cmp	r3, #49	; 0x31
+  60:	d9f8      	bls.n	54 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x54>
+  62:	f8bd 3018 	ldrh.w	r3, [sp, #24]
+  66:	4620      	mov	r0, r4
+  68:	9902      	ldr	r1, [sp, #8]
+  6a:	f8ad 3034 	strh.w	r3, [sp, #52]	; 0x34
+  6e:	f8bd 301a 	ldrh.w	r3, [sp, #26]
+  72:	9a05      	ldr	r2, [sp, #20]
+  74:	f8ad 3036 	strh.w	r3, [sp, #54]	; 0x36
+  78:	9b03      	ldr	r3, [sp, #12]
+  7a:	9109      	str	r1, [sp, #36]	; 0x24
+  7c:	f89d 101d 	ldrb.w	r1, [sp, #29]
+  80:	920c      	str	r2, [sp, #48]	; 0x30
+  82:	f89d 201c 	ldrb.w	r2, [sp, #28]
+  86:	f88d 1039 	strb.w	r1, [sp, #57]	; 0x39
+  8a:	a909      	add	r1, sp, #36	; 0x24
+  8c:	f88d 2038 	strb.w	r2, [sp, #56]	; 0x38
+  90:	e9cd 330a 	strd	r3, r3, [sp, #40]	; 0x28
+  94:	9b08      	ldr	r3, [sp, #32]
+  96:	930f      	str	r3, [sp, #60]	; 0x3c
+  98:	f7ff fffe 	bl	0 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_>
+  9c:	bb68      	cbnz	r0, fa <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0xfa>
+  9e:	b662      	cpsie	i
+  a0:	4938      	ldr	r1, [pc, #224]	; (184 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x184>)
+  a2:	2532      	movs	r5, #50	; 0x32
+  a4:	4a38      	ldr	r2, [pc, #224]	; (188 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x188>)
+  a6:	4b39      	ldr	r3, [pc, #228]	; (18c <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x18c>)
+  a8:	6848      	ldr	r0, [r1, #4]
+  aa:	6812      	ldr	r2, [r2, #0]
+  ac:	fba3 3202 	umull	r3, r2, r3, r2
+  b0:	0c92      	lsrs	r2, r2, #18
+  b2:	fb05 f202 	mul.w	r2, r5, r2
+  b6:	684b      	ldr	r3, [r1, #4]
+  b8:	1a1b      	subs	r3, r3, r0
+  ba:	429a      	cmp	r2, r3
+  bc:	d8fb      	bhi.n	b6 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0xb6>
+  be:	b672      	cpsid	i
+  c0:	9a05      	ldr	r2, [sp, #20]
+  c2:	a909      	add	r1, sp, #36	; 0x24
+  c4:	f89d 001d 	ldrb.w	r0, [sp, #29]
+  c8:	920c      	str	r2, [sp, #48]	; 0x30
+  ca:	f8bd 2018 	ldrh.w	r2, [sp, #24]
+  ce:	f89d 301c 	ldrb.w	r3, [sp, #28]
+  d2:	f8ad 2034 	strh.w	r2, [sp, #52]	; 0x34
+  d6:	9a02      	ldr	r2, [sp, #8]
+  d8:	f88d 0039 	strb.w	r0, [sp, #57]	; 0x39
+  dc:	9808      	ldr	r0, [sp, #32]
+  de:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+  e2:	9209      	str	r2, [sp, #36]	; 0x24
+  e4:	9b03      	ldr	r3, [sp, #12]
+  e6:	f8bd 201a 	ldrh.w	r2, [sp, #26]
+  ea:	900f      	str	r0, [sp, #60]	; 0x3c
+  ec:	4620      	mov	r0, r4
+  ee:	930a      	str	r3, [sp, #40]	; 0x28
+  f0:	930b      	str	r3, [sp, #44]	; 0x2c
+  f2:	f8ad 2036 	strh.w	r2, [sp, #54]	; 0x36
+  f6:	f7ff fffe 	bl	0 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_>
+  fa:	f7ff fffe 	bl	0 <micros>
+  fe:	84a0      	strh	r0, [r4, #36]	; 0x24
+ 100:	b011      	add	sp, #68	; 0x44
+ 102:	bdf0      	pop	{r4, r5, r6, r7, pc}
+ 104:	4922      	ldr	r1, [pc, #136]	; (190 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x190>)
+ 106:	f10d 0617 	add.w	r6, sp, #23
+ 10a:	f44f 7780 	mov.w	r7, #256	; 0x100
+ 10e:	780b      	ldrb	r3, [r1, #0]
+ 110:	3301      	adds	r3, #1
+ 112:	f003 0307 	and.w	r3, r3, #7
+ 116:	01d8      	lsls	r0, r3, #7
+ 118:	700b      	strb	r3, [r1, #0]
+ 11a:	0799      	lsls	r1, r3, #30
+ 11c:	b2c0      	uxtb	r0, r0
+ 11e:	bf48      	it	mi
+ 120:	f040 0040 	orrmi.w	r0, r0, #64	; 0x40
+ 124:	075b      	lsls	r3, r3, #29
+ 126:	ab05      	add	r3, sp, #20
+ 128:	bf48      	it	mi
+ 12a:	f040 0020 	orrmi.w	r0, r0, #32
+ 12e:	7999      	ldrb	r1, [r3, #6]
+ 130:	3010      	adds	r0, #16
+ 132:	b2c0      	uxtb	r0, r0
+ 134:	b1d9      	cbz	r1, 16e <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x16e>
+ 136:	fbb7 f1f1 	udiv	r1, r7, r1
+ 13a:	b2c9      	uxtb	r1, r1
+ 13c:	1c4d      	adds	r5, r1, #1
+ 13e:	b2ed      	uxtb	r5, r5
+ 140:	fb05 0c00 	mla	ip, r5, r0, r0
+ 144:	70dd      	strb	r5, [r3, #3]
+ 146:	f3cc 2e07 	ubfx	lr, ip, #8, #8
+ 14a:	ea5f 2c2c 	movs.w	ip, ip, asr #8
+ 14e:	f10e 3eff 	add.w	lr, lr, #4294967295	; 0xffffffff
+ 152:	bf0c      	ite	eq
+ 154:	f883 c000 	strbeq.w	ip, [r3]
+ 158:	f883 e000 	strbne.w	lr, [r3]
+ 15c:	b105      	cbz	r5, 160 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x160>
+ 15e:	70d9      	strb	r1, [r3, #3]
+ 160:	3301      	adds	r3, #1
+ 162:	42b3      	cmp	r3, r6
+ 164:	f43f af66 	beq.w	34 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x34>
+ 168:	7999      	ldrb	r1, [r3, #6]
+ 16a:	2900      	cmp	r1, #0
+ 16c:	d1e3      	bne.n	136 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x136>
+ 16e:	70d9      	strb	r1, [r3, #3]
+ 170:	7019      	strb	r1, [r3, #0]
+ 172:	e7f5      	b.n	160 <_ZN19CPixelLEDControllerIL6EOrder66ELi1ELm4294967295EE4showEPK4CRGBiS2_+0x160>
+ 174:	a902      	add	r1, sp, #8
+ 176:	4620      	mov	r0, r4
+ 178:	4798      	blx	r3
+ 17a:	b011      	add	sp, #68	; 0x44
+ 17c:	bdf0      	pop	{r4, r5, r6, r7, pc}
+ 17e:	bf00      	nop
+ 180:	00000000 	.word	0x00000000
+ 184:	e0001000 	.word	0xe0001000
+ 188:	00000000 	.word	0x00000000
+ 18c:	431bde83 	.word	0x431bde83
+ 190:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN14CLEDController9clearLedsEi:
+
+00000000 <_ZN14CLEDController9clearLedsEi>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	2300      	movs	r3, #0
+   4:	b090      	sub	sp, #64	; 0x40
+   6:	6802      	ldr	r2, [r0, #0]
+   8:	4e60      	ldr	r6, [pc, #384]	; (18c <_ZN14CLEDController9clearLedsEi+0x18c>)
+   a:	f8ad 3004 	strh.w	r3, [sp, #4]
+   e:	f88d 3006 	strb.w	r3, [sp, #6]
+  12:	6815      	ldr	r5, [r2, #0]
+  14:	42b5      	cmp	r5, r6
+  16:	d16f      	bne.n	f8 <_ZN14CLEDController9clearLedsEi+0xf8>
+  18:	4604      	mov	r4, r0
+  1a:	7c80      	ldrb	r0, [r0, #18]
+  1c:	f8ad 301a 	strh.w	r3, [sp, #26]
+  20:	2801      	cmp	r0, #1
+  22:	f88d 301c 	strb.w	r3, [sp, #28]
+  26:	e9cd 1103 	strd	r1, r1, [sp, #12]
+  2a:	a901      	add	r1, sp, #4
+  2c:	9102      	str	r1, [sp, #8]
+  2e:	d06d      	beq.n	10c <_ZN14CLEDController9clearLedsEi+0x10c>
+  30:	9305      	str	r3, [sp, #20]
+  32:	f8ad 3018 	strh.w	r3, [sp, #24]
+  36:	6a52      	ldr	r2, [r2, #36]	; 0x24
+  38:	2300      	movs	r3, #0
+  3a:	4955      	ldr	r1, [pc, #340]	; (190 <_ZN14CLEDController9clearLedsEi+0x190>)
+  3c:	f88d 301d 	strb.w	r3, [sp, #29]
+  40:	428a      	cmp	r2, r1
+  42:	9308      	str	r3, [sp, #32]
+  44:	f040 809c 	bne.w	180 <_ZN14CLEDController9clearLedsEi+0x180>
+  48:	f7ff fffe 	bl	0 <micros>
+  4c:	8ca3      	ldrh	r3, [r4, #36]	; 0x24
+  4e:	1ac3      	subs	r3, r0, r3
+  50:	b29b      	uxth	r3, r3
+  52:	2b31      	cmp	r3, #49	; 0x31
+  54:	d9f8      	bls.n	48 <_ZN14CLEDController9clearLedsEi+0x48>
+  56:	f8bd 3018 	ldrh.w	r3, [sp, #24]
+  5a:	4620      	mov	r0, r4
+  5c:	9902      	ldr	r1, [sp, #8]
+  5e:	f8ad 3034 	strh.w	r3, [sp, #52]	; 0x34
+  62:	f8bd 301a 	ldrh.w	r3, [sp, #26]
+  66:	9a05      	ldr	r2, [sp, #20]
+  68:	f8ad 3036 	strh.w	r3, [sp, #54]	; 0x36
+  6c:	9b03      	ldr	r3, [sp, #12]
+  6e:	9109      	str	r1, [sp, #36]	; 0x24
+  70:	f89d 101d 	ldrb.w	r1, [sp, #29]
+  74:	920c      	str	r2, [sp, #48]	; 0x30
+  76:	f89d 201c 	ldrb.w	r2, [sp, #28]
+  7a:	f88d 1039 	strb.w	r1, [sp, #57]	; 0x39
+  7e:	a909      	add	r1, sp, #36	; 0x24
+  80:	f88d 2038 	strb.w	r2, [sp, #56]	; 0x38
+  84:	e9cd 330a 	strd	r3, r3, [sp, #40]	; 0x28
+  88:	9b08      	ldr	r3, [sp, #32]
+  8a:	930f      	str	r3, [sp, #60]	; 0x3c
+  8c:	f7ff fffe 	bl	0 <_ZN14CLEDController9clearLedsEi>
+  90:	bb68      	cbnz	r0, ee <_ZN14CLEDController9clearLedsEi+0xee>
+  92:	b662      	cpsie	i
+  94:	493f      	ldr	r1, [pc, #252]	; (194 <_ZN14CLEDController9clearLedsEi+0x194>)
+  96:	2532      	movs	r5, #50	; 0x32
+  98:	4a3f      	ldr	r2, [pc, #252]	; (198 <_ZN14CLEDController9clearLedsEi+0x198>)
+  9a:	4b40      	ldr	r3, [pc, #256]	; (19c <_ZN14CLEDController9clearLedsEi+0x19c>)
+  9c:	6848      	ldr	r0, [r1, #4]
+  9e:	6812      	ldr	r2, [r2, #0]
+  a0:	fba3 3202 	umull	r3, r2, r3, r2
+  a4:	0c92      	lsrs	r2, r2, #18
+  a6:	fb05 f202 	mul.w	r2, r5, r2
+  aa:	684b      	ldr	r3, [r1, #4]
+  ac:	1a1b      	subs	r3, r3, r0
+  ae:	429a      	cmp	r2, r3
+  b0:	d8fb      	bhi.n	aa <_ZN14CLEDController9clearLedsEi+0xaa>
+  b2:	b672      	cpsid	i
+  b4:	9a05      	ldr	r2, [sp, #20]
+  b6:	a909      	add	r1, sp, #36	; 0x24
+  b8:	f89d 001d 	ldrb.w	r0, [sp, #29]
+  bc:	920c      	str	r2, [sp, #48]	; 0x30
+  be:	f8bd 2018 	ldrh.w	r2, [sp, #24]
+  c2:	f89d 301c 	ldrb.w	r3, [sp, #28]
+  c6:	f8ad 2034 	strh.w	r2, [sp, #52]	; 0x34
+  ca:	9a02      	ldr	r2, [sp, #8]
+  cc:	f88d 0039 	strb.w	r0, [sp, #57]	; 0x39
+  d0:	9808      	ldr	r0, [sp, #32]
+  d2:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+  d6:	9209      	str	r2, [sp, #36]	; 0x24
+  d8:	9b03      	ldr	r3, [sp, #12]
+  da:	f8bd 201a 	ldrh.w	r2, [sp, #26]
+  de:	900f      	str	r0, [sp, #60]	; 0x3c
+  e0:	4620      	mov	r0, r4
+  e2:	930a      	str	r3, [sp, #40]	; 0x28
+  e4:	930b      	str	r3, [sp, #44]	; 0x2c
+  e6:	f8ad 2036 	strh.w	r2, [sp, #54]	; 0x36
+  ea:	f7ff fffe 	bl	0 <_ZN14CLEDController9clearLedsEi>
+  ee:	f7ff fffe 	bl	0 <micros>
+  f2:	84a0      	strh	r0, [r4, #36]	; 0x24
+  f4:	b010      	add	sp, #64	; 0x40
+  f6:	bd70      	pop	{r4, r5, r6, pc}
+  f8:	f8ad 3024 	strh.w	r3, [sp, #36]	; 0x24
+  fc:	460a      	mov	r2, r1
+  fe:	f88d 3026 	strb.w	r3, [sp, #38]	; 0x26
+ 102:	a901      	add	r1, sp, #4
+ 104:	9b09      	ldr	r3, [sp, #36]	; 0x24
+ 106:	47a8      	blx	r5
+ 108:	b010      	add	sp, #64	; 0x40
+ 10a:	bd70      	pop	{r4, r5, r6, pc}
+ 10c:	4a24      	ldr	r2, [pc, #144]	; (1a0 <_ZN14CLEDController9clearLedsEi+0x1a0>)
+ 10e:	f10d 0c17 	add.w	ip, sp, #23
+ 112:	f44f 7e80 	mov.w	lr, #256	; 0x100
+ 116:	7813      	ldrb	r3, [r2, #0]
+ 118:	3301      	adds	r3, #1
+ 11a:	f003 0307 	and.w	r3, r3, #7
+ 11e:	01d9      	lsls	r1, r3, #7
+ 120:	7013      	strb	r3, [r2, #0]
+ 122:	079a      	lsls	r2, r3, #30
+ 124:	f04f 0200 	mov.w	r2, #0
+ 128:	b2c9      	uxtb	r1, r1
+ 12a:	bf48      	it	mi
+ 12c:	f041 0140 	orrmi.w	r1, r1, #64	; 0x40
+ 130:	075b      	lsls	r3, r3, #29
+ 132:	ab05      	add	r3, sp, #20
+ 134:	bf48      	it	mi
+ 136:	f041 0120 	orrmi.w	r1, r1, #32
+ 13a:	3110      	adds	r1, #16
+ 13c:	b2c9      	uxtb	r1, r1
+ 13e:	b1ba      	cbz	r2, 170 <_ZN14CLEDController9clearLedsEi+0x170>
+ 140:	fbbe f2f2 	udiv	r2, lr, r2
+ 144:	b2d2      	uxtb	r2, r2
+ 146:	1c50      	adds	r0, r2, #1
+ 148:	b2c0      	uxtb	r0, r0
+ 14a:	fb00 1501 	mla	r5, r0, r1, r1
+ 14e:	70d8      	strb	r0, [r3, #3]
+ 150:	f3c5 2607 	ubfx	r6, r5, #8, #8
+ 154:	122d      	asrs	r5, r5, #8
+ 156:	f106 36ff 	add.w	r6, r6, #4294967295	; 0xffffffff
+ 15a:	bf0c      	ite	eq
+ 15c:	701d      	strbeq	r5, [r3, #0]
+ 15e:	701e      	strbne	r6, [r3, #0]
+ 160:	b100      	cbz	r0, 164 <_ZN14CLEDController9clearLedsEi+0x164>
+ 162:	70da      	strb	r2, [r3, #3]
+ 164:	3301      	adds	r3, #1
+ 166:	4563      	cmp	r3, ip
+ 168:	d008      	beq.n	17c <_ZN14CLEDController9clearLedsEi+0x17c>
+ 16a:	799a      	ldrb	r2, [r3, #6]
+ 16c:	2a00      	cmp	r2, #0
+ 16e:	d1e7      	bne.n	140 <_ZN14CLEDController9clearLedsEi+0x140>
+ 170:	70da      	strb	r2, [r3, #3]
+ 172:	3301      	adds	r3, #1
+ 174:	f803 2c01 	strb.w	r2, [r3, #-1]
+ 178:	4563      	cmp	r3, ip
+ 17a:	d1f6      	bne.n	16a <_ZN14CLEDController9clearLedsEi+0x16a>
+ 17c:	6822      	ldr	r2, [r4, #0]
+ 17e:	e75a      	b.n	36 <_ZN14CLEDController9clearLedsEi+0x36>
+ 180:	a902      	add	r1, sp, #8
+ 182:	4620      	mov	r0, r4
+ 184:	4790      	blx	r2
+ 186:	b010      	add	sp, #64	; 0x40
+ 188:	bd70      	pop	{r4, r5, r6, pc}
+ 18a:	bf00      	nop
+ 18c:	00000000 	.word	0x00000000
+ 190:	00000000 	.word	0x00000000
+ 194:	e0001000 	.word	0xe0001000
+ 198:	00000000 	.word	0x00000000
+ 19c:	431bde83 	.word	0x431bde83
+ 1a0:	00000000 	.word	0x00000000

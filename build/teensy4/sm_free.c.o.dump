@@ -1,0 +1,104 @@
+
+build/./teensy4/sm_free.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 sm_free.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.sm_free_pool	00000000 .text.sm_free_pool
+00000000 l    d  .text.sm_free	00000000 .text.sm_free
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.sm_free_pool	0000007c sm_free_pool
+00000000         *UND*	00000000 smalloc_verify_pool
+00000000         *UND*	00000000 smalloc_is_alloc
+00000000         *UND*	00000000 __errno
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 smalloc_UB
+00000000 g     F .text.sm_free	0000000c sm_free
+00000000         *UND*	00000000 smalloc_curr_pool
+
+
+Contents of section .text.sm_free_pool:
+ 0000 70b50546 0c46fff7 feff70b1 8cb1a4f1  p..F.F....p.....
+ 0010 0c062846 3146fff7 feff58b9 164b2146  ..(F1F....X..K!F
+ 0020 28461b68 bde87040 1847fff7 feff1623  (F.h..p@.G.....#
+ 0030 036070bd ab6873b9 54f8083c 0021e018  .`p..hs.T..<.!..
+ 0040 e1504160 8160ab68 63b90023 44f80c3c  .PA`.`.hc..#D..<
+ 0050 7360b360 70bd54f8 0c2c0021 2046fff7  s`.`p.T..,.! F..
+ 0060 feffe9e7 54f80c2c 0c3054f8 083cd21a  ....T..,.0T..<..
+ 0070 fff7feff e9e700bf 00000000           ............    
+Contents of section .text.sm_free:
+ 0000 01460148 fff7febf 00000000           .F.H........    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.sm_free_pool:
+
+00000000 <sm_free_pool>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4605      	mov	r5, r0
+   4:	460c      	mov	r4, r1
+   6:	f7ff fffe 	bl	0 <smalloc_verify_pool>
+   a:	b170      	cbz	r0, 2a <sm_free_pool+0x2a>
+   c:	b18c      	cbz	r4, 32 <sm_free_pool+0x32>
+   e:	f1a4 060c 	sub.w	r6, r4, #12
+  12:	4628      	mov	r0, r5
+  14:	4631      	mov	r1, r6
+  16:	f7ff fffe 	bl	0 <smalloc_is_alloc>
+  1a:	b958      	cbnz	r0, 34 <sm_free_pool+0x34>
+  1c:	4b16      	ldr	r3, [pc, #88]	; (78 <sm_free_pool+0x78>)
+  1e:	4621      	mov	r1, r4
+  20:	4628      	mov	r0, r5
+  22:	681b      	ldr	r3, [r3, #0]
+  24:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  28:	4718      	bx	r3
+  2a:	f7ff fffe 	bl	0 <__errno>
+  2e:	2316      	movs	r3, #22
+  30:	6003      	str	r3, [r0, #0]
+  32:	bd70      	pop	{r4, r5, r6, pc}
+  34:	68ab      	ldr	r3, [r5, #8]
+  36:	b973      	cbnz	r3, 56 <sm_free_pool+0x56>
+  38:	f854 3c08 	ldr.w	r3, [r4, #-8]
+  3c:	2100      	movs	r1, #0
+  3e:	18e0      	adds	r0, r4, r3
+  40:	50e1      	str	r1, [r4, r3]
+  42:	6041      	str	r1, [r0, #4]
+  44:	6081      	str	r1, [r0, #8]
+  46:	68ab      	ldr	r3, [r5, #8]
+  48:	b963      	cbnz	r3, 64 <sm_free_pool+0x64>
+  4a:	2300      	movs	r3, #0
+  4c:	f844 3c0c 	str.w	r3, [r4, #-12]
+  50:	6073      	str	r3, [r6, #4]
+  52:	60b3      	str	r3, [r6, #8]
+  54:	bd70      	pop	{r4, r5, r6, pc}
+  56:	f854 2c0c 	ldr.w	r2, [r4, #-12]
+  5a:	2100      	movs	r1, #0
+  5c:	4620      	mov	r0, r4
+  5e:	f7ff fffe 	bl	0 <memset>
+  62:	e7e9      	b.n	38 <sm_free_pool+0x38>
+  64:	f854 2c0c 	ldr.w	r2, [r4, #-12]
+  68:	300c      	adds	r0, #12
+  6a:	f854 3c08 	ldr.w	r3, [r4, #-8]
+  6e:	1ad2      	subs	r2, r2, r3
+  70:	f7ff fffe 	bl	0 <memset>
+  74:	e7e9      	b.n	4a <sm_free_pool+0x4a>
+  76:	bf00      	nop
+  78:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sm_free:
+
+00000000 <sm_free>:
+   0:	4601      	mov	r1, r0
+   2:	4801      	ldr	r0, [pc, #4]	; (8 <sm_free+0x8>)
+   4:	f7ff bffe 	b.w	0 <sm_free>
+   8:	00000000 	.word	0x00000000

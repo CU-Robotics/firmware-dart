@@ -1,0 +1,204 @@
+
+build/./libraries/SdFat/src/common/FsUtf.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FsUtf.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN5FsUtf6cpToMbEmPcS0_	00000000 .text._ZN5FsUtf6cpToMbEmPcS0_
+00000000 l    d  .text._ZN5FsUtf6mbToCpEPKcS1_Pm	00000000 .text._ZN5FsUtf6mbToCpEPKcS1_Pm
+00000000 l    d  .text._ZN5FsUtf7mbToU16EPKcS1_PtS2_	00000000 .text._ZN5FsUtf7mbToU16EPKcS1_PtS2_
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN5FsUtf6cpToMbEmPcS0_	000000a4 _ZN5FsUtf6cpToMbEmPcS0_
+00000000 g     F .text._ZN5FsUtf6mbToCpEPKcS1_Pm	00000098 _ZN5FsUtf6mbToCpEPKcS1_Pm
+00000000 g     F .text._ZN5FsUtf7mbToU16EPKcS1_PtS2_	00000038 _ZN5FsUtf7mbToU16EPKcS1_PtS2_
+
+
+Contents of section .text._ZN5FsUtf6cpToMbEmPcS0_:
+ 0000 7f28a2eb 010205d8 12b10a46 02f8010b  .(.........F....
+ 0010 10467047 b0f5006f 0fd2012a 40d94fea  .FpG...o...*@.O.
+ 0020 901c00f0 3f030a46 6cf03f00 63f07f03  ....?..Fl.?.c...
+ 0030 02f8020b 10464b70 7047b0f5 803f16d2  .....FKppG...?..
+ 0040 022a2dd9 c0f3851c 00f03f03 ca1c63f0  .*-.......?...c.
+ 0050 7f0300b5 4fea103e 6cf07f00 8b706ef0  ....O..>l....pn.
+ 0060 1f0e4870 104681f8 00e05df8 04fb032a  ..Hp.F....]....*
+ 0070 16d94fea 904cc0f3 0532c0f3 851300f0  ..O..L...2......
+ 0080 3f0062f0 7f026cf0 0f0c63f0 7f0360f0  ?.b...l...c...`.
+ 0090 7f004a70 0a1dc870 81f800c0 8b70b7e7  ..Jp...p.....p..
+ 00a0 0022b5e7                             ."..            
+Contents of section .text._ZN5FsUtf6mbToCpEPKcS1_Pm:
+ 0000 88423dd2 034610b4 90f90000 1c780028  .B=..F.......x.(
+ 0010 2dda04f0 e000c028 34d004f0 f000e028  -......(4......(
+ 0020 34d004f0 f800f028 26d104f0 07040420  4......(&...... 
+ 0030 18448842 20d80133 13f8011b 01f0c00c  .D.B ..3........
+ 0040 01f03f01 bcf1800f 41ea8414 14d18342  ..?.....A......B
+ 0050 f2d1a4f1 80010f4b 99420dd8 a4f55843  .......K.B....XC
+ 0060 b3f5006f 08d31460 5df8044b 7047581c  ...o...`]..KpGX.
+ 0070 14605df8 044b7047 00205df8 044b7047  .`]..KpG. ]..KpG
+ 0080 00207047 04f01f04 0220d1e7 04f00f04  . pG..... ......
+ 0090 0320cde7 7fff1000                    . ......        
+Contents of section .text._ZN5FsUtf7mbToU16EPKcS1_PtS2_:
+ 0000 30b583b0 15461c46 01aafff7 feff30b1  0....F.F......0.
+ 0010 0199b1f5 803f04d2 00232980 238003b0  .....?...#).#...
+ 0020 30bd8b0a c1f30901 a3f52153 a1f51051  0.........!S...Q
+ 0030 2b802180 03b030bd                    +.!...0.        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5FsUtf6cpToMbEmPcS0_:
+
+00000000 <_ZN5FsUtf6cpToMbEmPcS0_>:
+   0:	287f      	cmp	r0, #127	; 0x7f
+   2:	eba2 0201 	sub.w	r2, r2, r1
+   6:	d805      	bhi.n	14 <_ZN5FsUtf6cpToMbEmPcS0_+0x14>
+   8:	b112      	cbz	r2, 10 <_ZN5FsUtf6cpToMbEmPcS0_+0x10>
+   a:	460a      	mov	r2, r1
+   c:	f802 0b01 	strb.w	r0, [r2], #1
+  10:	4610      	mov	r0, r2
+  12:	4770      	bx	lr
+  14:	f5b0 6f00 	cmp.w	r0, #2048	; 0x800
+  18:	d20f      	bcs.n	3a <_ZN5FsUtf6cpToMbEmPcS0_+0x3a>
+  1a:	2a01      	cmp	r2, #1
+  1c:	d940      	bls.n	a0 <_ZN5FsUtf6cpToMbEmPcS0_+0xa0>
+  1e:	ea4f 1c90 	mov.w	ip, r0, lsr #6
+  22:	f000 033f 	and.w	r3, r0, #63	; 0x3f
+  26:	460a      	mov	r2, r1
+  28:	f06c 003f 	orn	r0, ip, #63	; 0x3f
+  2c:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  30:	f802 0b02 	strb.w	r0, [r2], #2
+  34:	4610      	mov	r0, r2
+  36:	704b      	strb	r3, [r1, #1]
+  38:	4770      	bx	lr
+  3a:	f5b0 3f80 	cmp.w	r0, #65536	; 0x10000
+  3e:	d216      	bcs.n	6e <_ZN5FsUtf6cpToMbEmPcS0_+0x6e>
+  40:	2a02      	cmp	r2, #2
+  42:	d92d      	bls.n	a0 <_ZN5FsUtf6cpToMbEmPcS0_+0xa0>
+  44:	f3c0 1c85 	ubfx	ip, r0, #6, #6
+  48:	f000 033f 	and.w	r3, r0, #63	; 0x3f
+  4c:	1cca      	adds	r2, r1, #3
+  4e:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  52:	b500      	push	{lr}
+  54:	ea4f 3e10 	mov.w	lr, r0, lsr #12
+  58:	f06c 007f 	orn	r0, ip, #127	; 0x7f
+  5c:	708b      	strb	r3, [r1, #2]
+  5e:	f06e 0e1f 	orn	lr, lr, #31
+  62:	7048      	strb	r0, [r1, #1]
+  64:	4610      	mov	r0, r2
+  66:	f881 e000 	strb.w	lr, [r1]
+  6a:	f85d fb04 	ldr.w	pc, [sp], #4
+  6e:	2a03      	cmp	r2, #3
+  70:	d916      	bls.n	a0 <_ZN5FsUtf6cpToMbEmPcS0_+0xa0>
+  72:	ea4f 4c90 	mov.w	ip, r0, lsr #18
+  76:	f3c0 3205 	ubfx	r2, r0, #12, #6
+  7a:	f3c0 1385 	ubfx	r3, r0, #6, #6
+  7e:	f000 003f 	and.w	r0, r0, #63	; 0x3f
+  82:	f062 027f 	orn	r2, r2, #127	; 0x7f
+  86:	f06c 0c0f 	orn	ip, ip, #15
+  8a:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  8e:	f060 007f 	orn	r0, r0, #127	; 0x7f
+  92:	704a      	strb	r2, [r1, #1]
+  94:	1d0a      	adds	r2, r1, #4
+  96:	70c8      	strb	r0, [r1, #3]
+  98:	f881 c000 	strb.w	ip, [r1]
+  9c:	708b      	strb	r3, [r1, #2]
+  9e:	e7b7      	b.n	10 <_ZN5FsUtf6cpToMbEmPcS0_+0x10>
+  a0:	2200      	movs	r2, #0
+  a2:	e7b5      	b.n	10 <_ZN5FsUtf6cpToMbEmPcS0_+0x10>
+
+Disassembly of section .text._ZN5FsUtf6mbToCpEPKcS1_Pm:
+
+00000000 <_ZN5FsUtf6mbToCpEPKcS1_Pm>:
+   0:	4288      	cmp	r0, r1
+   2:	d23d      	bcs.n	80 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x80>
+   4:	4603      	mov	r3, r0
+   6:	b410      	push	{r4}
+   8:	f990 0000 	ldrsb.w	r0, [r0]
+   c:	781c      	ldrb	r4, [r3, #0]
+   e:	2800      	cmp	r0, #0
+  10:	da2d      	bge.n	6e <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x6e>
+  12:	f004 00e0 	and.w	r0, r4, #224	; 0xe0
+  16:	28c0      	cmp	r0, #192	; 0xc0
+  18:	d034      	beq.n	84 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x84>
+  1a:	f004 00f0 	and.w	r0, r4, #240	; 0xf0
+  1e:	28e0      	cmp	r0, #224	; 0xe0
+  20:	d034      	beq.n	8c <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x8c>
+  22:	f004 00f8 	and.w	r0, r4, #248	; 0xf8
+  26:	28f0      	cmp	r0, #240	; 0xf0
+  28:	d126      	bne.n	78 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x78>
+  2a:	f004 0407 	and.w	r4, r4, #7
+  2e:	2004      	movs	r0, #4
+  30:	4418      	add	r0, r3
+  32:	4288      	cmp	r0, r1
+  34:	d820      	bhi.n	78 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x78>
+  36:	3301      	adds	r3, #1
+  38:	f813 1b01 	ldrb.w	r1, [r3], #1
+  3c:	f001 0cc0 	and.w	ip, r1, #192	; 0xc0
+  40:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+  44:	f1bc 0f80 	cmp.w	ip, #128	; 0x80
+  48:	ea41 1484 	orr.w	r4, r1, r4, lsl #6
+  4c:	d114      	bne.n	78 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x78>
+  4e:	4283      	cmp	r3, r0
+  50:	d1f2      	bne.n	38 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x38>
+  52:	f1a4 0180 	sub.w	r1, r4, #128	; 0x80
+  56:	4b0f      	ldr	r3, [pc, #60]	; (94 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x94>)
+  58:	4299      	cmp	r1, r3
+  5a:	d80d      	bhi.n	78 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x78>
+  5c:	f5a4 4358 	sub.w	r3, r4, #55296	; 0xd800
+  60:	f5b3 6f00 	cmp.w	r3, #2048	; 0x800
+  64:	d308      	bcc.n	78 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x78>
+  66:	6014      	str	r4, [r2, #0]
+  68:	f85d 4b04 	ldr.w	r4, [sp], #4
+  6c:	4770      	bx	lr
+  6e:	1c58      	adds	r0, r3, #1
+  70:	6014      	str	r4, [r2, #0]
+  72:	f85d 4b04 	ldr.w	r4, [sp], #4
+  76:	4770      	bx	lr
+  78:	2000      	movs	r0, #0
+  7a:	f85d 4b04 	ldr.w	r4, [sp], #4
+  7e:	4770      	bx	lr
+  80:	2000      	movs	r0, #0
+  82:	4770      	bx	lr
+  84:	f004 041f 	and.w	r4, r4, #31
+  88:	2002      	movs	r0, #2
+  8a:	e7d1      	b.n	30 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x30>
+  8c:	f004 040f 	and.w	r4, r4, #15
+  90:	2003      	movs	r0, #3
+  92:	e7cd      	b.n	30 <_ZN5FsUtf6mbToCpEPKcS1_Pm+0x30>
+  94:	0010ff7f 	.word	0x0010ff7f
+
+Disassembly of section .text._ZN5FsUtf7mbToU16EPKcS1_PtS2_:
+
+00000000 <_ZN5FsUtf7mbToU16EPKcS1_PtS2_>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b083      	sub	sp, #12
+   4:	4615      	mov	r5, r2
+   6:	461c      	mov	r4, r3
+   8:	aa01      	add	r2, sp, #4
+   a:	f7ff fffe 	bl	0 <_ZN5FsUtf7mbToU16EPKcS1_PtS2_>
+   e:	b130      	cbz	r0, 1e <_ZN5FsUtf7mbToU16EPKcS1_PtS2_+0x1e>
+  10:	9901      	ldr	r1, [sp, #4]
+  12:	f5b1 3f80 	cmp.w	r1, #65536	; 0x10000
+  16:	d204      	bcs.n	22 <_ZN5FsUtf7mbToU16EPKcS1_PtS2_+0x22>
+  18:	2300      	movs	r3, #0
+  1a:	8029      	strh	r1, [r5, #0]
+  1c:	8023      	strh	r3, [r4, #0]
+  1e:	b003      	add	sp, #12
+  20:	bd30      	pop	{r4, r5, pc}
+  22:	0a8b      	lsrs	r3, r1, #10
+  24:	f3c1 0109 	ubfx	r1, r1, #0, #10
+  28:	f5a3 5321 	sub.w	r3, r3, #10304	; 0x2840
+  2c:	f5a1 5110 	sub.w	r1, r1, #9216	; 0x2400
+  30:	802b      	strh	r3, [r5, #0]
+  32:	8021      	strh	r1, [r4, #0]
+  34:	b003      	add	sp, #12
+  36:	bd30      	pop	{r4, r5, pc}

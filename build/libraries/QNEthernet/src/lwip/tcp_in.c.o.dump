@@ -1,0 +1,2852 @@
+
+build/./libraries/QNEthernet/src/lwip/tcp_in.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 tcp_in.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.tcp_oos_insert_segment.str1.4	00000000 .rodata.tcp_oos_insert_segment.str1.4
+00000000 l    d  .text.tcp_oos_insert_segment	00000000 .text.tcp_oos_insert_segment
+00000000 l     F .text.tcp_oos_insert_segment	000000a0 tcp_oos_insert_segment
+00000000 l    d  .rodata.tcp_input_delayed_close.str1.4	00000000 .rodata.tcp_input_delayed_close.str1.4
+00000000 l    d  .text.tcp_input_delayed_close	00000000 .text.tcp_input_delayed_close
+00000000 l     F .text.tcp_input_delayed_close	0000006c tcp_input_delayed_close
+00000000 l    d  .rodata.tcp_free_acked_segments.constprop.0.str1.4	00000000 .rodata.tcp_free_acked_segments.constprop.0.str1.4
+00000000 l    d  .text.tcp_free_acked_segments.constprop.0	00000000 .text.tcp_free_acked_segments.constprop.0
+00000000 l     F .text.tcp_free_acked_segments.constprop.0	000000d8 tcp_free_acked_segments.constprop.0
+00000000 l    d  .rodata.tcp_receive.str1.4	00000000 .rodata.tcp_receive.str1.4
+00000000 l    d  .text.tcp_receive	00000000 .text.tcp_receive
+00000000 l     F .text.tcp_receive	00000870 tcp_receive
+00000000 l    d  .rodata.tcp_parseopt.str1.4	00000000 .rodata.tcp_parseopt.str1.4
+00000000 l    d  .text.tcp_parseopt	00000000 .text.tcp_parseopt
+00000000 l     F .text.tcp_parseopt	00000168 tcp_parseopt
+00000000 l    d  .rodata.tcp_input.str1.4	00000000 .rodata.tcp_input.str1.4
+00000000 l    d  .text.tcp_input	00000000 .text.tcp_input
+00000000 l    d  .text.tcp_trigger_input_pcb_close	00000000 .text.tcp_trigger_input_pcb_close
+00000000 l    d  .bss.ackno	00000000 .bss.ackno
+00000000 l     O .bss.ackno	00000004 ackno
+00000000 l    d  .bss.flags	00000000 .bss.flags
+00000000 l     O .bss.flags	00000001 flags
+00000000 l    d  .bss.inseg	00000000 .bss.inseg
+00000000 l     O .bss.inseg	00000010 inseg
+00000000 l    d  .bss.recv_acked	00000000 .bss.recv_acked
+00000000 l     O .bss.recv_acked	00000002 recv_acked
+00000000 l    d  .bss.recv_data	00000000 .bss.recv_data
+00000000 l     O .bss.recv_data	00000004 recv_data
+00000000 l    d  .bss.recv_flags	00000000 .bss.recv_flags
+00000000 l     O .bss.recv_flags	00000001 recv_flags
+00000000 l    d  .bss.seqno	00000000 .bss.seqno
+00000000 l     O .bss.seqno	00000004 seqno
+00000000 l    d  .bss.tcp_input_pcb	00000000 .bss.tcp_input_pcb
+00000000 l    d  .bss.tcp_optidx	00000000 .bss.tcp_optidx
+00000000 l     O .bss.tcp_optidx	00000002 tcp_optidx
+00000000 l    d  .bss.tcphdr	00000000 .bss.tcphdr
+00000000 l     O .bss.tcphdr	00000004 tcphdr
+00000000 l    d  .bss.tcphdr_opt1len	00000000 .bss.tcphdr_opt1len
+00000000 l     O .bss.tcphdr_opt1len	00000002 tcphdr_opt1len
+00000000 l    d  .bss.tcphdr_opt2	00000000 .bss.tcphdr_opt2
+00000000 l     O .bss.tcphdr_opt2	00000004 tcphdr_opt2
+00000000 l    d  .bss.tcphdr_optlen	00000000 .bss.tcphdr_optlen
+00000000 l     O .bss.tcphdr_optlen	00000002 tcphdr_optlen
+00000000 l    d  .bss.tcplen	00000000 .bss.tcplen
+00000000 l     O .bss.tcplen	00000002 tcplen
+00000000 l    d  .rodata.__FUNCTION__.0	00000000 .rodata.__FUNCTION__.0
+00000000 l     O .rodata.__FUNCTION__.0	0000000a __FUNCTION__.0
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 tcp_seg_free
+00000000         *UND*	00000000 pbuf_realloc
+00000000         *UND*	00000000 tcp_segs_free
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000         *UND*	00000000 tcp_pcb_remove
+00000000         *UND*	00000000 tcp_free
+00000000         *UND*	00000000 tcp_active_pcbs
+00000000         *UND*	00000000 pbuf_clen
+00000000         *UND*	00000000 pbuf_remove_header
+00000000         *UND*	00000000 tcp_send_empty_ack
+00000000         *UND*	00000000 tcp_ticks
+00000000         *UND*	00000000 tcp_seg_copy
+00000000         *UND*	00000000 tcp_rexmit_fast
+00000000         *UND*	00000000 tcp_update_rcv_ann_wnd
+00000000         *UND*	00000000 pbuf_cat
+00000000 g     F .text.tcp_input	00000b90 tcp_input
+00000000         *UND*	00000000 qnethernet_hal_check_core_locking
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 ip4_addr_isbroadcast_u32
+00000000         *UND*	00000000 ip_data
+00000000         *UND*	00000000 tcp_process_refused_data
+00000000         *UND*	00000000 tcp_output
+00000000         *UND*	00000000 tcp_rst_netif
+00000000         *UND*	00000000 tcp_tw_pcbs
+00000000         *UND*	00000000 tcp_listen_pcbs
+00000000         *UND*	00000000 tcp_alloc
+00000000         *UND*	00000000 tcp_next_iss
+00000000         *UND*	00000000 tcp_timer_needed
+00000000         *UND*	00000000 ip4_route
+00000000         *UND*	00000000 tcp_eff_send_mss_netif
+00000000         *UND*	00000000 tcp_enqueue_flags
+00000000         *UND*	00000000 tcp_pcb_purge
+00000000         *UND*	00000000 tcp_active_pcbs_changed
+00000000         *UND*	00000000 tcp_rst
+00000000         *UND*	00000000 tcp_rexmit_rto
+00000000         *UND*	00000000 tcp_abort
+00000000         *UND*	00000000 tcp_recv_null
+00000000         *UND*	00000000 tcp_abandon
+00000000         *UND*	00000000 tcp_rexmit
+00000000 g     F .text.tcp_trigger_input_pcb_close	00000010 tcp_trigger_input_pcb_close
+00000000 g     O .bss.tcp_input_pcb	00000004 tcp_input_pcb
+
+
+Contents of section .rodata.tcp_oos_insert_segment.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f7463  rnet/src/lwip/tc
+ 0020 705f696e 2e630000 7463705f 6f6f735f  p_in.c..tcp_oos_
+ 0030 696e7365 72745f73 65676d65 6e743a20  insert_segment: 
+ 0040 696e7661 6c696420 63736567 00000000  invalid cseg....
+ 0050 41737365 7274696f 6e202225 73222066  Assertion "%s" f
+ 0060 61696c65 64206174 206c696e 65202564  ailed at line %d
+ 0070 20696e20 25730a00                     in %s..        
+Contents of section .text.tcp_oos_insert_segment:
+ 0000 f8b50546 002833d0 c3680c46 9b895bba  ...F.(3..h.F..[.
+ 0010 da0727d4 1e4ee168 37682a89 23894868  ..'..N.h7h*.#.Hh
+ 0020 3a440344 d31a002b 11db8b89 5bbadb07  :D.D...+....[...
+ 0030 04d5ea68 938943f4 80739381 27682046  ...h..C..s..'h F
+ 0040 fff7feff 3c46002f e5d12c60 f8bd821a  ....<F./..,`....
+ 0050 002afada c11b6868 89b22981 fff7feff  .*....hh..).....
+ 0060 2c60f8bd 00240846 fff7feff 2c60f8bd  ,`...$.F....,`..
+ 0070 084b40f2 2c420849 0848fff7 feff2846  .K@.,B.I.H....(F
+ 0080 fff7feff 0120fff7 fefffff7 feff00bf  ..... ..........
+ 0090 00000000 00000000 28000000 50000000  ........(...P...
+Contents of section .rodata.tcp_input_delayed_close.str1.4:
+ 0000 7463705f 696e7075 745f6465 6c617965  tcp_input_delaye
+ 0010 645f636c 6f73653a 20696e76 616c6964  d_close: invalid
+ 0020 20706362 00                           pcb.           
+Contents of section .text.tcp_input_delayed_close:
+ 0000 10b50446 c8b1144b 1b7813f0 100301d1  ...F...K.x......
+ 0010 184610bd 438bdb06 06d4d0f8 90301bb1  .F..C........0..
+ 0020 6ff00e01 00699847 21460c48 fff7feff  o....i.G!F.H....
+ 0030 2046fff7 feff0120 10bd094b 40f25a22   F..... ...K@.Z"
+ 0040 08490948 fff7feff 2046fff7 feff0120  .I.H.... F..... 
+ 0050 fff7feff fff7feff 00000000 00000000  ................
+ 0060 00000000 00000000 50000000           ........P...    
+Contents of section .rodata.tcp_free_acked_segments.constprop.0.str1.4:
+ 0000 7063622d 3e736e64 5f717565 75656c65  pcb->snd_queuele
+ 0010 6e203e3d 20706275 665f636c 656e286e  n >= pbuf_clen(n
+ 0020 6578742d 3e702900 7463705f 72656365  ext->p).tcp_rece
+ 0030 6976653a 2076616c 69642071 75657565  ive: valid queue
+ 0040 206c656e 67746800                     length.        
+Contents of section .text.tcp_free_acked_segments.constprop.0:
+ 0000 00294cd0 2de9f843 04468846 16462c4f  .)L.-..C.F.F.F,O
+ 0010 2c4dd8f8 0c303868 5a689b89 12bab8f8  ,M...08hZh......
+ 0020 08105bba 821a13f0 0303a2eb 010218bf  ..[.............
+ 0030 0123d31a 002b1ddb d8e90090 fff7feff  .#...+..........
+ 0040 b4f86630 98422cd8 29881b1a b8f80820  ..f0.B,.)...... 
+ 0050 4046a4f8 66300a44 2a80fff7 feffb4f8  @F..f0.D*.......
+ 0060 663013b1 59ea0608 0ad0b9f1 000f04d0  f0..Y...........
+ 0070 c846cee7 4046bde8 f8830020 bde8f883  .F..@F..... ....
+ 0080 114b40f2 6e421149 1148fff7 feff4046  .K@.nB.I.H....@F
+ 0090 fff7feff 0120fff7 fefffff7 feff0020  ..... ......... 
+ 00a0 7047094b 40f26442 0a490948 fff7feff  pG.K@.dB.I.H....
+ 00b0 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 00c0 00000000 00000000 00000000 28000000  ............(...
+ 00d0 50000000 00000000                    P.......        
+Contents of section .rodata.tcp_receive.str1.4:
+ 0000 7463705f 72656365 6976653a 20696e76  tcp_receive: inv
+ 0010 616c6964 20706362 00000000 7463705f  alid pcb....tcp_
+ 0020 72656365 6976653a 2077726f 6e672073  receive: wrong s
+ 0030 74617465 00000000 696e7365 672e7020  tate....inseg.p 
+ 0040 213d204e 554c4c00 696e7361 6e65206f  != NULL.insane o
+ 0050 66667365 74210000 70627566 20746f6f  ffset!..pbuf too
+ 0060 2073686f 72742100 7463705f 72656365   short!.tcp_rece
+ 0070 6976653a 20736567 6d656e74 206e6f74  ive: segment not
+ 0080 20747269 6d6d6564 20636f72 72656374   trimmed correct
+ 0090 6c792074 6f207263 765f776e 64000000  ly to rcv_wnd...
+ 00a0 7463705f 72656365 6976653a 20736567  tcp_receive: seg
+ 00b0 6d656e74 206e6f74 20747269 6d6d6564  ment not trimmed
+ 00c0 20636f72 72656374 6c792074 6f206f6f   correctly to oo
+ 00d0 73657120 71756575 65000000 7463705f  seq queue...tcp_
+ 00e0 72656365 6976653a 20746370 6c656e20  receive: tcplen 
+ 00f0 3e207263 765f776e 64000000 7463705f  > rcv_wnd...tcp_
+ 0100 72656365 6976653a 206f6f73 65712074  receive: ooseq t
+ 0110 63706c65 6e203e20 7263765f 776e6400  cplen > rcv_wnd.
+Contents of section .text.tcp_receive:
+ 0000 2de9f843 04460028 00f0ee83 027d032a  -..C.F.(.....}.*
+ 0010 40f2ef83 9a4b1b78 dd064dd4 994e9a4f  @....K.x..M..N.O
+ 0020 38880028 00f09080 227d3368 062a00f2  8..(...."}3h.*..
+ 0030 8c80626a d11a9d1a b1f1010c 00f13081  ..bj..........0.
+ 0040 05f1ff3e 1eeb000f 00f12a81 dff84882  ...>......*...H.
+ 0050 d8f80450 002d00f0 ec834ff6 fe739942  ...P.-....O..s.B
+ 0060 00f2e283 89b22a89 8a42c0f0 d883b8f8  ......*..B......
+ 0070 0830521a 5b1a92b2 a8f80830 6b899942  .0R.[......0k..B
+ 0080 08d90020 c91a6881 2a812d68 89b26b89  ... ..h.*.-h..k.
+ 0090 8b42f7d3 2846fff7 feff636a d8f80c20  .B..(F....cj... 
+ 00a0 208d3360 01465360 002840f0 04822046   .3`.FS`.(@... F
+ 00b0 bde8f843 fff7febf 724e416d 3368b0f8  ...C....rNAm3h..
+ 00c0 60c0d0f8 58e0c81a 002850db dff8cc81  `...X....(P.....
+ 00d0 9942d8f8 001000f0 2b818e45 00f03181  .B......+..E..1.
+ 00e0 656c681a 002857db 674f3888 002800f0  elh..(W.gO8..(..
+ 00f0 ba80656b 002d99d0 a36b5b1a 002b8fda  ..ek.-...k[..+..
+ 0100 b4f93c20 adb2614b c2f3cf01 1888431a  ..< ..aK......C.
+ 0110 5b1b9bb2 1a4413f4 004f12b2 a28702d0  [....D...O......
+ 0120 091a0d44 abb2b4f9 3e103888 a1eba101  ...D....>.8.....
+ 0130 0b449bb2 03ebe202 e3870023 a4f84020  .D.........#..@ 
+ 0140 63630028 7ff470af 3368626a 991a0029  cc.(..p.3hbj...)
+ 0150 07db218d 013a0a44 d31a002b 01dbbde8  ..!..:.D...+....
+ 0160 f883638b 43f00203 6383bde8 f8834849  ..c.C...c.....HI
+ 0170 dff82881 0968c889 d8f80010 b4f86250  ..(..h........bP
+ 0180 a4f86000 8542656c 38bfa4f8 6200681a  ..`..Bel8...b.h.
+ 0190 0028c4e9 1531a7da 4d1b012d 00f1d880  .(...1..M..-....
+ 01a0 236d5b1a 002bc0f2 d380638b 13f00402  #m[..+....c.....
+ 01b0 40f05d81 a4f84220 adb2e28f 6164b4f9  @.]...B ....ad..
+ 01c0 3c1002eb e102b4f8 4a10a4f8 4020b4f8  <.......J...@ ..
+ 01d0 48209142 40f26081 13f4006f 638e14bf  H .B@.`....oc...
+ 01e0 01210221 13fb01f3 9bb2ab42 94bfd118  .!.!.......B....
+ 01f0 51198bb2 934280f0 7b824ff6 ff73a4f8  Q....B..{.O..s..
+ 0200 48302046 d4e91b21 fff7feff e16e0246  H0 F...!.....n.F
+ 0210 20672046 fff7feff 226fe066 b2fa82f3   g F...."o.f....
+ 0220 5b095b42 23860023 23770028 00f06382  [.[B#..##w.(..c.
+ 0230 184b1988 b4f86430 0b44a4f8 6430638b  .K....d0.D..d0c.
+ 0240 190540f1 3f82002a 00f05c82 d2685268  ..@.?..*..\..hRh
+ 0250 e16c12ba 521a002a c0f23482 23f40063  .l..R..*..4.#..c
+ 0260 094f6383 78e0b4f8 6000f444 a26d0244  .Oc.x...`..D.m.D
+ 0270 624500f0 e380656b 002d7ff4 3daf64e7  bE....ek.-..=.d.
+ 0280 00000000 00000000 00000000 00000000  ................
+ 0290 00000000 00000000 00000000 00000000  ................
+ 02a0 002dc0f2 c680208d 10eb0c0f 01463ff5  .-.... ......F?.
+ 02b0 feae9a42 00f0fd80 656f002d 00f02782  ...B....eo.-..'.
+ 02c0 e8684ff0 000803f1 ff3c4268 9a4216d0  .hO......<Bh.B..
+ 02d0 b8f1000f 47d0d8f8 0c104968 aceb0101  ....G.....Ih....
+ 02e0 002903db d11a0129 40f14e82 2968a846  .).....)@.N.)h.F
+ 02f0 002946d0 0d46e868 42689a42 e8d1aa48  .)F..F.hBh.B...H
+ 0300 2b890289 9a427ff6 d2ae2b68 002b3ff4  +....B....+h.+?.
+ 0310 ceaefff7 feff0028 3ff4c9ae b8f1000f  .......(?.......
+ 0320 00f06082 c8f80000 2946fff7 feffbee6  ..`.....)F......
+ 0330 aeeb0100 0028bff6 d0ae9c48 0068c089  .....(.....H.h..
+ 0340 1ce79a48 0068c089 8445bff4 c9ae15e7  ...H.h...E......
+ 0350 2046974f fff7feff 656b002d 3ff460ae   F.O....ek.-?.`.
+ 0360 d8f80010 c8e6991a 0029bfda 8e48fff7  .........)...H..
+ 0370 feff0028 3ff49bae 29466067 fff7feff  ...(?...)F`g....
+ 0380 95e6d21a 002abff6 92ae8389 5bbadb07  .....*......[...
+ 0390 3ff58dae 8448fff7 feff2860 00283ff4  ?....H....(`.(?.
+ 03a0 86aeea68 33685168 2a890a44 9a1a002a  ...h3hQh*..D...*
+ 03b0 c0f22482 31683a88 d4f824c0 0a44238d  ..$.1h:...$..D#.
+ 03c0 aceb0202 da427ff5 72ae2868 d0f80c80  .....B..r.(h....
+ 03d0 b8f80ce0 9efa9ef9 1ffa8ef2 19f0010f  ................
+ 03e0 07d002f4 78522ef4 7c5e42ea 0e02a8f8  ....xR..|^B.....
+ 03f0 0c20591a 614489b2 01814068 fff7feff  . Y.aD....@h....
+ 0400 2b683168 d8681a89 83895bba 13f00303  +h1h.h....[.....
+ 0410 18bf0123 1344228d 9bb21944 3b80636a  ...#.D"....D;.cj
+ 0420 13449942 3ff443ae 624b4ff4 e1626249  .D.B?.C.bKO..bbI
+ 0430 0be1638b 43f00203 638338e6 228e1004  ..c.C...c.8."...
+ 0440 3ff519af 8d427ff4 16af94f8 4320ff2a  ?....B......C .*
+ 0450 00f0b281 0132d2b2 032a84f8 432000f2  .....2...*..C ..
+ 0460 ab817ff4 08af2046 fff7feff 74e723f0  ...... F....t.#.
+ 0470 04036164 b4f93c10 adb26383 e38fb4f8  ..ad..<...c.....
+ 0480 4a2003eb e103a4f8 4820a4f8 40300023  J ......H ..@0.#
+ 0490 a4f86a30 a4f84230 b4f86a30 1d44adb2  ..j0..B0..j0.D..
+ 04a0 ab4200f2 1a819542 80f01981 a4f86a50  .B.....B......jP
+ 04b0 a7e6dff8 f480d8f8 0cc0b8f8 0890bcf8  ................
+ 04c0 0c506aba 1ffa85fe 12f00303 d2b218bf  .Pj.............
+ 04d0 01234b44 9bb28342 3b8028d9 d30708d5  .#KD...B;.(.....
+ 04e0 0ef47853 25f47c55 2b43acf8 0c305bba  ..xS%.|U+C...0[.
+ 04f0 dab29207 00f11481 a8f80800 d8f80400  ................
+ 0500 fff7feff d8f80c30 b8f80820 9b89208d  .......0... .. .
+ 0510 5bba13f0 030318bf 01231344 32689bb2  [........#.D2h..
+ 0520 3b801344 626a0244 934240f0 6e81656f  ;..Dbj.D.B@.n.eo
+ 0530 002d00f0 f180d8f8 0c309b89 5bbadb07  .-.......0..[...
+ 0540 40f18f80 2b682846 6367fff7 feff656f  @...+h(Fcg....eo
+ 0550 002df7d1 3a883168 208d1144 90426162  .-..:.1h ..D.Bab
+ 0560 c0f05881 821a2046 2285fff7 feffd8f8  ..X... F".......
+ 0570 04301a89 22b1114a 13600023 c8f80430  .0.."..J.`.#...0
+ 0580 d8f80c30 9b895bba d80704d5 0c4a1378  ...0..[......J.x
+ 0590 43f02003 1370656f 002d00f0 9580dff8  C. ..peo.-......
+ 05a0 1c80074f 3ce000bf 00000000 00000000  ...O<...........
+ 05b0 00000000 00000000 68000000 00000000  ........h.......
+ 05c0 00000000 4b1c1a44 6262228d 934238d8  ....K..Dbb"..B8.
+ 05d0 0123521a 2046d21a 2285fff7 feff6968  .#R. F..".....ih
+ 05e0 0b893bb1 d8f80000 002868d0 fff7feff  ..;......(h.....
+ 05f0 00236b60 eb689b89 5bbad907 08d53b78  .#k`.h..[.....;x
+ 0600 43f02003 3b70237d 042b01d1 07232375  C. .;p#}.+...##u
+ 0610 2b682846 6367fff7 feff656f 002d53d0  +h(Fcg....eo.-S.
+ 0620 eb68616a 5a688a42 4ed13260 9b892989  .hajZh.BN.2`..).
+ 0630 5bba13f0 0303c5d1 0a446262 228d9142  [........Dbb"..B
+ 0640 c7d97e4b 40f23162 7d497e48 fff7feff  ..~K@.1b}I~H....
+ 0650 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0660 4d46e868 3a88d6f8 00e02b89 d0f804c0  MF.h:.....+.....
+ 0670 02eb0e01 6344cb1a 002b56db 83895bba  ....cD...+V...[.
+ 0680 d8070dd5 d8f80c20 938959ba 9bb28907  ....... ..Y.....
+ 0690 06d443f4 80739381 b8f80830 01333b80  ..C..s.....0.3;.
+ 06a0 d5f80090 2846fff7 feffb9f1 000fd7d1  ....(F..........
+ 06b0 3a884d46 31681144 208d6567 4ee7c8f8  :.MF1h.D .egN...
+ 06c0 001095e7 604f47e6 638bda07 16d523f0  ....`OG.c.....#.
+ 06d0 010343f0 02036383 41e54ff6 ff75638e  ..C...c.A.O..uc.
+ 06e0 ad1a1344 a4f86a50 9bb29342 fff485ad  ...D..jP...B....
+ 06f0 a4f84830 85e5a4f8 680099e5 43f00103  ..H0....h...C...
+ 0700 63832ce5 00283ff4 a9adc268 9fe54f48  c.,..(?....h..OH
+ 0710 fff7feff 6067cae4 3a883168 11441de7  ....`g..:.1h.D..
+ 0720 411e89b2 a8f80810 e8e6aceb 0103002b  A..............+
+ 0730 c2daaceb 0e01d8f8 0c3089b2 a8f80810  .........0......
+ 0740 9b895bba 9b0703d5 013989b2 a8f80810  ..[......9......
+ 0750 d8f80400 fff7feff d8f80c30 b8f80820  ...........0... 
+ 0760 9b895bba 13f00303 18bf0123 13449ab2  ..[........#.D..
+ 0770 eb683a80 59683368 13448b42 9cd02f4b  .h:.Yh3h.D.B../K
+ 0780 40f20262 324960e7 3048fff7 feff0746  @..b2I`.0H.....F
+ 0790 00283ff4 8cacd8f8 0c303268 5968b8f8  .(?......02hYh..
+ 07a0 08300b44 d31a002b 13db2946 3846c8f8  .0.D...+..)F8F..
+ 07b0 0070fff7 feff7ae4 b4f84820 4ff6ff71  .p....z...H O..q
+ 07c0 638e1344 9bb29a42 88bf0b46 a4f84830  c..D...B...F..H0
+ 07d0 49e6521a d8f80400 91b2a8f8 0810fff7  I.R.............
+ 07e0 feffe2e7 60679fe5 144b40f2 87421949  ....`g...K@..B.I
+ 07f0 2be7124b 4ff49162 174926e7 5b1a6868  +..KO..b.I&.[.hh
+ 0800 99b22981 fff7feff d4e50c4b 40f2d152  ..)........K@..R
+ 0810 12491ae7 094b40f2 0d621149 15e7074b  .I...K@..b.I...K
+ 0820 40f29d52 0f4910e7 044b40f2 9b520e49  @..R.I...K@..R.I
+ 0830 0be7024b 40f29a52 0c4906e7 00000000  ...K@..R.I......
+ 0840 fc000000 50000000 00000000 00000000  ....P...........
+ 0850 a0000000 00000000 1c000000 68000000  ............h...
+ 0860 dc000000 58000000 48000000 38000000  ....X...H...8...
+Contents of section .rodata.tcp_parseopt.str1.4:
+ 0000 7463705f 70617273 656f7074 3a20696e  tcp_parseopt: in
+ 0010 76616c69 64207063 6200               valid pcb.      
+Contents of section .text.tcp_parseopt:
+ 0000 2de9f047 05460028 00f08f80 4e4b1888  -..G.F.(....NK..
+ 0010 90b34e4a 0023dff8 4c8140f2 b35ab2f8  ..NJ.#..L.@..Z..
+ 0020 00e01946 4a4a40f2 b4595ffa 8ef7a8f8  ...FJJ@..Y_.....
+ 0030 00301468 474a1668 01f1140c b4448842  .0.hGJ.h.....D.B
+ 0040 67d94a1c 92b2ccb1 8e4517d8 d31b013b  g.J......E.....;
+ 0050 dbb2e35c 012b15d0 022b17d0 53b10cb1  ...\.+...+..S...
+ 0060 72453ed2 3244137d 012b5ad9 0b4499b2  rE>.2D.}.+Z..D..
+ 0070 0123e1e7 a8f80020 bde8f087 9cf80030  .#..... .......0
+ 0080 012be9d1 0cf1010c 1146d8e7 8b1c9bb2  .+.......F......
+ 0090 0cb17245 21d23244 127d042a 3ed15a1c  ..rE!.2D.}.*>.Z.
+ 00a0 82423bda ca1c92b2 5cb39e45 1dd8db1b  .B;.....\..E....
+ 00b0 04319645 dbb289b2 14f803c0 4fea0c2c  .1.E........O..,
+ 00c0 1cd8d21b d2b2a35c 4cea0303 5a1e92b2  .......\L...Z...
+ 00d0 524588bf 4b466b86 cae7d21b d2b2a25c  RE..KFk........\
+ 00e0 dbe7d21b d2b2a35c bee73344 04319645  .......\..3D.1.E
+ 00f0 93f814c0 89b24fea 0c2ce2d9 3244137d  ......O..,..2D.}
+ 0100 e2e73344 043193f8 14c089b2 4fea0c2c  ..3D.1......O..,
+ 0110 f4e7002b b0d0a8f8 0010ade7 a8f80030  ...+...........0
+ 0120 aae70231 a8f80010 a6e70b4b 40f28d72  ...1.......K@..r
+ 0130 0a490b48 fff7feff 2846fff7 feff0120  .I.H....(F..... 
+ 0140 fff7feff fff7feff 00000000 00000000  ................
+ 0150 00000000 00000000 00000000 00000000  ................
+ 0160 50000000 00000000                    P.......        
+Contents of section .rodata.tcp_input.str1.4:
+ 0000 7463705f 696e7075 743a2069 6e76616c  tcp_input: inval
+ 0010 69642070 62756600 702d3e6e 65787420  id pbuf.p->next 
+ 0020 213d204e 554c4c00 702d3e6c 656e203d  != NULL.p->len =
+ 0030 3d203000 702d3e74 6f745f6c 656e203d  = 0.p->tot_len =
+ 0040 3d20702d 3e6e6578 742d3e74 6f745f6c  = p->next->tot_l
+ 0050 656e0000 7463705f 696e7075 743a2061  en..tcp_input: a
+ 0060 63746976 65207063 622d3e73 74617465  ctive pcb->state
+ 0070 20213d20 434c4f53 45440000 7463705f   != CLOSED..tcp_
+ 0080 696e7075 743a2061 63746976 65207063  input: active pc
+ 0090 622d3e73 74617465 20213d20 54494d45  b->state != TIME
+ 00a0 2d574149 54000000 7463705f 696e7075  -WAIT...tcp_inpu
+ 00b0 743a2061 63746976 65207063 622d3e73  t: active pcb->s
+ 00c0 74617465 20213d20 4c495354 454e0000  tate != LISTEN..
+ 00d0 7463705f 696e7075 743a2070 63622d3e  tcp_input: pcb->
+ 00e0 6e657874 20213d20 70636220 28626566  next != pcb (bef
+ 00f0 6f726520 63616368 65290000 7463705f  ore cache)..tcp_
+ 0100 696e7075 743a2070 63622d3e 6e657874  input: pcb->next
+ 0110 20213d20 70636220 28616674 65722063   != pcb (after c
+ 0120 61636865 29000000 7463705f 696e7075  ache)...tcp_inpu
+ 0130 743a2054 494d452d 57414954 20706362  t: TIME-WAIT pcb
+ 0140 2d3e7374 61746520 3d3d2054 494d452d  ->state == TIME-
+ 0150 57414954 00000000 7463705f 696e7075  WAIT....tcp_inpu
+ 0160 743a2070 63622d3e 73746174 6520213d  t: pcb->state !=
+ 0170 20434c4f 53454400 7063622d 3e736e64   CLOSED.pcb->snd
+ 0180 5f717565 75656c65 6e203e20 30000000  _queuelen > 0...
+ 0190 6e6f2073 65676d65 6e742074 6f206672  no segment to fr
+ 01a0 65650000 7063622d 3e6c6973 74656e65  ee..pcb->listene
+ 01b0 722d3e61 63636570 7420213d 204e554c  r->accept != NUL
+ 01c0 4c000000 7063622d 3e726566 75736564  L...pcb->refused
+ 01d0 5f646174 61203d3d 204e554c 4c00      _data == NULL.  
+Contents of section .text.tcp_input:
+ 0000 2de9f04f 06468bb0 564a8221 5648fff7  -..O.F..VJ.!VH..
+ 0010 feff002e 00f06884 7389544f 7268132b  ......h.s.TOrh.+
+ 0020 3a6005d8 30460bb0 bde8f04f fff7febf  :`..0F.....O....
+ 0030 dff85881 d8f80010 d8f81400 fff7feff  ..X.............
+ 0040 0028efd1 d8f81430 03f0f003 e02be9d0  .(.....0.....+..
+ 0050 3b689989 49bac1f3 03318900 1329e1d9  ;h..I....1...)..
+ 0060 33898ab2 8b42ddd3 dff82491 a2f11403  3....B....$.....
+ 0070 3f4cc9f8 00009bb2 70892380 904280f0  ?L......p.#..B..
+ 0080 5a813568 002d00f0 4b851421 3046fff7  Z.5h.-..K..!0F..
+ 0090 feffb4f8 00a07489 3046364b 2146aaeb  ......t.0F6K!F..
+ 00a0 04051c80 fff7feff 3068adb2 4389ab42  ........0h..C..B
+ 00b0 b8d34368 2946c9f8 0030fff7 feff3389  ..Ch)F...0....3.
+ 00c0 72892344 a3eb0a03 9bb23381 002a40f0  r.#D......3..*@.
+ 00d0 e3843268 b2f808a0 534540f0 d984d7f8  ..2h....SE@.....
+ 00e0 00e0254a def80430 24481bba 0893cef8  ..%J...0$H......
+ 00f0 0430bef8 02101360 def80830 49ba204a  .0.....`...0I. J
+ 0100 1bbaaef8 021089b2 09931360 cef80830  ...........`...0
+ 0110 bef80c20 bef80e30 52ba5bba 02f03f0b  ... ...0R.[...?.
+ 0120 9507aef8 0e30bef8 003080f8 00b0d0b2  .....0...0......
+ 0130 5bba0490 aef80030 9bb240f0 0481114a  [......0..@....J
+ 0140 0792a2f8 00a0104a 12680692 002a00f0  .......J.h...*..
+ 0150 0481d8f8 04c0069c d8e90492 05920022  ..............."
+ 0160 1ee000bf 00000000 00000000 00000000  ................
+ 0170 00000000 00000000 00000000 00000000  ................
+ 0180 00000000 00000000 00000000 00000000  ................
+ 0190 00000000 e0682246 002800f0 de800446  .....h"F.(.....F
+ 01a0 257d002d 00f06c83 0a2d00f0 5b83012d  %}.-..l..-..[..-
+ 01b0 00f06a83 257a2db1 9cf84000 0130c0b2  ..j.%z-...@..0..
+ 01c0 8542e7d1 208b9842 e4d1e08a 8842e1d1  .B.. ..B.....B..
+ 01d0 60684845 ded12068 059da842 dad1e368  `hHE.. h...B...h
+ 01e0 a34200f0 82843ab1 d3609b4b 1c60069b  .B....:..`.K.`..
+ 01f0 a342e360 00f08784 984d0023 dff88092  .B.`.....M.#....
+ 0200 dff88082 a5f808a0 dff87ca2 2b60c9f8  ..........|.+`..
+ 0210 003088f8 0030aaf8 0030049b c5f80ce0  .0...0...0......
+ 0220 1b076e60 03d5737b 43f00103 7373a36f  ..n`..s{C...ss.o
+ 0230 7bb12046 fff7feff 0d3000f0 5381a36f  {. F.....0..S..o
+ 0240 23b1079b 1b88002b 40f04c81 844b93f8  #......+@.L..K..
+ 0250 00b0844e 1bf0040f 346000f0 1781277d  ...N....4`....'}
+ 0260 022f00f0 e582804b 1a68636a 934200f0  ./.....K.hcj.B..
+ 0270 bb81d11a 0029c0f2 30819b1a 228dd342  .....)..0..."..B
+ 0280 00f12b81 638b43f0 02036383 98f80030  ..+.c.C...c....0
+ 0290 03f00803 002b40f0 b481baf8 002052b1  .....+@...... R.
+ 02a0 d4f88030 23b12146 20699847 0d3036d0  ...0#.!F i.G.06.
+ 02b0 0023aaf8 00302046 fff7feff 78bbd9f8  .#...0 F....x...
+ 02c0 0020bab1 a36f002b 40f02e84 638b13f0  . ...o.+@...c...
+ 02d0 100340f0 dd82d4f8 8470002f 00f0f482  ..@......p./....
+ 02e0 21462069 b84710f1 0d0f18d0 10b1d9f8  !F i.G..........
+ 02f0 0030a367 98f80030 990607d5 a36f002b  .0.g...0.....o.+
+ 0300 00f0cd82 5a7b42f0 20025a73 00232046  ....Z{B. .Zs.# F
+ 0310 3360fff7 feff10b9 2046fff7 feff0024  3`...... F.....$
+ 0320 68683460 c9f80040 10b1fff7 feff6c60  hh4`...@......l`
+ 0330 0bb0bde8 f08f4d4a 30461380 fff7feff  ......MJ0F......
+ 0340 b6f808a0 cbe60af1 01024948 92b20790  ..........IH....
+ 0350 52450280 bff4f7ae 64e6464a 10680028  RE......d.FJ.h.(
+ 0360 3cd0d8f8 0440d8e9 04ce02e0 c0680028  <....@.......h.(
+ 0370 34d0027d 0a2a40f0 ea82057a 2db194f8  4..}.*@....z-...
+ 0380 40200132 d2b29542 f0d1028b 9a42edd1  @ .2...B.....B..
+ 0390 c28a8a42 ead14268 6245e7d1 02687245  ...B..BhbE...hrE
+ 03a0 e4d1049a 54073ff5 3dae9707 40f1c782  ....T.?.=...@...
+ 03b0 426a089d ac1a002c 04db521b 048dd442  Bj.....,..R....B
+ 03c0 40f16e83 079b1b88 002b3ff4 2bae438b  @.n......+?.+.C.
+ 03d0 43f00203 4383fff7 feff23e6 264ad2f8  C...C.....#.&J..
+ 03e0 00a0baf1 000f23d0 4ff0000e d8f80400  ......#.O.......
+ 03f0 d8f81490 5546f346 f44603e0 ea68ac46  ....UF.F.F...h.F
+ 0400 9ab11546 2c7a2cb1 90f84020 0132d2b2  ...F,z,...@ .2..
+ 0410 9442f3d1 ea8a8a42 f0d12a68 4a4569d0  .B.....B..*hJEi.
+ 0420 002aebd1 e346ae46 e8e7bef1 000f5fd1  .*...F.F......_.
+ 0430 049a5207 3ff5f6ad cde90113 079bd8f8  ..R.?...........
+ 0440 04001a88 089b0999 1a440c4b 00930433  .........D.K...3
+ 0450 fff7feff e6e500bf 00000000 00000000  ................
+ 0460 00000000 00000000 00000000 00000000  ................
+ 0470 00000000 00000000 00000000 10000000  ................
+ 0480 00000000 00000000 00000000 1bf0020f  ................
+ 0490 04d0237d 023b012b 3ff6f4ae 638bdb06  ..#}.;.+?...c...
+ 04a0 02d4a84b 1b682362 00232046 a4f89a30  ...K.h#b.# F...0
+ 04b0 fff7feff a44b1978 237d8807 40f1b080  .....K.x#}..@...
+ 04c0 9a1e012a 09d8032b 40f04c81 9f4b1a68  ...*...+@.L..K.h
+ 04d0 636a013b 934200f0 d38298f8 003003f0  cj.;.B.......0..
+ 04e0 0803d7e6 638d002b 00f0a981 984e16e7  ....c..+.....N..
+ 04f0 7546dc46 bcf1000f 06d0964a 1560ea68  uF.F.......J.`.h
+ 0500 ccf80c20 c5f80ca0 049a5407 3ff58aad  ... ......T.?...
+ 0510 12f01004 40f09881 049b9a07 7ff582ad  ....@...........
+ 0520 687dfff7 feff8146 002800f0 d281874b  h}.....F.(.....K
+ 0530 39681b68 0a780133 497842ea 0122e98a  9h.h.x.3IxB.."..
+ 0540 4362c362 d8f81430 02830360 d8f81030  Cb.b...0...`...0
+ 0550 c1824360 03230375 fff7feff 7b4bc9f8  ..C`.#.u....{K..
+ 0560 50001b68 c9f84400 013bc9f8 5c007a4a  P..h..D..;..\.zJ
+ 0570 c9e91530 2b69c9f8 7c50c9f8 10306b7a  ...0+i..|P...0kz
+ 0580 03f00c03 89f80930 2b7a89f8 08301368  .......0+z...0.h
+ 0590 c2f80090 c9f80c30 fff7feff 6f4b0122  .......0....oK."
+ 05a0 48461a70 fff7feff 3b6809f1 0402b9f8  HF.p....;h......
+ 05b0 3250db89 10460492 a9f86030 a9f86230  2P...F....`0..b0
+ 05c0 fff7feff 049a0146 2846fff7 feff1221  .......F(F.....!
+ 05d0 a9f83200 4846fff7 feff0028 40f02682  ..2.HF.....(@.&.
+ 05e0 4846fff7 feff1de5 002f00f0 878298f8  HF......./......
+ 05f0 003043f0 080388f8 0030638b 23f00103  .0C......0c.#...
+ 0600 6383d4f8 90301bb1 6ff00d01 20699847  c....0..o... i.G
+ 0610 21465148 fff7feff 2046fff7 feff7ee6  !FQH.... F....~.
+ 0620 023b072b 3ff659af dfe803f0 9cc10470  .;.+?.Y........p
+ 0630 54043116 2046fff7 feff98f8 003013f0  T.1. F.......0..
+ 0640 200f03f0 08033ff4 25ae628b 42f00202   .....?.%.b.B...
+ 0650 62830722 22751de6 2046fff7 feff3a4b  b..""u.. F....:K
+ 0660 1b78d806 7ff539af 3d4b226d 1b689a42  .x....9.=K"m.h.B
+ 0670 7ff433af e36e002b 7ff42faf 98f80030  ..3..n.+../....0
+ 0680 43f01002 88f80020 03f00803 02e62046  C...... ...... F
+ 0690 fff7feff 2c4b1b78 df067ff5 1eaf304b  ....,K.x......0K
+ 06a0 226d1b68 9a427ff4 18afe36e 002b7ff4  "m.h.B.....n.+..
+ 06b0 14af2046 fff7feff 274b1b68 a34200f0  .. F....'K.h.B..
+ 06c0 2782002b 00f04a81 da68a242 00f04481  '..+..J..h.B..D.
+ 06d0 1346f6e7 2046fff7 feff98f8 00309a06  .F.. F.......0..
+ 06e0 d2d5638b 204643f0 02036383 fff7feff  ..c. FC...c.....
+ 06f0 194b1b68 a34200f0 0b82002b 00f02e81  .K.h.B.....+....
+ 0700 da68a242 00f02881 1346f6e7 2046fff7  .h.B..(..F.. F..
+ 0710 feff98f8 00300c4a 9f061278 40f1e880  .....0.J...x@...
+ 0720 d00605d5 0e4a216d 12689142 00f0c581  .....J!m.h.B....
+ 0730 628b03f0 080342f0 02026283 08222275  b.....B...b..""u
+ 0740 a8e500bf 00000000 00000000 00000000  ................
+ 0750 00000000 00000000 00000000 00000000  ................
+ 0760 00000000 01f01203 122b00f0 0781ca06  .........+......
+ 0770 7ff5b3ae 079a3b68 1188b24a 18881268  ......;h...J...h
+ 0780 0a44b149 09680290 20465b88 0193af4b  .D.I.h.. F[....K
+ 0790 00930433 fff7feff 94f84230 052b3ff6  ...3......B0.+?.
+ 07a0 9cae0023 20462386 fff7feff 95e6cb06  ...# F#.........
+ 07b0 7ff593ae a44b1968 636cdb43 cb4200f1  .....K.hcl.C.B..
+ 07c0 a980236d 5b1a002b c0f2a480 04232375  ..#m[..+.....##u
+ 07d0 e36f002b 5fd09f69 002f00f0 2d810022  .o.+_..i./..-.."
+ 07e0 21462069 b8470028 40f08481 2046fff7  !F i.G.(@... F..
+ 07f0 feffbaf8 003013b1 013baaf8 0030618e  .....0...;...0a.
+ 0800 41f21c13 4a008800 9a421746 38bf1f46  A...J....B.F8..F
+ 0810 b7eb810f 40f28081 83b2a4f8 483098f8  ....@.......H0..
+ 0820 003013f0 200f03f0 08037ff4 0eaf31e5  .0.. .........1.
+ 0830 854b226d 1b689a42 3ff4d9ae 4de62046  .K"m.h.B?...M. F
+ 0840 834efff7 feff6ae5 cde90113 079b0999  .N....j.........
+ 0850 1a88089b 1a447d4b 00930433 fff7feff  .....D}K...3....
+ 0860 fff7e0bb 7b4bfc22 7b497c48 fff7feff  ....{K."{I|H....
+ 0870 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0880 744bfb22 7649f0e7 724bfd22 7549ece7  tK."vI..rK."uI..
+ 0890 1046fff7 feff2046 fff7feff 3fe5238d  .F.... F....?.#.
+ 08a0 41f2d062 934201d0 01332385 d4f88470  A..b.B...3#....p
+ 08b0 002f3ff4 2bad0023 21462069 1a46b847  ./?.+..#!F i.F.G
+ 08c0 0d307ff4 23ad2ae5 3b462146 fff7feff  .0..#.*.;F!F....
+ 08d0 09e5ab69 002b3ff4 a5ab0146 4ff0ff32  ...i.+?....FO..2
+ 08e0 28699847 fff79ebb 5a4b8322 5e49bce7  (i.G....ZK."^I..
+ 08f0 d1067ff5 c9ae544a 216d1268 91427ff4  ......TJ!m.h.B..
+ 0900 c3aee26e 03f00803 002a7ff4 c3ac0622  ...n.....*....."
+ 0910 2275bfe4 079a3b68 10884a4a 12680244  "u....;h..JJ.h.D
+ 0920 18880290 20465b88 0193484b 00930433  .... F[...HK...3
+ 0930 fff7feff 98f80030 03f00803 aae4049b  .......0........
+ 0940 dd077ff5 3fad494b 1b680362 3ae5414b  ....?.IK.h.b:.AK
+ 0950 40f21f12 464988e7 e268da60 454b0a22  @...FI...h.`EK."
+ 0960 22751a68 1c60e260 0122434b 1a70fff7  "u.h.`.`."CK.p..
+ 0970 feff98f8 003003f0 08038be4 636c324a  .....0......cl2J
+ 0980 01331268 93427ff4 f2ae6364 221d2d4b  .3.h.B....cd".-K
+ 0990 38681b68 678e591c 013b6162 e162c189  8h.hg.Y..;ab.b..
+ 09a0 10466365 0423a4f8 60102375 a4f86210  .Fce.#..`.#u..b.
+ 09b0 0492fff7 feff049a 01463846 fff7feff  .........F8F....
+ 09c0 41f21c13 42006086 81009a42 174638bf  A...B.`....B.F8.
+ 09d0 1f46b7eb 800f40f2 ba808bb2 b4f86670  .F....@.......fp
+ 09e0 a4f84830 002f00f0 ad80013f a4f86670  ..H0./.....?..fp
+ 09f0 276f002f 00f0a180 3b682367 3846fff7  'o./....;h#g8F..
+ 0a00 feff236f 002b00f0 94800023 238684f8  ..#o.+.....##...
+ 0a10 4230d4f8 8830002b 3ff434ac 00222146  B0...0.+?.4.."!F
+ 0a20 20699847 0d307ff4 2dac78e4 21464846   i.G.0..-.x.!FHF
+ 0a30 fff7feff fff7f6ba 064b4ff4 6e720f49  .........KO.nr.I
+ 0a40 13e700bf 00000000 00000000 10000000  ................
+ 0a50 00000000 00000000 7c000000 50000000  ........|...P...
+ 0a60 54000000 a8000000 00000000 00000000  T...............
+ 0a70 28010000 00000000 00000000 a4010000  (...............
+ 0a80 2046fff7 feff98f8 003003f0 080301e4   F.......0......
+ 0a90 334be022 3349e8e6 314bdf22 3249e4e6  3K."3I..1K."2I..
+ 0aa0 cde90113 079b0999 1a88304b 2a440093  ..........0K*D..
+ 0ab0 0433fff7 fefffff7 b5bae26e 002a7ff4  .3.........n.*..
+ 0ac0 37ae638b 204643f0 02036383 fff7feff  7.c. FC...c.....
+ 0ad0 274b1b68 a3421bd0 002b3ff4 3fafda68  'K.h.B...+?.?..h
+ 0ae0 a2423ff4 39af1346 f6e71d4b 40f20d12  .B?.9..F...K@...
+ 0af0 2049bae6 0d303ff4 12accce6 184b40f2   I...0?......K@.
+ 0b00 3b321d49 b1e6164b 40f21512 1b49ace6  ;2.I...K@....I..
+ 0b10 e368174a 136021e7 9a4288bf 93b27ce6  .h.J.`!..B....|.
+ 0b20 0f4bc222 1649a0e6 0d4b4ff4 f3721549  .K.".I...KO..r.I
+ 0b30 9be64ff6 ff732386 6be7e76e 5fb13b68  ..O..s#.k..n_.;h
+ 0b40 e3665be7 064b40f2 77320f49 8de69a42  .f[..K@.w2.I...B
+ 0b50 88bf93b2 42e7024b 40f27f32 0b4984e6  ....B..K@..2.I..
+ 0b60 00000000 34000000 28000000 10000000  ....4...(.......
+ 0b70 00000000 d0000000 58010000 fc000000  ........X.......
+ 0b80 18000000 c4010000 78010000 90010000  ........x.......
+Contents of section .text.tcp_trigger_input_pcb_close:
+ 0000 024a1378 43f01003 13707047 00000000  .J.xC....ppG....
+Contents of section .rodata.__FUNCTION__.0:
+ 0000 7463705f 696e7075 7400               tcp_input.      
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.tcp_oos_insert_segment:
+
+00000000 <tcp_oos_insert_segment>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4605      	mov	r5, r0
+   4:	2800      	cmp	r0, #0
+   6:	d033      	beq.n	70 <tcp_oos_insert_segment+0x70>
+   8:	68c3      	ldr	r3, [r0, #12]
+   a:	460c      	mov	r4, r1
+   c:	899b      	ldrh	r3, [r3, #12]
+   e:	ba5b      	rev16	r3, r3
+  10:	07da      	lsls	r2, r3, #31
+  12:	d427      	bmi.n	64 <tcp_oos_insert_segment+0x64>
+  14:	4e1e      	ldr	r6, [pc, #120]	; (90 <tcp_oos_insert_segment+0x90>)
+  16:	68e1      	ldr	r1, [r4, #12]
+  18:	6837      	ldr	r7, [r6, #0]
+  1a:	892a      	ldrh	r2, [r5, #8]
+  1c:	8923      	ldrh	r3, [r4, #8]
+  1e:	6848      	ldr	r0, [r1, #4]
+  20:	443a      	add	r2, r7
+  22:	4403      	add	r3, r0
+  24:	1ad3      	subs	r3, r2, r3
+  26:	2b00      	cmp	r3, #0
+  28:	db11      	blt.n	4e <tcp_oos_insert_segment+0x4e>
+  2a:	898b      	ldrh	r3, [r1, #12]
+  2c:	ba5b      	rev16	r3, r3
+  2e:	07db      	lsls	r3, r3, #31
+  30:	d504      	bpl.n	3c <tcp_oos_insert_segment+0x3c>
+  32:	68ea      	ldr	r2, [r5, #12]
+  34:	8993      	ldrh	r3, [r2, #12]
+  36:	f443 7380 	orr.w	r3, r3, #256	; 0x100
+  3a:	8193      	strh	r3, [r2, #12]
+  3c:	6827      	ldr	r7, [r4, #0]
+  3e:	4620      	mov	r0, r4
+  40:	f7ff fffe 	bl	0 <tcp_seg_free>
+  44:	463c      	mov	r4, r7
+  46:	2f00      	cmp	r7, #0
+  48:	d1e5      	bne.n	16 <tcp_oos_insert_segment+0x16>
+  4a:	602c      	str	r4, [r5, #0]
+  4c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  4e:	1a82      	subs	r2, r0, r2
+  50:	2a00      	cmp	r2, #0
+  52:	dafa      	bge.n	4a <tcp_oos_insert_segment+0x4a>
+  54:	1bc1      	subs	r1, r0, r7
+  56:	6868      	ldr	r0, [r5, #4]
+  58:	b289      	uxth	r1, r1
+  5a:	8129      	strh	r1, [r5, #8]
+  5c:	f7ff fffe 	bl	0 <pbuf_realloc>
+  60:	602c      	str	r4, [r5, #0]
+  62:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  64:	2400      	movs	r4, #0
+  66:	4608      	mov	r0, r1
+  68:	f7ff fffe 	bl	0 <tcp_segs_free>
+  6c:	602c      	str	r4, [r5, #0]
+  6e:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  70:	4b08      	ldr	r3, [pc, #32]	; (94 <tcp_oos_insert_segment+0x94>)
+  72:	f240 422c 	movw	r2, #1068	; 0x42c
+  76:	4908      	ldr	r1, [pc, #32]	; (98 <tcp_oos_insert_segment+0x98>)
+  78:	4808      	ldr	r0, [pc, #32]	; (9c <tcp_oos_insert_segment+0x9c>)
+  7a:	f7ff fffe 	bl	0 <printf>
+  7e:	4628      	mov	r0, r5
+  80:	f7ff fffe 	bl	0 <fflush>
+  84:	2001      	movs	r0, #1
+  86:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  8a:	f7ff fffe 	bl	0 <abort>
+  8e:	bf00      	nop
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000028 	.word	0x00000028
+  9c:	00000050 	.word	0x00000050
+
+Disassembly of section .text.tcp_input_delayed_close:
+
+00000000 <tcp_input_delayed_close>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	b1c8      	cbz	r0, 3a <tcp_input_delayed_close+0x3a>
+   6:	4b14      	ldr	r3, [pc, #80]	; (58 <tcp_input_delayed_close+0x58>)
+   8:	781b      	ldrb	r3, [r3, #0]
+   a:	f013 0310 	ands.w	r3, r3, #16
+   e:	d101      	bne.n	14 <tcp_input_delayed_close+0x14>
+  10:	4618      	mov	r0, r3
+  12:	bd10      	pop	{r4, pc}
+  14:	8b43      	ldrh	r3, [r0, #26]
+  16:	06db      	lsls	r3, r3, #27
+  18:	d406      	bmi.n	28 <tcp_input_delayed_close+0x28>
+  1a:	f8d0 3090 	ldr.w	r3, [r0, #144]	; 0x90
+  1e:	b11b      	cbz	r3, 28 <tcp_input_delayed_close+0x28>
+  20:	f06f 010e 	mvn.w	r1, #14
+  24:	6900      	ldr	r0, [r0, #16]
+  26:	4798      	blx	r3
+  28:	4621      	mov	r1, r4
+  2a:	480c      	ldr	r0, [pc, #48]	; (5c <tcp_input_delayed_close+0x5c>)
+  2c:	f7ff fffe 	bl	0 <tcp_pcb_remove>
+  30:	4620      	mov	r0, r4
+  32:	f7ff fffe 	bl	0 <tcp_free>
+  36:	2001      	movs	r0, #1
+  38:	bd10      	pop	{r4, pc}
+  3a:	4b09      	ldr	r3, [pc, #36]	; (60 <tcp_input_delayed_close+0x60>)
+  3c:	f240 225a 	movw	r2, #602	; 0x25a
+  40:	4908      	ldr	r1, [pc, #32]	; (64 <tcp_input_delayed_close+0x64>)
+  42:	4809      	ldr	r0, [pc, #36]	; (68 <tcp_input_delayed_close+0x68>)
+  44:	f7ff fffe 	bl	0 <printf>
+  48:	4620      	mov	r0, r4
+  4a:	f7ff fffe 	bl	0 <fflush>
+  4e:	2001      	movs	r0, #1
+  50:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  54:	f7ff fffe 	bl	0 <abort>
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000050 	.word	0x00000050
+
+Disassembly of section .text.tcp_free_acked_segments.constprop.0:
+
+00000000 <tcp_free_acked_segments.constprop.0>:
+   0:	2900      	cmp	r1, #0
+   2:	d04c      	beq.n	9e <tcp_free_acked_segments.constprop.0+0x9e>
+   4:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   8:	4604      	mov	r4, r0
+   a:	4688      	mov	r8, r1
+   c:	4616      	mov	r6, r2
+   e:	4f2c      	ldr	r7, [pc, #176]	; (c0 <tcp_free_acked_segments.constprop.0+0xc0>)
+  10:	4d2c      	ldr	r5, [pc, #176]	; (c4 <tcp_free_acked_segments.constprop.0+0xc4>)
+  12:	f8d8 300c 	ldr.w	r3, [r8, #12]
+  16:	6838      	ldr	r0, [r7, #0]
+  18:	685a      	ldr	r2, [r3, #4]
+  1a:	899b      	ldrh	r3, [r3, #12]
+  1c:	ba12      	rev	r2, r2
+  1e:	f8b8 1008 	ldrh.w	r1, [r8, #8]
+  22:	ba5b      	rev16	r3, r3
+  24:	1a82      	subs	r2, r0, r2
+  26:	f013 0303 	ands.w	r3, r3, #3
+  2a:	eba2 0201 	sub.w	r2, r2, r1
+  2e:	bf18      	it	ne
+  30:	2301      	movne	r3, #1
+  32:	1ad3      	subs	r3, r2, r3
+  34:	2b00      	cmp	r3, #0
+  36:	db1d      	blt.n	74 <tcp_free_acked_segments.constprop.0+0x74>
+  38:	e9d8 9000 	ldrd	r9, r0, [r8]
+  3c:	f7ff fffe 	bl	0 <pbuf_clen>
+  40:	f8b4 3066 	ldrh.w	r3, [r4, #102]	; 0x66
+  44:	4298      	cmp	r0, r3
+  46:	d82c      	bhi.n	a2 <tcp_free_acked_segments.constprop.0+0xa2>
+  48:	8829      	ldrh	r1, [r5, #0]
+  4a:	1a1b      	subs	r3, r3, r0
+  4c:	f8b8 2008 	ldrh.w	r2, [r8, #8]
+  50:	4640      	mov	r0, r8
+  52:	f8a4 3066 	strh.w	r3, [r4, #102]	; 0x66
+  56:	440a      	add	r2, r1
+  58:	802a      	strh	r2, [r5, #0]
+  5a:	f7ff fffe 	bl	0 <tcp_seg_free>
+  5e:	f8b4 3066 	ldrh.w	r3, [r4, #102]	; 0x66
+  62:	b113      	cbz	r3, 6a <tcp_free_acked_segments.constprop.0+0x6a>
+  64:	ea59 0806 	orrs.w	r8, r9, r6
+  68:	d00a      	beq.n	80 <tcp_free_acked_segments.constprop.0+0x80>
+  6a:	f1b9 0f00 	cmp.w	r9, #0
+  6e:	d004      	beq.n	7a <tcp_free_acked_segments.constprop.0+0x7a>
+  70:	46c8      	mov	r8, r9
+  72:	e7ce      	b.n	12 <tcp_free_acked_segments.constprop.0+0x12>
+  74:	4640      	mov	r0, r8
+  76:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  7a:	2000      	movs	r0, #0
+  7c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  80:	4b11      	ldr	r3, [pc, #68]	; (c8 <tcp_free_acked_segments.constprop.0+0xc8>)
+  82:	f240 426e 	movw	r2, #1134	; 0x46e
+  86:	4911      	ldr	r1, [pc, #68]	; (cc <tcp_free_acked_segments.constprop.0+0xcc>)
+  88:	4811      	ldr	r0, [pc, #68]	; (d0 <tcp_free_acked_segments.constprop.0+0xd0>)
+  8a:	f7ff fffe 	bl	0 <printf>
+  8e:	4640      	mov	r0, r8
+  90:	f7ff fffe 	bl	0 <fflush>
+  94:	2001      	movs	r0, #1
+  96:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  9a:	f7ff fffe 	bl	0 <abort>
+  9e:	2000      	movs	r0, #0
+  a0:	4770      	bx	lr
+  a2:	4b09      	ldr	r3, [pc, #36]	; (c8 <tcp_free_acked_segments.constprop.0+0xc8>)
+  a4:	f240 4264 	movw	r2, #1124	; 0x464
+  a8:	490a      	ldr	r1, [pc, #40]	; (d4 <tcp_free_acked_segments.constprop.0+0xd4>)
+  aa:	4809      	ldr	r0, [pc, #36]	; (d0 <tcp_free_acked_segments.constprop.0+0xd0>)
+  ac:	f7ff fffe 	bl	0 <printf>
+  b0:	2000      	movs	r0, #0
+  b2:	f7ff fffe 	bl	0 <fflush>
+  b6:	2001      	movs	r0, #1
+  b8:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  bc:	f7ff fffe 	bl	0 <abort>
+  c0:	00000000 	.word	0x00000000
+  c4:	00000000 	.word	0x00000000
+  c8:	00000000 	.word	0x00000000
+  cc:	00000028 	.word	0x00000028
+  d0:	00000050 	.word	0x00000050
+  d4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_receive:
+
+00000000 <tcp_receive>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4604      	mov	r4, r0
+   6:	2800      	cmp	r0, #0
+   8:	f000 83ee 	beq.w	7e8 <tcp_receive+0x7e8>
+   c:	7d02      	ldrb	r2, [r0, #20]
+   e:	2a03      	cmp	r2, #3
+  10:	f240 83ef 	bls.w	7f2 <tcp_receive+0x7f2>
+  14:	4b9a      	ldr	r3, [pc, #616]	; (280 <tcp_receive+0x280>)
+  16:	781b      	ldrb	r3, [r3, #0]
+  18:	06dd      	lsls	r5, r3, #27
+  1a:	d44d      	bmi.n	b8 <tcp_receive+0xb8>
+  1c:	4e99      	ldr	r6, [pc, #612]	; (284 <tcp_receive+0x284>)
+  1e:	4f9a      	ldr	r7, [pc, #616]	; (288 <tcp_receive+0x288>)
+  20:	8838      	ldrh	r0, [r7, #0]
+  22:	2800      	cmp	r0, #0
+  24:	f000 8090 	beq.w	148 <tcp_receive+0x148>
+  28:	7d22      	ldrb	r2, [r4, #20]
+  2a:	6833      	ldr	r3, [r6, #0]
+  2c:	2a06      	cmp	r2, #6
+  2e:	f200 808c 	bhi.w	14a <tcp_receive+0x14a>
+  32:	6a62      	ldr	r2, [r4, #36]	; 0x24
+  34:	1ad1      	subs	r1, r2, r3
+  36:	1a9d      	subs	r5, r3, r2
+  38:	f1b1 0c01 	subs.w	ip, r1, #1
+  3c:	f100 8130 	bmi.w	2a0 <tcp_receive+0x2a0>
+  40:	f105 3eff 	add.w	lr, r5, #4294967295	; 0xffffffff
+  44:	eb1e 0f00 	cmn.w	lr, r0
+  48:	f100 812a 	bmi.w	2a0 <tcp_receive+0x2a0>
+  4c:	f8df 8248 	ldr.w	r8, [pc, #584]	; 298 <tcp_receive+0x298>
+  50:	f8d8 5004 	ldr.w	r5, [r8, #4]
+  54:	2d00      	cmp	r5, #0
+  56:	f000 83ec 	beq.w	832 <tcp_receive+0x832>
+  5a:	f64f 73fe 	movw	r3, #65534	; 0xfffe
+  5e:	4299      	cmp	r1, r3
+  60:	f200 83e2 	bhi.w	828 <tcp_receive+0x828>
+  64:	b289      	uxth	r1, r1
+  66:	892a      	ldrh	r2, [r5, #8]
+  68:	428a      	cmp	r2, r1
+  6a:	f0c0 83d8 	bcc.w	81e <tcp_receive+0x81e>
+  6e:	f8b8 3008 	ldrh.w	r3, [r8, #8]
+  72:	1a52      	subs	r2, r2, r1
+  74:	1a5b      	subs	r3, r3, r1
+  76:	b292      	uxth	r2, r2
+  78:	f8a8 3008 	strh.w	r3, [r8, #8]
+  7c:	896b      	ldrh	r3, [r5, #10]
+  7e:	4299      	cmp	r1, r3
+  80:	d908      	bls.n	94 <tcp_receive+0x94>
+  82:	2000      	movs	r0, #0
+  84:	1ac9      	subs	r1, r1, r3
+  86:	8168      	strh	r0, [r5, #10]
+  88:	812a      	strh	r2, [r5, #8]
+  8a:	682d      	ldr	r5, [r5, #0]
+  8c:	b289      	uxth	r1, r1
+  8e:	896b      	ldrh	r3, [r5, #10]
+  90:	428b      	cmp	r3, r1
+  92:	d3f7      	bcc.n	84 <tcp_receive+0x84>
+  94:	4628      	mov	r0, r5
+  96:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  9a:	6a63      	ldr	r3, [r4, #36]	; 0x24
+  9c:	f8d8 200c 	ldr.w	r2, [r8, #12]
+  a0:	8d20      	ldrh	r0, [r4, #40]	; 0x28
+  a2:	6033      	str	r3, [r6, #0]
+  a4:	4601      	mov	r1, r0
+  a6:	6053      	str	r3, [r2, #4]
+  a8:	2800      	cmp	r0, #0
+  aa:	f040 8204 	bne.w	4b6 <tcp_receive+0x4b6>
+  ae:	4620      	mov	r0, r4
+  b0:	e8bd 43f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+  b4:	f7ff bffe 	b.w	0 <tcp_send_empty_ack>
+  b8:	4e72      	ldr	r6, [pc, #456]	; (284 <tcp_receive+0x284>)
+  ba:	6d41      	ldr	r1, [r0, #84]	; 0x54
+  bc:	6833      	ldr	r3, [r6, #0]
+  be:	f8b0 c060 	ldrh.w	ip, [r0, #96]	; 0x60
+  c2:	f8d0 e058 	ldr.w	lr, [r0, #88]	; 0x58
+  c6:	1ac8      	subs	r0, r1, r3
+  c8:	2800      	cmp	r0, #0
+  ca:	db50      	blt.n	16e <tcp_receive+0x16e>
+  cc:	f8df 81cc 	ldr.w	r8, [pc, #460]	; 29c <tcp_receive+0x29c>
+  d0:	4299      	cmp	r1, r3
+  d2:	f8d8 1000 	ldr.w	r1, [r8]
+  d6:	f000 812b 	beq.w	330 <tcp_receive+0x330>
+  da:	458e      	cmp	lr, r1
+  dc:	f000 8131 	beq.w	342 <tcp_receive+0x342>
+  e0:	6c65      	ldr	r5, [r4, #68]	; 0x44
+  e2:	1a68      	subs	r0, r5, r1
+  e4:	2800      	cmp	r0, #0
+  e6:	db57      	blt.n	198 <tcp_receive+0x198>
+  e8:	4f67      	ldr	r7, [pc, #412]	; (288 <tcp_receive+0x288>)
+  ea:	8838      	ldrh	r0, [r7, #0]
+  ec:	2800      	cmp	r0, #0
+  ee:	f000 80ba 	beq.w	266 <tcp_receive+0x266>
+  f2:	6b65      	ldr	r5, [r4, #52]	; 0x34
+  f4:	2d00      	cmp	r5, #0
+  f6:	d099      	beq.n	2c <tcp_receive+0x2c>
+  f8:	6ba3      	ldr	r3, [r4, #56]	; 0x38
+  fa:	1a5b      	subs	r3, r3, r1
+  fc:	2b00      	cmp	r3, #0
+  fe:	da8f      	bge.n	20 <tcp_receive+0x20>
+ 100:	f9b4 203c 	ldrsh.w	r2, [r4, #60]	; 0x3c
+ 104:	b2ad      	uxth	r5, r5
+ 106:	4b61      	ldr	r3, [pc, #388]	; (28c <tcp_receive+0x28c>)
+ 108:	f3c2 01cf 	ubfx	r1, r2, #3, #16
+ 10c:	8818      	ldrh	r0, [r3, #0]
+ 10e:	1a43      	subs	r3, r0, r1
+ 110:	1b5b      	subs	r3, r3, r5
+ 112:	b29b      	uxth	r3, r3
+ 114:	441a      	add	r2, r3
+ 116:	f413 4f00 	tst.w	r3, #32768	; 0x8000
+ 11a:	b212      	sxth	r2, r2
+ 11c:	87a2      	strh	r2, [r4, #60]	; 0x3c
+ 11e:	d002      	beq.n	126 <tcp_receive+0x126>
+ 120:	1a09      	subs	r1, r1, r0
+ 122:	440d      	add	r5, r1
+ 124:	b2ab      	uxth	r3, r5
+ 126:	f9b4 103e 	ldrsh.w	r1, [r4, #62]	; 0x3e
+ 12a:	8838      	ldrh	r0, [r7, #0]
+ 12c:	eba1 01a1 	sub.w	r1, r1, r1, asr #2
+ 130:	440b      	add	r3, r1
+ 132:	b29b      	uxth	r3, r3
+ 134:	eb03 02e2 	add.w	r2, r3, r2, asr #3
+ 138:	87e3      	strh	r3, [r4, #62]	; 0x3e
+ 13a:	2300      	movs	r3, #0
+ 13c:	f8a4 2040 	strh.w	r2, [r4, #64]	; 0x40
+ 140:	6363      	str	r3, [r4, #52]	; 0x34
+ 142:	2800      	cmp	r0, #0
+ 144:	f47f af70 	bne.w	28 <tcp_receive+0x28>
+ 148:	6833      	ldr	r3, [r6, #0]
+ 14a:	6a62      	ldr	r2, [r4, #36]	; 0x24
+ 14c:	1a99      	subs	r1, r3, r2
+ 14e:	2900      	cmp	r1, #0
+ 150:	db07      	blt.n	162 <tcp_receive+0x162>
+ 152:	8d21      	ldrh	r1, [r4, #40]	; 0x28
+ 154:	3a01      	subs	r2, #1
+ 156:	440a      	add	r2, r1
+ 158:	1ad3      	subs	r3, r2, r3
+ 15a:	2b00      	cmp	r3, #0
+ 15c:	db01      	blt.n	162 <tcp_receive+0x162>
+ 15e:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+ 162:	8b63      	ldrh	r3, [r4, #26]
+ 164:	f043 0302 	orr.w	r3, r3, #2
+ 168:	8363      	strh	r3, [r4, #26]
+ 16a:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+ 16e:	4948      	ldr	r1, [pc, #288]	; (290 <tcp_receive+0x290>)
+ 170:	f8df 8128 	ldr.w	r8, [pc, #296]	; 29c <tcp_receive+0x29c>
+ 174:	6809      	ldr	r1, [r1, #0]
+ 176:	89c8      	ldrh	r0, [r1, #14]
+ 178:	f8d8 1000 	ldr.w	r1, [r8]
+ 17c:	f8b4 5062 	ldrh.w	r5, [r4, #98]	; 0x62
+ 180:	f8a4 0060 	strh.w	r0, [r4, #96]	; 0x60
+ 184:	4285      	cmp	r5, r0
+ 186:	6c65      	ldr	r5, [r4, #68]	; 0x44
+ 188:	bf38      	it	cc
+ 18a:	f8a4 0062 	strhcc.w	r0, [r4, #98]	; 0x62
+ 18e:	1a68      	subs	r0, r5, r1
+ 190:	2800      	cmp	r0, #0
+ 192:	e9c4 3115 	strd	r3, r1, [r4, #84]	; 0x54
+ 196:	daa7      	bge.n	e8 <tcp_receive+0xe8>
+ 198:	1b4d      	subs	r5, r1, r5
+ 19a:	2d01      	cmp	r5, #1
+ 19c:	f100 80d8 	bmi.w	350 <tcp_receive+0x350>
+ 1a0:	6d23      	ldr	r3, [r4, #80]	; 0x50
+ 1a2:	1a5b      	subs	r3, r3, r1
+ 1a4:	2b00      	cmp	r3, #0
+ 1a6:	f2c0 80d3 	blt.w	350 <tcp_receive+0x350>
+ 1aa:	8b63      	ldrh	r3, [r4, #26]
+ 1ac:	f013 0204 	ands.w	r2, r3, #4
+ 1b0:	f040 815d 	bne.w	46e <tcp_receive+0x46e>
+ 1b4:	f8a4 2042 	strh.w	r2, [r4, #66]	; 0x42
+ 1b8:	b2ad      	uxth	r5, r5
+ 1ba:	8fe2      	ldrh	r2, [r4, #62]	; 0x3e
+ 1bc:	6461      	str	r1, [r4, #68]	; 0x44
+ 1be:	f9b4 103c 	ldrsh.w	r1, [r4, #60]	; 0x3c
+ 1c2:	eb02 02e1 	add.w	r2, r2, r1, asr #3
+ 1c6:	f8b4 104a 	ldrh.w	r1, [r4, #74]	; 0x4a
+ 1ca:	f8a4 2040 	strh.w	r2, [r4, #64]	; 0x40
+ 1ce:	f8b4 2048 	ldrh.w	r2, [r4, #72]	; 0x48
+ 1d2:	4291      	cmp	r1, r2
+ 1d4:	f240 8160 	bls.w	498 <tcp_receive+0x498>
+ 1d8:	f413 6f00 	tst.w	r3, #2048	; 0x800
+ 1dc:	8e63      	ldrh	r3, [r4, #50]	; 0x32
+ 1de:	bf14      	ite	ne
+ 1e0:	2101      	movne	r1, #1
+ 1e2:	2102      	moveq	r1, #2
+ 1e4:	fb13 f301 	smulbb	r3, r3, r1
+ 1e8:	b29b      	uxth	r3, r3
+ 1ea:	42ab      	cmp	r3, r5
+ 1ec:	bf94      	ite	ls
+ 1ee:	18d1      	addls	r1, r2, r3
+ 1f0:	1951      	addhi	r1, r2, r5
+ 1f2:	b28b      	uxth	r3, r1
+ 1f4:	4293      	cmp	r3, r2
+ 1f6:	f080 827b 	bcs.w	6f0 <tcp_receive+0x6f0>
+ 1fa:	f64f 73ff 	movw	r3, #65535	; 0xffff
+ 1fe:	f8a4 3048 	strh.w	r3, [r4, #72]	; 0x48
+ 202:	4620      	mov	r0, r4
+ 204:	e9d4 211b 	ldrd	r2, r1, [r4, #108]	; 0x6c
+ 208:	f7ff fffe 	bl	0 <tcp_receive>
+ 20c:	6ee1      	ldr	r1, [r4, #108]	; 0x6c
+ 20e:	4602      	mov	r2, r0
+ 210:	6720      	str	r0, [r4, #112]	; 0x70
+ 212:	4620      	mov	r0, r4
+ 214:	f7ff fffe 	bl	0 <tcp_receive>
+ 218:	6f22      	ldr	r2, [r4, #112]	; 0x70
+ 21a:	66e0      	str	r0, [r4, #108]	; 0x6c
+ 21c:	fab2 f382 	clz	r3, r2
+ 220:	095b      	lsrs	r3, r3, #5
+ 222:	425b      	negs	r3, r3
+ 224:	8623      	strh	r3, [r4, #48]	; 0x30
+ 226:	2300      	movs	r3, #0
+ 228:	7723      	strb	r3, [r4, #28]
+ 22a:	2800      	cmp	r0, #0
+ 22c:	f000 8263 	beq.w	6f6 <tcp_receive+0x6f6>
+ 230:	4b18      	ldr	r3, [pc, #96]	; (294 <tcp_receive+0x294>)
+ 232:	8819      	ldrh	r1, [r3, #0]
+ 234:	f8b4 3064 	ldrh.w	r3, [r4, #100]	; 0x64
+ 238:	440b      	add	r3, r1
+ 23a:	f8a4 3064 	strh.w	r3, [r4, #100]	; 0x64
+ 23e:	8b63      	ldrh	r3, [r4, #26]
+ 240:	0519      	lsls	r1, r3, #20
+ 242:	f140 823f 	bpl.w	6c4 <tcp_receive+0x6c4>
+ 246:	2a00      	cmp	r2, #0
+ 248:	f000 825c 	beq.w	704 <tcp_receive+0x704>
+ 24c:	68d2      	ldr	r2, [r2, #12]
+ 24e:	6852      	ldr	r2, [r2, #4]
+ 250:	6ce1      	ldr	r1, [r4, #76]	; 0x4c
+ 252:	ba12      	rev	r2, r2
+ 254:	1a52      	subs	r2, r2, r1
+ 256:	2a00      	cmp	r2, #0
+ 258:	f2c0 8234 	blt.w	6c4 <tcp_receive+0x6c4>
+ 25c:	f423 6300 	bic.w	r3, r3, #2048	; 0x800
+ 260:	4f09      	ldr	r7, [pc, #36]	; (288 <tcp_receive+0x288>)
+ 262:	8363      	strh	r3, [r4, #26]
+ 264:	e078      	b.n	358 <tcp_receive+0x358>
+ 266:	f8b4 0060 	ldrh.w	r0, [r4, #96]	; 0x60
+ 26a:	44f4      	add	ip, lr
+ 26c:	6da2      	ldr	r2, [r4, #88]	; 0x58
+ 26e:	4402      	add	r2, r0
+ 270:	4562      	cmp	r2, ip
+ 272:	f000 80e3 	beq.w	43c <tcp_receive+0x43c>
+ 276:	6b65      	ldr	r5, [r4, #52]	; 0x34
+ 278:	2d00      	cmp	r5, #0
+ 27a:	f47f af3d 	bne.w	f8 <tcp_receive+0xf8>
+ 27e:	e764      	b.n	14a <tcp_receive+0x14a>
+ 280:	00000000 	.word	0x00000000
+ 284:	00000000 	.word	0x00000000
+ 288:	00000000 	.word	0x00000000
+ 28c:	00000000 	.word	0x00000000
+ 290:	00000000 	.word	0x00000000
+ 294:	00000000 	.word	0x00000000
+ 298:	00000000 	.word	0x00000000
+ 29c:	00000000 	.word	0x00000000
+ 2a0:	2d00      	cmp	r5, #0
+ 2a2:	f2c0 80c6 	blt.w	432 <tcp_receive+0x432>
+ 2a6:	8d20      	ldrh	r0, [r4, #40]	; 0x28
+ 2a8:	eb10 0f0c 	cmn.w	r0, ip
+ 2ac:	4601      	mov	r1, r0
+ 2ae:	f53f aefe 	bmi.w	ae <tcp_receive+0xae>
+ 2b2:	429a      	cmp	r2, r3
+ 2b4:	f000 80fd 	beq.w	4b2 <tcp_receive+0x4b2>
+ 2b8:	6f65      	ldr	r5, [r4, #116]	; 0x74
+ 2ba:	2d00      	cmp	r5, #0
+ 2bc:	f000 8227 	beq.w	70e <tcp_receive+0x70e>
+ 2c0:	68e8      	ldr	r0, [r5, #12]
+ 2c2:	f04f 0800 	mov.w	r8, #0
+ 2c6:	f103 3cff 	add.w	ip, r3, #4294967295	; 0xffffffff
+ 2ca:	6842      	ldr	r2, [r0, #4]
+ 2cc:	429a      	cmp	r2, r3
+ 2ce:	d016      	beq.n	2fe <tcp_receive+0x2fe>
+ 2d0:	f1b8 0f00 	cmp.w	r8, #0
+ 2d4:	d047      	beq.n	366 <tcp_receive+0x366>
+ 2d6:	f8d8 100c 	ldr.w	r1, [r8, #12]
+ 2da:	6849      	ldr	r1, [r1, #4]
+ 2dc:	ebac 0101 	sub.w	r1, ip, r1
+ 2e0:	2900      	cmp	r1, #0
+ 2e2:	db03      	blt.n	2ec <tcp_receive+0x2ec>
+ 2e4:	1ad1      	subs	r1, r2, r3
+ 2e6:	2901      	cmp	r1, #1
+ 2e8:	f140 824e 	bpl.w	788 <tcp_receive+0x788>
+ 2ec:	6829      	ldr	r1, [r5, #0]
+ 2ee:	46a8      	mov	r8, r5
+ 2f0:	2900      	cmp	r1, #0
+ 2f2:	d046      	beq.n	382 <tcp_receive+0x382>
+ 2f4:	460d      	mov	r5, r1
+ 2f6:	68e8      	ldr	r0, [r5, #12]
+ 2f8:	6842      	ldr	r2, [r0, #4]
+ 2fa:	429a      	cmp	r2, r3
+ 2fc:	d1e8      	bne.n	2d0 <tcp_receive+0x2d0>
+ 2fe:	48aa      	ldr	r0, [pc, #680]	; (5a8 <tcp_receive+0x5a8>)
+ 300:	892b      	ldrh	r3, [r5, #8]
+ 302:	8902      	ldrh	r2, [r0, #8]
+ 304:	429a      	cmp	r2, r3
+ 306:	f67f aed2 	bls.w	ae <tcp_receive+0xae>
+ 30a:	682b      	ldr	r3, [r5, #0]
+ 30c:	2b00      	cmp	r3, #0
+ 30e:	f43f aece 	beq.w	ae <tcp_receive+0xae>
+ 312:	f7ff fffe 	bl	0 <tcp_seg_copy>
+ 316:	2800      	cmp	r0, #0
+ 318:	f43f aec9 	beq.w	ae <tcp_receive+0xae>
+ 31c:	f1b8 0f00 	cmp.w	r8, #0
+ 320:	f000 8260 	beq.w	7e4 <tcp_receive+0x7e4>
+ 324:	f8c8 0000 	str.w	r0, [r8]
+ 328:	4629      	mov	r1, r5
+ 32a:	f7ff fffe 	bl	0 <tcp_receive>
+ 32e:	e6be      	b.n	ae <tcp_receive+0xae>
+ 330:	ebae 0001 	sub.w	r0, lr, r1
+ 334:	2800      	cmp	r0, #0
+ 336:	f6bf aed0 	bge.w	da <tcp_receive+0xda>
+ 33a:	489c      	ldr	r0, [pc, #624]	; (5ac <tcp_receive+0x5ac>)
+ 33c:	6800      	ldr	r0, [r0, #0]
+ 33e:	89c0      	ldrh	r0, [r0, #14]
+ 340:	e71c      	b.n	17c <tcp_receive+0x17c>
+ 342:	489a      	ldr	r0, [pc, #616]	; (5ac <tcp_receive+0x5ac>)
+ 344:	6800      	ldr	r0, [r0, #0]
+ 346:	89c0      	ldrh	r0, [r0, #14]
+ 348:	4584      	cmp	ip, r0
+ 34a:	f4bf aec9 	bcs.w	e0 <tcp_receive+0xe0>
+ 34e:	e715      	b.n	17c <tcp_receive+0x17c>
+ 350:	4620      	mov	r0, r4
+ 352:	4f97      	ldr	r7, [pc, #604]	; (5b0 <tcp_receive+0x5b0>)
+ 354:	f7ff fffe 	bl	0 <tcp_send_empty_ack>
+ 358:	6b65      	ldr	r5, [r4, #52]	; 0x34
+ 35a:	2d00      	cmp	r5, #0
+ 35c:	f43f ae60 	beq.w	20 <tcp_receive+0x20>
+ 360:	f8d8 1000 	ldr.w	r1, [r8]
+ 364:	e6c8      	b.n	f8 <tcp_receive+0xf8>
+ 366:	1a99      	subs	r1, r3, r2
+ 368:	2900      	cmp	r1, #0
+ 36a:	dabf      	bge.n	2ec <tcp_receive+0x2ec>
+ 36c:	488e      	ldr	r0, [pc, #568]	; (5a8 <tcp_receive+0x5a8>)
+ 36e:	f7ff fffe 	bl	0 <tcp_seg_copy>
+ 372:	2800      	cmp	r0, #0
+ 374:	f43f ae9b 	beq.w	ae <tcp_receive+0xae>
+ 378:	4629      	mov	r1, r5
+ 37a:	6760      	str	r0, [r4, #116]	; 0x74
+ 37c:	f7ff fffe 	bl	0 <tcp_receive>
+ 380:	e695      	b.n	ae <tcp_receive+0xae>
+ 382:	1ad2      	subs	r2, r2, r3
+ 384:	2a00      	cmp	r2, #0
+ 386:	f6bf ae92 	bge.w	ae <tcp_receive+0xae>
+ 38a:	8983      	ldrh	r3, [r0, #12]
+ 38c:	ba5b      	rev16	r3, r3
+ 38e:	07db      	lsls	r3, r3, #31
+ 390:	f53f ae8d 	bmi.w	ae <tcp_receive+0xae>
+ 394:	4884      	ldr	r0, [pc, #528]	; (5a8 <tcp_receive+0x5a8>)
+ 396:	f7ff fffe 	bl	0 <tcp_seg_copy>
+ 39a:	6028      	str	r0, [r5, #0]
+ 39c:	2800      	cmp	r0, #0
+ 39e:	f43f ae86 	beq.w	ae <tcp_receive+0xae>
+ 3a2:	68ea      	ldr	r2, [r5, #12]
+ 3a4:	6833      	ldr	r3, [r6, #0]
+ 3a6:	6851      	ldr	r1, [r2, #4]
+ 3a8:	892a      	ldrh	r2, [r5, #8]
+ 3aa:	440a      	add	r2, r1
+ 3ac:	1a9a      	subs	r2, r3, r2
+ 3ae:	2a00      	cmp	r2, #0
+ 3b0:	f2c0 8224 	blt.w	7fc <tcp_receive+0x7fc>
+ 3b4:	6831      	ldr	r1, [r6, #0]
+ 3b6:	883a      	ldrh	r2, [r7, #0]
+ 3b8:	f8d4 c024 	ldr.w	ip, [r4, #36]	; 0x24
+ 3bc:	440a      	add	r2, r1
+ 3be:	8d23      	ldrh	r3, [r4, #40]	; 0x28
+ 3c0:	ebac 0202 	sub.w	r2, ip, r2
+ 3c4:	42da      	cmn	r2, r3
+ 3c6:	f57f ae72 	bpl.w	ae <tcp_receive+0xae>
+ 3ca:	6828      	ldr	r0, [r5, #0]
+ 3cc:	f8d0 800c 	ldr.w	r8, [r0, #12]
+ 3d0:	f8b8 e00c 	ldrh.w	lr, [r8, #12]
+ 3d4:	fa9e f99e 	rev16.w	r9, lr
+ 3d8:	fa1f f28e 	uxth.w	r2, lr
+ 3dc:	f019 0f01 	tst.w	r9, #1
+ 3e0:	d007      	beq.n	3f2 <tcp_receive+0x3f2>
+ 3e2:	f402 5278 	and.w	r2, r2, #15872	; 0x3e00
+ 3e6:	f42e 5e7c 	bic.w	lr, lr, #16128	; 0x3f00
+ 3ea:	ea42 020e 	orr.w	r2, r2, lr
+ 3ee:	f8a8 200c 	strh.w	r2, [r8, #12]
+ 3f2:	1a59      	subs	r1, r3, r1
+ 3f4:	4461      	add	r1, ip
+ 3f6:	b289      	uxth	r1, r1
+ 3f8:	8101      	strh	r1, [r0, #8]
+ 3fa:	6840      	ldr	r0, [r0, #4]
+ 3fc:	f7ff fffe 	bl	0 <pbuf_realloc>
+ 400:	682b      	ldr	r3, [r5, #0]
+ 402:	6831      	ldr	r1, [r6, #0]
+ 404:	68d8      	ldr	r0, [r3, #12]
+ 406:	891a      	ldrh	r2, [r3, #8]
+ 408:	8983      	ldrh	r3, [r0, #12]
+ 40a:	ba5b      	rev16	r3, r3
+ 40c:	f013 0303 	ands.w	r3, r3, #3
+ 410:	bf18      	it	ne
+ 412:	2301      	movne	r3, #1
+ 414:	4413      	add	r3, r2
+ 416:	8d22      	ldrh	r2, [r4, #40]	; 0x28
+ 418:	b29b      	uxth	r3, r3
+ 41a:	4419      	add	r1, r3
+ 41c:	803b      	strh	r3, [r7, #0]
+ 41e:	6a63      	ldr	r3, [r4, #36]	; 0x24
+ 420:	4413      	add	r3, r2
+ 422:	4299      	cmp	r1, r3
+ 424:	f43f ae43 	beq.w	ae <tcp_receive+0xae>
+ 428:	4b62      	ldr	r3, [pc, #392]	; (5b4 <tcp_receive+0x5b4>)
+ 42a:	f44f 62e1 	mov.w	r2, #1800	; 0x708
+ 42e:	4962      	ldr	r1, [pc, #392]	; (5b8 <tcp_receive+0x5b8>)
+ 430:	e10b      	b.n	64a <tcp_receive+0x64a>
+ 432:	8b63      	ldrh	r3, [r4, #26]
+ 434:	f043 0302 	orr.w	r3, r3, #2
+ 438:	8363      	strh	r3, [r4, #26]
+ 43a:	e638      	b.n	ae <tcp_receive+0xae>
+ 43c:	8e22      	ldrh	r2, [r4, #48]	; 0x30
+ 43e:	0410      	lsls	r0, r2, #16
+ 440:	f53f af19 	bmi.w	276 <tcp_receive+0x276>
+ 444:	428d      	cmp	r5, r1
+ 446:	f47f af16 	bne.w	276 <tcp_receive+0x276>
+ 44a:	f894 2043 	ldrb.w	r2, [r4, #67]	; 0x43
+ 44e:	2aff      	cmp	r2, #255	; 0xff
+ 450:	f000 81b2 	beq.w	7b8 <tcp_receive+0x7b8>
+ 454:	3201      	adds	r2, #1
+ 456:	b2d2      	uxtb	r2, r2
+ 458:	2a03      	cmp	r2, #3
+ 45a:	f884 2043 	strb.w	r2, [r4, #67]	; 0x43
+ 45e:	f200 81ab 	bhi.w	7b8 <tcp_receive+0x7b8>
+ 462:	f47f af08 	bne.w	276 <tcp_receive+0x276>
+ 466:	4620      	mov	r0, r4
+ 468:	f7ff fffe 	bl	0 <tcp_rexmit_fast>
+ 46c:	e774      	b.n	358 <tcp_receive+0x358>
+ 46e:	f023 0304 	bic.w	r3, r3, #4
+ 472:	6461      	str	r1, [r4, #68]	; 0x44
+ 474:	f9b4 103c 	ldrsh.w	r1, [r4, #60]	; 0x3c
+ 478:	b2ad      	uxth	r5, r5
+ 47a:	8363      	strh	r3, [r4, #26]
+ 47c:	8fe3      	ldrh	r3, [r4, #62]	; 0x3e
+ 47e:	f8b4 204a 	ldrh.w	r2, [r4, #74]	; 0x4a
+ 482:	eb03 03e1 	add.w	r3, r3, r1, asr #3
+ 486:	f8a4 2048 	strh.w	r2, [r4, #72]	; 0x48
+ 48a:	f8a4 3040 	strh.w	r3, [r4, #64]	; 0x40
+ 48e:	2300      	movs	r3, #0
+ 490:	f8a4 306a 	strh.w	r3, [r4, #106]	; 0x6a
+ 494:	f8a4 3042 	strh.w	r3, [r4, #66]	; 0x42
+ 498:	f8b4 306a 	ldrh.w	r3, [r4, #106]	; 0x6a
+ 49c:	441d      	add	r5, r3
+ 49e:	b2ad      	uxth	r5, r5
+ 4a0:	42ab      	cmp	r3, r5
+ 4a2:	f200 811a 	bhi.w	6da <tcp_receive+0x6da>
+ 4a6:	4295      	cmp	r5, r2
+ 4a8:	f080 8119 	bcs.w	6de <tcp_receive+0x6de>
+ 4ac:	f8a4 506a 	strh.w	r5, [r4, #106]	; 0x6a
+ 4b0:	e6a7      	b.n	202 <tcp_receive+0x202>
+ 4b2:	f8df 80f4 	ldr.w	r8, [pc, #244]	; 5a8 <tcp_receive+0x5a8>
+ 4b6:	f8d8 c00c 	ldr.w	ip, [r8, #12]
+ 4ba:	f8b8 9008 	ldrh.w	r9, [r8, #8]
+ 4be:	f8bc 500c 	ldrh.w	r5, [ip, #12]
+ 4c2:	ba6a      	rev16	r2, r5
+ 4c4:	fa1f fe85 	uxth.w	lr, r5
+ 4c8:	f012 0303 	ands.w	r3, r2, #3
+ 4cc:	b2d2      	uxtb	r2, r2
+ 4ce:	bf18      	it	ne
+ 4d0:	2301      	movne	r3, #1
+ 4d2:	444b      	add	r3, r9
+ 4d4:	b29b      	uxth	r3, r3
+ 4d6:	4283      	cmp	r3, r0
+ 4d8:	803b      	strh	r3, [r7, #0]
+ 4da:	d928      	bls.n	52e <tcp_receive+0x52e>
+ 4dc:	07d3      	lsls	r3, r2, #31
+ 4de:	d508      	bpl.n	4f2 <tcp_receive+0x4f2>
+ 4e0:	f40e 5378 	and.w	r3, lr, #15872	; 0x3e00
+ 4e4:	f425 557c 	bic.w	r5, r5, #16128	; 0x3f00
+ 4e8:	432b      	orrs	r3, r5
+ 4ea:	f8ac 300c 	strh.w	r3, [ip, #12]
+ 4ee:	ba5b      	rev16	r3, r3
+ 4f0:	b2da      	uxtb	r2, r3
+ 4f2:	0792      	lsls	r2, r2, #30
+ 4f4:	f100 8114 	bmi.w	720 <tcp_receive+0x720>
+ 4f8:	f8a8 0008 	strh.w	r0, [r8, #8]
+ 4fc:	f8d8 0004 	ldr.w	r0, [r8, #4]
+ 500:	f7ff fffe 	bl	0 <pbuf_realloc>
+ 504:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 508:	f8b8 2008 	ldrh.w	r2, [r8, #8]
+ 50c:	899b      	ldrh	r3, [r3, #12]
+ 50e:	8d20      	ldrh	r0, [r4, #40]	; 0x28
+ 510:	ba5b      	rev16	r3, r3
+ 512:	f013 0303 	ands.w	r3, r3, #3
+ 516:	bf18      	it	ne
+ 518:	2301      	movne	r3, #1
+ 51a:	4413      	add	r3, r2
+ 51c:	6832      	ldr	r2, [r6, #0]
+ 51e:	b29b      	uxth	r3, r3
+ 520:	803b      	strh	r3, [r7, #0]
+ 522:	4413      	add	r3, r2
+ 524:	6a62      	ldr	r2, [r4, #36]	; 0x24
+ 526:	4402      	add	r2, r0
+ 528:	4293      	cmp	r3, r2
+ 52a:	f040 816e 	bne.w	80a <tcp_receive+0x80a>
+ 52e:	6f65      	ldr	r5, [r4, #116]	; 0x74
+ 530:	2d00      	cmp	r5, #0
+ 532:	f000 80f1 	beq.w	718 <tcp_receive+0x718>
+ 536:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 53a:	899b      	ldrh	r3, [r3, #12]
+ 53c:	ba5b      	rev16	r3, r3
+ 53e:	07db      	lsls	r3, r3, #31
+ 540:	f140 808f 	bpl.w	662 <tcp_receive+0x662>
+ 544:	682b      	ldr	r3, [r5, #0]
+ 546:	4628      	mov	r0, r5
+ 548:	6763      	str	r3, [r4, #116]	; 0x74
+ 54a:	f7ff fffe 	bl	0 <tcp_seg_free>
+ 54e:	6f65      	ldr	r5, [r4, #116]	; 0x74
+ 550:	2d00      	cmp	r5, #0
+ 552:	d1f7      	bne.n	544 <tcp_receive+0x544>
+ 554:	883a      	ldrh	r2, [r7, #0]
+ 556:	6831      	ldr	r1, [r6, #0]
+ 558:	8d20      	ldrh	r0, [r4, #40]	; 0x28
+ 55a:	4411      	add	r1, r2
+ 55c:	4290      	cmp	r0, r2
+ 55e:	6261      	str	r1, [r4, #36]	; 0x24
+ 560:	f0c0 8158 	bcc.w	814 <tcp_receive+0x814>
+ 564:	1a82      	subs	r2, r0, r2
+ 566:	4620      	mov	r0, r4
+ 568:	8522      	strh	r2, [r4, #40]	; 0x28
+ 56a:	f7ff fffe 	bl	0 <tcp_update_rcv_ann_wnd>
+ 56e:	f8d8 3004 	ldr.w	r3, [r8, #4]
+ 572:	891a      	ldrh	r2, [r3, #8]
+ 574:	b122      	cbz	r2, 580 <tcp_receive+0x580>
+ 576:	4a11      	ldr	r2, [pc, #68]	; (5bc <tcp_receive+0x5bc>)
+ 578:	6013      	str	r3, [r2, #0]
+ 57a:	2300      	movs	r3, #0
+ 57c:	f8c8 3004 	str.w	r3, [r8, #4]
+ 580:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 584:	899b      	ldrh	r3, [r3, #12]
+ 586:	ba5b      	rev16	r3, r3
+ 588:	07d8      	lsls	r0, r3, #31
+ 58a:	d504      	bpl.n	596 <tcp_receive+0x596>
+ 58c:	4a0c      	ldr	r2, [pc, #48]	; (5c0 <tcp_receive+0x5c0>)
+ 58e:	7813      	ldrb	r3, [r2, #0]
+ 590:	f043 0320 	orr.w	r3, r3, #32
+ 594:	7013      	strb	r3, [r2, #0]
+ 596:	6f65      	ldr	r5, [r4, #116]	; 0x74
+ 598:	2d00      	cmp	r5, #0
+ 59a:	f000 8095 	beq.w	6c8 <tcp_receive+0x6c8>
+ 59e:	f8df 801c 	ldr.w	r8, [pc, #28]	; 5bc <tcp_receive+0x5bc>
+ 5a2:	4f07      	ldr	r7, [pc, #28]	; (5c0 <tcp_receive+0x5c0>)
+ 5a4:	e03c      	b.n	620 <tcp_receive+0x620>
+ 5a6:	bf00      	nop
+ 5a8:	00000000 	.word	0x00000000
+ 5ac:	00000000 	.word	0x00000000
+ 5b0:	00000000 	.word	0x00000000
+ 5b4:	00000000 	.word	0x00000000
+ 5b8:	00000068 	.word	0x00000068
+ 5bc:	00000000 	.word	0x00000000
+ 5c0:	00000000 	.word	0x00000000
+ 5c4:	1c4b      	adds	r3, r1, #1
+ 5c6:	441a      	add	r2, r3
+ 5c8:	6262      	str	r2, [r4, #36]	; 0x24
+ 5ca:	8d22      	ldrh	r2, [r4, #40]	; 0x28
+ 5cc:	4293      	cmp	r3, r2
+ 5ce:	d838      	bhi.n	642 <tcp_receive+0x642>
+ 5d0:	2301      	movs	r3, #1
+ 5d2:	1a52      	subs	r2, r2, r1
+ 5d4:	4620      	mov	r0, r4
+ 5d6:	1ad2      	subs	r2, r2, r3
+ 5d8:	8522      	strh	r2, [r4, #40]	; 0x28
+ 5da:	f7ff fffe 	bl	0 <tcp_update_rcv_ann_wnd>
+ 5de:	6869      	ldr	r1, [r5, #4]
+ 5e0:	890b      	ldrh	r3, [r1, #8]
+ 5e2:	b13b      	cbz	r3, 5f4 <tcp_receive+0x5f4>
+ 5e4:	f8d8 0000 	ldr.w	r0, [r8]
+ 5e8:	2800      	cmp	r0, #0
+ 5ea:	d068      	beq.n	6be <tcp_receive+0x6be>
+ 5ec:	f7ff fffe 	bl	0 <pbuf_cat>
+ 5f0:	2300      	movs	r3, #0
+ 5f2:	606b      	str	r3, [r5, #4]
+ 5f4:	68eb      	ldr	r3, [r5, #12]
+ 5f6:	899b      	ldrh	r3, [r3, #12]
+ 5f8:	ba5b      	rev16	r3, r3
+ 5fa:	07d9      	lsls	r1, r3, #31
+ 5fc:	d508      	bpl.n	610 <tcp_receive+0x610>
+ 5fe:	783b      	ldrb	r3, [r7, #0]
+ 600:	f043 0320 	orr.w	r3, r3, #32
+ 604:	703b      	strb	r3, [r7, #0]
+ 606:	7d23      	ldrb	r3, [r4, #20]
+ 608:	2b04      	cmp	r3, #4
+ 60a:	d101      	bne.n	610 <tcp_receive+0x610>
+ 60c:	2307      	movs	r3, #7
+ 60e:	7523      	strb	r3, [r4, #20]
+ 610:	682b      	ldr	r3, [r5, #0]
+ 612:	4628      	mov	r0, r5
+ 614:	6763      	str	r3, [r4, #116]	; 0x74
+ 616:	f7ff fffe 	bl	0 <tcp_seg_free>
+ 61a:	6f65      	ldr	r5, [r4, #116]	; 0x74
+ 61c:	2d00      	cmp	r5, #0
+ 61e:	d053      	beq.n	6c8 <tcp_receive+0x6c8>
+ 620:	68eb      	ldr	r3, [r5, #12]
+ 622:	6a61      	ldr	r1, [r4, #36]	; 0x24
+ 624:	685a      	ldr	r2, [r3, #4]
+ 626:	428a      	cmp	r2, r1
+ 628:	d14e      	bne.n	6c8 <tcp_receive+0x6c8>
+ 62a:	6032      	str	r2, [r6, #0]
+ 62c:	899b      	ldrh	r3, [r3, #12]
+ 62e:	8929      	ldrh	r1, [r5, #8]
+ 630:	ba5b      	rev16	r3, r3
+ 632:	f013 0303 	ands.w	r3, r3, #3
+ 636:	d1c5      	bne.n	5c4 <tcp_receive+0x5c4>
+ 638:	440a      	add	r2, r1
+ 63a:	6262      	str	r2, [r4, #36]	; 0x24
+ 63c:	8d22      	ldrh	r2, [r4, #40]	; 0x28
+ 63e:	4291      	cmp	r1, r2
+ 640:	d9c7      	bls.n	5d2 <tcp_receive+0x5d2>
+ 642:	4b7e      	ldr	r3, [pc, #504]	; (83c <tcp_receive+0x83c>)
+ 644:	f240 6231 	movw	r2, #1585	; 0x631
+ 648:	497d      	ldr	r1, [pc, #500]	; (840 <tcp_receive+0x840>)
+ 64a:	487e      	ldr	r0, [pc, #504]	; (844 <tcp_receive+0x844>)
+ 64c:	f7ff fffe 	bl	0 <printf>
+ 650:	2000      	movs	r0, #0
+ 652:	f7ff fffe 	bl	0 <fflush>
+ 656:	2001      	movs	r0, #1
+ 658:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 65c:	f7ff fffe 	bl	0 <abort>
+ 660:	464d      	mov	r5, r9
+ 662:	68e8      	ldr	r0, [r5, #12]
+ 664:	883a      	ldrh	r2, [r7, #0]
+ 666:	f8d6 e000 	ldr.w	lr, [r6]
+ 66a:	892b      	ldrh	r3, [r5, #8]
+ 66c:	f8d0 c004 	ldr.w	ip, [r0, #4]
+ 670:	eb02 010e 	add.w	r1, r2, lr
+ 674:	4463      	add	r3, ip
+ 676:	1acb      	subs	r3, r1, r3
+ 678:	2b00      	cmp	r3, #0
+ 67a:	db56      	blt.n	72a <tcp_receive+0x72a>
+ 67c:	8983      	ldrh	r3, [r0, #12]
+ 67e:	ba5b      	rev16	r3, r3
+ 680:	07d8      	lsls	r0, r3, #31
+ 682:	d50d      	bpl.n	6a0 <tcp_receive+0x6a0>
+ 684:	f8d8 200c 	ldr.w	r2, [r8, #12]
+ 688:	8993      	ldrh	r3, [r2, #12]
+ 68a:	ba59      	rev16	r1, r3
+ 68c:	b29b      	uxth	r3, r3
+ 68e:	0789      	lsls	r1, r1, #30
+ 690:	d406      	bmi.n	6a0 <tcp_receive+0x6a0>
+ 692:	f443 7380 	orr.w	r3, r3, #256	; 0x100
+ 696:	8193      	strh	r3, [r2, #12]
+ 698:	f8b8 3008 	ldrh.w	r3, [r8, #8]
+ 69c:	3301      	adds	r3, #1
+ 69e:	803b      	strh	r3, [r7, #0]
+ 6a0:	f8d5 9000 	ldr.w	r9, [r5]
+ 6a4:	4628      	mov	r0, r5
+ 6a6:	f7ff fffe 	bl	0 <tcp_seg_free>
+ 6aa:	f1b9 0f00 	cmp.w	r9, #0
+ 6ae:	d1d7      	bne.n	660 <tcp_receive+0x660>
+ 6b0:	883a      	ldrh	r2, [r7, #0]
+ 6b2:	464d      	mov	r5, r9
+ 6b4:	6831      	ldr	r1, [r6, #0]
+ 6b6:	4411      	add	r1, r2
+ 6b8:	8d20      	ldrh	r0, [r4, #40]	; 0x28
+ 6ba:	6765      	str	r5, [r4, #116]	; 0x74
+ 6bc:	e74e      	b.n	55c <tcp_receive+0x55c>
+ 6be:	f8c8 1000 	str.w	r1, [r8]
+ 6c2:	e795      	b.n	5f0 <tcp_receive+0x5f0>
+ 6c4:	4f60      	ldr	r7, [pc, #384]	; (848 <tcp_receive+0x848>)
+ 6c6:	e647      	b.n	358 <tcp_receive+0x358>
+ 6c8:	8b63      	ldrh	r3, [r4, #26]
+ 6ca:	07da      	lsls	r2, r3, #31
+ 6cc:	d516      	bpl.n	6fc <tcp_receive+0x6fc>
+ 6ce:	f023 0301 	bic.w	r3, r3, #1
+ 6d2:	f043 0302 	orr.w	r3, r3, #2
+ 6d6:	8363      	strh	r3, [r4, #26]
+ 6d8:	e541      	b.n	15e <tcp_receive+0x15e>
+ 6da:	f64f 75ff 	movw	r5, #65535	; 0xffff
+ 6de:	8e63      	ldrh	r3, [r4, #50]	; 0x32
+ 6e0:	1aad      	subs	r5, r5, r2
+ 6e2:	4413      	add	r3, r2
+ 6e4:	f8a4 506a 	strh.w	r5, [r4, #106]	; 0x6a
+ 6e8:	b29b      	uxth	r3, r3
+ 6ea:	4293      	cmp	r3, r2
+ 6ec:	f4ff ad85 	bcc.w	1fa <tcp_receive+0x1fa>
+ 6f0:	f8a4 3048 	strh.w	r3, [r4, #72]	; 0x48
+ 6f4:	e585      	b.n	202 <tcp_receive+0x202>
+ 6f6:	f8a4 0068 	strh.w	r0, [r4, #104]	; 0x68
+ 6fa:	e599      	b.n	230 <tcp_receive+0x230>
+ 6fc:	f043 0301 	orr.w	r3, r3, #1
+ 700:	8363      	strh	r3, [r4, #26]
+ 702:	e52c      	b.n	15e <tcp_receive+0x15e>
+ 704:	2800      	cmp	r0, #0
+ 706:	f43f ada9 	beq.w	25c <tcp_receive+0x25c>
+ 70a:	68c2      	ldr	r2, [r0, #12]
+ 70c:	e59f      	b.n	24e <tcp_receive+0x24e>
+ 70e:	484f      	ldr	r0, [pc, #316]	; (84c <tcp_receive+0x84c>)
+ 710:	f7ff fffe 	bl	0 <tcp_seg_copy>
+ 714:	6760      	str	r0, [r4, #116]	; 0x74
+ 716:	e4ca      	b.n	ae <tcp_receive+0xae>
+ 718:	883a      	ldrh	r2, [r7, #0]
+ 71a:	6831      	ldr	r1, [r6, #0]
+ 71c:	4411      	add	r1, r2
+ 71e:	e71d      	b.n	55c <tcp_receive+0x55c>
+ 720:	1e41      	subs	r1, r0, #1
+ 722:	b289      	uxth	r1, r1
+ 724:	f8a8 1008 	strh.w	r1, [r8, #8]
+ 728:	e6e8      	b.n	4fc <tcp_receive+0x4fc>
+ 72a:	ebac 0301 	sub.w	r3, ip, r1
+ 72e:	2b00      	cmp	r3, #0
+ 730:	dac2      	bge.n	6b8 <tcp_receive+0x6b8>
+ 732:	ebac 010e 	sub.w	r1, ip, lr
+ 736:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 73a:	b289      	uxth	r1, r1
+ 73c:	f8a8 1008 	strh.w	r1, [r8, #8]
+ 740:	899b      	ldrh	r3, [r3, #12]
+ 742:	ba5b      	rev16	r3, r3
+ 744:	079b      	lsls	r3, r3, #30
+ 746:	d503      	bpl.n	750 <tcp_receive+0x750>
+ 748:	3901      	subs	r1, #1
+ 74a:	b289      	uxth	r1, r1
+ 74c:	f8a8 1008 	strh.w	r1, [r8, #8]
+ 750:	f8d8 0004 	ldr.w	r0, [r8, #4]
+ 754:	f7ff fffe 	bl	0 <pbuf_realloc>
+ 758:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 75c:	f8b8 2008 	ldrh.w	r2, [r8, #8]
+ 760:	899b      	ldrh	r3, [r3, #12]
+ 762:	ba5b      	rev16	r3, r3
+ 764:	f013 0303 	ands.w	r3, r3, #3
+ 768:	bf18      	it	ne
+ 76a:	2301      	movne	r3, #1
+ 76c:	4413      	add	r3, r2
+ 76e:	b29a      	uxth	r2, r3
+ 770:	68eb      	ldr	r3, [r5, #12]
+ 772:	803a      	strh	r2, [r7, #0]
+ 774:	6859      	ldr	r1, [r3, #4]
+ 776:	6833      	ldr	r3, [r6, #0]
+ 778:	4413      	add	r3, r2
+ 77a:	428b      	cmp	r3, r1
+ 77c:	d09c      	beq.n	6b8 <tcp_receive+0x6b8>
+ 77e:	4b2f      	ldr	r3, [pc, #188]	; (83c <tcp_receive+0x83c>)
+ 780:	f240 6202 	movw	r2, #1538	; 0x602
+ 784:	4932      	ldr	r1, [pc, #200]	; (850 <tcp_receive+0x850>)
+ 786:	e760      	b.n	64a <tcp_receive+0x64a>
+ 788:	4830      	ldr	r0, [pc, #192]	; (84c <tcp_receive+0x84c>)
+ 78a:	f7ff fffe 	bl	0 <tcp_seg_copy>
+ 78e:	4607      	mov	r7, r0
+ 790:	2800      	cmp	r0, #0
+ 792:	f43f ac8c 	beq.w	ae <tcp_receive+0xae>
+ 796:	f8d8 300c 	ldr.w	r3, [r8, #12]
+ 79a:	6832      	ldr	r2, [r6, #0]
+ 79c:	6859      	ldr	r1, [r3, #4]
+ 79e:	f8b8 3008 	ldrh.w	r3, [r8, #8]
+ 7a2:	440b      	add	r3, r1
+ 7a4:	1ad3      	subs	r3, r2, r3
+ 7a6:	2b00      	cmp	r3, #0
+ 7a8:	db13      	blt.n	7d2 <tcp_receive+0x7d2>
+ 7aa:	4629      	mov	r1, r5
+ 7ac:	4638      	mov	r0, r7
+ 7ae:	f8c8 7000 	str.w	r7, [r8]
+ 7b2:	f7ff fffe 	bl	0 <tcp_receive>
+ 7b6:	e47a      	b.n	ae <tcp_receive+0xae>
+ 7b8:	f8b4 2048 	ldrh.w	r2, [r4, #72]	; 0x48
+ 7bc:	f64f 71ff 	movw	r1, #65535	; 0xffff
+ 7c0:	8e63      	ldrh	r3, [r4, #50]	; 0x32
+ 7c2:	4413      	add	r3, r2
+ 7c4:	b29b      	uxth	r3, r3
+ 7c6:	429a      	cmp	r2, r3
+ 7c8:	bf88      	it	hi
+ 7ca:	460b      	movhi	r3, r1
+ 7cc:	f8a4 3048 	strh.w	r3, [r4, #72]	; 0x48
+ 7d0:	e649      	b.n	466 <tcp_receive+0x466>
+ 7d2:	1a52      	subs	r2, r2, r1
+ 7d4:	f8d8 0004 	ldr.w	r0, [r8, #4]
+ 7d8:	b291      	uxth	r1, r2
+ 7da:	f8a8 1008 	strh.w	r1, [r8, #8]
+ 7de:	f7ff fffe 	bl	0 <pbuf_realloc>
+ 7e2:	e7e2      	b.n	7aa <tcp_receive+0x7aa>
+ 7e4:	6760      	str	r0, [r4, #116]	; 0x74
+ 7e6:	e59f      	b.n	328 <tcp_receive+0x328>
+ 7e8:	4b14      	ldr	r3, [pc, #80]	; (83c <tcp_receive+0x83c>)
+ 7ea:	f240 4287 	movw	r2, #1159	; 0x487
+ 7ee:	4919      	ldr	r1, [pc, #100]	; (854 <tcp_receive+0x854>)
+ 7f0:	e72b      	b.n	64a <tcp_receive+0x64a>
+ 7f2:	4b12      	ldr	r3, [pc, #72]	; (83c <tcp_receive+0x83c>)
+ 7f4:	f44f 6291 	mov.w	r2, #1160	; 0x488
+ 7f8:	4917      	ldr	r1, [pc, #92]	; (858 <tcp_receive+0x858>)
+ 7fa:	e726      	b.n	64a <tcp_receive+0x64a>
+ 7fc:	1a5b      	subs	r3, r3, r1
+ 7fe:	6868      	ldr	r0, [r5, #4]
+ 800:	b299      	uxth	r1, r3
+ 802:	8129      	strh	r1, [r5, #8]
+ 804:	f7ff fffe 	bl	0 <pbuf_realloc>
+ 808:	e5d4      	b.n	3b4 <tcp_receive+0x3b4>
+ 80a:	4b0c      	ldr	r3, [pc, #48]	; (83c <tcp_receive+0x83c>)
+ 80c:	f240 52d1 	movw	r2, #1489	; 0x5d1
+ 810:	4912      	ldr	r1, [pc, #72]	; (85c <tcp_receive+0x85c>)
+ 812:	e71a      	b.n	64a <tcp_receive+0x64a>
+ 814:	4b09      	ldr	r3, [pc, #36]	; (83c <tcp_receive+0x83c>)
+ 816:	f240 620d 	movw	r2, #1549	; 0x60d
+ 81a:	4911      	ldr	r1, [pc, #68]	; (860 <tcp_receive+0x860>)
+ 81c:	e715      	b.n	64a <tcp_receive+0x64a>
+ 81e:	4b07      	ldr	r3, [pc, #28]	; (83c <tcp_receive+0x83c>)
+ 820:	f240 529d 	movw	r2, #1437	; 0x59d
+ 824:	490f      	ldr	r1, [pc, #60]	; (864 <tcp_receive+0x864>)
+ 826:	e710      	b.n	64a <tcp_receive+0x64a>
+ 828:	4b04      	ldr	r3, [pc, #16]	; (83c <tcp_receive+0x83c>)
+ 82a:	f240 529b 	movw	r2, #1435	; 0x59b
+ 82e:	490e      	ldr	r1, [pc, #56]	; (868 <tcp_receive+0x868>)
+ 830:	e70b      	b.n	64a <tcp_receive+0x64a>
+ 832:	4b02      	ldr	r3, [pc, #8]	; (83c <tcp_receive+0x83c>)
+ 834:	f240 529a 	movw	r2, #1434	; 0x59a
+ 838:	490c      	ldr	r1, [pc, #48]	; (86c <tcp_receive+0x86c>)
+ 83a:	e706      	b.n	64a <tcp_receive+0x64a>
+ 83c:	00000000 	.word	0x00000000
+ 840:	000000fc 	.word	0x000000fc
+ 844:	00000050 	.word	0x00000050
+ 848:	00000000 	.word	0x00000000
+ 84c:	00000000 	.word	0x00000000
+ 850:	000000a0 	.word	0x000000a0
+ 854:	00000000 	.word	0x00000000
+ 858:	0000001c 	.word	0x0000001c
+ 85c:	00000068 	.word	0x00000068
+ 860:	000000dc 	.word	0x000000dc
+ 864:	00000058 	.word	0x00000058
+ 868:	00000048 	.word	0x00000048
+ 86c:	00000038 	.word	0x00000038
+
+Disassembly of section .text.tcp_parseopt:
+
+00000000 <tcp_parseopt>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4605      	mov	r5, r0
+   6:	2800      	cmp	r0, #0
+   8:	f000 808f 	beq.w	12a <tcp_parseopt+0x12a>
+   c:	4b4e      	ldr	r3, [pc, #312]	; (148 <tcp_parseopt+0x148>)
+   e:	8818      	ldrh	r0, [r3, #0]
+  10:	b390      	cbz	r0, 78 <tcp_parseopt+0x78>
+  12:	4a4e      	ldr	r2, [pc, #312]	; (14c <tcp_parseopt+0x14c>)
+  14:	2300      	movs	r3, #0
+  16:	f8df 814c 	ldr.w	r8, [pc, #332]	; 164 <tcp_parseopt+0x164>
+  1a:	f240 5ab3 	movw	sl, #1459	; 0x5b3
+  1e:	f8b2 e000 	ldrh.w	lr, [r2]
+  22:	4619      	mov	r1, r3
+  24:	4a4a      	ldr	r2, [pc, #296]	; (150 <tcp_parseopt+0x150>)
+  26:	f240 59b4 	movw	r9, #1460	; 0x5b4
+  2a:	fa5f f78e 	uxtb.w	r7, lr
+  2e:	f8a8 3000 	strh.w	r3, [r8]
+  32:	6814      	ldr	r4, [r2, #0]
+  34:	4a47      	ldr	r2, [pc, #284]	; (154 <tcp_parseopt+0x154>)
+  36:	6816      	ldr	r6, [r2, #0]
+  38:	f101 0c14 	add.w	ip, r1, #20
+  3c:	44b4      	add	ip, r6
+  3e:	4288      	cmp	r0, r1
+  40:	d967      	bls.n	112 <tcp_parseopt+0x112>
+  42:	1c4a      	adds	r2, r1, #1
+  44:	b292      	uxth	r2, r2
+  46:	b1cc      	cbz	r4, 7c <tcp_parseopt+0x7c>
+  48:	458e      	cmp	lr, r1
+  4a:	d817      	bhi.n	7c <tcp_parseopt+0x7c>
+  4c:	1bd3      	subs	r3, r2, r7
+  4e:	3b01      	subs	r3, #1
+  50:	b2db      	uxtb	r3, r3
+  52:	5ce3      	ldrb	r3, [r4, r3]
+  54:	2b01      	cmp	r3, #1
+  56:	d015      	beq.n	84 <tcp_parseopt+0x84>
+  58:	2b02      	cmp	r3, #2
+  5a:	d017      	beq.n	8c <tcp_parseopt+0x8c>
+  5c:	b153      	cbz	r3, 74 <tcp_parseopt+0x74>
+  5e:	b10c      	cbz	r4, 64 <tcp_parseopt+0x64>
+  60:	4572      	cmp	r2, lr
+  62:	d23e      	bcs.n	e2 <tcp_parseopt+0xe2>
+  64:	4432      	add	r2, r6
+  66:	7d13      	ldrb	r3, [r2, #20]
+  68:	2b01      	cmp	r3, #1
+  6a:	d95a      	bls.n	122 <tcp_parseopt+0x122>
+  6c:	440b      	add	r3, r1
+  6e:	b299      	uxth	r1, r3
+  70:	2301      	movs	r3, #1
+  72:	e7e1      	b.n	38 <tcp_parseopt+0x38>
+  74:	f8a8 2000 	strh.w	r2, [r8]
+  78:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  7c:	f89c 3000 	ldrb.w	r3, [ip]
+  80:	2b01      	cmp	r3, #1
+  82:	d1e9      	bne.n	58 <tcp_parseopt+0x58>
+  84:	f10c 0c01 	add.w	ip, ip, #1
+  88:	4611      	mov	r1, r2
+  8a:	e7d8      	b.n	3e <tcp_parseopt+0x3e>
+  8c:	1c8b      	adds	r3, r1, #2
+  8e:	b29b      	uxth	r3, r3
+  90:	b10c      	cbz	r4, 96 <tcp_parseopt+0x96>
+  92:	4572      	cmp	r2, lr
+  94:	d221      	bcs.n	da <tcp_parseopt+0xda>
+  96:	4432      	add	r2, r6
+  98:	7d12      	ldrb	r2, [r2, #20]
+  9a:	2a04      	cmp	r2, #4
+  9c:	d13e      	bne.n	11c <tcp_parseopt+0x11c>
+  9e:	1c5a      	adds	r2, r3, #1
+  a0:	4282      	cmp	r2, r0
+  a2:	da3b      	bge.n	11c <tcp_parseopt+0x11c>
+  a4:	1cca      	adds	r2, r1, #3
+  a6:	b292      	uxth	r2, r2
+  a8:	b35c      	cbz	r4, 102 <tcp_parseopt+0x102>
+  aa:	459e      	cmp	lr, r3
+  ac:	d81d      	bhi.n	ea <tcp_parseopt+0xea>
+  ae:	1bdb      	subs	r3, r3, r7
+  b0:	3104      	adds	r1, #4
+  b2:	4596      	cmp	lr, r2
+  b4:	b2db      	uxtb	r3, r3
+  b6:	b289      	uxth	r1, r1
+  b8:	f814 c003 	ldrb.w	ip, [r4, r3]
+  bc:	ea4f 2c0c 	mov.w	ip, ip, lsl #8
+  c0:	d81c      	bhi.n	fc <tcp_parseopt+0xfc>
+  c2:	1bd2      	subs	r2, r2, r7
+  c4:	b2d2      	uxtb	r2, r2
+  c6:	5ca3      	ldrb	r3, [r4, r2]
+  c8:	ea4c 0303 	orr.w	r3, ip, r3
+  cc:	1e5a      	subs	r2, r3, #1
+  ce:	b292      	uxth	r2, r2
+  d0:	4552      	cmp	r2, sl
+  d2:	bf88      	it	hi
+  d4:	464b      	movhi	r3, r9
+  d6:	866b      	strh	r3, [r5, #50]	; 0x32
+  d8:	e7ca      	b.n	70 <tcp_parseopt+0x70>
+  da:	1bd2      	subs	r2, r2, r7
+  dc:	b2d2      	uxtb	r2, r2
+  de:	5ca2      	ldrb	r2, [r4, r2]
+  e0:	e7db      	b.n	9a <tcp_parseopt+0x9a>
+  e2:	1bd2      	subs	r2, r2, r7
+  e4:	b2d2      	uxtb	r2, r2
+  e6:	5ca3      	ldrb	r3, [r4, r2]
+  e8:	e7be      	b.n	68 <tcp_parseopt+0x68>
+  ea:	4433      	add	r3, r6
+  ec:	3104      	adds	r1, #4
+  ee:	4596      	cmp	lr, r2
+  f0:	f893 c014 	ldrb.w	ip, [r3, #20]
+  f4:	b289      	uxth	r1, r1
+  f6:	ea4f 2c0c 	mov.w	ip, ip, lsl #8
+  fa:	d9e2      	bls.n	c2 <tcp_parseopt+0xc2>
+  fc:	4432      	add	r2, r6
+  fe:	7d13      	ldrb	r3, [r2, #20]
+ 100:	e7e2      	b.n	c8 <tcp_parseopt+0xc8>
+ 102:	4433      	add	r3, r6
+ 104:	3104      	adds	r1, #4
+ 106:	f893 c014 	ldrb.w	ip, [r3, #20]
+ 10a:	b289      	uxth	r1, r1
+ 10c:	ea4f 2c0c 	mov.w	ip, ip, lsl #8
+ 110:	e7f4      	b.n	fc <tcp_parseopt+0xfc>
+ 112:	2b00      	cmp	r3, #0
+ 114:	d0b0      	beq.n	78 <tcp_parseopt+0x78>
+ 116:	f8a8 1000 	strh.w	r1, [r8]
+ 11a:	e7ad      	b.n	78 <tcp_parseopt+0x78>
+ 11c:	f8a8 3000 	strh.w	r3, [r8]
+ 120:	e7aa      	b.n	78 <tcp_parseopt+0x78>
+ 122:	3102      	adds	r1, #2
+ 124:	f8a8 1000 	strh.w	r1, [r8]
+ 128:	e7a6      	b.n	78 <tcp_parseopt+0x78>
+ 12a:	4b0b      	ldr	r3, [pc, #44]	; (158 <tcp_parseopt+0x158>)
+ 12c:	f240 728d 	movw	r2, #1933	; 0x78d
+ 130:	490a      	ldr	r1, [pc, #40]	; (15c <tcp_parseopt+0x15c>)
+ 132:	480b      	ldr	r0, [pc, #44]	; (160 <tcp_parseopt+0x160>)
+ 134:	f7ff fffe 	bl	0 <printf>
+ 138:	4628      	mov	r0, r5
+ 13a:	f7ff fffe 	bl	0 <fflush>
+ 13e:	2001      	movs	r0, #1
+ 140:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 144:	f7ff fffe 	bl	0 <abort>
+ 148:	00000000 	.word	0x00000000
+ 14c:	00000000 	.word	0x00000000
+ 150:	00000000 	.word	0x00000000
+ 154:	00000000 	.word	0x00000000
+ 158:	00000000 	.word	0x00000000
+ 15c:	00000000 	.word	0x00000000
+ 160:	00000050 	.word	0x00000050
+ 164:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_input:
+
+00000000 <tcp_input>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4606      	mov	r6, r0
+   6:	b08b      	sub	sp, #44	; 0x2c
+   8:	4a56      	ldr	r2, [pc, #344]	; (164 <tcp_input+0x164>)
+   a:	2182      	movs	r1, #130	; 0x82
+   c:	4856      	ldr	r0, [pc, #344]	; (168 <tcp_input+0x168>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	2e00      	cmp	r6, #0
+  14:	f000 8468 	beq.w	8e8 <tcp_input+0x8e8>
+  18:	8973      	ldrh	r3, [r6, #10]
+  1a:	4f54      	ldr	r7, [pc, #336]	; (16c <tcp_input+0x16c>)
+  1c:	6872      	ldr	r2, [r6, #4]
+  1e:	2b13      	cmp	r3, #19
+  20:	603a      	str	r2, [r7, #0]
+  22:	d805      	bhi.n	30 <tcp_input+0x30>
+  24:	4630      	mov	r0, r6
+  26:	b00b      	add	sp, #44	; 0x2c
+  28:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  2c:	f7ff bffe 	b.w	0 <pbuf_free>
+  30:	f8df 8158 	ldr.w	r8, [pc, #344]	; 18c <tcp_input+0x18c>
+  34:	f8d8 1000 	ldr.w	r1, [r8]
+  38:	f8d8 0014 	ldr.w	r0, [r8, #20]
+  3c:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  40:	2800      	cmp	r0, #0
+  42:	d1ef      	bne.n	24 <tcp_input+0x24>
+  44:	f8d8 3014 	ldr.w	r3, [r8, #20]
+  48:	f003 03f0 	and.w	r3, r3, #240	; 0xf0
+  4c:	2be0      	cmp	r3, #224	; 0xe0
+  4e:	d0e9      	beq.n	24 <tcp_input+0x24>
+  50:	683b      	ldr	r3, [r7, #0]
+  52:	8999      	ldrh	r1, [r3, #12]
+  54:	ba49      	rev16	r1, r1
+  56:	f3c1 3103 	ubfx	r1, r1, #12, #4
+  5a:	0089      	lsls	r1, r1, #2
+  5c:	2913      	cmp	r1, #19
+  5e:	d9e1      	bls.n	24 <tcp_input+0x24>
+  60:	8933      	ldrh	r3, [r6, #8]
+  62:	b28a      	uxth	r2, r1
+  64:	428b      	cmp	r3, r1
+  66:	d3dd      	bcc.n	24 <tcp_input+0x24>
+  68:	f8df 9124 	ldr.w	r9, [pc, #292]	; 190 <tcp_input+0x190>
+  6c:	f1a2 0314 	sub.w	r3, r2, #20
+  70:	4c3f      	ldr	r4, [pc, #252]	; (170 <tcp_input+0x170>)
+  72:	f8c9 0000 	str.w	r0, [r9]
+  76:	b29b      	uxth	r3, r3
+  78:	8970      	ldrh	r0, [r6, #10]
+  7a:	8023      	strh	r3, [r4, #0]
+  7c:	4290      	cmp	r0, r2
+  7e:	f080 815a 	bcs.w	336 <tcp_input+0x336>
+  82:	6835      	ldr	r5, [r6, #0]
+  84:	2d00      	cmp	r5, #0
+  86:	f000 854b 	beq.w	b20 <tcp_input+0xb20>
+  8a:	2114      	movs	r1, #20
+  8c:	4630      	mov	r0, r6
+  8e:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  92:	f8b4 a000 	ldrh.w	sl, [r4]
+  96:	8974      	ldrh	r4, [r6, #10]
+  98:	4630      	mov	r0, r6
+  9a:	4b36      	ldr	r3, [pc, #216]	; (174 <tcp_input+0x174>)
+  9c:	4621      	mov	r1, r4
+  9e:	ebaa 0504 	sub.w	r5, sl, r4
+  a2:	801c      	strh	r4, [r3, #0]
+  a4:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  a8:	6830      	ldr	r0, [r6, #0]
+  aa:	b2ad      	uxth	r5, r5
+  ac:	8943      	ldrh	r3, [r0, #10]
+  ae:	42ab      	cmp	r3, r5
+  b0:	d3b8      	bcc.n	24 <tcp_input+0x24>
+  b2:	6843      	ldr	r3, [r0, #4]
+  b4:	4629      	mov	r1, r5
+  b6:	f8c9 3000 	str.w	r3, [r9]
+  ba:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  be:	8933      	ldrh	r3, [r6, #8]
+  c0:	8972      	ldrh	r2, [r6, #10]
+  c2:	4423      	add	r3, r4
+  c4:	eba3 030a 	sub.w	r3, r3, sl
+  c8:	b29b      	uxth	r3, r3
+  ca:	8133      	strh	r3, [r6, #8]
+  cc:	2a00      	cmp	r2, #0
+  ce:	f040 84e3 	bne.w	a98 <tcp_input+0xa98>
+  d2:	6832      	ldr	r2, [r6, #0]
+  d4:	f8b2 a008 	ldrh.w	sl, [r2, #8]
+  d8:	4553      	cmp	r3, sl
+  da:	f040 84d9 	bne.w	a90 <tcp_input+0xa90>
+  de:	f8d7 e000 	ldr.w	lr, [r7]
+  e2:	4a25      	ldr	r2, [pc, #148]	; (178 <tcp_input+0x178>)
+  e4:	f8de 3004 	ldr.w	r3, [lr, #4]
+  e8:	4824      	ldr	r0, [pc, #144]	; (17c <tcp_input+0x17c>)
+  ea:	ba1b      	rev	r3, r3
+  ec:	9308      	str	r3, [sp, #32]
+  ee:	f8ce 3004 	str.w	r3, [lr, #4]
+  f2:	f8be 1002 	ldrh.w	r1, [lr, #2]
+  f6:	6013      	str	r3, [r2, #0]
+  f8:	f8de 3008 	ldr.w	r3, [lr, #8]
+  fc:	ba49      	rev16	r1, r1
+  fe:	4a20      	ldr	r2, [pc, #128]	; (180 <tcp_input+0x180>)
+ 100:	ba1b      	rev	r3, r3
+ 102:	f8ae 1002 	strh.w	r1, [lr, #2]
+ 106:	b289      	uxth	r1, r1
+ 108:	9309      	str	r3, [sp, #36]	; 0x24
+ 10a:	6013      	str	r3, [r2, #0]
+ 10c:	f8ce 3008 	str.w	r3, [lr, #8]
+ 110:	f8be 200c 	ldrh.w	r2, [lr, #12]
+ 114:	f8be 300e 	ldrh.w	r3, [lr, #14]
+ 118:	ba52      	rev16	r2, r2
+ 11a:	ba5b      	rev16	r3, r3
+ 11c:	f002 0b3f 	and.w	fp, r2, #63	; 0x3f
+ 120:	0795      	lsls	r5, r2, #30
+ 122:	f8ae 300e 	strh.w	r3, [lr, #14]
+ 126:	f8be 3000 	ldrh.w	r3, [lr]
+ 12a:	f880 b000 	strb.w	fp, [r0]
+ 12e:	b2d0      	uxtb	r0, r2
+ 130:	ba5b      	rev16	r3, r3
+ 132:	9004      	str	r0, [sp, #16]
+ 134:	f8ae 3000 	strh.w	r3, [lr]
+ 138:	b29b      	uxth	r3, r3
+ 13a:	f040 8104 	bne.w	346 <tcp_input+0x346>
+ 13e:	4a11      	ldr	r2, [pc, #68]	; (184 <tcp_input+0x184>)
+ 140:	9207      	str	r2, [sp, #28]
+ 142:	f8a2 a000 	strh.w	sl, [r2]
+ 146:	4a10      	ldr	r2, [pc, #64]	; (188 <tcp_input+0x188>)
+ 148:	6812      	ldr	r2, [r2, #0]
+ 14a:	9206      	str	r2, [sp, #24]
+ 14c:	2a00      	cmp	r2, #0
+ 14e:	f000 8104 	beq.w	35a <tcp_input+0x35a>
+ 152:	f8d8 c004 	ldr.w	ip, [r8, #4]
+ 156:	9c06      	ldr	r4, [sp, #24]
+ 158:	e9d8 9204 	ldrd	r9, r2, [r8, #16]
+ 15c:	9205      	str	r2, [sp, #20]
+ 15e:	2200      	movs	r2, #0
+ 160:	e01e      	b.n	1a0 <tcp_input+0x1a0>
+ 162:	bf00      	nop
+ 164:	00000000 	.word	0x00000000
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000000 	.word	0x00000000
+ 170:	00000000 	.word	0x00000000
+ 174:	00000000 	.word	0x00000000
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	00000000 	.word	0x00000000
+ 18c:	00000000 	.word	0x00000000
+ 190:	00000000 	.word	0x00000000
+ 194:	68e0      	ldr	r0, [r4, #12]
+ 196:	4622      	mov	r2, r4
+ 198:	2800      	cmp	r0, #0
+ 19a:	f000 80de 	beq.w	35a <tcp_input+0x35a>
+ 19e:	4604      	mov	r4, r0
+ 1a0:	7d25      	ldrb	r5, [r4, #20]
+ 1a2:	2d00      	cmp	r5, #0
+ 1a4:	f000 836c 	beq.w	880 <tcp_input+0x880>
+ 1a8:	2d0a      	cmp	r5, #10
+ 1aa:	f000 835b 	beq.w	864 <tcp_input+0x864>
+ 1ae:	2d01      	cmp	r5, #1
+ 1b0:	f000 836a 	beq.w	888 <tcp_input+0x888>
+ 1b4:	7a25      	ldrb	r5, [r4, #8]
+ 1b6:	b12d      	cbz	r5, 1c4 <tcp_input+0x1c4>
+ 1b8:	f89c 0040 	ldrb.w	r0, [ip, #64]	; 0x40
+ 1bc:	3001      	adds	r0, #1
+ 1be:	b2c0      	uxtb	r0, r0
+ 1c0:	4285      	cmp	r5, r0
+ 1c2:	d1e7      	bne.n	194 <tcp_input+0x194>
+ 1c4:	8b20      	ldrh	r0, [r4, #24]
+ 1c6:	4298      	cmp	r0, r3
+ 1c8:	d1e4      	bne.n	194 <tcp_input+0x194>
+ 1ca:	8ae0      	ldrh	r0, [r4, #22]
+ 1cc:	4288      	cmp	r0, r1
+ 1ce:	d1e1      	bne.n	194 <tcp_input+0x194>
+ 1d0:	6860      	ldr	r0, [r4, #4]
+ 1d2:	4548      	cmp	r0, r9
+ 1d4:	d1de      	bne.n	194 <tcp_input+0x194>
+ 1d6:	6820      	ldr	r0, [r4, #0]
+ 1d8:	9d05      	ldr	r5, [sp, #20]
+ 1da:	42a8      	cmp	r0, r5
+ 1dc:	d1da      	bne.n	194 <tcp_input+0x194>
+ 1de:	68e3      	ldr	r3, [r4, #12]
+ 1e0:	42a3      	cmp	r3, r4
+ 1e2:	f000 8482 	beq.w	aea <tcp_input+0xaea>
+ 1e6:	b13a      	cbz	r2, 1f8 <tcp_input+0x1f8>
+ 1e8:	60d3      	str	r3, [r2, #12]
+ 1ea:	4b9b      	ldr	r3, [pc, #620]	; (458 <tcp_input+0x458>)
+ 1ec:	601c      	str	r4, [r3, #0]
+ 1ee:	9b06      	ldr	r3, [sp, #24]
+ 1f0:	42a3      	cmp	r3, r4
+ 1f2:	60e3      	str	r3, [r4, #12]
+ 1f4:	f000 8487 	beq.w	b06 <tcp_input+0xb06>
+ 1f8:	4d98      	ldr	r5, [pc, #608]	; (45c <tcp_input+0x45c>)
+ 1fa:	2300      	movs	r3, #0
+ 1fc:	f8df 9280 	ldr.w	r9, [pc, #640]	; 480 <tcp_input+0x480>
+ 200:	f8df 8280 	ldr.w	r8, [pc, #640]	; 484 <tcp_input+0x484>
+ 204:	f8a5 a008 	strh.w	sl, [r5, #8]
+ 208:	f8df a27c 	ldr.w	sl, [pc, #636]	; 488 <tcp_input+0x488>
+ 20c:	602b      	str	r3, [r5, #0]
+ 20e:	f8c9 3000 	str.w	r3, [r9]
+ 212:	f888 3000 	strb.w	r3, [r8]
+ 216:	f8aa 3000 	strh.w	r3, [sl]
+ 21a:	9b04      	ldr	r3, [sp, #16]
+ 21c:	f8c5 e00c 	str.w	lr, [r5, #12]
+ 220:	071b      	lsls	r3, r3, #28
+ 222:	606e      	str	r6, [r5, #4]
+ 224:	d503      	bpl.n	22e <tcp_input+0x22e>
+ 226:	7b73      	ldrb	r3, [r6, #13]
+ 228:	f043 0301 	orr.w	r3, r3, #1
+ 22c:	7373      	strb	r3, [r6, #13]
+ 22e:	6fa3      	ldr	r3, [r4, #120]	; 0x78
+ 230:	b17b      	cbz	r3, 252 <tcp_input+0x252>
+ 232:	4620      	mov	r0, r4
+ 234:	f7ff fffe 	bl	0 <tcp_process_refused_data>
+ 238:	300d      	adds	r0, #13
+ 23a:	f000 8153 	beq.w	4e4 <tcp_input+0x4e4>
+ 23e:	6fa3      	ldr	r3, [r4, #120]	; 0x78
+ 240:	b123      	cbz	r3, 24c <tcp_input+0x24c>
+ 242:	9b07      	ldr	r3, [sp, #28]
+ 244:	881b      	ldrh	r3, [r3, #0]
+ 246:	2b00      	cmp	r3, #0
+ 248:	f040 814c 	bne.w	4e4 <tcp_input+0x4e4>
+ 24c:	4b84      	ldr	r3, [pc, #528]	; (460 <tcp_input+0x460>)
+ 24e:	f893 b000 	ldrb.w	fp, [r3]
+ 252:	4e84      	ldr	r6, [pc, #528]	; (464 <tcp_input+0x464>)
+ 254:	f01b 0f04 	tst.w	fp, #4
+ 258:	6034      	str	r4, [r6, #0]
+ 25a:	f000 8117 	beq.w	48c <tcp_input+0x48c>
+ 25e:	7d27      	ldrb	r7, [r4, #20]
+ 260:	2f02      	cmp	r7, #2
+ 262:	f000 82e5 	beq.w	830 <tcp_input+0x830>
+ 266:	4b80      	ldr	r3, [pc, #512]	; (468 <tcp_input+0x468>)
+ 268:	681a      	ldr	r2, [r3, #0]
+ 26a:	6a63      	ldr	r3, [r4, #36]	; 0x24
+ 26c:	4293      	cmp	r3, r2
+ 26e:	f000 81bb 	beq.w	5e8 <tcp_input+0x5e8>
+ 272:	1ad1      	subs	r1, r2, r3
+ 274:	2900      	cmp	r1, #0
+ 276:	f2c0 8130 	blt.w	4da <tcp_input+0x4da>
+ 27a:	1a9b      	subs	r3, r3, r2
+ 27c:	8d22      	ldrh	r2, [r4, #40]	; 0x28
+ 27e:	42d3      	cmn	r3, r2
+ 280:	f100 812b 	bmi.w	4da <tcp_input+0x4da>
+ 284:	8b63      	ldrh	r3, [r4, #26]
+ 286:	f043 0302 	orr.w	r3, r3, #2
+ 28a:	8363      	strh	r3, [r4, #26]
+ 28c:	f898 3000 	ldrb.w	r3, [r8]
+ 290:	f003 0308 	and.w	r3, r3, #8
+ 294:	2b00      	cmp	r3, #0
+ 296:	f040 81b4 	bne.w	602 <tcp_input+0x602>
+ 29a:	f8ba 2000 	ldrh.w	r2, [sl]
+ 29e:	b152      	cbz	r2, 2b6 <tcp_input+0x2b6>
+ 2a0:	f8d4 3080 	ldr.w	r3, [r4, #128]	; 0x80
+ 2a4:	b123      	cbz	r3, 2b0 <tcp_input+0x2b0>
+ 2a6:	4621      	mov	r1, r4
+ 2a8:	6920      	ldr	r0, [r4, #16]
+ 2aa:	4798      	blx	r3
+ 2ac:	300d      	adds	r0, #13
+ 2ae:	d036      	beq.n	31e <tcp_input+0x31e>
+ 2b0:	2300      	movs	r3, #0
+ 2b2:	f8aa 3000 	strh.w	r3, [sl]
+ 2b6:	4620      	mov	r0, r4
+ 2b8:	f7ff fffe 	bl	0 <tcp_input>
+ 2bc:	bb78      	cbnz	r0, 31e <tcp_input+0x31e>
+ 2be:	f8d9 2000 	ldr.w	r2, [r9]
+ 2c2:	b1ba      	cbz	r2, 2f4 <tcp_input+0x2f4>
+ 2c4:	6fa3      	ldr	r3, [r4, #120]	; 0x78
+ 2c6:	2b00      	cmp	r3, #0
+ 2c8:	f040 842e 	bne.w	b28 <tcp_input+0xb28>
+ 2cc:	8b63      	ldrh	r3, [r4, #26]
+ 2ce:	f013 0310 	ands.w	r3, r3, #16
+ 2d2:	f040 82dd 	bne.w	890 <tcp_input+0x890>
+ 2d6:	f8d4 7084 	ldr.w	r7, [r4, #132]	; 0x84
+ 2da:	2f00      	cmp	r7, #0
+ 2dc:	f000 82f4 	beq.w	8c8 <tcp_input+0x8c8>
+ 2e0:	4621      	mov	r1, r4
+ 2e2:	6920      	ldr	r0, [r4, #16]
+ 2e4:	47b8      	blx	r7
+ 2e6:	f110 0f0d 	cmn.w	r0, #13
+ 2ea:	d018      	beq.n	31e <tcp_input+0x31e>
+ 2ec:	b110      	cbz	r0, 2f4 <tcp_input+0x2f4>
+ 2ee:	f8d9 3000 	ldr.w	r3, [r9]
+ 2f2:	67a3      	str	r3, [r4, #120]	; 0x78
+ 2f4:	f898 3000 	ldrb.w	r3, [r8]
+ 2f8:	0699      	lsls	r1, r3, #26
+ 2fa:	d507      	bpl.n	30c <tcp_input+0x30c>
+ 2fc:	6fa3      	ldr	r3, [r4, #120]	; 0x78
+ 2fe:	2b00      	cmp	r3, #0
+ 300:	f000 82cd 	beq.w	89e <tcp_input+0x89e>
+ 304:	7b5a      	ldrb	r2, [r3, #13]
+ 306:	f042 0220 	orr.w	r2, r2, #32
+ 30a:	735a      	strb	r2, [r3, #13]
+ 30c:	2300      	movs	r3, #0
+ 30e:	4620      	mov	r0, r4
+ 310:	6033      	str	r3, [r6, #0]
+ 312:	f7ff fffe 	bl	0 <tcp_input>
+ 316:	b910      	cbnz	r0, 31e <tcp_input+0x31e>
+ 318:	4620      	mov	r0, r4
+ 31a:	f7ff fffe 	bl	0 <tcp_output>
+ 31e:	2400      	movs	r4, #0
+ 320:	6868      	ldr	r0, [r5, #4]
+ 322:	6034      	str	r4, [r6, #0]
+ 324:	f8c9 4000 	str.w	r4, [r9]
+ 328:	b110      	cbz	r0, 330 <tcp_input+0x330>
+ 32a:	f7ff fffe 	bl	0 <pbuf_free>
+ 32e:	606c      	str	r4, [r5, #4]
+ 330:	b00b      	add	sp, #44	; 0x2c
+ 332:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 336:	4a4d      	ldr	r2, [pc, #308]	; (46c <tcp_input+0x46c>)
+ 338:	4630      	mov	r0, r6
+ 33a:	8013      	strh	r3, [r2, #0]
+ 33c:	f7ff fffe 	bl	0 <pbuf_remove_header>
+ 340:	f8b6 a008 	ldrh.w	sl, [r6, #8]
+ 344:	e6cb      	b.n	de <tcp_input+0xde>
+ 346:	f10a 0201 	add.w	r2, sl, #1
+ 34a:	4849      	ldr	r0, [pc, #292]	; (470 <tcp_input+0x470>)
+ 34c:	b292      	uxth	r2, r2
+ 34e:	9007      	str	r0, [sp, #28]
+ 350:	4552      	cmp	r2, sl
+ 352:	8002      	strh	r2, [r0, #0]
+ 354:	f4bf aef7 	bcs.w	146 <tcp_input+0x146>
+ 358:	e664      	b.n	24 <tcp_input+0x24>
+ 35a:	4a46      	ldr	r2, [pc, #280]	; (474 <tcp_input+0x474>)
+ 35c:	6810      	ldr	r0, [r2, #0]
+ 35e:	2800      	cmp	r0, #0
+ 360:	d03c      	beq.n	3dc <tcp_input+0x3dc>
+ 362:	f8d8 4004 	ldr.w	r4, [r8, #4]
+ 366:	e9d8 ce04 	ldrd	ip, lr, [r8, #16]
+ 36a:	e002      	b.n	372 <tcp_input+0x372>
+ 36c:	68c0      	ldr	r0, [r0, #12]
+ 36e:	2800      	cmp	r0, #0
+ 370:	d034      	beq.n	3dc <tcp_input+0x3dc>
+ 372:	7d02      	ldrb	r2, [r0, #20]
+ 374:	2a0a      	cmp	r2, #10
+ 376:	f040 82ea 	bne.w	94e <tcp_input+0x94e>
+ 37a:	7a05      	ldrb	r5, [r0, #8]
+ 37c:	b12d      	cbz	r5, 38a <tcp_input+0x38a>
+ 37e:	f894 2040 	ldrb.w	r2, [r4, #64]	; 0x40
+ 382:	3201      	adds	r2, #1
+ 384:	b2d2      	uxtb	r2, r2
+ 386:	4295      	cmp	r5, r2
+ 388:	d1f0      	bne.n	36c <tcp_input+0x36c>
+ 38a:	8b02      	ldrh	r2, [r0, #24]
+ 38c:	429a      	cmp	r2, r3
+ 38e:	d1ed      	bne.n	36c <tcp_input+0x36c>
+ 390:	8ac2      	ldrh	r2, [r0, #22]
+ 392:	428a      	cmp	r2, r1
+ 394:	d1ea      	bne.n	36c <tcp_input+0x36c>
+ 396:	6842      	ldr	r2, [r0, #4]
+ 398:	4562      	cmp	r2, ip
+ 39a:	d1e7      	bne.n	36c <tcp_input+0x36c>
+ 39c:	6802      	ldr	r2, [r0, #0]
+ 39e:	4572      	cmp	r2, lr
+ 3a0:	d1e4      	bne.n	36c <tcp_input+0x36c>
+ 3a2:	9a04      	ldr	r2, [sp, #16]
+ 3a4:	0754      	lsls	r4, r2, #29
+ 3a6:	f53f ae3d 	bmi.w	24 <tcp_input+0x24>
+ 3aa:	0797      	lsls	r7, r2, #30
+ 3ac:	f140 82c7 	bpl.w	93e <tcp_input+0x93e>
+ 3b0:	6a42      	ldr	r2, [r0, #36]	; 0x24
+ 3b2:	9d08      	ldr	r5, [sp, #32]
+ 3b4:	1aac      	subs	r4, r5, r2
+ 3b6:	2c00      	cmp	r4, #0
+ 3b8:	db04      	blt.n	3c4 <tcp_input+0x3c4>
+ 3ba:	1b52      	subs	r2, r2, r5
+ 3bc:	8d04      	ldrh	r4, [r0, #40]	; 0x28
+ 3be:	42d4      	cmn	r4, r2
+ 3c0:	f140 836e 	bpl.w	aa0 <tcp_input+0xaa0>
+ 3c4:	9b07      	ldr	r3, [sp, #28]
+ 3c6:	881b      	ldrh	r3, [r3, #0]
+ 3c8:	2b00      	cmp	r3, #0
+ 3ca:	f43f ae2b 	beq.w	24 <tcp_input+0x24>
+ 3ce:	8b43      	ldrh	r3, [r0, #26]
+ 3d0:	f043 0302 	orr.w	r3, r3, #2
+ 3d4:	8343      	strh	r3, [r0, #26]
+ 3d6:	f7ff fffe 	bl	0 <tcp_output>
+ 3da:	e623      	b.n	24 <tcp_input+0x24>
+ 3dc:	4a26      	ldr	r2, [pc, #152]	; (478 <tcp_input+0x478>)
+ 3de:	f8d2 a000 	ldr.w	sl, [r2]
+ 3e2:	f1ba 0f00 	cmp.w	sl, #0
+ 3e6:	d023      	beq.n	430 <tcp_input+0x430>
+ 3e8:	f04f 0e00 	mov.w	lr, #0
+ 3ec:	f8d8 0004 	ldr.w	r0, [r8, #4]
+ 3f0:	f8d8 9014 	ldr.w	r9, [r8, #20]
+ 3f4:	4655      	mov	r5, sl
+ 3f6:	46f3      	mov	fp, lr
+ 3f8:	46f4      	mov	ip, lr
+ 3fa:	e003      	b.n	404 <tcp_input+0x404>
+ 3fc:	68ea      	ldr	r2, [r5, #12]
+ 3fe:	46ac      	mov	ip, r5
+ 400:	b19a      	cbz	r2, 42a <tcp_input+0x42a>
+ 402:	4615      	mov	r5, r2
+ 404:	7a2c      	ldrb	r4, [r5, #8]
+ 406:	b12c      	cbz	r4, 414 <tcp_input+0x414>
+ 408:	f890 2040 	ldrb.w	r2, [r0, #64]	; 0x40
+ 40c:	3201      	adds	r2, #1
+ 40e:	b2d2      	uxtb	r2, r2
+ 410:	4294      	cmp	r4, r2
+ 412:	d1f3      	bne.n	3fc <tcp_input+0x3fc>
+ 414:	8aea      	ldrh	r2, [r5, #22]
+ 416:	428a      	cmp	r2, r1
+ 418:	d1f0      	bne.n	3fc <tcp_input+0x3fc>
+ 41a:	682a      	ldr	r2, [r5, #0]
+ 41c:	454a      	cmp	r2, r9
+ 41e:	d069      	beq.n	4f4 <tcp_input+0x4f4>
+ 420:	2a00      	cmp	r2, #0
+ 422:	d1eb      	bne.n	3fc <tcp_input+0x3fc>
+ 424:	46e3      	mov	fp, ip
+ 426:	46ae      	mov	lr, r5
+ 428:	e7e8      	b.n	3fc <tcp_input+0x3fc>
+ 42a:	f1be 0f00 	cmp.w	lr, #0
+ 42e:	d15f      	bne.n	4f0 <tcp_input+0x4f0>
+ 430:	9a04      	ldr	r2, [sp, #16]
+ 432:	0752      	lsls	r2, r2, #29
+ 434:	f53f adf6 	bmi.w	24 <tcp_input+0x24>
+ 438:	e9cd 1301 	strd	r1, r3, [sp, #4]
+ 43c:	9b07      	ldr	r3, [sp, #28]
+ 43e:	f8d8 0004 	ldr.w	r0, [r8, #4]
+ 442:	881a      	ldrh	r2, [r3, #0]
+ 444:	9b08      	ldr	r3, [sp, #32]
+ 446:	9909      	ldr	r1, [sp, #36]	; 0x24
+ 448:	441a      	add	r2, r3
+ 44a:	4b0c      	ldr	r3, [pc, #48]	; (47c <tcp_input+0x47c>)
+ 44c:	9300      	str	r3, [sp, #0]
+ 44e:	3304      	adds	r3, #4
+ 450:	f7ff fffe 	bl	0 <tcp_rst_netif>
+ 454:	e5e6      	b.n	24 <tcp_input+0x24>
+ 456:	bf00      	nop
+ 458:	00000000 	.word	0x00000000
+ 45c:	00000000 	.word	0x00000000
+ 460:	00000000 	.word	0x00000000
+ 464:	00000000 	.word	0x00000000
+ 468:	00000000 	.word	0x00000000
+ 46c:	00000000 	.word	0x00000000
+ 470:	00000000 	.word	0x00000000
+ 474:	00000000 	.word	0x00000000
+ 478:	00000000 	.word	0x00000000
+ 47c:	00000010 	.word	0x00000010
+ 480:	00000000 	.word	0x00000000
+ 484:	00000000 	.word	0x00000000
+ 488:	00000000 	.word	0x00000000
+ 48c:	f01b 0f02 	tst.w	fp, #2
+ 490:	d004      	beq.n	49c <tcp_input+0x49c>
+ 492:	7d23      	ldrb	r3, [r4, #20]
+ 494:	3b02      	subs	r3, #2
+ 496:	2b01      	cmp	r3, #1
+ 498:	f63f aef4 	bhi.w	284 <tcp_input+0x284>
+ 49c:	8b63      	ldrh	r3, [r4, #26]
+ 49e:	06db      	lsls	r3, r3, #27
+ 4a0:	d402      	bmi.n	4a8 <tcp_input+0x4a8>
+ 4a2:	4ba8      	ldr	r3, [pc, #672]	; (744 <tcp_input+0x744>)
+ 4a4:	681b      	ldr	r3, [r3, #0]
+ 4a6:	6223      	str	r3, [r4, #32]
+ 4a8:	2300      	movs	r3, #0
+ 4aa:	4620      	mov	r0, r4
+ 4ac:	f8a4 309a 	strh.w	r3, [r4, #154]	; 0x9a
+ 4b0:	f7ff fffe 	bl	0 <tcp_input>
+ 4b4:	4ba4      	ldr	r3, [pc, #656]	; (748 <tcp_input+0x748>)
+ 4b6:	7819      	ldrb	r1, [r3, #0]
+ 4b8:	7d23      	ldrb	r3, [r4, #20]
+ 4ba:	0788      	lsls	r0, r1, #30
+ 4bc:	f140 80b0 	bpl.w	620 <tcp_input+0x620>
+ 4c0:	1e9a      	subs	r2, r3, #2
+ 4c2:	2a01      	cmp	r2, #1
+ 4c4:	d809      	bhi.n	4da <tcp_input+0x4da>
+ 4c6:	2b03      	cmp	r3, #3
+ 4c8:	f040 814c 	bne.w	764 <tcp_input+0x764>
+ 4cc:	4b9f      	ldr	r3, [pc, #636]	; (74c <tcp_input+0x74c>)
+ 4ce:	681a      	ldr	r2, [r3, #0]
+ 4d0:	6a63      	ldr	r3, [r4, #36]	; 0x24
+ 4d2:	3b01      	subs	r3, #1
+ 4d4:	4293      	cmp	r3, r2
+ 4d6:	f000 82d3 	beq.w	a80 <tcp_input+0xa80>
+ 4da:	f898 3000 	ldrb.w	r3, [r8]
+ 4de:	f003 0308 	and.w	r3, r3, #8
+ 4e2:	e6d7      	b.n	294 <tcp_input+0x294>
+ 4e4:	8d63      	ldrh	r3, [r4, #42]	; 0x2a
+ 4e6:	2b00      	cmp	r3, #0
+ 4e8:	f000 81a9 	beq.w	83e <tcp_input+0x83e>
+ 4ec:	4e98      	ldr	r6, [pc, #608]	; (750 <tcp_input+0x750>)
+ 4ee:	e716      	b.n	31e <tcp_input+0x31e>
+ 4f0:	4675      	mov	r5, lr
+ 4f2:	46dc      	mov	ip, fp
+ 4f4:	f1bc 0f00 	cmp.w	ip, #0
+ 4f8:	d006      	beq.n	508 <tcp_input+0x508>
+ 4fa:	4a96      	ldr	r2, [pc, #600]	; (754 <tcp_input+0x754>)
+ 4fc:	6015      	str	r5, [r2, #0]
+ 4fe:	68ea      	ldr	r2, [r5, #12]
+ 500:	f8cc 200c 	str.w	r2, [ip, #12]
+ 504:	f8c5 a00c 	str.w	sl, [r5, #12]
+ 508:	9a04      	ldr	r2, [sp, #16]
+ 50a:	0754      	lsls	r4, r2, #29
+ 50c:	f53f ad8a 	bmi.w	24 <tcp_input+0x24>
+ 510:	f012 0410 	ands.w	r4, r2, #16
+ 514:	f040 8198 	bne.w	848 <tcp_input+0x848>
+ 518:	9b04      	ldr	r3, [sp, #16]
+ 51a:	079a      	lsls	r2, r3, #30
+ 51c:	f57f ad82 	bpl.w	24 <tcp_input+0x24>
+ 520:	7d68      	ldrb	r0, [r5, #21]
+ 522:	f7ff fffe 	bl	0 <tcp_alloc>
+ 526:	4681      	mov	r9, r0
+ 528:	2800      	cmp	r0, #0
+ 52a:	f000 81d2 	beq.w	8d2 <tcp_input+0x8d2>
+ 52e:	4b87      	ldr	r3, [pc, #540]	; (74c <tcp_input+0x74c>)
+ 530:	6839      	ldr	r1, [r7, #0]
+ 532:	681b      	ldr	r3, [r3, #0]
+ 534:	780a      	ldrb	r2, [r1, #0]
+ 536:	3301      	adds	r3, #1
+ 538:	7849      	ldrb	r1, [r1, #1]
+ 53a:	ea42 2201 	orr.w	r2, r2, r1, lsl #8
+ 53e:	8ae9      	ldrh	r1, [r5, #22]
+ 540:	6243      	str	r3, [r0, #36]	; 0x24
+ 542:	62c3      	str	r3, [r0, #44]	; 0x2c
+ 544:	f8d8 3014 	ldr.w	r3, [r8, #20]
+ 548:	8302      	strh	r2, [r0, #24]
+ 54a:	6003      	str	r3, [r0, #0]
+ 54c:	f8d8 3010 	ldr.w	r3, [r8, #16]
+ 550:	82c1      	strh	r1, [r0, #22]
+ 552:	6043      	str	r3, [r0, #4]
+ 554:	2303      	movs	r3, #3
+ 556:	7503      	strb	r3, [r0, #20]
+ 558:	f7ff fffe 	bl	0 <tcp_next_iss>
+ 55c:	4b7b      	ldr	r3, [pc, #492]	; (74c <tcp_input+0x74c>)
+ 55e:	f8c9 0050 	str.w	r0, [r9, #80]	; 0x50
+ 562:	681b      	ldr	r3, [r3, #0]
+ 564:	f8c9 0044 	str.w	r0, [r9, #68]	; 0x44
+ 568:	3b01      	subs	r3, #1
+ 56a:	f8c9 005c 	str.w	r0, [r9, #92]	; 0x5c
+ 56e:	4a7a      	ldr	r2, [pc, #488]	; (758 <tcp_input+0x758>)
+ 570:	e9c9 3015 	strd	r3, r0, [r9, #84]	; 0x54
+ 574:	692b      	ldr	r3, [r5, #16]
+ 576:	f8c9 507c 	str.w	r5, [r9, #124]	; 0x7c
+ 57a:	f8c9 3010 	str.w	r3, [r9, #16]
+ 57e:	7a6b      	ldrb	r3, [r5, #9]
+ 580:	f003 030c 	and.w	r3, r3, #12
+ 584:	f889 3009 	strb.w	r3, [r9, #9]
+ 588:	7a2b      	ldrb	r3, [r5, #8]
+ 58a:	f889 3008 	strb.w	r3, [r9, #8]
+ 58e:	6813      	ldr	r3, [r2, #0]
+ 590:	f8c2 9000 	str.w	r9, [r2]
+ 594:	f8c9 300c 	str.w	r3, [r9, #12]
+ 598:	f7ff fffe 	bl	0 <tcp_timer_needed>
+ 59c:	4b6f      	ldr	r3, [pc, #444]	; (75c <tcp_input+0x75c>)
+ 59e:	2201      	movs	r2, #1
+ 5a0:	4648      	mov	r0, r9
+ 5a2:	701a      	strb	r2, [r3, #0]
+ 5a4:	f7ff fffe 	bl	0 <tcp_input>
+ 5a8:	683b      	ldr	r3, [r7, #0]
+ 5aa:	f109 0204 	add.w	r2, r9, #4
+ 5ae:	f8b9 5032 	ldrh.w	r5, [r9, #50]	; 0x32
+ 5b2:	89db      	ldrh	r3, [r3, #14]
+ 5b4:	4610      	mov	r0, r2
+ 5b6:	9204      	str	r2, [sp, #16]
+ 5b8:	f8a9 3060 	strh.w	r3, [r9, #96]	; 0x60
+ 5bc:	f8a9 3062 	strh.w	r3, [r9, #98]	; 0x62
+ 5c0:	f7ff fffe 	bl	0 <ip4_route>
+ 5c4:	9a04      	ldr	r2, [sp, #16]
+ 5c6:	4601      	mov	r1, r0
+ 5c8:	4628      	mov	r0, r5
+ 5ca:	f7ff fffe 	bl	0 <tcp_eff_send_mss_netif>
+ 5ce:	2112      	movs	r1, #18
+ 5d0:	f8a9 0032 	strh.w	r0, [r9, #50]	; 0x32
+ 5d4:	4648      	mov	r0, r9
+ 5d6:	f7ff fffe 	bl	0 <tcp_enqueue_flags>
+ 5da:	2800      	cmp	r0, #0
+ 5dc:	f040 8226 	bne.w	a2c <tcp_input+0xa2c>
+ 5e0:	4648      	mov	r0, r9
+ 5e2:	f7ff fffe 	bl	0 <tcp_output>
+ 5e6:	e51d      	b.n	24 <tcp_input+0x24>
+ 5e8:	2f00      	cmp	r7, #0
+ 5ea:	f000 8287 	beq.w	afc <tcp_input+0xafc>
+ 5ee:	f898 3000 	ldrb.w	r3, [r8]
+ 5f2:	f043 0308 	orr.w	r3, r3, #8
+ 5f6:	f888 3000 	strb.w	r3, [r8]
+ 5fa:	8b63      	ldrh	r3, [r4, #26]
+ 5fc:	f023 0301 	bic.w	r3, r3, #1
+ 600:	8363      	strh	r3, [r4, #26]
+ 602:	f8d4 3090 	ldr.w	r3, [r4, #144]	; 0x90
+ 606:	b11b      	cbz	r3, 610 <tcp_input+0x610>
+ 608:	f06f 010d 	mvn.w	r1, #13
+ 60c:	6920      	ldr	r0, [r4, #16]
+ 60e:	4798      	blx	r3
+ 610:	4621      	mov	r1, r4
+ 612:	4851      	ldr	r0, [pc, #324]	; (758 <tcp_input+0x758>)
+ 614:	f7ff fffe 	bl	0 <tcp_pcb_remove>
+ 618:	4620      	mov	r0, r4
+ 61a:	f7ff fffe 	bl	0 <tcp_free>
+ 61e:	e67e      	b.n	31e <tcp_input+0x31e>
+ 620:	3b02      	subs	r3, #2
+ 622:	2b07      	cmp	r3, #7
+ 624:	f63f af59 	bhi.w	4da <tcp_input+0x4da>
+ 628:	e8df f003 	tbb	[pc, r3]
+ 62c:	7004c19c 	.word	0x7004c19c
+ 630:	16310454 	.word	0x16310454
+ 634:	4620      	mov	r0, r4
+ 636:	f7ff fffe 	bl	0 <tcp_input>
+ 63a:	f898 3000 	ldrb.w	r3, [r8]
+ 63e:	f013 0f20 	tst.w	r3, #32
+ 642:	f003 0308 	and.w	r3, r3, #8
+ 646:	f43f ae25 	beq.w	294 <tcp_input+0x294>
+ 64a:	8b62      	ldrh	r2, [r4, #26]
+ 64c:	f042 0202 	orr.w	r2, r2, #2
+ 650:	8362      	strh	r2, [r4, #26]
+ 652:	2207      	movs	r2, #7
+ 654:	7522      	strb	r2, [r4, #20]
+ 656:	e61d      	b.n	294 <tcp_input+0x294>
+ 658:	4620      	mov	r0, r4
+ 65a:	f7ff fffe 	bl	0 <tcp_input>
+ 65e:	4b3a      	ldr	r3, [pc, #232]	; (748 <tcp_input+0x748>)
+ 660:	781b      	ldrb	r3, [r3, #0]
+ 662:	06d8      	lsls	r0, r3, #27
+ 664:	f57f af39 	bpl.w	4da <tcp_input+0x4da>
+ 668:	4b3d      	ldr	r3, [pc, #244]	; (760 <tcp_input+0x760>)
+ 66a:	6d22      	ldr	r2, [r4, #80]	; 0x50
+ 66c:	681b      	ldr	r3, [r3, #0]
+ 66e:	429a      	cmp	r2, r3
+ 670:	f47f af33 	bne.w	4da <tcp_input+0x4da>
+ 674:	6ee3      	ldr	r3, [r4, #108]	; 0x6c
+ 676:	2b00      	cmp	r3, #0
+ 678:	f47f af2f 	bne.w	4da <tcp_input+0x4da>
+ 67c:	f898 3000 	ldrb.w	r3, [r8]
+ 680:	f043 0210 	orr.w	r2, r3, #16
+ 684:	f888 2000 	strb.w	r2, [r8]
+ 688:	f003 0308 	and.w	r3, r3, #8
+ 68c:	e602      	b.n	294 <tcp_input+0x294>
+ 68e:	4620      	mov	r0, r4
+ 690:	f7ff fffe 	bl	0 <tcp_input>
+ 694:	4b2c      	ldr	r3, [pc, #176]	; (748 <tcp_input+0x748>)
+ 696:	781b      	ldrb	r3, [r3, #0]
+ 698:	06df      	lsls	r7, r3, #27
+ 69a:	f57f af1e 	bpl.w	4da <tcp_input+0x4da>
+ 69e:	4b30      	ldr	r3, [pc, #192]	; (760 <tcp_input+0x760>)
+ 6a0:	6d22      	ldr	r2, [r4, #80]	; 0x50
+ 6a2:	681b      	ldr	r3, [r3, #0]
+ 6a4:	429a      	cmp	r2, r3
+ 6a6:	f47f af18 	bne.w	4da <tcp_input+0x4da>
+ 6aa:	6ee3      	ldr	r3, [r4, #108]	; 0x6c
+ 6ac:	2b00      	cmp	r3, #0
+ 6ae:	f47f af14 	bne.w	4da <tcp_input+0x4da>
+ 6b2:	4620      	mov	r0, r4
+ 6b4:	f7ff fffe 	bl	0 <tcp_pcb_purge>
+ 6b8:	4b27      	ldr	r3, [pc, #156]	; (758 <tcp_input+0x758>)
+ 6ba:	681b      	ldr	r3, [r3, #0]
+ 6bc:	42a3      	cmp	r3, r4
+ 6be:	f000 8227 	beq.w	b10 <tcp_input+0xb10>
+ 6c2:	2b00      	cmp	r3, #0
+ 6c4:	f000 814a 	beq.w	95c <tcp_input+0x95c>
+ 6c8:	68da      	ldr	r2, [r3, #12]
+ 6ca:	42a2      	cmp	r2, r4
+ 6cc:	f000 8144 	beq.w	958 <tcp_input+0x958>
+ 6d0:	4613      	mov	r3, r2
+ 6d2:	e7f6      	b.n	6c2 <tcp_input+0x6c2>
+ 6d4:	4620      	mov	r0, r4
+ 6d6:	f7ff fffe 	bl	0 <tcp_input>
+ 6da:	f898 3000 	ldrb.w	r3, [r8]
+ 6de:	069a      	lsls	r2, r3, #26
+ 6e0:	d5d2      	bpl.n	688 <tcp_input+0x688>
+ 6e2:	8b63      	ldrh	r3, [r4, #26]
+ 6e4:	4620      	mov	r0, r4
+ 6e6:	f043 0302 	orr.w	r3, r3, #2
+ 6ea:	8363      	strh	r3, [r4, #26]
+ 6ec:	f7ff fffe 	bl	0 <tcp_pcb_purge>
+ 6f0:	4b19      	ldr	r3, [pc, #100]	; (758 <tcp_input+0x758>)
+ 6f2:	681b      	ldr	r3, [r3, #0]
+ 6f4:	42a3      	cmp	r3, r4
+ 6f6:	f000 820b 	beq.w	b10 <tcp_input+0xb10>
+ 6fa:	2b00      	cmp	r3, #0
+ 6fc:	f000 812e 	beq.w	95c <tcp_input+0x95c>
+ 700:	68da      	ldr	r2, [r3, #12]
+ 702:	42a2      	cmp	r2, r4
+ 704:	f000 8128 	beq.w	958 <tcp_input+0x958>
+ 708:	4613      	mov	r3, r2
+ 70a:	e7f6      	b.n	6fa <tcp_input+0x6fa>
+ 70c:	4620      	mov	r0, r4
+ 70e:	f7ff fffe 	bl	0 <tcp_input>
+ 712:	f898 3000 	ldrb.w	r3, [r8]
+ 716:	4a0c      	ldr	r2, [pc, #48]	; (748 <tcp_input+0x748>)
+ 718:	069f      	lsls	r7, r3, #26
+ 71a:	7812      	ldrb	r2, [r2, #0]
+ 71c:	f140 80e8 	bpl.w	8f0 <tcp_input+0x8f0>
+ 720:	06d0      	lsls	r0, r2, #27
+ 722:	d505      	bpl.n	730 <tcp_input+0x730>
+ 724:	4a0e      	ldr	r2, [pc, #56]	; (760 <tcp_input+0x760>)
+ 726:	6d21      	ldr	r1, [r4, #80]	; 0x50
+ 728:	6812      	ldr	r2, [r2, #0]
+ 72a:	4291      	cmp	r1, r2
+ 72c:	f000 81c5 	beq.w	aba <tcp_input+0xaba>
+ 730:	8b62      	ldrh	r2, [r4, #26]
+ 732:	f003 0308 	and.w	r3, r3, #8
+ 736:	f042 0202 	orr.w	r2, r2, #2
+ 73a:	8362      	strh	r2, [r4, #26]
+ 73c:	2208      	movs	r2, #8
+ 73e:	7522      	strb	r2, [r4, #20]
+ 740:	e5a8      	b.n	294 <tcp_input+0x294>
+ 742:	bf00      	nop
+ 744:	00000000 	.word	0x00000000
+ 748:	00000000 	.word	0x00000000
+ 74c:	00000000 	.word	0x00000000
+ 750:	00000000 	.word	0x00000000
+ 754:	00000000 	.word	0x00000000
+ 758:	00000000 	.word	0x00000000
+ 75c:	00000000 	.word	0x00000000
+ 760:	00000000 	.word	0x00000000
+ 764:	f001 0312 	and.w	r3, r1, #18
+ 768:	2b12      	cmp	r3, #18
+ 76a:	f000 8107 	beq.w	97c <tcp_input+0x97c>
+ 76e:	06ca      	lsls	r2, r1, #27
+ 770:	f57f aeb3 	bpl.w	4da <tcp_input+0x4da>
+ 774:	9a07      	ldr	r2, [sp, #28]
+ 776:	683b      	ldr	r3, [r7, #0]
+ 778:	8811      	ldrh	r1, [r2, #0]
+ 77a:	4ab2      	ldr	r2, [pc, #712]	; (a44 <tcp_input+0xa44>)
+ 77c:	8818      	ldrh	r0, [r3, #0]
+ 77e:	6812      	ldr	r2, [r2, #0]
+ 780:	440a      	add	r2, r1
+ 782:	49b1      	ldr	r1, [pc, #708]	; (a48 <tcp_input+0xa48>)
+ 784:	6809      	ldr	r1, [r1, #0]
+ 786:	9002      	str	r0, [sp, #8]
+ 788:	4620      	mov	r0, r4
+ 78a:	885b      	ldrh	r3, [r3, #2]
+ 78c:	9301      	str	r3, [sp, #4]
+ 78e:	4baf      	ldr	r3, [pc, #700]	; (a4c <tcp_input+0xa4c>)
+ 790:	9300      	str	r3, [sp, #0]
+ 792:	3304      	adds	r3, #4
+ 794:	f7ff fffe 	bl	0 <tcp_rst>
+ 798:	f894 3042 	ldrb.w	r3, [r4, #66]	; 0x42
+ 79c:	2b05      	cmp	r3, #5
+ 79e:	f63f ae9c 	bhi.w	4da <tcp_input+0x4da>
+ 7a2:	2300      	movs	r3, #0
+ 7a4:	4620      	mov	r0, r4
+ 7a6:	8623      	strh	r3, [r4, #48]	; 0x30
+ 7a8:	f7ff fffe 	bl	0 <tcp_rexmit_rto>
+ 7ac:	e695      	b.n	4da <tcp_input+0x4da>
+ 7ae:	06cb      	lsls	r3, r1, #27
+ 7b0:	f57f ae93 	bpl.w	4da <tcp_input+0x4da>
+ 7b4:	4ba4      	ldr	r3, [pc, #656]	; (a48 <tcp_input+0xa48>)
+ 7b6:	6819      	ldr	r1, [r3, #0]
+ 7b8:	6c63      	ldr	r3, [r4, #68]	; 0x44
+ 7ba:	43db      	mvns	r3, r3
+ 7bc:	42cb      	cmn	r3, r1
+ 7be:	f100 80a9 	bmi.w	914 <tcp_input+0x914>
+ 7c2:	6d23      	ldr	r3, [r4, #80]	; 0x50
+ 7c4:	1a5b      	subs	r3, r3, r1
+ 7c6:	2b00      	cmp	r3, #0
+ 7c8:	f2c0 80a4 	blt.w	914 <tcp_input+0x914>
+ 7cc:	2304      	movs	r3, #4
+ 7ce:	7523      	strb	r3, [r4, #20]
+ 7d0:	6fe3      	ldr	r3, [r4, #124]	; 0x7c
+ 7d2:	2b00      	cmp	r3, #0
+ 7d4:	d05f      	beq.n	896 <tcp_input+0x896>
+ 7d6:	699f      	ldr	r7, [r3, #24]
+ 7d8:	2f00      	cmp	r7, #0
+ 7da:	f000 812d 	beq.w	a38 <tcp_input+0xa38>
+ 7de:	2200      	movs	r2, #0
+ 7e0:	4621      	mov	r1, r4
+ 7e2:	6920      	ldr	r0, [r4, #16]
+ 7e4:	47b8      	blx	r7
+ 7e6:	2800      	cmp	r0, #0
+ 7e8:	f040 8184 	bne.w	af4 <tcp_input+0xaf4>
+ 7ec:	4620      	mov	r0, r4
+ 7ee:	f7ff fffe 	bl	0 <tcp_input>
+ 7f2:	f8ba 3000 	ldrh.w	r3, [sl]
+ 7f6:	b113      	cbz	r3, 7fe <tcp_input+0x7fe>
+ 7f8:	3b01      	subs	r3, #1
+ 7fa:	f8aa 3000 	strh.w	r3, [sl]
+ 7fe:	8e61      	ldrh	r1, [r4, #50]	; 0x32
+ 800:	f241 131c 	movw	r3, #4380	; 0x111c
+ 804:	004a      	lsls	r2, r1, #1
+ 806:	0088      	lsls	r0, r1, #2
+ 808:	429a      	cmp	r2, r3
+ 80a:	4617      	mov	r7, r2
+ 80c:	bf38      	it	cc
+ 80e:	461f      	movcc	r7, r3
+ 810:	ebb7 0f81 	cmp.w	r7, r1, lsl #2
+ 814:	f240 8180 	bls.w	b18 <tcp_input+0xb18>
+ 818:	b283      	uxth	r3, r0
+ 81a:	f8a4 3048 	strh.w	r3, [r4, #72]	; 0x48
+ 81e:	f898 3000 	ldrb.w	r3, [r8]
+ 822:	f013 0f20 	tst.w	r3, #32
+ 826:	f003 0308 	and.w	r3, r3, #8
+ 82a:	f47f af0e 	bne.w	64a <tcp_input+0x64a>
+ 82e:	e531      	b.n	294 <tcp_input+0x294>
+ 830:	4b85      	ldr	r3, [pc, #532]	; (a48 <tcp_input+0xa48>)
+ 832:	6d22      	ldr	r2, [r4, #80]	; 0x50
+ 834:	681b      	ldr	r3, [r3, #0]
+ 836:	429a      	cmp	r2, r3
+ 838:	f43f aed9 	beq.w	5ee <tcp_input+0x5ee>
+ 83c:	e64d      	b.n	4da <tcp_input+0x4da>
+ 83e:	4620      	mov	r0, r4
+ 840:	4e83      	ldr	r6, [pc, #524]	; (a50 <tcp_input+0xa50>)
+ 842:	f7ff fffe 	bl	0 <tcp_send_empty_ack>
+ 846:	e56a      	b.n	31e <tcp_input+0x31e>
+ 848:	e9cd 1301 	strd	r1, r3, [sp, #4]
+ 84c:	9b07      	ldr	r3, [sp, #28]
+ 84e:	9909      	ldr	r1, [sp, #36]	; 0x24
+ 850:	881a      	ldrh	r2, [r3, #0]
+ 852:	9b08      	ldr	r3, [sp, #32]
+ 854:	441a      	add	r2, r3
+ 856:	4b7d      	ldr	r3, [pc, #500]	; (a4c <tcp_input+0xa4c>)
+ 858:	9300      	str	r3, [sp, #0]
+ 85a:	3304      	adds	r3, #4
+ 85c:	f7ff fffe 	bl	0 <tcp_rst_netif>
+ 860:	f7ff bbe0 	b.w	24 <tcp_input+0x24>
+ 864:	4b7b      	ldr	r3, [pc, #492]	; (a54 <tcp_input+0xa54>)
+ 866:	22fc      	movs	r2, #252	; 0xfc
+ 868:	497b      	ldr	r1, [pc, #492]	; (a58 <tcp_input+0xa58>)
+ 86a:	487c      	ldr	r0, [pc, #496]	; (a5c <tcp_input+0xa5c>)
+ 86c:	f7ff fffe 	bl	0 <printf>
+ 870:	2000      	movs	r0, #0
+ 872:	f7ff fffe 	bl	0 <fflush>
+ 876:	2001      	movs	r0, #1
+ 878:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 87c:	f7ff fffe 	bl	0 <abort>
+ 880:	4b74      	ldr	r3, [pc, #464]	; (a54 <tcp_input+0xa54>)
+ 882:	22fb      	movs	r2, #251	; 0xfb
+ 884:	4976      	ldr	r1, [pc, #472]	; (a60 <tcp_input+0xa60>)
+ 886:	e7f0      	b.n	86a <tcp_input+0x86a>
+ 888:	4b72      	ldr	r3, [pc, #456]	; (a54 <tcp_input+0xa54>)
+ 88a:	22fd      	movs	r2, #253	; 0xfd
+ 88c:	4975      	ldr	r1, [pc, #468]	; (a64 <tcp_input+0xa64>)
+ 88e:	e7ec      	b.n	86a <tcp_input+0x86a>
+ 890:	4610      	mov	r0, r2
+ 892:	f7ff fffe 	bl	0 <pbuf_free>
+ 896:	4620      	mov	r0, r4
+ 898:	f7ff fffe 	bl	0 <tcp_abort>
+ 89c:	e53f      	b.n	31e <tcp_input+0x31e>
+ 89e:	8d23      	ldrh	r3, [r4, #40]	; 0x28
+ 8a0:	f241 62d0 	movw	r2, #5840	; 0x16d0
+ 8a4:	4293      	cmp	r3, r2
+ 8a6:	d001      	beq.n	8ac <tcp_input+0x8ac>
+ 8a8:	3301      	adds	r3, #1
+ 8aa:	8523      	strh	r3, [r4, #40]	; 0x28
+ 8ac:	f8d4 7084 	ldr.w	r7, [r4, #132]	; 0x84
+ 8b0:	2f00      	cmp	r7, #0
+ 8b2:	f43f ad2b 	beq.w	30c <tcp_input+0x30c>
+ 8b6:	2300      	movs	r3, #0
+ 8b8:	4621      	mov	r1, r4
+ 8ba:	6920      	ldr	r0, [r4, #16]
+ 8bc:	461a      	mov	r2, r3
+ 8be:	47b8      	blx	r7
+ 8c0:	300d      	adds	r0, #13
+ 8c2:	f47f ad23 	bne.w	30c <tcp_input+0x30c>
+ 8c6:	e52a      	b.n	31e <tcp_input+0x31e>
+ 8c8:	463b      	mov	r3, r7
+ 8ca:	4621      	mov	r1, r4
+ 8cc:	f7ff fffe 	bl	0 <tcp_recv_null>
+ 8d0:	e509      	b.n	2e6 <tcp_input+0x2e6>
+ 8d2:	69ab      	ldr	r3, [r5, #24]
+ 8d4:	2b00      	cmp	r3, #0
+ 8d6:	f43f aba5 	beq.w	24 <tcp_input+0x24>
+ 8da:	4601      	mov	r1, r0
+ 8dc:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+ 8e0:	6928      	ldr	r0, [r5, #16]
+ 8e2:	4798      	blx	r3
+ 8e4:	f7ff bb9e 	b.w	24 <tcp_input+0x24>
+ 8e8:	4b5a      	ldr	r3, [pc, #360]	; (a54 <tcp_input+0xa54>)
+ 8ea:	2283      	movs	r2, #131	; 0x83
+ 8ec:	495e      	ldr	r1, [pc, #376]	; (a68 <tcp_input+0xa68>)
+ 8ee:	e7bc      	b.n	86a <tcp_input+0x86a>
+ 8f0:	06d1      	lsls	r1, r2, #27
+ 8f2:	f57f aec9 	bpl.w	688 <tcp_input+0x688>
+ 8f6:	4a54      	ldr	r2, [pc, #336]	; (a48 <tcp_input+0xa48>)
+ 8f8:	6d21      	ldr	r1, [r4, #80]	; 0x50
+ 8fa:	6812      	ldr	r2, [r2, #0]
+ 8fc:	4291      	cmp	r1, r2
+ 8fe:	f47f aec3 	bne.w	688 <tcp_input+0x688>
+ 902:	6ee2      	ldr	r2, [r4, #108]	; 0x6c
+ 904:	f003 0308 	and.w	r3, r3, #8
+ 908:	2a00      	cmp	r2, #0
+ 90a:	f47f acc3 	bne.w	294 <tcp_input+0x294>
+ 90e:	2206      	movs	r2, #6
+ 910:	7522      	strb	r2, [r4, #20]
+ 912:	e4bf      	b.n	294 <tcp_input+0x294>
+ 914:	9a07      	ldr	r2, [sp, #28]
+ 916:	683b      	ldr	r3, [r7, #0]
+ 918:	8810      	ldrh	r0, [r2, #0]
+ 91a:	4a4a      	ldr	r2, [pc, #296]	; (a44 <tcp_input+0xa44>)
+ 91c:	6812      	ldr	r2, [r2, #0]
+ 91e:	4402      	add	r2, r0
+ 920:	8818      	ldrh	r0, [r3, #0]
+ 922:	9002      	str	r0, [sp, #8]
+ 924:	4620      	mov	r0, r4
+ 926:	885b      	ldrh	r3, [r3, #2]
+ 928:	9301      	str	r3, [sp, #4]
+ 92a:	4b48      	ldr	r3, [pc, #288]	; (a4c <tcp_input+0xa4c>)
+ 92c:	9300      	str	r3, [sp, #0]
+ 92e:	3304      	adds	r3, #4
+ 930:	f7ff fffe 	bl	0 <tcp_rst>
+ 934:	f898 3000 	ldrb.w	r3, [r8]
+ 938:	f003 0308 	and.w	r3, r3, #8
+ 93c:	e4aa      	b.n	294 <tcp_input+0x294>
+ 93e:	9b04      	ldr	r3, [sp, #16]
+ 940:	07dd      	lsls	r5, r3, #31
+ 942:	f57f ad3f 	bpl.w	3c4 <tcp_input+0x3c4>
+ 946:	4b49      	ldr	r3, [pc, #292]	; (a6c <tcp_input+0xa6c>)
+ 948:	681b      	ldr	r3, [r3, #0]
+ 94a:	6203      	str	r3, [r0, #32]
+ 94c:	e53a      	b.n	3c4 <tcp_input+0x3c4>
+ 94e:	4b41      	ldr	r3, [pc, #260]	; (a54 <tcp_input+0xa54>)
+ 950:	f240 121f 	movw	r2, #287	; 0x11f
+ 954:	4946      	ldr	r1, [pc, #280]	; (a70 <tcp_input+0xa70>)
+ 956:	e788      	b.n	86a <tcp_input+0x86a>
+ 958:	68e2      	ldr	r2, [r4, #12]
+ 95a:	60da      	str	r2, [r3, #12]
+ 95c:	4b45      	ldr	r3, [pc, #276]	; (a74 <tcp_input+0xa74>)
+ 95e:	220a      	movs	r2, #10
+ 960:	7522      	strb	r2, [r4, #20]
+ 962:	681a      	ldr	r2, [r3, #0]
+ 964:	601c      	str	r4, [r3, #0]
+ 966:	60e2      	str	r2, [r4, #12]
+ 968:	2201      	movs	r2, #1
+ 96a:	4b43      	ldr	r3, [pc, #268]	; (a78 <tcp_input+0xa78>)
+ 96c:	701a      	strb	r2, [r3, #0]
+ 96e:	f7ff fffe 	bl	0 <tcp_timer_needed>
+ 972:	f898 3000 	ldrb.w	r3, [r8]
+ 976:	f003 0308 	and.w	r3, r3, #8
+ 97a:	e48b      	b.n	294 <tcp_input+0x294>
+ 97c:	6c63      	ldr	r3, [r4, #68]	; 0x44
+ 97e:	4a32      	ldr	r2, [pc, #200]	; (a48 <tcp_input+0xa48>)
+ 980:	3301      	adds	r3, #1
+ 982:	6812      	ldr	r2, [r2, #0]
+ 984:	4293      	cmp	r3, r2
+ 986:	f47f aef2 	bne.w	76e <tcp_input+0x76e>
+ 98a:	6463      	str	r3, [r4, #68]	; 0x44
+ 98c:	1d22      	adds	r2, r4, #4
+ 98e:	4b2d      	ldr	r3, [pc, #180]	; (a44 <tcp_input+0xa44>)
+ 990:	6838      	ldr	r0, [r7, #0]
+ 992:	681b      	ldr	r3, [r3, #0]
+ 994:	8e67      	ldrh	r7, [r4, #50]	; 0x32
+ 996:	1c59      	adds	r1, r3, #1
+ 998:	3b01      	subs	r3, #1
+ 99a:	6261      	str	r1, [r4, #36]	; 0x24
+ 99c:	62e1      	str	r1, [r4, #44]	; 0x2c
+ 99e:	89c1      	ldrh	r1, [r0, #14]
+ 9a0:	4610      	mov	r0, r2
+ 9a2:	6563      	str	r3, [r4, #84]	; 0x54
+ 9a4:	2304      	movs	r3, #4
+ 9a6:	f8a4 1060 	strh.w	r1, [r4, #96]	; 0x60
+ 9aa:	7523      	strb	r3, [r4, #20]
+ 9ac:	f8a4 1062 	strh.w	r1, [r4, #98]	; 0x62
+ 9b0:	9204      	str	r2, [sp, #16]
+ 9b2:	f7ff fffe 	bl	0 <ip4_route>
+ 9b6:	9a04      	ldr	r2, [sp, #16]
+ 9b8:	4601      	mov	r1, r0
+ 9ba:	4638      	mov	r0, r7
+ 9bc:	f7ff fffe 	bl	0 <tcp_eff_send_mss_netif>
+ 9c0:	f241 131c 	movw	r3, #4380	; 0x111c
+ 9c4:	0042      	lsls	r2, r0, #1
+ 9c6:	8660      	strh	r0, [r4, #50]	; 0x32
+ 9c8:	0081      	lsls	r1, r0, #2
+ 9ca:	429a      	cmp	r2, r3
+ 9cc:	4617      	mov	r7, r2
+ 9ce:	bf38      	it	cc
+ 9d0:	461f      	movcc	r7, r3
+ 9d2:	ebb7 0f80 	cmp.w	r7, r0, lsl #2
+ 9d6:	f240 80ba 	bls.w	b4e <tcp_input+0xb4e>
+ 9da:	b28b      	uxth	r3, r1
+ 9dc:	f8b4 7066 	ldrh.w	r7, [r4, #102]	; 0x66
+ 9e0:	f8a4 3048 	strh.w	r3, [r4, #72]	; 0x48
+ 9e4:	2f00      	cmp	r7, #0
+ 9e6:	f000 80ad 	beq.w	b44 <tcp_input+0xb44>
+ 9ea:	3f01      	subs	r7, #1
+ 9ec:	f8a4 7066 	strh.w	r7, [r4, #102]	; 0x66
+ 9f0:	6f27      	ldr	r7, [r4, #112]	; 0x70
+ 9f2:	2f00      	cmp	r7, #0
+ 9f4:	f000 80a1 	beq.w	b3a <tcp_input+0xb3a>
+ 9f8:	683b      	ldr	r3, [r7, #0]
+ 9fa:	6723      	str	r3, [r4, #112]	; 0x70
+ 9fc:	4638      	mov	r0, r7
+ 9fe:	f7ff fffe 	bl	0 <tcp_seg_free>
+ a02:	6f23      	ldr	r3, [r4, #112]	; 0x70
+ a04:	2b00      	cmp	r3, #0
+ a06:	f000 8094 	beq.w	b32 <tcp_input+0xb32>
+ a0a:	2300      	movs	r3, #0
+ a0c:	8623      	strh	r3, [r4, #48]	; 0x30
+ a0e:	f884 3042 	strb.w	r3, [r4, #66]	; 0x42
+ a12:	f8d4 3088 	ldr.w	r3, [r4, #136]	; 0x88
+ a16:	2b00      	cmp	r3, #0
+ a18:	f43f ac34 	beq.w	284 <tcp_input+0x284>
+ a1c:	2200      	movs	r2, #0
+ a1e:	4621      	mov	r1, r4
+ a20:	6920      	ldr	r0, [r4, #16]
+ a22:	4798      	blx	r3
+ a24:	300d      	adds	r0, #13
+ a26:	f47f ac2d 	bne.w	284 <tcp_input+0x284>
+ a2a:	e478      	b.n	31e <tcp_input+0x31e>
+ a2c:	4621      	mov	r1, r4
+ a2e:	4648      	mov	r0, r9
+ a30:	f7ff fffe 	bl	0 <tcp_abandon>
+ a34:	f7ff baf6 	b.w	24 <tcp_input+0x24>
+ a38:	4b06      	ldr	r3, [pc, #24]	; (a54 <tcp_input+0xa54>)
+ a3a:	f44f 726e 	mov.w	r2, #952	; 0x3b8
+ a3e:	490f      	ldr	r1, [pc, #60]	; (a7c <tcp_input+0xa7c>)
+ a40:	e713      	b.n	86a <tcp_input+0x86a>
+ a42:	bf00      	nop
+ a44:	00000000 	.word	0x00000000
+ a48:	00000000 	.word	0x00000000
+ a4c:	00000010 	.word	0x00000010
+ a50:	00000000 	.word	0x00000000
+ a54:	00000000 	.word	0x00000000
+ a58:	0000007c 	.word	0x0000007c
+ a5c:	00000050 	.word	0x00000050
+ a60:	00000054 	.word	0x00000054
+ a64:	000000a8 	.word	0x000000a8
+ a68:	00000000 	.word	0x00000000
+ a6c:	00000000 	.word	0x00000000
+ a70:	00000128 	.word	0x00000128
+ a74:	00000000 	.word	0x00000000
+ a78:	00000000 	.word	0x00000000
+ a7c:	000001a4 	.word	0x000001a4
+ a80:	4620      	mov	r0, r4
+ a82:	f7ff fffe 	bl	0 <tcp_rexmit>
+ a86:	f898 3000 	ldrb.w	r3, [r8]
+ a8a:	f003 0308 	and.w	r3, r3, #8
+ a8e:	e401      	b.n	294 <tcp_input+0x294>
+ a90:	4b33      	ldr	r3, [pc, #204]	; (b60 <tcp_input+0xb60>)
+ a92:	22e0      	movs	r2, #224	; 0xe0
+ a94:	4933      	ldr	r1, [pc, #204]	; (b64 <tcp_input+0xb64>)
+ a96:	e6e8      	b.n	86a <tcp_input+0x86a>
+ a98:	4b31      	ldr	r3, [pc, #196]	; (b60 <tcp_input+0xb60>)
+ a9a:	22df      	movs	r2, #223	; 0xdf
+ a9c:	4932      	ldr	r1, [pc, #200]	; (b68 <tcp_input+0xb68>)
+ a9e:	e6e4      	b.n	86a <tcp_input+0x86a>
+ aa0:	e9cd 1301 	strd	r1, r3, [sp, #4]
+ aa4:	9b07      	ldr	r3, [sp, #28]
+ aa6:	9909      	ldr	r1, [sp, #36]	; 0x24
+ aa8:	881a      	ldrh	r2, [r3, #0]
+ aaa:	4b30      	ldr	r3, [pc, #192]	; (b6c <tcp_input+0xb6c>)
+ aac:	442a      	add	r2, r5
+ aae:	9300      	str	r3, [sp, #0]
+ ab0:	3304      	adds	r3, #4
+ ab2:	f7ff fffe 	bl	0 <tcp_rst>
+ ab6:	f7ff bab5 	b.w	24 <tcp_input+0x24>
+ aba:	6ee2      	ldr	r2, [r4, #108]	; 0x6c
+ abc:	2a00      	cmp	r2, #0
+ abe:	f47f ae37 	bne.w	730 <tcp_input+0x730>
+ ac2:	8b63      	ldrh	r3, [r4, #26]
+ ac4:	4620      	mov	r0, r4
+ ac6:	f043 0302 	orr.w	r3, r3, #2
+ aca:	8363      	strh	r3, [r4, #26]
+ acc:	f7ff fffe 	bl	0 <tcp_pcb_purge>
+ ad0:	4b27      	ldr	r3, [pc, #156]	; (b70 <tcp_input+0xb70>)
+ ad2:	681b      	ldr	r3, [r3, #0]
+ ad4:	42a3      	cmp	r3, r4
+ ad6:	d01b      	beq.n	b10 <tcp_input+0xb10>
+ ad8:	2b00      	cmp	r3, #0
+ ada:	f43f af3f 	beq.w	95c <tcp_input+0x95c>
+ ade:	68da      	ldr	r2, [r3, #12]
+ ae0:	42a2      	cmp	r2, r4
+ ae2:	f43f af39 	beq.w	958 <tcp_input+0x958>
+ ae6:	4613      	mov	r3, r2
+ ae8:	e7f6      	b.n	ad8 <tcp_input+0xad8>
+ aea:	4b1d      	ldr	r3, [pc, #116]	; (b60 <tcp_input+0xb60>)
+ aec:	f240 120d 	movw	r2, #269	; 0x10d
+ af0:	4920      	ldr	r1, [pc, #128]	; (b74 <tcp_input+0xb74>)
+ af2:	e6ba      	b.n	86a <tcp_input+0x86a>
+ af4:	300d      	adds	r0, #13
+ af6:	f43f ac12 	beq.w	31e <tcp_input+0x31e>
+ afa:	e6cc      	b.n	896 <tcp_input+0x896>
+ afc:	4b18      	ldr	r3, [pc, #96]	; (b60 <tcp_input+0xb60>)
+ afe:	f240 323b 	movw	r2, #827	; 0x33b
+ b02:	491d      	ldr	r1, [pc, #116]	; (b78 <tcp_input+0xb78>)
+ b04:	e6b1      	b.n	86a <tcp_input+0x86a>
+ b06:	4b16      	ldr	r3, [pc, #88]	; (b60 <tcp_input+0xb60>)
+ b08:	f240 1215 	movw	r2, #277	; 0x115
+ b0c:	491b      	ldr	r1, [pc, #108]	; (b7c <tcp_input+0xb7c>)
+ b0e:	e6ac      	b.n	86a <tcp_input+0x86a>
+ b10:	68e3      	ldr	r3, [r4, #12]
+ b12:	4a17      	ldr	r2, [pc, #92]	; (b70 <tcp_input+0xb70>)
+ b14:	6013      	str	r3, [r2, #0]
+ b16:	e721      	b.n	95c <tcp_input+0x95c>
+ b18:	429a      	cmp	r2, r3
+ b1a:	bf88      	it	hi
+ b1c:	b293      	uxthhi	r3, r2
+ b1e:	e67c      	b.n	81a <tcp_input+0x81a>
+ b20:	4b0f      	ldr	r3, [pc, #60]	; (b60 <tcp_input+0xb60>)
+ b22:	22c2      	movs	r2, #194	; 0xc2
+ b24:	4916      	ldr	r1, [pc, #88]	; (b80 <tcp_input+0xb80>)
+ b26:	e6a0      	b.n	86a <tcp_input+0x86a>
+ b28:	4b0d      	ldr	r3, [pc, #52]	; (b60 <tcp_input+0xb60>)
+ b2a:	f44f 72f3 	mov.w	r2, #486	; 0x1e6
+ b2e:	4915      	ldr	r1, [pc, #84]	; (b84 <tcp_input+0xb84>)
+ b30:	e69b      	b.n	86a <tcp_input+0x86a>
+ b32:	f64f 73ff 	movw	r3, #65535	; 0xffff
+ b36:	8623      	strh	r3, [r4, #48]	; 0x30
+ b38:	e76b      	b.n	a12 <tcp_input+0xa12>
+ b3a:	6ee7      	ldr	r7, [r4, #108]	; 0x6c
+ b3c:	b15f      	cbz	r7, b56 <tcp_input+0xb56>
+ b3e:	683b      	ldr	r3, [r7, #0]
+ b40:	66e3      	str	r3, [r4, #108]	; 0x6c
+ b42:	e75b      	b.n	9fc <tcp_input+0x9fc>
+ b44:	4b06      	ldr	r3, [pc, #24]	; (b60 <tcp_input+0xb60>)
+ b46:	f240 3277 	movw	r2, #887	; 0x377
+ b4a:	490f      	ldr	r1, [pc, #60]	; (b88 <tcp_input+0xb88>)
+ b4c:	e68d      	b.n	86a <tcp_input+0x86a>
+ b4e:	429a      	cmp	r2, r3
+ b50:	bf88      	it	hi
+ b52:	b293      	uxthhi	r3, r2
+ b54:	e742      	b.n	9dc <tcp_input+0x9dc>
+ b56:	4b02      	ldr	r3, [pc, #8]	; (b60 <tcp_input+0xb60>)
+ b58:	f240 327f 	movw	r2, #895	; 0x37f
+ b5c:	490b      	ldr	r1, [pc, #44]	; (b8c <tcp_input+0xb8c>)
+ b5e:	e684      	b.n	86a <tcp_input+0x86a>
+ b60:	00000000 	.word	0x00000000
+ b64:	00000034 	.word	0x00000034
+ b68:	00000028 	.word	0x00000028
+ b6c:	00000010 	.word	0x00000010
+ b70:	00000000 	.word	0x00000000
+ b74:	000000d0 	.word	0x000000d0
+ b78:	00000158 	.word	0x00000158
+ b7c:	000000fc 	.word	0x000000fc
+ b80:	00000018 	.word	0x00000018
+ b84:	000001c4 	.word	0x000001c4
+ b88:	00000178 	.word	0x00000178
+ b8c:	00000190 	.word	0x00000190
+
+Disassembly of section .text.tcp_trigger_input_pcb_close:
+
+00000000 <tcp_trigger_input_pcb_close>:
+   0:	4a02      	ldr	r2, [pc, #8]	; (c <tcp_trigger_input_pcb_close+0xc>)
+   2:	7813      	ldrb	r3, [r2, #0]
+   4:	f043 0310 	orr.w	r3, r3, #16
+   8:	7013      	strb	r3, [r2, #0]
+   a:	4770      	bx	lr
+   c:	00000000 	.word	0x00000000

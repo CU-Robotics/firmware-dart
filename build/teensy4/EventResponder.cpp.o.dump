@@ -1,0 +1,696 @@
+
+build/./teensy4/EventResponder.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 EventResponder.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN14EventResponder24triggerEventNotImmediateEv	00000000 .text._ZN14EventResponder24triggerEventNotImmediateEv
+00000000 l    d  .text._ZN14EventResponder12triggerEventEiPv	00000000 .text._ZN14EventResponder12triggerEventEiPv
+00000000 l    d  .text._ZN14EventResponder16runFromInterruptEv	00000000 .text._ZN14EventResponder16runFromInterruptEv
+00000000 l    d  .text.pendablesrvreq_isr	00000000 .text.pendablesrvreq_isr
+00000000 l    d  .text._ZN14EventResponder10clearEventEv	00000000 .text._ZN14EventResponder10clearEventEv
+00000000 l    d  .text._ZN14EventResponder18detachNoInterruptsEv	00000000 .text._ZN14EventResponder18detachNoInterruptsEv
+00000000 l    d  .text._ZN11MillisTimer16addToWaitingListEv	00000000 .text._ZN11MillisTimer16addToWaitingListEv
+00000000 l    d  .text._ZN11MillisTimer15addToActiveListEv	00000000 .text._ZN11MillisTimer15addToActiveListEv
+00000000 l    d  .text._ZN11MillisTimer3endEv	00000000 .text._ZN11MillisTimer3endEv
+00000000 l    d  .text._ZN11MillisTimer5beginEmR14EventResponder	00000000 .text._ZN11MillisTimer5beginEmR14EventResponder
+00000000 l    d  .text._ZN11MillisTimer14beginRepeatingEmR14EventResponder	00000000 .text._ZN11MillisTimer14beginRepeatingEmR14EventResponder
+00000000 l    d  .text._ZN11MillisTimer12runFromTimerEv	00000000 .text._ZN11MillisTimer12runFromTimerEv
+00000000 l    d  .text.systick_isr	00000000 .text.systick_isr
+00000000 l    d  .text.systick_isr_with_timer_events	00000000 .text.systick_isr_with_timer_events
+00000000 l    d  .bss._ZN11MillisTimer10listActiveE	00000000 .bss._ZN11MillisTimer10listActiveE
+00000000 l    d  .bss._ZN11MillisTimer11listWaitingE	00000000 .bss._ZN11MillisTimer11listWaitingE
+00000000 l    d  .bss._ZN14EventResponder10firstYieldE	00000000 .bss._ZN14EventResponder10firstYieldE
+00000000 l    d  .bss._ZN14EventResponder13lastInterruptE	00000000 .bss._ZN14EventResponder13lastInterruptE
+00000000 l    d  .bss._ZN14EventResponder14firstInterruptE	00000000 .bss._ZN14EventResponder14firstInterruptE
+00000000 l    d  .bss._ZN14EventResponder16runningFromYieldE	00000000 .bss._ZN14EventResponder16runningFromYieldE
+00000000 l    d  .bss._ZN14EventResponder9lastYieldE	00000000 .bss._ZN14EventResponder9lastYieldE
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 g     F .text._ZN14EventResponder24triggerEventNotImmediateEv	00000084 _ZN14EventResponder24triggerEventNotImmediateEv
+00000000  w    F .text._ZN14EventResponder12triggerEventEiPv	00000016 _ZN14EventResponder12triggerEventEiPv
+00000000 g     F .text._ZN14EventResponder16runFromInterruptEv	00000044 _ZN14EventResponder16runFromInterruptEv
+00000000 g     F .text.pendablesrvreq_isr	00000004 pendablesrvreq_isr
+00000000 g     F .text._ZN14EventResponder10clearEventEv	00000074 _ZN14EventResponder10clearEventEv
+00000000 g     F .text._ZN14EventResponder18detachNoInterruptsEv	00000064 _ZN14EventResponder18detachNoInterruptsEv
+00000000 g     F .text._ZN11MillisTimer16addToWaitingListEv	00000024 _ZN11MillisTimer16addToWaitingListEv
+00000000 g     F .text._ZN11MillisTimer15addToActiveListEv	00000070 _ZN11MillisTimer15addToActiveListEv
+00000000 g     F .text._ZN11MillisTimer3endEv	00000084 _ZN11MillisTimer3endEv
+00000000 g     F .text._ZN11MillisTimer5beginEmR14EventResponder	0000004c _ZN11MillisTimer5beginEmR14EventResponder
+00000000 g     F .text._ZN11MillisTimer14beginRepeatingEmR14EventResponder	00000050 _ZN11MillisTimer14beginRepeatingEmR14EventResponder
+00000000 g     F .text._ZN11MillisTimer12runFromTimerEv	00000094 _ZN11MillisTimer12runFromTimerEv
+00000000 g     F .text.systick_isr	00000020 systick_isr
+00000000         *UND*	00000000 systick_millis_count
+00000000         *UND*	00000000 systick_cycle_count
+00000000 g     F .text.systick_isr_with_timer_events	00000020 systick_isr_with_timer_events
+00000000 g     O .bss._ZN11MillisTimer10listActiveE	00000004 _ZN11MillisTimer10listActiveE
+00000000 g     O .bss._ZN11MillisTimer11listWaitingE	00000004 _ZN11MillisTimer11listWaitingE
+00000000 g     O .bss._ZN14EventResponder16runningFromYieldE	00000001 _ZN14EventResponder16runningFromYieldE
+00000000 g     O .bss._ZN14EventResponder13lastInterruptE	00000004 _ZN14EventResponder13lastInterruptE
+00000000 g     O .bss._ZN14EventResponder14firstInterruptE	00000004 _ZN14EventResponder14firstInterruptE
+00000000 g     O .bss._ZN14EventResponder9lastYieldE	00000004 _ZN14EventResponder9lastYieldE
+00000000 g     O .bss._ZN14EventResponder10firstYieldE	00000004 _ZN14EventResponder10firstYieldE
+
+
+Contents of section .group:
+ 0000 01000000 07000000 08000000           ............    
+Contents of section .text._ZN14EventResponder24triggerEventNotImmediateEv:
+ 0000 eff31082 72b6437f 5bb9017f 012930b4  ....r.C.[....)0.
+ 0010 0bd00329 13d00123 437702b9 62b630bc  ...)...#Cw..b.0.
+ 0020 70470ab9 62b67047 7047124c 2168b1b1  pG..b.pGpG.L!h..
+ 0030 11494361 0b680860 83615861 ebe70f4d  .ICa.h.`.aXa...M
+ 0040 0f492c68 8cb14361 0b688361 58614ff0  .I,h..Ca.h.aXaO.
+ 0050 e0234ff0 80540860 c3f8044d dbe7064b  .#O..T.`...M...K
+ 0060 20601860 c0e90511 d5e7c0e9 05442860   `.`.........D(`
+ 0070 ede700bf 00000000 00000000 00000000  ................
+ 0080 00000000                             ....            
+Contents of section .text._ZN14EventResponder12triggerEventEiPv:
+ 0000 90f81cc0 4160bcf1 020fc260 01d18368  ....A`.....`...h
+ 0010 1847fff7 febf00bf                    .G......        
+Contents of section .text._ZN14EventResponder16runFromInterruptEv:
+ 0000 70b5eff3 108272b6 0c4c2068 80b10c4e  p.....r..L h...N
+ 0010 00254369 236073b1 9d6102b9 62b68368  .%Ci#`s..a..b..h
+ 0020 45779847 eff31082 72b62068 0028f0d1  Ew.G....r. h.(..
+ 0030 02b962b6 70bd3360 efe700bf 00000000  ..b.p.3`........
+ 0040 00000000                             ....            
+Contents of section .text.pendablesrvreq_isr:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN14EventResponder10clearEventEv:
+ 0000 eff31082 72b6437f 63b1017f 012930b4  ....r.C.c....)0.
+ 0010 0cd00329 11d00021 417702b9 62b61846  ...)...!Aw..b..F
+ 0020 30bc7047 02b962b6 18467047 d0e90541  0.pG..b..FpG...A
+ 0030 61b14c61 6cb1a161 ede7d0e9 054159b1  a.Lal..a.....AY.
+ 0040 4c61002c f7d1074c 2160e4e7 064d2c60  La.,...L!`...M,`
+ 0050 f0e7064c 2160dee7 054d2c60 002cead1  ...L!`...M,`.,..
+ 0060 f1e700bf 00000000 00000000 00000000  ................
+ 0070 00000000                             ....            
+Contents of section .text._ZN14EventResponder18detachNoInterruptsEv:
+ 0000 037f012b 0ed0032b 00d07047 437f33b1  ...+...+..pGC.3.
+ 0010 d0e90523 c3b15a61 62b90e4a 13600023  ...#..Zab..J.`.#
+ 0020 03777047 437f002b f9d0d0e9 05232bb1  .wpGC..+.....#+.
+ 0030 5a6132b1 93610023 03777047 06490a60  Za2..a.#.wpG.I.`
+ 0040 f7e7064a 1360eae7 05490a60 002af1d1  ...J.`...I.`.*..
+ 0050 e3e700bf 00000000 00000000 00000000  ................
+ 0060 00000000                             ....            
+Contents of section .text._ZN11MillisTimer16addToWaitingListEv:
+ 0000 0023c360 eff31082 72b6054b 4ff0010c  .#.`....r..KO...
+ 0010 196880f8 14c01860 816002b9 62b67047  .h.....`.`..b.pG
+ 0020 00000000                             ....            
+Contents of section .text._ZN11MillisTimer15addToActiveListEv:
+ 0000 1a4a1368 fbb11968 30b40568 8d4210d2  .J.h...h0..h.B..
+ 0010 491b0024 8360c460 1960d860 10600223  I..$.`.`.`.`.`.#
+ 0020 30bc0375 70470260 1c68a242 11d32146  0..upG.`.h.B..!F
+ 0030 15461c46 9b686a1a 002bf4d1 c0e90234  .F.F.hj..+.....4
+ 0040 0260a060 ebe7c0e9 02330223 10600375  .`.`.....3.#.`.u
+ 0050 7047491b 83600222 2144dc68 c460d860  pGI..`."!D.h.`.`
+ 0060 c468a060 19600275 30bc7047 00000000  .h.`.`.u0.pG....
+Contents of section .text._ZN11MillisTimer3endEv:
+ 0000 eff31081 72b6037d 022b10d0 dab2012a  ....r..}.+.....*
+ 0010 02d059b9 62b67047 184a1368 834223d0  ..Y.b.pG.J.h.B#.
+ 0020 d3b19a68 824215d0 1346f9e7 70478368  ...h.B...F..pG.h
+ 0030 ebb11a68 10b40468 2244c468 1a60dc60  ...h...h"D.h.`.`
+ 0040 c26872b1 93600023 037501b9 62b65df8  .hr..`.#.u..b.].
+ 0050 044b7047 82689a60 00230375 0029e5d1  .KpG.h.`.#.u.)..
+ 0060 d8e7074a 1360eee7 83681360 f4e7c268  ...J.`...h.`...h
+ 0070 0ab19360 f0e7024a 1360ede7 00000000  ...`...J.`......
+ 0080 00000000                             ....            
+Contents of section .text._ZN11MillisTimer5beginEmR14EventResponder:
+ 0000 037d70b5 04460d46 1646c3b9 05b970bd  .}p..F.F.F....p.
+ 0010 022d4ff0 00032661 38bf0225 6360e360  .-O...&a8..%c`.`
+ 0020 023d2560 eff31082 72b6074b 01201968  .=%`....r..K. .h
+ 0030 20751c60 a160002a e9d162b6 70bdfff7   u.`.`.*..b.p...
+ 0040 feff002d e3d0e3e7 00000000           ...-........    
+Contents of section .text._ZN11MillisTimer14beginRepeatingEmR14EventResponder:
+ 0000 037d70b5 04460d46 1646cbb9 05b970bd  .}p..F.F.F....p.
+ 0010 022d2b46 4ff00002 266138bf 02236560  .-+FO...&a8..#e`
+ 0020 e260023b 2360eff3 108272b6 074b0120  .`.;#`....r..K. 
+ 0030 19682075 1c60a160 002ae8d1 62b670bd  .h u.`.`.*..b.p.
+ 0040 fff7feff 002de2d0 e2e700bf 00000000  .....-..........
+Contents of section .text._ZN11MillisTimer12runFromTimerEv:
+ 0000 f8b5214d 2c6834b3 0026204f 05e08368  ..!M,h4..& O...h
+ 0010 98476368 c3b92c68 ecb12268 002a2fd1  .Gch..,h.."h.*/.
+ 0020 a36803b1 da602069 2b600368 26751b68  .h...` i+`.h&u.h
+ 0030 bb4221d1 037f4660 022bc460 e7d0fff7  .B!...F`.+.`....
+ 0040 feff6368 002be6d0 20462360 fff7feff  ..ch.+.. F#`....
+ 0050 2c68002c e1d1eff3 108272b6 0c4b0021  ,h.,......r..K.!
+ 0060 1c681960 02b962b6 2cb12046 a468fff7  .h.`..b.,. F.h..
+ 0070 feff002c f9d1f8bd 22460021 9847c8e7  ...,...."F.!.G..
+ 0080 013a2260 e7e700bf 00000000 00000000  .:"`............
+ 0090 00000000                             ....            
+Contents of section .text.systick_isr:
+ 0000 0449054a 4968054b 19601368 01331360  .I.JIh.K.`.h.3.`
+ 0010 704700bf 001000e0 00000000 00000000  pG..............
+Contents of section .text.systick_isr_with_timer_events:
+ 0000 0449054a 4968054b 19601368 01331360  .I.JIh.K.`.h.3.`
+ 0010 fff7febf 001000e0 00000000 00000000  ................
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN14EventResponder24triggerEventNotImmediateEv:
+
+00000000 <_ZN14EventResponder24triggerEventNotImmediateEv>:
+   0:	f3ef 8210 	mrs	r2, PRIMASK
+   4:	b672      	cpsid	i
+   6:	7f43      	ldrb	r3, [r0, #29]
+   8:	b95b      	cbnz	r3, 22 <_ZN14EventResponder24triggerEventNotImmediateEv+0x22>
+   a:	7f01      	ldrb	r1, [r0, #28]
+   c:	2901      	cmp	r1, #1
+   e:	b430      	push	{r4, r5}
+  10:	d00b      	beq.n	2a <_ZN14EventResponder24triggerEventNotImmediateEv+0x2a>
+  12:	2903      	cmp	r1, #3
+  14:	d013      	beq.n	3e <_ZN14EventResponder24triggerEventNotImmediateEv+0x3e>
+  16:	2301      	movs	r3, #1
+  18:	7743      	strb	r3, [r0, #29]
+  1a:	b902      	cbnz	r2, 1e <_ZN14EventResponder24triggerEventNotImmediateEv+0x1e>
+  1c:	b662      	cpsie	i
+  1e:	bc30      	pop	{r4, r5}
+  20:	4770      	bx	lr
+  22:	b90a      	cbnz	r2, 28 <_ZN14EventResponder24triggerEventNotImmediateEv+0x28>
+  24:	b662      	cpsie	i
+  26:	4770      	bx	lr
+  28:	4770      	bx	lr
+  2a:	4c12      	ldr	r4, [pc, #72]	; (74 <_ZN14EventResponder24triggerEventNotImmediateEv+0x74>)
+  2c:	6821      	ldr	r1, [r4, #0]
+  2e:	b1b1      	cbz	r1, 5e <_ZN14EventResponder24triggerEventNotImmediateEv+0x5e>
+  30:	4911      	ldr	r1, [pc, #68]	; (78 <_ZN14EventResponder24triggerEventNotImmediateEv+0x78>)
+  32:	6143      	str	r3, [r0, #20]
+  34:	680b      	ldr	r3, [r1, #0]
+  36:	6008      	str	r0, [r1, #0]
+  38:	6183      	str	r3, [r0, #24]
+  3a:	6158      	str	r0, [r3, #20]
+  3c:	e7eb      	b.n	16 <_ZN14EventResponder24triggerEventNotImmediateEv+0x16>
+  3e:	4d0f      	ldr	r5, [pc, #60]	; (7c <_ZN14EventResponder24triggerEventNotImmediateEv+0x7c>)
+  40:	490f      	ldr	r1, [pc, #60]	; (80 <_ZN14EventResponder24triggerEventNotImmediateEv+0x80>)
+  42:	682c      	ldr	r4, [r5, #0]
+  44:	b18c      	cbz	r4, 6a <_ZN14EventResponder24triggerEventNotImmediateEv+0x6a>
+  46:	6143      	str	r3, [r0, #20]
+  48:	680b      	ldr	r3, [r1, #0]
+  4a:	6183      	str	r3, [r0, #24]
+  4c:	6158      	str	r0, [r3, #20]
+  4e:	f04f 23e0 	mov.w	r3, #3758153728	; 0xe000e000
+  52:	f04f 5480 	mov.w	r4, #268435456	; 0x10000000
+  56:	6008      	str	r0, [r1, #0]
+  58:	f8c3 4d04 	str.w	r4, [r3, #3332]	; 0xd04
+  5c:	e7db      	b.n	16 <_ZN14EventResponder24triggerEventNotImmediateEv+0x16>
+  5e:	4b06      	ldr	r3, [pc, #24]	; (78 <_ZN14EventResponder24triggerEventNotImmediateEv+0x78>)
+  60:	6020      	str	r0, [r4, #0]
+  62:	6018      	str	r0, [r3, #0]
+  64:	e9c0 1105 	strd	r1, r1, [r0, #20]
+  68:	e7d5      	b.n	16 <_ZN14EventResponder24triggerEventNotImmediateEv+0x16>
+  6a:	e9c0 4405 	strd	r4, r4, [r0, #20]
+  6e:	6028      	str	r0, [r5, #0]
+  70:	e7ed      	b.n	4e <_ZN14EventResponder24triggerEventNotImmediateEv+0x4e>
+  72:	bf00      	nop
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN14EventResponder12triggerEventEiPv:
+
+00000000 <_ZN14EventResponder12triggerEventEiPv>:
+   0:	f890 c01c 	ldrb.w	ip, [r0, #28]
+   4:	6041      	str	r1, [r0, #4]
+   6:	f1bc 0f02 	cmp.w	ip, #2
+   a:	60c2      	str	r2, [r0, #12]
+   c:	d101      	bne.n	12 <_ZN14EventResponder12triggerEventEiPv+0x12>
+   e:	6883      	ldr	r3, [r0, #8]
+  10:	4718      	bx	r3
+  12:	f7ff bffe 	b.w	0 <_ZN14EventResponder12triggerEventEiPv>
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN14EventResponder16runFromInterruptEv:
+
+00000000 <_ZN14EventResponder16runFromInterruptEv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	f3ef 8210 	mrs	r2, PRIMASK
+   6:	b672      	cpsid	i
+   8:	4c0c      	ldr	r4, [pc, #48]	; (3c <_ZN14EventResponder16runFromInterruptEv+0x3c>)
+   a:	6820      	ldr	r0, [r4, #0]
+   c:	b180      	cbz	r0, 30 <_ZN14EventResponder16runFromInterruptEv+0x30>
+   e:	4e0c      	ldr	r6, [pc, #48]	; (40 <_ZN14EventResponder16runFromInterruptEv+0x40>)
+  10:	2500      	movs	r5, #0
+  12:	6943      	ldr	r3, [r0, #20]
+  14:	6023      	str	r3, [r4, #0]
+  16:	b173      	cbz	r3, 36 <_ZN14EventResponder16runFromInterruptEv+0x36>
+  18:	619d      	str	r5, [r3, #24]
+  1a:	b902      	cbnz	r2, 1e <_ZN14EventResponder16runFromInterruptEv+0x1e>
+  1c:	b662      	cpsie	i
+  1e:	6883      	ldr	r3, [r0, #8]
+  20:	7745      	strb	r5, [r0, #29]
+  22:	4798      	blx	r3
+  24:	f3ef 8210 	mrs	r2, PRIMASK
+  28:	b672      	cpsid	i
+  2a:	6820      	ldr	r0, [r4, #0]
+  2c:	2800      	cmp	r0, #0
+  2e:	d1f0      	bne.n	12 <_ZN14EventResponder16runFromInterruptEv+0x12>
+  30:	b902      	cbnz	r2, 34 <_ZN14EventResponder16runFromInterruptEv+0x34>
+  32:	b662      	cpsie	i
+  34:	bd70      	pop	{r4, r5, r6, pc}
+  36:	6033      	str	r3, [r6, #0]
+  38:	e7ef      	b.n	1a <_ZN14EventResponder16runFromInterruptEv+0x1a>
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text.pendablesrvreq_isr:
+
+00000000 <pendablesrvreq_isr>:
+   0:	f7ff bffe 	b.w	0 <pendablesrvreq_isr>
+
+Disassembly of section .text._ZN14EventResponder10clearEventEv:
+
+00000000 <_ZN14EventResponder10clearEventEv>:
+   0:	f3ef 8210 	mrs	r2, PRIMASK
+   4:	b672      	cpsid	i
+   6:	7f43      	ldrb	r3, [r0, #29]
+   8:	b163      	cbz	r3, 24 <_ZN14EventResponder10clearEventEv+0x24>
+   a:	7f01      	ldrb	r1, [r0, #28]
+   c:	2901      	cmp	r1, #1
+   e:	b430      	push	{r4, r5}
+  10:	d00c      	beq.n	2c <_ZN14EventResponder10clearEventEv+0x2c>
+  12:	2903      	cmp	r1, #3
+  14:	d011      	beq.n	3a <_ZN14EventResponder10clearEventEv+0x3a>
+  16:	2100      	movs	r1, #0
+  18:	7741      	strb	r1, [r0, #29]
+  1a:	b902      	cbnz	r2, 1e <_ZN14EventResponder10clearEventEv+0x1e>
+  1c:	b662      	cpsie	i
+  1e:	4618      	mov	r0, r3
+  20:	bc30      	pop	{r4, r5}
+  22:	4770      	bx	lr
+  24:	b902      	cbnz	r2, 28 <_ZN14EventResponder10clearEventEv+0x28>
+  26:	b662      	cpsie	i
+  28:	4618      	mov	r0, r3
+  2a:	4770      	bx	lr
+  2c:	e9d0 4105 	ldrd	r4, r1, [r0, #20]
+  30:	b161      	cbz	r1, 4c <_ZN14EventResponder10clearEventEv+0x4c>
+  32:	614c      	str	r4, [r1, #20]
+  34:	b16c      	cbz	r4, 52 <_ZN14EventResponder10clearEventEv+0x52>
+  36:	61a1      	str	r1, [r4, #24]
+  38:	e7ed      	b.n	16 <_ZN14EventResponder10clearEventEv+0x16>
+  3a:	e9d0 4105 	ldrd	r4, r1, [r0, #20]
+  3e:	b159      	cbz	r1, 58 <_ZN14EventResponder10clearEventEv+0x58>
+  40:	614c      	str	r4, [r1, #20]
+  42:	2c00      	cmp	r4, #0
+  44:	d1f7      	bne.n	36 <_ZN14EventResponder10clearEventEv+0x36>
+  46:	4c07      	ldr	r4, [pc, #28]	; (64 <_ZN14EventResponder10clearEventEv+0x64>)
+  48:	6021      	str	r1, [r4, #0]
+  4a:	e7e4      	b.n	16 <_ZN14EventResponder10clearEventEv+0x16>
+  4c:	4d06      	ldr	r5, [pc, #24]	; (68 <_ZN14EventResponder10clearEventEv+0x68>)
+  4e:	602c      	str	r4, [r5, #0]
+  50:	e7f0      	b.n	34 <_ZN14EventResponder10clearEventEv+0x34>
+  52:	4c06      	ldr	r4, [pc, #24]	; (6c <_ZN14EventResponder10clearEventEv+0x6c>)
+  54:	6021      	str	r1, [r4, #0]
+  56:	e7de      	b.n	16 <_ZN14EventResponder10clearEventEv+0x16>
+  58:	4d05      	ldr	r5, [pc, #20]	; (70 <_ZN14EventResponder10clearEventEv+0x70>)
+  5a:	602c      	str	r4, [r5, #0]
+  5c:	2c00      	cmp	r4, #0
+  5e:	d1ea      	bne.n	36 <_ZN14EventResponder10clearEventEv+0x36>
+  60:	e7f1      	b.n	46 <_ZN14EventResponder10clearEventEv+0x46>
+  62:	bf00      	nop
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN14EventResponder18detachNoInterruptsEv:
+
+00000000 <_ZN14EventResponder18detachNoInterruptsEv>:
+   0:	7f03      	ldrb	r3, [r0, #28]
+   2:	2b01      	cmp	r3, #1
+   4:	d00e      	beq.n	24 <_ZN14EventResponder18detachNoInterruptsEv+0x24>
+   6:	2b03      	cmp	r3, #3
+   8:	d000      	beq.n	c <_ZN14EventResponder18detachNoInterruptsEv+0xc>
+   a:	4770      	bx	lr
+   c:	7f43      	ldrb	r3, [r0, #29]
+   e:	b133      	cbz	r3, 1e <_ZN14EventResponder18detachNoInterruptsEv+0x1e>
+  10:	e9d0 2305 	ldrd	r2, r3, [r0, #20]
+  14:	b1c3      	cbz	r3, 48 <_ZN14EventResponder18detachNoInterruptsEv+0x48>
+  16:	615a      	str	r2, [r3, #20]
+  18:	b962      	cbnz	r2, 34 <_ZN14EventResponder18detachNoInterruptsEv+0x34>
+  1a:	4a0e      	ldr	r2, [pc, #56]	; (54 <_ZN14EventResponder18detachNoInterruptsEv+0x54>)
+  1c:	6013      	str	r3, [r2, #0]
+  1e:	2300      	movs	r3, #0
+  20:	7703      	strb	r3, [r0, #28]
+  22:	4770      	bx	lr
+  24:	7f43      	ldrb	r3, [r0, #29]
+  26:	2b00      	cmp	r3, #0
+  28:	d0f9      	beq.n	1e <_ZN14EventResponder18detachNoInterruptsEv+0x1e>
+  2a:	e9d0 2305 	ldrd	r2, r3, [r0, #20]
+  2e:	b12b      	cbz	r3, 3c <_ZN14EventResponder18detachNoInterruptsEv+0x3c>
+  30:	615a      	str	r2, [r3, #20]
+  32:	b132      	cbz	r2, 42 <_ZN14EventResponder18detachNoInterruptsEv+0x42>
+  34:	6193      	str	r3, [r2, #24]
+  36:	2300      	movs	r3, #0
+  38:	7703      	strb	r3, [r0, #28]
+  3a:	4770      	bx	lr
+  3c:	4906      	ldr	r1, [pc, #24]	; (58 <_ZN14EventResponder18detachNoInterruptsEv+0x58>)
+  3e:	600a      	str	r2, [r1, #0]
+  40:	e7f7      	b.n	32 <_ZN14EventResponder18detachNoInterruptsEv+0x32>
+  42:	4a06      	ldr	r2, [pc, #24]	; (5c <_ZN14EventResponder18detachNoInterruptsEv+0x5c>)
+  44:	6013      	str	r3, [r2, #0]
+  46:	e7ea      	b.n	1e <_ZN14EventResponder18detachNoInterruptsEv+0x1e>
+  48:	4905      	ldr	r1, [pc, #20]	; (60 <_ZN14EventResponder18detachNoInterruptsEv+0x60>)
+  4a:	600a      	str	r2, [r1, #0]
+  4c:	2a00      	cmp	r2, #0
+  4e:	d1f1      	bne.n	34 <_ZN14EventResponder18detachNoInterruptsEv+0x34>
+  50:	e7e3      	b.n	1a <_ZN14EventResponder18detachNoInterruptsEv+0x1a>
+  52:	bf00      	nop
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer16addToWaitingListEv:
+
+00000000 <_ZN11MillisTimer16addToWaitingListEv>:
+   0:	2300      	movs	r3, #0
+   2:	60c3      	str	r3, [r0, #12]
+   4:	f3ef 8210 	mrs	r2, PRIMASK
+   8:	b672      	cpsid	i
+   a:	4b05      	ldr	r3, [pc, #20]	; (20 <_ZN11MillisTimer16addToWaitingListEv+0x20>)
+   c:	f04f 0c01 	mov.w	ip, #1
+  10:	6819      	ldr	r1, [r3, #0]
+  12:	f880 c014 	strb.w	ip, [r0, #20]
+  16:	6018      	str	r0, [r3, #0]
+  18:	6081      	str	r1, [r0, #8]
+  1a:	b902      	cbnz	r2, 1e <_ZN11MillisTimer16addToWaitingListEv+0x1e>
+  1c:	b662      	cpsie	i
+  1e:	4770      	bx	lr
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer15addToActiveListEv:
+
+00000000 <_ZN11MillisTimer15addToActiveListEv>:
+   0:	4a1a      	ldr	r2, [pc, #104]	; (6c <_ZN11MillisTimer15addToActiveListEv+0x6c>)
+   2:	6813      	ldr	r3, [r2, #0]
+   4:	b1fb      	cbz	r3, 46 <_ZN11MillisTimer15addToActiveListEv+0x46>
+   6:	6819      	ldr	r1, [r3, #0]
+   8:	b430      	push	{r4, r5}
+   a:	6805      	ldr	r5, [r0, #0]
+   c:	428d      	cmp	r5, r1
+   e:	d210      	bcs.n	32 <_ZN11MillisTimer15addToActiveListEv+0x32>
+  10:	1b49      	subs	r1, r1, r5
+  12:	2400      	movs	r4, #0
+  14:	6083      	str	r3, [r0, #8]
+  16:	60c4      	str	r4, [r0, #12]
+  18:	6019      	str	r1, [r3, #0]
+  1a:	60d8      	str	r0, [r3, #12]
+  1c:	6010      	str	r0, [r2, #0]
+  1e:	2302      	movs	r3, #2
+  20:	bc30      	pop	{r4, r5}
+  22:	7503      	strb	r3, [r0, #20]
+  24:	4770      	bx	lr
+  26:	6002      	str	r2, [r0, #0]
+  28:	681c      	ldr	r4, [r3, #0]
+  2a:	42a2      	cmp	r2, r4
+  2c:	d311      	bcc.n	52 <_ZN11MillisTimer15addToActiveListEv+0x52>
+  2e:	4621      	mov	r1, r4
+  30:	4615      	mov	r5, r2
+  32:	461c      	mov	r4, r3
+  34:	689b      	ldr	r3, [r3, #8]
+  36:	1a6a      	subs	r2, r5, r1
+  38:	2b00      	cmp	r3, #0
+  3a:	d1f4      	bne.n	26 <_ZN11MillisTimer15addToActiveListEv+0x26>
+  3c:	e9c0 3402 	strd	r3, r4, [r0, #8]
+  40:	6002      	str	r2, [r0, #0]
+  42:	60a0      	str	r0, [r4, #8]
+  44:	e7eb      	b.n	1e <_ZN11MillisTimer15addToActiveListEv+0x1e>
+  46:	e9c0 3302 	strd	r3, r3, [r0, #8]
+  4a:	2302      	movs	r3, #2
+  4c:	6010      	str	r0, [r2, #0]
+  4e:	7503      	strb	r3, [r0, #20]
+  50:	4770      	bx	lr
+  52:	1b49      	subs	r1, r1, r5
+  54:	6083      	str	r3, [r0, #8]
+  56:	2202      	movs	r2, #2
+  58:	4421      	add	r1, r4
+  5a:	68dc      	ldr	r4, [r3, #12]
+  5c:	60c4      	str	r4, [r0, #12]
+  5e:	60d8      	str	r0, [r3, #12]
+  60:	68c4      	ldr	r4, [r0, #12]
+  62:	60a0      	str	r0, [r4, #8]
+  64:	6019      	str	r1, [r3, #0]
+  66:	7502      	strb	r2, [r0, #20]
+  68:	bc30      	pop	{r4, r5}
+  6a:	4770      	bx	lr
+  6c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer3endEv:
+
+00000000 <_ZN11MillisTimer3endEv>:
+   0:	f3ef 8110 	mrs	r1, PRIMASK
+   4:	b672      	cpsid	i
+   6:	7d03      	ldrb	r3, [r0, #20]
+   8:	2b02      	cmp	r3, #2
+   a:	d010      	beq.n	2e <_ZN11MillisTimer3endEv+0x2e>
+   c:	b2da      	uxtb	r2, r3
+   e:	2a01      	cmp	r2, #1
+  10:	d002      	beq.n	18 <_ZN11MillisTimer3endEv+0x18>
+  12:	b959      	cbnz	r1, 2c <_ZN11MillisTimer3endEv+0x2c>
+  14:	b662      	cpsie	i
+  16:	4770      	bx	lr
+  18:	4a18      	ldr	r2, [pc, #96]	; (7c <_ZN11MillisTimer3endEv+0x7c>)
+  1a:	6813      	ldr	r3, [r2, #0]
+  1c:	4283      	cmp	r3, r0
+  1e:	d023      	beq.n	68 <_ZN11MillisTimer3endEv+0x68>
+  20:	b1d3      	cbz	r3, 58 <_ZN11MillisTimer3endEv+0x58>
+  22:	689a      	ldr	r2, [r3, #8]
+  24:	4282      	cmp	r2, r0
+  26:	d015      	beq.n	54 <_ZN11MillisTimer3endEv+0x54>
+  28:	4613      	mov	r3, r2
+  2a:	e7f9      	b.n	20 <_ZN11MillisTimer3endEv+0x20>
+  2c:	4770      	bx	lr
+  2e:	6883      	ldr	r3, [r0, #8]
+  30:	b1eb      	cbz	r3, 6e <_ZN11MillisTimer3endEv+0x6e>
+  32:	681a      	ldr	r2, [r3, #0]
+  34:	b410      	push	{r4}
+  36:	6804      	ldr	r4, [r0, #0]
+  38:	4422      	add	r2, r4
+  3a:	68c4      	ldr	r4, [r0, #12]
+  3c:	601a      	str	r2, [r3, #0]
+  3e:	60dc      	str	r4, [r3, #12]
+  40:	68c2      	ldr	r2, [r0, #12]
+  42:	b172      	cbz	r2, 62 <_ZN11MillisTimer3endEv+0x62>
+  44:	6093      	str	r3, [r2, #8]
+  46:	2300      	movs	r3, #0
+  48:	7503      	strb	r3, [r0, #20]
+  4a:	b901      	cbnz	r1, 4e <_ZN11MillisTimer3endEv+0x4e>
+  4c:	b662      	cpsie	i
+  4e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  52:	4770      	bx	lr
+  54:	6882      	ldr	r2, [r0, #8]
+  56:	609a      	str	r2, [r3, #8]
+  58:	2300      	movs	r3, #0
+  5a:	7503      	strb	r3, [r0, #20]
+  5c:	2900      	cmp	r1, #0
+  5e:	d1e5      	bne.n	2c <_ZN11MillisTimer3endEv+0x2c>
+  60:	e7d8      	b.n	14 <_ZN11MillisTimer3endEv+0x14>
+  62:	4a07      	ldr	r2, [pc, #28]	; (80 <_ZN11MillisTimer3endEv+0x80>)
+  64:	6013      	str	r3, [r2, #0]
+  66:	e7ee      	b.n	46 <_ZN11MillisTimer3endEv+0x46>
+  68:	6883      	ldr	r3, [r0, #8]
+  6a:	6013      	str	r3, [r2, #0]
+  6c:	e7f4      	b.n	58 <_ZN11MillisTimer3endEv+0x58>
+  6e:	68c2      	ldr	r2, [r0, #12]
+  70:	b10a      	cbz	r2, 76 <_ZN11MillisTimer3endEv+0x76>
+  72:	6093      	str	r3, [r2, #8]
+  74:	e7f0      	b.n	58 <_ZN11MillisTimer3endEv+0x58>
+  76:	4a02      	ldr	r2, [pc, #8]	; (80 <_ZN11MillisTimer3endEv+0x80>)
+  78:	6013      	str	r3, [r2, #0]
+  7a:	e7ed      	b.n	58 <_ZN11MillisTimer3endEv+0x58>
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer5beginEmR14EventResponder:
+
+00000000 <_ZN11MillisTimer5beginEmR14EventResponder>:
+   0:	7d03      	ldrb	r3, [r0, #20]
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4604      	mov	r4, r0
+   6:	460d      	mov	r5, r1
+   8:	4616      	mov	r6, r2
+   a:	b9c3      	cbnz	r3, 3e <_ZN11MillisTimer5beginEmR14EventResponder+0x3e>
+   c:	b905      	cbnz	r5, 10 <_ZN11MillisTimer5beginEmR14EventResponder+0x10>
+   e:	bd70      	pop	{r4, r5, r6, pc}
+  10:	2d02      	cmp	r5, #2
+  12:	f04f 0300 	mov.w	r3, #0
+  16:	6126      	str	r6, [r4, #16]
+  18:	bf38      	it	cc
+  1a:	2502      	movcc	r5, #2
+  1c:	6063      	str	r3, [r4, #4]
+  1e:	60e3      	str	r3, [r4, #12]
+  20:	3d02      	subs	r5, #2
+  22:	6025      	str	r5, [r4, #0]
+  24:	f3ef 8210 	mrs	r2, PRIMASK
+  28:	b672      	cpsid	i
+  2a:	4b07      	ldr	r3, [pc, #28]	; (48 <_ZN11MillisTimer5beginEmR14EventResponder+0x48>)
+  2c:	2001      	movs	r0, #1
+  2e:	6819      	ldr	r1, [r3, #0]
+  30:	7520      	strb	r0, [r4, #20]
+  32:	601c      	str	r4, [r3, #0]
+  34:	60a1      	str	r1, [r4, #8]
+  36:	2a00      	cmp	r2, #0
+  38:	d1e9      	bne.n	e <_ZN11MillisTimer5beginEmR14EventResponder+0xe>
+  3a:	b662      	cpsie	i
+  3c:	bd70      	pop	{r4, r5, r6, pc}
+  3e:	f7ff fffe 	bl	0 <_ZN11MillisTimer5beginEmR14EventResponder>
+  42:	2d00      	cmp	r5, #0
+  44:	d0e3      	beq.n	e <_ZN11MillisTimer5beginEmR14EventResponder+0xe>
+  46:	e7e3      	b.n	10 <_ZN11MillisTimer5beginEmR14EventResponder+0x10>
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer14beginRepeatingEmR14EventResponder:
+
+00000000 <_ZN11MillisTimer14beginRepeatingEmR14EventResponder>:
+   0:	7d03      	ldrb	r3, [r0, #20]
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	4604      	mov	r4, r0
+   6:	460d      	mov	r5, r1
+   8:	4616      	mov	r6, r2
+   a:	b9cb      	cbnz	r3, 40 <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0x40>
+   c:	b905      	cbnz	r5, 10 <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0x10>
+   e:	bd70      	pop	{r4, r5, r6, pc}
+  10:	2d02      	cmp	r5, #2
+  12:	462b      	mov	r3, r5
+  14:	f04f 0200 	mov.w	r2, #0
+  18:	6126      	str	r6, [r4, #16]
+  1a:	bf38      	it	cc
+  1c:	2302      	movcc	r3, #2
+  1e:	6065      	str	r5, [r4, #4]
+  20:	60e2      	str	r2, [r4, #12]
+  22:	3b02      	subs	r3, #2
+  24:	6023      	str	r3, [r4, #0]
+  26:	f3ef 8210 	mrs	r2, PRIMASK
+  2a:	b672      	cpsid	i
+  2c:	4b07      	ldr	r3, [pc, #28]	; (4c <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0x4c>)
+  2e:	2001      	movs	r0, #1
+  30:	6819      	ldr	r1, [r3, #0]
+  32:	7520      	strb	r0, [r4, #20]
+  34:	601c      	str	r4, [r3, #0]
+  36:	60a1      	str	r1, [r4, #8]
+  38:	2a00      	cmp	r2, #0
+  3a:	d1e8      	bne.n	e <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0xe>
+  3c:	b662      	cpsie	i
+  3e:	bd70      	pop	{r4, r5, r6, pc}
+  40:	f7ff fffe 	bl	0 <_ZN11MillisTimer14beginRepeatingEmR14EventResponder>
+  44:	2d00      	cmp	r5, #0
+  46:	d0e2      	beq.n	e <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0xe>
+  48:	e7e2      	b.n	10 <_ZN11MillisTimer14beginRepeatingEmR14EventResponder+0x10>
+  4a:	bf00      	nop
+  4c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11MillisTimer12runFromTimerEv:
+
+00000000 <_ZN11MillisTimer12runFromTimerEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4d21      	ldr	r5, [pc, #132]	; (88 <_ZN11MillisTimer12runFromTimerEv+0x88>)
+   4:	682c      	ldr	r4, [r5, #0]
+   6:	b334      	cbz	r4, 56 <_ZN11MillisTimer12runFromTimerEv+0x56>
+   8:	2600      	movs	r6, #0
+   a:	4f20      	ldr	r7, [pc, #128]	; (8c <_ZN11MillisTimer12runFromTimerEv+0x8c>)
+   c:	e005      	b.n	1a <_ZN11MillisTimer12runFromTimerEv+0x1a>
+   e:	6883      	ldr	r3, [r0, #8]
+  10:	4798      	blx	r3
+  12:	6863      	ldr	r3, [r4, #4]
+  14:	b9c3      	cbnz	r3, 48 <_ZN11MillisTimer12runFromTimerEv+0x48>
+  16:	682c      	ldr	r4, [r5, #0]
+  18:	b1ec      	cbz	r4, 56 <_ZN11MillisTimer12runFromTimerEv+0x56>
+  1a:	6822      	ldr	r2, [r4, #0]
+  1c:	2a00      	cmp	r2, #0
+  1e:	d12f      	bne.n	80 <_ZN11MillisTimer12runFromTimerEv+0x80>
+  20:	68a3      	ldr	r3, [r4, #8]
+  22:	b103      	cbz	r3, 26 <_ZN11MillisTimer12runFromTimerEv+0x26>
+  24:	60da      	str	r2, [r3, #12]
+  26:	6920      	ldr	r0, [r4, #16]
+  28:	602b      	str	r3, [r5, #0]
+  2a:	6803      	ldr	r3, [r0, #0]
+  2c:	7526      	strb	r6, [r4, #20]
+  2e:	681b      	ldr	r3, [r3, #0]
+  30:	42bb      	cmp	r3, r7
+  32:	d121      	bne.n	78 <_ZN11MillisTimer12runFromTimerEv+0x78>
+  34:	7f03      	ldrb	r3, [r0, #28]
+  36:	6046      	str	r6, [r0, #4]
+  38:	2b02      	cmp	r3, #2
+  3a:	60c4      	str	r4, [r0, #12]
+  3c:	d0e7      	beq.n	e <_ZN11MillisTimer12runFromTimerEv+0xe>
+  3e:	f7ff fffe 	bl	0 <_ZN11MillisTimer12runFromTimerEv>
+  42:	6863      	ldr	r3, [r4, #4]
+  44:	2b00      	cmp	r3, #0
+  46:	d0e6      	beq.n	16 <_ZN11MillisTimer12runFromTimerEv+0x16>
+  48:	4620      	mov	r0, r4
+  4a:	6023      	str	r3, [r4, #0]
+  4c:	f7ff fffe 	bl	0 <_ZN11MillisTimer12runFromTimerEv>
+  50:	682c      	ldr	r4, [r5, #0]
+  52:	2c00      	cmp	r4, #0
+  54:	d1e1      	bne.n	1a <_ZN11MillisTimer12runFromTimerEv+0x1a>
+  56:	f3ef 8210 	mrs	r2, PRIMASK
+  5a:	b672      	cpsid	i
+  5c:	4b0c      	ldr	r3, [pc, #48]	; (90 <_ZN11MillisTimer12runFromTimerEv+0x90>)
+  5e:	2100      	movs	r1, #0
+  60:	681c      	ldr	r4, [r3, #0]
+  62:	6019      	str	r1, [r3, #0]
+  64:	b902      	cbnz	r2, 68 <_ZN11MillisTimer12runFromTimerEv+0x68>
+  66:	b662      	cpsie	i
+  68:	b12c      	cbz	r4, 76 <_ZN11MillisTimer12runFromTimerEv+0x76>
+  6a:	4620      	mov	r0, r4
+  6c:	68a4      	ldr	r4, [r4, #8]
+  6e:	f7ff fffe 	bl	0 <_ZN11MillisTimer12runFromTimerEv>
+  72:	2c00      	cmp	r4, #0
+  74:	d1f9      	bne.n	6a <_ZN11MillisTimer12runFromTimerEv+0x6a>
+  76:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  78:	4622      	mov	r2, r4
+  7a:	2100      	movs	r1, #0
+  7c:	4798      	blx	r3
+  7e:	e7c8      	b.n	12 <_ZN11MillisTimer12runFromTimerEv+0x12>
+  80:	3a01      	subs	r2, #1
+  82:	6022      	str	r2, [r4, #0]
+  84:	e7e7      	b.n	56 <_ZN11MillisTimer12runFromTimerEv+0x56>
+  86:	bf00      	nop
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+
+Disassembly of section .text.systick_isr:
+
+00000000 <systick_isr>:
+   0:	4904      	ldr	r1, [pc, #16]	; (14 <systick_isr+0x14>)
+   2:	4a05      	ldr	r2, [pc, #20]	; (18 <systick_isr+0x18>)
+   4:	6849      	ldr	r1, [r1, #4]
+   6:	4b05      	ldr	r3, [pc, #20]	; (1c <systick_isr+0x1c>)
+   8:	6019      	str	r1, [r3, #0]
+   a:	6813      	ldr	r3, [r2, #0]
+   c:	3301      	adds	r3, #1
+   e:	6013      	str	r3, [r2, #0]
+  10:	4770      	bx	lr
+  12:	bf00      	nop
+  14:	e0001000 	.word	0xe0001000
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.systick_isr_with_timer_events:
+
+00000000 <systick_isr_with_timer_events>:
+   0:	4904      	ldr	r1, [pc, #16]	; (14 <systick_isr_with_timer_events+0x14>)
+   2:	4a05      	ldr	r2, [pc, #20]	; (18 <systick_isr_with_timer_events+0x18>)
+   4:	6849      	ldr	r1, [r1, #4]
+   6:	4b05      	ldr	r3, [pc, #20]	; (1c <systick_isr_with_timer_events+0x1c>)
+   8:	6019      	str	r1, [r3, #0]
+   a:	6813      	ldr	r3, [r2, #0]
+   c:	3301      	adds	r3, #1
+   e:	6013      	str	r3, [r2, #0]
+  10:	f7ff bffe 	b.w	0 <systick_isr_with_timer_events>
+  14:	e0001000 	.word	0xe0001000
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000

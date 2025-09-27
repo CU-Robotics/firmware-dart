@@ -1,0 +1,151 @@
+
+build/./teensy4/delay.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 delay.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.delay	00000000 .text.delay
+00000000 l    d  .text.micros	00000000 .text.micros
+00000000 l    d  .bss.scale_cpu_cycles_to_microseconds	00000000 .bss.scale_cpu_cycles_to_microseconds
+00000000 l    d  .bss.systick_cycle_count	00000000 .bss.systick_cycle_count
+00000000 l    d  .bss.systick_millis_count	00000000 .bss.systick_millis_count
+00000000 l    d  .bss.systick_safe_read	00000000 .bss.systick_safe_read
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.delay	000000a8 delay
+00000000         *UND*	00000000 yield
+00000000 g     F .text.micros	00000054 micros
+00000000 g     O .bss.systick_safe_read	00000004 systick_safe_read
+00000000 g     O .bss.scale_cpu_cycles_to_microseconds	00000004 scale_cpu_cycles_to_microseconds
+00000000 g     O .bss.systick_cycle_count	00000004 systick_cycle_count
+00000000 g     O .bss.systick_millis_count	00000004 systick_millis_count
+
+
+Contents of section .text.delay:
+ 0000 00b97047 2de9f84f 01218146 214c224d  ..pG-..O.!.F!L"M
+ 0010 224e54e8 003f2a68 306844e8 0013002b  "NT..?*h0hD....+
+ 0020 f7d11f49 4b684ff4 7a7bdff8 78a01b1a  ...IKhO.z{..x...
+ 0030 01270bfb 02f8daf8 0020a3fb 02325a45  .'....... ...2ZE
+ 0040 94bf9044 d84454e8 003f2a68 306844e8  ...D.DT..?*h0hD.
+ 0050 0073002b f7d14b68 daf800c0 1b1a0bfb  .s.+..Kh........
+ 0060 02f2a3fb 0c3cbcf5 7a7f94bf 624402f5  .....<..z...bD..
+ 0070 7a72a2eb 0802b2f5 7a7f06d3 b9f10109  zr......z.......
+ 0080 08f57a78 dfd1bde8 f88ffff7 feff0449  ..zx...........I
+ 0090 d9e700bf 00000000 00000000 00000000  ................
+ 00a0 001000e0 00000000                    ........        
+Contents of section .text.micros:
+ 0000 30b40f4b 4ff0010c 0e4d0f4c 53e8002f  0..KO....M.LS../
+ 0010 28682168 43e800c2 002af7d1 0b4b5b68  (h!hC....*...K[h
+ 0020 0b4a5b1a 4ff47a71 126801fb 00f0a3fb  .J[.O.zq.h......
+ 0030 023230bc 8a4294bf 80184018 704700bf  .20..B....@.pG..
+ 0040 00000000 00000000 00000000 001000e0  ................
+ 0050 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.delay:
+
+00000000 <delay>:
+   0:	b900      	cbnz	r0, 4 <delay+0x4>
+   2:	4770      	bx	lr
+   4:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   8:	2101      	movs	r1, #1
+   a:	4681      	mov	r9, r0
+   c:	4c21      	ldr	r4, [pc, #132]	; (94 <delay+0x94>)
+   e:	4d22      	ldr	r5, [pc, #136]	; (98 <delay+0x98>)
+  10:	4e22      	ldr	r6, [pc, #136]	; (9c <delay+0x9c>)
+  12:	e854 3f00 	ldrex	r3, [r4]
+  16:	682a      	ldr	r2, [r5, #0]
+  18:	6830      	ldr	r0, [r6, #0]
+  1a:	e844 1300 	strex	r3, r1, [r4]
+  1e:	2b00      	cmp	r3, #0
+  20:	d1f7      	bne.n	12 <delay+0x12>
+  22:	491f      	ldr	r1, [pc, #124]	; (a0 <delay+0xa0>)
+  24:	684b      	ldr	r3, [r1, #4]
+  26:	f44f 7b7a 	mov.w	fp, #1000	; 0x3e8
+  2a:	f8df a078 	ldr.w	sl, [pc, #120]	; a4 <delay+0xa4>
+  2e:	1a1b      	subs	r3, r3, r0
+  30:	2701      	movs	r7, #1
+  32:	fb0b f802 	mul.w	r8, fp, r2
+  36:	f8da 2000 	ldr.w	r2, [sl]
+  3a:	fba3 3202 	umull	r3, r2, r3, r2
+  3e:	455a      	cmp	r2, fp
+  40:	bf94      	ite	ls
+  42:	4490      	addls	r8, r2
+  44:	44d8      	addhi	r8, fp
+  46:	e854 3f00 	ldrex	r3, [r4]
+  4a:	682a      	ldr	r2, [r5, #0]
+  4c:	6830      	ldr	r0, [r6, #0]
+  4e:	e844 7300 	strex	r3, r7, [r4]
+  52:	2b00      	cmp	r3, #0
+  54:	d1f7      	bne.n	46 <delay+0x46>
+  56:	684b      	ldr	r3, [r1, #4]
+  58:	f8da c000 	ldr.w	ip, [sl]
+  5c:	1a1b      	subs	r3, r3, r0
+  5e:	fb0b f202 	mul.w	r2, fp, r2
+  62:	fba3 3c0c 	umull	r3, ip, r3, ip
+  66:	f5bc 7f7a 	cmp.w	ip, #1000	; 0x3e8
+  6a:	bf94      	ite	ls
+  6c:	4462      	addls	r2, ip
+  6e:	f502 727a 	addhi.w	r2, r2, #1000	; 0x3e8
+  72:	eba2 0208 	sub.w	r2, r2, r8
+  76:	f5b2 7f7a 	cmp.w	r2, #1000	; 0x3e8
+  7a:	d306      	bcc.n	8a <delay+0x8a>
+  7c:	f1b9 0901 	subs.w	r9, r9, #1
+  80:	f508 787a 	add.w	r8, r8, #1000	; 0x3e8
+  84:	d1df      	bne.n	46 <delay+0x46>
+  86:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  8a:	f7ff fffe 	bl	0 <yield>
+  8e:	4904      	ldr	r1, [pc, #16]	; (a0 <delay+0xa0>)
+  90:	e7d9      	b.n	46 <delay+0x46>
+  92:	bf00      	nop
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	e0001000 	.word	0xe0001000
+  a4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.micros:
+
+00000000 <micros>:
+   0:	b430      	push	{r4, r5}
+   2:	4b0f      	ldr	r3, [pc, #60]	; (40 <micros+0x40>)
+   4:	f04f 0c01 	mov.w	ip, #1
+   8:	4d0e      	ldr	r5, [pc, #56]	; (44 <micros+0x44>)
+   a:	4c0f      	ldr	r4, [pc, #60]	; (48 <micros+0x48>)
+   c:	e853 2f00 	ldrex	r2, [r3]
+  10:	6828      	ldr	r0, [r5, #0]
+  12:	6821      	ldr	r1, [r4, #0]
+  14:	e843 c200 	strex	r2, ip, [r3]
+  18:	2a00      	cmp	r2, #0
+  1a:	d1f7      	bne.n	c <micros+0xc>
+  1c:	4b0b      	ldr	r3, [pc, #44]	; (4c <micros+0x4c>)
+  1e:	685b      	ldr	r3, [r3, #4]
+  20:	4a0b      	ldr	r2, [pc, #44]	; (50 <micros+0x50>)
+  22:	1a5b      	subs	r3, r3, r1
+  24:	f44f 717a 	mov.w	r1, #1000	; 0x3e8
+  28:	6812      	ldr	r2, [r2, #0]
+  2a:	fb01 f000 	mul.w	r0, r1, r0
+  2e:	fba3 3202 	umull	r3, r2, r3, r2
+  32:	bc30      	pop	{r4, r5}
+  34:	428a      	cmp	r2, r1
+  36:	bf94      	ite	ls
+  38:	1880      	addls	r0, r0, r2
+  3a:	1840      	addhi	r0, r0, r1
+  3c:	4770      	bx	lr
+  3e:	bf00      	nop
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	e0001000 	.word	0xe0001000
+  50:	00000000 	.word	0x00000000

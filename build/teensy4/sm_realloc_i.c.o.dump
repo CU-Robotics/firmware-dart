@@ -1,0 +1,260 @@
+
+build/./teensy4/sm_realloc_i.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 sm_realloc_i.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.sm_realloc_pool_i	00000000 .text.sm_realloc_pool_i
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.sm_realloc_pool_i	0000020c sm_realloc_pool_i
+00000000         *UND*	00000000 smalloc_verify_pool
+00000000         *UND*	00000000 smalloc_is_alloc
+00000000         *UND*	00000000 sm_malloc_pool
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 sm_free_pool
+00000000         *UND*	00000000 smalloc_mktag
+00000000         *UND*	00000000 smalloc_uinthash
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 __errno
+00000000         *UND*	00000000 smalloc_UB
+
+
+Contents of section .text.sm_realloc_pool_i:
+ 0000 2de9f04f 83b08346 0c461546 0193fff7  -..O...F.F.F....
+ 0010 feff0028 00f0c780 002c00f0 cb80002d  ...(.....,.....-
+ 0020 43d0a4f1 0c065846 3146fff7 feff20b9  C.....XF1F.... .
+ 0030 734a2146 58461268 904754e9 033a5545  sJ!FXF.h.GT..:UE
+ 0040 00933ad9 009b9d42 7fd96e49 009ba1fb  ..:....B..nI....
+ 0050 0321c908 01eb4101 dbe90082 06eb8107  .!....A.........
+ 0060 a7eb0800 904212d2 05f10c09 07e09145  .....B.........E
+ 0070 a7eb080c 7fd9dbf8 04209445 07d23946  ......... .E..9F
+ 0080 5846fff7 feffba1b 0c370028 efd0019b  XF.......7.(....
+ 0090 002b40f0 9e802946 5846fff7 feff0546  .+@...)FXF.....F
+ 00a0 38b15246 2146fff7 feff2146 5846fff7  8.RF!F....!FXF..
+ 00b0 feff2846 03b0bde8 f08fdbf8 0820babb  ..(F......... ..
+ 00c0 002104eb 0a0044f8 0a104160 8160dbf8  .!....D...A`.`..
+ 00d0 08309bbb 4b4b4c4a 03fb05f1 b2ebb10f  .0..KKLJ........
+ 00e0 1ed32b46 304644e9 0335fff7 feff54f8  ..+F0FD..5....T.
+ 00f0 085c44f8 040c2544 05f10c06 fff7feff  .\D...%D........
+ 0100 45f8040b ae42f9d1 2546ff21 304654e9  E....B..%F.!0FT.
+ 0110 0323d21a fff7feff 284603b0 bde8f08f  .#......(F......
+ 0120 a3fb0523 db080133 03eb4303 9b00d9e7  ...#...3..C.....
+ 0130 5a1b0021 6019fff7 feffc1e7 009b0c30  Z..!`..........0
+ 0140 a3eb0a02 fff7feff c4e7dbf8 0830c3bb  .............0..
+ 0150 304644f8 085cfff7 feff54f8 085c44f8  0FD..\....T..\D.
+ 0160 040c2544 05f10c06 fff7feff 45f8040b  ..%D........E...
+ 0170 ae42f9d1 c8e7dbf8 0830a2f1 0c0773bb  .B.......0....s.
+ 0180 304644e9 0375fff7 feff54f8 085c44f8  0FD..u....T..\D.
+ 0190 040c2544 05f10c06 fff7feff 45f8040b  ..%D........E...
+ 01a0 ae42f9d1 b0e70646 fff7feff 16233546  .B.....F.....#5F
+ 01b0 03607ee7 29465846 03b0bde8 f04ffff7  .`~.)FXF.....O..
+ 01c0 febf0023 04eb0a02 44f80a30 53609360  ...#....D..0S`.`
+ 01d0 bee7fff7 feff2223 00250360 69e7009b  ......"#.%.`i...
+ 01e0 014644f8 0a00a3eb 0a02a244 caf80400  .FD........D....
+ 01f0 caf80800 0af10c00 fff7feff c0e700bf  ................
+ 0200 00000000 abaaaaaa 55555515           ........UUU.    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.sm_realloc_pool_i:
+
+00000000 <sm_realloc_pool_i>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b083      	sub	sp, #12
+   6:	4683      	mov	fp, r0
+   8:	460c      	mov	r4, r1
+   a:	4615      	mov	r5, r2
+   c:	9301      	str	r3, [sp, #4]
+   e:	f7ff fffe 	bl	0 <smalloc_verify_pool>
+  12:	2800      	cmp	r0, #0
+  14:	f000 80c7 	beq.w	1a6 <sm_realloc_pool_i+0x1a6>
+  18:	2c00      	cmp	r4, #0
+  1a:	f000 80cb 	beq.w	1b4 <sm_realloc_pool_i+0x1b4>
+  1e:	2d00      	cmp	r5, #0
+  20:	d043      	beq.n	aa <sm_realloc_pool_i+0xaa>
+  22:	f1a4 060c 	sub.w	r6, r4, #12
+  26:	4658      	mov	r0, fp
+  28:	4631      	mov	r1, r6
+  2a:	f7ff fffe 	bl	0 <smalloc_is_alloc>
+  2e:	b920      	cbnz	r0, 3a <sm_realloc_pool_i+0x3a>
+  30:	4a73      	ldr	r2, [pc, #460]	; (200 <sm_realloc_pool_i+0x200>)
+  32:	4621      	mov	r1, r4
+  34:	4658      	mov	r0, fp
+  36:	6812      	ldr	r2, [r2, #0]
+  38:	4790      	blx	r2
+  3a:	e954 3a03 	ldrd	r3, sl, [r4, #-12]
+  3e:	4555      	cmp	r5, sl
+  40:	9300      	str	r3, [sp, #0]
+  42:	d93a      	bls.n	ba <sm_realloc_pool_i+0xba>
+  44:	9b00      	ldr	r3, [sp, #0]
+  46:	429d      	cmp	r5, r3
+  48:	d97f      	bls.n	14a <sm_realloc_pool_i+0x14a>
+  4a:	496e      	ldr	r1, [pc, #440]	; (204 <sm_realloc_pool_i+0x204>)
+  4c:	9b00      	ldr	r3, [sp, #0]
+  4e:	fba1 2103 	umull	r2, r1, r1, r3
+  52:	08c9      	lsrs	r1, r1, #3
+  54:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+  58:	e9db 8200 	ldrd	r8, r2, [fp]
+  5c:	eb06 0781 	add.w	r7, r6, r1, lsl #2
+  60:	eba7 0008 	sub.w	r0, r7, r8
+  64:	4290      	cmp	r0, r2
+  66:	d212      	bcs.n	8e <sm_realloc_pool_i+0x8e>
+  68:	f105 090c 	add.w	r9, r5, #12
+  6c:	e007      	b.n	7e <sm_realloc_pool_i+0x7e>
+  6e:	4591      	cmp	r9, r2
+  70:	eba7 0c08 	sub.w	ip, r7, r8
+  74:	d97f      	bls.n	176 <sm_realloc_pool_i+0x176>
+  76:	f8db 2004 	ldr.w	r2, [fp, #4]
+  7a:	4594      	cmp	ip, r2
+  7c:	d207      	bcs.n	8e <sm_realloc_pool_i+0x8e>
+  7e:	4639      	mov	r1, r7
+  80:	4658      	mov	r0, fp
+  82:	f7ff fffe 	bl	0 <smalloc_is_alloc>
+  86:	1bba      	subs	r2, r7, r6
+  88:	370c      	adds	r7, #12
+  8a:	2800      	cmp	r0, #0
+  8c:	d0ef      	beq.n	6e <sm_realloc_pool_i+0x6e>
+  8e:	9b01      	ldr	r3, [sp, #4]
+  90:	2b00      	cmp	r3, #0
+  92:	f040 809e 	bne.w	1d2 <sm_realloc_pool_i+0x1d2>
+  96:	4629      	mov	r1, r5
+  98:	4658      	mov	r0, fp
+  9a:	f7ff fffe 	bl	0 <sm_malloc_pool>
+  9e:	4605      	mov	r5, r0
+  a0:	b138      	cbz	r0, b2 <sm_realloc_pool_i+0xb2>
+  a2:	4652      	mov	r2, sl
+  a4:	4621      	mov	r1, r4
+  a6:	f7ff fffe 	bl	0 <memcpy>
+  aa:	4621      	mov	r1, r4
+  ac:	4658      	mov	r0, fp
+  ae:	f7ff fffe 	bl	0 <sm_free_pool>
+  b2:	4628      	mov	r0, r5
+  b4:	b003      	add	sp, #12
+  b6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ba:	f8db 2008 	ldr.w	r2, [fp, #8]
+  be:	bbba      	cbnz	r2, 130 <sm_realloc_pool_i+0x130>
+  c0:	2100      	movs	r1, #0
+  c2:	eb04 000a 	add.w	r0, r4, sl
+  c6:	f844 100a 	str.w	r1, [r4, sl]
+  ca:	6041      	str	r1, [r0, #4]
+  cc:	6081      	str	r1, [r0, #8]
+  ce:	f8db 3008 	ldr.w	r3, [fp, #8]
+  d2:	bb9b      	cbnz	r3, 13c <sm_realloc_pool_i+0x13c>
+  d4:	4b4b      	ldr	r3, [pc, #300]	; (204 <sm_realloc_pool_i+0x204>)
+  d6:	4a4c      	ldr	r2, [pc, #304]	; (208 <sm_realloc_pool_i+0x208>)
+  d8:	fb03 f105 	mul.w	r1, r3, r5
+  dc:	ebb2 0fb1 	cmp.w	r2, r1, ror #2
+  e0:	d31e      	bcc.n	120 <sm_realloc_pool_i+0x120>
+  e2:	462b      	mov	r3, r5
+  e4:	4630      	mov	r0, r6
+  e6:	e944 3503 	strd	r3, r5, [r4, #-12]
+  ea:	f7ff fffe 	bl	0 <smalloc_mktag>
+  ee:	f854 5c08 	ldr.w	r5, [r4, #-8]
+  f2:	f844 0c04 	str.w	r0, [r4, #-4]
+  f6:	4425      	add	r5, r4
+  f8:	f105 060c 	add.w	r6, r5, #12
+  fc:	f7ff fffe 	bl	0 <smalloc_uinthash>
+ 100:	f845 0b04 	str.w	r0, [r5], #4
+ 104:	42ae      	cmp	r6, r5
+ 106:	d1f9      	bne.n	fc <sm_realloc_pool_i+0xfc>
+ 108:	4625      	mov	r5, r4
+ 10a:	21ff      	movs	r1, #255	; 0xff
+ 10c:	4630      	mov	r0, r6
+ 10e:	e954 2303 	ldrd	r2, r3, [r4, #-12]
+ 112:	1ad2      	subs	r2, r2, r3
+ 114:	f7ff fffe 	bl	0 <memset>
+ 118:	4628      	mov	r0, r5
+ 11a:	b003      	add	sp, #12
+ 11c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 120:	fba3 2305 	umull	r2, r3, r3, r5
+ 124:	08db      	lsrs	r3, r3, #3
+ 126:	3301      	adds	r3, #1
+ 128:	eb03 0343 	add.w	r3, r3, r3, lsl #1
+ 12c:	009b      	lsls	r3, r3, #2
+ 12e:	e7d9      	b.n	e4 <sm_realloc_pool_i+0xe4>
+ 130:	1b5a      	subs	r2, r3, r5
+ 132:	2100      	movs	r1, #0
+ 134:	1960      	adds	r0, r4, r5
+ 136:	f7ff fffe 	bl	0 <memset>
+ 13a:	e7c1      	b.n	c0 <sm_realloc_pool_i+0xc0>
+ 13c:	9b00      	ldr	r3, [sp, #0]
+ 13e:	300c      	adds	r0, #12
+ 140:	eba3 020a 	sub.w	r2, r3, sl
+ 144:	f7ff fffe 	bl	0 <memset>
+ 148:	e7c4      	b.n	d4 <sm_realloc_pool_i+0xd4>
+ 14a:	f8db 3008 	ldr.w	r3, [fp, #8]
+ 14e:	bbc3      	cbnz	r3, 1c2 <sm_realloc_pool_i+0x1c2>
+ 150:	4630      	mov	r0, r6
+ 152:	f844 5c08 	str.w	r5, [r4, #-8]
+ 156:	f7ff fffe 	bl	0 <smalloc_mktag>
+ 15a:	f854 5c08 	ldr.w	r5, [r4, #-8]
+ 15e:	f844 0c04 	str.w	r0, [r4, #-4]
+ 162:	4425      	add	r5, r4
+ 164:	f105 060c 	add.w	r6, r5, #12
+ 168:	f7ff fffe 	bl	0 <smalloc_uinthash>
+ 16c:	f845 0b04 	str.w	r0, [r5], #4
+ 170:	42ae      	cmp	r6, r5
+ 172:	d1f9      	bne.n	168 <sm_realloc_pool_i+0x168>
+ 174:	e7c8      	b.n	108 <sm_realloc_pool_i+0x108>
+ 176:	f8db 3008 	ldr.w	r3, [fp, #8]
+ 17a:	f1a2 070c 	sub.w	r7, r2, #12
+ 17e:	bb73      	cbnz	r3, 1de <sm_realloc_pool_i+0x1de>
+ 180:	4630      	mov	r0, r6
+ 182:	e944 7503 	strd	r7, r5, [r4, #-12]
+ 186:	f7ff fffe 	bl	0 <smalloc_mktag>
+ 18a:	f854 5c08 	ldr.w	r5, [r4, #-8]
+ 18e:	f844 0c04 	str.w	r0, [r4, #-4]
+ 192:	4425      	add	r5, r4
+ 194:	f105 060c 	add.w	r6, r5, #12
+ 198:	f7ff fffe 	bl	0 <smalloc_uinthash>
+ 19c:	f845 0b04 	str.w	r0, [r5], #4
+ 1a0:	42ae      	cmp	r6, r5
+ 1a2:	d1f9      	bne.n	198 <sm_realloc_pool_i+0x198>
+ 1a4:	e7b0      	b.n	108 <sm_realloc_pool_i+0x108>
+ 1a6:	4606      	mov	r6, r0
+ 1a8:	f7ff fffe 	bl	0 <__errno>
+ 1ac:	2316      	movs	r3, #22
+ 1ae:	4635      	mov	r5, r6
+ 1b0:	6003      	str	r3, [r0, #0]
+ 1b2:	e77e      	b.n	b2 <sm_realloc_pool_i+0xb2>
+ 1b4:	4629      	mov	r1, r5
+ 1b6:	4658      	mov	r0, fp
+ 1b8:	b003      	add	sp, #12
+ 1ba:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+ 1be:	f7ff bffe 	b.w	0 <sm_malloc_pool>
+ 1c2:	2300      	movs	r3, #0
+ 1c4:	eb04 020a 	add.w	r2, r4, sl
+ 1c8:	f844 300a 	str.w	r3, [r4, sl]
+ 1cc:	6053      	str	r3, [r2, #4]
+ 1ce:	6093      	str	r3, [r2, #8]
+ 1d0:	e7be      	b.n	150 <sm_realloc_pool_i+0x150>
+ 1d2:	f7ff fffe 	bl	0 <__errno>
+ 1d6:	2322      	movs	r3, #34	; 0x22
+ 1d8:	2500      	movs	r5, #0
+ 1da:	6003      	str	r3, [r0, #0]
+ 1dc:	e769      	b.n	b2 <sm_realloc_pool_i+0xb2>
+ 1de:	9b00      	ldr	r3, [sp, #0]
+ 1e0:	4601      	mov	r1, r0
+ 1e2:	f844 000a 	str.w	r0, [r4, sl]
+ 1e6:	eba3 020a 	sub.w	r2, r3, sl
+ 1ea:	44a2      	add	sl, r4
+ 1ec:	f8ca 0004 	str.w	r0, [sl, #4]
+ 1f0:	f8ca 0008 	str.w	r0, [sl, #8]
+ 1f4:	f10a 000c 	add.w	r0, sl, #12
+ 1f8:	f7ff fffe 	bl	0 <memset>
+ 1fc:	e7c0      	b.n	180 <sm_realloc_pool_i+0x180>
+ 1fe:	bf00      	nop
+ 200:	00000000 	.word	0x00000000
+ 204:	aaaaaaab 	.word	0xaaaaaaab
+ 208:	15555555 	.word	0x15555555

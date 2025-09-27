@@ -1,0 +1,581 @@
+
+build/./src/controls/state.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 state.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata._ZN5State13set_referenceEPA3_f.str1.4	00000000 .rodata._ZN5State13set_referenceEPA3_f.str1.4
+00000000 l    d  .text._ZN5State13set_referenceEPA3_f	00000000 .text._ZN5State13set_referenceEPA3_f
+00000000 l    d  .text._ZN5State13get_referenceEPA3_f	00000000 .text._ZN5State13get_referenceEPA3_f
+00000000 l    d  .text._ZN5State14step_referenceEPA3_fPKf	00000000 .text._ZN5State14step_referenceEPA3_fPKf
+00000000 l    d  .text._ZN5State12get_estimateEPA3_f	00000000 .text._ZN5State12get_estimateEPA3_f
+00000000 l    d  .text._ZN5State12set_estimateEPA3_f	00000000 .text._ZN5State12set_estimateEPA3_f
+00000000 l    d  .text._ZN5State24set_estimate_at_locationEfii	00000000 .text._ZN5State24set_estimate_at_locationEfii
+00000000 l    d  .text._ZN5State20set_reference_limitsEPA3_A2_Kf	00000000 .text._ZN5State20set_reference_limitsEPA3_A2_Kf
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN5State13set_referenceEPA3_f	00000024 _ZN5State13set_referenceEPA3_f
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN5State13get_referenceEPA3_f	0000000e _ZN5State13get_referenceEPA3_f
+00000000         *UND*	00000000 __aeabi_l2d
+00000000 g     F .text._ZN5State14step_referenceEPA3_fPKf	000004c6 _ZN5State14step_referenceEPA3_fPKf
+00000000 g     F .text._ZN5State12get_estimateEPA3_f	0000000a _ZN5State12get_estimateEPA3_f
+00000000 g     F .text._ZN5State12set_estimateEPA3_f	00000024 _ZN5State12set_estimateEPA3_f
+00000000 g     F .text._ZN5State24set_estimate_at_locationEfii	00000018 _ZN5State24set_estimate_at_locationEfii
+00000000 g     F .text._ZN5State20set_reference_limitsEPA3_A2_Kf	0000003c _ZN5State20set_reference_limitsEPA3_A2_Kf
+
+
+Contents of section .rodata._ZN5State13set_referenceEPA3_f.str1.4:
+ 0000 446f6e27 74207573 65207468 69732c20  Don't use this, 
+ 0010 62697463 6820276f 6e652074 696d6520  bitch 'one time 
+ 0020 6973206f 6b203a29 2700               is ok :)'.      
+Contents of section .text._ZN5State13set_referenceEPA3_f:
+ 0000 08b54ff4 9072fff7 feff2921 0348fff7  ..O..r....)!.H..
+ 0010 feff0348 bde80840 fff7febf 00000000  ...H...@........
+ 0020 00000000                             ....            
+Contents of section .text._ZN5State13get_referenceEPA3_f:
+ 0000 0b464ff4 90720146 1846fff7 febf00bf  .FO..r.F.F......
+Contents of section .text._ZN5State14step_referenceEPA3_fPKf:
+ 0000 f8b5db4f 1546d0f8 80240446 7b680e46  ...O.F...$.F{h.F
+ 0010 9b1ab3f1 804f2ded 088bc0f0 46827b68  .....O-.....F.{h
+ 0020 d3f1ff33 981a61eb 0101fff7 feff41ec  ...3..a.......A.
+ 0030 170bcf4a d4f88434 5268c4f8 8024002b  ...J...4Rh...$.+
+ 0040 00f03b82 9fedc05b 9fedc16b 27ee057b  ..;....[...k'..{
+ 0050 87ee062b b7eec22b 2046a646 314606f1  ...+...+ F.F1F..
+ 0060 0c029fed c43a0024 9fedc50a dfedc20a  .....:.$........
+ 0070 dfedc29a 9fedb85b 9fedb94b 9fedba6b  .......[...K...k
+ 0080 d0ed917a 90ed907a 67ee837a fdeee77a  ...z...zg..z...z
+ 0090 17ee903a b3f59d7f 09d167ee 037afdee  ...:......g..z..
+ 00a0 e77a17ee 903a13f5 9d7f00f0 6b810b46  .z...:......k..F
+ 00b0 8446f3ec 017af4ee c77af1ee 10fa03d5  .F...z...z......
+ 00c0 f0ee477a 03ed017a 9ced917a 0cf1080c  ..Gz...z...z....
+ 00d0 b4eee77a f1ee10fa 48bf03ed 017a9342  ...z....H....z.B
+ 00e0 09d09ced 907af3ec 017af4ee c77af1ee  .....z...z...z..
+ 00f0 10fae9d5 e4e70026 f5ec017a fdeee77a  .......&...z...z
+ 0100 17ee903a 012b00f0 9180022b 00f0f180  ...:.+.....+....
+ 0110 8b68cef8 08304b68 cef80430 d1ed007a  .h...0Kh...0...z
+ 0120 ceed007a 26bb0346 0ef1040c 183093ed  ...z&..F.....0..
+ 0130 907ab4ee e77af1ee 10fa03dd f0ee477a  .z...z........Gz
+ 0140 0ced017a 93ed917a 0833b4ee e77af1ee  ...z...z.3...z..
+ 0150 10fa48bf 0ced017a 83425cd0 fcec017a  ..H....z.B\....z
+ 0160 93ed907a b4eee77a f1ee10fa eadde5e7  ...z...z........
+ 0170 b7eee77a b4eec57b f1ee10fa 0cdb37ee  ...z...{......7.
+ 0180 467bf7ee c73bb7ee e37ab4ee c57bf1ee  F{...;...z...{..
+ 0190 10faf4da ceed003a b4eec47b f1ee10fa  .......:...{....
+ 01a0 0cd837ee 067bf7ee c73bb7ee e37ab4ee  ..7..{...;...z..
+ 01b0 c47bf1ee 10faf4d9 ceed003a deed017a  .{.........:...z
+ 01c0 90ed927a f4eec77a f1ee10fa 03d5f0ee  ...z...z........
+ 01d0 477a8eed 017a90ed 937ab4ee e77adeed  Gz...z...z...z..
+ 01e0 027af1ee 10fa48bf 8eed017a 90ed947a  .z....H....z...z
+ 01f0 f4eec77a f1ee10fa 03d5f0ee 477a8eed  ...z........Gz..
+ 0200 027a90ed 957a1830 b4eee77a f1ee10fa  .z...z.0...z....
+ 0210 48bf8eed 027a0134 0ef10c0e 0c310c32  H....z.4.....1.2
+ 0220 182c7ff4 2dafbdec 088bf8bd deed007a  .,..-..........z
+ 0230 91ed007a 37ee677a b7eec71a b4eec51b  ...z7.gz........
+ 0240 f1ee10fa 40f3fd80 76b131ee 461bb7ee  ....@...v.1.F...
+ 0250 c17bb7ee c71ab4ee c41bf1ee 10fa03d5  .{..............
+ 0260 31ee061b b7eec17b b4eee07a 91ed011a  1......{...z....
+ 0270 deed013a f1ee10fa 40f3db80 d0ed952a  ...:....@......*
+ 0280 f5ee402a ceed022a f1ee10fa 28d0b5ee  ..@*...*....(...
+ 0290 c07a31ee 639ab7ee e38af1ee 10fab7ee  .z1.c...........
+ 02a0 c11a40f3 df8028ee 488b90ed 94ba3bee  ..@...(.H.....;.
+ 02b0 0baaa1ee 018bb7ee caaa88ee 0a1bb7ee  ................
+ 02c0 c11bb4ee c17af1ee 10fa09d5 b5eec09a  .....z..........
+ 02d0 f1ee10fa 40f3df80 d0ed952a ceed022a  ....@......*...*
+ 02e0 e2ee223a e3ee827a ceed013a ceed007a  ..":...z...:...z
+ 02f0 18e7d1ed 012adeed 017ad0ed 953a72ee  .....*...z...:r.
+ 0300 e71a23ee 827ab4ee e17af1ee 10fa10d4  ..#..z...z......
+ 0310 d0ed943a 23ee827a b4eee17a f1ee10fa  ...:#..z...z....
+ 0320 07dc22ee 007aceed 012af0ee 403af0ee  .."..z...*..@:..
+ 0330 627a37ee 877aceed 023adeed 007a8eed  bz7..z...:...z..
+ 0340 017aefe6 aff30080 4f1be8b4 814e5b3f  .z......O....N[?
+ 0350 00000000 80842e41 182d4454 fb210940  .......A.-DT.!.@
+ 0360 182d4454 fb2109c0 182d4454 fb211940  .-DT.!...-DT.!.@
+ 0370 001000e0 0000c842 6f12033a 6f1203ba  .......Bo..:o...
+ 0380 00000000 12ed037a b7eec77a b4eec57b  .......z...z...{
+ 0390 f1ee10fa 0cdb37ee 467bf7ee c73bb7ee  ......7.F{...;..
+ 03a0 e37ab4ee c57bf1ee 10faf4da 42ed033a  .z...{......B..:
+ 03b0 b4eec47b f1ee10fa 0cd837ee 067bf7ee  ...{......7..{..
+ 03c0 c73bb7ee e37ab4ee c47bf1ee 10faf4d9  .;...z...{......
+ 03d0 42ed033a 52ed027a 90ed927a f4eec77a  B..:R..z...z...z
+ 03e0 f1ee10fa 03d5f0ee 477a02ed 027a90ed  ........Gz...z..
+ 03f0 937ab4ee e77a52ed 017af1ee 10fa48bf  .z...zR..z....H.
+ 0400 02ed027a 90ed947a f4eec77a f1ee10fa  ...z...z...z....
+ 0410 03d5f0ee 477a02ed 017a90ed 957a0126  ....Gz...z...z.&
+ 0420 b4eee77a f1ee10fa 7ff566ae 02ed017a  ...z......f....z
+ 0430 62e6b4ee e97af1ee 10fa0cd5 d0ed942a  b....z.........*
+ 0440 1ee7b4ee 441bf1ee 10fa7ff5 0daf002e  ....D...........
+ 0450 3ff40aaf 04e7f0ee 413a8eed 020af0ee  ?.......A:......
+ 0460 402a3de7 28ee488b 90ed95ba 3bee0baa  @*=.(.H.....;...
+ 0470 a1ee018b b7eecaaa 88ee0a1b b7eec11b  ................
+ 0480 b4eec17a f1ee10fa 7ff72aaf b5eec09a  ...z......*.....
+ 0490 f1ee10fa 04ddf0ee 4b2a8eed 02ba1fe7  ........K*......
+ 04a0 d0ed942a ceed022a 1ae77868 0021801a  ...*...*..xh.!..
+ 04b0 fff7feff 41ec170b bbe50123 1fed502a  ....A......#..P*
+ 04c0 c4f88434 c8e500bf                    ...4....        
+Contents of section .text._ZN5State12get_estimateEPA3_f:
+ 0000 4ff49072 1044fff7 febf00bf           O..r.D......    
+Contents of section .text._ZN5State12set_estimateEPA3_f:
+ 0000 00f59072 0b680c31 0c30c0f8 143151f8  ...r.h.1.0...1Q.
+ 0010 083c8242 c0f81831 51f8043c c0f81c31  .<.B...1Q..<...1
+ 0020 f0d17047                             ..pG            
+Contents of section .text._ZN5State24set_estimate_at_locationEfii:
+ 0000 172908d8 022a06d8 01eb4101 0a4400eb  .)...*....A..D..
+ 0010 820080ed 480a7047                    ....H.pG        
+Contents of section .text._ZN5State20set_reference_limitsEPA3_A2_Kf:
+ 0000 00f51072 0b681831 1830c0f8 283251f8  ...r.h.1.0..(2Q.
+ 0010 143c9042 c0f82c32 51f8103c c0f83032  .<.B..,2Q..<..02
+ 0020 51f80c3c c0f83432 51f8083c c0f83832  Q..<..42Q..<..82
+ 0030 51f8043c c0f83c32 e4d17047           Q..<..<2..pG    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5State13set_referenceEPA3_f:
+
+00000000 <_ZN5State13set_referenceEPA3_f>:
+   0:	b508      	push	{r3, lr}
+   2:	f44f 7290 	mov.w	r2, #288	; 0x120
+   6:	f7ff fffe 	bl	0 <memcpy>
+   a:	2129      	movs	r1, #41	; 0x29
+   c:	4803      	ldr	r0, [pc, #12]	; (1c <_ZN5State13set_referenceEPA3_f+0x1c>)
+   e:	f7ff fffe 	bl	0 <usb_serial_write>
+  12:	4803      	ldr	r0, [pc, #12]	; (20 <_ZN5State13set_referenceEPA3_f+0x20>)
+  14:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  18:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5State13get_referenceEPA3_f:
+
+00000000 <_ZN5State13get_referenceEPA3_f>:
+   0:	460b      	mov	r3, r1
+   2:	f44f 7290 	mov.w	r2, #288	; 0x120
+   6:	4601      	mov	r1, r0
+   8:	4618      	mov	r0, r3
+   a:	f7ff bffe 	b.w	0 <memcpy>
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN5State14step_referenceEPA3_fPKf:
+
+00000000 <_ZN5State14step_referenceEPA3_fPKf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4fdb      	ldr	r7, [pc, #876]	; (370 <_ZN5State14step_referenceEPA3_fPKf+0x370>)
+   4:	4615      	mov	r5, r2
+   6:	f8d0 2480 	ldr.w	r2, [r0, #1152]	; 0x480
+   a:	4604      	mov	r4, r0
+   c:	687b      	ldr	r3, [r7, #4]
+   e:	460e      	mov	r6, r1
+  10:	1a9b      	subs	r3, r3, r2
+  12:	f1b3 4f80 	cmp.w	r3, #1073741824	; 0x40000000
+  16:	ed2d 8b08 	vpush	{d8-d11}
+  1a:	f0c0 8246 	bcc.w	4aa <_ZN5State14step_referenceEPA3_fPKf+0x4aa>
+  1e:	687b      	ldr	r3, [r7, #4]
+  20:	f1d3 33ff 	rsbs	r3, r3, #4294967295	; 0xffffffff
+  24:	1a98      	subs	r0, r3, r2
+  26:	eb61 0101 	sbc.w	r1, r1, r1
+  2a:	f7ff fffe 	bl	0 <__aeabi_l2d>
+  2e:	ec41 0b17 	vmov	d7, r0, r1
+  32:	4acf      	ldr	r2, [pc, #828]	; (370 <_ZN5State14step_referenceEPA3_fPKf+0x370>)
+  34:	f8d4 3484 	ldr.w	r3, [r4, #1156]	; 0x484
+  38:	6852      	ldr	r2, [r2, #4]
+  3a:	f8c4 2480 	str.w	r2, [r4, #1152]	; 0x480
+  3e:	2b00      	cmp	r3, #0
+  40:	f000 823b 	beq.w	4ba <_ZN5State14step_referenceEPA3_fPKf+0x4ba>
+  44:	ed9f 5bc0 	vldr	d5, [pc, #768]	; 348 <_ZN5State14step_referenceEPA3_fPKf+0x348>
+  48:	ed9f 6bc1 	vldr	d6, [pc, #772]	; 350 <_ZN5State14step_referenceEPA3_fPKf+0x350>
+  4c:	ee27 7b05 	vmul.f64	d7, d7, d5
+  50:	ee87 2b06 	vdiv.f64	d2, d7, d6
+  54:	eeb7 2bc2 	vcvt.f32.f64	s4, d2
+  58:	4620      	mov	r0, r4
+  5a:	46a6      	mov	lr, r4
+  5c:	4631      	mov	r1, r6
+  5e:	f106 020c 	add.w	r2, r6, #12
+  62:	ed9f 3ac4 	vldr	s6, [pc, #784]	; 374 <_ZN5State14step_referenceEPA3_fPKf+0x374>
+  66:	2400      	movs	r4, #0
+  68:	ed9f 0ac5 	vldr	s0, [pc, #788]	; 380 <_ZN5State14step_referenceEPA3_fPKf+0x380>
+  6c:	eddf 0ac2 	vldr	s1, [pc, #776]	; 378 <_ZN5State14step_referenceEPA3_fPKf+0x378>
+  70:	eddf 9ac2 	vldr	s19, [pc, #776]	; 37c <_ZN5State14step_referenceEPA3_fPKf+0x37c>
+  74:	ed9f 5bb8 	vldr	d5, [pc, #736]	; 358 <_ZN5State14step_referenceEPA3_fPKf+0x358>
+  78:	ed9f 4bb9 	vldr	d4, [pc, #740]	; 360 <_ZN5State14step_referenceEPA3_fPKf+0x360>
+  7c:	ed9f 6bba 	vldr	d6, [pc, #744]	; 368 <_ZN5State14step_referenceEPA3_fPKf+0x368>
+  80:	edd0 7a91 	vldr	s15, [r0, #580]	; 0x244
+  84:	ed90 7a90 	vldr	s14, [r0, #576]	; 0x240
+  88:	ee67 7a83 	vmul.f32	s15, s15, s6
+  8c:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  90:	ee17 3a90 	vmov	r3, s15
+  94:	f5b3 7f9d 	cmp.w	r3, #314	; 0x13a
+  98:	d109      	bne.n	ae <_ZN5State14step_referenceEPA3_fPKf+0xae>
+  9a:	ee67 7a03 	vmul.f32	s15, s14, s6
+  9e:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  a2:	ee17 3a90 	vmov	r3, s15
+  a6:	f513 7f9d 	cmn.w	r3, #314	; 0x13a
+  aa:	f000 816b 	beq.w	384 <_ZN5State14step_referenceEPA3_fPKf+0x384>
+  ae:	460b      	mov	r3, r1
+  b0:	4684      	mov	ip, r0
+  b2:	ecf3 7a01 	vldmia	r3!, {s15}
+  b6:	eef4 7ac7 	vcmpe.f32	s15, s14
+  ba:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  be:	d503      	bpl.n	c8 <_ZN5State14step_referenceEPA3_fPKf+0xc8>
+  c0:	eef0 7a47 	vmov.f32	s15, s14
+  c4:	ed03 7a01 	vstr	s14, [r3, #-4]
+  c8:	ed9c 7a91 	vldr	s14, [ip, #580]	; 0x244
+  cc:	f10c 0c08 	add.w	ip, ip, #8
+  d0:	eeb4 7ae7 	vcmpe.f32	s14, s15
+  d4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  d8:	bf48      	it	mi
+  da:	ed03 7a01 	vstrmi	s14, [r3, #-4]
+  de:	4293      	cmp	r3, r2
+  e0:	d009      	beq.n	f6 <_ZN5State14step_referenceEPA3_fPKf+0xf6>
+  e2:	ed9c 7a90 	vldr	s14, [ip, #576]	; 0x240
+  e6:	ecf3 7a01 	vldmia	r3!, {s15}
+  ea:	eef4 7ac7 	vcmpe.f32	s15, s14
+  ee:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  f2:	d5e9      	bpl.n	c8 <_ZN5State14step_referenceEPA3_fPKf+0xc8>
+  f4:	e7e4      	b.n	c0 <_ZN5State14step_referenceEPA3_fPKf+0xc0>
+  f6:	2600      	movs	r6, #0
+  f8:	ecf5 7a01 	vldmia	r5!, {s15}
+  fc:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+ 100:	ee17 3a90 	vmov	r3, s15
+ 104:	2b01      	cmp	r3, #1
+ 106:	f000 8091 	beq.w	22c <_ZN5State14step_referenceEPA3_fPKf+0x22c>
+ 10a:	2b02      	cmp	r3, #2
+ 10c:	f000 80f1 	beq.w	2f2 <_ZN5State14step_referenceEPA3_fPKf+0x2f2>
+ 110:	688b      	ldr	r3, [r1, #8]
+ 112:	f8ce 3008 	str.w	r3, [lr, #8]
+ 116:	684b      	ldr	r3, [r1, #4]
+ 118:	f8ce 3004 	str.w	r3, [lr, #4]
+ 11c:	edd1 7a00 	vldr	s15, [r1]
+ 120:	edce 7a00 	vstr	s15, [lr]
+ 124:	bb26      	cbnz	r6, 170 <_ZN5State14step_referenceEPA3_fPKf+0x170>
+ 126:	4603      	mov	r3, r0
+ 128:	f10e 0c04 	add.w	ip, lr, #4
+ 12c:	3018      	adds	r0, #24
+ 12e:	ed93 7a90 	vldr	s14, [r3, #576]	; 0x240
+ 132:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 136:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 13a:	dd03      	ble.n	144 <_ZN5State14step_referenceEPA3_fPKf+0x144>
+ 13c:	eef0 7a47 	vmov.f32	s15, s14
+ 140:	ed0c 7a01 	vstr	s14, [ip, #-4]
+ 144:	ed93 7a91 	vldr	s14, [r3, #580]	; 0x244
+ 148:	3308      	adds	r3, #8
+ 14a:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 14e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 152:	bf48      	it	mi
+ 154:	ed0c 7a01 	vstrmi	s14, [ip, #-4]
+ 158:	4283      	cmp	r3, r0
+ 15a:	d05c      	beq.n	216 <_ZN5State14step_referenceEPA3_fPKf+0x216>
+ 15c:	ecfc 7a01 	vldmia	ip!, {s15}
+ 160:	ed93 7a90 	vldr	s14, [r3, #576]	; 0x240
+ 164:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 168:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 16c:	ddea      	ble.n	144 <_ZN5State14step_referenceEPA3_fPKf+0x144>
+ 16e:	e7e5      	b.n	13c <_ZN5State14step_referenceEPA3_fPKf+0x13c>
+ 170:	eeb7 7ae7 	vcvt.f64.f32	d7, s15
+ 174:	eeb4 7bc5 	vcmpe.f64	d7, d5
+ 178:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 17c:	db0c      	blt.n	198 <_ZN5State14step_referenceEPA3_fPKf+0x198>
+ 17e:	ee37 7b46 	vsub.f64	d7, d7, d6
+ 182:	eef7 3bc7 	vcvt.f32.f64	s7, d7
+ 186:	eeb7 7ae3 	vcvt.f64.f32	d7, s7
+ 18a:	eeb4 7bc5 	vcmpe.f64	d7, d5
+ 18e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 192:	daf4      	bge.n	17e <_ZN5State14step_referenceEPA3_fPKf+0x17e>
+ 194:	edce 3a00 	vstr	s7, [lr]
+ 198:	eeb4 7bc4 	vcmpe.f64	d7, d4
+ 19c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1a0:	d80c      	bhi.n	1bc <_ZN5State14step_referenceEPA3_fPKf+0x1bc>
+ 1a2:	ee37 7b06 	vadd.f64	d7, d7, d6
+ 1a6:	eef7 3bc7 	vcvt.f32.f64	s7, d7
+ 1aa:	eeb7 7ae3 	vcvt.f64.f32	d7, s7
+ 1ae:	eeb4 7bc4 	vcmpe.f64	d7, d4
+ 1b2:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1b6:	d9f4      	bls.n	1a2 <_ZN5State14step_referenceEPA3_fPKf+0x1a2>
+ 1b8:	edce 3a00 	vstr	s7, [lr]
+ 1bc:	edde 7a01 	vldr	s15, [lr, #4]
+ 1c0:	ed90 7a92 	vldr	s14, [r0, #584]	; 0x248
+ 1c4:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 1c8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1cc:	d503      	bpl.n	1d6 <_ZN5State14step_referenceEPA3_fPKf+0x1d6>
+ 1ce:	eef0 7a47 	vmov.f32	s15, s14
+ 1d2:	ed8e 7a01 	vstr	s14, [lr, #4]
+ 1d6:	ed90 7a93 	vldr	s14, [r0, #588]	; 0x24c
+ 1da:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 1de:	edde 7a02 	vldr	s15, [lr, #8]
+ 1e2:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1e6:	bf48      	it	mi
+ 1e8:	ed8e 7a01 	vstrmi	s14, [lr, #4]
+ 1ec:	ed90 7a94 	vldr	s14, [r0, #592]	; 0x250
+ 1f0:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 1f4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1f8:	d503      	bpl.n	202 <_ZN5State14step_referenceEPA3_fPKf+0x202>
+ 1fa:	eef0 7a47 	vmov.f32	s15, s14
+ 1fe:	ed8e 7a02 	vstr	s14, [lr, #8]
+ 202:	ed90 7a95 	vldr	s14, [r0, #596]	; 0x254
+ 206:	3018      	adds	r0, #24
+ 208:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 20c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 210:	bf48      	it	mi
+ 212:	ed8e 7a02 	vstrmi	s14, [lr, #8]
+ 216:	3401      	adds	r4, #1
+ 218:	f10e 0e0c 	add.w	lr, lr, #12
+ 21c:	310c      	adds	r1, #12
+ 21e:	320c      	adds	r2, #12
+ 220:	2c18      	cmp	r4, #24
+ 222:	f47f af2d 	bne.w	80 <_ZN5State14step_referenceEPA3_fPKf+0x80>
+ 226:	ecbd 8b08 	vpop	{d8-d11}
+ 22a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 22c:	edde 7a00 	vldr	s15, [lr]
+ 230:	ed91 7a00 	vldr	s14, [r1]
+ 234:	ee37 7a67 	vsub.f32	s14, s14, s15
+ 238:	eeb7 1ac7 	vcvt.f64.f32	d1, s14
+ 23c:	eeb4 1bc5 	vcmpe.f64	d1, d5
+ 240:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 244:	f340 80fd 	ble.w	442 <_ZN5State14step_referenceEPA3_fPKf+0x442>
+ 248:	b176      	cbz	r6, 268 <_ZN5State14step_referenceEPA3_fPKf+0x268>
+ 24a:	ee31 1b46 	vsub.f64	d1, d1, d6
+ 24e:	eeb7 7bc1 	vcvt.f32.f64	s14, d1
+ 252:	eeb7 1ac7 	vcvt.f64.f32	d1, s14
+ 256:	eeb4 1bc4 	vcmpe.f64	d1, d4
+ 25a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 25e:	d503      	bpl.n	268 <_ZN5State14step_referenceEPA3_fPKf+0x268>
+ 260:	ee31 1b06 	vadd.f64	d1, d1, d6
+ 264:	eeb7 7bc1 	vcvt.f32.f64	s14, d1
+ 268:	eeb4 7ae0 	vcmpe.f32	s14, s1
+ 26c:	ed91 1a01 	vldr	s2, [r1, #4]
+ 270:	edde 3a01 	vldr	s7, [lr, #4]
+ 274:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 278:	f340 80db 	ble.w	432 <_ZN5State14step_referenceEPA3_fPKf+0x432>
+ 27c:	edd0 2a95 	vldr	s5, [r0, #596]	; 0x254
+ 280:	eef5 2a40 	vcmp.f32	s5, #0.0
+ 284:	edce 2a02 	vstr	s5, [lr, #8]
+ 288:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 28c:	d028      	beq.n	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 28e:	eeb5 7ac0 	vcmpe.f32	s14, #0.0
+ 292:	ee31 9a63 	vsub.f32	s18, s2, s7
+ 296:	eeb7 8ae3 	vcvt.f64.f32	d8, s7
+ 29a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 29e:	eeb7 1ac1 	vcvt.f64.f32	d1, s2
+ 2a2:	f340 80df 	ble.w	464 <_ZN5State14step_referenceEPA3_fPKf+0x464>
+ 2a6:	ee28 8b48 	vnmul.f64	d8, d8, d8
+ 2aa:	ed90 ba94 	vldr	s22, [r0, #592]	; 0x250
+ 2ae:	ee3b aa0b 	vadd.f32	s20, s22, s22
+ 2b2:	eea1 8b01 	vfma.f64	d8, d1, d1
+ 2b6:	eeb7 aaca 	vcvt.f64.f32	d10, s20
+ 2ba:	ee88 1b0a 	vdiv.f64	d1, d8, d10
+ 2be:	eeb7 1bc1 	vcvt.f32.f64	s2, d1
+ 2c2:	eeb4 7ac1 	vcmpe.f32	s14, s2
+ 2c6:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 2ca:	d509      	bpl.n	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 2cc:	eeb5 9ac0 	vcmpe.f32	s18, #0.0
+ 2d0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 2d4:	f340 80df 	ble.w	496 <_ZN5State14step_referenceEPA3_fPKf+0x496>
+ 2d8:	edd0 2a95 	vldr	s5, [r0, #596]	; 0x254
+ 2dc:	edce 2a02 	vstr	s5, [lr, #8]
+ 2e0:	eee2 3a22 	vfma.f32	s7, s4, s5
+ 2e4:	eee3 7a82 	vfma.f32	s15, s7, s4
+ 2e8:	edce 3a01 	vstr	s7, [lr, #4]
+ 2ec:	edce 7a00 	vstr	s15, [lr]
+ 2f0:	e718      	b.n	124 <_ZN5State14step_referenceEPA3_fPKf+0x124>
+ 2f2:	edd1 2a01 	vldr	s5, [r1, #4]
+ 2f6:	edde 7a01 	vldr	s15, [lr, #4]
+ 2fa:	edd0 3a95 	vldr	s7, [r0, #596]	; 0x254
+ 2fe:	ee72 1ae7 	vsub.f32	s3, s5, s15
+ 302:	ee23 7a82 	vmul.f32	s14, s7, s4
+ 306:	eeb4 7ae1 	vcmpe.f32	s14, s3
+ 30a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 30e:	d410      	bmi.n	332 <_ZN5State14step_referenceEPA3_fPKf+0x332>
+ 310:	edd0 3a94 	vldr	s7, [r0, #592]	; 0x250
+ 314:	ee23 7a82 	vmul.f32	s14, s7, s4
+ 318:	eeb4 7ae1 	vcmpe.f32	s14, s3
+ 31c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 320:	dc07      	bgt.n	332 <_ZN5State14step_referenceEPA3_fPKf+0x332>
+ 322:	ee22 7a00 	vmul.f32	s14, s4, s0
+ 326:	edce 2a01 	vstr	s5, [lr, #4]
+ 32a:	eef0 3a40 	vmov.f32	s7, s0
+ 32e:	eef0 7a62 	vmov.f32	s15, s5
+ 332:	ee37 7a87 	vadd.f32	s14, s15, s14
+ 336:	edce 3a02 	vstr	s7, [lr, #8]
+ 33a:	edde 7a00 	vldr	s15, [lr]
+ 33e:	ed8e 7a01 	vstr	s14, [lr, #4]
+ 342:	e6ef      	b.n	124 <_ZN5State14step_referenceEPA3_fPKf+0x124>
+ 344:	f3af 8000 	nop.w
+ 348:	b4e81b4f 	.word	0xb4e81b4f
+ 34c:	3f5b4e81 	.word	0x3f5b4e81
+ 350:	00000000 	.word	0x00000000
+ 354:	412e8480 	.word	0x412e8480
+ 358:	54442d18 	.word	0x54442d18
+ 35c:	400921fb 	.word	0x400921fb
+ 360:	54442d18 	.word	0x54442d18
+ 364:	c00921fb 	.word	0xc00921fb
+ 368:	54442d18 	.word	0x54442d18
+ 36c:	401921fb 	.word	0x401921fb
+ 370:	e0001000 	.word	0xe0001000
+ 374:	42c80000 	.word	0x42c80000
+ 378:	3a03126f 	.word	0x3a03126f
+ 37c:	ba03126f 	.word	0xba03126f
+ 380:	00000000 	.word	0x00000000
+ 384:	ed12 7a03 	vldr	s14, [r2, #-12]
+ 388:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+ 38c:	eeb4 7bc5 	vcmpe.f64	d7, d5
+ 390:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 394:	db0c      	blt.n	3b0 <_ZN5State14step_referenceEPA3_fPKf+0x3b0>
+ 396:	ee37 7b46 	vsub.f64	d7, d7, d6
+ 39a:	eef7 3bc7 	vcvt.f32.f64	s7, d7
+ 39e:	eeb7 7ae3 	vcvt.f64.f32	d7, s7
+ 3a2:	eeb4 7bc5 	vcmpe.f64	d7, d5
+ 3a6:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 3aa:	daf4      	bge.n	396 <_ZN5State14step_referenceEPA3_fPKf+0x396>
+ 3ac:	ed42 3a03 	vstr	s7, [r2, #-12]
+ 3b0:	eeb4 7bc4 	vcmpe.f64	d7, d4
+ 3b4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 3b8:	d80c      	bhi.n	3d4 <_ZN5State14step_referenceEPA3_fPKf+0x3d4>
+ 3ba:	ee37 7b06 	vadd.f64	d7, d7, d6
+ 3be:	eef7 3bc7 	vcvt.f32.f64	s7, d7
+ 3c2:	eeb7 7ae3 	vcvt.f64.f32	d7, s7
+ 3c6:	eeb4 7bc4 	vcmpe.f64	d7, d4
+ 3ca:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 3ce:	d9f4      	bls.n	3ba <_ZN5State14step_referenceEPA3_fPKf+0x3ba>
+ 3d0:	ed42 3a03 	vstr	s7, [r2, #-12]
+ 3d4:	ed52 7a02 	vldr	s15, [r2, #-8]
+ 3d8:	ed90 7a92 	vldr	s14, [r0, #584]	; 0x248
+ 3dc:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 3e0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 3e4:	d503      	bpl.n	3ee <_ZN5State14step_referenceEPA3_fPKf+0x3ee>
+ 3e6:	eef0 7a47 	vmov.f32	s15, s14
+ 3ea:	ed02 7a02 	vstr	s14, [r2, #-8]
+ 3ee:	ed90 7a93 	vldr	s14, [r0, #588]	; 0x24c
+ 3f2:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 3f6:	ed52 7a01 	vldr	s15, [r2, #-4]
+ 3fa:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 3fe:	bf48      	it	mi
+ 400:	ed02 7a02 	vstrmi	s14, [r2, #-8]
+ 404:	ed90 7a94 	vldr	s14, [r0, #592]	; 0x250
+ 408:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 40c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 410:	d503      	bpl.n	41a <_ZN5State14step_referenceEPA3_fPKf+0x41a>
+ 412:	eef0 7a47 	vmov.f32	s15, s14
+ 416:	ed02 7a01 	vstr	s14, [r2, #-4]
+ 41a:	ed90 7a95 	vldr	s14, [r0, #596]	; 0x254
+ 41e:	2601      	movs	r6, #1
+ 420:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 424:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 428:	f57f ae66 	bpl.w	f8 <_ZN5State14step_referenceEPA3_fPKf+0xf8>
+ 42c:	ed02 7a01 	vstr	s14, [r2, #-4]
+ 430:	e662      	b.n	f8 <_ZN5State14step_referenceEPA3_fPKf+0xf8>
+ 432:	eeb4 7ae9 	vcmpe.f32	s14, s19
+ 436:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 43a:	d50c      	bpl.n	456 <_ZN5State14step_referenceEPA3_fPKf+0x456>
+ 43c:	edd0 2a94 	vldr	s5, [r0, #592]	; 0x250
+ 440:	e71e      	b.n	280 <_ZN5State14step_referenceEPA3_fPKf+0x280>
+ 442:	eeb4 1b44 	vcmp.f64	d1, d4
+ 446:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 44a:	f57f af0d 	bpl.w	268 <_ZN5State14step_referenceEPA3_fPKf+0x268>
+ 44e:	2e00      	cmp	r6, #0
+ 450:	f43f af0a 	beq.w	268 <_ZN5State14step_referenceEPA3_fPKf+0x268>
+ 454:	e704      	b.n	260 <_ZN5State14step_referenceEPA3_fPKf+0x260>
+ 456:	eef0 3a41 	vmov.f32	s7, s2
+ 45a:	ed8e 0a02 	vstr	s0, [lr, #8]
+ 45e:	eef0 2a40 	vmov.f32	s5, s0
+ 462:	e73d      	b.n	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 464:	ee28 8b48 	vnmul.f64	d8, d8, d8
+ 468:	ed90 ba95 	vldr	s22, [r0, #596]	; 0x254
+ 46c:	ee3b aa0b 	vadd.f32	s20, s22, s22
+ 470:	eea1 8b01 	vfma.f64	d8, d1, d1
+ 474:	eeb7 aaca 	vcvt.f64.f32	d10, s20
+ 478:	ee88 1b0a 	vdiv.f64	d1, d8, d10
+ 47c:	eeb7 1bc1 	vcvt.f32.f64	s2, d1
+ 480:	eeb4 7ac1 	vcmpe.f32	s14, s2
+ 484:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 488:	f77f af2a 	ble.w	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 48c:	eeb5 9ac0 	vcmpe.f32	s18, #0.0
+ 490:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 494:	dd04      	ble.n	4a0 <_ZN5State14step_referenceEPA3_fPKf+0x4a0>
+ 496:	eef0 2a4b 	vmov.f32	s5, s22
+ 49a:	ed8e ba02 	vstr	s22, [lr, #8]
+ 49e:	e71f      	b.n	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 4a0:	edd0 2a94 	vldr	s5, [r0, #592]	; 0x250
+ 4a4:	edce 2a02 	vstr	s5, [lr, #8]
+ 4a8:	e71a      	b.n	2e0 <_ZN5State14step_referenceEPA3_fPKf+0x2e0>
+ 4aa:	6878      	ldr	r0, [r7, #4]
+ 4ac:	2100      	movs	r1, #0
+ 4ae:	1a80      	subs	r0, r0, r2
+ 4b0:	f7ff fffe 	bl	0 <__aeabi_l2d>
+ 4b4:	ec41 0b17 	vmov	d7, r0, r1
+ 4b8:	e5bb      	b.n	32 <_ZN5State14step_referenceEPA3_fPKf+0x32>
+ 4ba:	2301      	movs	r3, #1
+ 4bc:	ed1f 2a50 	vldr	s4, [pc, #-320]	; 380 <_ZN5State14step_referenceEPA3_fPKf+0x380>
+ 4c0:	f8c4 3484 	str.w	r3, [r4, #1156]	; 0x484
+ 4c4:	e5c8      	b.n	58 <_ZN5State14step_referenceEPA3_fPKf+0x58>
+ 4c6:	bf00      	nop
+
+Disassembly of section .text._ZN5State12get_estimateEPA3_f:
+
+00000000 <_ZN5State12get_estimateEPA3_f>:
+   0:	f44f 7290 	mov.w	r2, #288	; 0x120
+   4:	4410      	add	r0, r2
+   6:	f7ff bffe 	b.w	0 <memcpy>
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN5State12set_estimateEPA3_f:
+
+00000000 <_ZN5State12set_estimateEPA3_f>:
+   0:	f500 7290 	add.w	r2, r0, #288	; 0x120
+   4:	680b      	ldr	r3, [r1, #0]
+   6:	310c      	adds	r1, #12
+   8:	300c      	adds	r0, #12
+   a:	f8c0 3114 	str.w	r3, [r0, #276]	; 0x114
+   e:	f851 3c08 	ldr.w	r3, [r1, #-8]
+  12:	4282      	cmp	r2, r0
+  14:	f8c0 3118 	str.w	r3, [r0, #280]	; 0x118
+  18:	f851 3c04 	ldr.w	r3, [r1, #-4]
+  1c:	f8c0 311c 	str.w	r3, [r0, #284]	; 0x11c
+  20:	d1f0      	bne.n	4 <_ZN5State12set_estimateEPA3_f+0x4>
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN5State24set_estimate_at_locationEfii:
+
+00000000 <_ZN5State24set_estimate_at_locationEfii>:
+   0:	2917      	cmp	r1, #23
+   2:	d808      	bhi.n	16 <_ZN5State24set_estimate_at_locationEfii+0x16>
+   4:	2a02      	cmp	r2, #2
+   6:	d806      	bhi.n	16 <_ZN5State24set_estimate_at_locationEfii+0x16>
+   8:	eb01 0141 	add.w	r1, r1, r1, lsl #1
+   c:	440a      	add	r2, r1
+   e:	eb00 0082 	add.w	r0, r0, r2, lsl #2
+  12:	ed80 0a48 	vstr	s0, [r0, #288]	; 0x120
+  16:	4770      	bx	lr
+
+Disassembly of section .text._ZN5State20set_reference_limitsEPA3_A2_Kf:
+
+00000000 <_ZN5State20set_reference_limitsEPA3_A2_Kf>:
+   0:	f500 7210 	add.w	r2, r0, #576	; 0x240
+   4:	680b      	ldr	r3, [r1, #0]
+   6:	3118      	adds	r1, #24
+   8:	3018      	adds	r0, #24
+   a:	f8c0 3228 	str.w	r3, [r0, #552]	; 0x228
+   e:	f851 3c14 	ldr.w	r3, [r1, #-20]
+  12:	4290      	cmp	r0, r2
+  14:	f8c0 322c 	str.w	r3, [r0, #556]	; 0x22c
+  18:	f851 3c10 	ldr.w	r3, [r1, #-16]
+  1c:	f8c0 3230 	str.w	r3, [r0, #560]	; 0x230
+  20:	f851 3c0c 	ldr.w	r3, [r1, #-12]
+  24:	f8c0 3234 	str.w	r3, [r0, #564]	; 0x234
+  28:	f851 3c08 	ldr.w	r3, [r1, #-8]
+  2c:	f8c0 3238 	str.w	r3, [r0, #568]	; 0x238
+  30:	f851 3c04 	ldr.w	r3, [r1, #-4]
+  34:	f8c0 323c 	str.w	r3, [r0, #572]	; 0x23c
+  38:	d1e4      	bne.n	4 <_ZN5State20set_reference_limitsEPA3_A2_Kf+0x4>
+  3a:	4770      	bx	lr

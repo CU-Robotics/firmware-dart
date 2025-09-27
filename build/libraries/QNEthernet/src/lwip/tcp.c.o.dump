@@ -1,0 +1,3391 @@
+
+build/./libraries/QNEthernet/src/lwip/tcp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 tcp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.tcp_new_port	00000000 .text.tcp_new_port
+00000000 l     F .text.tcp_new_port	00000064 tcp_new_port
+00000000 l    d  .rodata.tcp_close_shutdown_fin.str1.4	00000000 .rodata.tcp_close_shutdown_fin.str1.4
+00000000 l    d  .text.tcp_close_shutdown_fin	00000000 .text.tcp_close_shutdown_fin
+00000000 l     F .text.tcp_close_shutdown_fin	00000070 tcp_close_shutdown_fin
+00000000 l    d  .rodata.tcp_free.part.0.str1.4	00000000 .rodata.tcp_free.part.0.str1.4
+00000000 l    d  .text.tcp_free.part.0	00000000 .text.tcp_free.part.0
+00000000 l     F .text.tcp_free.part.0	0000002c tcp_free.part.0
+00000000 l    d  .rodata.tcp_next_iss.part.0.str1.4	00000000 .rodata.tcp_next_iss.part.0.str1.4
+00000000 l    d  .text.tcp_next_iss.part.0	00000000 .text.tcp_next_iss.part.0
+00000000 l     F .text.tcp_next_iss.part.0	0000002c tcp_next_iss.part.0
+00000000 l    d  .rodata.tcp_eff_send_mss_netif.part.0.str1.4	00000000 .rodata.tcp_eff_send_mss_netif.part.0.str1.4
+00000000 l    d  .text.tcp_eff_send_mss_netif.part.0	00000000 .text.tcp_eff_send_mss_netif.part.0
+00000000 l     F .text.tcp_eff_send_mss_netif.part.0	0000002c tcp_eff_send_mss_netif.part.0
+00000000 l    d  .rodata.tcp_netif_ip_addr_changed_pcblist.part.0.str1.4	00000000 .rodata.tcp_netif_ip_addr_changed_pcblist.part.0.str1.4
+00000000 l    d  .text.tcp_netif_ip_addr_changed_pcblist.part.0	00000000 .text.tcp_netif_ip_addr_changed_pcblist.part.0
+00000000 l     F .text.tcp_netif_ip_addr_changed_pcblist.part.0	0000002c tcp_netif_ip_addr_changed_pcblist.part.0
+00000000 l    d  .text.tcp_init	00000000 .text.tcp_init
+00000000 l    d  .text.tcp_free	00000000 .text.tcp_free
+00000000 l    d  .text.tcp_bind	00000000 .text.tcp_bind
+00000000 l    d  .text.tcp_bind_netif	00000000 .text.tcp_bind_netif
+00000000 l    d  .text.tcp_listen_with_backlog_and_err	00000000 .text.tcp_listen_with_backlog_and_err
+00000000 l     F .text.tcp_accept_null	00000040 tcp_accept_null
+00000000 l    d  .text.tcp_listen_with_backlog	00000000 .text.tcp_listen_with_backlog
+00000000 l    d  .rodata.tcp_update_rcv_ann_wnd.str1.4	00000000 .rodata.tcp_update_rcv_ann_wnd.str1.4
+00000000 l    d  .text.tcp_update_rcv_ann_wnd	00000000 .text.tcp_update_rcv_ann_wnd
+00000000 l    d  .rodata.tcp_recved.str1.4	00000000 .rodata.tcp_recved.str1.4
+00000000 l    d  .text.tcp_recved	00000000 .text.tcp_recved
+00000000 l    d  .text.tcp_connect	00000000 .text.tcp_connect
+00000000 l    d  .text.tcp_txnow	00000000 .text.tcp_txnow
+00000000 l    d  .text.tcp_segs_free	00000000 .text.tcp_segs_free
+00000000 l    d  .text.tcp_seg_free	00000000 .text.tcp_seg_free
+00000000 l    d  .text.tcp_setprio	00000000 .text.tcp_setprio
+00000000 l    d  .rodata.tcp_seg_copy.str1.4	00000000 .rodata.tcp_seg_copy.str1.4
+00000000 l    d  .text.tcp_seg_copy	00000000 .text.tcp_seg_copy
+00000000 l    d  .text.tcp_arg	00000000 .text.tcp_arg
+00000000 l    d  .rodata.tcp_recv.str1.4	00000000 .rodata.tcp_recv.str1.4
+00000000 l    d  .text.tcp_recv	00000000 .text.tcp_recv
+00000000 l    d  .rodata.tcp_sent.str1.4	00000000 .rodata.tcp_sent.str1.4
+00000000 l    d  .text.tcp_sent	00000000 .text.tcp_sent
+00000000 l    d  .rodata.tcp_err.str1.4	00000000 .rodata.tcp_err.str1.4
+00000000 l    d  .text.tcp_err	00000000 .text.tcp_err
+00000000 l    d  .text.tcp_accept	00000000 .text.tcp_accept
+00000000 l    d  .rodata.tcp_poll.str1.4	00000000 .rodata.tcp_poll.str1.4
+00000000 l    d  .text.tcp_poll	00000000 .text.tcp_poll
+00000000 l    d  .text.tcp_pcb_purge	00000000 .text.tcp_pcb_purge
+00000000 l    d  .rodata.tcp_slowtmr.str1.4	00000000 .rodata.tcp_slowtmr.str1.4
+00000000 l    d  .text.tcp_slowtmr	00000000 .text.tcp_slowtmr
+00000000 l    d  .rodata.tcp_pcb_remove.str1.4	00000000 .rodata.tcp_pcb_remove.str1.4
+00000000 l    d  .text.tcp_pcb_remove	00000000 .text.tcp_pcb_remove
+00000000 l    d  .rodata.tcp_abandon.str1.4	00000000 .rodata.tcp_abandon.str1.4
+00000000 l    d  .text.tcp_abandon	00000000 .text.tcp_abandon
+00000000 l    d  .text.tcp_abort	00000000 .text.tcp_abort
+00000000 l    d  .rodata.tcp_accept_null.str1.4	00000000 .rodata.tcp_accept_null.str1.4
+00000000 l    d  .text.tcp_accept_null	00000000 .text.tcp_accept_null
+00000000 l    d  .text.tcp_alloc	00000000 .text.tcp_alloc
+00000000 l    d  .text.tcp_new	00000000 .text.tcp_new
+00000000 l    d  .text.tcp_new_ip_type	00000000 .text.tcp_new_ip_type
+00000000 l    d  .rodata.tcp_close_shutdown.str1.4	00000000 .rodata.tcp_close_shutdown.str1.4
+00000000 l    d  .text.tcp_close_shutdown	00000000 .text.tcp_close_shutdown
+00000000 l     F .text.tcp_close_shutdown	000001bc tcp_close_shutdown
+00000000 l    d  .text.tcp_close	00000000 .text.tcp_close
+00000000 l    d  .text.tcp_shutdown	00000000 .text.tcp_shutdown
+00000000 l    d  .text.tcp_recv_null	00000000 .text.tcp_recv_null
+00000000 l    d  .text.tcp_process_refused_data	00000000 .text.tcp_process_refused_data
+00000000 l    d  .text.tcp_fasttmr	00000000 .text.tcp_fasttmr
+00000000 l    d  .text.tcp_tmr	00000000 .text.tcp_tmr
+00000000 l    d  .text.tcp_next_iss	00000000 .text.tcp_next_iss
+00000000 l    d  .text.tcp_eff_send_mss_netif	00000000 .text.tcp_eff_send_mss_netif
+00000000 l    d  .text.tcp_netif_ip_addr_changed	00000000 .text.tcp_netif_ip_addr_changed
+00000000 l    d  .text.tcp_debug_state_str	00000000 .text.tcp_debug_state_str
+00000000 l    d  .text.tcp_tcp_get_tcp_addrinfo	00000000 .text.tcp_tcp_get_tcp_addrinfo
+00000000 l    d  .text.tcp_free_ooseq	00000000 .text.tcp_free_ooseq
+00000000 l    d  .rodata.str1.4	00000000 .rodata.str1.4
+00000000 l    d  .bss.tcp_active_pcbs	00000000 .bss.tcp_active_pcbs
+00000000 l    d  .bss.tcp_active_pcbs_changed	00000000 .bss.tcp_active_pcbs_changed
+00000000 l    d  .bss.tcp_bound_pcbs	00000000 .bss.tcp_bound_pcbs
+00000000 l    d  .bss.tcp_listen_pcbs	00000000 .bss.tcp_listen_pcbs
+00000000 l    d  .bss.tcp_ticks	00000000 .bss.tcp_ticks
+00000000 l    d  .bss.tcp_timer	00000000 .bss.tcp_timer
+00000000 l     O .bss.tcp_timer	00000001 tcp_timer
+00000000 l    d  .bss.tcp_timer_ctr	00000000 .bss.tcp_timer_ctr
+00000000 l     O .bss.tcp_timer_ctr	00000001 tcp_timer_ctr
+00000000 l    d  .bss.tcp_tw_pcbs	00000000 .bss.tcp_tw_pcbs
+00000000 l    d  .data.iss.0	00000000 .data.iss.0
+00000000 l     O .data.iss.0	00000004 iss.0
+00000000 l    d  .data.tcp_port	00000000 .data.tcp_port
+00000000 l     O .data.tcp_port	00000002 tcp_port
+00000000 l    d  .rodata.__FUNCTION__.1	00000000 .rodata.__FUNCTION__.1
+00000000 l     O .rodata.__FUNCTION__.1	00000009 __FUNCTION__.1
+00000000 l    d  .rodata.__FUNCTION__.10	00000000 .rodata.__FUNCTION__.10
+00000000 l     O .rodata.__FUNCTION__.10	0000000b __FUNCTION__.10
+00000000 l    d  .rodata.__FUNCTION__.11	00000000 .rodata.__FUNCTION__.11
+00000000 l     O .rodata.__FUNCTION__.11	00000020 __FUNCTION__.11
+00000000 l    d  .rodata.__FUNCTION__.12	00000000 .rodata.__FUNCTION__.12
+00000000 l     O .rodata.__FUNCTION__.12	00000018 __FUNCTION__.12
+00000000 l    d  .rodata.__FUNCTION__.13	00000000 .rodata.__FUNCTION__.13
+00000000 l     O .rodata.__FUNCTION__.13	0000000f __FUNCTION__.13
+00000000 l    d  .rodata.__FUNCTION__.14	00000000 .rodata.__FUNCTION__.14
+00000000 l     O .rodata.__FUNCTION__.14	00000009 __FUNCTION__.14
+00000000 l    d  .rodata.__FUNCTION__.15	00000000 .rodata.__FUNCTION__.15
+00000000 l     O .rodata.__FUNCTION__.15	0000000c __FUNCTION__.15
+00000000 l    d  .rodata.__FUNCTION__.16	00000000 .rodata.__FUNCTION__.16
+00000000 l     O .rodata.__FUNCTION__.16	0000000d __FUNCTION__.16
+00000000 l    d  .rodata.__FUNCTION__.17	00000000 .rodata.__FUNCTION__.17
+00000000 l     O .rodata.__FUNCTION__.17	0000000a __FUNCTION__.17
+00000000 l    d  .rodata.__FUNCTION__.2	00000000 .rodata.__FUNCTION__.2
+00000000 l     O .rodata.__FUNCTION__.2	0000000b __FUNCTION__.2
+00000000 l    d  .rodata.__FUNCTION__.3	00000000 .rodata.__FUNCTION__.3
+00000000 l     O .rodata.__FUNCTION__.3	00000008 __FUNCTION__.3
+00000000 l    d  .rodata.__FUNCTION__.4	00000000 .rodata.__FUNCTION__.4
+00000000 l     O .rodata.__FUNCTION__.4	00000009 __FUNCTION__.4
+00000000 l    d  .rodata.__FUNCTION__.5	00000000 .rodata.__FUNCTION__.5
+00000000 l     O .rodata.__FUNCTION__.5	00000009 __FUNCTION__.5
+00000000 l    d  .rodata.__FUNCTION__.6	00000000 .rodata.__FUNCTION__.6
+00000000 l     O .rodata.__FUNCTION__.6	00000008 __FUNCTION__.6
+00000000 l    d  .rodata.__FUNCTION__.7	00000000 .rodata.__FUNCTION__.7
+00000000 l     O .rodata.__FUNCTION__.7	0000000a __FUNCTION__.7
+00000000 l    d  .rodata.__FUNCTION__.8	00000000 .rodata.__FUNCTION__.8
+00000000 l     O .rodata.__FUNCTION__.8	0000000c __FUNCTION__.8
+00000000 l    d  .rodata.__FUNCTION__.9	00000000 .rodata.__FUNCTION__.9
+00000000 l     O .rodata.__FUNCTION__.9	0000000c __FUNCTION__.9
+00000000 l    d  .rodata.tcp_backoff	00000000 .rodata.tcp_backoff
+00000000 l     O .rodata.tcp_backoff	0000000d tcp_backoff
+00000000 l    d  .rodata.tcp_pcb_lists	00000000 .rodata.tcp_pcb_lists
+00000000 l    d  .rodata.tcp_persist_backoff	00000000 .rodata.tcp_persist_backoff
+00000000 l     O .rodata.tcp_persist_backoff	00000007 tcp_persist_backoff
+00000000 l    d  .rodata.tcp_state_str	00000000 .rodata.tcp_state_str
+00000000 l     O .rodata.tcp_state_str	0000002c tcp_state_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 tcp_send_fin
+00000000         *UND*	00000000 tcp_output
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000 g     F .text.tcp_init	00000018 tcp_init
+00000000         *UND*	00000000 qnethernet_hal_rand
+00000000 g     F .text.tcp_free	00000018 tcp_free
+00000000         *UND*	00000000 memp_free
+00000000 g     F .text.tcp_bind	000000d0 tcp_bind
+00000000         *UND*	00000000 qnethernet_hal_check_core_locking
+00000000         *UND*	00000000 tcp_timer_needed
+00000000         *UND*	00000000 ip_addr_any
+00000000 g     F .text.tcp_bind_netif	00000028 tcp_bind_netif
+00000000 g     F .text.tcp_listen_with_backlog_and_err	000000f8 tcp_listen_with_backlog_and_err
+00000000         *UND*	00000000 memp_malloc
+00000000 g     F .text.tcp_listen_with_backlog	00000028 tcp_listen_with_backlog
+00000000 g     F .text.tcp_update_rcv_ann_wnd	0000007c tcp_update_rcv_ann_wnd
+00000000 g     F .text.tcp_recved	00000084 tcp_recved
+00000000 g     F .text.tcp_connect	00000194 tcp_connect
+00000000         *UND*	00000000 netif_get_by_index
+00000000         *UND*	00000000 ip4_route
+00000000         *UND*	00000000 tcp_enqueue_flags
+00000000 g     F .text.tcp_txnow	00000028 tcp_txnow
+00000000 g     F .text.tcp_segs_free	00000022 tcp_segs_free
+00000000         *UND*	00000000 pbuf_free
+00000000 g     F .text.tcp_seg_free	0000001c tcp_seg_free
+00000000 g     F .text.tcp_setprio	00000020 tcp_setprio
+00000000 g     F .text.tcp_seg_copy	00000054 tcp_seg_copy
+00000000         *UND*	00000000 pbuf_ref
+00000000 g     F .text.tcp_arg	00000020 tcp_arg
+00000000 g     F .text.tcp_recv	00000050 tcp_recv
+00000000 g     F .text.tcp_sent	00000050 tcp_sent
+00000000 g     F .text.tcp_err	00000050 tcp_err
+00000000 g     F .text.tcp_accept	00000028 tcp_accept
+00000000 g     F .text.tcp_poll	00000054 tcp_poll
+00000000 g     F .text.tcp_pcb_purge	0000008a tcp_pcb_purge
+00000000 g     F .text.tcp_slowtmr	000004dc tcp_slowtmr
+00000000         *UND*	00000000 tcp_zero_window_probe
+00000000         *UND*	00000000 tcp_split_unsent_seg
+00000000         *UND*	00000000 tcp_rexmit_rto_prepare
+00000000         *UND*	00000000 tcp_rexmit_rto_commit
+00000000         *UND*	00000000 tcp_keepalive
+00000000         *UND*	00000000 tcp_rst
+00000000 g     F .text.tcp_pcb_remove	000000d4 tcp_pcb_remove
+00000000 g     F .text.tcp_abandon	00000178 tcp_abandon
+00000000 g     F .text.tcp_abort	00000006 tcp_abort
+00000000 g     F .text.tcp_alloc	000001ac tcp_alloc
+00000000         *UND*	00000000 memset
+00000000 g     F .text.tcp_recv_null	00000058 tcp_recv_null
+00000000 g     F .text.tcp_new	00000006 tcp_new
+00000000 g     F .text.tcp_new_ip_type	00000006 tcp_new_ip_type
+00000000         *UND*	00000000 tcp_trigger_input_pcb_close
+00000000         *UND*	00000000 tcp_input_pcb
+00000000 g     F .text.tcp_close	0000003c tcp_close
+00000000 g     F .text.tcp_shutdown	00000074 tcp_shutdown
+00000000 g     F .text.tcp_process_refused_data	0000006c tcp_process_refused_data
+00000000 g     F .text.tcp_fasttmr	00000084 tcp_fasttmr
+00000000 g     F .text.tcp_tmr	00000024 tcp_tmr
+00000000 g     F .text.tcp_next_iss	00000020 tcp_next_iss
+00000000 g     F .text.tcp_eff_send_mss_netif	00000022 tcp_eff_send_mss_netif
+00000000 g     F .text.tcp_netif_ip_addr_changed	000000a4 tcp_netif_ip_addr_changed
+00000000 g     F .text.tcp_debug_state_str	0000000c tcp_debug_state_str
+00000000 g     F .text.tcp_tcp_get_tcp_addrinfo	0000002e tcp_tcp_get_tcp_addrinfo
+00000000 g     F .text.tcp_free_ooseq	00000024 tcp_free_ooseq
+00000000 g     O .bss.tcp_active_pcbs_changed	00000001 tcp_active_pcbs_changed
+00000000 g     O .rodata.tcp_pcb_lists	00000010 tcp_pcb_lists
+00000000 g     O .bss.tcp_tw_pcbs	00000004 tcp_tw_pcbs
+00000000 g     O .bss.tcp_active_pcbs	00000004 tcp_active_pcbs
+00000000 g     O .bss.tcp_listen_pcbs	00000004 tcp_listen_pcbs
+00000000 g     O .bss.tcp_bound_pcbs	00000004 tcp_bound_pcbs
+00000000 g     O .bss.tcp_ticks	00000004 tcp_ticks
+
+
+Contents of section .text.tcp_new_port:
+ 0000 f0b4144f 4ff48040 134e4ff6 ff7c3988  ...OO..@.NO..|9.
+ 0010 124d0131 124c2b46 89b26145 08bf4ff4  .M.1.L+F..aE..O.
+ 0020 40411b68 13b90be0 db684bb1 da8a8a42  @A.h.....hK....B
+ 0030 fad10138 80b20028 ebd13980 f0bc7047  ...8...(..9...pG
+ 0040 a64202d0 54f8043f ebe70846 3980f0bc  .B..T..?...F9...
+ 0050 704700bf 00000000 0c000000 00000000  pG..............
+ 0060 00000000                             ....            
+Contents of section .rodata.tcp_close_shutdown_fin.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f7463  rnet/src/lwip/tc
+ 0020 702e6300 70636220 213d204e 554c4c00  p.c.pcb != NULL.
+ 0030 41737365 7274696f 6e202225 73222066  Assertion "%s" f
+ 0040 61696c65 64206174 206c696e 65202564  ailed at line %d
+ 0050 20696e20 25730a00                     in %s..        
+Contents of section .text.tcp_close_shutdown_fin:
+ 0000 10b50446 f8b1037d 042b05d0 072b0dd0  ...F...}.+...+..
+ 0010 032b01d0 002010bd fff7feff 48b90523  .+... ......H..#
+ 0020 20462375 fff7feff 002010bd fff7feff   F#u..... ......
+ 0030 38b1431c efd1638b 002043f0 08036383  8.C...c.. C...c.
+ 0040 10bd0923 ece7074b 4ff4ce72 06490748  ...#...KO..r.I.H
+ 0050 fff7feff 2046fff7 feff0120 fff7feff  .... F..... ....
+ 0060 fff7feff 00000000 24000000 30000000  ........$...0...
+Contents of section .rodata.tcp_free.part.0.str1.4:
+ 0000 7463705f 66726565 3a204c49 5354454e  tcp_free: LISTEN
+ 0010 00                                   .               
+Contents of section .text.tcp_free.part.0:
+ 0000 08b5d422 064b0749 0748fff7 feff0020  ...".K.I.H..... 
+ 0010 fff7feff 0120fff7 fefffff7 feff00bf  ..... ..........
+ 0020 00000000 00000000 30000000           ........0...    
+Contents of section .rodata.tcp_next_iss.part.0.str1.4:
+ 0000 7463705f 6e657874 5f697373 3a20696e  tcp_next_iss: in
+ 0010 76616c69 64207063 6200               valid pcb.      
+Contents of section .text.tcp_next_iss.part.0:
+ 0000 08b540f6 b902064b 06490748 fff7feff  ..@....K.I.H....
+ 0010 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0020 00000000 00000000 30000000           ........0...    
+Contents of section .rodata.tcp_eff_send_mss_netif.part.0.str1.4:
+ 0000 7463705f 6566665f 73656e64 5f6d7373  tcp_eff_send_mss
+ 0010 5f6e6574 69663a20 696e7661 6c696420  _netif: invalid 
+ 0020 6473745f 697000                      dst_ip.         
+Contents of section .text.tcp_eff_send_mss_netif.part.0:
+ 0000 08b540f6 cf02064b 06490748 fff7feff  ..@....K.I.H....
+ 0010 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0020 00000000 00000000 30000000           ........0...    
+Contents of section .rodata.tcp_netif_ip_addr_changed_pcblist.part.0.str1.4:
+ 0000 7463705f 6e657469 665f6970 5f616464  tcp_netif_ip_add
+ 0010 725f6368 616e6765 645f7063 626c6973  r_changed_pcblis
+ 0020 743a2069 6e76616c 6964206f 6c645f61  t: invalid old_a
+ 0030 64647200                             ddr.            
+Contents of section .text.tcp_netif_ip_addr_changed_pcblist.part.0:
+ 0000 08b540f6 0a12064b 06490748 fff7feff  ..@....K.I.H....
+ 0010 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0020 00000000 00000000 30000000           ........0...    
+Contents of section .text.tcp_init:
+ 0000 08b5fff7 feff024b 024a0343 138008bd  .......K.J.C....
+ 0010 00c0ffff 00000000                    ........        
+Contents of section .text.tcp_free:
+ 0000 08b5037d 012b05d0 01460120 bde80840  ...}.+...F. ...@
+ 0010 fff7febf fff7feff                    ........        
+Contents of section .text.tcp_bind:
+ 0000 2de9f041 0f461446 804640f2 9f212a4a  -..A.F.F.F@..!*J
+ 0010 2a48fff7 feff7fb3 b8f1000f 49d098f8  *H..........I...
+ 0020 1430002b 42d198f8 096016f0 04060cbf  .0.+B....`......
+ 0030 04220322 14b32249 224b081f 00eb8200  .".".."I"K......
+ 0040 1b6813b9 13e0db68 8bb1b3f8 16c0a445  .h.....h.......E
+ 0050 f9d116b1 5a7a5207 f5d41a68 1ab13d68  ....ZzR....h..=h
+ 0060 0db1aa42 efd16ff0 0700bde8 f0818142  ...B..o........B
+ 0070 08d051f8 043fe3e7 134fcde7 fff7feff  ..Q..?...O......
+ 0080 044680b1 3b680bb1 c8f80030 0f4ba8f8  .F..;h.....0.K..
+ 0090 16401a68 c3f80080 c8f80c20 fff7feff  .@.h....... ....
+ 00a0 0020bde8 f0816ff0 0100dee7 6ff00500  . ....o.....o...
+ 00b0 dbe76ff0 0f00d8e7 00000000 00000000  ..o.............
+ 00c0 00000000 00000000 00000000 00000000  ................
+Contents of section .text.tcp_bind_netif:
+ 0000 38b50c46 0546064a 40f2fe21 0548fff7  8..F.F.J@..!.H..
+ 0010 feff1cb1 94f84040 0134e4b2 2c7238bd  ......@@.4..,r8.
+ 0020 00000000 00000000                    ........        
+Contents of section .text.tcp_listen_with_backlog_and_err:
+ 0000 70b50446 16464ff4 5671364a 3648fff7  p..F.FO.Vq6J6H..
+ 0010 feff002c 5cd0237d 002b52d1 637a5b07  ...,\.#}.+R.cz[.
+ 0020 14d5324b 1b688bb1 e08a01e0 db686bb1  ..2K.h.......hk.
+ 0030 d98a8142 fad11968 22689142 f6d16ff0  ...B...h"h.B..o.
+ 0040 07030025 06b13370 284670bd 0220fff7  ...%..3p(Fp.. ..
+ 0050 feff0546 00283fd0 2269e38a 02610122  ...F.(?."i...a."
+ 0060 c3820275 627d4275 627a4272 227a0272  ...ub}BubzBr"z.r
+ 0070 e27ac272 a27a8272 22680260 83b9237d  .z.r.z.r"h.`..#}
+ 0080 012b2cd0 21460120 fff7feff 174b1849  .+,.!F. .....K.I
+ 0090 1a68a961 ea601d60 fff7feff 0023d1e7  .h.a.`.`.....#..
+ 00a0 144a1368 a34209d0 2bb1d968 a1420cd0  .J.h.B..+..h.B..
+ 00b0 0b46002b f9d10023 e360e0e7 e3681360  .F.+...#.`...h.`
+ 00c0 f9e76ff0 0e030025 bce7e268 da60f2e7  ..o....%...h.`..
+ 00d0 25466ff0 0f03b5e7 4ff0ff33 b2e7fff7  %Fo.....O..3....
+ 00e0 feff00bf 00000000 00000000 00000000  ................
+ 00f0 00000000 00000000                    ........        
+Contents of section .text.tcp_listen_with_backlog:
+ 0000 38b50d46 0446064a 4ff44f71 0548fff7  8..F.F.JO.Oq.H..
+ 0010 feff2946 20460022 bde83840 fff7febf  ..)F F."..8@....
+ 0020 00000000 00000000                    ........        
+Contents of section .rodata.tcp_update_rcv_ann_wnd.str1.4:
+ 0000 7463705f 75706461 74655f72 63765f61  tcp_update_rcv_a
+ 0010 6e6e5f77 6e643a20 696e7661 6c696420  nn_wnd: invalid 
+ 0020 70636200 6e65775f 7263765f 616e6e5f  pcb.new_rcv_ann_
+ 0030 776e6420 3c3d2030 78666666 6600      wnd <= 0xffff.  
+Contents of section .text.tcp_update_rcv_ann_wnd:
+ 0000 38b50446 e8b1028d 40f6683e c36a416a  8..F....@.h>.jAj
+ 0010 658ed01a 75450844 94bfa0eb 050ca0eb  e...uE.D........
+ 0020 0e0cbcf1 000f06da 5b1a06d4 b3f5803f  ........[......?
+ 0030 16d29ab2 00206285 38bd0022 10466285  ..... b.8..".Fb.
+ 0040 38bd0a4b 40f2aa32 09490a48 fff7feff  8..K@..2.I.H....
+ 0050 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0060 024b40f2 ba320449 efe700bf 00000000  .K@..2.I........
+ 0070 00000000 30000000 24000000           ....0...$...    
+Contents of section .rodata.tcp_recved.str1.4:
+ 0000 646f6e27 74206361 6c6c2074 63705f72  don't call tcp_r
+ 0010 65637665 6420666f 72206c69 7374656e  ecved for listen
+ 0020 2d706362 7300                        -pcbs.          
+Contents of section .text.tcp_recved:
+ 0000 70b50546 0c461b4a 40f2d131 1a48fff7  p..F.F.J@..1.H..
+ 0010 feffadb1 2e7d012e 1cd02b8d 191989b2  .....}....+.....
+ 0020 8b4203d8 41f2d063 994201d9 41f2d061  .B..A..c.B..A..a
+ 0030 28462985 fff7feff 40f2b353 984200d8  (F).....@..S.B..
+ 0040 70bd6b8b 284643f0 02036b83 bde87040  p.k.(FC...k...p@
+ 0050 fff7febf 084b40f2 d6320849 0848fff7  .....K@..2.I.H..
+ 0060 feff0020 fff7feff 3046fff7 fefffff7  ... ....0F......
+ 0070 feff00bf 00000000 00000000 00000000  ................
+ 0080 30000000                             0...            
+Contents of section .text.tcp_connect:
+ 0000 2de9f047 05461746 8846594a 40f23741  -..G.F.F.FYJ@.7A
+ 0010 58489946 fff7feff 002d00f0 a380b8f1  XH.F.....-......
+ 0020 000f00f0 9f802b7d 002b40f0 9880d8f8  ......+}.+@.....
+ 0030 0030287a 2f836b60 68b3fff7 feff8246  .0(z/.k`h......F
+ 0040 baf1000f 00f09180 2b6813b9 daf80030  ........+h.....0
+ 0050 2b60ee8a 26b36b7a 5b0726d5 0221464b  +`..&.kz[.&..!FK
+ 0060 46481c68 1cb953e0 e468002c 50d0e38a  FH.h..S..h.,P...
+ 0070 b342f9d1 238bbb42 f6d12268 2b689a42  .B..#..B.."h+h.B
+ 0080 f2d16268 d8f80030 9a42edd1 6ff00704  ..bh...0.B..o...
+ 0090 2046bde8 f087281d fff7feff 8246cfe7   F....(......F..
+ 00a0 fff7feff e8820028 56d0354a 354b1968  .......(V.5J5K.h
+ 00b0 13680b44 41f2d061 13602b65 013b324a  .h.DA..a.`+e.;2J
+ 00c0 6b64aa62 baf83420 a5f86010 c5e91633  kd.b..4 ..`....3
+ 00d0 00236b62 eb628ab3 282a32d8 01220221  .#kb.b..(*2..".!
+ 00e0 28466b86 c5f88890 a5f84820 fff7feff  (Fk.......H ....
+ 00f0 04460028 ccd10223 2b7586b1 234a1368  .F.(...#+u..#J.h
+ 0100 ab4226d0 5bb1da68 aa4206d0 1346f9e7  .B&.[..h.B...F..
+ 0110 01290346 c9d00121 a3e7ea68 da60164b  .).F...!...h.`.K
+ 0120 1a681d60 ea60fff7 feff194b 01222846  .h.`.`.....K."(F
+ 0130 1a70fff7 feff2046 bde8f087 4ff40673  .p.... F....O..s
+ 0140 cce7283a 93b2b3f5 067f28bf 4ff40673  ..(:......(.O..s
+ 0150 c4e7eb68 1360e2e7 6ff00104 98e76ff0  ...h.`..o.....o.
+ 0160 090495e7 6ff00f04 92e76ff0 03048fe7  ....o.....o.....
+ 0170 00000000 00000000 00000000 00000000  ................
+ 0180 00000000 00000000 d016d016 00000000  ................
+ 0190 00000000                             ....            
+Contents of section .text.tcp_txnow:
+ 0000 084b10b5 1c6814b9 0ae0e468 44b1638b  .K...h.....hD.c.
+ 0010 1b06fad5 2046fff7 feffe468 002cf6d1  .... F.....h.,..
+ 0020 10bd00bf 00000000                    ........        
+Contents of section .text.tcp_segs_free:
+ 0000 70b138b5 04462546 24686868 08b1fff7  p.8..F%F$hhh....
+ 0010 feff2946 0320fff7 feff002c f3d138bd  ..)F. .....,..8.
+ 0020 704700bf                             pG..            
+Contents of section .text.tcp_seg_free:
+ 0000 58b110b5 04464068 08b1fff7 feff2146  X....F@h......!F
+ 0010 0320bde8 1040fff7 febf7047           . ...@....pG    
+Contents of section .text.tcp_setprio:
+ 0000 38b50446 0d46044a 40f27261 0348fff7  8..F.F.J@.ra.H..
+ 0010 feff04b1 657538bd 00000000 00000000  ....eu8.........
+Contents of section .rodata.tcp_seg_copy.str1.4:
+ 0000 7463705f 7365675f 636f7079 3a20696e  tcp_seg_copy: in
+ 0010 76616c69 64207365 6700               valid seg.      
+Contents of section .text.tcp_seg_copy:
+ 0000 38b50546 88b10320 fff7feff 044650b1  8..F... .....FP.
+ 0010 68682968 aa68eb68 60602160 6068a260  hh)h.h.h``!``h.`
+ 0020 e360fff7 feff2046 38bd074b 40f28662  .`.... F8..K@..b
+ 0030 06490748 fff7feff 2846fff7 feff0120  .I.H....(F..... 
+ 0040 fff7feff fff7feff 00000000 00000000  ................
+ 0050 30000000                             0...            
+Contents of section .text.tcp_arg:
+ 0000 38b50446 0d46044a 40f2cf71 0348fff7  8..F.F.J@..q.H..
+ 0010 feff04b1 256138bd 00000000 00000000  ....%a8.........
+Contents of section .rodata.tcp_recv.str1.4:
+ 0000 696e7661 6c696420 736f636b 65742073  invalid socket s
+ 0010 74617465 20666f72 20726563 76206361  tate for recv ca
+ 0020 6c6c6261 636b00                      llback.         
+Contents of section .text.tcp_recv:
+ 0000 70b50446 0d460e4a 40f2e671 0d48fff7  p..F.F.J@..q.H..
+ 0010 feff24b1 267d012e 02d0c4f8 845070bd  ..$.&}.......Pp.
+ 0020 084b4ff4 fd620849 0848fff7 feff0020  .KO..b.I.H..... 
+ 0030 fff7feff 3046fff7 fefffff7 feff00bf  ....0F..........
+ 0040 00000000 00000000 00000000 30000000  ............0...
+Contents of section .rodata.tcp_sent.str1.4:
+ 0000 696e7661 6c696420 736f636b 65742073  invalid socket s
+ 0010 74617465 20666f72 2073656e 74206361  tate for sent ca
+ 0020 6c6c6261 636b00                      llback.         
+Contents of section .text.tcp_sent:
+ 0000 70b50446 0d460e4a 40f2fa71 0d48fff7  p..F.F.J@..q.H..
+ 0010 feff24b1 267d012e 02d0c4f8 805070bd  ..$.&}.......Pp.
+ 0020 084b40f2 fc720849 0848fff7 feff0020  .K@..r.I.H..... 
+ 0030 fff7feff 3046fff7 fefffff7 feff00bf  ....0F..........
+ 0040 00000000 00000000 00000000 30000000  ............0...
+Contents of section .rodata.tcp_err.str1.4:
+ 0000 696e7661 6c696420 736f636b 65742073  invalid socket s
+ 0010 74617465 20666f72 20657272 2063616c  tate for err cal
+ 0020 6c626163 6b00                        lback.          
+Contents of section .text.tcp_err:
+ 0000 70b50446 0d460e4a 40f61401 0d48fff7  p..F.F.J@....H..
+ 0010 feff24b1 267d012e 02d0c4f8 905070bd  ..$.&}.......Pp.
+ 0020 084b40f6 16020849 0848fff7 feff0020  .K@....I.H..... 
+ 0030 fff7feff 3046fff7 fefffff7 feff00bf  ....0F..........
+ 0040 00000000 00000000 00000000 30000000  ............0...
+Contents of section .text.tcp_accept:
+ 0000 38b50446 0d46064a 40f62801 0548fff7  8..F.F.J@.(..H..
+ 0010 feff1cb1 237d012b 08bfa561 38bd00bf  ....#}.+...a8...
+ 0020 00000000 00000000                    ........        
+Contents of section .rodata.tcp_poll.str1.4:
+ 0000 696e7661 6c696420 736f636b 65742073  invalid socket s
+ 0010 74617465 20666f72 20706f6c 6c00      tate for poll.  
+Contents of section .text.tcp_poll:
+ 0000 f8b51346 04460e46 0e4a40f6 45010e48  ...F.F.F.J@.E..H
+ 0010 1d46fff7 feff2cb1 277d012f 03d0c4f8  .F....,.'}./....
+ 0020 8c606577 f8bd084b 40f64802 07490848  .`ew...K@.H..I.H
+ 0030 fff7feff 0020fff7 feff3846 fff7feff  ..... ....8F....
+ 0040 fff7feff 00000000 00000000 00000000  ................
+ 0050 30000000                             0...            
+Contents of section .text.tcp_pcb_purge:
+ 0000 002841d0 70b5037d 05460a2b 01d0012b  .(A.p..}.F.+...+
+ 0010 00d870bd 806f18b1 fff7feff 0023ab67  ..p..o.......#.g
+ 0020 6c6f64b1 26462468 706808b1 fff7feff  lod.&F$hph......
+ 0030 31460320 fff7feff 002cf3d1 6c674ff6  1F. .....,..lgO.
+ 0040 ff73ec6e 2b865cb1 26462468 706808b1  .s.n+.\.&F$hph..
+ 0050 fff7feff 31460320 fff7feff 002cf3d1  ....1F. .....,..
+ 0060 2c6f5cb1 26462468 706808b1 fff7feff  ,o\.&F$hph......
+ 0070 31460320 fff7feff 002cf3d1 0023c5e9  1F. .....,...#..
+ 0080 1b33a5f8 683070bd 704700bf           .3..h0p.pG..    
+Contents of section .rodata.tcp_slowtmr.str1.4:
+ 0000 7463705f 736c6f77 746d723a 20616374  tcp_slowtmr: act
+ 0010 69766520 7063622d 3e737461 74652021  ive pcb->state !
+ 0020 3d20434c 4f534544 00000000 7463705f  = CLOSED....tcp_
+ 0030 736c6f77 746d723a 20616374 69766520  slowtmr: active 
+ 0040 7063622d 3e737461 74652021 3d204c49  pcb->state != LI
+ 0050 5354454e 00000000 7463705f 736c6f77  STEN....tcp_slow
+ 0060 746d723a 20616374 69766520 7063622d  tmr: active pcb-
+ 0070 3e737461 74652021 3d205449 4d452d57  >state != TIME-W
+ 0080 41495400 7463705f 736c6f77 74696d72  AIT.tcp_slowtimr
+ 0090 3a207065 72736973 74207469 636b696e  : persist tickin
+ 00a0 67207769 74682069 6e2d666c 69676874  g with in-flight
+ 00b0 20646174 61000000 7463705f 736c6f77   data...tcp_slow
+ 00c0 74696d72 3a207065 72736973 74207469  timr: persist ti
+ 00d0 636b696e 67207769 74682065 6d707479  cking with empty
+ 00e0 2073656e 64206275 66666572 00000000   send buffer....
+ 00f0 7463705f 736c6f77 746d723a 206d6964  tcp_slowtmr: mid
+ 0100 646c6520 74637020 213d2074 63705f61  dle tcp != tcp_a
+ 0110 63746976 655f7063 62730000 7463705f  ctive_pcbs..tcp_
+ 0120 736c6f77 746d723a 20666972 73742070  slowtmr: first p
+ 0130 6362203d 3d207463 705f6163 74697665  cb == tcp_active
+ 0140 5f706362 73000000 7463705f 736c6f77  _pcbs...tcp_slow
+ 0150 746d723a 2054494d 452d5741 49542070  tmr: TIME-WAIT p
+ 0160 63622d3e 73746174 65203d3d 2054494d  cb->state == TIM
+ 0170 452d5741 49540000 7463705f 736c6f77  E-WAIT..tcp_slow
+ 0180 746d723a 206d6964 646c6520 74637020  tmr: middle tcp 
+ 0190 213d2074 63705f74 775f7063 62730000  != tcp_tw_pcbs..
+ 01a0 7463705f 736c6f77 746d723a 20666972  tcp_slowtmr: fir
+ 01b0 73742070 6362203d 3d207463 705f7477  st pcb == tcp_tw
+ 01c0 5f706362 7300                        _pcbs.          
+Contents of section .text.tcp_slowtmr:
+ 0000 2de9f04f aa4f87b0 dff8bc92 3b68dff8  -..O.O......;h..
+ 0010 bca20133 3b6099f8 00300133 89f80030  ...3;`...0.3...0
+ 0020 a44b1e68 002e00f0 ad804ff0 0008347d  .K.h......O...4}
+ 0030 002c00f0 f581012c 00f0e381 0a2c00f0  .,.....,.....,..
+ 0040 fe8199f8 0030b27f 9a4200f0 1b81022c  .....0...B.....,
+ 0050 b37796f8 423000f0 f6800b2b 00f2f180  .w..B0.....+....
+ 0060 96f89950 002d00f0 3381326f 002a40f0  ...P.-..3.2o.*@.
+ 0070 0382f36e 002b00f0 f58196f8 9a300b2b  ...n.+.......0.+
+ 0080 00f2df80 8c4b2b44 13f8011c 96f89830  .....K+D.......0
+ 0090 8b42c0f0 a581b6f8 6050002d 40f08680  .B......`P.-@...
+ 00a0 3046fff7 feff0028 00f08780 347d062c  0F.....(....4}.,
+ 00b0 00f09280 96f809b0 1bf0080b 1bd0042c  ...............,
+ 00c0 07d0a4f1 0704b4fa 84f46409 002c00f0  ..........d..,..
+ 00d0 8d80316a 3b68d6f8 94205b1a 77497848  ..1j;h... [.wIxH
+ 00e0 5118a0fb 0101b3eb 511f40f2 47810135  Q.......Q.@.G..5
+ 00f0 4ff0010b edb2746f 54b13b68 326a9a1a  O.....toT.;h2j..
+ 0100 b6f94030 03eb4303 b2eb430f 80f0c080  ..@0..C...C.....
+ 0110 337d032b 6dd0092b 70d13b68 326a9b1a  3}.+m..+p.;h2j..
+ 0120 f02b6bd9 3046d6f8 9040fff7 feff614b  .+k.0F...@....aK
+ 0130 1b68b8f1 000f00f0 4781b342 00f08d81  .h......G..B....
+ 0140 f368c8f8 0c30bbf1 000f40f0 3081337d  .h...0....@.0.3}
+ 0150 012bd6e9 035b00f0 77813146 0120fff7  .+...[..w.1F. ..
+ 0160 feff0023 8af80030 44b16ff0 0c015846  ...#...0D.o...XF
+ 0170 a0479af8 0030002b 7ff452af 2e46002e  .G...0.+..R..F..
+ 0180 7ff455af 4f4e3468 6cb10025 237d0a2b  ..U.ON4hl..%#}.+
+ 0190 40f05e81 3b68226a 9b1af02b 5ad82546  @.^.;h"j...+Z.%F
+ 01a0 e468002c f2d107b0 bde8f08f 29463046  .h.,........)F0F
+ 01b0 fff7feff 002800f0 1c8196f8 99300025  .....(.......0.%
+ 01c0 062b86f8 98503ff6 71af347d 0133062c  .+...P?.q.4}.3.,
+ 01d0 86f89930 7ff46eaf 738bdb06 06d53b68  ...0..n.s.....;h
+ 01e0 326a9b1a 282b01d9 0135edb2 4ff0000b  2j..(+...5..O...
+ 01f0 81e73b68 326a9b1a 282b93d8 002d91d1  ..;h2j..(+...-..
+ 0200 337f727f 0133f468 dbb29a42 337712d8  3.r..3.h...B3w..
+ 0210 d6f88c30 35778af8 0050002b 00f0a580  ...05w...P.+....
+ 0220 31463069 98479af8 0030002b 7ff4f8ae  1F0i.G...0.+....
+ 0230 002800f0 9a80b046 2646002e 7ff4f7ae  .(.....F&F......
+ 0240 a0e70125 33e7052b 7ff60aaf 4ff0000b  ...%3..+....O...
+ 0250 012550e7 2046fff7 feff002d 00f0ba80  .%P. F.....-....
+ 0260 3368a342 00f00381 e368eb60 227d012a  3h.B.....h.`"}.*
+ 0270 00f0ea80 21461c46 0120fff7 feff002c  ....!F.F. .....,
+ 0280 84d190e7 b046f668 002e7ff4 d0ae79e7  .....F.h......y.
+ 0290 05952546 24686868 08b1fff7 feff2946  ..%F$hhh......)F
+ 02a0 0320fff7 feff002c f3d1059d 74672fe7  . .....,....tg/.
+ 02b0 00000000 00000000 00000000 b84c0a00  .............L..
+ 02c0 d34d6210 00000000 00000000 00000000  .Mb.............
+ 02d0 b6f93030 47f6fe71 9ab28a42 02d80132  ..00G..q...B...2
+ 02e0 13b23386 b6f94020 9a423ff7 e0ae3046  ..3...@ .B?...0F
+ 02f0 fff7feff 38b1336f 002b7ff4 d7aef36e  ....8.3o.+.....n
+ 0300 002b3ff4 d3ae337d 022b14d0 96f84220  .+?...3}.+....B 
+ 0310 b6f93c10 0c2ab6f9 3e3028bf 0c2203eb  ..<..*..>0(.."..
+ 0320 e1035d49 8a5c9340 47f6ff72 9342a8bf  ..]I.\.@G..r.B..
+ 0330 1346a6f8 4030738e 3046b6f8 4810a6f8  .F..@0s.0F..H...
+ 0340 48305b00 9ab2b6f8 60308b42 28bf0b46  H0[.....`0.B(..F
+ 0350 5b089342 38bf1346 a6f84a30 00233386  [..B8..F..J0.#3.
+ 0360 a6f86a30 fff7feff a0e63046 b0462646  ..j0......0F.F&F
+ 0370 fff7feff 002e7ff4 5aae03e7 96f89b10  ........Z.......
+ 0380 464800fb 01224649 a1fb0212 b3eb521f  FH..."FI......R.
+ 0390 7ff62caf 3046fff7 feff0028 7ff426af  ..,.0F.....(..&.
+ 03a0 96f89b30 83460133 86f89b30 a3e6338b  ...0.F.3...0..3.
+ 03b0 3046726a 316d0293 f38a0193 331d0093  0Frj1m......3...
+ 03c0 3346fff7 feffc2e6 b3425ad1 f368354a  3F.......BZ..h5J
+ 03d0 1360b8e6 3368a342 58d1e368 336045e7  .`..3h.BX..h3`E.
+ 03e0 0133dbb2 8b4286f8 9830bff4 54ae1546  .3...B...0..T..F
+ 03f0 5de63046 fff7feff 00287ff4 deae0546  ].0F.....(.....F
+ 0400 54e6294b 40f2c342 28492948 fff7feff  T.)K@..B(I)H....
+ 0410 0020fff7 feff2046 fff7feff fff7feff  . .... F........
+ 0420 214b40f2 c2422349 2148fff7 feff0020  !K@..B#I!H..... 
+ 0430 fff7feff 0120fff7 fefffff7 feff1a4b  ..... .........K
+ 0440 40f2c442 1c49efe7 174bd422 1b49ebe7  @..B.I...K.".I..
+ 0450 154b40f2 a5521a49 e6e7134b 40f27152  .K@..R.I...K@.qR
+ 0460 1849e1e7 104b40f2 d9421749 dce70e4b  .I...K@..B.I...K
+ 0470 40f2b352 1549d7e7 0b4b4ff4 9b621449  @..R.I...KO..b.I
+ 0480 d2e7094b 40f27552 1249cde7 064b40f2  ...K@.uR.I...K@.
+ 0490 b7521149 c8e700bf 00000000 f8240100  .R.I.........$..
+ 04a0 d34d6210 00000000 00000000 2c000000  .Mb.........,...
+ 04b0 30000000 00000000 58000000 00000000  0.......X.......
+ 04c0 48010000 f0000000 b8000000 78010000  H...........x...
+ 04d0 84000000 1c010000 a0010000           ............    
+Contents of section .rodata.tcp_pcb_remove.str1.4:
+ 0000 7463705f 7063625f 72656d6f 76653a20  tcp_pcb_remove: 
+ 0010 696e7661 6c696420 70636200 7463705f  invalid pcb.tcp_
+ 0020 7063625f 72656d6f 76653a20 696e7661  pcb_remove: inva
+ 0030 6c696420 7063626c 69737400 756e7365  lid pcblist.unse
+ 0040 6e742073 65676d65 6e747320 6c65616b  nt segments leak
+ 0050 696e6700 756e6163 6b656420 7365676d  ing.unacked segm
+ 0060 656e7473 206c6561 6b696e67 00000000  ents leaking....
+ 0070 6f6f7365 71207365 676d656e 7473206c  ooseq segments l
+ 0080 65616b69 6e6700                      eaking.         
+Contents of section .text.tcp_pcb_remove:
+ 0000 70b50c46 002934d0 002841d0 03688b42  p..F.)4..(A..h.B
+ 0010 1fd02bb1 da68a242 28d01346 002bf9d1  ..+..h.B(..F.+..
+ 0020 00232046 e360fff7 feff237d 0a2b1ad0  .# F.`....#}.+..
+ 0030 012b0ad0 638bda07 0ed4e66e 002e31d1  .+..c......n..1.
+ 0040 256f002d 33d1636f 3bbb0023 2375e382  %o.-3.co;..##u..
+ 0050 70bdcb68 0360e3e7 43f00203 20466383  p..h.`..C... Fc.
+ 0060 fff7feff 237d012b e7d1eee7 e268da60  ....#}.+.....h.`
+ 0070 d6e7114b 40f68d02 10491148 fff7feff  ...K@....I.H....
+ 0080 0020fff7 feff0120 fff7feff fff7feff  . ..... ........
+ 0090 094b40f6 8e020b49 efe7074b 4ff40a62  .K@....I...KO..b
+ 00a0 0949eae7 044b40f6 9d020849 e5e7024b  .I...K@....I...K
+ 00b0 40f69e02 0649e0e7 00000000 00000000  @....I..........
+ 00c0 30000000 1c000000 70000000 3c000000  0.......p...<...
+ 00d0 54000000                             T...            
+Contents of section .rodata.tcp_abandon.str1.4:
+ 0000 646f6e27 74206361 6c6c2074 63705f61  don't call tcp_a
+ 0010 626f7274 2f746370 5f616261 6e646f6e  bort/tcp_abandon
+ 0020 20666f72 206c6973 74656e2d 70636273   for listen-pcbs
+ 0030 00                                   .               
+Contents of section .text.tcp_abandon:
+ 0000 2de9f04f 054687b0 0e46534a 40f23b21  -..O.F...FSJ@.;!
+ 0010 5248fff7 feff002d 64d02c7d 012c00f0  RH.....-d.,}.,..
+ 0020 89800a2c 78d02b6d d5f824b0 d5f89080  ...,x.+m..$.....
+ 0030 d5f81090 05936cb9 ef8a002f 55d0484a  ......l..../U.HJ
+ 0040 1368ab42 65d0002b 53d0da68 aa424ed0  .h.Be..+S..h.BN.
+ 0050 1346f8e7 29464348 ef8afff7 feff424b  .F..)FCH......BK
+ 0060 01221a70 2c6f64b1 a2462468 daf80400  .".p,od..F$h....
+ 0070 08b1fff7 feff5146 0320fff7 feff002c  ......QF. .....,
+ 0080 f2d1ec6e 64b1a246 2468daf8 040008b1  ...nd..F$h......
+ 0090 fff7feff 51460320 fff7feff 002cf2d1  ....QF. .....,..
+ 00a0 6c6f64b1 a2462468 daf80400 08b1fff7  lod..F$h........
+ 00b0 feff5146 0320fff7 feff002c f2d1e6b9  ..QF. .....,....
+ 00c0 2b7d012b 45d02946 0120fff7 feffb8f1  +}.+E.)F. ......
+ 00d0 000f07d0 6ff00c01 48464346 07b0bde8  ....o...HFCF....
+ 00e0 f04f1847 07b0bde8 f08f3e46 bae7ea68  .O.G......>F...h
+ 00f0 da600027 3e46ef60 b4e70197 5a462b8b  .`.'>F.`....ZF+.
+ 0100 28460599 02932b1d 00932b46 fff7feff  (F....+...+F....
+ 0110 d6e7eb68 1360ece7 29461448 fff7feff  ...h.`..)F.H....
+ 0120 2b7d012b 15d02946 012007b0 bde8f04f  +}.+..)F. .....O
+ 0130 fff7febf 094b4ff4 10720d49 0d48fff7  .....KO..r.I.H..
+ 0140 feff0020 fff7feff 2046fff7 fefffff7  ... .... F......
+ 0150 fefffff7 feff00bf 00000000 00000000  ................
+ 0160 00000000 00000000 00000000 00000000  ................
+ 0170 00000000 30000000                    ....0...        
+Contents of section .text.tcp_abort:
+ 0000 0121fff7 febf00bf                    .!......        
+Contents of section .rodata.tcp_accept_null.str1.4:
+ 0000 7463705f 61636365 70745f6e 756c6c3a  tcp_accept_null:
+ 0010 20696e76 616c6964 20706362 00         invalid pcb.   
+Contents of section .text.tcp_accept_null:
+ 0000 10b50c46 31b10846 0121fff7 feff6ff0  ...F1..F.!....o.
+ 0010 0c0010bd 074b4ff4 44720749 0748fff7  .....KO.Dr.I.H..
+ 0020 feff2046 fff7feff 0120fff7 fefffff7  .. F..... ......
+ 0030 feff00bf 00000000 00000000 30000000  ............0...
+Contents of section .text.tcp_alloc:
+ 0000 f8b55f4a 40f23271 05465e48 fff7feff  .._J@.2q.F^H....
+ 0010 0120fff7 feff0346 20b39c22 00211846  . .....F ..".!.F
+ 0020 41f2d064 fff7feff 57490346 06220978  A..d....WI.F.".x
+ 0030 5648a3f8 40200068 da879977 544a5549  VH..@ .h...wTJUI
+ 0040 a3f86440 1862544c 5448c3f8 8410c3f8  ..d@.bTLTH......
+ 0050 9420ff22 52499864 18465d75 1c639962  . ."RI.d.F]u.c.b
+ 0060 da72f8bd 4f4e3468 5cb12046 e468438b  .r..ON4h\. F.hC.
+ 0070 1907f9d5 23f00803 4383fff7 feff002c  ....#...C......,
+ 0080 f3d1494b 1b6893b1 404a1846 196a1468  ..IK.h..@J.F.j.h
+ 0090 611adb68 43b11a6a a21a8a42 f9d31846  a..hC..j...B...F
+ 00a0 db681146 002bf6d1 0121fff7 feff0120  .h.F.+...!..... 
+ 00b0 fff7feff 03460028 afd13168 91b1334a  .....F.(..1h..3J
+ 00c0 146801e0 c96849b1 0a7d092a fad10a6a  .h...hI..}.*...j
+ 00d0 a21a8242 f6d30b46 1046f3e7 13b11846  ...B...F.F.....F
+ 00e0 fff7feff 0120fff7 feff0346 002894d1  ..... .....F.(..
+ 00f0 316891b1 254a1468 01e0c968 49b10a7d  1h..%J.h...hI..}
+ 0100 082afad1 0a6aa21a 8242f6d3 0b461046  .*...j...B...F.F
+ 0110 f3e713b1 1846fff7 feff0120 fff7feff  .....F..... ....
+ 0120 03460028 7ff479af 2a0627d4 edb12a46  .F.(..y.*.'...*F
+ 0130 511e3268 c9b2c2b1 14480026 076805e0  Q.2h.....H.&.h..
+ 0140 146a3e1b 01461346 d2684ab1 507d8842  .j>..F.F.hJ.P}.B
+ 0150 f6d3f9d1 146aa7eb 040eb645 f4d3f0e7  .....j.....E....
+ 0160 1bb10121 1846fff7 feff0120 fff7feff  ...!.F..... ....
+ 0170 03460028 7ff451af 1846f8bd 7f22d7e7  .F.(..Q..F..."..
+ 0180 00000000 00000000 00000000 00000000  ................
+ 0190 00dd6d00 00000000 ffff1802 0100d016  ..m.............
+ 01a0 d016d016 00000000 00000000           ............    
+Contents of section .text.tcp_new:
+ 0000 4020fff7 febf00bf                    @ ......        
+Contents of section .text.tcp_new_ip_type:
+ 0000 4020fff7 febf00bf                    @ ......        
+Contents of section .rodata.tcp_close_shutdown.str1.4:
+ 0000 7463705f 636c6f73 655f7368 7574646f  tcp_close_shutdo
+ 0010 776e3a20 696e7661 6c696420 70636200  wn: invalid pcb.
+ 0020 7063622d 3e666c61 67732026 2054465f  pcb->flags & TF_
+ 0030 5258434c 4f534544 00000000 7463705f  RXCLOSED....tcp_
+ 0040 66726565 5f6c6973 74656e3a 20214c49  free_listen: !LI
+ 0050 5354454e 00                          STEN.           
+Contents of section .text.tcp_close_shutdown:
+ 0000 30b50446 85b00028 00f09680 037d59b9  0..F...(.....}Y.
+ 0010 012b4fd0 022b60d0 002b6ad0 204605b0  .+O..+`..+j. F..
+ 0020 bde83040 fff7febf 042b01d0 072befd1  ..0@.....+...+..
+ 0030 a26f002a 32d0638b 13f01005 00f08b80  .o.*2.c.........
+ 0040 218b201d e28a2346 cde90121 626a216d  !. ...#F...!bj!m
+ 0050 00902046 fff7feff 2046fff7 feff4c4a  .. F.... F....LJ
+ 0060 1368a342 23d033b1 da68a242 01d01346  .h.B#.3..h.B...F
+ 0070 f9e7e268 da60474b 0020474a 01211b68  ...h.`GK. GJ.!.h
+ 0080 e060a342 11700fd0 237d012b 2fd02146  .`.B.p..#}.+/.!F
+ 0090 0120fff7 feff0020 05b030bd 218d41f2  . ..... ..0.!.A.
+ 00a0 d0629142 c7d1b3e7 fff7feff f3e7e368  .b.B...........h
+ 00b0 1360e0e7 39490020 394b01f1 08051b68  .`..9I. 9K.....h
+ 00c0 33b1da6f 944208bf d867db68 002bf8d1  3..o.B...g.h.+..
+ 00d0 a9421bd0 51f8043f f1e72146 2c48fff7  .B..Q..?..!F,H..
+ 00e0 feff0121 237d2c4a 8b421170 cfd1fff7  ...!#},J.B.p....
+ 00f0 feffe38a 002bcad0 294a1368 a34218d0  .....+..)J.h.B..
+ 0100 a3b1da68 a2420fd0 1346f9e7 21462548  ...h.B...F..!F%H
+ 0110 fff7feff 257d012d 2cd02146 0220fff7  ....%}.-,.!F. ..
+ 0120 feff0020 05b030bd e268da60 0023e360  ... ..0..h.`.#.`
+ 0130 ade7e368 1360f9e7 1b4b4ff4 af721b49  ...h.`...KO..r.I
+ 0140 1b48fff7 feff2046 fff7feff 0120fff7  .H.... F..... ..
+ 0150 fefffff7 feff144b 4ff4b272 15491448  .......KO..r.I.H
+ 0160 fff7feff 2846fff7 feff0120 fff7feff  ....(F..... ....
+ 0170 fff7feff 0c4bdf22 0f490d48 fff7feff  .....K.".I.H....
+ 0180 0020fff7 feff2846 fff7feff fff7feff  . ....(F........
+ 0190 00000000 00000000 00000000 04000000  ................
+ 01a0 00000000 00000000 00000000 00000000  ................
+ 01b0 30000000 20000000 3c000000           0... ...<...    
+Contents of section .text.tcp_close:
+ 0000 10b50446 0b4a4ff4 f3710b48 fff7feff  ...F.JO..q.H....
+ 0010 64b1237d 012b03d0 638b43f0 10036383  d.#}.+..c.C...c.
+ 0020 20460121 bde81040 fff7febf 6ff00f00   F.!...@....o...
+ 0030 10bd00bf 00000000 00000000           ............    
+Contents of section .text.tcp_shutdown:
+ 0000 70b50446 0e461546 40f20521 174a1848  p..F.F.F@..!.J.H
+ 0010 fff7feff 3cb3237d 012b05d0 3eb9d5b1  ....<.#}.+..>...
+ 0020 042b10d8 022b10d8 6ff00a00 70bd638b  .+...+..o...p.c.
+ 0030 43f01003 638385b9 a06f60b1 fff7feff  C...c....o`.....
+ 0040 2846a567 70bd072b eed12046 0021bde8  (F.gp..+.. F.!..
+ 0050 7040fff7 febf0020 70bd2046 0121bde8  p@..... p. F.!..
+ 0060 7040fff7 febf6ff0 0f0070bd 00000000  p@....o...p.....
+ 0070 00000000                             ....            
+Contents of section .text.tcp_recv_null:
+ 0000 11b338b5 14460d46 42b11189 2846fff7  ..8..F.FB...(F..
+ 0010 feff2046 fff7feff 002038bd 0bb11046  .. F..... 8....F
+ 0020 38bd0b4a 4ff4f371 0a48fff7 feff2b7d  8..JO..q.H....+}
+ 0030 012b03d0 6b8b43f0 10036b83 28460121  .+..k.C...k.(F.!
+ 0040 bde83840 fff7febf 6ff00f00 704700bf  ..8@....o...pG..
+ 0050 00000000 00000000                    ........        
+Contents of section .text.tcp_process_refused_data:
+ 0000 88b3f8b5 856f0023 d0f88460 04466f7b  .....o.#...`.Fo{
+ 0010 836756b1 01462a46 0069b047 58b10d30  .gV..F*F.i.GX..0
+ 0020 1ed06ff0 0400a567 f8bd2989 fff7feff  ..o....g..).....
+ 0030 2846fff7 feffbb06 10d5238d 41f2d062  (F........#.A..b
+ 0040 934201d0 01332385 d4f88450 35b10023  .B...3#....P5..#
+ 0050 21462069 1a46a847 0d3001d0 0020f8bd  !F i.F.G.0... ..
+ 0060 6ff00c00 f8bd6ff0 0f007047           o.....o...pG    
+Contents of section .text.tcp_fasttmr:
+ 0000 2de9f843 1c4d0027 dff87480 2b781b4e  -..C.M.'..t.+x.N
+ 0010 01332b70 d8f80040 bcb12a78 a37f9342  .3+p...@..*x...B
+ 0020 15d0638b a277d907 1ad41a07 11d4a36f  ..c..w.........o
+ 0030 d4f80c90 33b12046 3770fff7 feff3378  ....3. F7p....3x
+ 0040 002be7d1 4c46002c e7d1bde8 f883e468  .+..LF.,.......h
+ 0050 e2e723f0 08032046 6383fff7 feffe6e7  ..#... Fc.......
+ 0060 43f00203 20466383 fff7feff 638b23f0  C... Fc.....c.#.
+ 0070 03039bb2 6383d8e7 00000000 00000000  ....c...........
+ 0080 00000000                             ....            
+Contents of section .text.tcp_tmr:
+ 0000 08b5fff7 feff064a 13780133 dbb21370  .......J.x.3...p
+ 0010 db0700d4 08bdbde8 0840fff7 febf00bf  .........@......
+ 0020 00000000                             ....            
+Contents of section .text.tcp_next_iss:
+ 0000 08b530b1 044b054a 18681268 10441860  ..0..K.J.h.h.D.`
+ 0010 08bdfff7 feff00bf 00000000 00000000  ................
+Contents of section .text.tcp_eff_send_mss_netif:
+ 0000 08b562b1 41b18b8e 33b1282b 05d9283b  ..b.A...3.(+..(;
+ 0010 9bb29842 28bf1846 08bd0020 08bdfff7  ...B(..F... ....
+ 0020 feff00bf                             ....            
+Contents of section .text.tcp_netif_ip_addr_changed:
+ 0000 00283cd0 0268f8b5 054602b9 f8bd224b  .(<..h...F...."K
+ 0010 0e461c68 a4b12168 4ff6a967 8a4205d0  .F.h..!hO..g.B..
+ 0020 e4686cb1 2a682168 8a42f9d1 92b22046  .hl.*h!h.B.... F
+ 0030 0121ba42 f4d0e468 fff7feff 002cf1d1  .!.B...h.....,..
+ 0040 164b1c68 44b14ff6 a9672268 29688a42  .K.hD.O..g"h)h.B
+ 0050 16d0e468 002cf8d1 002ed7d0 3368002b  ...h.,......3h.+
+ 0060 d4d00f4b 1b68002b d0d01968 2a689142  ...K.h.+...h*h.B
+ 0070 01d13268 1a60db68 002bf6d1 f8bd7047  ..2h.`.h.+....pG
+ 0080 92b22046 0121ba42 e3d0e468 fff7feff  .. F.!.B...h....
+ 0090 002cdad1 e0e700bf 00000000 00000000  .,..............
+ 00a0 00000000                             ....            
+Contents of section .text.tcp_debug_state_str:
+ 0000 014b53f8 20007047 00000000           .KS. .pG....    
+Contents of section .text.tcp_tcp_get_tcp_addrinfo:
+ 0000 90b139b1 0ab10168 11605bb1 c28a0020  ..9....h.`[.... 
+ 0010 1a807047 0ab14168 11601bb1 028b0020  ..pG..Ah.`..... 
+ 0020 1a807047 00207047 6ff00500 704700bf  ..pG. pGo...pG..
+Contents of section .text.tcp_free_ooseq:
+ 0000 70b5446f 6cb10646 25462468 686808b1  p.Dol..F%F$hhh..
+ 0010 fff7feff 29460320 fff7feff 002cf3d1  ....)F. .....,..
+ 0020 746770bd                             tgp.            
+Contents of section .rodata.str1.4:
+ 0000 434c4f53 45440000 4c495354 454e0000  CLOSED..LISTEN..
+ 0010 53594e5f 53454e54 00000000 53594e5f  SYN_SENT....SYN_
+ 0020 52435644 00000000 45535441 424c4953  RCVD....ESTABLIS
+ 0030 48454400 46494e5f 57414954 5f310000  HED.FIN_WAIT_1..
+ 0040 46494e5f 57414954 5f320000 434c4f53  FIN_WAIT_2..CLOS
+ 0050 455f5741 49540000 434c4f53 494e4700  E_WAIT..CLOSING.
+ 0060 4c415354 5f41434b 00000000 54494d45  LAST_ACK....TIME
+ 0070 5f574149 5400                        _WAIT.          
+Contents of section .data.iss.0:
+ 0000 6e190000                             n...            
+Contents of section .data.tcp_port:
+ 0000 00c0                                 ..              
+Contents of section .rodata.__FUNCTION__.1:
+ 0000 7463705f 706f6c6c 00                 tcp_poll.       
+Contents of section .rodata.__FUNCTION__.10:
+ 0000 7463705f 72656376 656400             tcp_recved.     
+Contents of section .rodata.__FUNCTION__.11:
+ 0000 7463705f 6c697374 656e5f77 6974685f  tcp_listen_with_
+ 0010 6261636b 6c6f675f 616e645f 65727200  backlog_and_err.
+Contents of section .rodata.__FUNCTION__.12:
+ 0000 7463705f 6c697374 656e5f77 6974685f  tcp_listen_with_
+ 0010 6261636b 6c6f6700                    backlog.        
+Contents of section .rodata.__FUNCTION__.13:
+ 0000 7463705f 62696e64 5f6e6574 696600    tcp_bind_netif. 
+Contents of section .rodata.__FUNCTION__.14:
+ 0000 7463705f 62696e64 00                 tcp_bind.       
+Contents of section .rodata.__FUNCTION__.15:
+ 0000 7463705f 6162616e 646f6e00           tcp_abandon.    
+Contents of section .rodata.__FUNCTION__.16:
+ 0000 7463705f 73687574 646f776e 00        tcp_shutdown.   
+Contents of section .rodata.__FUNCTION__.17:
+ 0000 7463705f 636c6f73 6500               tcp_close.      
+Contents of section .rodata.__FUNCTION__.2:
+ 0000 7463705f 61636365 707400             tcp_accept.     
+Contents of section .rodata.__FUNCTION__.3:
+ 0000 7463705f 65727200                    tcp_err.        
+Contents of section .rodata.__FUNCTION__.4:
+ 0000 7463705f 73656e74 00                 tcp_sent.       
+Contents of section .rodata.__FUNCTION__.5:
+ 0000 7463705f 72656376 00                 tcp_recv.       
+Contents of section .rodata.__FUNCTION__.6:
+ 0000 7463705f 61726700                    tcp_arg.        
+Contents of section .rodata.__FUNCTION__.7:
+ 0000 7463705f 616c6c6f 6300               tcp_alloc.      
+Contents of section .rodata.__FUNCTION__.8:
+ 0000 7463705f 73657470 72696f00           tcp_setprio.    
+Contents of section .rodata.__FUNCTION__.9:
+ 0000 7463705f 636f6e6e 65637400           tcp_connect.    
+Contents of section .rodata.tcp_backoff:
+ 0000 01020304 05060707 07070707 07        .............   
+Contents of section .rodata.tcp_pcb_lists:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata.tcp_persist_backoff:
+ 0000 03060c18 306078                      ....0`x         
+Contents of section .rodata.tcp_state_str:
+ 0000 00000000 08000000 10000000 1c000000  ................
+ 0010 28000000 34000000 40000000 4c000000  (...4...@...L...
+ 0020 58000000 60000000 6c000000           X...`...l...    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.tcp_new_port:
+
+00000000 <tcp_new_port>:
+   0:	b4f0      	push	{r4, r5, r6, r7}
+   2:	4f14      	ldr	r7, [pc, #80]	; (54 <tcp_new_port+0x54>)
+   4:	f44f 4080 	mov.w	r0, #16384	; 0x4000
+   8:	4e13      	ldr	r6, [pc, #76]	; (58 <tcp_new_port+0x58>)
+   a:	f64f 7cff 	movw	ip, #65535	; 0xffff
+   e:	8839      	ldrh	r1, [r7, #0]
+  10:	4d12      	ldr	r5, [pc, #72]	; (5c <tcp_new_port+0x5c>)
+  12:	3101      	adds	r1, #1
+  14:	4c12      	ldr	r4, [pc, #72]	; (60 <tcp_new_port+0x60>)
+  16:	462b      	mov	r3, r5
+  18:	b289      	uxth	r1, r1
+  1a:	4561      	cmp	r1, ip
+  1c:	bf08      	it	eq
+  1e:	f44f 4140 	moveq.w	r1, #49152	; 0xc000
+  22:	681b      	ldr	r3, [r3, #0]
+  24:	b913      	cbnz	r3, 2c <tcp_new_port+0x2c>
+  26:	e00b      	b.n	40 <tcp_new_port+0x40>
+  28:	68db      	ldr	r3, [r3, #12]
+  2a:	b14b      	cbz	r3, 40 <tcp_new_port+0x40>
+  2c:	8ada      	ldrh	r2, [r3, #22]
+  2e:	428a      	cmp	r2, r1
+  30:	d1fa      	bne.n	28 <tcp_new_port+0x28>
+  32:	3801      	subs	r0, #1
+  34:	b280      	uxth	r0, r0
+  36:	2800      	cmp	r0, #0
+  38:	d1eb      	bne.n	12 <tcp_new_port+0x12>
+  3a:	8039      	strh	r1, [r7, #0]
+  3c:	bcf0      	pop	{r4, r5, r6, r7}
+  3e:	4770      	bx	lr
+  40:	42a6      	cmp	r6, r4
+  42:	d002      	beq.n	4a <tcp_new_port+0x4a>
+  44:	f854 3f04 	ldr.w	r3, [r4, #4]!
+  48:	e7eb      	b.n	22 <tcp_new_port+0x22>
+  4a:	4608      	mov	r0, r1
+  4c:	8039      	strh	r1, [r7, #0]
+  4e:	bcf0      	pop	{r4, r5, r6, r7}
+  50:	4770      	bx	lr
+  52:	bf00      	nop
+  54:	00000000 	.word	0x00000000
+  58:	0000000c 	.word	0x0000000c
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_close_shutdown_fin:
+
+00000000 <tcp_close_shutdown_fin>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	b1f8      	cbz	r0, 46 <tcp_close_shutdown_fin+0x46>
+   6:	7d03      	ldrb	r3, [r0, #20]
+   8:	2b04      	cmp	r3, #4
+   a:	d005      	beq.n	18 <tcp_close_shutdown_fin+0x18>
+   c:	2b07      	cmp	r3, #7
+   e:	d00d      	beq.n	2c <tcp_close_shutdown_fin+0x2c>
+  10:	2b03      	cmp	r3, #3
+  12:	d001      	beq.n	18 <tcp_close_shutdown_fin+0x18>
+  14:	2000      	movs	r0, #0
+  16:	bd10      	pop	{r4, pc}
+  18:	f7ff fffe 	bl	0 <tcp_send_fin>
+  1c:	b948      	cbnz	r0, 32 <tcp_close_shutdown_fin+0x32>
+  1e:	2305      	movs	r3, #5
+  20:	4620      	mov	r0, r4
+  22:	7523      	strb	r3, [r4, #20]
+  24:	f7ff fffe 	bl	0 <tcp_output>
+  28:	2000      	movs	r0, #0
+  2a:	bd10      	pop	{r4, pc}
+  2c:	f7ff fffe 	bl	0 <tcp_send_fin>
+  30:	b138      	cbz	r0, 42 <tcp_close_shutdown_fin+0x42>
+  32:	1c43      	adds	r3, r0, #1
+  34:	d1ef      	bne.n	16 <tcp_close_shutdown_fin+0x16>
+  36:	8b63      	ldrh	r3, [r4, #26]
+  38:	2000      	movs	r0, #0
+  3a:	f043 0308 	orr.w	r3, r3, #8
+  3e:	8363      	strh	r3, [r4, #26]
+  40:	bd10      	pop	{r4, pc}
+  42:	2309      	movs	r3, #9
+  44:	e7ec      	b.n	20 <tcp_close_shutdown_fin+0x20>
+  46:	4b07      	ldr	r3, [pc, #28]	; (64 <tcp_close_shutdown_fin+0x64>)
+  48:	f44f 72ce 	mov.w	r2, #412	; 0x19c
+  4c:	4906      	ldr	r1, [pc, #24]	; (68 <tcp_close_shutdown_fin+0x68>)
+  4e:	4807      	ldr	r0, [pc, #28]	; (6c <tcp_close_shutdown_fin+0x6c>)
+  50:	f7ff fffe 	bl	0 <printf>
+  54:	4620      	mov	r0, r4
+  56:	f7ff fffe 	bl	0 <fflush>
+  5a:	2001      	movs	r0, #1
+  5c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  60:	f7ff fffe 	bl	0 <abort>
+  64:	00000000 	.word	0x00000000
+  68:	00000024 	.word	0x00000024
+  6c:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_free.part.0:
+
+00000000 <tcp_free.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	22d4      	movs	r2, #212	; 0xd4
+   4:	4b06      	ldr	r3, [pc, #24]	; (20 <tcp_free.part.0+0x20>)
+   6:	4907      	ldr	r1, [pc, #28]	; (24 <tcp_free.part.0+0x24>)
+   8:	4807      	ldr	r0, [pc, #28]	; (28 <tcp_free.part.0+0x28>)
+   a:	f7ff fffe 	bl	0 <printf>
+   e:	2000      	movs	r0, #0
+  10:	f7ff fffe 	bl	0 <fflush>
+  14:	2001      	movs	r0, #1
+  16:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1a:	f7ff fffe 	bl	0 <abort>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+  28:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_next_iss.part.0:
+
+00000000 <tcp_next_iss.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	f640 02b9 	movw	r2, #2233	; 0x8b9
+   6:	4b06      	ldr	r3, [pc, #24]	; (20 <tcp_next_iss.part.0+0x20>)
+   8:	4906      	ldr	r1, [pc, #24]	; (24 <tcp_next_iss.part.0+0x24>)
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <tcp_next_iss.part.0+0x28>)
+   c:	f7ff fffe 	bl	0 <printf>
+  10:	2000      	movs	r0, #0
+  12:	f7ff fffe 	bl	0 <fflush>
+  16:	2001      	movs	r0, #1
+  18:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1c:	f7ff fffe 	bl	0 <abort>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+  28:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_eff_send_mss_netif.part.0:
+
+00000000 <tcp_eff_send_mss_netif.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	f640 02cf 	movw	r2, #2255	; 0x8cf
+   6:	4b06      	ldr	r3, [pc, #24]	; (20 <tcp_eff_send_mss_netif.part.0+0x20>)
+   8:	4906      	ldr	r1, [pc, #24]	; (24 <tcp_eff_send_mss_netif.part.0+0x24>)
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <tcp_eff_send_mss_netif.part.0+0x28>)
+   c:	f7ff fffe 	bl	0 <printf>
+  10:	2000      	movs	r0, #0
+  12:	f7ff fffe 	bl	0 <fflush>
+  16:	2001      	movs	r0, #1
+  18:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1c:	f7ff fffe 	bl	0 <abort>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+  28:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_netif_ip_addr_changed_pcblist.part.0:
+
+00000000 <tcp_netif_ip_addr_changed_pcblist.part.0>:
+   0:	b508      	push	{r3, lr}
+   2:	f640 120a 	movw	r2, #2314	; 0x90a
+   6:	4b06      	ldr	r3, [pc, #24]	; (20 <tcp_netif_ip_addr_changed_pcblist.part.0+0x20>)
+   8:	4906      	ldr	r1, [pc, #24]	; (24 <tcp_netif_ip_addr_changed_pcblist.part.0+0x24>)
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <tcp_netif_ip_addr_changed_pcblist.part.0+0x28>)
+   c:	f7ff fffe 	bl	0 <printf>
+  10:	2000      	movs	r0, #0
+  12:	f7ff fffe 	bl	0 <fflush>
+  16:	2001      	movs	r0, #1
+  18:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  1c:	f7ff fffe 	bl	0 <abort>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+  28:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_init:
+
+00000000 <tcp_init>:
+   0:	b508      	push	{r3, lr}
+   2:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+   6:	4b02      	ldr	r3, [pc, #8]	; (10 <tcp_init+0x10>)
+   8:	4a02      	ldr	r2, [pc, #8]	; (14 <tcp_init+0x14>)
+   a:	4303      	orrs	r3, r0
+   c:	8013      	strh	r3, [r2, #0]
+   e:	bd08      	pop	{r3, pc}
+  10:	ffffc000 	.word	0xffffc000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_free:
+
+00000000 <tcp_free>:
+   0:	b508      	push	{r3, lr}
+   2:	7d03      	ldrb	r3, [r0, #20]
+   4:	2b01      	cmp	r3, #1
+   6:	d005      	beq.n	14 <tcp_free+0x14>
+   8:	4601      	mov	r1, r0
+   a:	2001      	movs	r0, #1
+   c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  10:	f7ff bffe 	b.w	0 <memp_free>
+  14:	f7ff fffe 	bl	0 <tcp_free>
+
+Disassembly of section .text.tcp_bind:
+
+00000000 <tcp_bind>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	460f      	mov	r7, r1
+   6:	4614      	mov	r4, r2
+   8:	4680      	mov	r8, r0
+   a:	f240 219f 	movw	r1, #671	; 0x29f
+   e:	4a2a      	ldr	r2, [pc, #168]	; (b8 <tcp_bind+0xb8>)
+  10:	482a      	ldr	r0, [pc, #168]	; (bc <tcp_bind+0xbc>)
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	b37f      	cbz	r7, 78 <tcp_bind+0x78>
+  18:	f1b8 0f00 	cmp.w	r8, #0
+  1c:	d049      	beq.n	b2 <tcp_bind+0xb2>
+  1e:	f898 3014 	ldrb.w	r3, [r8, #20]
+  22:	2b00      	cmp	r3, #0
+  24:	d142      	bne.n	ac <tcp_bind+0xac>
+  26:	f898 6009 	ldrb.w	r6, [r8, #9]
+  2a:	f016 0604 	ands.w	r6, r6, #4
+  2e:	bf0c      	ite	eq
+  30:	2204      	moveq	r2, #4
+  32:	2203      	movne	r2, #3
+  34:	b314      	cbz	r4, 7c <tcp_bind+0x7c>
+  36:	4922      	ldr	r1, [pc, #136]	; (c0 <tcp_bind+0xc0>)
+  38:	4b22      	ldr	r3, [pc, #136]	; (c4 <tcp_bind+0xc4>)
+  3a:	1f08      	subs	r0, r1, #4
+  3c:	eb00 0082 	add.w	r0, r0, r2, lsl #2
+  40:	681b      	ldr	r3, [r3, #0]
+  42:	b913      	cbnz	r3, 4a <tcp_bind+0x4a>
+  44:	e013      	b.n	6e <tcp_bind+0x6e>
+  46:	68db      	ldr	r3, [r3, #12]
+  48:	b18b      	cbz	r3, 6e <tcp_bind+0x6e>
+  4a:	f8b3 c016 	ldrh.w	ip, [r3, #22]
+  4e:	45a4      	cmp	ip, r4
+  50:	d1f9      	bne.n	46 <tcp_bind+0x46>
+  52:	b116      	cbz	r6, 5a <tcp_bind+0x5a>
+  54:	7a5a      	ldrb	r2, [r3, #9]
+  56:	0752      	lsls	r2, r2, #29
+  58:	d4f5      	bmi.n	46 <tcp_bind+0x46>
+  5a:	681a      	ldr	r2, [r3, #0]
+  5c:	b11a      	cbz	r2, 66 <tcp_bind+0x66>
+  5e:	683d      	ldr	r5, [r7, #0]
+  60:	b10d      	cbz	r5, 66 <tcp_bind+0x66>
+  62:	42aa      	cmp	r2, r5
+  64:	d1ef      	bne.n	46 <tcp_bind+0x46>
+  66:	f06f 0007 	mvn.w	r0, #7
+  6a:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  6e:	4281      	cmp	r1, r0
+  70:	d008      	beq.n	84 <tcp_bind+0x84>
+  72:	f851 3f04 	ldr.w	r3, [r1, #4]!
+  76:	e7e3      	b.n	40 <tcp_bind+0x40>
+  78:	4f13      	ldr	r7, [pc, #76]	; (c8 <tcp_bind+0xc8>)
+  7a:	e7cd      	b.n	18 <tcp_bind+0x18>
+  7c:	f7ff fffe 	bl	0 <tcp_bind>
+  80:	4604      	mov	r4, r0
+  82:	b180      	cbz	r0, a6 <tcp_bind+0xa6>
+  84:	683b      	ldr	r3, [r7, #0]
+  86:	b10b      	cbz	r3, 8c <tcp_bind+0x8c>
+  88:	f8c8 3000 	str.w	r3, [r8]
+  8c:	4b0f      	ldr	r3, [pc, #60]	; (cc <tcp_bind+0xcc>)
+  8e:	f8a8 4016 	strh.w	r4, [r8, #22]
+  92:	681a      	ldr	r2, [r3, #0]
+  94:	f8c3 8000 	str.w	r8, [r3]
+  98:	f8c8 200c 	str.w	r2, [r8, #12]
+  9c:	f7ff fffe 	bl	0 <tcp_timer_needed>
+  a0:	2000      	movs	r0, #0
+  a2:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  a6:	f06f 0001 	mvn.w	r0, #1
+  aa:	e7de      	b.n	6a <tcp_bind+0x6a>
+  ac:	f06f 0005 	mvn.w	r0, #5
+  b0:	e7db      	b.n	6a <tcp_bind+0x6a>
+  b2:	f06f 000f 	mvn.w	r0, #15
+  b6:	e7d8      	b.n	6a <tcp_bind+0x6a>
+  b8:	00000000 	.word	0x00000000
+  bc:	00000000 	.word	0x00000000
+  c0:	00000000 	.word	0x00000000
+  c4:	00000000 	.word	0x00000000
+  c8:	00000000 	.word	0x00000000
+  cc:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_bind_netif:
+
+00000000 <tcp_bind_netif>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	460c      	mov	r4, r1
+   4:	4605      	mov	r5, r0
+   6:	4a06      	ldr	r2, [pc, #24]	; (20 <tcp_bind_netif+0x20>)
+   8:	f240 21fe 	movw	r1, #766	; 0x2fe
+   c:	4805      	ldr	r0, [pc, #20]	; (24 <tcp_bind_netif+0x24>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b11c      	cbz	r4, 1c <tcp_bind_netif+0x1c>
+  14:	f894 4040 	ldrb.w	r4, [r4, #64]	; 0x40
+  18:	3401      	adds	r4, #1
+  1a:	b2e4      	uxtb	r4, r4
+  1c:	722c      	strb	r4, [r5, #8]
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_listen_with_backlog_and_err:
+
+00000000 <tcp_listen_with_backlog_and_err>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	4616      	mov	r6, r2
+   6:	f44f 7156 	mov.w	r1, #856	; 0x358
+   a:	4a36      	ldr	r2, [pc, #216]	; (e4 <tcp_listen_with_backlog_and_err+0xe4>)
+   c:	4836      	ldr	r0, [pc, #216]	; (e8 <tcp_listen_with_backlog_and_err+0xe8>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	2c00      	cmp	r4, #0
+  14:	d05c      	beq.n	d0 <tcp_listen_with_backlog_and_err+0xd0>
+  16:	7d23      	ldrb	r3, [r4, #20]
+  18:	2b00      	cmp	r3, #0
+  1a:	d152      	bne.n	c2 <tcp_listen_with_backlog_and_err+0xc2>
+  1c:	7a63      	ldrb	r3, [r4, #9]
+  1e:	075b      	lsls	r3, r3, #29
+  20:	d514      	bpl.n	4c <tcp_listen_with_backlog_and_err+0x4c>
+  22:	4b32      	ldr	r3, [pc, #200]	; (ec <tcp_listen_with_backlog_and_err+0xec>)
+  24:	681b      	ldr	r3, [r3, #0]
+  26:	b18b      	cbz	r3, 4c <tcp_listen_with_backlog_and_err+0x4c>
+  28:	8ae0      	ldrh	r0, [r4, #22]
+  2a:	e001      	b.n	30 <tcp_listen_with_backlog_and_err+0x30>
+  2c:	68db      	ldr	r3, [r3, #12]
+  2e:	b16b      	cbz	r3, 4c <tcp_listen_with_backlog_and_err+0x4c>
+  30:	8ad9      	ldrh	r1, [r3, #22]
+  32:	4281      	cmp	r1, r0
+  34:	d1fa      	bne.n	2c <tcp_listen_with_backlog_and_err+0x2c>
+  36:	6819      	ldr	r1, [r3, #0]
+  38:	6822      	ldr	r2, [r4, #0]
+  3a:	4291      	cmp	r1, r2
+  3c:	d1f6      	bne.n	2c <tcp_listen_with_backlog_and_err+0x2c>
+  3e:	f06f 0307 	mvn.w	r3, #7
+  42:	2500      	movs	r5, #0
+  44:	b106      	cbz	r6, 48 <tcp_listen_with_backlog_and_err+0x48>
+  46:	7033      	strb	r3, [r6, #0]
+  48:	4628      	mov	r0, r5
+  4a:	bd70      	pop	{r4, r5, r6, pc}
+  4c:	2002      	movs	r0, #2
+  4e:	f7ff fffe 	bl	0 <memp_malloc>
+  52:	4605      	mov	r5, r0
+  54:	2800      	cmp	r0, #0
+  56:	d03f      	beq.n	d8 <tcp_listen_with_backlog_and_err+0xd8>
+  58:	6922      	ldr	r2, [r4, #16]
+  5a:	8ae3      	ldrh	r3, [r4, #22]
+  5c:	6102      	str	r2, [r0, #16]
+  5e:	2201      	movs	r2, #1
+  60:	82c3      	strh	r3, [r0, #22]
+  62:	7502      	strb	r2, [r0, #20]
+  64:	7d62      	ldrb	r2, [r4, #21]
+  66:	7542      	strb	r2, [r0, #21]
+  68:	7a62      	ldrb	r2, [r4, #9]
+  6a:	7242      	strb	r2, [r0, #9]
+  6c:	7a22      	ldrb	r2, [r4, #8]
+  6e:	7202      	strb	r2, [r0, #8]
+  70:	7ae2      	ldrb	r2, [r4, #11]
+  72:	72c2      	strb	r2, [r0, #11]
+  74:	7aa2      	ldrb	r2, [r4, #10]
+  76:	7282      	strb	r2, [r0, #10]
+  78:	6822      	ldr	r2, [r4, #0]
+  7a:	6002      	str	r2, [r0, #0]
+  7c:	b983      	cbnz	r3, a0 <tcp_listen_with_backlog_and_err+0xa0>
+  7e:	7d23      	ldrb	r3, [r4, #20]
+  80:	2b01      	cmp	r3, #1
+  82:	d02c      	beq.n	de <tcp_listen_with_backlog_and_err+0xde>
+  84:	4621      	mov	r1, r4
+  86:	2001      	movs	r0, #1
+  88:	f7ff fffe 	bl	0 <memp_free>
+  8c:	4b17      	ldr	r3, [pc, #92]	; (ec <tcp_listen_with_backlog_and_err+0xec>)
+  8e:	4918      	ldr	r1, [pc, #96]	; (f0 <tcp_listen_with_backlog_and_err+0xf0>)
+  90:	681a      	ldr	r2, [r3, #0]
+  92:	61a9      	str	r1, [r5, #24]
+  94:	60ea      	str	r2, [r5, #12]
+  96:	601d      	str	r5, [r3, #0]
+  98:	f7ff fffe 	bl	0 <tcp_timer_needed>
+  9c:	2300      	movs	r3, #0
+  9e:	e7d1      	b.n	44 <tcp_listen_with_backlog_and_err+0x44>
+  a0:	4a14      	ldr	r2, [pc, #80]	; (f4 <tcp_listen_with_backlog_and_err+0xf4>)
+  a2:	6813      	ldr	r3, [r2, #0]
+  a4:	42a3      	cmp	r3, r4
+  a6:	d009      	beq.n	bc <tcp_listen_with_backlog_and_err+0xbc>
+  a8:	b12b      	cbz	r3, b6 <tcp_listen_with_backlog_and_err+0xb6>
+  aa:	68d9      	ldr	r1, [r3, #12]
+  ac:	42a1      	cmp	r1, r4
+  ae:	d00c      	beq.n	ca <tcp_listen_with_backlog_and_err+0xca>
+  b0:	460b      	mov	r3, r1
+  b2:	2b00      	cmp	r3, #0
+  b4:	d1f9      	bne.n	aa <tcp_listen_with_backlog_and_err+0xaa>
+  b6:	2300      	movs	r3, #0
+  b8:	60e3      	str	r3, [r4, #12]
+  ba:	e7e0      	b.n	7e <tcp_listen_with_backlog_and_err+0x7e>
+  bc:	68e3      	ldr	r3, [r4, #12]
+  be:	6013      	str	r3, [r2, #0]
+  c0:	e7f9      	b.n	b6 <tcp_listen_with_backlog_and_err+0xb6>
+  c2:	f06f 030e 	mvn.w	r3, #14
+  c6:	2500      	movs	r5, #0
+  c8:	e7bc      	b.n	44 <tcp_listen_with_backlog_and_err+0x44>
+  ca:	68e2      	ldr	r2, [r4, #12]
+  cc:	60da      	str	r2, [r3, #12]
+  ce:	e7f2      	b.n	b6 <tcp_listen_with_backlog_and_err+0xb6>
+  d0:	4625      	mov	r5, r4
+  d2:	f06f 030f 	mvn.w	r3, #15
+  d6:	e7b5      	b.n	44 <tcp_listen_with_backlog_and_err+0x44>
+  d8:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+  dc:	e7b2      	b.n	44 <tcp_listen_with_backlog_and_err+0x44>
+  de:	f7ff fffe 	bl	0 <tcp_listen_with_backlog_and_err>
+  e2:	bf00      	nop
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+  ec:	00000000 	.word	0x00000000
+  f0:	00000000 	.word	0x00000000
+  f4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_listen_with_backlog:
+
+00000000 <tcp_listen_with_backlog>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	460d      	mov	r5, r1
+   4:	4604      	mov	r4, r0
+   6:	4a06      	ldr	r2, [pc, #24]	; (20 <tcp_listen_with_backlog+0x20>)
+   8:	f44f 714f 	mov.w	r1, #828	; 0x33c
+   c:	4805      	ldr	r0, [pc, #20]	; (24 <tcp_listen_with_backlog+0x24>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	4629      	mov	r1, r5
+  14:	4620      	mov	r0, r4
+  16:	2200      	movs	r2, #0
+  18:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  1c:	f7ff bffe 	b.w	0 <tcp_listen_with_backlog>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_update_rcv_ann_wnd:
+
+00000000 <tcp_update_rcv_ann_wnd>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b1e8      	cbz	r0, 42 <tcp_update_rcv_ann_wnd+0x42>
+   6:	8d02      	ldrh	r2, [r0, #40]	; 0x28
+   8:	f640 3e68 	movw	lr, #2920	; 0xb68
+   c:	6ac3      	ldr	r3, [r0, #44]	; 0x2c
+   e:	6a41      	ldr	r1, [r0, #36]	; 0x24
+  10:	8e65      	ldrh	r5, [r4, #50]	; 0x32
+  12:	1ad0      	subs	r0, r2, r3
+  14:	4575      	cmp	r5, lr
+  16:	4408      	add	r0, r1
+  18:	bf94      	ite	ls
+  1a:	eba0 0c05 	subls.w	ip, r0, r5
+  1e:	eba0 0c0e 	subhi.w	ip, r0, lr
+  22:	f1bc 0f00 	cmp.w	ip, #0
+  26:	da06      	bge.n	36 <tcp_update_rcv_ann_wnd+0x36>
+  28:	1a5b      	subs	r3, r3, r1
+  2a:	d406      	bmi.n	3a <tcp_update_rcv_ann_wnd+0x3a>
+  2c:	f5b3 3f80 	cmp.w	r3, #65536	; 0x10000
+  30:	d216      	bcs.n	60 <tcp_update_rcv_ann_wnd+0x60>
+  32:	b29a      	uxth	r2, r3
+  34:	2000      	movs	r0, #0
+  36:	8562      	strh	r2, [r4, #42]	; 0x2a
+  38:	bd38      	pop	{r3, r4, r5, pc}
+  3a:	2200      	movs	r2, #0
+  3c:	4610      	mov	r0, r2
+  3e:	8562      	strh	r2, [r4, #42]	; 0x2a
+  40:	bd38      	pop	{r3, r4, r5, pc}
+  42:	4b0a      	ldr	r3, [pc, #40]	; (6c <tcp_update_rcv_ann_wnd+0x6c>)
+  44:	f240 32aa 	movw	r2, #938	; 0x3aa
+  48:	4909      	ldr	r1, [pc, #36]	; (70 <tcp_update_rcv_ann_wnd+0x70>)
+  4a:	480a      	ldr	r0, [pc, #40]	; (74 <tcp_update_rcv_ann_wnd+0x74>)
+  4c:	f7ff fffe 	bl	0 <printf>
+  50:	2000      	movs	r0, #0
+  52:	f7ff fffe 	bl	0 <fflush>
+  56:	2001      	movs	r0, #1
+  58:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  5c:	f7ff fffe 	bl	0 <abort>
+  60:	4b02      	ldr	r3, [pc, #8]	; (6c <tcp_update_rcv_ann_wnd+0x6c>)
+  62:	f240 32ba 	movw	r2, #954	; 0x3ba
+  66:	4904      	ldr	r1, [pc, #16]	; (78 <tcp_update_rcv_ann_wnd+0x78>)
+  68:	e7ef      	b.n	4a <tcp_update_rcv_ann_wnd+0x4a>
+  6a:	bf00      	nop
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+  74:	00000030 	.word	0x00000030
+  78:	00000024 	.word	0x00000024
+
+Disassembly of section .text.tcp_recved:
+
+00000000 <tcp_recved>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4605      	mov	r5, r0
+   4:	460c      	mov	r4, r1
+   6:	4a1b      	ldr	r2, [pc, #108]	; (74 <tcp_recved+0x74>)
+   8:	f240 31d1 	movw	r1, #977	; 0x3d1
+   c:	481a      	ldr	r0, [pc, #104]	; (78 <tcp_recved+0x78>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b1ad      	cbz	r5, 40 <tcp_recved+0x40>
+  14:	7d2e      	ldrb	r6, [r5, #20]
+  16:	2e01      	cmp	r6, #1
+  18:	d01c      	beq.n	54 <tcp_recved+0x54>
+  1a:	8d2b      	ldrh	r3, [r5, #40]	; 0x28
+  1c:	1919      	adds	r1, r3, r4
+  1e:	b289      	uxth	r1, r1
+  20:	428b      	cmp	r3, r1
+  22:	d803      	bhi.n	2c <tcp_recved+0x2c>
+  24:	f241 63d0 	movw	r3, #5840	; 0x16d0
+  28:	4299      	cmp	r1, r3
+  2a:	d901      	bls.n	30 <tcp_recved+0x30>
+  2c:	f241 61d0 	movw	r1, #5840	; 0x16d0
+  30:	4628      	mov	r0, r5
+  32:	8529      	strh	r1, [r5, #40]	; 0x28
+  34:	f7ff fffe 	bl	0 <tcp_recved>
+  38:	f240 53b3 	movw	r3, #1459	; 0x5b3
+  3c:	4298      	cmp	r0, r3
+  3e:	d800      	bhi.n	42 <tcp_recved+0x42>
+  40:	bd70      	pop	{r4, r5, r6, pc}
+  42:	8b6b      	ldrh	r3, [r5, #26]
+  44:	4628      	mov	r0, r5
+  46:	f043 0302 	orr.w	r3, r3, #2
+  4a:	836b      	strh	r3, [r5, #26]
+  4c:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  50:	f7ff bffe 	b.w	0 <tcp_output>
+  54:	4b08      	ldr	r3, [pc, #32]	; (78 <tcp_recved+0x78>)
+  56:	f240 32d6 	movw	r2, #982	; 0x3d6
+  5a:	4908      	ldr	r1, [pc, #32]	; (7c <tcp_recved+0x7c>)
+  5c:	4808      	ldr	r0, [pc, #32]	; (80 <tcp_recved+0x80>)
+  5e:	f7ff fffe 	bl	0 <printf>
+  62:	2000      	movs	r0, #0
+  64:	f7ff fffe 	bl	0 <fflush>
+  68:	4630      	mov	r0, r6
+  6a:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  6e:	f7ff fffe 	bl	0 <abort>
+  72:	bf00      	nop
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_connect:
+
+00000000 <tcp_connect>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4605      	mov	r5, r0
+   6:	4617      	mov	r7, r2
+   8:	4688      	mov	r8, r1
+   a:	4a59      	ldr	r2, [pc, #356]	; (170 <tcp_connect+0x170>)
+   c:	f240 4137 	movw	r1, #1079	; 0x437
+  10:	4858      	ldr	r0, [pc, #352]	; (174 <tcp_connect+0x174>)
+  12:	4699      	mov	r9, r3
+  14:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  18:	2d00      	cmp	r5, #0
+  1a:	f000 80a3 	beq.w	164 <tcp_connect+0x164>
+  1e:	f1b8 0f00 	cmp.w	r8, #0
+  22:	f000 809f 	beq.w	164 <tcp_connect+0x164>
+  26:	7d2b      	ldrb	r3, [r5, #20]
+  28:	2b00      	cmp	r3, #0
+  2a:	f040 8098 	bne.w	15e <tcp_connect+0x15e>
+  2e:	f8d8 3000 	ldr.w	r3, [r8]
+  32:	7a28      	ldrb	r0, [r5, #8]
+  34:	832f      	strh	r7, [r5, #24]
+  36:	606b      	str	r3, [r5, #4]
+  38:	b368      	cbz	r0, 96 <tcp_connect+0x96>
+  3a:	f7ff fffe 	bl	0 <netif_get_by_index>
+  3e:	4682      	mov	sl, r0
+  40:	f1ba 0f00 	cmp.w	sl, #0
+  44:	f000 8091 	beq.w	16a <tcp_connect+0x16a>
+  48:	682b      	ldr	r3, [r5, #0]
+  4a:	b913      	cbnz	r3, 52 <tcp_connect+0x52>
+  4c:	f8da 3000 	ldr.w	r3, [sl]
+  50:	602b      	str	r3, [r5, #0]
+  52:	8aee      	ldrh	r6, [r5, #22]
+  54:	b326      	cbz	r6, a0 <tcp_connect+0xa0>
+  56:	7a6b      	ldrb	r3, [r5, #9]
+  58:	075b      	lsls	r3, r3, #29
+  5a:	d526      	bpl.n	aa <tcp_connect+0xaa>
+  5c:	2102      	movs	r1, #2
+  5e:	4b46      	ldr	r3, [pc, #280]	; (178 <tcp_connect+0x178>)
+  60:	4846      	ldr	r0, [pc, #280]	; (17c <tcp_connect+0x17c>)
+  62:	681c      	ldr	r4, [r3, #0]
+  64:	b91c      	cbnz	r4, 6e <tcp_connect+0x6e>
+  66:	e053      	b.n	110 <tcp_connect+0x110>
+  68:	68e4      	ldr	r4, [r4, #12]
+  6a:	2c00      	cmp	r4, #0
+  6c:	d050      	beq.n	110 <tcp_connect+0x110>
+  6e:	8ae3      	ldrh	r3, [r4, #22]
+  70:	42b3      	cmp	r3, r6
+  72:	d1f9      	bne.n	68 <tcp_connect+0x68>
+  74:	8b23      	ldrh	r3, [r4, #24]
+  76:	42bb      	cmp	r3, r7
+  78:	d1f6      	bne.n	68 <tcp_connect+0x68>
+  7a:	6822      	ldr	r2, [r4, #0]
+  7c:	682b      	ldr	r3, [r5, #0]
+  7e:	429a      	cmp	r2, r3
+  80:	d1f2      	bne.n	68 <tcp_connect+0x68>
+  82:	6862      	ldr	r2, [r4, #4]
+  84:	f8d8 3000 	ldr.w	r3, [r8]
+  88:	429a      	cmp	r2, r3
+  8a:	d1ed      	bne.n	68 <tcp_connect+0x68>
+  8c:	f06f 0407 	mvn.w	r4, #7
+  90:	4620      	mov	r0, r4
+  92:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  96:	1d28      	adds	r0, r5, #4
+  98:	f7ff fffe 	bl	0 <ip4_route>
+  9c:	4682      	mov	sl, r0
+  9e:	e7cf      	b.n	40 <tcp_connect+0x40>
+  a0:	f7ff fffe 	bl	0 <tcp_connect>
+  a4:	82e8      	strh	r0, [r5, #22]
+  a6:	2800      	cmp	r0, #0
+  a8:	d056      	beq.n	158 <tcp_connect+0x158>
+  aa:	4a35      	ldr	r2, [pc, #212]	; (180 <tcp_connect+0x180>)
+  ac:	4b35      	ldr	r3, [pc, #212]	; (184 <tcp_connect+0x184>)
+  ae:	6819      	ldr	r1, [r3, #0]
+  b0:	6813      	ldr	r3, [r2, #0]
+  b2:	440b      	add	r3, r1
+  b4:	f241 61d0 	movw	r1, #5840	; 0x16d0
+  b8:	6013      	str	r3, [r2, #0]
+  ba:	652b      	str	r3, [r5, #80]	; 0x50
+  bc:	3b01      	subs	r3, #1
+  be:	4a32      	ldr	r2, [pc, #200]	; (188 <tcp_connect+0x188>)
+  c0:	646b      	str	r3, [r5, #68]	; 0x44
+  c2:	62aa      	str	r2, [r5, #40]	; 0x28
+  c4:	f8ba 2034 	ldrh.w	r2, [sl, #52]	; 0x34
+  c8:	f8a5 1060 	strh.w	r1, [r5, #96]	; 0x60
+  cc:	e9c5 3316 	strd	r3, r3, [r5, #88]	; 0x58
+  d0:	2300      	movs	r3, #0
+  d2:	626b      	str	r3, [r5, #36]	; 0x24
+  d4:	62eb      	str	r3, [r5, #44]	; 0x2c
+  d6:	b38a      	cbz	r2, 13c <tcp_connect+0x13c>
+  d8:	2a28      	cmp	r2, #40	; 0x28
+  da:	d832      	bhi.n	142 <tcp_connect+0x142>
+  dc:	2201      	movs	r2, #1
+  de:	2102      	movs	r1, #2
+  e0:	4628      	mov	r0, r5
+  e2:	866b      	strh	r3, [r5, #50]	; 0x32
+  e4:	f8c5 9088 	str.w	r9, [r5, #136]	; 0x88
+  e8:	f8a5 2048 	strh.w	r2, [r5, #72]	; 0x48
+  ec:	f7ff fffe 	bl	0 <tcp_enqueue_flags>
+  f0:	4604      	mov	r4, r0
+  f2:	2800      	cmp	r0, #0
+  f4:	d1cc      	bne.n	90 <tcp_connect+0x90>
+  f6:	2302      	movs	r3, #2
+  f8:	752b      	strb	r3, [r5, #20]
+  fa:	b186      	cbz	r6, 11e <tcp_connect+0x11e>
+  fc:	4a23      	ldr	r2, [pc, #140]	; (18c <tcp_connect+0x18c>)
+  fe:	6813      	ldr	r3, [r2, #0]
+ 100:	42ab      	cmp	r3, r5
+ 102:	d026      	beq.n	152 <tcp_connect+0x152>
+ 104:	b15b      	cbz	r3, 11e <tcp_connect+0x11e>
+ 106:	68da      	ldr	r2, [r3, #12]
+ 108:	42aa      	cmp	r2, r5
+ 10a:	d006      	beq.n	11a <tcp_connect+0x11a>
+ 10c:	4613      	mov	r3, r2
+ 10e:	e7f9      	b.n	104 <tcp_connect+0x104>
+ 110:	2901      	cmp	r1, #1
+ 112:	4603      	mov	r3, r0
+ 114:	d0c9      	beq.n	aa <tcp_connect+0xaa>
+ 116:	2101      	movs	r1, #1
+ 118:	e7a3      	b.n	62 <tcp_connect+0x62>
+ 11a:	68ea      	ldr	r2, [r5, #12]
+ 11c:	60da      	str	r2, [r3, #12]
+ 11e:	4b16      	ldr	r3, [pc, #88]	; (178 <tcp_connect+0x178>)
+ 120:	681a      	ldr	r2, [r3, #0]
+ 122:	601d      	str	r5, [r3, #0]
+ 124:	60ea      	str	r2, [r5, #12]
+ 126:	f7ff fffe 	bl	0 <tcp_timer_needed>
+ 12a:	4b19      	ldr	r3, [pc, #100]	; (190 <tcp_connect+0x190>)
+ 12c:	2201      	movs	r2, #1
+ 12e:	4628      	mov	r0, r5
+ 130:	701a      	strb	r2, [r3, #0]
+ 132:	f7ff fffe 	bl	0 <tcp_output>
+ 136:	4620      	mov	r0, r4
+ 138:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+ 13c:	f44f 7306 	mov.w	r3, #536	; 0x218
+ 140:	e7cc      	b.n	dc <tcp_connect+0xdc>
+ 142:	3a28      	subs	r2, #40	; 0x28
+ 144:	b293      	uxth	r3, r2
+ 146:	f5b3 7f06 	cmp.w	r3, #536	; 0x218
+ 14a:	bf28      	it	cs
+ 14c:	f44f 7306 	movcs.w	r3, #536	; 0x218
+ 150:	e7c4      	b.n	dc <tcp_connect+0xdc>
+ 152:	68eb      	ldr	r3, [r5, #12]
+ 154:	6013      	str	r3, [r2, #0]
+ 156:	e7e2      	b.n	11e <tcp_connect+0x11e>
+ 158:	f06f 0401 	mvn.w	r4, #1
+ 15c:	e798      	b.n	90 <tcp_connect+0x90>
+ 15e:	f06f 0409 	mvn.w	r4, #9
+ 162:	e795      	b.n	90 <tcp_connect+0x90>
+ 164:	f06f 040f 	mvn.w	r4, #15
+ 168:	e792      	b.n	90 <tcp_connect+0x90>
+ 16a:	f06f 0403 	mvn.w	r4, #3
+ 16e:	e78f      	b.n	90 <tcp_connect+0x90>
+ 170:	00000000 	.word	0x00000000
+ 174:	00000000 	.word	0x00000000
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	16d016d0 	.word	0x16d016d0
+ 18c:	00000000 	.word	0x00000000
+ 190:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_txnow:
+
+00000000 <tcp_txnow>:
+   0:	4b08      	ldr	r3, [pc, #32]	; (24 <tcp_txnow+0x24>)
+   2:	b510      	push	{r4, lr}
+   4:	681c      	ldr	r4, [r3, #0]
+   6:	b914      	cbnz	r4, e <tcp_txnow+0xe>
+   8:	e00a      	b.n	20 <tcp_txnow+0x20>
+   a:	68e4      	ldr	r4, [r4, #12]
+   c:	b144      	cbz	r4, 20 <tcp_txnow+0x20>
+   e:	8b63      	ldrh	r3, [r4, #26]
+  10:	061b      	lsls	r3, r3, #24
+  12:	d5fa      	bpl.n	a <tcp_txnow+0xa>
+  14:	4620      	mov	r0, r4
+  16:	f7ff fffe 	bl	0 <tcp_output>
+  1a:	68e4      	ldr	r4, [r4, #12]
+  1c:	2c00      	cmp	r4, #0
+  1e:	d1f6      	bne.n	e <tcp_txnow+0xe>
+  20:	bd10      	pop	{r4, pc}
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_segs_free:
+
+00000000 <tcp_segs_free>:
+   0:	b170      	cbz	r0, 20 <tcp_segs_free+0x20>
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	4604      	mov	r4, r0
+   6:	4625      	mov	r5, r4
+   8:	6824      	ldr	r4, [r4, #0]
+   a:	6868      	ldr	r0, [r5, #4]
+   c:	b108      	cbz	r0, 12 <tcp_segs_free+0x12>
+   e:	f7ff fffe 	bl	0 <pbuf_free>
+  12:	4629      	mov	r1, r5
+  14:	2003      	movs	r0, #3
+  16:	f7ff fffe 	bl	0 <memp_free>
+  1a:	2c00      	cmp	r4, #0
+  1c:	d1f3      	bne.n	6 <tcp_segs_free+0x6>
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	4770      	bx	lr
+  22:	bf00      	nop
+
+Disassembly of section .text.tcp_seg_free:
+
+00000000 <tcp_seg_free>:
+   0:	b158      	cbz	r0, 1a <tcp_seg_free+0x1a>
+   2:	b510      	push	{r4, lr}
+   4:	4604      	mov	r4, r0
+   6:	6840      	ldr	r0, [r0, #4]
+   8:	b108      	cbz	r0, e <tcp_seg_free+0xe>
+   a:	f7ff fffe 	bl	0 <pbuf_free>
+   e:	4621      	mov	r1, r4
+  10:	2003      	movs	r0, #3
+  12:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  16:	f7ff bffe 	b.w	0 <memp_free>
+  1a:	4770      	bx	lr
+
+Disassembly of section .text.tcp_setprio:
+
+00000000 <tcp_setprio>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a04      	ldr	r2, [pc, #16]	; (18 <tcp_setprio+0x18>)
+   8:	f240 6172 	movw	r1, #1650	; 0x672
+   c:	4803      	ldr	r0, [pc, #12]	; (1c <tcp_setprio+0x1c>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b104      	cbz	r4, 16 <tcp_setprio+0x16>
+  14:	7565      	strb	r5, [r4, #21]
+  16:	bd38      	pop	{r3, r4, r5, pc}
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_seg_copy:
+
+00000000 <tcp_seg_copy>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4605      	mov	r5, r0
+   4:	b188      	cbz	r0, 2a <tcp_seg_copy+0x2a>
+   6:	2003      	movs	r0, #3
+   8:	f7ff fffe 	bl	0 <memp_malloc>
+   c:	4604      	mov	r4, r0
+   e:	b150      	cbz	r0, 26 <tcp_seg_copy+0x26>
+  10:	6868      	ldr	r0, [r5, #4]
+  12:	6829      	ldr	r1, [r5, #0]
+  14:	68aa      	ldr	r2, [r5, #8]
+  16:	68eb      	ldr	r3, [r5, #12]
+  18:	6060      	str	r0, [r4, #4]
+  1a:	6021      	str	r1, [r4, #0]
+  1c:	6860      	ldr	r0, [r4, #4]
+  1e:	60a2      	str	r2, [r4, #8]
+  20:	60e3      	str	r3, [r4, #12]
+  22:	f7ff fffe 	bl	0 <pbuf_ref>
+  26:	4620      	mov	r0, r4
+  28:	bd38      	pop	{r3, r4, r5, pc}
+  2a:	4b07      	ldr	r3, [pc, #28]	; (48 <tcp_seg_copy+0x48>)
+  2c:	f240 6286 	movw	r2, #1670	; 0x686
+  30:	4906      	ldr	r1, [pc, #24]	; (4c <tcp_seg_copy+0x4c>)
+  32:	4807      	ldr	r0, [pc, #28]	; (50 <tcp_seg_copy+0x50>)
+  34:	f7ff fffe 	bl	0 <printf>
+  38:	4628      	mov	r0, r5
+  3a:	f7ff fffe 	bl	0 <fflush>
+  3e:	2001      	movs	r0, #1
+  40:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  44:	f7ff fffe 	bl	0 <abort>
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_arg:
+
+00000000 <tcp_arg>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a04      	ldr	r2, [pc, #16]	; (18 <tcp_arg+0x18>)
+   8:	f240 71cf 	movw	r1, #1999	; 0x7cf
+   c:	4803      	ldr	r0, [pc, #12]	; (1c <tcp_arg+0x1c>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b104      	cbz	r4, 16 <tcp_arg+0x16>
+  14:	6125      	str	r5, [r4, #16]
+  16:	bd38      	pop	{r3, r4, r5, pc}
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_recv:
+
+00000000 <tcp_recv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a0e      	ldr	r2, [pc, #56]	; (40 <tcp_recv+0x40>)
+   8:	f240 71e6 	movw	r1, #2022	; 0x7e6
+   c:	480d      	ldr	r0, [pc, #52]	; (44 <tcp_recv+0x44>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b124      	cbz	r4, 1e <tcp_recv+0x1e>
+  14:	7d26      	ldrb	r6, [r4, #20]
+  16:	2e01      	cmp	r6, #1
+  18:	d002      	beq.n	20 <tcp_recv+0x20>
+  1a:	f8c4 5084 	str.w	r5, [r4, #132]	; 0x84
+  1e:	bd70      	pop	{r4, r5, r6, pc}
+  20:	4b08      	ldr	r3, [pc, #32]	; (44 <tcp_recv+0x44>)
+  22:	f44f 62fd 	mov.w	r2, #2024	; 0x7e8
+  26:	4908      	ldr	r1, [pc, #32]	; (48 <tcp_recv+0x48>)
+  28:	4808      	ldr	r0, [pc, #32]	; (4c <tcp_recv+0x4c>)
+  2a:	f7ff fffe 	bl	0 <printf>
+  2e:	2000      	movs	r0, #0
+  30:	f7ff fffe 	bl	0 <fflush>
+  34:	4630      	mov	r0, r6
+  36:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  3a:	f7ff fffe 	bl	0 <abort>
+  3e:	bf00      	nop
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_sent:
+
+00000000 <tcp_sent>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a0e      	ldr	r2, [pc, #56]	; (40 <tcp_sent+0x40>)
+   8:	f240 71fa 	movw	r1, #2042	; 0x7fa
+   c:	480d      	ldr	r0, [pc, #52]	; (44 <tcp_sent+0x44>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b124      	cbz	r4, 1e <tcp_sent+0x1e>
+  14:	7d26      	ldrb	r6, [r4, #20]
+  16:	2e01      	cmp	r6, #1
+  18:	d002      	beq.n	20 <tcp_sent+0x20>
+  1a:	f8c4 5080 	str.w	r5, [r4, #128]	; 0x80
+  1e:	bd70      	pop	{r4, r5, r6, pc}
+  20:	4b08      	ldr	r3, [pc, #32]	; (44 <tcp_sent+0x44>)
+  22:	f240 72fc 	movw	r2, #2044	; 0x7fc
+  26:	4908      	ldr	r1, [pc, #32]	; (48 <tcp_sent+0x48>)
+  28:	4808      	ldr	r0, [pc, #32]	; (4c <tcp_sent+0x4c>)
+  2a:	f7ff fffe 	bl	0 <printf>
+  2e:	2000      	movs	r0, #0
+  30:	f7ff fffe 	bl	0 <fflush>
+  34:	4630      	mov	r0, r6
+  36:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  3a:	f7ff fffe 	bl	0 <abort>
+  3e:	bf00      	nop
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_err:
+
+00000000 <tcp_err>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a0e      	ldr	r2, [pc, #56]	; (40 <tcp_err+0x40>)
+   8:	f640 0114 	movw	r1, #2068	; 0x814
+   c:	480d      	ldr	r0, [pc, #52]	; (44 <tcp_err+0x44>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b124      	cbz	r4, 1e <tcp_err+0x1e>
+  14:	7d26      	ldrb	r6, [r4, #20]
+  16:	2e01      	cmp	r6, #1
+  18:	d002      	beq.n	20 <tcp_err+0x20>
+  1a:	f8c4 5090 	str.w	r5, [r4, #144]	; 0x90
+  1e:	bd70      	pop	{r4, r5, r6, pc}
+  20:	4b08      	ldr	r3, [pc, #32]	; (44 <tcp_err+0x44>)
+  22:	f640 0216 	movw	r2, #2070	; 0x816
+  26:	4908      	ldr	r1, [pc, #32]	; (48 <tcp_err+0x48>)
+  28:	4808      	ldr	r0, [pc, #32]	; (4c <tcp_err+0x4c>)
+  2a:	f7ff fffe 	bl	0 <printf>
+  2e:	2000      	movs	r0, #0
+  30:	f7ff fffe 	bl	0 <fflush>
+  34:	4630      	mov	r0, r6
+  36:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  3a:	f7ff fffe 	bl	0 <abort>
+  3e:	bf00      	nop
+  40:	00000000 	.word	0x00000000
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_accept:
+
+00000000 <tcp_accept>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4a06      	ldr	r2, [pc, #24]	; (20 <tcp_accept+0x20>)
+   8:	f640 0128 	movw	r1, #2088	; 0x828
+   c:	4805      	ldr	r0, [pc, #20]	; (24 <tcp_accept+0x24>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b11c      	cbz	r4, 1c <tcp_accept+0x1c>
+  14:	7d23      	ldrb	r3, [r4, #20]
+  16:	2b01      	cmp	r3, #1
+  18:	bf08      	it	eq
+  1a:	61a5      	streq	r5, [r4, #24]
+  1c:	bd38      	pop	{r3, r4, r5, pc}
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_poll:
+
+00000000 <tcp_poll>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4613      	mov	r3, r2
+   4:	4604      	mov	r4, r0
+   6:	460e      	mov	r6, r1
+   8:	4a0e      	ldr	r2, [pc, #56]	; (44 <tcp_poll+0x44>)
+   a:	f640 0145 	movw	r1, #2117	; 0x845
+   e:	480e      	ldr	r0, [pc, #56]	; (48 <tcp_poll+0x48>)
+  10:	461d      	mov	r5, r3
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	b12c      	cbz	r4, 24 <tcp_poll+0x24>
+  18:	7d27      	ldrb	r7, [r4, #20]
+  1a:	2f01      	cmp	r7, #1
+  1c:	d003      	beq.n	26 <tcp_poll+0x26>
+  1e:	f8c4 608c 	str.w	r6, [r4, #140]	; 0x8c
+  22:	7765      	strb	r5, [r4, #29]
+  24:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  26:	4b08      	ldr	r3, [pc, #32]	; (48 <tcp_poll+0x48>)
+  28:	f640 0248 	movw	r2, #2120	; 0x848
+  2c:	4907      	ldr	r1, [pc, #28]	; (4c <tcp_poll+0x4c>)
+  2e:	4808      	ldr	r0, [pc, #32]	; (50 <tcp_poll+0x50>)
+  30:	f7ff fffe 	bl	0 <printf>
+  34:	2000      	movs	r0, #0
+  36:	f7ff fffe 	bl	0 <fflush>
+  3a:	4638      	mov	r0, r7
+  3c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  40:	f7ff fffe 	bl	0 <abort>
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_pcb_purge:
+
+00000000 <tcp_pcb_purge>:
+   0:	2800      	cmp	r0, #0
+   2:	d041      	beq.n	88 <tcp_pcb_purge+0x88>
+   4:	b570      	push	{r4, r5, r6, lr}
+   6:	7d03      	ldrb	r3, [r0, #20]
+   8:	4605      	mov	r5, r0
+   a:	2b0a      	cmp	r3, #10
+   c:	d001      	beq.n	12 <tcp_pcb_purge+0x12>
+   e:	2b01      	cmp	r3, #1
+  10:	d800      	bhi.n	14 <tcp_pcb_purge+0x14>
+  12:	bd70      	pop	{r4, r5, r6, pc}
+  14:	6f80      	ldr	r0, [r0, #120]	; 0x78
+  16:	b118      	cbz	r0, 20 <tcp_pcb_purge+0x20>
+  18:	f7ff fffe 	bl	0 <pbuf_free>
+  1c:	2300      	movs	r3, #0
+  1e:	67ab      	str	r3, [r5, #120]	; 0x78
+  20:	6f6c      	ldr	r4, [r5, #116]	; 0x74
+  22:	b164      	cbz	r4, 3e <tcp_pcb_purge+0x3e>
+  24:	4626      	mov	r6, r4
+  26:	6824      	ldr	r4, [r4, #0]
+  28:	6870      	ldr	r0, [r6, #4]
+  2a:	b108      	cbz	r0, 30 <tcp_pcb_purge+0x30>
+  2c:	f7ff fffe 	bl	0 <pbuf_free>
+  30:	4631      	mov	r1, r6
+  32:	2003      	movs	r0, #3
+  34:	f7ff fffe 	bl	0 <memp_free>
+  38:	2c00      	cmp	r4, #0
+  3a:	d1f3      	bne.n	24 <tcp_pcb_purge+0x24>
+  3c:	676c      	str	r4, [r5, #116]	; 0x74
+  3e:	f64f 73ff 	movw	r3, #65535	; 0xffff
+  42:	6eec      	ldr	r4, [r5, #108]	; 0x6c
+  44:	862b      	strh	r3, [r5, #48]	; 0x30
+  46:	b15c      	cbz	r4, 60 <tcp_pcb_purge+0x60>
+  48:	4626      	mov	r6, r4
+  4a:	6824      	ldr	r4, [r4, #0]
+  4c:	6870      	ldr	r0, [r6, #4]
+  4e:	b108      	cbz	r0, 54 <tcp_pcb_purge+0x54>
+  50:	f7ff fffe 	bl	0 <pbuf_free>
+  54:	4631      	mov	r1, r6
+  56:	2003      	movs	r0, #3
+  58:	f7ff fffe 	bl	0 <memp_free>
+  5c:	2c00      	cmp	r4, #0
+  5e:	d1f3      	bne.n	48 <tcp_pcb_purge+0x48>
+  60:	6f2c      	ldr	r4, [r5, #112]	; 0x70
+  62:	b15c      	cbz	r4, 7c <tcp_pcb_purge+0x7c>
+  64:	4626      	mov	r6, r4
+  66:	6824      	ldr	r4, [r4, #0]
+  68:	6870      	ldr	r0, [r6, #4]
+  6a:	b108      	cbz	r0, 70 <tcp_pcb_purge+0x70>
+  6c:	f7ff fffe 	bl	0 <pbuf_free>
+  70:	4631      	mov	r1, r6
+  72:	2003      	movs	r0, #3
+  74:	f7ff fffe 	bl	0 <memp_free>
+  78:	2c00      	cmp	r4, #0
+  7a:	d1f3      	bne.n	64 <tcp_pcb_purge+0x64>
+  7c:	2300      	movs	r3, #0
+  7e:	e9c5 331b 	strd	r3, r3, [r5, #108]	; 0x6c
+  82:	f8a5 3068 	strh.w	r3, [r5, #104]	; 0x68
+  86:	bd70      	pop	{r4, r5, r6, pc}
+  88:	4770      	bx	lr
+  8a:	bf00      	nop
+
+Disassembly of section .text.tcp_slowtmr:
+
+00000000 <tcp_slowtmr>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4faa      	ldr	r7, [pc, #680]	; (2b0 <tcp_slowtmr+0x2b0>)
+   6:	b087      	sub	sp, #28
+   8:	f8df 92bc 	ldr.w	r9, [pc, #700]	; 2c8 <tcp_slowtmr+0x2c8>
+   c:	683b      	ldr	r3, [r7, #0]
+   e:	f8df a2bc 	ldr.w	sl, [pc, #700]	; 2cc <tcp_slowtmr+0x2cc>
+  12:	3301      	adds	r3, #1
+  14:	603b      	str	r3, [r7, #0]
+  16:	f899 3000 	ldrb.w	r3, [r9]
+  1a:	3301      	adds	r3, #1
+  1c:	f889 3000 	strb.w	r3, [r9]
+  20:	4ba4      	ldr	r3, [pc, #656]	; (2b4 <tcp_slowtmr+0x2b4>)
+  22:	681e      	ldr	r6, [r3, #0]
+  24:	2e00      	cmp	r6, #0
+  26:	f000 80ad 	beq.w	184 <tcp_slowtmr+0x184>
+  2a:	f04f 0800 	mov.w	r8, #0
+  2e:	7d34      	ldrb	r4, [r6, #20]
+  30:	2c00      	cmp	r4, #0
+  32:	f000 81f5 	beq.w	420 <tcp_slowtmr+0x420>
+  36:	2c01      	cmp	r4, #1
+  38:	f000 81e3 	beq.w	402 <tcp_slowtmr+0x402>
+  3c:	2c0a      	cmp	r4, #10
+  3e:	f000 81fe 	beq.w	43e <tcp_slowtmr+0x43e>
+  42:	f899 3000 	ldrb.w	r3, [r9]
+  46:	7fb2      	ldrb	r2, [r6, #30]
+  48:	429a      	cmp	r2, r3
+  4a:	f000 811b 	beq.w	284 <tcp_slowtmr+0x284>
+  4e:	2c02      	cmp	r4, #2
+  50:	77b3      	strb	r3, [r6, #30]
+  52:	f896 3042 	ldrb.w	r3, [r6, #66]	; 0x42
+  56:	f000 80f6 	beq.w	246 <tcp_slowtmr+0x246>
+  5a:	2b0b      	cmp	r3, #11
+  5c:	f200 80f1 	bhi.w	242 <tcp_slowtmr+0x242>
+  60:	f896 5099 	ldrb.w	r5, [r6, #153]	; 0x99
+  64:	2d00      	cmp	r5, #0
+  66:	f000 8133 	beq.w	2d0 <tcp_slowtmr+0x2d0>
+  6a:	6f32      	ldr	r2, [r6, #112]	; 0x70
+  6c:	2a00      	cmp	r2, #0
+  6e:	f040 8203 	bne.w	478 <tcp_slowtmr+0x478>
+  72:	6ef3      	ldr	r3, [r6, #108]	; 0x6c
+  74:	2b00      	cmp	r3, #0
+  76:	f000 81f5 	beq.w	464 <tcp_slowtmr+0x464>
+  7a:	f896 309a 	ldrb.w	r3, [r6, #154]	; 0x9a
+  7e:	2b0b      	cmp	r3, #11
+  80:	f200 80df 	bhi.w	242 <tcp_slowtmr+0x242>
+  84:	4b8c      	ldr	r3, [pc, #560]	; (2b8 <tcp_slowtmr+0x2b8>)
+  86:	442b      	add	r3, r5
+  88:	f813 1c01 	ldrb.w	r1, [r3, #-1]
+  8c:	f896 3098 	ldrb.w	r3, [r6, #152]	; 0x98
+  90:	428b      	cmp	r3, r1
+  92:	f0c0 81a5 	bcc.w	3e0 <tcp_slowtmr+0x3e0>
+  96:	f8b6 5060 	ldrh.w	r5, [r6, #96]	; 0x60
+  9a:	2d00      	cmp	r5, #0
+  9c:	f040 8086 	bne.w	1ac <tcp_slowtmr+0x1ac>
+  a0:	4630      	mov	r0, r6
+  a2:	f7ff fffe 	bl	0 <tcp_zero_window_probe>
+  a6:	2800      	cmp	r0, #0
+  a8:	f000 8087 	beq.w	1ba <tcp_slowtmr+0x1ba>
+  ac:	7d34      	ldrb	r4, [r6, #20]
+  ae:	2c06      	cmp	r4, #6
+  b0:	f000 8092 	beq.w	1d8 <tcp_slowtmr+0x1d8>
+  b4:	f896 b009 	ldrb.w	fp, [r6, #9]
+  b8:	f01b 0b08 	ands.w	fp, fp, #8
+  bc:	d01b      	beq.n	f6 <tcp_slowtmr+0xf6>
+  be:	2c04      	cmp	r4, #4
+  c0:	d007      	beq.n	d2 <tcp_slowtmr+0xd2>
+  c2:	f1a4 0407 	sub.w	r4, r4, #7
+  c6:	fab4 f484 	clz	r4, r4
+  ca:	0964      	lsrs	r4, r4, #5
+  cc:	2c00      	cmp	r4, #0
+  ce:	f000 808d 	beq.w	1ec <tcp_slowtmr+0x1ec>
+  d2:	6a31      	ldr	r1, [r6, #32]
+  d4:	683b      	ldr	r3, [r7, #0]
+  d6:	f8d6 2094 	ldr.w	r2, [r6, #148]	; 0x94
+  da:	1a5b      	subs	r3, r3, r1
+  dc:	4977      	ldr	r1, [pc, #476]	; (2bc <tcp_slowtmr+0x2bc>)
+  de:	4878      	ldr	r0, [pc, #480]	; (2c0 <tcp_slowtmr+0x2c0>)
+  e0:	1851      	adds	r1, r2, r1
+  e2:	fba0 0101 	umull	r0, r1, r0, r1
+  e6:	ebb3 1f51 	cmp.w	r3, r1, lsr #5
+  ea:	f240 8147 	bls.w	37c <tcp_slowtmr+0x37c>
+  ee:	3501      	adds	r5, #1
+  f0:	f04f 0b01 	mov.w	fp, #1
+  f4:	b2ed      	uxtb	r5, r5
+  f6:	6f74      	ldr	r4, [r6, #116]	; 0x74
+  f8:	b154      	cbz	r4, 110 <tcp_slowtmr+0x110>
+  fa:	683b      	ldr	r3, [r7, #0]
+  fc:	6a32      	ldr	r2, [r6, #32]
+  fe:	1a9a      	subs	r2, r3, r2
+ 100:	f9b6 3040 	ldrsh.w	r3, [r6, #64]	; 0x40
+ 104:	eb03 0343 	add.w	r3, r3, r3, lsl #1
+ 108:	ebb2 0f43 	cmp.w	r2, r3, lsl #1
+ 10c:	f080 80c0 	bcs.w	290 <tcp_slowtmr+0x290>
+ 110:	7d33      	ldrb	r3, [r6, #20]
+ 112:	2b03      	cmp	r3, #3
+ 114:	d06d      	beq.n	1f2 <tcp_slowtmr+0x1f2>
+ 116:	2b09      	cmp	r3, #9
+ 118:	d170      	bne.n	1fc <tcp_slowtmr+0x1fc>
+ 11a:	683b      	ldr	r3, [r7, #0]
+ 11c:	6a32      	ldr	r2, [r6, #32]
+ 11e:	1a9b      	subs	r3, r3, r2
+ 120:	2bf0      	cmp	r3, #240	; 0xf0
+ 122:	d96b      	bls.n	1fc <tcp_slowtmr+0x1fc>
+ 124:	4630      	mov	r0, r6
+ 126:	f8d6 4090 	ldr.w	r4, [r6, #144]	; 0x90
+ 12a:	f7ff fffe 	bl	0 <tcp_slowtmr>
+ 12e:	4b61      	ldr	r3, [pc, #388]	; (2b4 <tcp_slowtmr+0x2b4>)
+ 130:	681b      	ldr	r3, [r3, #0]
+ 132:	f1b8 0f00 	cmp.w	r8, #0
+ 136:	f000 8147 	beq.w	3c8 <tcp_slowtmr+0x3c8>
+ 13a:	42b3      	cmp	r3, r6
+ 13c:	f000 818d 	beq.w	45a <tcp_slowtmr+0x45a>
+ 140:	68f3      	ldr	r3, [r6, #12]
+ 142:	f8c8 300c 	str.w	r3, [r8, #12]
+ 146:	f1bb 0f00 	cmp.w	fp, #0
+ 14a:	f040 8130 	bne.w	3ae <tcp_slowtmr+0x3ae>
+ 14e:	7d33      	ldrb	r3, [r6, #20]
+ 150:	2b01      	cmp	r3, #1
+ 152:	e9d6 5b03 	ldrd	r5, fp, [r6, #12]
+ 156:	f000 8177 	beq.w	448 <tcp_slowtmr+0x448>
+ 15a:	4631      	mov	r1, r6
+ 15c:	2001      	movs	r0, #1
+ 15e:	f7ff fffe 	bl	0 <memp_free>
+ 162:	2300      	movs	r3, #0
+ 164:	f88a 3000 	strb.w	r3, [sl]
+ 168:	b144      	cbz	r4, 17c <tcp_slowtmr+0x17c>
+ 16a:	f06f 010c 	mvn.w	r1, #12
+ 16e:	4658      	mov	r0, fp
+ 170:	47a0      	blx	r4
+ 172:	f89a 3000 	ldrb.w	r3, [sl]
+ 176:	2b00      	cmp	r3, #0
+ 178:	f47f af52 	bne.w	20 <tcp_slowtmr+0x20>
+ 17c:	462e      	mov	r6, r5
+ 17e:	2e00      	cmp	r6, #0
+ 180:	f47f af55 	bne.w	2e <tcp_slowtmr+0x2e>
+ 184:	4e4f      	ldr	r6, [pc, #316]	; (2c4 <tcp_slowtmr+0x2c4>)
+ 186:	6834      	ldr	r4, [r6, #0]
+ 188:	b16c      	cbz	r4, 1a6 <tcp_slowtmr+0x1a6>
+ 18a:	2500      	movs	r5, #0
+ 18c:	7d23      	ldrb	r3, [r4, #20]
+ 18e:	2b0a      	cmp	r3, #10
+ 190:	f040 815e 	bne.w	450 <tcp_slowtmr+0x450>
+ 194:	683b      	ldr	r3, [r7, #0]
+ 196:	6a22      	ldr	r2, [r4, #32]
+ 198:	1a9b      	subs	r3, r3, r2
+ 19a:	2bf0      	cmp	r3, #240	; 0xf0
+ 19c:	d85a      	bhi.n	254 <tcp_slowtmr+0x254>
+ 19e:	4625      	mov	r5, r4
+ 1a0:	68e4      	ldr	r4, [r4, #12]
+ 1a2:	2c00      	cmp	r4, #0
+ 1a4:	d1f2      	bne.n	18c <tcp_slowtmr+0x18c>
+ 1a6:	b007      	add	sp, #28
+ 1a8:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1ac:	4629      	mov	r1, r5
+ 1ae:	4630      	mov	r0, r6
+ 1b0:	f7ff fffe 	bl	0 <tcp_split_unsent_seg>
+ 1b4:	2800      	cmp	r0, #0
+ 1b6:	f000 811c 	beq.w	3f2 <tcp_slowtmr+0x3f2>
+ 1ba:	f896 3099 	ldrb.w	r3, [r6, #153]	; 0x99
+ 1be:	2500      	movs	r5, #0
+ 1c0:	2b06      	cmp	r3, #6
+ 1c2:	f886 5098 	strb.w	r5, [r6, #152]	; 0x98
+ 1c6:	f63f af71 	bhi.w	ac <tcp_slowtmr+0xac>
+ 1ca:	7d34      	ldrb	r4, [r6, #20]
+ 1cc:	3301      	adds	r3, #1
+ 1ce:	2c06      	cmp	r4, #6
+ 1d0:	f886 3099 	strb.w	r3, [r6, #153]	; 0x99
+ 1d4:	f47f af6e 	bne.w	b4 <tcp_slowtmr+0xb4>
+ 1d8:	8b73      	ldrh	r3, [r6, #26]
+ 1da:	06db      	lsls	r3, r3, #27
+ 1dc:	d506      	bpl.n	1ec <tcp_slowtmr+0x1ec>
+ 1de:	683b      	ldr	r3, [r7, #0]
+ 1e0:	6a32      	ldr	r2, [r6, #32]
+ 1e2:	1a9b      	subs	r3, r3, r2
+ 1e4:	2b28      	cmp	r3, #40	; 0x28
+ 1e6:	d901      	bls.n	1ec <tcp_slowtmr+0x1ec>
+ 1e8:	3501      	adds	r5, #1
+ 1ea:	b2ed      	uxtb	r5, r5
+ 1ec:	f04f 0b00 	mov.w	fp, #0
+ 1f0:	e781      	b.n	f6 <tcp_slowtmr+0xf6>
+ 1f2:	683b      	ldr	r3, [r7, #0]
+ 1f4:	6a32      	ldr	r2, [r6, #32]
+ 1f6:	1a9b      	subs	r3, r3, r2
+ 1f8:	2b28      	cmp	r3, #40	; 0x28
+ 1fa:	d893      	bhi.n	124 <tcp_slowtmr+0x124>
+ 1fc:	2d00      	cmp	r5, #0
+ 1fe:	d191      	bne.n	124 <tcp_slowtmr+0x124>
+ 200:	7f33      	ldrb	r3, [r6, #28]
+ 202:	7f72      	ldrb	r2, [r6, #29]
+ 204:	3301      	adds	r3, #1
+ 206:	68f4      	ldr	r4, [r6, #12]
+ 208:	b2db      	uxtb	r3, r3
+ 20a:	429a      	cmp	r2, r3
+ 20c:	7733      	strb	r3, [r6, #28]
+ 20e:	d812      	bhi.n	236 <tcp_slowtmr+0x236>
+ 210:	f8d6 308c 	ldr.w	r3, [r6, #140]	; 0x8c
+ 214:	7735      	strb	r5, [r6, #28]
+ 216:	f88a 5000 	strb.w	r5, [sl]
+ 21a:	2b00      	cmp	r3, #0
+ 21c:	f000 80a5 	beq.w	36a <tcp_slowtmr+0x36a>
+ 220:	4631      	mov	r1, r6
+ 222:	6930      	ldr	r0, [r6, #16]
+ 224:	4798      	blx	r3
+ 226:	f89a 3000 	ldrb.w	r3, [sl]
+ 22a:	2b00      	cmp	r3, #0
+ 22c:	f47f aef8 	bne.w	20 <tcp_slowtmr+0x20>
+ 230:	2800      	cmp	r0, #0
+ 232:	f000 809a 	beq.w	36a <tcp_slowtmr+0x36a>
+ 236:	46b0      	mov	r8, r6
+ 238:	4626      	mov	r6, r4
+ 23a:	2e00      	cmp	r6, #0
+ 23c:	f47f aef7 	bne.w	2e <tcp_slowtmr+0x2e>
+ 240:	e7a0      	b.n	184 <tcp_slowtmr+0x184>
+ 242:	2501      	movs	r5, #1
+ 244:	e733      	b.n	ae <tcp_slowtmr+0xae>
+ 246:	2b05      	cmp	r3, #5
+ 248:	f67f af0a 	bls.w	60 <tcp_slowtmr+0x60>
+ 24c:	f04f 0b00 	mov.w	fp, #0
+ 250:	2501      	movs	r5, #1
+ 252:	e750      	b.n	f6 <tcp_slowtmr+0xf6>
+ 254:	4620      	mov	r0, r4
+ 256:	f7ff fffe 	bl	0 <tcp_slowtmr>
+ 25a:	2d00      	cmp	r5, #0
+ 25c:	f000 80ba 	beq.w	3d4 <tcp_slowtmr+0x3d4>
+ 260:	6833      	ldr	r3, [r6, #0]
+ 262:	42a3      	cmp	r3, r4
+ 264:	f000 8103 	beq.w	46e <tcp_slowtmr+0x46e>
+ 268:	68e3      	ldr	r3, [r4, #12]
+ 26a:	60eb      	str	r3, [r5, #12]
+ 26c:	7d22      	ldrb	r2, [r4, #20]
+ 26e:	2a01      	cmp	r2, #1
+ 270:	f000 80ea 	beq.w	448 <tcp_slowtmr+0x448>
+ 274:	4621      	mov	r1, r4
+ 276:	461c      	mov	r4, r3
+ 278:	2001      	movs	r0, #1
+ 27a:	f7ff fffe 	bl	0 <memp_free>
+ 27e:	2c00      	cmp	r4, #0
+ 280:	d184      	bne.n	18c <tcp_slowtmr+0x18c>
+ 282:	e790      	b.n	1a6 <tcp_slowtmr+0x1a6>
+ 284:	46b0      	mov	r8, r6
+ 286:	68f6      	ldr	r6, [r6, #12]
+ 288:	2e00      	cmp	r6, #0
+ 28a:	f47f aed0 	bne.w	2e <tcp_slowtmr+0x2e>
+ 28e:	e779      	b.n	184 <tcp_slowtmr+0x184>
+ 290:	9505      	str	r5, [sp, #20]
+ 292:	4625      	mov	r5, r4
+ 294:	6824      	ldr	r4, [r4, #0]
+ 296:	6868      	ldr	r0, [r5, #4]
+ 298:	b108      	cbz	r0, 29e <tcp_slowtmr+0x29e>
+ 29a:	f7ff fffe 	bl	0 <pbuf_free>
+ 29e:	4629      	mov	r1, r5
+ 2a0:	2003      	movs	r0, #3
+ 2a2:	f7ff fffe 	bl	0 <memp_free>
+ 2a6:	2c00      	cmp	r4, #0
+ 2a8:	d1f3      	bne.n	292 <tcp_slowtmr+0x292>
+ 2aa:	9d05      	ldr	r5, [sp, #20]
+ 2ac:	6774      	str	r4, [r6, #116]	; 0x74
+ 2ae:	e72f      	b.n	110 <tcp_slowtmr+0x110>
+ 2b0:	00000000 	.word	0x00000000
+ 2b4:	00000000 	.word	0x00000000
+ 2b8:	00000000 	.word	0x00000000
+ 2bc:	000a4cb8 	.word	0x000a4cb8
+ 2c0:	10624dd3 	.word	0x10624dd3
+ 2c4:	00000000 	.word	0x00000000
+ 2c8:	00000000 	.word	0x00000000
+ 2cc:	00000000 	.word	0x00000000
+ 2d0:	f9b6 3030 	ldrsh.w	r3, [r6, #48]	; 0x30
+ 2d4:	f647 71fe 	movw	r1, #32766	; 0x7ffe
+ 2d8:	b29a      	uxth	r2, r3
+ 2da:	428a      	cmp	r2, r1
+ 2dc:	d802      	bhi.n	2e4 <tcp_slowtmr+0x2e4>
+ 2de:	3201      	adds	r2, #1
+ 2e0:	b213      	sxth	r3, r2
+ 2e2:	8633      	strh	r3, [r6, #48]	; 0x30
+ 2e4:	f9b6 2040 	ldrsh.w	r2, [r6, #64]	; 0x40
+ 2e8:	429a      	cmp	r2, r3
+ 2ea:	f73f aee0 	bgt.w	ae <tcp_slowtmr+0xae>
+ 2ee:	4630      	mov	r0, r6
+ 2f0:	f7ff fffe 	bl	0 <tcp_rexmit_rto_prepare>
+ 2f4:	b138      	cbz	r0, 306 <tcp_slowtmr+0x306>
+ 2f6:	6f33      	ldr	r3, [r6, #112]	; 0x70
+ 2f8:	2b00      	cmp	r3, #0
+ 2fa:	f47f aed7 	bne.w	ac <tcp_slowtmr+0xac>
+ 2fe:	6ef3      	ldr	r3, [r6, #108]	; 0x6c
+ 300:	2b00      	cmp	r3, #0
+ 302:	f43f aed3 	beq.w	ac <tcp_slowtmr+0xac>
+ 306:	7d33      	ldrb	r3, [r6, #20]
+ 308:	2b02      	cmp	r3, #2
+ 30a:	d014      	beq.n	336 <tcp_slowtmr+0x336>
+ 30c:	f896 2042 	ldrb.w	r2, [r6, #66]	; 0x42
+ 310:	f9b6 103c 	ldrsh.w	r1, [r6, #60]	; 0x3c
+ 314:	2a0c      	cmp	r2, #12
+ 316:	f9b6 303e 	ldrsh.w	r3, [r6, #62]	; 0x3e
+ 31a:	bf28      	it	cs
+ 31c:	220c      	movcs	r2, #12
+ 31e:	eb03 03e1 	add.w	r3, r3, r1, asr #3
+ 322:	495d      	ldr	r1, [pc, #372]	; (498 <tcp_slowtmr+0x498>)
+ 324:	5c8a      	ldrb	r2, [r1, r2]
+ 326:	4093      	lsls	r3, r2
+ 328:	f647 72ff 	movw	r2, #32767	; 0x7fff
+ 32c:	4293      	cmp	r3, r2
+ 32e:	bfa8      	it	ge
+ 330:	4613      	movge	r3, r2
+ 332:	f8a6 3040 	strh.w	r3, [r6, #64]	; 0x40
+ 336:	8e73      	ldrh	r3, [r6, #50]	; 0x32
+ 338:	4630      	mov	r0, r6
+ 33a:	f8b6 1048 	ldrh.w	r1, [r6, #72]	; 0x48
+ 33e:	f8a6 3048 	strh.w	r3, [r6, #72]	; 0x48
+ 342:	005b      	lsls	r3, r3, #1
+ 344:	b29a      	uxth	r2, r3
+ 346:	f8b6 3060 	ldrh.w	r3, [r6, #96]	; 0x60
+ 34a:	428b      	cmp	r3, r1
+ 34c:	bf28      	it	cs
+ 34e:	460b      	movcs	r3, r1
+ 350:	085b      	lsrs	r3, r3, #1
+ 352:	4293      	cmp	r3, r2
+ 354:	bf38      	it	cc
+ 356:	4613      	movcc	r3, r2
+ 358:	f8a6 304a 	strh.w	r3, [r6, #74]	; 0x4a
+ 35c:	2300      	movs	r3, #0
+ 35e:	8633      	strh	r3, [r6, #48]	; 0x30
+ 360:	f8a6 306a 	strh.w	r3, [r6, #106]	; 0x6a
+ 364:	f7ff fffe 	bl	0 <tcp_rexmit_rto_commit>
+ 368:	e6a0      	b.n	ac <tcp_slowtmr+0xac>
+ 36a:	4630      	mov	r0, r6
+ 36c:	46b0      	mov	r8, r6
+ 36e:	4626      	mov	r6, r4
+ 370:	f7ff fffe 	bl	0 <tcp_output>
+ 374:	2e00      	cmp	r6, #0
+ 376:	f47f ae5a 	bne.w	2e <tcp_slowtmr+0x2e>
+ 37a:	e703      	b.n	184 <tcp_slowtmr+0x184>
+ 37c:	f896 109b 	ldrb.w	r1, [r6, #155]	; 0x9b
+ 380:	4846      	ldr	r0, [pc, #280]	; (49c <tcp_slowtmr+0x49c>)
+ 382:	fb00 2201 	mla	r2, r0, r1, r2
+ 386:	4946      	ldr	r1, [pc, #280]	; (4a0 <tcp_slowtmr+0x4a0>)
+ 388:	fba1 1202 	umull	r1, r2, r1, r2
+ 38c:	ebb3 1f52 	cmp.w	r3, r2, lsr #5
+ 390:	f67f af2c 	bls.w	1ec <tcp_slowtmr+0x1ec>
+ 394:	4630      	mov	r0, r6
+ 396:	f7ff fffe 	bl	0 <tcp_keepalive>
+ 39a:	2800      	cmp	r0, #0
+ 39c:	f47f af26 	bne.w	1ec <tcp_slowtmr+0x1ec>
+ 3a0:	f896 309b 	ldrb.w	r3, [r6, #155]	; 0x9b
+ 3a4:	4683      	mov	fp, r0
+ 3a6:	3301      	adds	r3, #1
+ 3a8:	f886 309b 	strb.w	r3, [r6, #155]	; 0x9b
+ 3ac:	e6a3      	b.n	f6 <tcp_slowtmr+0xf6>
+ 3ae:	8b33      	ldrh	r3, [r6, #24]
+ 3b0:	4630      	mov	r0, r6
+ 3b2:	6a72      	ldr	r2, [r6, #36]	; 0x24
+ 3b4:	6d31      	ldr	r1, [r6, #80]	; 0x50
+ 3b6:	9302      	str	r3, [sp, #8]
+ 3b8:	8af3      	ldrh	r3, [r6, #22]
+ 3ba:	9301      	str	r3, [sp, #4]
+ 3bc:	1d33      	adds	r3, r6, #4
+ 3be:	9300      	str	r3, [sp, #0]
+ 3c0:	4633      	mov	r3, r6
+ 3c2:	f7ff fffe 	bl	0 <tcp_rst>
+ 3c6:	e6c2      	b.n	14e <tcp_slowtmr+0x14e>
+ 3c8:	42b3      	cmp	r3, r6
+ 3ca:	d15a      	bne.n	482 <tcp_slowtmr+0x482>
+ 3cc:	68f3      	ldr	r3, [r6, #12]
+ 3ce:	4a35      	ldr	r2, [pc, #212]	; (4a4 <tcp_slowtmr+0x4a4>)
+ 3d0:	6013      	str	r3, [r2, #0]
+ 3d2:	e6b8      	b.n	146 <tcp_slowtmr+0x146>
+ 3d4:	6833      	ldr	r3, [r6, #0]
+ 3d6:	42a3      	cmp	r3, r4
+ 3d8:	d158      	bne.n	48c <tcp_slowtmr+0x48c>
+ 3da:	68e3      	ldr	r3, [r4, #12]
+ 3dc:	6033      	str	r3, [r6, #0]
+ 3de:	e745      	b.n	26c <tcp_slowtmr+0x26c>
+ 3e0:	3301      	adds	r3, #1
+ 3e2:	b2db      	uxtb	r3, r3
+ 3e4:	428b      	cmp	r3, r1
+ 3e6:	f886 3098 	strb.w	r3, [r6, #152]	; 0x98
+ 3ea:	f4bf ae54 	bcs.w	96 <tcp_slowtmr+0x96>
+ 3ee:	4615      	mov	r5, r2
+ 3f0:	e65d      	b.n	ae <tcp_slowtmr+0xae>
+ 3f2:	4630      	mov	r0, r6
+ 3f4:	f7ff fffe 	bl	0 <tcp_output>
+ 3f8:	2800      	cmp	r0, #0
+ 3fa:	f47f aede 	bne.w	1ba <tcp_slowtmr+0x1ba>
+ 3fe:	4605      	mov	r5, r0
+ 400:	e654      	b.n	ac <tcp_slowtmr+0xac>
+ 402:	4b29      	ldr	r3, [pc, #164]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 404:	f240 42c3 	movw	r2, #1219	; 0x4c3
+ 408:	4928      	ldr	r1, [pc, #160]	; (4ac <tcp_slowtmr+0x4ac>)
+ 40a:	4829      	ldr	r0, [pc, #164]	; (4b0 <tcp_slowtmr+0x4b0>)
+ 40c:	f7ff fffe 	bl	0 <printf>
+ 410:	2000      	movs	r0, #0
+ 412:	f7ff fffe 	bl	0 <fflush>
+ 416:	4620      	mov	r0, r4
+ 418:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 41c:	f7ff fffe 	bl	0 <abort>
+ 420:	4b21      	ldr	r3, [pc, #132]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 422:	f240 42c2 	movw	r2, #1218	; 0x4c2
+ 426:	4923      	ldr	r1, [pc, #140]	; (4b4 <tcp_slowtmr+0x4b4>)
+ 428:	4821      	ldr	r0, [pc, #132]	; (4b0 <tcp_slowtmr+0x4b0>)
+ 42a:	f7ff fffe 	bl	0 <printf>
+ 42e:	2000      	movs	r0, #0
+ 430:	f7ff fffe 	bl	0 <fflush>
+ 434:	2001      	movs	r0, #1
+ 436:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 43a:	f7ff fffe 	bl	0 <abort>
+ 43e:	4b1a      	ldr	r3, [pc, #104]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 440:	f240 42c4 	movw	r2, #1220	; 0x4c4
+ 444:	491c      	ldr	r1, [pc, #112]	; (4b8 <tcp_slowtmr+0x4b8>)
+ 446:	e7ef      	b.n	428 <tcp_slowtmr+0x428>
+ 448:	4b17      	ldr	r3, [pc, #92]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 44a:	22d4      	movs	r2, #212	; 0xd4
+ 44c:	491b      	ldr	r1, [pc, #108]	; (4bc <tcp_slowtmr+0x4bc>)
+ 44e:	e7eb      	b.n	428 <tcp_slowtmr+0x428>
+ 450:	4b15      	ldr	r3, [pc, #84]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 452:	f240 52a5 	movw	r2, #1445	; 0x5a5
+ 456:	491a      	ldr	r1, [pc, #104]	; (4c0 <tcp_slowtmr+0x4c0>)
+ 458:	e7e6      	b.n	428 <tcp_slowtmr+0x428>
+ 45a:	4b13      	ldr	r3, [pc, #76]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 45c:	f240 5271 	movw	r2, #1393	; 0x571
+ 460:	4918      	ldr	r1, [pc, #96]	; (4c4 <tcp_slowtmr+0x4c4>)
+ 462:	e7e1      	b.n	428 <tcp_slowtmr+0x428>
+ 464:	4b10      	ldr	r3, [pc, #64]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 466:	f240 42d9 	movw	r2, #1241	; 0x4d9
+ 46a:	4917      	ldr	r1, [pc, #92]	; (4c8 <tcp_slowtmr+0x4c8>)
+ 46c:	e7dc      	b.n	428 <tcp_slowtmr+0x428>
+ 46e:	4b0e      	ldr	r3, [pc, #56]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 470:	f240 52b3 	movw	r2, #1459	; 0x5b3
+ 474:	4915      	ldr	r1, [pc, #84]	; (4cc <tcp_slowtmr+0x4cc>)
+ 476:	e7d7      	b.n	428 <tcp_slowtmr+0x428>
+ 478:	4b0b      	ldr	r3, [pc, #44]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 47a:	f44f 629b 	mov.w	r2, #1240	; 0x4d8
+ 47e:	4914      	ldr	r1, [pc, #80]	; (4d0 <tcp_slowtmr+0x4d0>)
+ 480:	e7d2      	b.n	428 <tcp_slowtmr+0x428>
+ 482:	4b09      	ldr	r3, [pc, #36]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 484:	f240 5275 	movw	r2, #1397	; 0x575
+ 488:	4912      	ldr	r1, [pc, #72]	; (4d4 <tcp_slowtmr+0x4d4>)
+ 48a:	e7cd      	b.n	428 <tcp_slowtmr+0x428>
+ 48c:	4b06      	ldr	r3, [pc, #24]	; (4a8 <tcp_slowtmr+0x4a8>)
+ 48e:	f240 52b7 	movw	r2, #1463	; 0x5b7
+ 492:	4911      	ldr	r1, [pc, #68]	; (4d8 <tcp_slowtmr+0x4d8>)
+ 494:	e7c8      	b.n	428 <tcp_slowtmr+0x428>
+ 496:	bf00      	nop
+ 498:	00000000 	.word	0x00000000
+ 49c:	000124f8 	.word	0x000124f8
+ 4a0:	10624dd3 	.word	0x10624dd3
+ 4a4:	00000000 	.word	0x00000000
+ 4a8:	00000000 	.word	0x00000000
+ 4ac:	0000002c 	.word	0x0000002c
+ 4b0:	00000030 	.word	0x00000030
+ 4b4:	00000000 	.word	0x00000000
+ 4b8:	00000058 	.word	0x00000058
+ 4bc:	00000000 	.word	0x00000000
+ 4c0:	00000148 	.word	0x00000148
+ 4c4:	000000f0 	.word	0x000000f0
+ 4c8:	000000b8 	.word	0x000000b8
+ 4cc:	00000178 	.word	0x00000178
+ 4d0:	00000084 	.word	0x00000084
+ 4d4:	0000011c 	.word	0x0000011c
+ 4d8:	000001a0 	.word	0x000001a0
+
+Disassembly of section .text.tcp_pcb_remove:
+
+00000000 <tcp_pcb_remove>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	460c      	mov	r4, r1
+   4:	2900      	cmp	r1, #0
+   6:	d034      	beq.n	72 <tcp_pcb_remove+0x72>
+   8:	2800      	cmp	r0, #0
+   a:	d041      	beq.n	90 <tcp_pcb_remove+0x90>
+   c:	6803      	ldr	r3, [r0, #0]
+   e:	428b      	cmp	r3, r1
+  10:	d01f      	beq.n	52 <tcp_pcb_remove+0x52>
+  12:	b12b      	cbz	r3, 20 <tcp_pcb_remove+0x20>
+  14:	68da      	ldr	r2, [r3, #12]
+  16:	42a2      	cmp	r2, r4
+  18:	d028      	beq.n	6c <tcp_pcb_remove+0x6c>
+  1a:	4613      	mov	r3, r2
+  1c:	2b00      	cmp	r3, #0
+  1e:	d1f9      	bne.n	14 <tcp_pcb_remove+0x14>
+  20:	2300      	movs	r3, #0
+  22:	4620      	mov	r0, r4
+  24:	60e3      	str	r3, [r4, #12]
+  26:	f7ff fffe 	bl	0 <tcp_pcb_remove>
+  2a:	7d23      	ldrb	r3, [r4, #20]
+  2c:	2b0a      	cmp	r3, #10
+  2e:	d01a      	beq.n	66 <tcp_pcb_remove+0x66>
+  30:	2b01      	cmp	r3, #1
+  32:	d00a      	beq.n	4a <tcp_pcb_remove+0x4a>
+  34:	8b63      	ldrh	r3, [r4, #26]
+  36:	07da      	lsls	r2, r3, #31
+  38:	d40e      	bmi.n	58 <tcp_pcb_remove+0x58>
+  3a:	6ee6      	ldr	r6, [r4, #108]	; 0x6c
+  3c:	2e00      	cmp	r6, #0
+  3e:	d131      	bne.n	a4 <tcp_pcb_remove+0xa4>
+  40:	6f25      	ldr	r5, [r4, #112]	; 0x70
+  42:	2d00      	cmp	r5, #0
+  44:	d133      	bne.n	ae <tcp_pcb_remove+0xae>
+  46:	6f63      	ldr	r3, [r4, #116]	; 0x74
+  48:	bb3b      	cbnz	r3, 9a <tcp_pcb_remove+0x9a>
+  4a:	2300      	movs	r3, #0
+  4c:	7523      	strb	r3, [r4, #20]
+  4e:	82e3      	strh	r3, [r4, #22]
+  50:	bd70      	pop	{r4, r5, r6, pc}
+  52:	68cb      	ldr	r3, [r1, #12]
+  54:	6003      	str	r3, [r0, #0]
+  56:	e7e3      	b.n	20 <tcp_pcb_remove+0x20>
+  58:	f043 0302 	orr.w	r3, r3, #2
+  5c:	4620      	mov	r0, r4
+  5e:	8363      	strh	r3, [r4, #26]
+  60:	f7ff fffe 	bl	0 <tcp_output>
+  64:	7d23      	ldrb	r3, [r4, #20]
+  66:	2b01      	cmp	r3, #1
+  68:	d1e7      	bne.n	3a <tcp_pcb_remove+0x3a>
+  6a:	e7ee      	b.n	4a <tcp_pcb_remove+0x4a>
+  6c:	68e2      	ldr	r2, [r4, #12]
+  6e:	60da      	str	r2, [r3, #12]
+  70:	e7d6      	b.n	20 <tcp_pcb_remove+0x20>
+  72:	4b11      	ldr	r3, [pc, #68]	; (b8 <tcp_pcb_remove+0xb8>)
+  74:	f640 028d 	movw	r2, #2189	; 0x88d
+  78:	4910      	ldr	r1, [pc, #64]	; (bc <tcp_pcb_remove+0xbc>)
+  7a:	4811      	ldr	r0, [pc, #68]	; (c0 <tcp_pcb_remove+0xc0>)
+  7c:	f7ff fffe 	bl	0 <printf>
+  80:	2000      	movs	r0, #0
+  82:	f7ff fffe 	bl	0 <fflush>
+  86:	2001      	movs	r0, #1
+  88:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  8c:	f7ff fffe 	bl	0 <abort>
+  90:	4b09      	ldr	r3, [pc, #36]	; (b8 <tcp_pcb_remove+0xb8>)
+  92:	f640 028e 	movw	r2, #2190	; 0x88e
+  96:	490b      	ldr	r1, [pc, #44]	; (c4 <tcp_pcb_remove+0xc4>)
+  98:	e7ef      	b.n	7a <tcp_pcb_remove+0x7a>
+  9a:	4b07      	ldr	r3, [pc, #28]	; (b8 <tcp_pcb_remove+0xb8>)
+  9c:	f44f 620a 	mov.w	r2, #2208	; 0x8a0
+  a0:	4909      	ldr	r1, [pc, #36]	; (c8 <tcp_pcb_remove+0xc8>)
+  a2:	e7ea      	b.n	7a <tcp_pcb_remove+0x7a>
+  a4:	4b04      	ldr	r3, [pc, #16]	; (b8 <tcp_pcb_remove+0xb8>)
+  a6:	f640 029d 	movw	r2, #2205	; 0x89d
+  aa:	4908      	ldr	r1, [pc, #32]	; (cc <tcp_pcb_remove+0xcc>)
+  ac:	e7e5      	b.n	7a <tcp_pcb_remove+0x7a>
+  ae:	4b02      	ldr	r3, [pc, #8]	; (b8 <tcp_pcb_remove+0xb8>)
+  b0:	f640 029e 	movw	r2, #2206	; 0x89e
+  b4:	4906      	ldr	r1, [pc, #24]	; (d0 <tcp_pcb_remove+0xd0>)
+  b6:	e7e0      	b.n	7a <tcp_pcb_remove+0x7a>
+  b8:	00000000 	.word	0x00000000
+  bc:	00000000 	.word	0x00000000
+  c0:	00000030 	.word	0x00000030
+  c4:	0000001c 	.word	0x0000001c
+  c8:	00000070 	.word	0x00000070
+  cc:	0000003c 	.word	0x0000003c
+  d0:	00000054 	.word	0x00000054
+
+Disassembly of section .text.tcp_abandon:
+
+00000000 <tcp_abandon>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4605      	mov	r5, r0
+   6:	b087      	sub	sp, #28
+   8:	460e      	mov	r6, r1
+   a:	4a53      	ldr	r2, [pc, #332]	; (158 <tcp_abandon+0x158>)
+   c:	f240 213b 	movw	r1, #571	; 0x23b
+  10:	4852      	ldr	r0, [pc, #328]	; (15c <tcp_abandon+0x15c>)
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	2d00      	cmp	r5, #0
+  18:	d064      	beq.n	e4 <tcp_abandon+0xe4>
+  1a:	7d2c      	ldrb	r4, [r5, #20]
+  1c:	2c01      	cmp	r4, #1
+  1e:	f000 8089 	beq.w	134 <tcp_abandon+0x134>
+  22:	2c0a      	cmp	r4, #10
+  24:	d078      	beq.n	118 <tcp_abandon+0x118>
+  26:	6d2b      	ldr	r3, [r5, #80]	; 0x50
+  28:	f8d5 b024 	ldr.w	fp, [r5, #36]	; 0x24
+  2c:	f8d5 8090 	ldr.w	r8, [r5, #144]	; 0x90
+  30:	f8d5 9010 	ldr.w	r9, [r5, #16]
+  34:	9305      	str	r3, [sp, #20]
+  36:	b96c      	cbnz	r4, 54 <tcp_abandon+0x54>
+  38:	8aef      	ldrh	r7, [r5, #22]
+  3a:	2f00      	cmp	r7, #0
+  3c:	d055      	beq.n	ea <tcp_abandon+0xea>
+  3e:	4a48      	ldr	r2, [pc, #288]	; (160 <tcp_abandon+0x160>)
+  40:	6813      	ldr	r3, [r2, #0]
+  42:	42ab      	cmp	r3, r5
+  44:	d065      	beq.n	112 <tcp_abandon+0x112>
+  46:	2b00      	cmp	r3, #0
+  48:	d053      	beq.n	f2 <tcp_abandon+0xf2>
+  4a:	68da      	ldr	r2, [r3, #12]
+  4c:	42aa      	cmp	r2, r5
+  4e:	d04e      	beq.n	ee <tcp_abandon+0xee>
+  50:	4613      	mov	r3, r2
+  52:	e7f8      	b.n	46 <tcp_abandon+0x46>
+  54:	4629      	mov	r1, r5
+  56:	4843      	ldr	r0, [pc, #268]	; (164 <tcp_abandon+0x164>)
+  58:	8aef      	ldrh	r7, [r5, #22]
+  5a:	f7ff fffe 	bl	0 <tcp_abandon>
+  5e:	4b42      	ldr	r3, [pc, #264]	; (168 <tcp_abandon+0x168>)
+  60:	2201      	movs	r2, #1
+  62:	701a      	strb	r2, [r3, #0]
+  64:	6f2c      	ldr	r4, [r5, #112]	; 0x70
+  66:	b164      	cbz	r4, 82 <tcp_abandon+0x82>
+  68:	46a2      	mov	sl, r4
+  6a:	6824      	ldr	r4, [r4, #0]
+  6c:	f8da 0004 	ldr.w	r0, [sl, #4]
+  70:	b108      	cbz	r0, 76 <tcp_abandon+0x76>
+  72:	f7ff fffe 	bl	0 <pbuf_free>
+  76:	4651      	mov	r1, sl
+  78:	2003      	movs	r0, #3
+  7a:	f7ff fffe 	bl	0 <memp_free>
+  7e:	2c00      	cmp	r4, #0
+  80:	d1f2      	bne.n	68 <tcp_abandon+0x68>
+  82:	6eec      	ldr	r4, [r5, #108]	; 0x6c
+  84:	b164      	cbz	r4, a0 <tcp_abandon+0xa0>
+  86:	46a2      	mov	sl, r4
+  88:	6824      	ldr	r4, [r4, #0]
+  8a:	f8da 0004 	ldr.w	r0, [sl, #4]
+  8e:	b108      	cbz	r0, 94 <tcp_abandon+0x94>
+  90:	f7ff fffe 	bl	0 <pbuf_free>
+  94:	4651      	mov	r1, sl
+  96:	2003      	movs	r0, #3
+  98:	f7ff fffe 	bl	0 <memp_free>
+  9c:	2c00      	cmp	r4, #0
+  9e:	d1f2      	bne.n	86 <tcp_abandon+0x86>
+  a0:	6f6c      	ldr	r4, [r5, #116]	; 0x74
+  a2:	b164      	cbz	r4, be <tcp_abandon+0xbe>
+  a4:	46a2      	mov	sl, r4
+  a6:	6824      	ldr	r4, [r4, #0]
+  a8:	f8da 0004 	ldr.w	r0, [sl, #4]
+  ac:	b108      	cbz	r0, b2 <tcp_abandon+0xb2>
+  ae:	f7ff fffe 	bl	0 <pbuf_free>
+  b2:	4651      	mov	r1, sl
+  b4:	2003      	movs	r0, #3
+  b6:	f7ff fffe 	bl	0 <memp_free>
+  ba:	2c00      	cmp	r4, #0
+  bc:	d1f2      	bne.n	a4 <tcp_abandon+0xa4>
+  be:	b9e6      	cbnz	r6, fa <tcp_abandon+0xfa>
+  c0:	7d2b      	ldrb	r3, [r5, #20]
+  c2:	2b01      	cmp	r3, #1
+  c4:	d045      	beq.n	152 <tcp_abandon+0x152>
+  c6:	4629      	mov	r1, r5
+  c8:	2001      	movs	r0, #1
+  ca:	f7ff fffe 	bl	0 <memp_free>
+  ce:	f1b8 0f00 	cmp.w	r8, #0
+  d2:	d007      	beq.n	e4 <tcp_abandon+0xe4>
+  d4:	f06f 010c 	mvn.w	r1, #12
+  d8:	4648      	mov	r0, r9
+  da:	4643      	mov	r3, r8
+  dc:	b007      	add	sp, #28
+  de:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  e2:	4718      	bx	r3
+  e4:	b007      	add	sp, #28
+  e6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ea:	463e      	mov	r6, r7
+  ec:	e7ba      	b.n	64 <tcp_abandon+0x64>
+  ee:	68ea      	ldr	r2, [r5, #12]
+  f0:	60da      	str	r2, [r3, #12]
+  f2:	2700      	movs	r7, #0
+  f4:	463e      	mov	r6, r7
+  f6:	60ef      	str	r7, [r5, #12]
+  f8:	e7b4      	b.n	64 <tcp_abandon+0x64>
+  fa:	9701      	str	r7, [sp, #4]
+  fc:	465a      	mov	r2, fp
+  fe:	8b2b      	ldrh	r3, [r5, #24]
+ 100:	4628      	mov	r0, r5
+ 102:	9905      	ldr	r1, [sp, #20]
+ 104:	9302      	str	r3, [sp, #8]
+ 106:	1d2b      	adds	r3, r5, #4
+ 108:	9300      	str	r3, [sp, #0]
+ 10a:	462b      	mov	r3, r5
+ 10c:	f7ff fffe 	bl	0 <tcp_rst>
+ 110:	e7d6      	b.n	c0 <tcp_abandon+0xc0>
+ 112:	68eb      	ldr	r3, [r5, #12]
+ 114:	6013      	str	r3, [r2, #0]
+ 116:	e7ec      	b.n	f2 <tcp_abandon+0xf2>
+ 118:	4629      	mov	r1, r5
+ 11a:	4814      	ldr	r0, [pc, #80]	; (16c <tcp_abandon+0x16c>)
+ 11c:	f7ff fffe 	bl	0 <tcp_abandon>
+ 120:	7d2b      	ldrb	r3, [r5, #20]
+ 122:	2b01      	cmp	r3, #1
+ 124:	d015      	beq.n	152 <tcp_abandon+0x152>
+ 126:	4629      	mov	r1, r5
+ 128:	2001      	movs	r0, #1
+ 12a:	b007      	add	sp, #28
+ 12c:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+ 130:	f7ff bffe 	b.w	0 <memp_free>
+ 134:	4b09      	ldr	r3, [pc, #36]	; (15c <tcp_abandon+0x15c>)
+ 136:	f44f 7210 	mov.w	r2, #576	; 0x240
+ 13a:	490d      	ldr	r1, [pc, #52]	; (170 <tcp_abandon+0x170>)
+ 13c:	480d      	ldr	r0, [pc, #52]	; (174 <tcp_abandon+0x174>)
+ 13e:	f7ff fffe 	bl	0 <printf>
+ 142:	2000      	movs	r0, #0
+ 144:	f7ff fffe 	bl	0 <fflush>
+ 148:	4620      	mov	r0, r4
+ 14a:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 14e:	f7ff fffe 	bl	0 <abort>
+ 152:	f7ff fffe 	bl	0 <tcp_abandon>
+ 156:	bf00      	nop
+ 158:	00000000 	.word	0x00000000
+ 15c:	00000000 	.word	0x00000000
+ 160:	00000000 	.word	0x00000000
+ 164:	00000000 	.word	0x00000000
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000000 	.word	0x00000000
+ 170:	00000000 	.word	0x00000000
+ 174:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_abort:
+
+00000000 <tcp_abort>:
+   0:	2101      	movs	r1, #1
+   2:	f7ff bffe 	b.w	0 <tcp_abort>
+   6:	bf00      	nop
+
+Disassembly of section .text.tcp_accept_null:
+
+00000000 <tcp_accept_null>:
+   0:	b510      	push	{r4, lr}
+   2:	460c      	mov	r4, r1
+   4:	b131      	cbz	r1, 14 <tcp_accept_null+0x14>
+   6:	4608      	mov	r0, r1
+   8:	2101      	movs	r1, #1
+   a:	f7ff fffe 	bl	0 <tcp_accept_null>
+   e:	f06f 000c 	mvn.w	r0, #12
+  12:	bd10      	pop	{r4, pc}
+  14:	4b07      	ldr	r3, [pc, #28]	; (34 <tcp_accept_null+0x34>)
+  16:	f44f 7244 	mov.w	r2, #784	; 0x310
+  1a:	4907      	ldr	r1, [pc, #28]	; (38 <tcp_accept_null+0x38>)
+  1c:	4807      	ldr	r0, [pc, #28]	; (3c <tcp_accept_null+0x3c>)
+  1e:	f7ff fffe 	bl	0 <printf>
+  22:	4620      	mov	r0, r4
+  24:	f7ff fffe 	bl	0 <fflush>
+  28:	2001      	movs	r0, #1
+  2a:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  2e:	f7ff fffe 	bl	0 <abort>
+  32:	bf00      	nop
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+  3c:	00000030 	.word	0x00000030
+
+Disassembly of section .text.tcp_alloc:
+
+00000000 <tcp_alloc>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4a5f      	ldr	r2, [pc, #380]	; (180 <tcp_alloc+0x180>)
+   4:	f240 7132 	movw	r1, #1842	; 0x732
+   8:	4605      	mov	r5, r0
+   a:	485e      	ldr	r0, [pc, #376]	; (184 <tcp_alloc+0x184>)
+   c:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  10:	2001      	movs	r0, #1
+  12:	f7ff fffe 	bl	0 <memp_malloc>
+  16:	4603      	mov	r3, r0
+  18:	b320      	cbz	r0, 64 <tcp_alloc+0x64>
+  1a:	229c      	movs	r2, #156	; 0x9c
+  1c:	2100      	movs	r1, #0
+  1e:	4618      	mov	r0, r3
+  20:	f241 64d0 	movw	r4, #5840	; 0x16d0
+  24:	f7ff fffe 	bl	0 <memset>
+  28:	4957      	ldr	r1, [pc, #348]	; (188 <tcp_alloc+0x188>)
+  2a:	4603      	mov	r3, r0
+  2c:	2206      	movs	r2, #6
+  2e:	7809      	ldrb	r1, [r1, #0]
+  30:	4856      	ldr	r0, [pc, #344]	; (18c <tcp_alloc+0x18c>)
+  32:	f8a3 2040 	strh.w	r2, [r3, #64]	; 0x40
+  36:	6800      	ldr	r0, [r0, #0]
+  38:	87da      	strh	r2, [r3, #62]	; 0x3e
+  3a:	7799      	strb	r1, [r3, #30]
+  3c:	4a54      	ldr	r2, [pc, #336]	; (190 <tcp_alloc+0x190>)
+  3e:	4955      	ldr	r1, [pc, #340]	; (194 <tcp_alloc+0x194>)
+  40:	f8a3 4064 	strh.w	r4, [r3, #100]	; 0x64
+  44:	6218      	str	r0, [r3, #32]
+  46:	4c54      	ldr	r4, [pc, #336]	; (198 <tcp_alloc+0x198>)
+  48:	4854      	ldr	r0, [pc, #336]	; (19c <tcp_alloc+0x19c>)
+  4a:	f8c3 1084 	str.w	r1, [r3, #132]	; 0x84
+  4e:	f8c3 2094 	str.w	r2, [r3, #148]	; 0x94
+  52:	22ff      	movs	r2, #255	; 0xff
+  54:	4952      	ldr	r1, [pc, #328]	; (1a0 <tcp_alloc+0x1a0>)
+  56:	6498      	str	r0, [r3, #72]	; 0x48
+  58:	4618      	mov	r0, r3
+  5a:	755d      	strb	r5, [r3, #21]
+  5c:	631c      	str	r4, [r3, #48]	; 0x30
+  5e:	6299      	str	r1, [r3, #40]	; 0x28
+  60:	72da      	strb	r2, [r3, #11]
+  62:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  64:	4e4f      	ldr	r6, [pc, #316]	; (1a4 <tcp_alloc+0x1a4>)
+  66:	6834      	ldr	r4, [r6, #0]
+  68:	b15c      	cbz	r4, 82 <tcp_alloc+0x82>
+  6a:	4620      	mov	r0, r4
+  6c:	68e4      	ldr	r4, [r4, #12]
+  6e:	8b43      	ldrh	r3, [r0, #26]
+  70:	0719      	lsls	r1, r3, #28
+  72:	d5f9      	bpl.n	68 <tcp_alloc+0x68>
+  74:	f023 0308 	bic.w	r3, r3, #8
+  78:	8343      	strh	r3, [r0, #26]
+  7a:	f7ff fffe 	bl	0 <tcp_alloc>
+  7e:	2c00      	cmp	r4, #0
+  80:	d1f3      	bne.n	6a <tcp_alloc+0x6a>
+  82:	4b49      	ldr	r3, [pc, #292]	; (1a8 <tcp_alloc+0x1a8>)
+  84:	681b      	ldr	r3, [r3, #0]
+  86:	b193      	cbz	r3, ae <tcp_alloc+0xae>
+  88:	4a40      	ldr	r2, [pc, #256]	; (18c <tcp_alloc+0x18c>)
+  8a:	4618      	mov	r0, r3
+  8c:	6a19      	ldr	r1, [r3, #32]
+  8e:	6814      	ldr	r4, [r2, #0]
+  90:	1a61      	subs	r1, r4, r1
+  92:	68db      	ldr	r3, [r3, #12]
+  94:	b143      	cbz	r3, a8 <tcp_alloc+0xa8>
+  96:	6a1a      	ldr	r2, [r3, #32]
+  98:	1aa2      	subs	r2, r4, r2
+  9a:	428a      	cmp	r2, r1
+  9c:	d3f9      	bcc.n	92 <tcp_alloc+0x92>
+  9e:	4618      	mov	r0, r3
+  a0:	68db      	ldr	r3, [r3, #12]
+  a2:	4611      	mov	r1, r2
+  a4:	2b00      	cmp	r3, #0
+  a6:	d1f6      	bne.n	96 <tcp_alloc+0x96>
+  a8:	2101      	movs	r1, #1
+  aa:	f7ff fffe 	bl	0 <tcp_alloc>
+  ae:	2001      	movs	r0, #1
+  b0:	f7ff fffe 	bl	0 <memp_malloc>
+  b4:	4603      	mov	r3, r0
+  b6:	2800      	cmp	r0, #0
+  b8:	d1af      	bne.n	1a <tcp_alloc+0x1a>
+  ba:	6831      	ldr	r1, [r6, #0]
+  bc:	b191      	cbz	r1, e4 <tcp_alloc+0xe4>
+  be:	4a33      	ldr	r2, [pc, #204]	; (18c <tcp_alloc+0x18c>)
+  c0:	6814      	ldr	r4, [r2, #0]
+  c2:	e001      	b.n	c8 <tcp_alloc+0xc8>
+  c4:	68c9      	ldr	r1, [r1, #12]
+  c6:	b149      	cbz	r1, dc <tcp_alloc+0xdc>
+  c8:	7d0a      	ldrb	r2, [r1, #20]
+  ca:	2a09      	cmp	r2, #9
+  cc:	d1fa      	bne.n	c4 <tcp_alloc+0xc4>
+  ce:	6a0a      	ldr	r2, [r1, #32]
+  d0:	1aa2      	subs	r2, r4, r2
+  d2:	4282      	cmp	r2, r0
+  d4:	d3f6      	bcc.n	c4 <tcp_alloc+0xc4>
+  d6:	460b      	mov	r3, r1
+  d8:	4610      	mov	r0, r2
+  da:	e7f3      	b.n	c4 <tcp_alloc+0xc4>
+  dc:	b113      	cbz	r3, e4 <tcp_alloc+0xe4>
+  de:	4618      	mov	r0, r3
+  e0:	f7ff fffe 	bl	0 <tcp_alloc>
+  e4:	2001      	movs	r0, #1
+  e6:	f7ff fffe 	bl	0 <memp_malloc>
+  ea:	4603      	mov	r3, r0
+  ec:	2800      	cmp	r0, #0
+  ee:	d194      	bne.n	1a <tcp_alloc+0x1a>
+  f0:	6831      	ldr	r1, [r6, #0]
+  f2:	b191      	cbz	r1, 11a <tcp_alloc+0x11a>
+  f4:	4a25      	ldr	r2, [pc, #148]	; (18c <tcp_alloc+0x18c>)
+  f6:	6814      	ldr	r4, [r2, #0]
+  f8:	e001      	b.n	fe <tcp_alloc+0xfe>
+  fa:	68c9      	ldr	r1, [r1, #12]
+  fc:	b149      	cbz	r1, 112 <tcp_alloc+0x112>
+  fe:	7d0a      	ldrb	r2, [r1, #20]
+ 100:	2a08      	cmp	r2, #8
+ 102:	d1fa      	bne.n	fa <tcp_alloc+0xfa>
+ 104:	6a0a      	ldr	r2, [r1, #32]
+ 106:	1aa2      	subs	r2, r4, r2
+ 108:	4282      	cmp	r2, r0
+ 10a:	d3f6      	bcc.n	fa <tcp_alloc+0xfa>
+ 10c:	460b      	mov	r3, r1
+ 10e:	4610      	mov	r0, r2
+ 110:	e7f3      	b.n	fa <tcp_alloc+0xfa>
+ 112:	b113      	cbz	r3, 11a <tcp_alloc+0x11a>
+ 114:	4618      	mov	r0, r3
+ 116:	f7ff fffe 	bl	0 <tcp_alloc>
+ 11a:	2001      	movs	r0, #1
+ 11c:	f7ff fffe 	bl	0 <memp_malloc>
+ 120:	4603      	mov	r3, r0
+ 122:	2800      	cmp	r0, #0
+ 124:	f47f af79 	bne.w	1a <tcp_alloc+0x1a>
+ 128:	062a      	lsls	r2, r5, #24
+ 12a:	d427      	bmi.n	17c <tcp_alloc+0x17c>
+ 12c:	b1ed      	cbz	r5, 16a <tcp_alloc+0x16a>
+ 12e:	462a      	mov	r2, r5
+ 130:	1e51      	subs	r1, r2, #1
+ 132:	6832      	ldr	r2, [r6, #0]
+ 134:	b2c9      	uxtb	r1, r1
+ 136:	b1c2      	cbz	r2, 16a <tcp_alloc+0x16a>
+ 138:	4814      	ldr	r0, [pc, #80]	; (18c <tcp_alloc+0x18c>)
+ 13a:	2600      	movs	r6, #0
+ 13c:	6807      	ldr	r7, [r0, #0]
+ 13e:	e005      	b.n	14c <tcp_alloc+0x14c>
+ 140:	6a14      	ldr	r4, [r2, #32]
+ 142:	1b3e      	subs	r6, r7, r4
+ 144:	4601      	mov	r1, r0
+ 146:	4613      	mov	r3, r2
+ 148:	68d2      	ldr	r2, [r2, #12]
+ 14a:	b14a      	cbz	r2, 160 <tcp_alloc+0x160>
+ 14c:	7d50      	ldrb	r0, [r2, #21]
+ 14e:	4288      	cmp	r0, r1
+ 150:	d3f6      	bcc.n	140 <tcp_alloc+0x140>
+ 152:	d1f9      	bne.n	148 <tcp_alloc+0x148>
+ 154:	6a14      	ldr	r4, [r2, #32]
+ 156:	eba7 0e04 	sub.w	lr, r7, r4
+ 15a:	45b6      	cmp	lr, r6
+ 15c:	d3f4      	bcc.n	148 <tcp_alloc+0x148>
+ 15e:	e7f0      	b.n	142 <tcp_alloc+0x142>
+ 160:	b11b      	cbz	r3, 16a <tcp_alloc+0x16a>
+ 162:	2101      	movs	r1, #1
+ 164:	4618      	mov	r0, r3
+ 166:	f7ff fffe 	bl	0 <tcp_alloc>
+ 16a:	2001      	movs	r0, #1
+ 16c:	f7ff fffe 	bl	0 <memp_malloc>
+ 170:	4603      	mov	r3, r0
+ 172:	2800      	cmp	r0, #0
+ 174:	f47f af51 	bne.w	1a <tcp_alloc+0x1a>
+ 178:	4618      	mov	r0, r3
+ 17a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 17c:	227f      	movs	r2, #127	; 0x7f
+ 17e:	e7d7      	b.n	130 <tcp_alloc+0x130>
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	00000000 	.word	0x00000000
+ 18c:	00000000 	.word	0x00000000
+ 190:	006ddd00 	.word	0x006ddd00
+ 194:	00000000 	.word	0x00000000
+ 198:	0218ffff 	.word	0x0218ffff
+ 19c:	16d00001 	.word	0x16d00001
+ 1a0:	16d016d0 	.word	0x16d016d0
+ 1a4:	00000000 	.word	0x00000000
+ 1a8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_new:
+
+00000000 <tcp_new>:
+   0:	2040      	movs	r0, #64	; 0x40
+   2:	f7ff bffe 	b.w	0 <tcp_new>
+   6:	bf00      	nop
+
+Disassembly of section .text.tcp_new_ip_type:
+
+00000000 <tcp_new_ip_type>:
+   0:	2040      	movs	r0, #64	; 0x40
+   2:	f7ff bffe 	b.w	0 <tcp_new_ip_type>
+   6:	bf00      	nop
+
+Disassembly of section .text.tcp_close_shutdown:
+
+00000000 <tcp_close_shutdown>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	b085      	sub	sp, #20
+   6:	2800      	cmp	r0, #0
+   8:	f000 8096 	beq.w	138 <tcp_close_shutdown+0x138>
+   c:	7d03      	ldrb	r3, [r0, #20]
+   e:	b959      	cbnz	r1, 28 <tcp_close_shutdown+0x28>
+  10:	2b01      	cmp	r3, #1
+  12:	d04f      	beq.n	b4 <tcp_close_shutdown+0xb4>
+  14:	2b02      	cmp	r3, #2
+  16:	d060      	beq.n	da <tcp_close_shutdown+0xda>
+  18:	2b00      	cmp	r3, #0
+  1a:	d06a      	beq.n	f2 <tcp_close_shutdown+0xf2>
+  1c:	4620      	mov	r0, r4
+  1e:	b005      	add	sp, #20
+  20:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  24:	f7ff bffe 	b.w	0 <tcp_close_shutdown>
+  28:	2b04      	cmp	r3, #4
+  2a:	d001      	beq.n	30 <tcp_close_shutdown+0x30>
+  2c:	2b07      	cmp	r3, #7
+  2e:	d1ef      	bne.n	10 <tcp_close_shutdown+0x10>
+  30:	6fa2      	ldr	r2, [r4, #120]	; 0x78
+  32:	2a00      	cmp	r2, #0
+  34:	d032      	beq.n	9c <tcp_close_shutdown+0x9c>
+  36:	8b63      	ldrh	r3, [r4, #26]
+  38:	f013 0510 	ands.w	r5, r3, #16
+  3c:	f000 808b 	beq.w	156 <tcp_close_shutdown+0x156>
+  40:	8b21      	ldrh	r1, [r4, #24]
+  42:	1d20      	adds	r0, r4, #4
+  44:	8ae2      	ldrh	r2, [r4, #22]
+  46:	4623      	mov	r3, r4
+  48:	e9cd 2101 	strd	r2, r1, [sp, #4]
+  4c:	6a62      	ldr	r2, [r4, #36]	; 0x24
+  4e:	6d21      	ldr	r1, [r4, #80]	; 0x50
+  50:	9000      	str	r0, [sp, #0]
+  52:	4620      	mov	r0, r4
+  54:	f7ff fffe 	bl	0 <tcp_rst>
+  58:	4620      	mov	r0, r4
+  5a:	f7ff fffe 	bl	0 <tcp_close_shutdown>
+  5e:	4a4c      	ldr	r2, [pc, #304]	; (190 <tcp_close_shutdown+0x190>)
+  60:	6813      	ldr	r3, [r2, #0]
+  62:	42a3      	cmp	r3, r4
+  64:	d023      	beq.n	ae <tcp_close_shutdown+0xae>
+  66:	b133      	cbz	r3, 76 <tcp_close_shutdown+0x76>
+  68:	68da      	ldr	r2, [r3, #12]
+  6a:	42a2      	cmp	r2, r4
+  6c:	d001      	beq.n	72 <tcp_close_shutdown+0x72>
+  6e:	4613      	mov	r3, r2
+  70:	e7f9      	b.n	66 <tcp_close_shutdown+0x66>
+  72:	68e2      	ldr	r2, [r4, #12]
+  74:	60da      	str	r2, [r3, #12]
+  76:	4b47      	ldr	r3, [pc, #284]	; (194 <tcp_close_shutdown+0x194>)
+  78:	2000      	movs	r0, #0
+  7a:	4a47      	ldr	r2, [pc, #284]	; (198 <tcp_close_shutdown+0x198>)
+  7c:	2101      	movs	r1, #1
+  7e:	681b      	ldr	r3, [r3, #0]
+  80:	60e0      	str	r0, [r4, #12]
+  82:	42a3      	cmp	r3, r4
+  84:	7011      	strb	r1, [r2, #0]
+  86:	d00f      	beq.n	a8 <tcp_close_shutdown+0xa8>
+  88:	7d23      	ldrb	r3, [r4, #20]
+  8a:	2b01      	cmp	r3, #1
+  8c:	d02f      	beq.n	ee <tcp_close_shutdown+0xee>
+  8e:	4621      	mov	r1, r4
+  90:	2001      	movs	r0, #1
+  92:	f7ff fffe 	bl	0 <memp_free>
+  96:	2000      	movs	r0, #0
+  98:	b005      	add	sp, #20
+  9a:	bd30      	pop	{r4, r5, pc}
+  9c:	8d21      	ldrh	r1, [r4, #40]	; 0x28
+  9e:	f241 62d0 	movw	r2, #5840	; 0x16d0
+  a2:	4291      	cmp	r1, r2
+  a4:	d1c7      	bne.n	36 <tcp_close_shutdown+0x36>
+  a6:	e7b3      	b.n	10 <tcp_close_shutdown+0x10>
+  a8:	f7ff fffe 	bl	0 <tcp_trigger_input_pcb_close>
+  ac:	e7f3      	b.n	96 <tcp_close_shutdown+0x96>
+  ae:	68e3      	ldr	r3, [r4, #12]
+  b0:	6013      	str	r3, [r2, #0]
+  b2:	e7e0      	b.n	76 <tcp_close_shutdown+0x76>
+  b4:	4939      	ldr	r1, [pc, #228]	; (19c <tcp_close_shutdown+0x19c>)
+  b6:	2000      	movs	r0, #0
+  b8:	4b39      	ldr	r3, [pc, #228]	; (1a0 <tcp_close_shutdown+0x1a0>)
+  ba:	f101 0508 	add.w	r5, r1, #8
+  be:	681b      	ldr	r3, [r3, #0]
+  c0:	b133      	cbz	r3, d0 <tcp_close_shutdown+0xd0>
+  c2:	6fda      	ldr	r2, [r3, #124]	; 0x7c
+  c4:	4294      	cmp	r4, r2
+  c6:	bf08      	it	eq
+  c8:	67d8      	streq	r0, [r3, #124]	; 0x7c
+  ca:	68db      	ldr	r3, [r3, #12]
+  cc:	2b00      	cmp	r3, #0
+  ce:	d1f8      	bne.n	c2 <tcp_close_shutdown+0xc2>
+  d0:	42a9      	cmp	r1, r5
+  d2:	d01b      	beq.n	10c <tcp_close_shutdown+0x10c>
+  d4:	f851 3f04 	ldr.w	r3, [r1, #4]!
+  d8:	e7f1      	b.n	be <tcp_close_shutdown+0xbe>
+  da:	4621      	mov	r1, r4
+  dc:	482c      	ldr	r0, [pc, #176]	; (190 <tcp_close_shutdown+0x190>)
+  de:	f7ff fffe 	bl	0 <tcp_close_shutdown>
+  e2:	2101      	movs	r1, #1
+  e4:	7d23      	ldrb	r3, [r4, #20]
+  e6:	4a2c      	ldr	r2, [pc, #176]	; (198 <tcp_close_shutdown+0x198>)
+  e8:	428b      	cmp	r3, r1
+  ea:	7011      	strb	r1, [r2, #0]
+  ec:	d1cf      	bne.n	8e <tcp_close_shutdown+0x8e>
+  ee:	f7ff fffe 	bl	0 <tcp_close_shutdown>
+  f2:	8ae3      	ldrh	r3, [r4, #22]
+  f4:	2b00      	cmp	r3, #0
+  f6:	d0ca      	beq.n	8e <tcp_close_shutdown+0x8e>
+  f8:	4a29      	ldr	r2, [pc, #164]	; (1a0 <tcp_close_shutdown+0x1a0>)
+  fa:	6813      	ldr	r3, [r2, #0]
+  fc:	42a3      	cmp	r3, r4
+  fe:	d018      	beq.n	132 <tcp_close_shutdown+0x132>
+ 100:	b1a3      	cbz	r3, 12c <tcp_close_shutdown+0x12c>
+ 102:	68da      	ldr	r2, [r3, #12]
+ 104:	42a2      	cmp	r2, r4
+ 106:	d00f      	beq.n	128 <tcp_close_shutdown+0x128>
+ 108:	4613      	mov	r3, r2
+ 10a:	e7f9      	b.n	100 <tcp_close_shutdown+0x100>
+ 10c:	4621      	mov	r1, r4
+ 10e:	4825      	ldr	r0, [pc, #148]	; (1a4 <tcp_close_shutdown+0x1a4>)
+ 110:	f7ff fffe 	bl	0 <tcp_close_shutdown>
+ 114:	7d25      	ldrb	r5, [r4, #20]
+ 116:	2d01      	cmp	r5, #1
+ 118:	d02c      	beq.n	174 <tcp_close_shutdown+0x174>
+ 11a:	4621      	mov	r1, r4
+ 11c:	2002      	movs	r0, #2
+ 11e:	f7ff fffe 	bl	0 <memp_free>
+ 122:	2000      	movs	r0, #0
+ 124:	b005      	add	sp, #20
+ 126:	bd30      	pop	{r4, r5, pc}
+ 128:	68e2      	ldr	r2, [r4, #12]
+ 12a:	60da      	str	r2, [r3, #12]
+ 12c:	2300      	movs	r3, #0
+ 12e:	60e3      	str	r3, [r4, #12]
+ 130:	e7ad      	b.n	8e <tcp_close_shutdown+0x8e>
+ 132:	68e3      	ldr	r3, [r4, #12]
+ 134:	6013      	str	r3, [r2, #0]
+ 136:	e7f9      	b.n	12c <tcp_close_shutdown+0x12c>
+ 138:	4b1b      	ldr	r3, [pc, #108]	; (1a8 <tcp_close_shutdown+0x1a8>)
+ 13a:	f44f 72af 	mov.w	r2, #350	; 0x15e
+ 13e:	491b      	ldr	r1, [pc, #108]	; (1ac <tcp_close_shutdown+0x1ac>)
+ 140:	481b      	ldr	r0, [pc, #108]	; (1b0 <tcp_close_shutdown+0x1b0>)
+ 142:	f7ff fffe 	bl	0 <printf>
+ 146:	4620      	mov	r0, r4
+ 148:	f7ff fffe 	bl	0 <fflush>
+ 14c:	2001      	movs	r0, #1
+ 14e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 152:	f7ff fffe 	bl	0 <abort>
+ 156:	4b14      	ldr	r3, [pc, #80]	; (1a8 <tcp_close_shutdown+0x1a8>)
+ 158:	f44f 72b2 	mov.w	r2, #356	; 0x164
+ 15c:	4915      	ldr	r1, [pc, #84]	; (1b4 <tcp_close_shutdown+0x1b4>)
+ 15e:	4814      	ldr	r0, [pc, #80]	; (1b0 <tcp_close_shutdown+0x1b0>)
+ 160:	f7ff fffe 	bl	0 <printf>
+ 164:	4628      	mov	r0, r5
+ 166:	f7ff fffe 	bl	0 <fflush>
+ 16a:	2001      	movs	r0, #1
+ 16c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 170:	f7ff fffe 	bl	0 <abort>
+ 174:	4b0c      	ldr	r3, [pc, #48]	; (1a8 <tcp_close_shutdown+0x1a8>)
+ 176:	22df      	movs	r2, #223	; 0xdf
+ 178:	490f      	ldr	r1, [pc, #60]	; (1b8 <tcp_close_shutdown+0x1b8>)
+ 17a:	480d      	ldr	r0, [pc, #52]	; (1b0 <tcp_close_shutdown+0x1b0>)
+ 17c:	f7ff fffe 	bl	0 <printf>
+ 180:	2000      	movs	r0, #0
+ 182:	f7ff fffe 	bl	0 <fflush>
+ 186:	4628      	mov	r0, r5
+ 188:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 18c:	f7ff fffe 	bl	0 <abort>
+ 190:	00000000 	.word	0x00000000
+ 194:	00000000 	.word	0x00000000
+ 198:	00000000 	.word	0x00000000
+ 19c:	00000004 	.word	0x00000004
+ 1a0:	00000000 	.word	0x00000000
+ 1a4:	00000000 	.word	0x00000000
+ 1a8:	00000000 	.word	0x00000000
+ 1ac:	00000000 	.word	0x00000000
+ 1b0:	00000030 	.word	0x00000030
+ 1b4:	00000020 	.word	0x00000020
+ 1b8:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.tcp_close:
+
+00000000 <tcp_close>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	4a0b      	ldr	r2, [pc, #44]	; (34 <tcp_close+0x34>)
+   6:	f44f 71f3 	mov.w	r1, #486	; 0x1e6
+   a:	480b      	ldr	r0, [pc, #44]	; (38 <tcp_close+0x38>)
+   c:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  10:	b164      	cbz	r4, 2c <tcp_close+0x2c>
+  12:	7d23      	ldrb	r3, [r4, #20]
+  14:	2b01      	cmp	r3, #1
+  16:	d003      	beq.n	20 <tcp_close+0x20>
+  18:	8b63      	ldrh	r3, [r4, #26]
+  1a:	f043 0310 	orr.w	r3, r3, #16
+  1e:	8363      	strh	r3, [r4, #26]
+  20:	4620      	mov	r0, r4
+  22:	2101      	movs	r1, #1
+  24:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  28:	f7ff bffe 	b.w	0 <tcp_close>
+  2c:	f06f 000f 	mvn.w	r0, #15
+  30:	bd10      	pop	{r4, pc}
+  32:	bf00      	nop
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_shutdown:
+
+00000000 <tcp_shutdown>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460e      	mov	r6, r1
+   6:	4615      	mov	r5, r2
+   8:	f240 2105 	movw	r1, #517	; 0x205
+   c:	4a17      	ldr	r2, [pc, #92]	; (6c <tcp_shutdown+0x6c>)
+   e:	4818      	ldr	r0, [pc, #96]	; (70 <tcp_shutdown+0x70>)
+  10:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  14:	b33c      	cbz	r4, 66 <tcp_shutdown+0x66>
+  16:	7d23      	ldrb	r3, [r4, #20]
+  18:	2b01      	cmp	r3, #1
+  1a:	d005      	beq.n	28 <tcp_shutdown+0x28>
+  1c:	b93e      	cbnz	r6, 2e <tcp_shutdown+0x2e>
+  1e:	b1d5      	cbz	r5, 56 <tcp_shutdown+0x56>
+  20:	2b04      	cmp	r3, #4
+  22:	d810      	bhi.n	46 <tcp_shutdown+0x46>
+  24:	2b02      	cmp	r3, #2
+  26:	d810      	bhi.n	4a <tcp_shutdown+0x4a>
+  28:	f06f 000a 	mvn.w	r0, #10
+  2c:	bd70      	pop	{r4, r5, r6, pc}
+  2e:	8b63      	ldrh	r3, [r4, #26]
+  30:	f043 0310 	orr.w	r3, r3, #16
+  34:	8363      	strh	r3, [r4, #26]
+  36:	b985      	cbnz	r5, 5a <tcp_shutdown+0x5a>
+  38:	6fa0      	ldr	r0, [r4, #120]	; 0x78
+  3a:	b160      	cbz	r0, 56 <tcp_shutdown+0x56>
+  3c:	f7ff fffe 	bl	0 <pbuf_free>
+  40:	4628      	mov	r0, r5
+  42:	67a5      	str	r5, [r4, #120]	; 0x78
+  44:	bd70      	pop	{r4, r5, r6, pc}
+  46:	2b07      	cmp	r3, #7
+  48:	d1ee      	bne.n	28 <tcp_shutdown+0x28>
+  4a:	4620      	mov	r0, r4
+  4c:	2100      	movs	r1, #0
+  4e:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  52:	f7ff bffe 	b.w	0 <tcp_shutdown>
+  56:	2000      	movs	r0, #0
+  58:	bd70      	pop	{r4, r5, r6, pc}
+  5a:	4620      	mov	r0, r4
+  5c:	2101      	movs	r1, #1
+  5e:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
+  62:	f7ff bffe 	b.w	0 <tcp_shutdown>
+  66:	f06f 000f 	mvn.w	r0, #15
+  6a:	bd70      	pop	{r4, r5, r6, pc}
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_recv_null:
+
+00000000 <tcp_recv_null>:
+   0:	b311      	cbz	r1, 48 <tcp_recv_null+0x48>
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	4614      	mov	r4, r2
+   6:	460d      	mov	r5, r1
+   8:	b142      	cbz	r2, 1c <tcp_recv_null+0x1c>
+   a:	8911      	ldrh	r1, [r2, #8]
+   c:	4628      	mov	r0, r5
+   e:	f7ff fffe 	bl	0 <tcp_recv_null>
+  12:	4620      	mov	r0, r4
+  14:	f7ff fffe 	bl	0 <pbuf_free>
+  18:	2000      	movs	r0, #0
+  1a:	bd38      	pop	{r3, r4, r5, pc}
+  1c:	b10b      	cbz	r3, 22 <tcp_recv_null+0x22>
+  1e:	4610      	mov	r0, r2
+  20:	bd38      	pop	{r3, r4, r5, pc}
+  22:	4a0b      	ldr	r2, [pc, #44]	; (50 <tcp_recv_null+0x50>)
+  24:	f44f 71f3 	mov.w	r1, #486	; 0x1e6
+  28:	480a      	ldr	r0, [pc, #40]	; (54 <tcp_recv_null+0x54>)
+  2a:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  2e:	7d2b      	ldrb	r3, [r5, #20]
+  30:	2b01      	cmp	r3, #1
+  32:	d003      	beq.n	3c <tcp_recv_null+0x3c>
+  34:	8b6b      	ldrh	r3, [r5, #26]
+  36:	f043 0310 	orr.w	r3, r3, #16
+  3a:	836b      	strh	r3, [r5, #26]
+  3c:	4628      	mov	r0, r5
+  3e:	2101      	movs	r1, #1
+  40:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  44:	f7ff bffe 	b.w	0 <tcp_recv_null>
+  48:	f06f 000f 	mvn.w	r0, #15
+  4c:	4770      	bx	lr
+  4e:	bf00      	nop
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_process_refused_data:
+
+00000000 <tcp_process_refused_data>:
+   0:	b388      	cbz	r0, 66 <tcp_process_refused_data+0x66>
+   2:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   4:	6f85      	ldr	r5, [r0, #120]	; 0x78
+   6:	2300      	movs	r3, #0
+   8:	f8d0 6084 	ldr.w	r6, [r0, #132]	; 0x84
+   c:	4604      	mov	r4, r0
+   e:	7b6f      	ldrb	r7, [r5, #13]
+  10:	6783      	str	r3, [r0, #120]	; 0x78
+  12:	b156      	cbz	r6, 2a <tcp_process_refused_data+0x2a>
+  14:	4601      	mov	r1, r0
+  16:	462a      	mov	r2, r5
+  18:	6900      	ldr	r0, [r0, #16]
+  1a:	47b0      	blx	r6
+  1c:	b158      	cbz	r0, 36 <tcp_process_refused_data+0x36>
+  1e:	300d      	adds	r0, #13
+  20:	d01e      	beq.n	60 <tcp_process_refused_data+0x60>
+  22:	f06f 0004 	mvn.w	r0, #4
+  26:	67a5      	str	r5, [r4, #120]	; 0x78
+  28:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  2a:	8929      	ldrh	r1, [r5, #8]
+  2c:	f7ff fffe 	bl	0 <tcp_process_refused_data>
+  30:	4628      	mov	r0, r5
+  32:	f7ff fffe 	bl	0 <pbuf_free>
+  36:	06bb      	lsls	r3, r7, #26
+  38:	d510      	bpl.n	5c <tcp_process_refused_data+0x5c>
+  3a:	8d23      	ldrh	r3, [r4, #40]	; 0x28
+  3c:	f241 62d0 	movw	r2, #5840	; 0x16d0
+  40:	4293      	cmp	r3, r2
+  42:	d001      	beq.n	48 <tcp_process_refused_data+0x48>
+  44:	3301      	adds	r3, #1
+  46:	8523      	strh	r3, [r4, #40]	; 0x28
+  48:	f8d4 5084 	ldr.w	r5, [r4, #132]	; 0x84
+  4c:	b135      	cbz	r5, 5c <tcp_process_refused_data+0x5c>
+  4e:	2300      	movs	r3, #0
+  50:	4621      	mov	r1, r4
+  52:	6920      	ldr	r0, [r4, #16]
+  54:	461a      	mov	r2, r3
+  56:	47a8      	blx	r5
+  58:	300d      	adds	r0, #13
+  5a:	d001      	beq.n	60 <tcp_process_refused_data+0x60>
+  5c:	2000      	movs	r0, #0
+  5e:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  60:	f06f 000c 	mvn.w	r0, #12
+  64:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  66:	f06f 000f 	mvn.w	r0, #15
+  6a:	4770      	bx	lr
+
+Disassembly of section .text.tcp_fasttmr:
+
+00000000 <tcp_fasttmr>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4d1c      	ldr	r5, [pc, #112]	; (78 <tcp_fasttmr+0x78>)
+   6:	2700      	movs	r7, #0
+   8:	f8df 8074 	ldr.w	r8, [pc, #116]	; 80 <tcp_fasttmr+0x80>
+   c:	782b      	ldrb	r3, [r5, #0]
+   e:	4e1b      	ldr	r6, [pc, #108]	; (7c <tcp_fasttmr+0x7c>)
+  10:	3301      	adds	r3, #1
+  12:	702b      	strb	r3, [r5, #0]
+  14:	f8d8 4000 	ldr.w	r4, [r8]
+  18:	b1bc      	cbz	r4, 4a <tcp_fasttmr+0x4a>
+  1a:	782a      	ldrb	r2, [r5, #0]
+  1c:	7fa3      	ldrb	r3, [r4, #30]
+  1e:	4293      	cmp	r3, r2
+  20:	d015      	beq.n	4e <tcp_fasttmr+0x4e>
+  22:	8b63      	ldrh	r3, [r4, #26]
+  24:	77a2      	strb	r2, [r4, #30]
+  26:	07d9      	lsls	r1, r3, #31
+  28:	d41a      	bmi.n	60 <tcp_fasttmr+0x60>
+  2a:	071a      	lsls	r2, r3, #28
+  2c:	d411      	bmi.n	52 <tcp_fasttmr+0x52>
+  2e:	6fa3      	ldr	r3, [r4, #120]	; 0x78
+  30:	f8d4 900c 	ldr.w	r9, [r4, #12]
+  34:	b133      	cbz	r3, 44 <tcp_fasttmr+0x44>
+  36:	4620      	mov	r0, r4
+  38:	7037      	strb	r7, [r6, #0]
+  3a:	f7ff fffe 	bl	0 <tcp_fasttmr>
+  3e:	7833      	ldrb	r3, [r6, #0]
+  40:	2b00      	cmp	r3, #0
+  42:	d1e7      	bne.n	14 <tcp_fasttmr+0x14>
+  44:	464c      	mov	r4, r9
+  46:	2c00      	cmp	r4, #0
+  48:	d1e7      	bne.n	1a <tcp_fasttmr+0x1a>
+  4a:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  4e:	68e4      	ldr	r4, [r4, #12]
+  50:	e7e2      	b.n	18 <tcp_fasttmr+0x18>
+  52:	f023 0308 	bic.w	r3, r3, #8
+  56:	4620      	mov	r0, r4
+  58:	8363      	strh	r3, [r4, #26]
+  5a:	f7ff fffe 	bl	0 <tcp_fasttmr>
+  5e:	e7e6      	b.n	2e <tcp_fasttmr+0x2e>
+  60:	f043 0302 	orr.w	r3, r3, #2
+  64:	4620      	mov	r0, r4
+  66:	8363      	strh	r3, [r4, #26]
+  68:	f7ff fffe 	bl	0 <tcp_output>
+  6c:	8b63      	ldrh	r3, [r4, #26]
+  6e:	f023 0303 	bic.w	r3, r3, #3
+  72:	b29b      	uxth	r3, r3
+  74:	8363      	strh	r3, [r4, #26]
+  76:	e7d8      	b.n	2a <tcp_fasttmr+0x2a>
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_tmr:
+
+00000000 <tcp_tmr>:
+   0:	b508      	push	{r3, lr}
+   2:	f7ff fffe 	bl	0 <tcp_tmr>
+   6:	4a06      	ldr	r2, [pc, #24]	; (20 <tcp_tmr+0x20>)
+   8:	7813      	ldrb	r3, [r2, #0]
+   a:	3301      	adds	r3, #1
+   c:	b2db      	uxtb	r3, r3
+   e:	7013      	strb	r3, [r2, #0]
+  10:	07db      	lsls	r3, r3, #31
+  12:	d400      	bmi.n	16 <tcp_tmr+0x16>
+  14:	bd08      	pop	{r3, pc}
+  16:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  1a:	f7ff bffe 	b.w	0 <tcp_tmr>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_next_iss:
+
+00000000 <tcp_next_iss>:
+   0:	b508      	push	{r3, lr}
+   2:	b130      	cbz	r0, 12 <tcp_next_iss+0x12>
+   4:	4b04      	ldr	r3, [pc, #16]	; (18 <tcp_next_iss+0x18>)
+   6:	4a05      	ldr	r2, [pc, #20]	; (1c <tcp_next_iss+0x1c>)
+   8:	6818      	ldr	r0, [r3, #0]
+   a:	6812      	ldr	r2, [r2, #0]
+   c:	4410      	add	r0, r2
+   e:	6018      	str	r0, [r3, #0]
+  10:	bd08      	pop	{r3, pc}
+  12:	f7ff fffe 	bl	0 <tcp_next_iss>
+  16:	bf00      	nop
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_eff_send_mss_netif:
+
+00000000 <tcp_eff_send_mss_netif>:
+   0:	b508      	push	{r3, lr}
+   2:	b162      	cbz	r2, 1e <tcp_eff_send_mss_netif+0x1e>
+   4:	b141      	cbz	r1, 18 <tcp_eff_send_mss_netif+0x18>
+   6:	8e8b      	ldrh	r3, [r1, #52]	; 0x34
+   8:	b133      	cbz	r3, 18 <tcp_eff_send_mss_netif+0x18>
+   a:	2b28      	cmp	r3, #40	; 0x28
+   c:	d905      	bls.n	1a <tcp_eff_send_mss_netif+0x1a>
+   e:	3b28      	subs	r3, #40	; 0x28
+  10:	b29b      	uxth	r3, r3
+  12:	4298      	cmp	r0, r3
+  14:	bf28      	it	cs
+  16:	4618      	movcs	r0, r3
+  18:	bd08      	pop	{r3, pc}
+  1a:	2000      	movs	r0, #0
+  1c:	bd08      	pop	{r3, pc}
+  1e:	f7ff fffe 	bl	0 <tcp_eff_send_mss_netif>
+  22:	bf00      	nop
+
+Disassembly of section .text.tcp_netif_ip_addr_changed:
+
+00000000 <tcp_netif_ip_addr_changed>:
+   0:	2800      	cmp	r0, #0
+   2:	d03c      	beq.n	7e <tcp_netif_ip_addr_changed+0x7e>
+   4:	6802      	ldr	r2, [r0, #0]
+   6:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   8:	4605      	mov	r5, r0
+   a:	b902      	cbnz	r2, e <tcp_netif_ip_addr_changed+0xe>
+   c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+   e:	4b22      	ldr	r3, [pc, #136]	; (98 <tcp_netif_ip_addr_changed+0x98>)
+  10:	460e      	mov	r6, r1
+  12:	681c      	ldr	r4, [r3, #0]
+  14:	b1a4      	cbz	r4, 40 <tcp_netif_ip_addr_changed+0x40>
+  16:	6821      	ldr	r1, [r4, #0]
+  18:	f64f 67a9 	movw	r7, #65193	; 0xfea9
+  1c:	428a      	cmp	r2, r1
+  1e:	d005      	beq.n	2c <tcp_netif_ip_addr_changed+0x2c>
+  20:	68e4      	ldr	r4, [r4, #12]
+  22:	b16c      	cbz	r4, 40 <tcp_netif_ip_addr_changed+0x40>
+  24:	682a      	ldr	r2, [r5, #0]
+  26:	6821      	ldr	r1, [r4, #0]
+  28:	428a      	cmp	r2, r1
+  2a:	d1f9      	bne.n	20 <tcp_netif_ip_addr_changed+0x20>
+  2c:	b292      	uxth	r2, r2
+  2e:	4620      	mov	r0, r4
+  30:	2101      	movs	r1, #1
+  32:	42ba      	cmp	r2, r7
+  34:	d0f4      	beq.n	20 <tcp_netif_ip_addr_changed+0x20>
+  36:	68e4      	ldr	r4, [r4, #12]
+  38:	f7ff fffe 	bl	0 <tcp_netif_ip_addr_changed>
+  3c:	2c00      	cmp	r4, #0
+  3e:	d1f1      	bne.n	24 <tcp_netif_ip_addr_changed+0x24>
+  40:	4b16      	ldr	r3, [pc, #88]	; (9c <tcp_netif_ip_addr_changed+0x9c>)
+  42:	681c      	ldr	r4, [r3, #0]
+  44:	b144      	cbz	r4, 58 <tcp_netif_ip_addr_changed+0x58>
+  46:	f64f 67a9 	movw	r7, #65193	; 0xfea9
+  4a:	6822      	ldr	r2, [r4, #0]
+  4c:	6829      	ldr	r1, [r5, #0]
+  4e:	428a      	cmp	r2, r1
+  50:	d016      	beq.n	80 <tcp_netif_ip_addr_changed+0x80>
+  52:	68e4      	ldr	r4, [r4, #12]
+  54:	2c00      	cmp	r4, #0
+  56:	d1f8      	bne.n	4a <tcp_netif_ip_addr_changed+0x4a>
+  58:	2e00      	cmp	r6, #0
+  5a:	d0d7      	beq.n	c <tcp_netif_ip_addr_changed+0xc>
+  5c:	6833      	ldr	r3, [r6, #0]
+  5e:	2b00      	cmp	r3, #0
+  60:	d0d4      	beq.n	c <tcp_netif_ip_addr_changed+0xc>
+  62:	4b0f      	ldr	r3, [pc, #60]	; (a0 <tcp_netif_ip_addr_changed+0xa0>)
+  64:	681b      	ldr	r3, [r3, #0]
+  66:	2b00      	cmp	r3, #0
+  68:	d0d0      	beq.n	c <tcp_netif_ip_addr_changed+0xc>
+  6a:	6819      	ldr	r1, [r3, #0]
+  6c:	682a      	ldr	r2, [r5, #0]
+  6e:	4291      	cmp	r1, r2
+  70:	d101      	bne.n	76 <tcp_netif_ip_addr_changed+0x76>
+  72:	6832      	ldr	r2, [r6, #0]
+  74:	601a      	str	r2, [r3, #0]
+  76:	68db      	ldr	r3, [r3, #12]
+  78:	2b00      	cmp	r3, #0
+  7a:	d1f6      	bne.n	6a <tcp_netif_ip_addr_changed+0x6a>
+  7c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  7e:	4770      	bx	lr
+  80:	b292      	uxth	r2, r2
+  82:	4620      	mov	r0, r4
+  84:	2101      	movs	r1, #1
+  86:	42ba      	cmp	r2, r7
+  88:	d0e3      	beq.n	52 <tcp_netif_ip_addr_changed+0x52>
+  8a:	68e4      	ldr	r4, [r4, #12]
+  8c:	f7ff fffe 	bl	0 <tcp_netif_ip_addr_changed>
+  90:	2c00      	cmp	r4, #0
+  92:	d1da      	bne.n	4a <tcp_netif_ip_addr_changed+0x4a>
+  94:	e7e0      	b.n	58 <tcp_netif_ip_addr_changed+0x58>
+  96:	bf00      	nop
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_debug_state_str:
+
+00000000 <tcp_debug_state_str>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <tcp_debug_state_str+0x8>)
+   2:	f853 0020 	ldr.w	r0, [r3, r0, lsl #2]
+   6:	4770      	bx	lr
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.tcp_tcp_get_tcp_addrinfo:
+
+00000000 <tcp_tcp_get_tcp_addrinfo>:
+   0:	b190      	cbz	r0, 28 <tcp_tcp_get_tcp_addrinfo+0x28>
+   2:	b139      	cbz	r1, 14 <tcp_tcp_get_tcp_addrinfo+0x14>
+   4:	b10a      	cbz	r2, a <tcp_tcp_get_tcp_addrinfo+0xa>
+   6:	6801      	ldr	r1, [r0, #0]
+   8:	6011      	str	r1, [r2, #0]
+   a:	b15b      	cbz	r3, 24 <tcp_tcp_get_tcp_addrinfo+0x24>
+   c:	8ac2      	ldrh	r2, [r0, #22]
+   e:	2000      	movs	r0, #0
+  10:	801a      	strh	r2, [r3, #0]
+  12:	4770      	bx	lr
+  14:	b10a      	cbz	r2, 1a <tcp_tcp_get_tcp_addrinfo+0x1a>
+  16:	6841      	ldr	r1, [r0, #4]
+  18:	6011      	str	r1, [r2, #0]
+  1a:	b11b      	cbz	r3, 24 <tcp_tcp_get_tcp_addrinfo+0x24>
+  1c:	8b02      	ldrh	r2, [r0, #24]
+  1e:	2000      	movs	r0, #0
+  20:	801a      	strh	r2, [r3, #0]
+  22:	4770      	bx	lr
+  24:	2000      	movs	r0, #0
+  26:	4770      	bx	lr
+  28:	f06f 0005 	mvn.w	r0, #5
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+
+Disassembly of section .text.tcp_free_ooseq:
+
+00000000 <tcp_free_ooseq>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	6f44      	ldr	r4, [r0, #116]	; 0x74
+   4:	b16c      	cbz	r4, 22 <tcp_free_ooseq+0x22>
+   6:	4606      	mov	r6, r0
+   8:	4625      	mov	r5, r4
+   a:	6824      	ldr	r4, [r4, #0]
+   c:	6868      	ldr	r0, [r5, #4]
+   e:	b108      	cbz	r0, 14 <tcp_free_ooseq+0x14>
+  10:	f7ff fffe 	bl	0 <pbuf_free>
+  14:	4629      	mov	r1, r5
+  16:	2003      	movs	r0, #3
+  18:	f7ff fffe 	bl	0 <memp_free>
+  1c:	2c00      	cmp	r4, #0
+  1e:	d1f3      	bne.n	8 <tcp_free_ooseq+0x8>
+  20:	6774      	str	r4, [r6, #116]	; 0x74
+  22:	bd70      	pop	{r4, r5, r6, pc}

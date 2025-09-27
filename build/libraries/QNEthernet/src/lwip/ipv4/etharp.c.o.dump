@@ -1,0 +1,1355 @@
+
+build/./libraries/QNEthernet/src/lwip/ipv4/etharp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 etharp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.etharp_raw.str1.4	00000000 .rodata.etharp_raw.str1.4
+00000000 l    d  .text.etharp_raw	00000000 .text.etharp_raw
+00000000 l     F .text.etharp_raw	000000f8 etharp_raw
+00000000 l    d  .rodata.etharp_find_entry.constprop.0.str1.4	00000000 .rodata.etharp_find_entry.constprop.0.str1.4
+00000000 l    d  .text.etharp_find_entry.constprop.0	00000000 .text.etharp_find_entry.constprop.0
+00000000 l     F .text.etharp_find_entry.constprop.0	00000164 etharp_find_entry.constprop.0
+00000000 l    d  .rodata.etharp_output_to_arp_index.str1.4	00000000 .rodata.etharp_output_to_arp_index.str1.4
+00000000 l    d  .text.etharp_output_to_arp_index	00000000 .text.etharp_output_to_arp_index
+00000000 l     F .text.etharp_output_to_arp_index	000000f4 etharp_output_to_arp_index
+00000000 l    d  .text.etharp_tmr	00000000 .text.etharp_tmr
+00000000 l    d  .text.etharp_cleanup_netif	00000000 .text.etharp_cleanup_netif
+00000000 l    d  .rodata.etharp_find_addr.str1.4	00000000 .rodata.etharp_find_addr.str1.4
+00000000 l    d  .text.etharp_find_addr	00000000 .text.etharp_find_addr
+00000000 l    d  .rodata.etharp_get_entry.str1.4	00000000 .rodata.etharp_get_entry.str1.4
+00000000 l    d  .text.etharp_get_entry	00000000 .text.etharp_get_entry
+00000000 l    d  .rodata.etharp_input.str1.4	00000000 .rodata.etharp_input.str1.4
+00000000 l    d  .text.etharp_input	00000000 .text.etharp_input
+00000000 l    d  .rodata.etharp_query.str1.4	00000000 .rodata.etharp_query.str1.4
+00000000 l    d  .text.etharp_query	00000000 .text.etharp_query
+00000000 l    d  .rodata.etharp_output.str1.4	00000000 .rodata.etharp_output.str1.4
+00000000 l    d  .text.etharp_output	00000000 .text.etharp_output
+00000000 l    d  .text.etharp_request	00000000 .text.etharp_request
+00000000 l    d  .text.etharp_acd_probe	00000000 .text.etharp_acd_probe
+00000000 l    d  .text.etharp_acd_announce	00000000 .text.etharp_acd_announce
+00000000 l    d  .bss.arp_table	00000000 .bss.arp_table
+00000000 l     O .bss.arp_table	000000f0 arp_table
+00000000 l    d  .bss.etharp_cached_entry	00000000 .bss.etharp_cached_entry
+00000000 l     O .bss.etharp_cached_entry	00000001 etharp_cached_entry
+00000000 l    d  .rodata.__FUNCTION__.0	00000000 .rodata.__FUNCTION__.0
+00000000 l     O .rodata.__FUNCTION__.0	0000000e __FUNCTION__.0
+00000000 l    d  .rodata.__FUNCTION__.1	00000000 .rodata.__FUNCTION__.1
+00000000 l     O .rodata.__FUNCTION__.1	0000000d __FUNCTION__.1
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 pbuf_alloc
+00000000         *UND*	00000000 ethernet_output
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000         *UND*	00000000 ethbroadcast
+00000000         *UND*	00000000 ethzero
+00000000 g     F .text.etharp_tmr	00000094 etharp_tmr
+00000000 g     F .text.etharp_cleanup_netif	00000030 etharp_cleanup_netif
+00000000 g     F .text.etharp_find_addr	0000006c etharp_find_addr
+00000000 g     F .text.etharp_get_entry	000000b0 etharp_get_entry
+00000000 g     F .text.etharp_input	00000178 etharp_input
+00000000         *UND*	00000000 qnethernet_hal_check_core_locking
+00000000         *UND*	00000000 acd_arp_reply
+00000000         *UND*	00000000 ip4_addr_isbroadcast_u32
+00000000 g     F .text.etharp_query	00000194 etharp_query
+00000000         *UND*	00000000 pbuf_clone
+00000000         *UND*	00000000 pbuf_ref
+00000000 g     F .text.etharp_output	0000018c etharp_output
+00000000 g     F .text.etharp_request	00000028 etharp_request
+00000000 g     F .text.etharp_acd_probe	00000030 etharp_acd_probe
+00000000         *UND*	00000000 ip_addr_any
+00000000 g     F .text.etharp_acd_announce	0000002c etharp_acd_announce
+
+
+Contents of section .rodata.etharp_raw.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f6970  rnet/src/lwip/ip
+ 0020 76342f65 74686172 702e6300 6e657469  v4/etharp.c.neti
+ 0030 6620213d 204e554c 4c000000 41737365  f != NULL...Asse
+ 0040 7274696f 6e202225 73222066 61696c65  rtion "%s" faile
+ 0050 64206174 206c696e 65202564 20696e20  d at line %d in 
+ 0060 25730a00 63686563 6b207468 61742066  %s..check that f
+ 0070 69727374 20706275 66206361 6e20686f  irst pbuf can ho
+ 0080 6c642073 74727563 74206574 68617270  ld struct etharp
+ 0090 5f686472 00000000 6e657469 662d3e68  _hdr....netif->h
+ 00a0 77616464 725f6c65 6e206d75 73742062  waddr_len must b
+ 00b0 65207468 65207361 6d652061 73204554  e the same as ET
+ 00c0 485f4857 41444452 5f4c454e 20666f72  H_HWADDR_LEN for
+ 00d0 20657468 61727021 00                  etharp!.       
+Contents of section .text.etharp_raw:
+ 0000 2de9f04f 83b00646 dde90c9a bdf83c40  -..O...F......<@
+ 0010 00284bd0 88469346 1c214ff4 20721020  .(K..F.F.!O. r. 
+ 0020 1f46fff7 feff0546 00283cd0 43891b2b  .F.....F.(<.C..+
+ 0030 50d963ba 4468e380 96f83c30 062b44d1  P.c.Dh....<0.+D.
+ 0040 3a680421 3046a260 ba88a281 daf80020  :h.!0F.`....... 
+ 0050 c4f81220 baf80420 e282d9f8 0020c4f8  ... ... ..... ..
+ 0060 0e200e9a 12682371 00236171 40f60601  . ...h#q.#aq@...
+ 0070 a261b9f8 00202370 e3700123 63700823  .a... #p.p.#cp.#
+ 0080 a3704ff6 a9630091 29469a42 42460cbf  .pO..c..)F.BBF..
+ 0090 134b5b46 fff7feff 2846fff7 feff0020  .K[F....(F..... 
+ 00a0 03b0bde8 f08f4ff0 ff30f9e7 0d4b4ff4  ......O..0...KO.
+ 00b0 8c620d49 0d48fff7 feff0020 fff7feff  .b.I.H..... ....
+ 00c0 0120fff7 fefffff7 feff064b 40f27242  . .........K@.rB
+ 00d0 0749efe7 034b40f2 6b420649 eae700bf  .I...K@.kB.I....
+ 00e0 00000000 00000000 2c000000 3c000000  ........,...<...
+ 00f0 98000000 64000000                    ....d...        
+Contents of section .rodata.etharp_find_entry.constprop.0.str1.4:
+ 0000 6172705f 7461626c 655b695d 2e71203d  arp_table[i].q =
+ 0010 3d204e55 4c4c0000 6172705f 7461626c  = NULL..arp_tabl
+ 0020 655b695d 2e737461 7465203d 3d204554  e[i].state == ET
+ 0030 48415250 5f535441 54455f45 4d505459  HARP_STATE_EMPTY
+ 0040 00                                   .               
+Contents of section .text.etharp_find_entry.constprop.0:
+ 0000 2de9f04f 00234ff0 0a0e83b0 504e0446  -..O.#O.....PN.F
+ 0010 f3463246 98467046 9a468946 0193cdf8  .F2F.FpF.F.F....
+ 0020 00e004e0 60460133 18320a2b 17d00a28  ....`F.3.2.+...(
+ 0030 0ffa83fc 117d31d1 0029f3d0 1cb12568  .....}1..)....%h
+ 0040 5768bd42 6ad00129 2bd0518a 4145ead3  Wh.Bj..)+.Q.AE..
+ 0050 01338846 1832cdf8 00c00a2b e7d14d46  .3.F.2.....+..MF
+ 0060 009f012d 5cd10a28 23d000eb 40038046  ...-\..(#...@..F
+ 0070 06ebc303 1b7d002b 55d174b3 08eb4802  .....}.+U.t...H.
+ 0080 21684fea 480306eb c2025160 43440022  !hO.H.....Q`CD."
+ 0090 06ebc306 728203b0 bde8f08f 0029c2d0  ....r........)..
+ 00a0 cce71168 89b3518a 5145bcd3 8a46e646  ...h..Q.QE...F.F
+ 00b0 b9e70a2f 14d007eb 4703b846 4fea4709  .../....G..FO.G.
+ 00c0 56f83330 002b3dd1 b9440023 384606eb  V.30.+=..D.#8F..
+ 00d0 c90989f8 1430002c d0d14fea 4803d5e7  .....0.,..O.H...
+ 00e0 bbf10a0f 18d1bef1 0a0f19d0 774607eb  ............wF..
+ 00f0 4705b846 4fea4709 ed007059 0028e3d0  G..FO.G...pY.(..
+ 0100 fff7feff 00237351 dee7518a 019da942  .....#sQ..Q....B
+ 0110 89d3e346 019186e7 5f46e8e7 6046bae7  ...F...._F..`F..
+ 0120 4ff0ff30 b7e70b4b 40f28512 0a490b48  O..0...K@....I.H
+ 0130 fff7feff 0020fff7 feff2846 fff7feff  ..... ....(F....
+ 0140 fff7feff 034b4ff4 b7720549 efe700bf  .....KO..r.I....
+ 0150 00000000 00000000 18000000 3c000000  ............<...
+ 0160 00000000                             ....            
+Contents of section .rodata.etharp_output_to_arp_index.str1.4:
+ 0000 6172705f 7461626c 655b6172 705f6964  arp_table[arp_id
+ 0010 785d2e73 74617465 203e3d20 45544841  x].state >= ETHA
+ 0020 52505f53 54415445 5f535441 424c4500  RP_STATE_STABLE.
+Contents of section .text.etharp_output_to_arp_index:
+ 0000 2de9f043 354e02eb 420785b0 06ebc707  -..C5N..B.......
+ 0010 3b7d012b 52d9022b 04460d46 12d01823  ;}.+R..+.F.F...#
+ 0020 04f13608 03fb0263 03f10c09 4ff40066  ..6....c....O..f
+ 0030 4b464246 29462046 0096fff7 feff05b0  KFBF)F F........
+ 0040 bde8f083 7b8ab3f5 8e7f1dd8 b3f5877f  ....{...........
+ 0050 e5d302eb 42020123 00f13608 0090d200  ....B..#..6.....
+ 0060 03931f4b 414602f1 0c0902f1 040c0193  ...KAF..........
+ 0070 4346b144 66444a46 0296fff7 feff0028  CF.DfDJF.......(
+ 0080 d4d10323 3b75d1e7 02eb4202 012300f1  ...#;u....B..#..
+ 0090 36080090 4feac209 0393124a 414609f1  6...O......JAF..
+ 00a0 040309f1 0c093344 b1440293 0c4b0193  ......3D.D...K..
+ 00b0 4346fff7 feff0028 e3d0b7e7 0a4b40f2  CF.....(.....K@.
+ 00c0 ef220a49 0a48fff7 feff0020 fff7feff  .".I.H..... ....
+ 00d0 0120fff7 fefffff7 feff00bf 00000000  . ..............
+ 00e0 00000000 00000000 00000000 00000000  ................
+ 00f0 3c000000                             <...            
+Contents of section .text.etharp_tmr:
+ 0000 2de9f041 204c84b0 0026dff8 84801f4f  -..A L...&.....O
+ 0010 04f1f005 0ce0012a 01d1042b 12d8032a  .......*...+...*
+ 0020 1ed0042a 1fd0012a 20d01834 ac4214d0  ...*...* ..4.B..
+ 0030 227c002a f9d0e389 01339bb2 b3f5967f  "|.*.....3......
+ 0040 e381e8d3 54f8040c 18b1fff7 feff44f8  ....T.........D.
+ 0050 046c2674 1834ac42 ead104b0 bde8f081  .l&t.4.B........
+ 0060 04232374 e1e70223 2374dee7 6068cdf8  .##t...##t..`h..
+ 0070 048000f1 36030090 cde90242 19463a46  ....6......B.F:F
+ 0080 fff7feff d1e700bf 04000000 00000000  ................
+ 0090 00000000                             ....            
+Contents of section .text.etharp_cleanup_netif:
+ 0000 f8b50a4c 00270646 04f1f005 237d13b1  ...L.'.F....#}..
+ 0010 a368b342 03d01834 ac42f7d1 f8bd2068  .h.B...4.B.... h
+ 0020 10b1fff7 feff2760 2775f4e7 00000000  ......'`'u......
+Contents of section .rodata.etharp_find_addr.str1.4:
+ 0000 6574685f 72657420 213d204e 554c4c20  eth_ret != NULL 
+ 0010 26262069 705f7265 7420213d 204e554c  && ip_ret != NUL
+ 0020 4c00                                 L.              
+Contents of section .text.etharp_find_addr:
+ 0000 70b5e2b1 1e46d3b1 08460221 1546fff7  p....F...F.!.F..
+ 0010 feff0028 10db00eb 4001104c 04ebc103  ...(....@..L....
+ 0020 c9001b7d 012b07d9 01f10c03 04312344  ...}.+.......1#D
+ 0030 0c442b60 346070bd 4ff0ff30 70bd084b  .D+`4`p.O..0p..K
+ 0040 40f24d22 07490848 fff7feff 0020fff7  @.M".I.H..... ..
+ 0050 feff0120 fff7feff fff7feff 00000000  ... ............
+ 0060 00000000 00000000 3c000000           ........<...    
+Contents of section .rodata.etharp_get_entry.str1.4:
+ 0000 69706164 64722021 3d204e55 4c4c0000  ipaddr != NULL..
+ 0010 6574685f 72657420 213d204e 554c4c00  eth_ret != NULL.
+Contents of section .text.etharp_get_entry:
+ 0000 70b50c46 002938d0 16463ab3 1d46b3b1  p..F.)8..F:..F..
+ 0010 092812d8 00eb4000 1f4b03eb c002c000  .(....@..K......
+ 0020 117d0129 09d99168 021d0c30 1a440344  .}.)...h...0.D.D
+ 0030 01202260 31602b60 70bd0020 70bd174b  . "`1`+`p.. p..K
+ 0040 40f26922 16491748 fff7feff 2846fff7  @.i".I.H....(F..
+ 0050 feff0120 fff7feff fff7feff 0f4b4ff4  ... .........KO.
+ 0060 1a721149 0f48fff7 feff3046 fff7feff  .r.I.H....0F....
+ 0070 0120fff7 fefffff7 feff084b 40f26722  . .........K@.g"
+ 0080 0a490848 fff7feff 2046fff7 feff0120  .I.H.... F..... 
+ 0090 fff7feff fff7feff 00000000 00000000  ................
+ 00a0 10000000 3c000000 2c000000 00000000  ....<...,.......
+Contents of section .rodata.etharp_input.str1.4:
+ 0000 6e657469 662d3e68 77616464 725f6c65  netif->hwaddr_le
+ 0010 6e203d3d 20455448 5f485741 4444525f  n == ETH_HWADDR_
+ 0020 4c454e00                             LEN.            
+Contents of section .text.etharp_input:
+ 0000 2de9f04f 0d4689b0 0446564a 40f28921  -..O.F...FVJ@..!
+ 0010 5548fff7 feff002d 7fd06668 3388b3f5  UH.....-..fh3...
+ 0020 807f02d1 3379062b 05d02046 09b0bde8  ....3y.+.. F....
+ 0030 f04ffff7 febf7379 042bf6d1 7388082b  .O....sy.+..s..+
+ 0040 f3d13146 2846fff7 feffd6f8 0eb02a68  ..1F(F........*h
+ 0050 b369cdf8 1cb0002a 62d19046 06f10807  .i.....*b..F....
+ 0060 4ff00209 059295f8 3c30062b 6bd1bbf1  O.......<0.+k...
+ 0070 000f3ad0 29465846 fff7feff 8246a0bb  ..:.)FXF.....F..
+ 0080 0bf0f003 e02b30d0 494607a8 fff7feff  .....+0.IF......
+ 0090 00282adb 354900eb 40020223 4ff0180e  .(*.5I..@..#O...
+ 00a0 01ebc20c d2008cf8 14300c23 ccf80850  .........0.#...P
+ 00b0 10fb0e33 3868c850 0b44b888 988051f8  ...38h.P.D....Q.
+ 00c0 02b0acf8 12a0bbf1 000f0ed0 4ff40063  ............O..c
+ 00d0 41f802a0 284605f1 36020093 59463b46  A...(F..6...YF;F
+ 00e0 fff7feff 5846fff7 fefff388 b3f5807f  ....XF..........
+ 00f0 9bd188f0 0108059b 13ea080f 95d00221  ...............!
+ 0100 05f13603 3a462846 039107a9 01970291  ..6.:F(F........
+ 0110 19460095 fff7feff 87e709b0 bde8f08f  .F..............
+ 0120 a2eb0b08 9a4206f1 0807b8fa 88f84fea  .....B........O.
+ 0130 581804d0 00234ff0 02090593 93e70123  X....#O........#
+ 0140 99460593 8fe7084b 4ff4d572 08490948  .F.....KO..r.I.H
+ 0150 fff7feff 0020fff7 feff0120 fff7feff  ..... ..... ....
+ 0160 fff7feff 00000000 00000000 00000000  ................
+ 0170 00000000 3c000000                    ....<...        
+Contents of section .rodata.etharp_query.str1.4:
+ 0000 74797065 206f7665 72666c6f 77000000  type overflow...
+ 0010 6e6f2070 61636b65 74207175 65756573  no packet queues
+ 0020 20616c6c 6f776564 2100                allowed!.      
+Contents of section .text.etharp_query:
+ 0000 2de9f04f 0d4685b0 06460146 28681746  -..O.F...F.F(h.F
+ 0010 fff7feff 00287ad1 2b6803f0 f002e02a  .....(z.+h.....*
+ 0020 75d0002b 73d00121 2846fff7 feff041e  u..+s..!(F......
+ 0030 3fdb7e2c 71dcdff8 588104eb 440a06f1  ?.~,q...X...D...
+ 0040 360b4fea 440908eb ca0a9af8 14304bb1  6.O.D........0K.
+ 0050 002f76d0 012b4ff0 ff3019d8 2dd005b0  ./v..+O..0..-...
+ 0060 bde8f08f 01230295 00965946 caf80860  .....#....YF...`
+ 0070 30460393 8af81430 3e4b3f4a 01935b46  0F.....0>K?J..[F
+ 0080 fff7feff 002fead0 9af81430 012be5d9  ...../.....0.+..
+ 0090 18234ff4 00655a46 394604fb 03833046  .#O..eZF9F....0F
+ 00a0 0095364d 0c332c70 fff7feff 05b0bde8  ..6M.3,p........
+ 00b0 f08f60b2 05b0bde8 f08f3b46 04e01a7b  ..`.......;F...{
+ 00c0 52060ad4 1b68f3b1 59891a89 9142f6d1  R....h..Y....B..
+ 00d0 1a688abb 1b7b5b06 15d53a46 4ff42071  .h...{[...:FO. q
+ 00e0 1020fff7 feff0746 a0b109eb 040358f8  . .....F......X.
+ 00f0 330008b1 fff7feff 4c440020 48f83470  3.......LD. H.4p
+ 0100 05b0bde8 f08f3846 fff7feff ede76ff0  ......8F......o.
+ 0110 0f00a4e7 4ff0ff30 a1e7194b 40f2c232  ....O..0...K@..2
+ 0120 18491948 fff7feff 0020fff7 feff0120  .I.H..... ..... 
+ 0130 fff7feff fff7feff 114b40f2 fa321349  .........K@..2.I
+ 0140 efe70c4b 01223046 59460193 5b460392  ...K."0FYF..[F..
+ 0150 0295094a 0096fff7 feff0028 7ff47faf  ...J.......(....
+ 0160 182303fb 048898f8 1430012b 08bfa8f8  .#.......0.+....
+ 0170 120074e7 00000000 00000000 00000000  ..t.............
+ 0180 00000000 00000000 3c000000 10000000  ........<.......
+ 0190 00000000                             ....            
+Contents of section .rodata.etharp_output.str1.4:
+ 0000 7120213d 204e554c 4c00               q != NULL.      
+Contents of section .text.etharp_output:
+ 0000 f0b50646 85b00f46 154640f2 1e31564a  ...F...F.F@..1VJ
+ 0010 5648fff7 feff002e 00f09680 002f00f0  VH.........../..
+ 0020 8480002d 72d03146 2868fff7 feff0028  ...-r.1F(h.....(
+ 0030 5bd12b68 03f0f002 e02a39d0 32687168  [.+h.....*9.2hqh
+ 0040 5a400a42 0ed09bb2 4ff6a962 934209d0  Z@.B....O..b.B..
+ 0050 7b68db68 9bb29342 04d0b368 002b52d0  {h.h...B...h.+R.
+ 0060 06f10805 dff820c1 414b9cf8 002002eb  ...... .AK... ..
+ 0070 420103eb c103197d 012903d9 5b682968  B......}.)..[h)h
+ 0080 99423dd0 3a4c0023 207ddab2 012803d9  .B=.:L.# }...(..
+ 0090 28686168 88422ad0 01331834 0a2bf3d1  (hah.B*..3.4.+..
+ 00a0 3a462946 304605b0 bde8f040 fff7febf  :F)F0F.....@....
+ 00b0 6b780122 5e2103f0 7f03adf8 0820ea78  kx."^!....... .x
+ 00c0 8df80b30 ab788df8 0a108df8 0c3002ab  ...0.x.......0..
+ 00d0 8df80d20 4ff40064 06f13602 39463046  ... O..d..6.9F0F
+ 00e0 0094fff7 feff05b0 f0bd224b f2e73946  .........."K..9F
+ 00f0 30468cf8 002005b0 bde8f040 fff7febf  0F... .....@....
+ 0100 39463046 f7e76ff0 0300ece7 174b40f2  9F0F..o......K@.
+ 0110 21321949 1948fff7 feff2846 fff7feff  !2.I.H....(F....
+ 0120 0120fff7 fefffff7 feff104b 4ff44872  . .........KO.Hr
+ 0130 13491248 fff7feff 3846fff7 feff0120  .I.H....8F..... 
+ 0140 fff7feff fff7feff 084b40f2 1f320d49  .........K@..2.I
+ 0150 0a48fff7 feff3046 fff7feff 0120fff7  .H....0F..... ..
+ 0160 fefffff7 feff00bf 00000000 00000000  ................
+ 0170 00000000 00000000 00000000 3c000000  ............<...
+ 0180 00000000 2c000000 00000000           ....,.......    
+Contents of section .text.etharp_request:
+ 0000 30b50123 85b0064d 064acde9 021300f1  0..#...M.J......
+ 0010 36031946 cde90005 fff7feff 05b030bd  6..F..........0.
+ 0020 00000000 00000000                    ........        
+Contents of section .text.etharp_acd_probe:
+ 0000 10b50122 84b000f1 3603064c cde90212  ..."....6..L....
+ 0010 054a1946 cde90024 044afff7 feff04b0  .J.F...$.J......
+ 0020 10bd00bf 00000000 00000000 00000000  ................
+Contents of section .text.etharp_acd_announce:
+ 0000 30b500f1 360385b0 064a0c46 01251946  0...6....J.F.%.F
+ 0010 0192054a 03950294 0094fff7 feff05b0  ...J............
+ 0020 30bd00bf 00000000 00000000           0...........    
+Contents of section .rodata.__FUNCTION__.0:
+ 0000 65746861 72705f6f 75747075 7400      etharp_output.  
+Contents of section .rodata.__FUNCTION__.1:
+ 0000 65746861 72705f69 6e707574 00        etharp_input.   
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.etharp_raw:
+
+00000000 <etharp_raw>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b083      	sub	sp, #12
+   6:	4606      	mov	r6, r0
+   8:	e9dd 9a0c 	ldrd	r9, sl, [sp, #48]	; 0x30
+   c:	f8bd 403c 	ldrh.w	r4, [sp, #60]	; 0x3c
+  10:	2800      	cmp	r0, #0
+  12:	d04b      	beq.n	ac <etharp_raw+0xac>
+  14:	4688      	mov	r8, r1
+  16:	4693      	mov	fp, r2
+  18:	211c      	movs	r1, #28
+  1a:	f44f 7220 	mov.w	r2, #640	; 0x280
+  1e:	2010      	movs	r0, #16
+  20:	461f      	mov	r7, r3
+  22:	f7ff fffe 	bl	0 <pbuf_alloc>
+  26:	4605      	mov	r5, r0
+  28:	2800      	cmp	r0, #0
+  2a:	d03c      	beq.n	a6 <etharp_raw+0xa6>
+  2c:	8943      	ldrh	r3, [r0, #10]
+  2e:	2b1b      	cmp	r3, #27
+  30:	d950      	bls.n	d4 <etharp_raw+0xd4>
+  32:	ba63      	rev16	r3, r4
+  34:	6844      	ldr	r4, [r0, #4]
+  36:	80e3      	strh	r3, [r4, #6]
+  38:	f896 303c 	ldrb.w	r3, [r6, #60]	; 0x3c
+  3c:	2b06      	cmp	r3, #6
+  3e:	d144      	bne.n	ca <etharp_raw+0xca>
+  40:	683a      	ldr	r2, [r7, #0]
+  42:	2104      	movs	r1, #4
+  44:	4630      	mov	r0, r6
+  46:	60a2      	str	r2, [r4, #8]
+  48:	88ba      	ldrh	r2, [r7, #4]
+  4a:	81a2      	strh	r2, [r4, #12]
+  4c:	f8da 2000 	ldr.w	r2, [sl]
+  50:	f8c4 2012 	str.w	r2, [r4, #18]
+  54:	f8ba 2004 	ldrh.w	r2, [sl, #4]
+  58:	82e2      	strh	r2, [r4, #22]
+  5a:	f8d9 2000 	ldr.w	r2, [r9]
+  5e:	f8c4 200e 	str.w	r2, [r4, #14]
+  62:	9a0e      	ldr	r2, [sp, #56]	; 0x38
+  64:	6812      	ldr	r2, [r2, #0]
+  66:	7123      	strb	r3, [r4, #4]
+  68:	2300      	movs	r3, #0
+  6a:	7161      	strb	r1, [r4, #5]
+  6c:	f640 0106 	movw	r1, #2054	; 0x806
+  70:	61a2      	str	r2, [r4, #24]
+  72:	f8b9 2000 	ldrh.w	r2, [r9]
+  76:	7023      	strb	r3, [r4, #0]
+  78:	70e3      	strb	r3, [r4, #3]
+  7a:	2301      	movs	r3, #1
+  7c:	7063      	strb	r3, [r4, #1]
+  7e:	2308      	movs	r3, #8
+  80:	70a3      	strb	r3, [r4, #2]
+  82:	f64f 63a9 	movw	r3, #65193	; 0xfea9
+  86:	9100      	str	r1, [sp, #0]
+  88:	4629      	mov	r1, r5
+  8a:	429a      	cmp	r2, r3
+  8c:	4642      	mov	r2, r8
+  8e:	bf0c      	ite	eq
+  90:	4b13      	ldreq	r3, [pc, #76]	; (e0 <etharp_raw+0xe0>)
+  92:	465b      	movne	r3, fp
+  94:	f7ff fffe 	bl	0 <ethernet_output>
+  98:	4628      	mov	r0, r5
+  9a:	f7ff fffe 	bl	0 <pbuf_free>
+  9e:	2000      	movs	r0, #0
+  a0:	b003      	add	sp, #12
+  a2:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  a6:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  aa:	e7f9      	b.n	a0 <etharp_raw+0xa0>
+  ac:	4b0d      	ldr	r3, [pc, #52]	; (e4 <etharp_raw+0xe4>)
+  ae:	f44f 628c 	mov.w	r2, #1120	; 0x460
+  b2:	490d      	ldr	r1, [pc, #52]	; (e8 <etharp_raw+0xe8>)
+  b4:	480d      	ldr	r0, [pc, #52]	; (ec <etharp_raw+0xec>)
+  b6:	f7ff fffe 	bl	0 <printf>
+  ba:	2000      	movs	r0, #0
+  bc:	f7ff fffe 	bl	0 <fflush>
+  c0:	2001      	movs	r0, #1
+  c2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  c6:	f7ff fffe 	bl	0 <abort>
+  ca:	4b06      	ldr	r3, [pc, #24]	; (e4 <etharp_raw+0xe4>)
+  cc:	f240 4272 	movw	r2, #1138	; 0x472
+  d0:	4907      	ldr	r1, [pc, #28]	; (f0 <etharp_raw+0xf0>)
+  d2:	e7ef      	b.n	b4 <etharp_raw+0xb4>
+  d4:	4b03      	ldr	r3, [pc, #12]	; (e4 <etharp_raw+0xe4>)
+  d6:	f240 426b 	movw	r2, #1131	; 0x46b
+  da:	4906      	ldr	r1, [pc, #24]	; (f4 <etharp_raw+0xf4>)
+  dc:	e7ea      	b.n	b4 <etharp_raw+0xb4>
+  de:	bf00      	nop
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+  e8:	0000002c 	.word	0x0000002c
+  ec:	0000003c 	.word	0x0000003c
+  f0:	00000098 	.word	0x00000098
+  f4:	00000064 	.word	0x00000064
+
+Disassembly of section .text.etharp_find_entry.constprop.0:
+
+00000000 <etharp_find_entry.constprop.0>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	2300      	movs	r3, #0
+   6:	f04f 0e0a 	mov.w	lr, #10
+   a:	b083      	sub	sp, #12
+   c:	4e50      	ldr	r6, [pc, #320]	; (150 <etharp_find_entry.constprop.0+0x150>)
+   e:	4604      	mov	r4, r0
+  10:	46f3      	mov	fp, lr
+  12:	4632      	mov	r2, r6
+  14:	4698      	mov	r8, r3
+  16:	4670      	mov	r0, lr
+  18:	469a      	mov	sl, r3
+  1a:	4689      	mov	r9, r1
+  1c:	9301      	str	r3, [sp, #4]
+  1e:	f8cd e000 	str.w	lr, [sp]
+  22:	e004      	b.n	2e <etharp_find_entry.constprop.0+0x2e>
+  24:	4660      	mov	r0, ip
+  26:	3301      	adds	r3, #1
+  28:	3218      	adds	r2, #24
+  2a:	2b0a      	cmp	r3, #10
+  2c:	d017      	beq.n	5e <etharp_find_entry.constprop.0+0x5e>
+  2e:	280a      	cmp	r0, #10
+  30:	fa0f fc83 	sxth.w	ip, r3
+  34:	7d11      	ldrb	r1, [r2, #20]
+  36:	d131      	bne.n	9c <etharp_find_entry.constprop.0+0x9c>
+  38:	2900      	cmp	r1, #0
+  3a:	d0f3      	beq.n	24 <etharp_find_entry.constprop.0+0x24>
+  3c:	b11c      	cbz	r4, 46 <etharp_find_entry.constprop.0+0x46>
+  3e:	6825      	ldr	r5, [r4, #0]
+  40:	6857      	ldr	r7, [r2, #4]
+  42:	42bd      	cmp	r5, r7
+  44:	d06a      	beq.n	11c <etharp_find_entry.constprop.0+0x11c>
+  46:	2901      	cmp	r1, #1
+  48:	d02b      	beq.n	a2 <etharp_find_entry.constprop.0+0xa2>
+  4a:	8a51      	ldrh	r1, [r2, #18]
+  4c:	4541      	cmp	r1, r8
+  4e:	d3ea      	bcc.n	26 <etharp_find_entry.constprop.0+0x26>
+  50:	3301      	adds	r3, #1
+  52:	4688      	mov	r8, r1
+  54:	3218      	adds	r2, #24
+  56:	f8cd c000 	str.w	ip, [sp]
+  5a:	2b0a      	cmp	r3, #10
+  5c:	d1e7      	bne.n	2e <etharp_find_entry.constprop.0+0x2e>
+  5e:	464d      	mov	r5, r9
+  60:	9f00      	ldr	r7, [sp, #0]
+  62:	2d01      	cmp	r5, #1
+  64:	d15c      	bne.n	120 <etharp_find_entry.constprop.0+0x120>
+  66:	280a      	cmp	r0, #10
+  68:	d023      	beq.n	b2 <etharp_find_entry.constprop.0+0xb2>
+  6a:	eb00 0340 	add.w	r3, r0, r0, lsl #1
+  6e:	4680      	mov	r8, r0
+  70:	eb06 03c3 	add.w	r3, r6, r3, lsl #3
+  74:	7d1b      	ldrb	r3, [r3, #20]
+  76:	2b00      	cmp	r3, #0
+  78:	d155      	bne.n	126 <etharp_find_entry.constprop.0+0x126>
+  7a:	b374      	cbz	r4, da <etharp_find_entry.constprop.0+0xda>
+  7c:	eb08 0248 	add.w	r2, r8, r8, lsl #1
+  80:	6821      	ldr	r1, [r4, #0]
+  82:	ea4f 0348 	mov.w	r3, r8, lsl #1
+  86:	eb06 02c2 	add.w	r2, r6, r2, lsl #3
+  8a:	6051      	str	r1, [r2, #4]
+  8c:	4443      	add	r3, r8
+  8e:	2200      	movs	r2, #0
+  90:	eb06 06c3 	add.w	r6, r6, r3, lsl #3
+  94:	8272      	strh	r2, [r6, #18]
+  96:	b003      	add	sp, #12
+  98:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  9c:	2900      	cmp	r1, #0
+  9e:	d0c2      	beq.n	26 <etharp_find_entry.constprop.0+0x26>
+  a0:	e7cc      	b.n	3c <etharp_find_entry.constprop.0+0x3c>
+  a2:	6811      	ldr	r1, [r2, #0]
+  a4:	b389      	cbz	r1, 10a <etharp_find_entry.constprop.0+0x10a>
+  a6:	8a51      	ldrh	r1, [r2, #18]
+  a8:	4551      	cmp	r1, sl
+  aa:	d3bc      	bcc.n	26 <etharp_find_entry.constprop.0+0x26>
+  ac:	468a      	mov	sl, r1
+  ae:	46e6      	mov	lr, ip
+  b0:	e7b9      	b.n	26 <etharp_find_entry.constprop.0+0x26>
+  b2:	2f0a      	cmp	r7, #10
+  b4:	d014      	beq.n	e0 <etharp_find_entry.constprop.0+0xe0>
+  b6:	eb07 0347 	add.w	r3, r7, r7, lsl #1
+  ba:	46b8      	mov	r8, r7
+  bc:	ea4f 0947 	mov.w	r9, r7, lsl #1
+  c0:	f856 3033 	ldr.w	r3, [r6, r3, lsl #3]
+  c4:	2b00      	cmp	r3, #0
+  c6:	d13d      	bne.n	144 <etharp_find_entry.constprop.0+0x144>
+  c8:	44b9      	add	r9, r7
+  ca:	2300      	movs	r3, #0
+  cc:	4638      	mov	r0, r7
+  ce:	eb06 09c9 	add.w	r9, r6, r9, lsl #3
+  d2:	f889 3014 	strb.w	r3, [r9, #20]
+  d6:	2c00      	cmp	r4, #0
+  d8:	d1d0      	bne.n	7c <etharp_find_entry.constprop.0+0x7c>
+  da:	ea4f 0348 	mov.w	r3, r8, lsl #1
+  de:	e7d5      	b.n	8c <etharp_find_entry.constprop.0+0x8c>
+  e0:	f1bb 0f0a 	cmp.w	fp, #10
+  e4:	d118      	bne.n	118 <etharp_find_entry.constprop.0+0x118>
+  e6:	f1be 0f0a 	cmp.w	lr, #10
+  ea:	d019      	beq.n	120 <etharp_find_entry.constprop.0+0x120>
+  ec:	4677      	mov	r7, lr
+  ee:	eb07 0547 	add.w	r5, r7, r7, lsl #1
+  f2:	46b8      	mov	r8, r7
+  f4:	ea4f 0947 	mov.w	r9, r7, lsl #1
+  f8:	00ed      	lsls	r5, r5, #3
+  fa:	5970      	ldr	r0, [r6, r5]
+  fc:	2800      	cmp	r0, #0
+  fe:	d0e3      	beq.n	c8 <etharp_find_entry.constprop.0+0xc8>
+ 100:	f7ff fffe 	bl	0 <pbuf_free>
+ 104:	2300      	movs	r3, #0
+ 106:	5173      	str	r3, [r6, r5]
+ 108:	e7de      	b.n	c8 <etharp_find_entry.constprop.0+0xc8>
+ 10a:	8a51      	ldrh	r1, [r2, #18]
+ 10c:	9d01      	ldr	r5, [sp, #4]
+ 10e:	42a9      	cmp	r1, r5
+ 110:	d389      	bcc.n	26 <etharp_find_entry.constprop.0+0x26>
+ 112:	46e3      	mov	fp, ip
+ 114:	9101      	str	r1, [sp, #4]
+ 116:	e786      	b.n	26 <etharp_find_entry.constprop.0+0x26>
+ 118:	465f      	mov	r7, fp
+ 11a:	e7e8      	b.n	ee <etharp_find_entry.constprop.0+0xee>
+ 11c:	4660      	mov	r0, ip
+ 11e:	e7ba      	b.n	96 <etharp_find_entry.constprop.0+0x96>
+ 120:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 124:	e7b7      	b.n	96 <etharp_find_entry.constprop.0+0x96>
+ 126:	4b0b      	ldr	r3, [pc, #44]	; (154 <etharp_find_entry.constprop.0+0x154>)
+ 128:	f240 1285 	movw	r2, #389	; 0x185
+ 12c:	490a      	ldr	r1, [pc, #40]	; (158 <etharp_find_entry.constprop.0+0x158>)
+ 12e:	480b      	ldr	r0, [pc, #44]	; (15c <etharp_find_entry.constprop.0+0x15c>)
+ 130:	f7ff fffe 	bl	0 <printf>
+ 134:	2000      	movs	r0, #0
+ 136:	f7ff fffe 	bl	0 <fflush>
+ 13a:	4628      	mov	r0, r5
+ 13c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 140:	f7ff fffe 	bl	0 <abort>
+ 144:	4b03      	ldr	r3, [pc, #12]	; (154 <etharp_find_entry.constprop.0+0x154>)
+ 146:	f44f 72b7 	mov.w	r2, #366	; 0x16e
+ 14a:	4905      	ldr	r1, [pc, #20]	; (160 <etharp_find_entry.constprop.0+0x160>)
+ 14c:	e7ef      	b.n	12e <etharp_find_entry.constprop.0+0x12e>
+ 14e:	bf00      	nop
+ 150:	00000000 	.word	0x00000000
+ 154:	00000000 	.word	0x00000000
+ 158:	00000018 	.word	0x00000018
+ 15c:	0000003c 	.word	0x0000003c
+ 160:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_output_to_arp_index:
+
+00000000 <etharp_output_to_arp_index>:
+   0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   4:	4e35      	ldr	r6, [pc, #212]	; (dc <etharp_output_to_arp_index+0xdc>)
+   6:	eb02 0742 	add.w	r7, r2, r2, lsl #1
+   a:	b085      	sub	sp, #20
+   c:	eb06 07c7 	add.w	r7, r6, r7, lsl #3
+  10:	7d3b      	ldrb	r3, [r7, #20]
+  12:	2b01      	cmp	r3, #1
+  14:	d952      	bls.n	bc <etharp_output_to_arp_index+0xbc>
+  16:	2b02      	cmp	r3, #2
+  18:	4604      	mov	r4, r0
+  1a:	460d      	mov	r5, r1
+  1c:	d012      	beq.n	44 <etharp_output_to_arp_index+0x44>
+  1e:	2318      	movs	r3, #24
+  20:	f104 0836 	add.w	r8, r4, #54	; 0x36
+  24:	fb03 6302 	mla	r3, r3, r2, r6
+  28:	f103 090c 	add.w	r9, r3, #12
+  2c:	f44f 6600 	mov.w	r6, #2048	; 0x800
+  30:	464b      	mov	r3, r9
+  32:	4642      	mov	r2, r8
+  34:	4629      	mov	r1, r5
+  36:	4620      	mov	r0, r4
+  38:	9600      	str	r6, [sp, #0]
+  3a:	f7ff fffe 	bl	0 <ethernet_output>
+  3e:	b005      	add	sp, #20
+  40:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  44:	8a7b      	ldrh	r3, [r7, #18]
+  46:	f5b3 7f8e 	cmp.w	r3, #284	; 0x11c
+  4a:	d81d      	bhi.n	88 <etharp_output_to_arp_index+0x88>
+  4c:	f5b3 7f87 	cmp.w	r3, #270	; 0x10e
+  50:	d3e5      	bcc.n	1e <etharp_output_to_arp_index+0x1e>
+  52:	eb02 0242 	add.w	r2, r2, r2, lsl #1
+  56:	2301      	movs	r3, #1
+  58:	f100 0836 	add.w	r8, r0, #54	; 0x36
+  5c:	9000      	str	r0, [sp, #0]
+  5e:	00d2      	lsls	r2, r2, #3
+  60:	9303      	str	r3, [sp, #12]
+  62:	4b1f      	ldr	r3, [pc, #124]	; (e0 <etharp_output_to_arp_index+0xe0>)
+  64:	4641      	mov	r1, r8
+  66:	f102 090c 	add.w	r9, r2, #12
+  6a:	f102 0c04 	add.w	ip, r2, #4
+  6e:	9301      	str	r3, [sp, #4]
+  70:	4643      	mov	r3, r8
+  72:	44b1      	add	r9, r6
+  74:	4466      	add	r6, ip
+  76:	464a      	mov	r2, r9
+  78:	9602      	str	r6, [sp, #8]
+  7a:	f7ff fffe 	bl	0 <etharp_output_to_arp_index>
+  7e:	2800      	cmp	r0, #0
+  80:	d1d4      	bne.n	2c <etharp_output_to_arp_index+0x2c>
+  82:	2303      	movs	r3, #3
+  84:	753b      	strb	r3, [r7, #20]
+  86:	e7d1      	b.n	2c <etharp_output_to_arp_index+0x2c>
+  88:	eb02 0242 	add.w	r2, r2, r2, lsl #1
+  8c:	2301      	movs	r3, #1
+  8e:	f100 0836 	add.w	r8, r0, #54	; 0x36
+  92:	9000      	str	r0, [sp, #0]
+  94:	ea4f 09c2 	mov.w	r9, r2, lsl #3
+  98:	9303      	str	r3, [sp, #12]
+  9a:	4a12      	ldr	r2, [pc, #72]	; (e4 <etharp_output_to_arp_index+0xe4>)
+  9c:	4641      	mov	r1, r8
+  9e:	f109 0304 	add.w	r3, r9, #4
+  a2:	f109 090c 	add.w	r9, r9, #12
+  a6:	4433      	add	r3, r6
+  a8:	44b1      	add	r9, r6
+  aa:	9302      	str	r3, [sp, #8]
+  ac:	4b0c      	ldr	r3, [pc, #48]	; (e0 <etharp_output_to_arp_index+0xe0>)
+  ae:	9301      	str	r3, [sp, #4]
+  b0:	4643      	mov	r3, r8
+  b2:	f7ff fffe 	bl	0 <etharp_output_to_arp_index>
+  b6:	2800      	cmp	r0, #0
+  b8:	d0e3      	beq.n	82 <etharp_output_to_arp_index+0x82>
+  ba:	e7b7      	b.n	2c <etharp_output_to_arp_index+0x2c>
+  bc:	4b0a      	ldr	r3, [pc, #40]	; (e8 <etharp_output_to_arp_index+0xe8>)
+  be:	f240 22ef 	movw	r2, #751	; 0x2ef
+  c2:	490a      	ldr	r1, [pc, #40]	; (ec <etharp_output_to_arp_index+0xec>)
+  c4:	480a      	ldr	r0, [pc, #40]	; (f0 <etharp_output_to_arp_index+0xf0>)
+  c6:	f7ff fffe 	bl	0 <printf>
+  ca:	2000      	movs	r0, #0
+  cc:	f7ff fffe 	bl	0 <fflush>
+  d0:	2001      	movs	r0, #1
+  d2:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  d6:	f7ff fffe 	bl	0 <abort>
+  da:	bf00      	nop
+  dc:	00000000 	.word	0x00000000
+  e0:	00000000 	.word	0x00000000
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+  ec:	00000000 	.word	0x00000000
+  f0:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.etharp_tmr:
+
+00000000 <etharp_tmr>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	4c20      	ldr	r4, [pc, #128]	; (88 <etharp_tmr+0x88>)
+   6:	b084      	sub	sp, #16
+   8:	2600      	movs	r6, #0
+   a:	f8df 8084 	ldr.w	r8, [pc, #132]	; 90 <etharp_tmr+0x90>
+   e:	4f1f      	ldr	r7, [pc, #124]	; (8c <etharp_tmr+0x8c>)
+  10:	f104 05f0 	add.w	r5, r4, #240	; 0xf0
+  14:	e00c      	b.n	30 <etharp_tmr+0x30>
+  16:	2a01      	cmp	r2, #1
+  18:	d101      	bne.n	1e <etharp_tmr+0x1e>
+  1a:	2b04      	cmp	r3, #4
+  1c:	d812      	bhi.n	44 <etharp_tmr+0x44>
+  1e:	2a03      	cmp	r2, #3
+  20:	d01e      	beq.n	60 <etharp_tmr+0x60>
+  22:	2a04      	cmp	r2, #4
+  24:	d01f      	beq.n	66 <etharp_tmr+0x66>
+  26:	2a01      	cmp	r2, #1
+  28:	d020      	beq.n	6c <etharp_tmr+0x6c>
+  2a:	3418      	adds	r4, #24
+  2c:	42ac      	cmp	r4, r5
+  2e:	d014      	beq.n	5a <etharp_tmr+0x5a>
+  30:	7c22      	ldrb	r2, [r4, #16]
+  32:	2a00      	cmp	r2, #0
+  34:	d0f9      	beq.n	2a <etharp_tmr+0x2a>
+  36:	89e3      	ldrh	r3, [r4, #14]
+  38:	3301      	adds	r3, #1
+  3a:	b29b      	uxth	r3, r3
+  3c:	f5b3 7f96 	cmp.w	r3, #300	; 0x12c
+  40:	81e3      	strh	r3, [r4, #14]
+  42:	d3e8      	bcc.n	16 <etharp_tmr+0x16>
+  44:	f854 0c04 	ldr.w	r0, [r4, #-4]
+  48:	b118      	cbz	r0, 52 <etharp_tmr+0x52>
+  4a:	f7ff fffe 	bl	0 <pbuf_free>
+  4e:	f844 6c04 	str.w	r6, [r4, #-4]
+  52:	7426      	strb	r6, [r4, #16]
+  54:	3418      	adds	r4, #24
+  56:	42ac      	cmp	r4, r5
+  58:	d1ea      	bne.n	30 <etharp_tmr+0x30>
+  5a:	b004      	add	sp, #16
+  5c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  60:	2304      	movs	r3, #4
+  62:	7423      	strb	r3, [r4, #16]
+  64:	e7e1      	b.n	2a <etharp_tmr+0x2a>
+  66:	2302      	movs	r3, #2
+  68:	7423      	strb	r3, [r4, #16]
+  6a:	e7de      	b.n	2a <etharp_tmr+0x2a>
+  6c:	6860      	ldr	r0, [r4, #4]
+  6e:	f8cd 8004 	str.w	r8, [sp, #4]
+  72:	f100 0336 	add.w	r3, r0, #54	; 0x36
+  76:	9000      	str	r0, [sp, #0]
+  78:	e9cd 4202 	strd	r4, r2, [sp, #8]
+  7c:	4619      	mov	r1, r3
+  7e:	463a      	mov	r2, r7
+  80:	f7ff fffe 	bl	0 <etharp_tmr>
+  84:	e7d1      	b.n	2a <etharp_tmr+0x2a>
+  86:	bf00      	nop
+  88:	00000004 	.word	0x00000004
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_cleanup_netif:
+
+00000000 <etharp_cleanup_netif>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4c0a      	ldr	r4, [pc, #40]	; (2c <etharp_cleanup_netif+0x2c>)
+   4:	2700      	movs	r7, #0
+   6:	4606      	mov	r6, r0
+   8:	f104 05f0 	add.w	r5, r4, #240	; 0xf0
+   c:	7d23      	ldrb	r3, [r4, #20]
+   e:	b113      	cbz	r3, 16 <etharp_cleanup_netif+0x16>
+  10:	68a3      	ldr	r3, [r4, #8]
+  12:	42b3      	cmp	r3, r6
+  14:	d003      	beq.n	1e <etharp_cleanup_netif+0x1e>
+  16:	3418      	adds	r4, #24
+  18:	42ac      	cmp	r4, r5
+  1a:	d1f7      	bne.n	c <etharp_cleanup_netif+0xc>
+  1c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  1e:	6820      	ldr	r0, [r4, #0]
+  20:	b110      	cbz	r0, 28 <etharp_cleanup_netif+0x28>
+  22:	f7ff fffe 	bl	0 <pbuf_free>
+  26:	6027      	str	r7, [r4, #0]
+  28:	7527      	strb	r7, [r4, #20]
+  2a:	e7f4      	b.n	16 <etharp_cleanup_netif+0x16>
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_find_addr:
+
+00000000 <etharp_find_addr>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	b1e2      	cbz	r2, 3e <etharp_find_addr+0x3e>
+   4:	461e      	mov	r6, r3
+   6:	b1d3      	cbz	r3, 3e <etharp_find_addr+0x3e>
+   8:	4608      	mov	r0, r1
+   a:	2102      	movs	r1, #2
+   c:	4615      	mov	r5, r2
+   e:	f7ff fffe 	bl	0 <etharp_find_addr>
+  12:	2800      	cmp	r0, #0
+  14:	db10      	blt.n	38 <etharp_find_addr+0x38>
+  16:	eb00 0140 	add.w	r1, r0, r0, lsl #1
+  1a:	4c10      	ldr	r4, [pc, #64]	; (5c <etharp_find_addr+0x5c>)
+  1c:	eb04 03c1 	add.w	r3, r4, r1, lsl #3
+  20:	00c9      	lsls	r1, r1, #3
+  22:	7d1b      	ldrb	r3, [r3, #20]
+  24:	2b01      	cmp	r3, #1
+  26:	d907      	bls.n	38 <etharp_find_addr+0x38>
+  28:	f101 030c 	add.w	r3, r1, #12
+  2c:	3104      	adds	r1, #4
+  2e:	4423      	add	r3, r4
+  30:	440c      	add	r4, r1
+  32:	602b      	str	r3, [r5, #0]
+  34:	6034      	str	r4, [r6, #0]
+  36:	bd70      	pop	{r4, r5, r6, pc}
+  38:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  3c:	bd70      	pop	{r4, r5, r6, pc}
+  3e:	4b08      	ldr	r3, [pc, #32]	; (60 <etharp_find_addr+0x60>)
+  40:	f240 224d 	movw	r2, #589	; 0x24d
+  44:	4907      	ldr	r1, [pc, #28]	; (64 <etharp_find_addr+0x64>)
+  46:	4808      	ldr	r0, [pc, #32]	; (68 <etharp_find_addr+0x68>)
+  48:	f7ff fffe 	bl	0 <printf>
+  4c:	2000      	movs	r0, #0
+  4e:	f7ff fffe 	bl	0 <fflush>
+  52:	2001      	movs	r0, #1
+  54:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  58:	f7ff fffe 	bl	0 <abort>
+  5c:	00000000 	.word	0x00000000
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.etharp_get_entry:
+
+00000000 <etharp_get_entry>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	460c      	mov	r4, r1
+   4:	2900      	cmp	r1, #0
+   6:	d038      	beq.n	7a <etharp_get_entry+0x7a>
+   8:	4616      	mov	r6, r2
+   a:	b33a      	cbz	r2, 5c <etharp_get_entry+0x5c>
+   c:	461d      	mov	r5, r3
+   e:	b1b3      	cbz	r3, 3e <etharp_get_entry+0x3e>
+  10:	2809      	cmp	r0, #9
+  12:	d812      	bhi.n	3a <etharp_get_entry+0x3a>
+  14:	eb00 0040 	add.w	r0, r0, r0, lsl #1
+  18:	4b1f      	ldr	r3, [pc, #124]	; (98 <etharp_get_entry+0x98>)
+  1a:	eb03 02c0 	add.w	r2, r3, r0, lsl #3
+  1e:	00c0      	lsls	r0, r0, #3
+  20:	7d11      	ldrb	r1, [r2, #20]
+  22:	2901      	cmp	r1, #1
+  24:	d909      	bls.n	3a <etharp_get_entry+0x3a>
+  26:	6891      	ldr	r1, [r2, #8]
+  28:	1d02      	adds	r2, r0, #4
+  2a:	300c      	adds	r0, #12
+  2c:	441a      	add	r2, r3
+  2e:	4403      	add	r3, r0
+  30:	2001      	movs	r0, #1
+  32:	6022      	str	r2, [r4, #0]
+  34:	6031      	str	r1, [r6, #0]
+  36:	602b      	str	r3, [r5, #0]
+  38:	bd70      	pop	{r4, r5, r6, pc}
+  3a:	2000      	movs	r0, #0
+  3c:	bd70      	pop	{r4, r5, r6, pc}
+  3e:	4b17      	ldr	r3, [pc, #92]	; (9c <etharp_get_entry+0x9c>)
+  40:	f240 2269 	movw	r2, #617	; 0x269
+  44:	4916      	ldr	r1, [pc, #88]	; (a0 <etharp_get_entry+0xa0>)
+  46:	4817      	ldr	r0, [pc, #92]	; (a4 <etharp_get_entry+0xa4>)
+  48:	f7ff fffe 	bl	0 <printf>
+  4c:	4628      	mov	r0, r5
+  4e:	f7ff fffe 	bl	0 <fflush>
+  52:	2001      	movs	r0, #1
+  54:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  58:	f7ff fffe 	bl	0 <abort>
+  5c:	4b0f      	ldr	r3, [pc, #60]	; (9c <etharp_get_entry+0x9c>)
+  5e:	f44f 721a 	mov.w	r2, #616	; 0x268
+  62:	4911      	ldr	r1, [pc, #68]	; (a8 <etharp_get_entry+0xa8>)
+  64:	480f      	ldr	r0, [pc, #60]	; (a4 <etharp_get_entry+0xa4>)
+  66:	f7ff fffe 	bl	0 <printf>
+  6a:	4630      	mov	r0, r6
+  6c:	f7ff fffe 	bl	0 <fflush>
+  70:	2001      	movs	r0, #1
+  72:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  76:	f7ff fffe 	bl	0 <abort>
+  7a:	4b08      	ldr	r3, [pc, #32]	; (9c <etharp_get_entry+0x9c>)
+  7c:	f240 2267 	movw	r2, #615	; 0x267
+  80:	490a      	ldr	r1, [pc, #40]	; (ac <etharp_get_entry+0xac>)
+  82:	4808      	ldr	r0, [pc, #32]	; (a4 <etharp_get_entry+0xa4>)
+  84:	f7ff fffe 	bl	0 <printf>
+  88:	4620      	mov	r0, r4
+  8a:	f7ff fffe 	bl	0 <fflush>
+  8e:	2001      	movs	r0, #1
+  90:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  94:	f7ff fffe 	bl	0 <abort>
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000010 	.word	0x00000010
+  a4:	0000003c 	.word	0x0000003c
+  a8:	0000002c 	.word	0x0000002c
+  ac:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_input:
+
+00000000 <etharp_input>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	460d      	mov	r5, r1
+   6:	b089      	sub	sp, #36	; 0x24
+   8:	4604      	mov	r4, r0
+   a:	4a56      	ldr	r2, [pc, #344]	; (164 <etharp_input+0x164>)
+   c:	f240 2189 	movw	r1, #649	; 0x289
+  10:	4855      	ldr	r0, [pc, #340]	; (168 <etharp_input+0x168>)
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	2d00      	cmp	r5, #0
+  18:	d07f      	beq.n	11a <etharp_input+0x11a>
+  1a:	6866      	ldr	r6, [r4, #4]
+  1c:	8833      	ldrh	r3, [r6, #0]
+  1e:	f5b3 7f80 	cmp.w	r3, #256	; 0x100
+  22:	d102      	bne.n	2a <etharp_input+0x2a>
+  24:	7933      	ldrb	r3, [r6, #4]
+  26:	2b06      	cmp	r3, #6
+  28:	d005      	beq.n	36 <etharp_input+0x36>
+  2a:	4620      	mov	r0, r4
+  2c:	b009      	add	sp, #36	; 0x24
+  2e:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  32:	f7ff bffe 	b.w	0 <pbuf_free>
+  36:	7973      	ldrb	r3, [r6, #5]
+  38:	2b04      	cmp	r3, #4
+  3a:	d1f6      	bne.n	2a <etharp_input+0x2a>
+  3c:	8873      	ldrh	r3, [r6, #2]
+  3e:	2b08      	cmp	r3, #8
+  40:	d1f3      	bne.n	2a <etharp_input+0x2a>
+  42:	4631      	mov	r1, r6
+  44:	4628      	mov	r0, r5
+  46:	f7ff fffe 	bl	0 <acd_arp_reply>
+  4a:	f8d6 b00e 	ldr.w	fp, [r6, #14]
+  4e:	682a      	ldr	r2, [r5, #0]
+  50:	69b3      	ldr	r3, [r6, #24]
+  52:	f8cd b01c 	str.w	fp, [sp, #28]
+  56:	2a00      	cmp	r2, #0
+  58:	d162      	bne.n	120 <etharp_input+0x120>
+  5a:	4690      	mov	r8, r2
+  5c:	f106 0708 	add.w	r7, r6, #8
+  60:	f04f 0902 	mov.w	r9, #2
+  64:	9205      	str	r2, [sp, #20]
+  66:	f895 303c 	ldrb.w	r3, [r5, #60]	; 0x3c
+  6a:	2b06      	cmp	r3, #6
+  6c:	d16b      	bne.n	146 <etharp_input+0x146>
+  6e:	f1bb 0f00 	cmp.w	fp, #0
+  72:	d03a      	beq.n	ea <etharp_input+0xea>
+  74:	4629      	mov	r1, r5
+  76:	4658      	mov	r0, fp
+  78:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  7c:	4682      	mov	sl, r0
+  7e:	bba0      	cbnz	r0, ea <etharp_input+0xea>
+  80:	f00b 03f0 	and.w	r3, fp, #240	; 0xf0
+  84:	2be0      	cmp	r3, #224	; 0xe0
+  86:	d030      	beq.n	ea <etharp_input+0xea>
+  88:	4649      	mov	r1, r9
+  8a:	a807      	add	r0, sp, #28
+  8c:	f7ff fffe 	bl	0 <etharp_input>
+  90:	2800      	cmp	r0, #0
+  92:	db2a      	blt.n	ea <etharp_input+0xea>
+  94:	4935      	ldr	r1, [pc, #212]	; (16c <etharp_input+0x16c>)
+  96:	eb00 0240 	add.w	r2, r0, r0, lsl #1
+  9a:	2302      	movs	r3, #2
+  9c:	f04f 0e18 	mov.w	lr, #24
+  a0:	eb01 0cc2 	add.w	ip, r1, r2, lsl #3
+  a4:	00d2      	lsls	r2, r2, #3
+  a6:	f88c 3014 	strb.w	r3, [ip, #20]
+  aa:	230c      	movs	r3, #12
+  ac:	f8cc 5008 	str.w	r5, [ip, #8]
+  b0:	fb10 330e 	smlabb	r3, r0, lr, r3
+  b4:	6838      	ldr	r0, [r7, #0]
+  b6:	50c8      	str	r0, [r1, r3]
+  b8:	440b      	add	r3, r1
+  ba:	88b8      	ldrh	r0, [r7, #4]
+  bc:	8098      	strh	r0, [r3, #4]
+  be:	f851 b002 	ldr.w	fp, [r1, r2]
+  c2:	f8ac a012 	strh.w	sl, [ip, #18]
+  c6:	f1bb 0f00 	cmp.w	fp, #0
+  ca:	d00e      	beq.n	ea <etharp_input+0xea>
+  cc:	f44f 6300 	mov.w	r3, #2048	; 0x800
+  d0:	f841 a002 	str.w	sl, [r1, r2]
+  d4:	4628      	mov	r0, r5
+  d6:	f105 0236 	add.w	r2, r5, #54	; 0x36
+  da:	9300      	str	r3, [sp, #0]
+  dc:	4659      	mov	r1, fp
+  de:	463b      	mov	r3, r7
+  e0:	f7ff fffe 	bl	0 <ethernet_output>
+  e4:	4658      	mov	r0, fp
+  e6:	f7ff fffe 	bl	0 <pbuf_free>
+  ea:	88f3      	ldrh	r3, [r6, #6]
+  ec:	f5b3 7f80 	cmp.w	r3, #256	; 0x100
+  f0:	d19b      	bne.n	2a <etharp_input+0x2a>
+  f2:	f088 0801 	eor.w	r8, r8, #1
+  f6:	9b05      	ldr	r3, [sp, #20]
+  f8:	ea13 0f08 	tst.w	r3, r8
+  fc:	d095      	beq.n	2a <etharp_input+0x2a>
+  fe:	2102      	movs	r1, #2
+ 100:	f105 0336 	add.w	r3, r5, #54	; 0x36
+ 104:	463a      	mov	r2, r7
+ 106:	4628      	mov	r0, r5
+ 108:	9103      	str	r1, [sp, #12]
+ 10a:	a907      	add	r1, sp, #28
+ 10c:	9701      	str	r7, [sp, #4]
+ 10e:	9102      	str	r1, [sp, #8]
+ 110:	4619      	mov	r1, r3
+ 112:	9500      	str	r5, [sp, #0]
+ 114:	f7ff fffe 	bl	0 <etharp_input>
+ 118:	e787      	b.n	2a <etharp_input+0x2a>
+ 11a:	b009      	add	sp, #36	; 0x24
+ 11c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 120:	eba2 080b 	sub.w	r8, r2, fp
+ 124:	429a      	cmp	r2, r3
+ 126:	f106 0708 	add.w	r7, r6, #8
+ 12a:	fab8 f888 	clz	r8, r8
+ 12e:	ea4f 1858 	mov.w	r8, r8, lsr #5
+ 132:	d004      	beq.n	13e <etharp_input+0x13e>
+ 134:	2300      	movs	r3, #0
+ 136:	f04f 0902 	mov.w	r9, #2
+ 13a:	9305      	str	r3, [sp, #20]
+ 13c:	e793      	b.n	66 <etharp_input+0x66>
+ 13e:	2301      	movs	r3, #1
+ 140:	4699      	mov	r9, r3
+ 142:	9305      	str	r3, [sp, #20]
+ 144:	e78f      	b.n	66 <etharp_input+0x66>
+ 146:	4b08      	ldr	r3, [pc, #32]	; (168 <etharp_input+0x168>)
+ 148:	f44f 72d5 	mov.w	r2, #426	; 0x1aa
+ 14c:	4908      	ldr	r1, [pc, #32]	; (170 <etharp_input+0x170>)
+ 14e:	4809      	ldr	r0, [pc, #36]	; (174 <etharp_input+0x174>)
+ 150:	f7ff fffe 	bl	0 <printf>
+ 154:	2000      	movs	r0, #0
+ 156:	f7ff fffe 	bl	0 <fflush>
+ 15a:	2001      	movs	r0, #1
+ 15c:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 160:	f7ff fffe 	bl	0 <abort>
+ 164:	00000000 	.word	0x00000000
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000000 	.word	0x00000000
+ 170:	00000000 	.word	0x00000000
+ 174:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.etharp_query:
+
+00000000 <etharp_query>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	460d      	mov	r5, r1
+   6:	b085      	sub	sp, #20
+   8:	4606      	mov	r6, r0
+   a:	4601      	mov	r1, r0
+   c:	6828      	ldr	r0, [r5, #0]
+   e:	4617      	mov	r7, r2
+  10:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  14:	2800      	cmp	r0, #0
+  16:	d17a      	bne.n	10e <etharp_query+0x10e>
+  18:	682b      	ldr	r3, [r5, #0]
+  1a:	f003 02f0 	and.w	r2, r3, #240	; 0xf0
+  1e:	2ae0      	cmp	r2, #224	; 0xe0
+  20:	d075      	beq.n	10e <etharp_query+0x10e>
+  22:	2b00      	cmp	r3, #0
+  24:	d073      	beq.n	10e <etharp_query+0x10e>
+  26:	2101      	movs	r1, #1
+  28:	4628      	mov	r0, r5
+  2a:	f7ff fffe 	bl	0 <etharp_query>
+  2e:	1e04      	subs	r4, r0, #0
+  30:	db3f      	blt.n	b2 <etharp_query+0xb2>
+  32:	2c7e      	cmp	r4, #126	; 0x7e
+  34:	dc71      	bgt.n	11a <etharp_query+0x11a>
+  36:	f8df 8158 	ldr.w	r8, [pc, #344]	; 190 <etharp_query+0x190>
+  3a:	eb04 0a44 	add.w	sl, r4, r4, lsl #1
+  3e:	f106 0b36 	add.w	fp, r6, #54	; 0x36
+  42:	ea4f 0944 	mov.w	r9, r4, lsl #1
+  46:	eb08 0aca 	add.w	sl, r8, sl, lsl #3
+  4a:	f89a 3014 	ldrb.w	r3, [sl, #20]
+  4e:	b14b      	cbz	r3, 64 <etharp_query+0x64>
+  50:	2f00      	cmp	r7, #0
+  52:	d076      	beq.n	142 <etharp_query+0x142>
+  54:	2b01      	cmp	r3, #1
+  56:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  5a:	d819      	bhi.n	90 <etharp_query+0x90>
+  5c:	d02d      	beq.n	ba <etharp_query+0xba>
+  5e:	b005      	add	sp, #20
+  60:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  64:	2301      	movs	r3, #1
+  66:	9502      	str	r5, [sp, #8]
+  68:	9600      	str	r6, [sp, #0]
+  6a:	4659      	mov	r1, fp
+  6c:	f8ca 6008 	str.w	r6, [sl, #8]
+  70:	4630      	mov	r0, r6
+  72:	9303      	str	r3, [sp, #12]
+  74:	f88a 3014 	strb.w	r3, [sl, #20]
+  78:	4b3e      	ldr	r3, [pc, #248]	; (174 <etharp_query+0x174>)
+  7a:	4a3f      	ldr	r2, [pc, #252]	; (178 <etharp_query+0x178>)
+  7c:	9301      	str	r3, [sp, #4]
+  7e:	465b      	mov	r3, fp
+  80:	f7ff fffe 	bl	0 <etharp_query>
+  84:	2f00      	cmp	r7, #0
+  86:	d0ea      	beq.n	5e <etharp_query+0x5e>
+  88:	f89a 3014 	ldrb.w	r3, [sl, #20]
+  8c:	2b01      	cmp	r3, #1
+  8e:	d9e5      	bls.n	5c <etharp_query+0x5c>
+  90:	2318      	movs	r3, #24
+  92:	f44f 6500 	mov.w	r5, #2048	; 0x800
+  96:	465a      	mov	r2, fp
+  98:	4639      	mov	r1, r7
+  9a:	fb04 8303 	mla	r3, r4, r3, r8
+  9e:	4630      	mov	r0, r6
+  a0:	9500      	str	r5, [sp, #0]
+  a2:	4d36      	ldr	r5, [pc, #216]	; (17c <etharp_query+0x17c>)
+  a4:	330c      	adds	r3, #12
+  a6:	702c      	strb	r4, [r5, #0]
+  a8:	f7ff fffe 	bl	0 <ethernet_output>
+  ac:	b005      	add	sp, #20
+  ae:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  b2:	b260      	sxtb	r0, r4
+  b4:	b005      	add	sp, #20
+  b6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ba:	463b      	mov	r3, r7
+  bc:	e004      	b.n	c8 <etharp_query+0xc8>
+  be:	7b1a      	ldrb	r2, [r3, #12]
+  c0:	0652      	lsls	r2, r2, #25
+  c2:	d40a      	bmi.n	da <etharp_query+0xda>
+  c4:	681b      	ldr	r3, [r3, #0]
+  c6:	b1f3      	cbz	r3, 106 <etharp_query+0x106>
+  c8:	8959      	ldrh	r1, [r3, #10]
+  ca:	891a      	ldrh	r2, [r3, #8]
+  cc:	4291      	cmp	r1, r2
+  ce:	d1f6      	bne.n	be <etharp_query+0xbe>
+  d0:	681a      	ldr	r2, [r3, #0]
+  d2:	bb8a      	cbnz	r2, 138 <etharp_query+0x138>
+  d4:	7b1b      	ldrb	r3, [r3, #12]
+  d6:	065b      	lsls	r3, r3, #25
+  d8:	d515      	bpl.n	106 <etharp_query+0x106>
+  da:	463a      	mov	r2, r7
+  dc:	f44f 7120 	mov.w	r1, #640	; 0x280
+  e0:	2010      	movs	r0, #16
+  e2:	f7ff fffe 	bl	0 <pbuf_clone>
+  e6:	4607      	mov	r7, r0
+  e8:	b1a0      	cbz	r0, 114 <etharp_query+0x114>
+  ea:	eb09 0304 	add.w	r3, r9, r4
+  ee:	f858 0033 	ldr.w	r0, [r8, r3, lsl #3]
+  f2:	b108      	cbz	r0, f8 <etharp_query+0xf8>
+  f4:	f7ff fffe 	bl	0 <pbuf_free>
+  f8:	444c      	add	r4, r9
+  fa:	2000      	movs	r0, #0
+  fc:	f848 7034 	str.w	r7, [r8, r4, lsl #3]
+ 100:	b005      	add	sp, #20
+ 102:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 106:	4638      	mov	r0, r7
+ 108:	f7ff fffe 	bl	0 <pbuf_ref>
+ 10c:	e7ed      	b.n	ea <etharp_query+0xea>
+ 10e:	f06f 000f 	mvn.w	r0, #15
+ 112:	e7a4      	b.n	5e <etharp_query+0x5e>
+ 114:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+ 118:	e7a1      	b.n	5e <etharp_query+0x5e>
+ 11a:	4b19      	ldr	r3, [pc, #100]	; (180 <etharp_query+0x180>)
+ 11c:	f240 32c2 	movw	r2, #962	; 0x3c2
+ 120:	4918      	ldr	r1, [pc, #96]	; (184 <etharp_query+0x184>)
+ 122:	4819      	ldr	r0, [pc, #100]	; (188 <etharp_query+0x188>)
+ 124:	f7ff fffe 	bl	0 <printf>
+ 128:	2000      	movs	r0, #0
+ 12a:	f7ff fffe 	bl	0 <fflush>
+ 12e:	2001      	movs	r0, #1
+ 130:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 134:	f7ff fffe 	bl	0 <abort>
+ 138:	4b11      	ldr	r3, [pc, #68]	; (180 <etharp_query+0x180>)
+ 13a:	f240 32fa 	movw	r2, #1018	; 0x3fa
+ 13e:	4913      	ldr	r1, [pc, #76]	; (18c <etharp_query+0x18c>)
+ 140:	e7ef      	b.n	122 <etharp_query+0x122>
+ 142:	4b0c      	ldr	r3, [pc, #48]	; (174 <etharp_query+0x174>)
+ 144:	2201      	movs	r2, #1
+ 146:	4630      	mov	r0, r6
+ 148:	4659      	mov	r1, fp
+ 14a:	9301      	str	r3, [sp, #4]
+ 14c:	465b      	mov	r3, fp
+ 14e:	9203      	str	r2, [sp, #12]
+ 150:	9502      	str	r5, [sp, #8]
+ 152:	4a09      	ldr	r2, [pc, #36]	; (178 <etharp_query+0x178>)
+ 154:	9600      	str	r6, [sp, #0]
+ 156:	f7ff fffe 	bl	0 <etharp_query>
+ 15a:	2800      	cmp	r0, #0
+ 15c:	f47f af7f 	bne.w	5e <etharp_query+0x5e>
+ 160:	2318      	movs	r3, #24
+ 162:	fb03 8804 	mla	r8, r3, r4, r8
+ 166:	f898 3014 	ldrb.w	r3, [r8, #20]
+ 16a:	2b01      	cmp	r3, #1
+ 16c:	bf08      	it	eq
+ 16e:	f8a8 0012 	strheq.w	r0, [r8, #18]
+ 172:	e774      	b.n	5e <etharp_query+0x5e>
+ 174:	00000000 	.word	0x00000000
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000
+ 184:	00000000 	.word	0x00000000
+ 188:	0000003c 	.word	0x0000003c
+ 18c:	00000010 	.word	0x00000010
+ 190:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_output:
+
+00000000 <etharp_output>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	4606      	mov	r6, r0
+   4:	b085      	sub	sp, #20
+   6:	460f      	mov	r7, r1
+   8:	4615      	mov	r5, r2
+   a:	f240 311e 	movw	r1, #798	; 0x31e
+   e:	4a56      	ldr	r2, [pc, #344]	; (168 <etharp_output+0x168>)
+  10:	4856      	ldr	r0, [pc, #344]	; (16c <etharp_output+0x16c>)
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	2e00      	cmp	r6, #0
+  18:	f000 8096 	beq.w	148 <etharp_output+0x148>
+  1c:	2f00      	cmp	r7, #0
+  1e:	f000 8084 	beq.w	12a <etharp_output+0x12a>
+  22:	2d00      	cmp	r5, #0
+  24:	d072      	beq.n	10c <etharp_output+0x10c>
+  26:	4631      	mov	r1, r6
+  28:	6828      	ldr	r0, [r5, #0]
+  2a:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  2e:	2800      	cmp	r0, #0
+  30:	d15b      	bne.n	ea <etharp_output+0xea>
+  32:	682b      	ldr	r3, [r5, #0]
+  34:	f003 02f0 	and.w	r2, r3, #240	; 0xf0
+  38:	2ae0      	cmp	r2, #224	; 0xe0
+  3a:	d039      	beq.n	b0 <etharp_output+0xb0>
+  3c:	6832      	ldr	r2, [r6, #0]
+  3e:	6871      	ldr	r1, [r6, #4]
+  40:	405a      	eors	r2, r3
+  42:	420a      	tst	r2, r1
+  44:	d00e      	beq.n	64 <etharp_output+0x64>
+  46:	b29b      	uxth	r3, r3
+  48:	f64f 62a9 	movw	r2, #65193	; 0xfea9
+  4c:	4293      	cmp	r3, r2
+  4e:	d009      	beq.n	64 <etharp_output+0x64>
+  50:	687b      	ldr	r3, [r7, #4]
+  52:	68db      	ldr	r3, [r3, #12]
+  54:	b29b      	uxth	r3, r3
+  56:	4293      	cmp	r3, r2
+  58:	d004      	beq.n	64 <etharp_output+0x64>
+  5a:	68b3      	ldr	r3, [r6, #8]
+  5c:	2b00      	cmp	r3, #0
+  5e:	d052      	beq.n	106 <etharp_output+0x106>
+  60:	f106 0508 	add.w	r5, r6, #8
+  64:	f8df c120 	ldr.w	ip, [pc, #288]	; 188 <etharp_output+0x188>
+  68:	4b41      	ldr	r3, [pc, #260]	; (170 <etharp_output+0x170>)
+  6a:	f89c 2000 	ldrb.w	r2, [ip]
+  6e:	eb02 0142 	add.w	r1, r2, r2, lsl #1
+  72:	eb03 03c1 	add.w	r3, r3, r1, lsl #3
+  76:	7d19      	ldrb	r1, [r3, #20]
+  78:	2901      	cmp	r1, #1
+  7a:	d903      	bls.n	84 <etharp_output+0x84>
+  7c:	685b      	ldr	r3, [r3, #4]
+  7e:	6829      	ldr	r1, [r5, #0]
+  80:	4299      	cmp	r1, r3
+  82:	d03d      	beq.n	100 <etharp_output+0x100>
+  84:	4c3a      	ldr	r4, [pc, #232]	; (170 <etharp_output+0x170>)
+  86:	2300      	movs	r3, #0
+  88:	7d20      	ldrb	r0, [r4, #20]
+  8a:	b2da      	uxtb	r2, r3
+  8c:	2801      	cmp	r0, #1
+  8e:	d903      	bls.n	98 <etharp_output+0x98>
+  90:	6828      	ldr	r0, [r5, #0]
+  92:	6861      	ldr	r1, [r4, #4]
+  94:	4288      	cmp	r0, r1
+  96:	d02a      	beq.n	ee <etharp_output+0xee>
+  98:	3301      	adds	r3, #1
+  9a:	3418      	adds	r4, #24
+  9c:	2b0a      	cmp	r3, #10
+  9e:	d1f3      	bne.n	88 <etharp_output+0x88>
+  a0:	463a      	mov	r2, r7
+  a2:	4629      	mov	r1, r5
+  a4:	4630      	mov	r0, r6
+  a6:	b005      	add	sp, #20
+  a8:	e8bd 40f0 	ldmia.w	sp!, {r4, r5, r6, r7, lr}
+  ac:	f7ff bffe 	b.w	0 <etharp_output>
+  b0:	786b      	ldrb	r3, [r5, #1]
+  b2:	2201      	movs	r2, #1
+  b4:	215e      	movs	r1, #94	; 0x5e
+  b6:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+  ba:	f8ad 2008 	strh.w	r2, [sp, #8]
+  be:	78ea      	ldrb	r2, [r5, #3]
+  c0:	f88d 300b 	strb.w	r3, [sp, #11]
+  c4:	78ab      	ldrb	r3, [r5, #2]
+  c6:	f88d 100a 	strb.w	r1, [sp, #10]
+  ca:	f88d 300c 	strb.w	r3, [sp, #12]
+  ce:	ab02      	add	r3, sp, #8
+  d0:	f88d 200d 	strb.w	r2, [sp, #13]
+  d4:	f44f 6400 	mov.w	r4, #2048	; 0x800
+  d8:	f106 0236 	add.w	r2, r6, #54	; 0x36
+  dc:	4639      	mov	r1, r7
+  de:	4630      	mov	r0, r6
+  e0:	9400      	str	r4, [sp, #0]
+  e2:	f7ff fffe 	bl	0 <ethernet_output>
+  e6:	b005      	add	sp, #20
+  e8:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  ea:	4b22      	ldr	r3, [pc, #136]	; (174 <etharp_output+0x174>)
+  ec:	e7f2      	b.n	d4 <etharp_output+0xd4>
+  ee:	4639      	mov	r1, r7
+  f0:	4630      	mov	r0, r6
+  f2:	f88c 2000 	strb.w	r2, [ip]
+  f6:	b005      	add	sp, #20
+  f8:	e8bd 40f0 	ldmia.w	sp!, {r4, r5, r6, r7, lr}
+  fc:	f7ff bffe 	b.w	0 <etharp_output>
+ 100:	4639      	mov	r1, r7
+ 102:	4630      	mov	r0, r6
+ 104:	e7f7      	b.n	f6 <etharp_output+0xf6>
+ 106:	f06f 0003 	mvn.w	r0, #3
+ 10a:	e7ec      	b.n	e6 <etharp_output+0xe6>
+ 10c:	4b17      	ldr	r3, [pc, #92]	; (16c <etharp_output+0x16c>)
+ 10e:	f240 3221 	movw	r2, #801	; 0x321
+ 112:	4919      	ldr	r1, [pc, #100]	; (178 <etharp_output+0x178>)
+ 114:	4819      	ldr	r0, [pc, #100]	; (17c <etharp_output+0x17c>)
+ 116:	f7ff fffe 	bl	0 <printf>
+ 11a:	4628      	mov	r0, r5
+ 11c:	f7ff fffe 	bl	0 <fflush>
+ 120:	2001      	movs	r0, #1
+ 122:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 126:	f7ff fffe 	bl	0 <abort>
+ 12a:	4b10      	ldr	r3, [pc, #64]	; (16c <etharp_output+0x16c>)
+ 12c:	f44f 7248 	mov.w	r2, #800	; 0x320
+ 130:	4913      	ldr	r1, [pc, #76]	; (180 <etharp_output+0x180>)
+ 132:	4812      	ldr	r0, [pc, #72]	; (17c <etharp_output+0x17c>)
+ 134:	f7ff fffe 	bl	0 <printf>
+ 138:	4638      	mov	r0, r7
+ 13a:	f7ff fffe 	bl	0 <fflush>
+ 13e:	2001      	movs	r0, #1
+ 140:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 144:	f7ff fffe 	bl	0 <abort>
+ 148:	4b08      	ldr	r3, [pc, #32]	; (16c <etharp_output+0x16c>)
+ 14a:	f240 321f 	movw	r2, #799	; 0x31f
+ 14e:	490d      	ldr	r1, [pc, #52]	; (184 <etharp_output+0x184>)
+ 150:	480a      	ldr	r0, [pc, #40]	; (17c <etharp_output+0x17c>)
+ 152:	f7ff fffe 	bl	0 <printf>
+ 156:	4630      	mov	r0, r6
+ 158:	f7ff fffe 	bl	0 <fflush>
+ 15c:	2001      	movs	r0, #1
+ 15e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 162:	f7ff fffe 	bl	0 <abort>
+ 166:	bf00      	nop
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000000 	.word	0x00000000
+ 170:	00000000 	.word	0x00000000
+ 174:	00000000 	.word	0x00000000
+ 178:	00000000 	.word	0x00000000
+ 17c:	0000003c 	.word	0x0000003c
+ 180:	00000000 	.word	0x00000000
+ 184:	0000002c 	.word	0x0000002c
+ 188:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_request:
+
+00000000 <etharp_request>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	2301      	movs	r3, #1
+   4:	b085      	sub	sp, #20
+   6:	4d06      	ldr	r5, [pc, #24]	; (20 <etharp_request+0x20>)
+   8:	4a06      	ldr	r2, [pc, #24]	; (24 <etharp_request+0x24>)
+   a:	e9cd 1302 	strd	r1, r3, [sp, #8]
+   e:	f100 0336 	add.w	r3, r0, #54	; 0x36
+  12:	4619      	mov	r1, r3
+  14:	e9cd 0500 	strd	r0, r5, [sp]
+  18:	f7ff fffe 	bl	0 <etharp_request>
+  1c:	b005      	add	sp, #20
+  1e:	bd30      	pop	{r4, r5, pc}
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_acd_probe:
+
+00000000 <etharp_acd_probe>:
+   0:	b510      	push	{r4, lr}
+   2:	2201      	movs	r2, #1
+   4:	b084      	sub	sp, #16
+   6:	f100 0336 	add.w	r3, r0, #54	; 0x36
+   a:	4c06      	ldr	r4, [pc, #24]	; (24 <etharp_acd_probe+0x24>)
+   c:	e9cd 1202 	strd	r1, r2, [sp, #8]
+  10:	4a05      	ldr	r2, [pc, #20]	; (28 <etharp_acd_probe+0x28>)
+  12:	4619      	mov	r1, r3
+  14:	e9cd 2400 	strd	r2, r4, [sp]
+  18:	4a04      	ldr	r2, [pc, #16]	; (2c <etharp_acd_probe+0x2c>)
+  1a:	f7ff fffe 	bl	0 <etharp_acd_probe>
+  1e:	b004      	add	sp, #16
+  20:	bd10      	pop	{r4, pc}
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.etharp_acd_announce:
+
+00000000 <etharp_acd_announce>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	f100 0336 	add.w	r3, r0, #54	; 0x36
+   6:	b085      	sub	sp, #20
+   8:	4a06      	ldr	r2, [pc, #24]	; (24 <etharp_acd_announce+0x24>)
+   a:	460c      	mov	r4, r1
+   c:	2501      	movs	r5, #1
+   e:	4619      	mov	r1, r3
+  10:	9201      	str	r2, [sp, #4]
+  12:	4a05      	ldr	r2, [pc, #20]	; (28 <etharp_acd_announce+0x28>)
+  14:	9503      	str	r5, [sp, #12]
+  16:	9402      	str	r4, [sp, #8]
+  18:	9400      	str	r4, [sp, #0]
+  1a:	f7ff fffe 	bl	0 <etharp_acd_announce>
+  1e:	b005      	add	sp, #20
+  20:	bd30      	pop	{r4, r5, pc}
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+  28:	00000000 	.word	0x00000000

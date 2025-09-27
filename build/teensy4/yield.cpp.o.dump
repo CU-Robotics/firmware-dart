@@ -1,0 +1,144 @@
+
+build/./teensy4/yield.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 yield.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.yield	00000000 .text.yield
+00000000 l    d  .bss._ZZ5yieldE7running	00000000 .bss._ZZ5yieldE7running
+00000000 l     O .bss._ZZ5yieldE7running	00000001 _ZZ5yieldE7running
+00000000 l    d  .bss.yield_active_check_flags	00000000 .bss.yield_active_check_flags
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000  w    F .text.yield	000000d8 yield
+00000000         *UND*	00000000 usb_serial_available
+00000000  w      *UND*	00000000 serialEvent
+00000000         *UND*	00000000 _ZN14EventResponder10firstYieldE
+00000000         *UND*	00000000 _ZN14EventResponder16runningFromYieldE
+00000000         *UND*	00000000 _ZN14EventResponder9lastYieldE
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT34s_count_serials_with_serial_eventsE
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT28s_serials_with_serial_eventsE
+00000000 g     O .bss.yield_active_check_flags	00000001 yield_active_check_flags
+
+
+Contents of section .text.yield:
+ 0000 2de9f843 2d4b1e78 66b12d4f 3b784bb9  -..C-K.xf.-O;xK.
+ 0010 0123f107 3b7043d4 b20726d4 00233b70  .#..;pC...&..#;p
+ 0020 730701d4 bde8f883 264b1a68 002af9d0  s.......&K.h.*..
+ 0030 eff30582 002af5d1 eff31085 72b61868  .....*......r..h
+ 0040 002834d0 204c2178 002930d1 01222270  .(4. L!x.)0..""p
+ 0050 42691a60 002a2ed0 916105b9 62b60025  Bi.`.*...a..b..%
+ 0060 83684577 98472570 dce7dff8 648098f8  .hEw.G%p....d...
+ 0070 0030002b d2d00025 dff85890 2b4659f8  .0.+...%..X.+FY.
+ 0080 23400135 23682046 1b699847 10b16369  #@.5#h F.i.G..ci
+ 0090 9b689847 98f80020 ebb29a42 efd8bde7  .h.G... ...B....
+ 00a0 fff7feff 0028b7d0 fff7feff b4e7002d  .....(.........-
+ 00b0 b8d162b6 b6e7054b 1a60cee7 00000000  ..b....K.`......
+ 00c0 00000000 00000000 00000000 00000000  ................
+ 00d0 00000000 00000000                    ........        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.yield:
+
+00000000 <yield>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4b2d      	ldr	r3, [pc, #180]	; (bc <yield+0xbc>)
+   6:	781e      	ldrb	r6, [r3, #0]
+   8:	b166      	cbz	r6, 24 <yield+0x24>
+   a:	4f2d      	ldr	r7, [pc, #180]	; (c0 <yield+0xc0>)
+   c:	783b      	ldrb	r3, [r7, #0]
+   e:	b94b      	cbnz	r3, 24 <yield+0x24>
+  10:	2301      	movs	r3, #1
+  12:	07f1      	lsls	r1, r6, #31
+  14:	703b      	strb	r3, [r7, #0]
+  16:	d443      	bmi.n	a0 <yield+0xa0>
+  18:	07b2      	lsls	r2, r6, #30
+  1a:	d426      	bmi.n	6a <yield+0x6a>
+  1c:	2300      	movs	r3, #0
+  1e:	703b      	strb	r3, [r7, #0]
+  20:	0773      	lsls	r3, r6, #29
+  22:	d401      	bmi.n	28 <yield+0x28>
+  24:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  28:	4b26      	ldr	r3, [pc, #152]	; (c4 <yield+0xc4>)
+  2a:	681a      	ldr	r2, [r3, #0]
+  2c:	2a00      	cmp	r2, #0
+  2e:	d0f9      	beq.n	24 <yield+0x24>
+  30:	f3ef 8205 	mrs	r2, IPSR
+  34:	2a00      	cmp	r2, #0
+  36:	d1f5      	bne.n	24 <yield+0x24>
+  38:	f3ef 8510 	mrs	r5, PRIMASK
+  3c:	b672      	cpsid	i
+  3e:	6818      	ldr	r0, [r3, #0]
+  40:	2800      	cmp	r0, #0
+  42:	d034      	beq.n	ae <yield+0xae>
+  44:	4c20      	ldr	r4, [pc, #128]	; (c8 <yield+0xc8>)
+  46:	7821      	ldrb	r1, [r4, #0]
+  48:	2900      	cmp	r1, #0
+  4a:	d130      	bne.n	ae <yield+0xae>
+  4c:	2201      	movs	r2, #1
+  4e:	7022      	strb	r2, [r4, #0]
+  50:	6942      	ldr	r2, [r0, #20]
+  52:	601a      	str	r2, [r3, #0]
+  54:	2a00      	cmp	r2, #0
+  56:	d02e      	beq.n	b6 <yield+0xb6>
+  58:	6191      	str	r1, [r2, #24]
+  5a:	b905      	cbnz	r5, 5e <yield+0x5e>
+  5c:	b662      	cpsie	i
+  5e:	2500      	movs	r5, #0
+  60:	6883      	ldr	r3, [r0, #8]
+  62:	7745      	strb	r5, [r0, #29]
+  64:	4798      	blx	r3
+  66:	7025      	strb	r5, [r4, #0]
+  68:	e7dc      	b.n	24 <yield+0x24>
+  6a:	f8df 8064 	ldr.w	r8, [pc, #100]	; d0 <yield+0xd0>
+  6e:	f898 3000 	ldrb.w	r3, [r8]
+  72:	2b00      	cmp	r3, #0
+  74:	d0d2      	beq.n	1c <yield+0x1c>
+  76:	2500      	movs	r5, #0
+  78:	f8df 9058 	ldr.w	r9, [pc, #88]	; d4 <yield+0xd4>
+  7c:	462b      	mov	r3, r5
+  7e:	f859 4023 	ldr.w	r4, [r9, r3, lsl #2]
+  82:	3501      	adds	r5, #1
+  84:	6823      	ldr	r3, [r4, #0]
+  86:	4620      	mov	r0, r4
+  88:	691b      	ldr	r3, [r3, #16]
+  8a:	4798      	blx	r3
+  8c:	b110      	cbz	r0, 94 <yield+0x94>
+  8e:	6963      	ldr	r3, [r4, #20]
+  90:	689b      	ldr	r3, [r3, #8]
+  92:	4798      	blx	r3
+  94:	f898 2000 	ldrb.w	r2, [r8]
+  98:	b2eb      	uxtb	r3, r5
+  9a:	429a      	cmp	r2, r3
+  9c:	d8ef      	bhi.n	7e <yield+0x7e>
+  9e:	e7bd      	b.n	1c <yield+0x1c>
+  a0:	f7ff fffe 	bl	0 <usb_serial_available>
+  a4:	2800      	cmp	r0, #0
+  a6:	d0b7      	beq.n	18 <yield+0x18>
+  a8:	f7ff fffe 	bl	0 <serialEvent>
+  ac:	e7b4      	b.n	18 <yield+0x18>
+  ae:	2d00      	cmp	r5, #0
+  b0:	d1b8      	bne.n	24 <yield+0x24>
+  b2:	b662      	cpsie	i
+  b4:	e7b6      	b.n	24 <yield+0x24>
+  b6:	4b05      	ldr	r3, [pc, #20]	; (cc <yield+0xcc>)
+  b8:	601a      	str	r2, [r3, #0]
+  ba:	e7ce      	b.n	5a <yield+0x5a>
+  bc:	00000000 	.word	0x00000000
+  c0:	00000000 	.word	0x00000000
+  c4:	00000000 	.word	0x00000000
+  c8:	00000000 	.word	0x00000000
+  cc:	00000000 	.word	0x00000000
+  d0:	00000000 	.word	0x00000000
+  d4:	00000000 	.word	0x00000000

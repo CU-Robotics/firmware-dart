@@ -1,0 +1,1078 @@
+
+build/./libraries/QNEthernet/src/lwip/udp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 udp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.udp_init	00000000 .text.udp_init
+00000000 l    d  .rodata.udp_input.str1.4	00000000 .rodata.udp_input.str1.4
+00000000 l    d  .text.udp_input	00000000 .text.udp_input
+00000000 l    d  .text.udp_bind	00000000 .text.udp_bind
+00000000 l    d  .rodata.udp_sendto_if_src.str1.4	00000000 .rodata.udp_sendto_if_src.str1.4
+00000000 l    d  .text.udp_sendto_if_src	00000000 .text.udp_sendto_if_src
+00000000 l    d  .text.udp_sendto_if	00000000 .text.udp_sendto_if
+00000000 l    d  .text.udp_sendto	00000000 .text.udp_sendto
+00000000 l    d  .text.udp_send	00000000 .text.udp_send
+00000000 l    d  .text.udp_bind_netif	00000000 .text.udp_bind_netif
+00000000 l    d  .text.udp_connect	00000000 .text.udp_connect
+00000000 l    d  .text.udp_disconnect	00000000 .text.udp_disconnect
+00000000 l    d  .text.udp_recv	00000000 .text.udp_recv
+00000000 l    d  .text.udp_remove	00000000 .text.udp_remove
+00000000 l    d  .text.udp_new	00000000 .text.udp_new
+00000000 l    d  .text.udp_new_ip_type	00000000 .text.udp_new_ip_type
+00000000 l    d  .text.udp_netif_ip_addr_changed	00000000 .text.udp_netif_ip_addr_changed
+00000000 l    d  .bss.udp_pcbs	00000000 .bss.udp_pcbs
+00000000 l    d  .data.udp_port	00000000 .data.udp_port
+00000000 l     O .data.udp_port	00000002 udp_port
+00000000 l    d  .rodata.__FUNCTION__.0	00000000 .rodata.__FUNCTION__.0
+00000000 l     O .rodata.__FUNCTION__.0	00000010 __FUNCTION__.0
+00000000 l    d  .rodata.__FUNCTION__.1	00000000 .rodata.__FUNCTION__.1
+00000000 l     O .rodata.__FUNCTION__.1	00000008 __FUNCTION__.1
+00000000 l    d  .rodata.__FUNCTION__.2	00000000 .rodata.__FUNCTION__.2
+00000000 l     O .rodata.__FUNCTION__.2	0000000b __FUNCTION__.2
+00000000 l    d  .rodata.__FUNCTION__.3	00000000 .rodata.__FUNCTION__.3
+00000000 l     O .rodata.__FUNCTION__.3	00000009 __FUNCTION__.3
+00000000 l    d  .rodata.__FUNCTION__.4	00000000 .rodata.__FUNCTION__.4
+00000000 l     O .rodata.__FUNCTION__.4	0000000f __FUNCTION__.4
+00000000 l    d  .rodata.__FUNCTION__.5	00000000 .rodata.__FUNCTION__.5
+00000000 l     O .rodata.__FUNCTION__.5	0000000c __FUNCTION__.5
+00000000 l    d  .rodata.__FUNCTION__.6	00000000 .rodata.__FUNCTION__.6
+00000000 l     O .rodata.__FUNCTION__.6	0000000f __FUNCTION__.6
+00000000 l    d  .rodata.__FUNCTION__.7	00000000 .rodata.__FUNCTION__.7
+00000000 l     O .rodata.__FUNCTION__.7	00000009 __FUNCTION__.7
+00000000 l    d  .rodata.__FUNCTION__.8	00000000 .rodata.__FUNCTION__.8
+00000000 l     O .rodata.__FUNCTION__.8	00000012 __FUNCTION__.8
+00000000 l    d  .rodata.__FUNCTION__.9	00000000 .rodata.__FUNCTION__.9
+00000000 l     O .rodata.__FUNCTION__.9	0000000a __FUNCTION__.9
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text.udp_init	00000018 udp_init
+00000000         *UND*	00000000 qnethernet_hal_rand
+00000000 g     F .text.udp_input	000001d8 udp_input
+00000000         *UND*	00000000 qnethernet_hal_check_core_locking
+00000000         *UND*	00000000 ip4_addr_isbroadcast_u32
+00000000         *UND*	00000000 pbuf_remove_header
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 pbuf_header_force
+00000000         *UND*	00000000 icmp_dest_unreach
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000         *UND*	00000000 ip_data
+00000000 g     F .text.udp_bind	0000010c udp_bind
+00000000         *UND*	00000000 ip_addr_any
+00000000 g     F .text.udp_sendto_if_src	00000158 udp_sendto_if_src
+00000000         *UND*	00000000 pbuf_add_header
+00000000         *UND*	00000000 ip4_output_if_src
+00000000         *UND*	00000000 pbuf_alloc
+00000000         *UND*	00000000 pbuf_chain
+00000000 g     F .text.udp_sendto_if	00000058 udp_sendto_if
+00000000 g     F .text.udp_sendto	0000008c udp_sendto
+00000000         *UND*	00000000 ip4_route
+00000000         *UND*	00000000 netif_get_by_index
+00000000         *UND*	00000000 ip_addr_broadcast
+00000000 g     F .text.udp_send	00000014 udp_send
+00000000 g     F .text.udp_bind_netif	00000028 udp_bind_netif
+00000000 g     F .text.udp_connect	00000070 udp_connect
+00000000 g     F .text.udp_disconnect	0000002c udp_disconnect
+00000000 g     F .text.udp_recv	00000028 udp_recv
+00000000 g     F .text.udp_remove	00000058 udp_remove
+00000000         *UND*	00000000 memp_free
+00000000 g     F .text.udp_new	00000034 udp_new
+00000000         *UND*	00000000 memp_malloc
+00000000         *UND*	00000000 memset
+00000000 g     F .text.udp_new_ip_type	00000044 udp_new_ip_type
+00000000 g     F .text.udp_netif_ip_addr_changed	00000038 udp_netif_ip_addr_changed
+00000000 g     O .bss.udp_pcbs	00000004 udp_pcbs
+
+
+Contents of section .text.udp_init:
+ 0000 08b5fff7 feff024b 024a0343 138008bd  .......K.J.C....
+ 0010 00c0ffff 00000000                    ........        
+Contents of section .rodata.udp_input.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f7564  rnet/src/lwip/ud
+ 0020 702e6300 7564705f 696e7075 743a2069  p.c.udp_input: i
+ 0030 6e76616c 69642070 62756600 41737365  nvalid pbuf.Asse
+ 0040 7274696f 6e202225 73222066 61696c65  rtion "%s" faile
+ 0050 64206174 206c696e 65202564 20696e20  d at line %d in 
+ 0060 25730a00 7564705f 696e7075 743a2069  %s..udp_input: i
+ 0070 6e76616c 6964206e 65746966 00000000  nvalid netif....
+ 0080 70627566 5f72656d 6f76655f 68656164  pbuf_remove_head
+ 0090 65722066 61696c65 6400               er failed.      
+Contents of section .text.udp_input:
+ 0000 2de9f04f 054687b0 88466a4a cd216a48  -..O.F...FjJ.!jH
+ 0010 fff7feff 002d00f0 c380b8f1 000f00f0  .....-..........
+ 0020 c3806b89 072b40f2 8880dff8 a8916c68  ..k..+@.......lh
+ 0030 d9f80010 d9f81400 fff7feff 63882688  ............c.&.
+ 0040 07465e4a 5bba76ba 14689bb2 b6b20594  .F^J[.v..h......
+ 0050 002c00f0 a2804ff0 000cd9f8 04a00395  .,....O.........
+ 0060 d9e9042e 04926246 04e0e168 22460029  ......bF...h"F.)
+ 0070 4fd00c46 618a9942 f7d1207a 28b19af8  O..Fa..B.. z(...
+ 0080 40100131 c9b28842 efd12068 002f38d0  @..1...B.. h./8.
+ 0090 48b1bef1 ff3f06d0 80ea0e0b d8f80410  H....?..........
+ 00a0 1bea010f e1d1217c 490709d4 bcf1000f  ......!|I.......
+ 00b0 49d017b1 bef1ff3f 4ad00028 18bfa446  I......?J..(...F
+ 00c0 a18ab142 d1d16168 11b10498 8142ccd1  ...B..ah.....B..
+ 00d0 039d2ab1 394b1c60 e368d360 059be360  ..*.9K.`.h.`...`
+ 00e0 08212846 fff7feff 002847d1 276a27b3  .!(F.....(G.'j'.
+ 00f0 606a2a46 2146324b 0096b847 07b0bde8  `j*F!F2K...G....
+ 0100 f08f0028 cfd07045 cdd0e168 22460029  ...(..pE...h"F.)
+ 0110 afd1039d bcf1000f 4ad1d8f8 00307345  ........J....0sE
+ 0120 0bd10821 2846fff7 feff38bb 2fb9d9f8  ...!(F....8./...
+ 0130 143003f0 f003e02b 14d12846 07b0bde8  .0.....+..(F....
+ 0140 f04ffff7 febfa18a a446b142 8dd1bae7  .O.......F.B....
+ 0150 d8f80010 dcf80050 8d42b1d0 814208bf  .......P.B...B..
+ 0160 a446ade7 b9f80c10 28460831 09b2fff7  .F......(F.1....
+ 0170 feff0321 2846fff7 feffdee7 0e4b4ff4  ...!(F.......KO.
+ 0180 b8721049 1048fff7 feff0020 fff7feff  .r.I.H..... ....
+ 0190 0120fff7 fefffff7 feffd9f8 14e0bce7  . ..............
+ 01a0 054bcf22 0949ede7 034bd022 0849e9e7  .K.".I...K.".I..
+ 01b0 644695e7 00000000 00000000 00000000  dF..............
+ 01c0 10000000 80000000 3c000000 24000000  ........<...$...
+ 01d0 64000000 00000000                    d.......        
+Contents of section .text.udp_bind:
+ 0000 2de9f041 0e461546 04464ff4 6b713a4a  -..A.F.F.FO.kq:J
+ 0010 3a48fff7 feff002e 41d0002c 68d0dff8  :H......A..,h...
+ 0020 e4c0dcf8 0070002f 2ed0bc42 39d03846  .....p./...B9.8F
+ 0030 01e08442 35d0c068 0028fad1 002d33d0  ...B5..h.(...-3.
+ 0040 36683b46 01e0db68 c3b19c42 fbd0617a  6h;F...h...B..az
+ 0050 490702d5 5a7a5207 f5d45a8a aa42f2d1  I...ZzR...Z..B..
+ 0060 1a68b242 18bf002a 01d0002e ebd16ff0  .h.B...*......o.
+ 0070 0700bde8 f0813668 aef80050 26606582  ......6h...P&`e.
+ 0080 38b10020 bde8f081 002d2fd0 33686582  8.. .....-/.3he.
+ 0090 23600020 e760ccf8 0040bde8 f081184e  #`. .`...@.....N
+ 00a0 bbe70120 002dcbd1 dff85ce0 4ff48041  ... .-....\.O..A
+ 00b0 4ff6ff78 bef80050 454514d0 0135adb2  O..x...PEE...5..
+ 00c0 002fd8d0 3b4602e0 db68002b d3d05a8a  ./..;F...h.+..Z.
+ 00d0 aa42f9d1 013989b2 0029edd1 6ff00700  .B...9...)..o...
+ 00e0 aef80050 cee74ff4 4045e9e7 3846dbe7  ...P..O.@E..8F..
+ 00f0 6ff00f00 c6e700bf 00000000 00000000  o...............
+ 0100 00000000 00000000 00000000           ............    
+Contents of section .rodata.udp_sendto_if_src.str1.4:
+ 0000 63686563 6b207468 61742066 69727374  check that first
+ 0010 20706275 66206361 6e20686f 6c642073   pbuf can hold s
+ 0020 74727563 74207564 705f6864 7200      truct udp_hdr.  
+Contents of section .text.udp_sendto_if_src:
+ 0000 2de9f04f 85b00d46 174640f2 cf21ddf8  -..O...F.F@..!..
+ 0010 38900446 ddf83ca0 98464b4a 4b48fff7  8..F..<..FKJKH..
+ 0020 feffb9f1 000f18bf baf1000f 0cbf0121  ...............!
+ 0030 0021002f 08bf41f0 0101002d 08bf41f0  .!./..A....-..A.
+ 0040 01010029 6bd1002c 69d0628a 002a43d0  ...)k..,i.b..*C.
+ 0050 2a894ff6 f7739a42 64d80821 2846fff7  *.O..s.Bd..!(F..
+ 0060 feff0028 4cd12e46 7389072b 5dd9628a  ...(L..Fs..+].b.
+ 0070 98fa98f8 736852ba a3f80280 1a800022  ....shR........"
+ 0080 9a71da71 227c1207 1dd43289 52ba9a80  .q.q"|....2.R...
+ 0090 3b6803f0 f003e02b 30d0e37a 1120cdf8  ;h.....+0..z. ..
+ 00a0 0890a27a 51460190 30460092 3a46fff7  ...zQF..0F..:F..
+ 00b0 feffae42 834602d0 3046fff7 feff5846  ...B.F..0F....XF
+ 00c0 05b0bde8 f08f3a68 02f0f002 e02a0ed0  ......:h.....*..
+ 00d0 328952ba 9a80e0e7 21462046 fff7feff  2.R.....!F F....
+ 00e0 83460028 b4d05846 05b0bde8 f08f727b  .F.(..XF......r{
+ 00f0 42f00402 72733289 52ba9a80 637fcde7  B...rs2.R...c...
+ 0100 4ff42072 08212420 fff7feff 064648b1  O. r.!$ .....FH.
+ 0110 2b89002b a8d02946 fff7feff a4e76ff0  +..+..)F......o.
+ 0120 0f0bcce7 4ff0ff3b c9e7084b 40f20d32  ....O..;...K@..2
+ 0130 07490848 fff7feff 0020fff7 feff0120  .I.H..... ..... 
+ 0140 fff7feff fff7feff 00000000 00000000  ................
+ 0150 00000000 3c000000                    ....<...        
+Contents of section .text.udp_sendto_if:
+ 0000 70b582b0 069c002c 18bf002a 0cbf4ff0  p......,...*..O.
+ 0010 010c4ff0 000c0029 08bf4cf0 010cbcf1  ..O....)..L.....
+ 0020 000f13d1 90b10568 35b92546 cde90045  .......h5.%F...E
+ 0030 fff7feff 02b070bd 05f0f00c bcf1e00f  ......p.........
+ 0040 f3d02668 b54204d1 0546efe7 6ff00f00  ..&h.B...F..o...
+ 0050 f0e76ff0 0300ede7                    ..o.....        
+Contents of section .text.udp_sendto:
+ 0000 002918bf 002a3bd0 2de9f041 044682b0  .)...*;.-..A.F..
+ 0010 80b3007a 98461546 0f4608bb 136803f0  ...z.F.F.F...h..
+ 0020 f003e02b 0dd1207f f0b9a369 4bb1164a  ...+.. ....iK..J
+ 0030 12689342 05d004f1 1800fff7 feff0646  .h.B...........F
+ 0040 26b92846 fff7feff 0646b6b1 43462a46  &.(F.....F..CF*F
+ 0050 39462046 0096fff7 feff02b0 bde8f081  9F F............
+ 0060 fff7feff 0646f0e7 fff7feff 0646002e  .....F.......F..
+ 0070 ecd1e6e7 6ff00f00 efe76ff0 0300ece7  ....o.....o.....
+ 0080 6ff00f00 704700bf 00000000           o...pG......    
+Contents of section .text.udp_send:
+ 0000 024620b1 19b1838a 0432fff7 febf6ff0  .F ......2....o.
+ 0010 0f007047                             ..pG            
+Contents of section .text.udp_bind_netif:
+ 0000 38b50c46 0546064a 4ff48361 0548fff7  8..F.F.JO..a.H..
+ 0010 feff1cb1 94f84040 0134e4b2 2c7238bd  ......@@.4..,r8.
+ 0020 00000000 00000000                    ........        
+Contents of section .text.udp_connect:
+ 0000 70b50446 0d461646 40f23741 154a1648  p..F.F.F@.7A.J.H
+ 0010 fff7feff 14b30db3 628ac2b1 2a68237c  ........b...*h#|
+ 0020 124943f0 04036260 0a68a682 237442b1  .IC...b`.h..#tB.
+ 0030 94420ad0 134601e0 9c4206d0 db68002b  .B...F...B...h.+
+ 0040 fad10020 e2600c60 70bd0020 70bd2146  ... .`.`p.. p.!F
+ 0050 2046fff7 feff0028 e0d070bd 6ff00f00   F.....(..p.o...
+ 0060 70bd00bf 00000000 00000000 00000000  p...............
+Contents of section .text.udp_disconnect:
+ 0000 10b50446 074a40f2 6c410748 fff7feff  ...F.J@.lA.H....
+ 0010 3cb1237c 002223f0 04036260 a2822272  <.#|."#...b`.."r
+ 0020 237410bd 00000000 00000000           #t..........    
+Contents of section .text.udp_recv:
+ 0000 70b51346 04460e46 054a40f2 8c410548  p..F.F.F.J@..A.H
+ 0010 1d46fff7 feff0cb1 c4e90865 70bd00bf  .F.........ep...
+ 0020 00000000 00000000                    ........        
+Contents of section .text.udp_remove:
+ 0000 10b50446 114a40f2 a3411148 fff7feff  ...F.J@..A.H....
+ 0010 d4b1104b 1a68a242 06d03ab1 d3682bb1  ...K.h.B..:..h+.
+ 0020 a34209d0 1a46f8e7 e2681a60 21460020  .B...F...h.`!F. 
+ 0030 bde81040 fff7febf e3682146 0020d360  ...@.....h!F. .`
+ 0040 bde81040 fff7febf 10bd00bf 00000000  ...@............
+ 0050 00000000 00000000                    ........        
+Contents of section .text.udp_new:
+ 0000 10b50a4a 40f2cb41 0948fff7 feff0020  ...J@..A.H..... 
+ 0010 fff7feff 044630b1 28220021 fff7feff  .....F0.(".!....
+ 0020 ff23e372 63772046 10bd00bf 00000000  .#.rcw F........
+ 0030 00000000                             ....            
+Contents of section .text.udp_new_ip_type:
+ 0000 10b50d4a 40f2f241 0c48fff7 feff0c4a  ...J@..A.H.....J
+ 0010 40f2cb41 0948fff7 feff0020 fff7feff  @..A.H..... ....
+ 0020 044630b1 28220021 fff7feff ff23e372  .F0.(".!.....#.r
+ 0030 63772046 10bd00bf 00000000 00000000  cw F............
+ 0040 00000000                             ....            
+Contents of section .text.udp_netif_ip_addr_changed:
+ 0000 10b10268 01b102b9 70470b68 002bfbd0  ...h....pG.h.+..
+ 0010 084b1b68 002bf7d0 10b400e0 02681c68  .K.h.+.......h.h
+ 0020 944201d1 0a681a60 db68002b f6d15df8  .B...h.`.h.+..].
+ 0030 044b7047 00000000                    .KpG....        
+Contents of section .data.udp_port:
+ 0000 00c0                                 ..              
+Contents of section .rodata.__FUNCTION__.0:
+ 0000 7564705f 6e65775f 69705f74 79706500  udp_new_ip_type.
+Contents of section .rodata.__FUNCTION__.1:
+ 0000 7564705f 6e657700                    udp_new.        
+Contents of section .rodata.__FUNCTION__.2:
+ 0000 7564705f 72656d6f 766500             udp_remove.     
+Contents of section .rodata.__FUNCTION__.3:
+ 0000 7564705f 72656376 00                 udp_recv.       
+Contents of section .rodata.__FUNCTION__.4:
+ 0000 7564705f 64697363 6f6e6e65 637400    udp_disconnect. 
+Contents of section .rodata.__FUNCTION__.5:
+ 0000 7564705f 636f6e6e 65637400           udp_connect.    
+Contents of section .rodata.__FUNCTION__.6:
+ 0000 7564705f 62696e64 5f6e6574 696600    udp_bind_netif. 
+Contents of section .rodata.__FUNCTION__.7:
+ 0000 7564705f 62696e64 00                 udp_bind.       
+Contents of section .rodata.__FUNCTION__.8:
+ 0000 7564705f 73656e64 746f5f69 665f7372  udp_sendto_if_sr
+ 0010 6300                                 c.              
+Contents of section .rodata.__FUNCTION__.9:
+ 0000 7564705f 696e7075 7400               udp_input.      
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.udp_init:
+
+00000000 <udp_init>:
+   0:	b508      	push	{r3, lr}
+   2:	f7ff fffe 	bl	0 <qnethernet_hal_rand>
+   6:	4b02      	ldr	r3, [pc, #8]	; (10 <udp_init+0x10>)
+   8:	4a02      	ldr	r2, [pc, #8]	; (14 <udp_init+0x14>)
+   a:	4303      	orrs	r3, r0
+   c:	8013      	strh	r3, [r2, #0]
+   e:	bd08      	pop	{r3, pc}
+  10:	ffffc000 	.word	0xffffc000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_input:
+
+00000000 <udp_input>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4605      	mov	r5, r0
+   6:	b087      	sub	sp, #28
+   8:	4688      	mov	r8, r1
+   a:	4a6a      	ldr	r2, [pc, #424]	; (1b4 <udp_input+0x1b4>)
+   c:	21cd      	movs	r1, #205	; 0xcd
+   e:	486a      	ldr	r0, [pc, #424]	; (1b8 <udp_input+0x1b8>)
+  10:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  14:	2d00      	cmp	r5, #0
+  16:	f000 80c3 	beq.w	1a0 <udp_input+0x1a0>
+  1a:	f1b8 0f00 	cmp.w	r8, #0
+  1e:	f000 80c3 	beq.w	1a8 <udp_input+0x1a8>
+  22:	896b      	ldrh	r3, [r5, #10]
+  24:	2b07      	cmp	r3, #7
+  26:	f240 8088 	bls.w	13a <udp_input+0x13a>
+  2a:	f8df 91a8 	ldr.w	r9, [pc, #424]	; 1d4 <udp_input+0x1d4>
+  2e:	686c      	ldr	r4, [r5, #4]
+  30:	f8d9 1000 	ldr.w	r1, [r9]
+  34:	f8d9 0014 	ldr.w	r0, [r9, #20]
+  38:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  3c:	8863      	ldrh	r3, [r4, #2]
+  3e:	8826      	ldrh	r6, [r4, #0]
+  40:	4607      	mov	r7, r0
+  42:	4a5e      	ldr	r2, [pc, #376]	; (1bc <udp_input+0x1bc>)
+  44:	ba5b      	rev16	r3, r3
+  46:	ba76      	rev16	r6, r6
+  48:	6814      	ldr	r4, [r2, #0]
+  4a:	b29b      	uxth	r3, r3
+  4c:	b2b6      	uxth	r6, r6
+  4e:	9405      	str	r4, [sp, #20]
+  50:	2c00      	cmp	r4, #0
+  52:	f000 80a2 	beq.w	19a <udp_input+0x19a>
+  56:	f04f 0c00 	mov.w	ip, #0
+  5a:	f8d9 a004 	ldr.w	sl, [r9, #4]
+  5e:	9503      	str	r5, [sp, #12]
+  60:	e9d9 2e04 	ldrd	r2, lr, [r9, #16]
+  64:	9204      	str	r2, [sp, #16]
+  66:	4662      	mov	r2, ip
+  68:	e004      	b.n	74 <udp_input+0x74>
+  6a:	68e1      	ldr	r1, [r4, #12]
+  6c:	4622      	mov	r2, r4
+  6e:	2900      	cmp	r1, #0
+  70:	d04f      	beq.n	112 <udp_input+0x112>
+  72:	460c      	mov	r4, r1
+  74:	8a61      	ldrh	r1, [r4, #18]
+  76:	4299      	cmp	r1, r3
+  78:	d1f7      	bne.n	6a <udp_input+0x6a>
+  7a:	7a20      	ldrb	r0, [r4, #8]
+  7c:	b128      	cbz	r0, 8a <udp_input+0x8a>
+  7e:	f89a 1040 	ldrb.w	r1, [sl, #64]	; 0x40
+  82:	3101      	adds	r1, #1
+  84:	b2c9      	uxtb	r1, r1
+  86:	4288      	cmp	r0, r1
+  88:	d1ef      	bne.n	6a <udp_input+0x6a>
+  8a:	6820      	ldr	r0, [r4, #0]
+  8c:	2f00      	cmp	r7, #0
+  8e:	d038      	beq.n	102 <udp_input+0x102>
+  90:	b148      	cbz	r0, a6 <udp_input+0xa6>
+  92:	f1be 3fff 	cmp.w	lr, #4294967295	; 0xffffffff
+  96:	d006      	beq.n	a6 <udp_input+0xa6>
+  98:	ea80 0b0e 	eor.w	fp, r0, lr
+  9c:	f8d8 1004 	ldr.w	r1, [r8, #4]
+  a0:	ea1b 0f01 	tst.w	fp, r1
+  a4:	d1e1      	bne.n	6a <udp_input+0x6a>
+  a6:	7c21      	ldrb	r1, [r4, #16]
+  a8:	0749      	lsls	r1, r1, #29
+  aa:	d409      	bmi.n	c0 <udp_input+0xc0>
+  ac:	f1bc 0f00 	cmp.w	ip, #0
+  b0:	d049      	beq.n	146 <udp_input+0x146>
+  b2:	b117      	cbz	r7, ba <udp_input+0xba>
+  b4:	f1be 3fff 	cmp.w	lr, #4294967295	; 0xffffffff
+  b8:	d04a      	beq.n	150 <udp_input+0x150>
+  ba:	2800      	cmp	r0, #0
+  bc:	bf18      	it	ne
+  be:	46a4      	movne	ip, r4
+  c0:	8aa1      	ldrh	r1, [r4, #20]
+  c2:	42b1      	cmp	r1, r6
+  c4:	d1d1      	bne.n	6a <udp_input+0x6a>
+  c6:	6861      	ldr	r1, [r4, #4]
+  c8:	b111      	cbz	r1, d0 <udp_input+0xd0>
+  ca:	9804      	ldr	r0, [sp, #16]
+  cc:	4281      	cmp	r1, r0
+  ce:	d1cc      	bne.n	6a <udp_input+0x6a>
+  d0:	9d03      	ldr	r5, [sp, #12]
+  d2:	b12a      	cbz	r2, e0 <udp_input+0xe0>
+  d4:	4b39      	ldr	r3, [pc, #228]	; (1bc <udp_input+0x1bc>)
+  d6:	601c      	str	r4, [r3, #0]
+  d8:	68e3      	ldr	r3, [r4, #12]
+  da:	60d3      	str	r3, [r2, #12]
+  dc:	9b05      	ldr	r3, [sp, #20]
+  de:	60e3      	str	r3, [r4, #12]
+  e0:	2108      	movs	r1, #8
+  e2:	4628      	mov	r0, r5
+  e4:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  e8:	2800      	cmp	r0, #0
+  ea:	d147      	bne.n	17c <udp_input+0x17c>
+  ec:	6a27      	ldr	r7, [r4, #32]
+  ee:	b327      	cbz	r7, 13a <udp_input+0x13a>
+  f0:	6a60      	ldr	r0, [r4, #36]	; 0x24
+  f2:	462a      	mov	r2, r5
+  f4:	4621      	mov	r1, r4
+  f6:	4b32      	ldr	r3, [pc, #200]	; (1c0 <udp_input+0x1c0>)
+  f8:	9600      	str	r6, [sp, #0]
+  fa:	47b8      	blx	r7
+  fc:	b007      	add	sp, #28
+  fe:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 102:	2800      	cmp	r0, #0
+ 104:	d0cf      	beq.n	a6 <udp_input+0xa6>
+ 106:	4570      	cmp	r0, lr
+ 108:	d0cd      	beq.n	a6 <udp_input+0xa6>
+ 10a:	68e1      	ldr	r1, [r4, #12]
+ 10c:	4622      	mov	r2, r4
+ 10e:	2900      	cmp	r1, #0
+ 110:	d1af      	bne.n	72 <udp_input+0x72>
+ 112:	9d03      	ldr	r5, [sp, #12]
+ 114:	f1bc 0f00 	cmp.w	ip, #0
+ 118:	d14a      	bne.n	1b0 <udp_input+0x1b0>
+ 11a:	f8d8 3000 	ldr.w	r3, [r8]
+ 11e:	4573      	cmp	r3, lr
+ 120:	d10b      	bne.n	13a <udp_input+0x13a>
+ 122:	2108      	movs	r1, #8
+ 124:	4628      	mov	r0, r5
+ 126:	f7ff fffe 	bl	0 <pbuf_remove_header>
+ 12a:	bb38      	cbnz	r0, 17c <udp_input+0x17c>
+ 12c:	b92f      	cbnz	r7, 13a <udp_input+0x13a>
+ 12e:	f8d9 3014 	ldr.w	r3, [r9, #20]
+ 132:	f003 03f0 	and.w	r3, r3, #240	; 0xf0
+ 136:	2be0      	cmp	r3, #224	; 0xe0
+ 138:	d114      	bne.n	164 <udp_input+0x164>
+ 13a:	4628      	mov	r0, r5
+ 13c:	b007      	add	sp, #28
+ 13e:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+ 142:	f7ff bffe 	b.w	0 <pbuf_free>
+ 146:	8aa1      	ldrh	r1, [r4, #20]
+ 148:	46a4      	mov	ip, r4
+ 14a:	42b1      	cmp	r1, r6
+ 14c:	d18d      	bne.n	6a <udp_input+0x6a>
+ 14e:	e7ba      	b.n	c6 <udp_input+0xc6>
+ 150:	f8d8 1000 	ldr.w	r1, [r8]
+ 154:	f8dc 5000 	ldr.w	r5, [ip]
+ 158:	428d      	cmp	r5, r1
+ 15a:	d0b1      	beq.n	c0 <udp_input+0xc0>
+ 15c:	4281      	cmp	r1, r0
+ 15e:	bf08      	it	eq
+ 160:	46a4      	moveq	ip, r4
+ 162:	e7ad      	b.n	c0 <udp_input+0xc0>
+ 164:	f8b9 100c 	ldrh.w	r1, [r9, #12]
+ 168:	4628      	mov	r0, r5
+ 16a:	3108      	adds	r1, #8
+ 16c:	b209      	sxth	r1, r1
+ 16e:	f7ff fffe 	bl	0 <pbuf_header_force>
+ 172:	2103      	movs	r1, #3
+ 174:	4628      	mov	r0, r5
+ 176:	f7ff fffe 	bl	0 <icmp_dest_unreach>
+ 17a:	e7de      	b.n	13a <udp_input+0x13a>
+ 17c:	4b0e      	ldr	r3, [pc, #56]	; (1b8 <udp_input+0x1b8>)
+ 17e:	f44f 72b8 	mov.w	r2, #368	; 0x170
+ 182:	4910      	ldr	r1, [pc, #64]	; (1c4 <udp_input+0x1c4>)
+ 184:	4810      	ldr	r0, [pc, #64]	; (1c8 <udp_input+0x1c8>)
+ 186:	f7ff fffe 	bl	0 <printf>
+ 18a:	2000      	movs	r0, #0
+ 18c:	f7ff fffe 	bl	0 <fflush>
+ 190:	2001      	movs	r0, #1
+ 192:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 196:	f7ff fffe 	bl	0 <abort>
+ 19a:	f8d9 e014 	ldr.w	lr, [r9, #20]
+ 19e:	e7bc      	b.n	11a <udp_input+0x11a>
+ 1a0:	4b05      	ldr	r3, [pc, #20]	; (1b8 <udp_input+0x1b8>)
+ 1a2:	22cf      	movs	r2, #207	; 0xcf
+ 1a4:	4909      	ldr	r1, [pc, #36]	; (1cc <udp_input+0x1cc>)
+ 1a6:	e7ed      	b.n	184 <udp_input+0x184>
+ 1a8:	4b03      	ldr	r3, [pc, #12]	; (1b8 <udp_input+0x1b8>)
+ 1aa:	22d0      	movs	r2, #208	; 0xd0
+ 1ac:	4908      	ldr	r1, [pc, #32]	; (1d0 <udp_input+0x1d0>)
+ 1ae:	e7e9      	b.n	184 <udp_input+0x184>
+ 1b0:	4664      	mov	r4, ip
+ 1b2:	e795      	b.n	e0 <udp_input+0xe0>
+ 1b4:	00000000 	.word	0x00000000
+ 1b8:	00000000 	.word	0x00000000
+ 1bc:	00000000 	.word	0x00000000
+ 1c0:	00000010 	.word	0x00000010
+ 1c4:	00000080 	.word	0x00000080
+ 1c8:	0000003c 	.word	0x0000003c
+ 1cc:	00000024 	.word	0x00000024
+ 1d0:	00000064 	.word	0x00000064
+ 1d4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_bind:
+
+00000000 <udp_bind>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	460e      	mov	r6, r1
+   6:	4615      	mov	r5, r2
+   8:	4604      	mov	r4, r0
+   a:	f44f 716b 	mov.w	r1, #940	; 0x3ac
+   e:	4a3a      	ldr	r2, [pc, #232]	; (f8 <udp_bind+0xf8>)
+  10:	483a      	ldr	r0, [pc, #232]	; (fc <udp_bind+0xfc>)
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	2e00      	cmp	r6, #0
+  18:	d041      	beq.n	9e <udp_bind+0x9e>
+  1a:	2c00      	cmp	r4, #0
+  1c:	d068      	beq.n	f0 <udp_bind+0xf0>
+  1e:	f8df c0e4 	ldr.w	ip, [pc, #228]	; 104 <udp_bind+0x104>
+  22:	f8dc 7000 	ldr.w	r7, [ip]
+  26:	2f00      	cmp	r7, #0
+  28:	d02e      	beq.n	88 <udp_bind+0x88>
+  2a:	42bc      	cmp	r4, r7
+  2c:	d039      	beq.n	a2 <udp_bind+0xa2>
+  2e:	4638      	mov	r0, r7
+  30:	e001      	b.n	36 <udp_bind+0x36>
+  32:	4284      	cmp	r4, r0
+  34:	d035      	beq.n	a2 <udp_bind+0xa2>
+  36:	68c0      	ldr	r0, [r0, #12]
+  38:	2800      	cmp	r0, #0
+  3a:	d1fa      	bne.n	32 <udp_bind+0x32>
+  3c:	2d00      	cmp	r5, #0
+  3e:	d033      	beq.n	a8 <udp_bind+0xa8>
+  40:	6836      	ldr	r6, [r6, #0]
+  42:	463b      	mov	r3, r7
+  44:	e001      	b.n	4a <udp_bind+0x4a>
+  46:	68db      	ldr	r3, [r3, #12]
+  48:	b1c3      	cbz	r3, 7c <udp_bind+0x7c>
+  4a:	429c      	cmp	r4, r3
+  4c:	d0fb      	beq.n	46 <udp_bind+0x46>
+  4e:	7a61      	ldrb	r1, [r4, #9]
+  50:	0749      	lsls	r1, r1, #29
+  52:	d502      	bpl.n	5a <udp_bind+0x5a>
+  54:	7a5a      	ldrb	r2, [r3, #9]
+  56:	0752      	lsls	r2, r2, #29
+  58:	d4f5      	bmi.n	46 <udp_bind+0x46>
+  5a:	8a5a      	ldrh	r2, [r3, #18]
+  5c:	42aa      	cmp	r2, r5
+  5e:	d1f2      	bne.n	46 <udp_bind+0x46>
+  60:	681a      	ldr	r2, [r3, #0]
+  62:	42b2      	cmp	r2, r6
+  64:	bf18      	it	ne
+  66:	2a00      	cmpne	r2, #0
+  68:	d001      	beq.n	6e <udp_bind+0x6e>
+  6a:	2e00      	cmp	r6, #0
+  6c:	d1eb      	bne.n	46 <udp_bind+0x46>
+  6e:	f06f 0007 	mvn.w	r0, #7
+  72:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  76:	6836      	ldr	r6, [r6, #0]
+  78:	f8ae 5000 	strh.w	r5, [lr]
+  7c:	6026      	str	r6, [r4, #0]
+  7e:	8265      	strh	r5, [r4, #18]
+  80:	b138      	cbz	r0, 92 <udp_bind+0x92>
+  82:	2000      	movs	r0, #0
+  84:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  88:	2d00      	cmp	r5, #0
+  8a:	d02f      	beq.n	ec <udp_bind+0xec>
+  8c:	6833      	ldr	r3, [r6, #0]
+  8e:	8265      	strh	r5, [r4, #18]
+  90:	6023      	str	r3, [r4, #0]
+  92:	2000      	movs	r0, #0
+  94:	60e7      	str	r7, [r4, #12]
+  96:	f8cc 4000 	str.w	r4, [ip]
+  9a:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  9e:	4e18      	ldr	r6, [pc, #96]	; (100 <udp_bind+0x100>)
+  a0:	e7bb      	b.n	1a <udp_bind+0x1a>
+  a2:	2001      	movs	r0, #1
+  a4:	2d00      	cmp	r5, #0
+  a6:	d1cb      	bne.n	40 <udp_bind+0x40>
+  a8:	f8df e05c 	ldr.w	lr, [pc, #92]	; 108 <udp_bind+0x108>
+  ac:	f44f 4180 	mov.w	r1, #16384	; 0x4000
+  b0:	f64f 78ff 	movw	r8, #65535	; 0xffff
+  b4:	f8be 5000 	ldrh.w	r5, [lr]
+  b8:	4545      	cmp	r5, r8
+  ba:	d014      	beq.n	e6 <udp_bind+0xe6>
+  bc:	3501      	adds	r5, #1
+  be:	b2ad      	uxth	r5, r5
+  c0:	2f00      	cmp	r7, #0
+  c2:	d0d8      	beq.n	76 <udp_bind+0x76>
+  c4:	463b      	mov	r3, r7
+  c6:	e002      	b.n	ce <udp_bind+0xce>
+  c8:	68db      	ldr	r3, [r3, #12]
+  ca:	2b00      	cmp	r3, #0
+  cc:	d0d3      	beq.n	76 <udp_bind+0x76>
+  ce:	8a5a      	ldrh	r2, [r3, #18]
+  d0:	42aa      	cmp	r2, r5
+  d2:	d1f9      	bne.n	c8 <udp_bind+0xc8>
+  d4:	3901      	subs	r1, #1
+  d6:	b289      	uxth	r1, r1
+  d8:	2900      	cmp	r1, #0
+  da:	d1ed      	bne.n	b8 <udp_bind+0xb8>
+  dc:	f06f 0007 	mvn.w	r0, #7
+  e0:	f8ae 5000 	strh.w	r5, [lr]
+  e4:	e7ce      	b.n	84 <udp_bind+0x84>
+  e6:	f44f 4540 	mov.w	r5, #49152	; 0xc000
+  ea:	e7e9      	b.n	c0 <udp_bind+0xc0>
+  ec:	4638      	mov	r0, r7
+  ee:	e7db      	b.n	a8 <udp_bind+0xa8>
+  f0:	f06f 000f 	mvn.w	r0, #15
+  f4:	e7c6      	b.n	84 <udp_bind+0x84>
+  f6:	bf00      	nop
+  f8:	00000000 	.word	0x00000000
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_sendto_if_src:
+
+00000000 <udp_sendto_if_src>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b085      	sub	sp, #20
+   6:	460d      	mov	r5, r1
+   8:	4617      	mov	r7, r2
+   a:	f240 21cf 	movw	r1, #719	; 0x2cf
+   e:	f8dd 9038 	ldr.w	r9, [sp, #56]	; 0x38
+  12:	4604      	mov	r4, r0
+  14:	f8dd a03c 	ldr.w	sl, [sp, #60]	; 0x3c
+  18:	4698      	mov	r8, r3
+  1a:	4a4b      	ldr	r2, [pc, #300]	; (148 <udp_sendto_if_src+0x148>)
+  1c:	484b      	ldr	r0, [pc, #300]	; (14c <udp_sendto_if_src+0x14c>)
+  1e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  22:	f1b9 0f00 	cmp.w	r9, #0
+  26:	bf18      	it	ne
+  28:	f1ba 0f00 	cmpne.w	sl, #0
+  2c:	bf0c      	ite	eq
+  2e:	2101      	moveq	r1, #1
+  30:	2100      	movne	r1, #0
+  32:	2f00      	cmp	r7, #0
+  34:	bf08      	it	eq
+  36:	f041 0101 	orreq.w	r1, r1, #1
+  3a:	2d00      	cmp	r5, #0
+  3c:	bf08      	it	eq
+  3e:	f041 0101 	orreq.w	r1, r1, #1
+  42:	2900      	cmp	r1, #0
+  44:	d16b      	bne.n	11e <udp_sendto_if_src+0x11e>
+  46:	2c00      	cmp	r4, #0
+  48:	d069      	beq.n	11e <udp_sendto_if_src+0x11e>
+  4a:	8a62      	ldrh	r2, [r4, #18]
+  4c:	2a00      	cmp	r2, #0
+  4e:	d043      	beq.n	d8 <udp_sendto_if_src+0xd8>
+  50:	892a      	ldrh	r2, [r5, #8]
+  52:	f64f 73f7 	movw	r3, #65527	; 0xfff7
+  56:	429a      	cmp	r2, r3
+  58:	d864      	bhi.n	124 <udp_sendto_if_src+0x124>
+  5a:	2108      	movs	r1, #8
+  5c:	4628      	mov	r0, r5
+  5e:	f7ff fffe 	bl	0 <pbuf_add_header>
+  62:	2800      	cmp	r0, #0
+  64:	d14c      	bne.n	100 <udp_sendto_if_src+0x100>
+  66:	462e      	mov	r6, r5
+  68:	8973      	ldrh	r3, [r6, #10]
+  6a:	2b07      	cmp	r3, #7
+  6c:	d95d      	bls.n	12a <udp_sendto_if_src+0x12a>
+  6e:	8a62      	ldrh	r2, [r4, #18]
+  70:	fa98 f898 	rev16.w	r8, r8
+  74:	6873      	ldr	r3, [r6, #4]
+  76:	ba52      	rev16	r2, r2
+  78:	f8a3 8002 	strh.w	r8, [r3, #2]
+  7c:	801a      	strh	r2, [r3, #0]
+  7e:	2200      	movs	r2, #0
+  80:	719a      	strb	r2, [r3, #6]
+  82:	71da      	strb	r2, [r3, #7]
+  84:	7c22      	ldrb	r2, [r4, #16]
+  86:	0712      	lsls	r2, r2, #28
+  88:	d41d      	bmi.n	c6 <udp_sendto_if_src+0xc6>
+  8a:	8932      	ldrh	r2, [r6, #8]
+  8c:	ba52      	rev16	r2, r2
+  8e:	809a      	strh	r2, [r3, #4]
+  90:	683b      	ldr	r3, [r7, #0]
+  92:	f003 03f0 	and.w	r3, r3, #240	; 0xf0
+  96:	2be0      	cmp	r3, #224	; 0xe0
+  98:	d030      	beq.n	fc <udp_sendto_if_src+0xfc>
+  9a:	7ae3      	ldrb	r3, [r4, #11]
+  9c:	2011      	movs	r0, #17
+  9e:	f8cd 9008 	str.w	r9, [sp, #8]
+  a2:	7aa2      	ldrb	r2, [r4, #10]
+  a4:	4651      	mov	r1, sl
+  a6:	9001      	str	r0, [sp, #4]
+  a8:	4630      	mov	r0, r6
+  aa:	9200      	str	r2, [sp, #0]
+  ac:	463a      	mov	r2, r7
+  ae:	f7ff fffe 	bl	0 <ip4_output_if_src>
+  b2:	42ae      	cmp	r6, r5
+  b4:	4683      	mov	fp, r0
+  b6:	d002      	beq.n	be <udp_sendto_if_src+0xbe>
+  b8:	4630      	mov	r0, r6
+  ba:	f7ff fffe 	bl	0 <pbuf_free>
+  be:	4658      	mov	r0, fp
+  c0:	b005      	add	sp, #20
+  c2:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  c6:	683a      	ldr	r2, [r7, #0]
+  c8:	f002 02f0 	and.w	r2, r2, #240	; 0xf0
+  cc:	2ae0      	cmp	r2, #224	; 0xe0
+  ce:	d00e      	beq.n	ee <udp_sendto_if_src+0xee>
+  d0:	8932      	ldrh	r2, [r6, #8]
+  d2:	ba52      	rev16	r2, r2
+  d4:	809a      	strh	r2, [r3, #4]
+  d6:	e7e0      	b.n	9a <udp_sendto_if_src+0x9a>
+  d8:	4621      	mov	r1, r4
+  da:	4620      	mov	r0, r4
+  dc:	f7ff fffe 	bl	0 <udp_sendto_if_src>
+  e0:	4683      	mov	fp, r0
+  e2:	2800      	cmp	r0, #0
+  e4:	d0b4      	beq.n	50 <udp_sendto_if_src+0x50>
+  e6:	4658      	mov	r0, fp
+  e8:	b005      	add	sp, #20
+  ea:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ee:	7b72      	ldrb	r2, [r6, #13]
+  f0:	f042 0204 	orr.w	r2, r2, #4
+  f4:	7372      	strb	r2, [r6, #13]
+  f6:	8932      	ldrh	r2, [r6, #8]
+  f8:	ba52      	rev16	r2, r2
+  fa:	809a      	strh	r2, [r3, #4]
+  fc:	7f63      	ldrb	r3, [r4, #29]
+  fe:	e7cd      	b.n	9c <udp_sendto_if_src+0x9c>
+ 100:	f44f 7220 	mov.w	r2, #640	; 0x280
+ 104:	2108      	movs	r1, #8
+ 106:	2024      	movs	r0, #36	; 0x24
+ 108:	f7ff fffe 	bl	0 <pbuf_alloc>
+ 10c:	4606      	mov	r6, r0
+ 10e:	b148      	cbz	r0, 124 <udp_sendto_if_src+0x124>
+ 110:	892b      	ldrh	r3, [r5, #8]
+ 112:	2b00      	cmp	r3, #0
+ 114:	d0a8      	beq.n	68 <udp_sendto_if_src+0x68>
+ 116:	4629      	mov	r1, r5
+ 118:	f7ff fffe 	bl	0 <pbuf_chain>
+ 11c:	e7a4      	b.n	68 <udp_sendto_if_src+0x68>
+ 11e:	f06f 0b0f 	mvn.w	fp, #15
+ 122:	e7cc      	b.n	be <udp_sendto_if_src+0xbe>
+ 124:	f04f 3bff 	mov.w	fp, #4294967295	; 0xffffffff
+ 128:	e7c9      	b.n	be <udp_sendto_if_src+0xbe>
+ 12a:	4b08      	ldr	r3, [pc, #32]	; (14c <udp_sendto_if_src+0x14c>)
+ 12c:	f240 320d 	movw	r2, #781	; 0x30d
+ 130:	4907      	ldr	r1, [pc, #28]	; (150 <udp_sendto_if_src+0x150>)
+ 132:	4808      	ldr	r0, [pc, #32]	; (154 <udp_sendto_if_src+0x154>)
+ 134:	f7ff fffe 	bl	0 <printf>
+ 138:	2000      	movs	r0, #0
+ 13a:	f7ff fffe 	bl	0 <fflush>
+ 13e:	2001      	movs	r0, #1
+ 140:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 144:	f7ff fffe 	bl	0 <abort>
+ 148:	00000000 	.word	0x00000000
+ 14c:	00000000 	.word	0x00000000
+ 150:	00000000 	.word	0x00000000
+ 154:	0000003c 	.word	0x0000003c
+
+Disassembly of section .text.udp_sendto_if:
+
+00000000 <udp_sendto_if>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	b082      	sub	sp, #8
+   4:	9c06      	ldr	r4, [sp, #24]
+   6:	2c00      	cmp	r4, #0
+   8:	bf18      	it	ne
+   a:	2a00      	cmpne	r2, #0
+   c:	bf0c      	ite	eq
+   e:	f04f 0c01 	moveq.w	ip, #1
+  12:	f04f 0c00 	movne.w	ip, #0
+  16:	2900      	cmp	r1, #0
+  18:	bf08      	it	eq
+  1a:	f04c 0c01 	orreq.w	ip, ip, #1
+  1e:	f1bc 0f00 	cmp.w	ip, #0
+  22:	d113      	bne.n	4c <udp_sendto_if+0x4c>
+  24:	b190      	cbz	r0, 4c <udp_sendto_if+0x4c>
+  26:	6805      	ldr	r5, [r0, #0]
+  28:	b935      	cbnz	r5, 38 <udp_sendto_if+0x38>
+  2a:	4625      	mov	r5, r4
+  2c:	e9cd 4500 	strd	r4, r5, [sp]
+  30:	f7ff fffe 	bl	0 <udp_sendto_if>
+  34:	b002      	add	sp, #8
+  36:	bd70      	pop	{r4, r5, r6, pc}
+  38:	f005 0cf0 	and.w	ip, r5, #240	; 0xf0
+  3c:	f1bc 0fe0 	cmp.w	ip, #224	; 0xe0
+  40:	d0f3      	beq.n	2a <udp_sendto_if+0x2a>
+  42:	6826      	ldr	r6, [r4, #0]
+  44:	42b5      	cmp	r5, r6
+  46:	d104      	bne.n	52 <udp_sendto_if+0x52>
+  48:	4605      	mov	r5, r0
+  4a:	e7ef      	b.n	2c <udp_sendto_if+0x2c>
+  4c:	f06f 000f 	mvn.w	r0, #15
+  50:	e7f0      	b.n	34 <udp_sendto_if+0x34>
+  52:	f06f 0003 	mvn.w	r0, #3
+  56:	e7ed      	b.n	34 <udp_sendto_if+0x34>
+
+Disassembly of section .text.udp_sendto:
+
+00000000 <udp_sendto>:
+   0:	2900      	cmp	r1, #0
+   2:	bf18      	it	ne
+   4:	2a00      	cmpne	r2, #0
+   6:	d03b      	beq.n	80 <udp_sendto+0x80>
+   8:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   c:	4604      	mov	r4, r0
+   e:	b082      	sub	sp, #8
+  10:	b380      	cbz	r0, 74 <udp_sendto+0x74>
+  12:	7a00      	ldrb	r0, [r0, #8]
+  14:	4698      	mov	r8, r3
+  16:	4615      	mov	r5, r2
+  18:	460f      	mov	r7, r1
+  1a:	bb08      	cbnz	r0, 60 <udp_sendto+0x60>
+  1c:	6813      	ldr	r3, [r2, #0]
+  1e:	f003 03f0 	and.w	r3, r3, #240	; 0xf0
+  22:	2be0      	cmp	r3, #224	; 0xe0
+  24:	d10d      	bne.n	42 <udp_sendto+0x42>
+  26:	7f20      	ldrb	r0, [r4, #28]
+  28:	b9f0      	cbnz	r0, 68 <udp_sendto+0x68>
+  2a:	69a3      	ldr	r3, [r4, #24]
+  2c:	b14b      	cbz	r3, 42 <udp_sendto+0x42>
+  2e:	4a16      	ldr	r2, [pc, #88]	; (88 <udp_sendto+0x88>)
+  30:	6812      	ldr	r2, [r2, #0]
+  32:	4293      	cmp	r3, r2
+  34:	d005      	beq.n	42 <udp_sendto+0x42>
+  36:	f104 0018 	add.w	r0, r4, #24
+  3a:	f7ff fffe 	bl	0 <ip4_route>
+  3e:	4606      	mov	r6, r0
+  40:	b926      	cbnz	r6, 4c <udp_sendto+0x4c>
+  42:	4628      	mov	r0, r5
+  44:	f7ff fffe 	bl	0 <ip4_route>
+  48:	4606      	mov	r6, r0
+  4a:	b1b6      	cbz	r6, 7a <udp_sendto+0x7a>
+  4c:	4643      	mov	r3, r8
+  4e:	462a      	mov	r2, r5
+  50:	4639      	mov	r1, r7
+  52:	4620      	mov	r0, r4
+  54:	9600      	str	r6, [sp, #0]
+  56:	f7ff fffe 	bl	0 <udp_sendto>
+  5a:	b002      	add	sp, #8
+  5c:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  60:	f7ff fffe 	bl	0 <netif_get_by_index>
+  64:	4606      	mov	r6, r0
+  66:	e7f0      	b.n	4a <udp_sendto+0x4a>
+  68:	f7ff fffe 	bl	0 <netif_get_by_index>
+  6c:	4606      	mov	r6, r0
+  6e:	2e00      	cmp	r6, #0
+  70:	d1ec      	bne.n	4c <udp_sendto+0x4c>
+  72:	e7e6      	b.n	42 <udp_sendto+0x42>
+  74:	f06f 000f 	mvn.w	r0, #15
+  78:	e7ef      	b.n	5a <udp_sendto+0x5a>
+  7a:	f06f 0003 	mvn.w	r0, #3
+  7e:	e7ec      	b.n	5a <udp_sendto+0x5a>
+  80:	f06f 000f 	mvn.w	r0, #15
+  84:	4770      	bx	lr
+  86:	bf00      	nop
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_send:
+
+00000000 <udp_send>:
+   0:	4602      	mov	r2, r0
+   2:	b120      	cbz	r0, e <udp_send+0xe>
+   4:	b119      	cbz	r1, e <udp_send+0xe>
+   6:	8a83      	ldrh	r3, [r0, #20]
+   8:	3204      	adds	r2, #4
+   a:	f7ff bffe 	b.w	0 <udp_send>
+   e:	f06f 000f 	mvn.w	r0, #15
+  12:	4770      	bx	lr
+
+Disassembly of section .text.udp_bind_netif:
+
+00000000 <udp_bind_netif>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	460c      	mov	r4, r1
+   4:	4605      	mov	r5, r0
+   6:	4a06      	ldr	r2, [pc, #24]	; (20 <udp_bind_netif+0x20>)
+   8:	f44f 6183 	mov.w	r1, #1048	; 0x418
+   c:	4805      	ldr	r0, [pc, #20]	; (24 <udp_bind_netif+0x24>)
+   e:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  12:	b11c      	cbz	r4, 1c <udp_bind_netif+0x1c>
+  14:	f894 4040 	ldrb.w	r4, [r4, #64]	; 0x40
+  18:	3401      	adds	r4, #1
+  1a:	b2e4      	uxtb	r4, r4
+  1c:	722c      	strb	r4, [r5, #8]
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_connect:
+
+00000000 <udp_connect>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4616      	mov	r6, r2
+   8:	f240 4137 	movw	r1, #1079	; 0x437
+   c:	4a15      	ldr	r2, [pc, #84]	; (64 <udp_connect+0x64>)
+   e:	4816      	ldr	r0, [pc, #88]	; (68 <udp_connect+0x68>)
+  10:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  14:	b314      	cbz	r4, 5c <udp_connect+0x5c>
+  16:	b30d      	cbz	r5, 5c <udp_connect+0x5c>
+  18:	8a62      	ldrh	r2, [r4, #18]
+  1a:	b1c2      	cbz	r2, 4e <udp_connect+0x4e>
+  1c:	682a      	ldr	r2, [r5, #0]
+  1e:	7c23      	ldrb	r3, [r4, #16]
+  20:	4912      	ldr	r1, [pc, #72]	; (6c <udp_connect+0x6c>)
+  22:	f043 0304 	orr.w	r3, r3, #4
+  26:	6062      	str	r2, [r4, #4]
+  28:	680a      	ldr	r2, [r1, #0]
+  2a:	82a6      	strh	r6, [r4, #20]
+  2c:	7423      	strb	r3, [r4, #16]
+  2e:	b142      	cbz	r2, 42 <udp_connect+0x42>
+  30:	4294      	cmp	r4, r2
+  32:	d00a      	beq.n	4a <udp_connect+0x4a>
+  34:	4613      	mov	r3, r2
+  36:	e001      	b.n	3c <udp_connect+0x3c>
+  38:	429c      	cmp	r4, r3
+  3a:	d006      	beq.n	4a <udp_connect+0x4a>
+  3c:	68db      	ldr	r3, [r3, #12]
+  3e:	2b00      	cmp	r3, #0
+  40:	d1fa      	bne.n	38 <udp_connect+0x38>
+  42:	2000      	movs	r0, #0
+  44:	60e2      	str	r2, [r4, #12]
+  46:	600c      	str	r4, [r1, #0]
+  48:	bd70      	pop	{r4, r5, r6, pc}
+  4a:	2000      	movs	r0, #0
+  4c:	bd70      	pop	{r4, r5, r6, pc}
+  4e:	4621      	mov	r1, r4
+  50:	4620      	mov	r0, r4
+  52:	f7ff fffe 	bl	0 <udp_connect>
+  56:	2800      	cmp	r0, #0
+  58:	d0e0      	beq.n	1c <udp_connect+0x1c>
+  5a:	bd70      	pop	{r4, r5, r6, pc}
+  5c:	f06f 000f 	mvn.w	r0, #15
+  60:	bd70      	pop	{r4, r5, r6, pc}
+  62:	bf00      	nop
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_disconnect:
+
+00000000 <udp_disconnect>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	4a07      	ldr	r2, [pc, #28]	; (24 <udp_disconnect+0x24>)
+   6:	f240 416c 	movw	r1, #1132	; 0x46c
+   a:	4807      	ldr	r0, [pc, #28]	; (28 <udp_disconnect+0x28>)
+   c:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  10:	b13c      	cbz	r4, 22 <udp_disconnect+0x22>
+  12:	7c23      	ldrb	r3, [r4, #16]
+  14:	2200      	movs	r2, #0
+  16:	f023 0304 	bic.w	r3, r3, #4
+  1a:	6062      	str	r2, [r4, #4]
+  1c:	82a2      	strh	r2, [r4, #20]
+  1e:	7222      	strb	r2, [r4, #8]
+  20:	7423      	strb	r3, [r4, #16]
+  22:	bd10      	pop	{r4, pc}
+  24:	00000000 	.word	0x00000000
+  28:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_recv:
+
+00000000 <udp_recv>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4613      	mov	r3, r2
+   4:	4604      	mov	r4, r0
+   6:	460e      	mov	r6, r1
+   8:	4a05      	ldr	r2, [pc, #20]	; (20 <udp_recv+0x20>)
+   a:	f240 418c 	movw	r1, #1164	; 0x48c
+   e:	4805      	ldr	r0, [pc, #20]	; (24 <udp_recv+0x24>)
+  10:	461d      	mov	r5, r3
+  12:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  16:	b10c      	cbz	r4, 1c <udp_recv+0x1c>
+  18:	e9c4 6508 	strd	r6, r5, [r4, #32]
+  1c:	bd70      	pop	{r4, r5, r6, pc}
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_remove:
+
+00000000 <udp_remove>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	4a11      	ldr	r2, [pc, #68]	; (4c <udp_remove+0x4c>)
+   6:	f240 41a3 	movw	r1, #1187	; 0x4a3
+   a:	4811      	ldr	r0, [pc, #68]	; (50 <udp_remove+0x50>)
+   c:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  10:	b1d4      	cbz	r4, 48 <udp_remove+0x48>
+  12:	4b10      	ldr	r3, [pc, #64]	; (54 <udp_remove+0x54>)
+  14:	681a      	ldr	r2, [r3, #0]
+  16:	42a2      	cmp	r2, r4
+  18:	d006      	beq.n	28 <udp_remove+0x28>
+  1a:	b13a      	cbz	r2, 2c <udp_remove+0x2c>
+  1c:	68d3      	ldr	r3, [r2, #12]
+  1e:	b12b      	cbz	r3, 2c <udp_remove+0x2c>
+  20:	42a3      	cmp	r3, r4
+  22:	d009      	beq.n	38 <udp_remove+0x38>
+  24:	461a      	mov	r2, r3
+  26:	e7f8      	b.n	1a <udp_remove+0x1a>
+  28:	68e2      	ldr	r2, [r4, #12]
+  2a:	601a      	str	r2, [r3, #0]
+  2c:	4621      	mov	r1, r4
+  2e:	2000      	movs	r0, #0
+  30:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  34:	f7ff bffe 	b.w	0 <memp_free>
+  38:	68e3      	ldr	r3, [r4, #12]
+  3a:	4621      	mov	r1, r4
+  3c:	2000      	movs	r0, #0
+  3e:	60d3      	str	r3, [r2, #12]
+  40:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  44:	f7ff bffe 	b.w	0 <memp_free>
+  48:	bd10      	pop	{r4, pc}
+  4a:	bf00      	nop
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_new:
+
+00000000 <udp_new>:
+   0:	b510      	push	{r4, lr}
+   2:	4a0a      	ldr	r2, [pc, #40]	; (2c <udp_new+0x2c>)
+   4:	f240 41cb 	movw	r1, #1227	; 0x4cb
+   8:	4809      	ldr	r0, [pc, #36]	; (30 <udp_new+0x30>)
+   a:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+   e:	2000      	movs	r0, #0
+  10:	f7ff fffe 	bl	0 <memp_malloc>
+  14:	4604      	mov	r4, r0
+  16:	b130      	cbz	r0, 26 <udp_new+0x26>
+  18:	2228      	movs	r2, #40	; 0x28
+  1a:	2100      	movs	r1, #0
+  1c:	f7ff fffe 	bl	0 <memset>
+  20:	23ff      	movs	r3, #255	; 0xff
+  22:	72e3      	strb	r3, [r4, #11]
+  24:	7763      	strb	r3, [r4, #29]
+  26:	4620      	mov	r0, r4
+  28:	bd10      	pop	{r4, pc}
+  2a:	bf00      	nop
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_new_ip_type:
+
+00000000 <udp_new_ip_type>:
+   0:	b510      	push	{r4, lr}
+   2:	4a0d      	ldr	r2, [pc, #52]	; (38 <udp_new_ip_type+0x38>)
+   4:	f240 41f2 	movw	r1, #1266	; 0x4f2
+   8:	480c      	ldr	r0, [pc, #48]	; (3c <udp_new_ip_type+0x3c>)
+   a:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+   e:	4a0c      	ldr	r2, [pc, #48]	; (40 <udp_new_ip_type+0x40>)
+  10:	f240 41cb 	movw	r1, #1227	; 0x4cb
+  14:	4809      	ldr	r0, [pc, #36]	; (3c <udp_new_ip_type+0x3c>)
+  16:	f7ff fffe 	bl	0 <qnethernet_hal_check_core_locking>
+  1a:	2000      	movs	r0, #0
+  1c:	f7ff fffe 	bl	0 <memp_malloc>
+  20:	4604      	mov	r4, r0
+  22:	b130      	cbz	r0, 32 <udp_new_ip_type+0x32>
+  24:	2228      	movs	r2, #40	; 0x28
+  26:	2100      	movs	r1, #0
+  28:	f7ff fffe 	bl	0 <memset>
+  2c:	23ff      	movs	r3, #255	; 0xff
+  2e:	72e3      	strb	r3, [r4, #11]
+  30:	7763      	strb	r3, [r4, #29]
+  32:	4620      	mov	r0, r4
+  34:	bd10      	pop	{r4, pc}
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text.udp_netif_ip_addr_changed:
+
+00000000 <udp_netif_ip_addr_changed>:
+   0:	b110      	cbz	r0, 8 <udp_netif_ip_addr_changed+0x8>
+   2:	6802      	ldr	r2, [r0, #0]
+   4:	b101      	cbz	r1, 8 <udp_netif_ip_addr_changed+0x8>
+   6:	b902      	cbnz	r2, a <udp_netif_ip_addr_changed+0xa>
+   8:	4770      	bx	lr
+   a:	680b      	ldr	r3, [r1, #0]
+   c:	2b00      	cmp	r3, #0
+   e:	d0fb      	beq.n	8 <udp_netif_ip_addr_changed+0x8>
+  10:	4b08      	ldr	r3, [pc, #32]	; (34 <udp_netif_ip_addr_changed+0x34>)
+  12:	681b      	ldr	r3, [r3, #0]
+  14:	2b00      	cmp	r3, #0
+  16:	d0f7      	beq.n	8 <udp_netif_ip_addr_changed+0x8>
+  18:	b410      	push	{r4}
+  1a:	e000      	b.n	1e <udp_netif_ip_addr_changed+0x1e>
+  1c:	6802      	ldr	r2, [r0, #0]
+  1e:	681c      	ldr	r4, [r3, #0]
+  20:	4294      	cmp	r4, r2
+  22:	d101      	bne.n	28 <udp_netif_ip_addr_changed+0x28>
+  24:	680a      	ldr	r2, [r1, #0]
+  26:	601a      	str	r2, [r3, #0]
+  28:	68db      	ldr	r3, [r3, #12]
+  2a:	2b00      	cmp	r3, #0
+  2c:	d1f6      	bne.n	1c <udp_netif_ip_addr_changed+0x1c>
+  2e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  32:	4770      	bx	lr
+  34:	00000000 	.word	0x00000000

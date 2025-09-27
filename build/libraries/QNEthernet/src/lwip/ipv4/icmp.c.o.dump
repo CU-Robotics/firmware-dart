@@ -1,0 +1,319 @@
+
+build/./libraries/QNEthernet/src/lwip/ipv4/icmp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 icmp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata.icmp_send_response.str1.4	00000000 .rodata.icmp_send_response.str1.4
+00000000 l    d  .text.icmp_send_response	00000000 .text.icmp_send_response
+00000000 l     F .text.icmp_send_response	000000b4 icmp_send_response
+00000000 l    d  .rodata.icmp_input.str1.4	00000000 .rodata.icmp_input.str1.4
+00000000 l    d  .text.icmp_input	00000000 .text.icmp_input
+00000000 l    d  .text.icmp_dest_unreach	00000000 .text.icmp_dest_unreach
+00000000 l    d  .text.icmp_time_exceeded	00000000 .text.icmp_time_exceeded
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 pbuf_alloc
+00000000         *UND*	00000000 pbuf_copy_partial_pbuf
+00000000         *UND*	00000000 ip4_route
+00000000         *UND*	00000000 ip4_output_if
+00000000         *UND*	00000000 pbuf_free
+00000000         *UND*	00000000 printf
+00000000         *UND*	00000000 fflush
+00000000         *UND*	00000000 qnethernet_hal_stdio_flush
+00000000         *UND*	00000000 abort
+00000000 g     F .text.icmp_input	0000013c icmp_input
+00000000         *UND*	00000000 ip4_addr_isbroadcast_u32
+00000000         *UND*	00000000 pbuf_add_header
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 pbuf_remove_header
+00000000         *UND*	00000000 pbuf_copy
+00000000         *UND*	00000000 ip_data
+00000000 g     F .text.icmp_dest_unreach	00000008 icmp_dest_unreach
+00000000 g     F .text.icmp_time_exceeded	00000008 icmp_time_exceeded
+
+
+Contents of section .rodata.icmp_send_response.str1.4:
+ 0000 6c696272 61726965 732f514e 45746865  libraries/QNEthe
+ 0010 726e6574 2f737263 2f6c7769 702f6970  rnet/src/lwip/ip
+ 0020 76342f69 636d702e 63000000 63686563  v4/icmp.c...chec
+ 0030 6b207468 61742066 69727374 20706275  k that first pbu
+ 0040 66206361 6e20686f 6c642069 636d7020  f can hold icmp 
+ 0050 6d657373 61676500 41737365 7274696f  message.Assertio
+ 0060 6e202225 73222066 61696c65 64206174  n "%s" failed at
+ 0070 206c696e 65202564 20696e20 25730a00   line %d in %s..
+Contents of section .text.icmp_send_response:
+ 0000 2de9f047 068986b0 07468946 1b2e9046  -..G.....F.F...F
+ 0010 37d806f1 0805adb2 4ff42072 29462420  7.......O. r)F$ 
+ 0020 fff7feff 044648b3 4389ab42 2cd34568  .....FH.C..B,.Eh
+ 0030 32460026 d7f804a0 08233946 85f80090  2F.&.....#9F....
+ 0040 85f80180 2e716e71 ae71ee71 fff7feff  .....qnq.q.q....
+ 0050 daf80c30 05a80593 fff7feff 58b10123  ...0........X..#
+ 0060 ae70ee70 05aa0290 31460193 2046ff23  .p.p....1F.. F.#
+ 0070 0096fff7 feff2046 fff7feff 06b0bde8  ...... F........
+ 0080 f0872425 1c26c7e7 074b4ff4 b7720749  ..$%.&...KO..r.I
+ 0090 0748fff7 feff0020 fff7feff 0120fff7  .H..... ..... ..
+ 00a0 fefffff7 feff00bf 00000000 2c000000  ............,...
+ 00b0 58000000                             X...            
+Contents of section .rodata.icmp_input.str1.4:
+ 0000 69636d70 5f696e70 75743a20 6d6f7669  icmp_input: movi
+ 0010 6e672072 2d3e7061 796c6f61 6420746f  ng r->payload to
+ 0020 2069636d 70206865 61646572 20666169   icmp header fai
+ 0030 6c656400 69636d70 5f696e70 75743a20  led.icmp_input: 
+ 0040 72657374 6f72696e 67206f72 6967696e  restoring origin
+ 0050 616c2070 2d3e7061 796c6f61 64206661  al p->payload fa
+ 0060 696c6564 00                          iled.           
+Contents of section .text.icmp_input:
+ 0000 2de9f043 474f87b0 0546d7f8 088098f8  -..CGO...F......
+ 0010 004004f0 0f04a400 132c13d9 4389032b  .@.......,..C..+
+ 0020 10d94368 1b78082b 0cd17869 00f0f003  ..Ch.x.+..xi....
+ 0030 e02b07d0 0e463968 fff7feff 10b92b89  .+...F9h......+.
+ 0040 072b05d8 284607b0 bde8f043 fff7febf  .+..(F.....C....
+ 0050 04f11001 28460591 fff7feff 05990028  ....(F.........(
+ 0060 44d02b89 191989b2 8b42ebd8 4ff42072  D.+......B..O. r
+ 0070 1020fff7 feff8146 0028e3d0 428904f1  . .....F.(..B...
+ 0080 08039a42 45d34146 22464068 fff7feff  ...BE.AF"F@h....
+ 0090 21464846 fff7feff 00283ed1 29464846  !FHF.....(>.)FHF
+ 00a0 fff7feff 002834d1 28464d46 fff7feff  .....(4.(FMF....
+ 00b0 21462846 6c68fff7 feff0028 c2d16a68  !F(Flh.....(..jh
+ 00c0 7b691949 d3603b69 1361ff23 2070e873  {i.I.`;i.a.# p.s
+ 00d0 a070e070 9072d072 13720122 0090cde9  .p.p.r.r.r."....
+ 00e0 01260246 2846fff7 feffabe7 2846fff7  .&.F(F......(F..
+ 00f0 feff0028 dcd00d4b c7220d49 0d48fff7  ...(...K.".I.H..
+ 0100 feff0020 fff7feff 0120fff7 fefffff7  ... ..... ......
+ 0110 feff4846 fff7feff 94e7044b b6220649  ..HF.......K.".I
+ 0120 ece700bf 00000000 14000000 00000000  ................
+ 0130 34000000 58000000 00000000           4...X.......    
+Contents of section .text.icmp_dest_unreach:
+ 0000 0a460321 fff7febf                    .F.!....        
+Contents of section .text.icmp_time_exceeded:
+ 0000 0a460b21 fff7febf                    .F.!....        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.icmp_send_response:
+
+00000000 <icmp_send_response>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	8906      	ldrh	r6, [r0, #8]
+   6:	b086      	sub	sp, #24
+   8:	4607      	mov	r7, r0
+   a:	4689      	mov	r9, r1
+   c:	2e1b      	cmp	r6, #27
+   e:	4690      	mov	r8, r2
+  10:	d837      	bhi.n	82 <icmp_send_response+0x82>
+  12:	f106 0508 	add.w	r5, r6, #8
+  16:	b2ad      	uxth	r5, r5
+  18:	f44f 7220 	mov.w	r2, #640	; 0x280
+  1c:	4629      	mov	r1, r5
+  1e:	2024      	movs	r0, #36	; 0x24
+  20:	f7ff fffe 	bl	0 <pbuf_alloc>
+  24:	4604      	mov	r4, r0
+  26:	b348      	cbz	r0, 7c <icmp_send_response+0x7c>
+  28:	8943      	ldrh	r3, [r0, #10]
+  2a:	42ab      	cmp	r3, r5
+  2c:	d32c      	bcc.n	88 <icmp_send_response+0x88>
+  2e:	6845      	ldr	r5, [r0, #4]
+  30:	4632      	mov	r2, r6
+  32:	2600      	movs	r6, #0
+  34:	f8d7 a004 	ldr.w	sl, [r7, #4]
+  38:	2308      	movs	r3, #8
+  3a:	4639      	mov	r1, r7
+  3c:	f885 9000 	strb.w	r9, [r5]
+  40:	f885 8001 	strb.w	r8, [r5, #1]
+  44:	712e      	strb	r6, [r5, #4]
+  46:	716e      	strb	r6, [r5, #5]
+  48:	71ae      	strb	r6, [r5, #6]
+  4a:	71ee      	strb	r6, [r5, #7]
+  4c:	f7ff fffe 	bl	0 <pbuf_copy_partial_pbuf>
+  50:	f8da 300c 	ldr.w	r3, [sl, #12]
+  54:	a805      	add	r0, sp, #20
+  56:	9305      	str	r3, [sp, #20]
+  58:	f7ff fffe 	bl	0 <ip4_route>
+  5c:	b158      	cbz	r0, 76 <icmp_send_response+0x76>
+  5e:	2301      	movs	r3, #1
+  60:	70ae      	strb	r6, [r5, #2]
+  62:	70ee      	strb	r6, [r5, #3]
+  64:	aa05      	add	r2, sp, #20
+  66:	9002      	str	r0, [sp, #8]
+  68:	4631      	mov	r1, r6
+  6a:	9301      	str	r3, [sp, #4]
+  6c:	4620      	mov	r0, r4
+  6e:	23ff      	movs	r3, #255	; 0xff
+  70:	9600      	str	r6, [sp, #0]
+  72:	f7ff fffe 	bl	0 <ip4_output_if>
+  76:	4620      	mov	r0, r4
+  78:	f7ff fffe 	bl	0 <pbuf_free>
+  7c:	b006      	add	sp, #24
+  7e:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  82:	2524      	movs	r5, #36	; 0x24
+  84:	261c      	movs	r6, #28
+  86:	e7c7      	b.n	18 <icmp_send_response+0x18>
+  88:	4b07      	ldr	r3, [pc, #28]	; (a8 <icmp_send_response+0xa8>)
+  8a:	f44f 72b7 	mov.w	r2, #366	; 0x16e
+  8e:	4907      	ldr	r1, [pc, #28]	; (ac <icmp_send_response+0xac>)
+  90:	4807      	ldr	r0, [pc, #28]	; (b0 <icmp_send_response+0xb0>)
+  92:	f7ff fffe 	bl	0 <printf>
+  96:	2000      	movs	r0, #0
+  98:	f7ff fffe 	bl	0 <fflush>
+  9c:	2001      	movs	r0, #1
+  9e:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+  a2:	f7ff fffe 	bl	0 <abort>
+  a6:	bf00      	nop
+  a8:	00000000 	.word	0x00000000
+  ac:	0000002c 	.word	0x0000002c
+  b0:	00000058 	.word	0x00000058
+
+Disassembly of section .text.icmp_input:
+
+00000000 <icmp_input>:
+   0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   4:	4f47      	ldr	r7, [pc, #284]	; (124 <icmp_input+0x124>)
+   6:	b087      	sub	sp, #28
+   8:	4605      	mov	r5, r0
+   a:	f8d7 8008 	ldr.w	r8, [r7, #8]
+   e:	f898 4000 	ldrb.w	r4, [r8]
+  12:	f004 040f 	and.w	r4, r4, #15
+  16:	00a4      	lsls	r4, r4, #2
+  18:	2c13      	cmp	r4, #19
+  1a:	d913      	bls.n	44 <icmp_input+0x44>
+  1c:	8943      	ldrh	r3, [r0, #10]
+  1e:	2b03      	cmp	r3, #3
+  20:	d910      	bls.n	44 <icmp_input+0x44>
+  22:	6843      	ldr	r3, [r0, #4]
+  24:	781b      	ldrb	r3, [r3, #0]
+  26:	2b08      	cmp	r3, #8
+  28:	d10c      	bne.n	44 <icmp_input+0x44>
+  2a:	6978      	ldr	r0, [r7, #20]
+  2c:	f000 03f0 	and.w	r3, r0, #240	; 0xf0
+  30:	2be0      	cmp	r3, #224	; 0xe0
+  32:	d007      	beq.n	44 <icmp_input+0x44>
+  34:	460e      	mov	r6, r1
+  36:	6839      	ldr	r1, [r7, #0]
+  38:	f7ff fffe 	bl	0 <ip4_addr_isbroadcast_u32>
+  3c:	b910      	cbnz	r0, 44 <icmp_input+0x44>
+  3e:	892b      	ldrh	r3, [r5, #8]
+  40:	2b07      	cmp	r3, #7
+  42:	d805      	bhi.n	50 <icmp_input+0x50>
+  44:	4628      	mov	r0, r5
+  46:	b007      	add	sp, #28
+  48:	e8bd 43f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, lr}
+  4c:	f7ff bffe 	b.w	0 <pbuf_free>
+  50:	f104 0110 	add.w	r1, r4, #16
+  54:	4628      	mov	r0, r5
+  56:	9105      	str	r1, [sp, #20]
+  58:	f7ff fffe 	bl	0 <pbuf_add_header>
+  5c:	9905      	ldr	r1, [sp, #20]
+  5e:	2800      	cmp	r0, #0
+  60:	d044      	beq.n	ec <icmp_input+0xec>
+  62:	892b      	ldrh	r3, [r5, #8]
+  64:	1919      	adds	r1, r3, r4
+  66:	b289      	uxth	r1, r1
+  68:	428b      	cmp	r3, r1
+  6a:	d8eb      	bhi.n	44 <icmp_input+0x44>
+  6c:	f44f 7220 	mov.w	r2, #640	; 0x280
+  70:	2010      	movs	r0, #16
+  72:	f7ff fffe 	bl	0 <pbuf_alloc>
+  76:	4681      	mov	r9, r0
+  78:	2800      	cmp	r0, #0
+  7a:	d0e3      	beq.n	44 <icmp_input+0x44>
+  7c:	8942      	ldrh	r2, [r0, #10]
+  7e:	f104 0308 	add.w	r3, r4, #8
+  82:	429a      	cmp	r2, r3
+  84:	d345      	bcc.n	112 <icmp_input+0x112>
+  86:	4641      	mov	r1, r8
+  88:	4622      	mov	r2, r4
+  8a:	6840      	ldr	r0, [r0, #4]
+  8c:	f7ff fffe 	bl	0 <memcpy>
+  90:	4621      	mov	r1, r4
+  92:	4648      	mov	r0, r9
+  94:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  98:	2800      	cmp	r0, #0
+  9a:	d13e      	bne.n	11a <icmp_input+0x11a>
+  9c:	4629      	mov	r1, r5
+  9e:	4648      	mov	r0, r9
+  a0:	f7ff fffe 	bl	0 <pbuf_copy>
+  a4:	2800      	cmp	r0, #0
+  a6:	d134      	bne.n	112 <icmp_input+0x112>
+  a8:	4628      	mov	r0, r5
+  aa:	464d      	mov	r5, r9
+  ac:	f7ff fffe 	bl	0 <pbuf_free>
+  b0:	4621      	mov	r1, r4
+  b2:	4628      	mov	r0, r5
+  b4:	686c      	ldr	r4, [r5, #4]
+  b6:	f7ff fffe 	bl	0 <pbuf_add_header>
+  ba:	2800      	cmp	r0, #0
+  bc:	d1c2      	bne.n	44 <icmp_input+0x44>
+  be:	686a      	ldr	r2, [r5, #4]
+  c0:	697b      	ldr	r3, [r7, #20]
+  c2:	4919      	ldr	r1, [pc, #100]	; (128 <icmp_input+0x128>)
+  c4:	60d3      	str	r3, [r2, #12]
+  c6:	693b      	ldr	r3, [r7, #16]
+  c8:	6113      	str	r3, [r2, #16]
+  ca:	23ff      	movs	r3, #255	; 0xff
+  cc:	7020      	strb	r0, [r4, #0]
+  ce:	73e8      	strb	r0, [r5, #15]
+  d0:	70a0      	strb	r0, [r4, #2]
+  d2:	70e0      	strb	r0, [r4, #3]
+  d4:	7290      	strb	r0, [r2, #10]
+  d6:	72d0      	strb	r0, [r2, #11]
+  d8:	7213      	strb	r3, [r2, #8]
+  da:	2201      	movs	r2, #1
+  dc:	9000      	str	r0, [sp, #0]
+  de:	e9cd 2601 	strd	r2, r6, [sp, #4]
+  e2:	4602      	mov	r2, r0
+  e4:	4628      	mov	r0, r5
+  e6:	f7ff fffe 	bl	0 <ip4_output_if>
+  ea:	e7ab      	b.n	44 <icmp_input+0x44>
+  ec:	4628      	mov	r0, r5
+  ee:	f7ff fffe 	bl	0 <pbuf_remove_header>
+  f2:	2800      	cmp	r0, #0
+  f4:	d0dc      	beq.n	b0 <icmp_input+0xb0>
+  f6:	4b0d      	ldr	r3, [pc, #52]	; (12c <icmp_input+0x12c>)
+  f8:	22c7      	movs	r2, #199	; 0xc7
+  fa:	490d      	ldr	r1, [pc, #52]	; (130 <icmp_input+0x130>)
+  fc:	480d      	ldr	r0, [pc, #52]	; (134 <icmp_input+0x134>)
+  fe:	f7ff fffe 	bl	0 <printf>
+ 102:	2000      	movs	r0, #0
+ 104:	f7ff fffe 	bl	0 <fflush>
+ 108:	2001      	movs	r0, #1
+ 10a:	f7ff fffe 	bl	0 <qnethernet_hal_stdio_flush>
+ 10e:	f7ff fffe 	bl	0 <abort>
+ 112:	4648      	mov	r0, r9
+ 114:	f7ff fffe 	bl	0 <pbuf_free>
+ 118:	e794      	b.n	44 <icmp_input+0x44>
+ 11a:	4b04      	ldr	r3, [pc, #16]	; (12c <icmp_input+0x12c>)
+ 11c:	22b6      	movs	r2, #182	; 0xb6
+ 11e:	4906      	ldr	r1, [pc, #24]	; (138 <icmp_input+0x138>)
+ 120:	e7ec      	b.n	fc <icmp_input+0xfc>
+ 122:	bf00      	nop
+ 124:	00000000 	.word	0x00000000
+ 128:	00000014 	.word	0x00000014
+ 12c:	00000000 	.word	0x00000000
+ 130:	00000034 	.word	0x00000034
+ 134:	00000058 	.word	0x00000058
+ 138:	00000000 	.word	0x00000000
+
+Disassembly of section .text.icmp_dest_unreach:
+
+00000000 <icmp_dest_unreach>:
+   0:	460a      	mov	r2, r1
+   2:	2103      	movs	r1, #3
+   4:	f7ff bffe 	b.w	0 <icmp_dest_unreach>
+
+Disassembly of section .text.icmp_time_exceeded:
+
+00000000 <icmp_time_exceeded>:
+   0:	460a      	mov	r2, r1
+   2:	210b      	movs	r1, #11
+   4:	f7ff bffe 	b.w	0 <icmp_time_exceeded>

@@ -87,10 +87,10 @@ void FlightController::align_to_velocity_vector() {
   float leftRudder = yawAdjustment + rollAdjustment;
   float rightRudder = yawAdjustment - rollAdjustment;
 
-  servoController.set_servo_angle(0, leftElevator);
-  servoController.set_servo_angle(1, rightElevator);
-  servoController.set_servo_angle(2, leftRudder);
-  servoController.set_servo_angle(3, rightRudder);
+  servoController.set_servo_angle(1, leftElevator);
+  servoController.set_servo_angle(2, rightElevator);
+  servoController.set_servo_angle(3, leftRudder);
+  servoController.set_servo_angle(4, rightRudder);
 }
 
 // Mode 3: Guided
@@ -119,17 +119,17 @@ void FlightController::fin_test_mode() {
   Serial.println("trying to spin servo");
   // servoController.set_servo_angle(3, 180);
 
-  static int testStep = 0;
+  static int testStep = 10;
   float testAngle = (testStep % 2 == 0) ? 30 : -30;
 
   if (testStep % 4 == 0) {
-    servoController.set_servo_angle(0, testAngle - SETPOINT);
-  } else if (testStep % 4 == 1) {
     servoController.set_servo_angle(1, testAngle - SETPOINT);
-  } else if (testStep % 4 == 2) {
+  } else if (testStep % 4 == 1) {
     servoController.set_servo_angle(2, testAngle - SETPOINT);
-  } else {
+  } else if (testStep % 4 == 2) {
     servoController.set_servo_angle(3, testAngle - SETPOINT);
+  } else {
+    servoController.set_servo_angle(4, testAngle - SETPOINT);
   }
 
   testStep++;

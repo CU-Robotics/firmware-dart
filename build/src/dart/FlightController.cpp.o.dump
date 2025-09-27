@@ -17,9 +17,9 @@ SYMBOL TABLE:
 00000000 l    d  .text._ZN16FlightController15test_gyro_levelEv	00000000 .text._ZN16FlightController15test_gyro_levelEv
 00000000 l    d  .text._ZN16FlightController6updateEv	00000000 .text._ZN16FlightController6updateEv
 00000000 l    d  .text._ZN16FlightController19maintain_level_rollEv	00000000 .text._ZN16FlightController19maintain_level_rollEv
-00000000 l    d  .bss._ZZN16FlightController13fin_test_modeEvE8testStep	00000000 .bss._ZZN16FlightController13fin_test_modeEvE8testStep
-00000000 l     O .bss._ZZN16FlightController13fin_test_modeEvE8testStep	00000004 _ZZN16FlightController13fin_test_modeEvE8testStep
 00000000 l    d  .bss.imu_data	00000000 .bss.imu_data
+00000000 l    d  .data._ZZN16FlightController13fin_test_modeEvE8testStep	00000000 .data._ZZN16FlightController13fin_test_modeEvE8testStep
+00000000 l     O .data._ZZN16FlightController13fin_test_modeEvE8testStep	00000004 _ZZN16FlightController13fin_test_modeEvE8testStep
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000 g     F .text._ZN16FlightControllerC2ER15ServoControllerR8ICM20649R10IMU_filterR7Dartcam	00000088 _ZN16FlightControllerC2ER15ServoControllerR8ICM20649R10IMU_filterR7Dartcam
@@ -39,7 +39,7 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 _ZN15ServoController15set_servo_angleEif
 00000000 g     F .text._ZN16FlightController6guidedEv	00000074 _ZN16FlightController6guidedEv
 00000000         *UND*	00000000 _ZN7Dartcam20get_average_positionEv
-00000000 g     F .text._ZN16FlightController13fin_test_modeEv	00000060 _ZN16FlightController13fin_test_modeEv
+00000000 g     F .text._ZN16FlightController13fin_test_modeEv	00000080 _ZN16FlightController13fin_test_modeEv
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print7printlnEv
 00000000         *UND*	00000000 Serial
@@ -81,10 +81,10 @@ Contents of section .text._ZN16FlightController24align_to_velocity_vectorEv:
  00a0 f0ee407a 04f14c00 f0ee680a b0ee490a  ..@z..L...h...I.
  00b0 f0ee678a fff7feff f0ee407a 04f13000  ..g.......@z..0.
  00c0 f0ee480a b0ee490a b0ee678a fff7feff  ..H...I...g.....
- 00d0 f0ee407a 206838ee c09a0021 38ee800a  ..@z h8....!8...
+ 00d0 f0ee407a 206838ee c09a0121 38ee800a  ..@z h8....!8...
  00e0 78ee278a 38ee678a fff7feff b0ee490a  x.'.8.g.......I.
- 00f0 20680121 fff7feff b0ee680a 20680221   h.!......h. h.!
- 0100 fff7feff b0ee480a 03212068 1eb0bdec  ......H..! h....
+ 00f0 20680221 fff7feff b0ee680a 20680321   h.!......h. h.!
+ 0100 fff7feff b0ee480a 04212068 1eb0bdec  ......H..! h....
  0110 048bbde8 7040fff7 febf00bf aff30080  ....p@..........
  0120 f8c1631a dca54c40 00000000           ..c...L@....    
 Contents of section .text._ZN16FlightController6guidedEv:
@@ -100,12 +100,14 @@ Contents of section .rodata._ZN16FlightController13fin_test_modeEv.str1.4:
  0000 74727969 6e672074 6f207370 696e2073  trying to spin s
  0010 6572766f 00                          ervo.           
 Contents of section .text._ZN16FlightController13fin_test_modeEv:
- 0000 38b51421 0546124c 1248fff7 feff1248  8..!.F.L.H.....H
- 0010 fff7feff 2368baee 0e0adfed 107a13f0  ....#h.......z..
- 0020 010f00fe 270a13f0 030109d0 5b4203f0  ....'.......[B..
- 0030 030358bf 59420129 02d00229 18bf0321  ..X.YB.)...)...!
- 0040 2868fff7 feff2368 01332360 38bd00bf  (h....#h.3#`8...
- 0050 00000000 00000000 00000000 000096c2  ................
+ 0000 38b51421 05461a4c 1a48fff7 feff1a48  8..!.F.L.H.....H
+ 0010 fff7feff 2368baee 0e0adfed 187a13f0  ....#h.......z..
+ 0020 010f00fe 270a13f0 030211d0 5b4203f0  ....'.......[B..
+ 0030 030358bf 5a42012a 12d0022a 28680cbf  ..X.ZB.*...*(h..
+ 0040 03210421 fff7feff 23680133 236038bd  .!.!....#h.3#`8.
+ 0050 01212868 fff7feff 23680133 236038bd  .!(h....#h.3#`8.
+ 0060 02212868 fff7feff 23680133 236038bd  .!(h....#h.3#`8.
+ 0070 00000000 00000000 00000000 000096c2  ................
 Contents of section .text._ZN16FlightController15test_gyro_levelEv:
  0000 70b50446 40689eb0 03680ead 1b689847  p..F@h...h...h.G
  0010 6068fff7 feff6168 2846a668 fff7feff  `h....ah(F.h....
@@ -123,6 +125,8 @@ Contents of section .text._ZN16FlightController6updateEv:
  0020 704700bf                             pG..            
 Contents of section .text._ZN16FlightController19maintain_level_rollEv:
  0000 704700bf                             pG..            
+Contents of section .data._ZZN16FlightController13fin_test_modeEvE8testStep:
+ 0000 0a000000                             ....            
 Contents of section .comment:
  0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
  0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
@@ -271,21 +275,21 @@ Disassembly of section .text._ZN16FlightController24align_to_velocity_vectorEv:
   d0:	eef0 7a40 	vmov.f32	s15, s0
   d4:	6820      	ldr	r0, [r4, #0]
   d6:	ee38 9ac0 	vsub.f32	s18, s17, s0
-  da:	2100      	movs	r1, #0
+  da:	2101      	movs	r1, #1
   dc:	ee38 0a80 	vadd.f32	s0, s17, s0
   e0:	ee78 8a27 	vadd.f32	s17, s16, s15
   e4:	ee38 8a67 	vsub.f32	s16, s16, s15
   e8:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
   ec:	eeb0 0a49 	vmov.f32	s0, s18
   f0:	6820      	ldr	r0, [r4, #0]
-  f2:	2101      	movs	r1, #1
+  f2:	2102      	movs	r1, #2
   f4:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
   f8:	eeb0 0a68 	vmov.f32	s0, s17
   fc:	6820      	ldr	r0, [r4, #0]
-  fe:	2102      	movs	r1, #2
+  fe:	2103      	movs	r1, #3
  100:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
  104:	eeb0 0a48 	vmov.f32	s0, s16
- 108:	2103      	movs	r1, #3
+ 108:	2104      	movs	r1, #4
  10a:	6820      	ldr	r0, [r4, #0]
  10c:	b01e      	add	sp, #120	; 0x78
  10e:	ecbd 8b04 	vpop	{d8-d9}
@@ -340,38 +344,52 @@ Disassembly of section .text._ZN16FlightController13fin_test_modeEv:
    0:	b538      	push	{r3, r4, r5, lr}
    2:	2114      	movs	r1, #20
    4:	4605      	mov	r5, r0
-   6:	4c12      	ldr	r4, [pc, #72]	; (50 <_ZN16FlightController13fin_test_modeEv+0x50>)
-   8:	4812      	ldr	r0, [pc, #72]	; (54 <_ZN16FlightController13fin_test_modeEv+0x54>)
+   6:	4c1a      	ldr	r4, [pc, #104]	; (70 <_ZN16FlightController13fin_test_modeEv+0x70>)
+   8:	481a      	ldr	r0, [pc, #104]	; (74 <_ZN16FlightController13fin_test_modeEv+0x74>)
    a:	f7ff fffe 	bl	0 <usb_serial_write>
-   e:	4812      	ldr	r0, [pc, #72]	; (58 <_ZN16FlightController13fin_test_modeEv+0x58>)
+   e:	481a      	ldr	r0, [pc, #104]	; (78 <_ZN16FlightController13fin_test_modeEv+0x78>)
   10:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
   14:	6823      	ldr	r3, [r4, #0]
   16:	eeba 0a0e 	vmov.f32	s0, #174	; 0xc1700000 -15.0
-  1a:	eddf 7a10 	vldr	s15, [pc, #64]	; 5c <_ZN16FlightController13fin_test_modeEv+0x5c>
+  1a:	eddf 7a18 	vldr	s15, [pc, #96]	; 7c <_ZN16FlightController13fin_test_modeEv+0x7c>
   1e:	f013 0f01 	tst.w	r3, #1
   22:	fe00 0a27 	vseleq.f32	s0, s0, s15
-  26:	f013 0103 	ands.w	r1, r3, #3
-  2a:	d009      	beq.n	40 <_ZN16FlightController13fin_test_modeEv+0x40>
+  26:	f013 0203 	ands.w	r2, r3, #3
+  2a:	d011      	beq.n	50 <_ZN16FlightController13fin_test_modeEv+0x50>
   2c:	425b      	negs	r3, r3
   2e:	f003 0303 	and.w	r3, r3, #3
   32:	bf58      	it	pl
-  34:	4259      	negpl	r1, r3
-  36:	2901      	cmp	r1, #1
-  38:	d002      	beq.n	40 <_ZN16FlightController13fin_test_modeEv+0x40>
-  3a:	2902      	cmp	r1, #2
-  3c:	bf18      	it	ne
-  3e:	2103      	movne	r1, #3
-  40:	6828      	ldr	r0, [r5, #0]
-  42:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
-  46:	6823      	ldr	r3, [r4, #0]
-  48:	3301      	adds	r3, #1
-  4a:	6023      	str	r3, [r4, #0]
-  4c:	bd38      	pop	{r3, r4, r5, pc}
-  4e:	bf00      	nop
-  50:	00000000 	.word	0x00000000
-  54:	00000000 	.word	0x00000000
-  58:	00000000 	.word	0x00000000
-  5c:	c2960000 	.word	0xc2960000
+  34:	425a      	negpl	r2, r3
+  36:	2a01      	cmp	r2, #1
+  38:	d012      	beq.n	60 <_ZN16FlightController13fin_test_modeEv+0x60>
+  3a:	2a02      	cmp	r2, #2
+  3c:	6828      	ldr	r0, [r5, #0]
+  3e:	bf0c      	ite	eq
+  40:	2103      	moveq	r1, #3
+  42:	2104      	movne	r1, #4
+  44:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
+  48:	6823      	ldr	r3, [r4, #0]
+  4a:	3301      	adds	r3, #1
+  4c:	6023      	str	r3, [r4, #0]
+  4e:	bd38      	pop	{r3, r4, r5, pc}
+  50:	2101      	movs	r1, #1
+  52:	6828      	ldr	r0, [r5, #0]
+  54:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
+  58:	6823      	ldr	r3, [r4, #0]
+  5a:	3301      	adds	r3, #1
+  5c:	6023      	str	r3, [r4, #0]
+  5e:	bd38      	pop	{r3, r4, r5, pc}
+  60:	2102      	movs	r1, #2
+  62:	6828      	ldr	r0, [r5, #0]
+  64:	f7ff fffe 	bl	0 <_ZN15ServoController15set_servo_angleEif>
+  68:	6823      	ldr	r3, [r4, #0]
+  6a:	3301      	adds	r3, #1
+  6c:	6023      	str	r3, [r4, #0]
+  6e:	bd38      	pop	{r3, r4, r5, pc}
+  70:	00000000 	.word	0x00000000
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	c2960000 	.word	0xc2960000
 
 Disassembly of section .text._ZN16FlightController15test_gyro_levelEv:
 

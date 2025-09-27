@@ -12710,7 +12710,7 @@ LOAD ./build/./src/main.cpp.o
                 0x0000000060003a00                . = ALIGN (0x4)
  *fill*         0x00000000600039fe        0x2 
 
-.text.itcm      0x0000000000000000    0x24e10 load address 0x0000000060003a00
+.text.itcm      0x0000000000000000    0x24e50 load address 0x0000000060003a00
                 0x0000000000000020                . = (. + 0x20)
  *fill*         0x0000000000000000       0x20 
  *(.fastrun)
@@ -15089,427 +15089,427 @@ LOAD ./build/./src/main.cpp.o
                 0x000000000001a9a4       0x74 ./build/./src/dart/FlightController.cpp.o
                 0x000000000001a9a4                FlightController::guided()
  .text._ZN16FlightController13fin_test_modeEv
-                0x000000000001aa18       0x60 ./build/./src/dart/FlightController.cpp.o
+                0x000000000001aa18       0x80 ./build/./src/dart/FlightController.cpp.o
                 0x000000000001aa18                FlightController::fin_test_mode()
  .text._ZN16FlightController15test_gyro_levelEv
-                0x000000000001aa78       0x9c ./build/./src/dart/FlightController.cpp.o
-                0x000000000001aa78                FlightController::test_gyro_level()
+                0x000000000001aa98       0x9c ./build/./src/dart/FlightController.cpp.o
+                0x000000000001aa98                FlightController::test_gyro_level()
  .text._ZN16FlightController6updateEv
-                0x000000000001ab14       0x24 ./build/./src/dart/FlightController.cpp.o
-                0x000000000001ab14                FlightController::update()
+                0x000000000001ab34       0x24 ./build/./src/dart/FlightController.cpp.o
+                0x000000000001ab34                FlightController::update()
  .text._ZN15ServoControllerC2Ev
-                0x000000000001ab38        0x4 ./build/./src/dart/ServoController.cpp.o
-                0x000000000001ab38                ServoController::ServoController()
-                0x000000000001ab38                ServoController::ServoController()
+                0x000000000001ab58        0x4 ./build/./src/dart/ServoController.cpp.o
+                0x000000000001ab58                ServoController::ServoController()
+                0x000000000001ab58                ServoController::ServoController()
  .text._ZN15ServoController4initEv
-                0x000000000001ab3c       0x58 ./build/./src/dart/ServoController.cpp.o
-                0x000000000001ab3c                ServoController::init()
+                0x000000000001ab5c       0x58 ./build/./src/dart/ServoController.cpp.o
+                0x000000000001ab5c                ServoController::init()
  .text._ZN15ServoController15set_servo_angleEif
-                0x000000000001ab94       0x84 ./build/./src/dart/ServoController.cpp.o
-                0x000000000001ab94                ServoController::set_servo_angle(int, float)
+                0x000000000001abb4       0x84 ./build/./src/dart/ServoController.cpp.o
+                0x000000000001abb4                ServoController::set_servo_angle(int, float)
  .text._ZN15ServoController14set_all_servosEffff
-                0x000000000001ac18       0x64 ./build/./src/dart/ServoController.cpp.o
-                0x000000000001ac18                ServoController::set_all_servos(float, float, float, float)
+                0x000000000001ac38       0x64 ./build/./src/dart/ServoController.cpp.o
+                0x000000000001ac38                ServoController::set_all_servos(float, float, float, float)
  .text.startup._GLOBAL__sub_I_fin1
-                0x000000000001ac7c       0x30 ./build/./src/dart/ServoController.cpp.o
+                0x000000000001ac9c       0x30 ./build/./src/dart/ServoController.cpp.o
  .text._ZN7DartcamD2Ev
-                0x000000000001acac        0x4 ./build/./src/main.cpp.o
-                0x000000000001acac                Dartcam::~Dartcam()
-                0x000000000001acac                Dartcam::~Dartcam()
+                0x000000000001accc        0x4 ./build/./src/main.cpp.o
+                0x000000000001accc                Dartcam::~Dartcam()
+                0x000000000001accc                Dartcam::~Dartcam()
  .text._ZN8ICM20649D2Ev
-                0x000000000001acb0       0x20 ./build/./src/main.cpp.o
-                0x000000000001acb0                ICM20649::~ICM20649()
-                0x000000000001acb0                ICM20649::~ICM20649()
+                0x000000000001acd0       0x20 ./build/./src/main.cpp.o
+                0x000000000001acd0                ICM20649::~ICM20649()
+                0x000000000001acd0                ICM20649::~ICM20649()
  .text._ZN5Print7printlnEPKc.isra.0
-                0x000000000001acd0       0x24 ./build/./src/main.cpp.o
+                0x000000000001acf0       0x24 ./build/./src/main.cpp.o
  .text.startup._GLOBAL__sub_I_servoCont
-                0x000000000001acf4       0xb0 ./build/./src/main.cpp.o
+                0x000000000001ad14       0xb0 ./build/./src/main.cpp.o
  .text.startup.main
-                0x000000000001ada4      0x15c ./build/./src/main.cpp.o
-                0x000000000001ada4                main
+                0x000000000001adc4      0x15c ./build/./src/main.cpp.o
+                0x000000000001adc4                main
  .text.__aeabi_atexit
-                0x000000000001af00        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(atexit_arm.o)
-                0x000000000001af00                __aeabi_atexit
+                0x000000000001af20        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(atexit_arm.o)
+                0x000000000001af20                __aeabi_atexit
  .text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x000000000001af0c       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(eh_alloc.o)
- .text.log10f   0x000000000001af34       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_log10.o)
-                0x000000000001af34                log10f
- .text.sqrtf    0x000000000001af94       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_sqrt.o)
-                0x000000000001af94                sqrtf
- .text.expf     0x000000000001afd8       0xe4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_exp.o)
-                0x000000000001afd8                expf
- .text.nanf     0x000000000001b0bc        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_nan.o)
-                0x000000000001b0bc                nanf
- .text.logf     0x000000000001b0c8       0xc8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_log.o)
-                0x000000000001b0c8                logf
- .text.acosf    0x000000000001b190       0x58 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_acos.o)
-                0x000000000001b190                acosf
- .text.asinf    0x000000000001b1e8       0x58 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_asin.o)
-                0x000000000001b1e8                asinf
- .text.atan2f   0x000000000001b240        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_atan2.o)
-                0x000000000001b240                atan2f
- .text.fabsf    0x000000000001b244       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_fabs.o)
-                0x000000000001b244                fabsf
+                0x000000000001af2c       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(eh_alloc.o)
+ .text.log10f   0x000000000001af54       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_log10.o)
+                0x000000000001af54                log10f
+ .text.sqrtf    0x000000000001afb4       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_sqrt.o)
+                0x000000000001afb4                sqrtf
+ .text.expf     0x000000000001aff8       0xe4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_exp.o)
+                0x000000000001aff8                expf
+ .text.nanf     0x000000000001b0dc        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_nan.o)
+                0x000000000001b0dc                nanf
+ .text.logf     0x000000000001b0e8       0xc8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_log.o)
+                0x000000000001b0e8                logf
+ .text.acosf    0x000000000001b1b0       0x58 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_acos.o)
+                0x000000000001b1b0                acosf
+ .text.asinf    0x000000000001b208       0x58 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_asin.o)
+                0x000000000001b208                asinf
+ .text.atan2f   0x000000000001b260        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-wf_atan2.o)
+                0x000000000001b260                atan2f
+ .text.fabsf    0x000000000001b264       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_fabs.o)
+                0x000000000001b264                fabsf
  .text.__ieee754_sqrtf
-                0x000000000001b254        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_sqrt.o)
-                0x000000000001b254                __ieee754_sqrtf
- .text.modff    0x000000000001b25c       0x6c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_modf.o)
-                0x000000000001b25c                modff
+                0x000000000001b274        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_sqrt.o)
+                0x000000000001b274                __ieee754_sqrtf
+ .text.modff    0x000000000001b27c       0x6c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_modf.o)
+                0x000000000001b27c                modff
  .text.__fpclassifyf
-                0x000000000001b2c8       0x38 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_fpclassify.o)
-                0x000000000001b2c8                __fpclassifyf
- .text.sinf     0x000000000001b300      0x204 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sinf.o)
-                0x000000000001b300                sinf
- *fill*         0x000000000001b504        0x4 
- .text.cosf     0x000000000001b508      0x1bc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-cosf.o)
-                0x000000000001b508                cosf
+                0x000000000001b2e8       0x38 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_fpclassify.o)
+                0x000000000001b2e8                __fpclassifyf
+ .text.sinf     0x000000000001b320      0x204 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sinf.o)
+                0x000000000001b320                sinf
+ *fill*         0x000000000001b524        0x4 
+ .text.cosf     0x000000000001b528      0x1bc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-cosf.o)
+                0x000000000001b528                cosf
  .text.with_errnof
-                0x000000000001b6c4       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
- .text.xflowf   0x000000000001b6dc       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b6e4       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x000000000001b6fc       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
  .text.__math_uflowf
-                0x000000000001b6fc        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
-                0x000000000001b6fc                __math_uflowf
+                0x000000000001b71c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b71c                __math_uflowf
  .text.__math_may_uflowf
-                0x000000000001b708        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
-                0x000000000001b708                __math_may_uflowf
+                0x000000000001b728        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b728                __math_may_uflowf
  .text.__math_oflowf
-                0x000000000001b714        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
-                0x000000000001b714                __math_oflowf
+                0x000000000001b734        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b734                __math_oflowf
  .text.__math_divzerof
-                0x000000000001b720       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
-                0x000000000001b720                __math_divzerof
+                0x000000000001b740       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b740                __math_divzerof
  .text.__math_invalidf
-                0x000000000001b744       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
-                0x000000000001b744                __math_invalidf
+                0x000000000001b764       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-math_errf.o)
+                0x000000000001b764                __math_invalidf
  .text.__ieee754_log10f
-                0x000000000001b764       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_log10.o)
-                0x000000000001b764                __ieee754_log10f
+                0x000000000001b784       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_log10.o)
+                0x000000000001b784                __ieee754_log10f
  .text.__ieee754_acosf
-                0x000000000001b824      0x24c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_acos.o)
-                0x000000000001b824                __ieee754_acosf
+                0x000000000001b844      0x24c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_acos.o)
+                0x000000000001b844                __ieee754_acosf
  .text.__ieee754_asinf
-                0x000000000001ba70      0x20c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_asin.o)
-                0x000000000001ba70                __ieee754_asinf
+                0x000000000001ba90      0x20c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_asin.o)
+                0x000000000001ba90                __ieee754_asinf
  .text.__ieee754_atan2f
-                0x000000000001bc7c      0x14c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_atan2.o)
-                0x000000000001bc7c                __ieee754_atan2f
- .text.atanf    0x000000000001bdc8      0x1ac /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_atan.o)
-                0x000000000001bdc8                atanf
- .text          0x000000000001bf74      0x378 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_arm_addsubdf3.o)
-                0x000000000001bf74                __aeabi_drsub
-                0x000000000001bf7c                __aeabi_dsub
-                0x000000000001bf7c                __subdf3
-                0x000000000001bf80                __adddf3
-                0x000000000001bf80                __aeabi_dadd
-                0x000000000001c1f8                __aeabi_ui2d
-                0x000000000001c1f8                __floatunsidf
-                0x000000000001c218                __aeabi_i2d
-                0x000000000001c218                __floatsidf
-                0x000000000001c23c                __extendsfdf2
-                0x000000000001c23c                __aeabi_f2d
-                0x000000000001c280                __aeabi_ul2d
-                0x000000000001c280                __floatundidf
-                0x000000000001c290                __floatdidf
-                0x000000000001c290                __aeabi_l2d
- .text          0x000000000001c2ec       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x000000000001c2ec                __aeabi_uldivmod
+                0x000000000001bc9c      0x14c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-ef_atan2.o)
+                0x000000000001bc9c                __ieee754_atan2f
+ .text.atanf    0x000000000001bde8      0x1ac /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-sf_atan.o)
+                0x000000000001bde8                atanf
+ .text          0x000000000001bf94      0x378 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x000000000001bf94                __aeabi_drsub
+                0x000000000001bf9c                __aeabi_dsub
+                0x000000000001bf9c                __subdf3
+                0x000000000001bfa0                __adddf3
+                0x000000000001bfa0                __aeabi_dadd
+                0x000000000001c218                __aeabi_ui2d
+                0x000000000001c218                __floatunsidf
+                0x000000000001c238                __aeabi_i2d
+                0x000000000001c238                __floatsidf
+                0x000000000001c25c                __extendsfdf2
+                0x000000000001c25c                __aeabi_f2d
+                0x000000000001c2a0                __aeabi_ul2d
+                0x000000000001c2a0                __floatundidf
+                0x000000000001c2b0                __floatdidf
+                0x000000000001c2b0                __aeabi_l2d
+ .text          0x000000000001c30c       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000001c30c                __aeabi_uldivmod
  .text.__udivmoddi4
-                0x000000000001c31c      0x2c8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000000001c31c                __udivmoddi4
- .text          0x000000000001c5e4        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
-                0x000000000001c5e4                __aeabi_ldiv0
-                0x000000000001c5e4                __aeabi_idiv0
- .text.strncmp  0x000000000001c5e8       0x8c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strncmp.o)
-                0x000000000001c5e8                strncmp
- .text.strncpy  0x000000000001c674       0x64 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strncpy.o)
-                0x000000000001c674                strncpy
- .text.sprintf  0x000000000001c6d8       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sprintf.o)
-                0x000000000001c6d8                sprintf
+                0x000000000001c33c      0x2c8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000001c33c                __udivmoddi4
+ .text          0x000000000001c604        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000001c604                __aeabi_ldiv0
+                0x000000000001c604                __aeabi_idiv0
+ .text.strncmp  0x000000000001c608       0x8c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strncmp.o)
+                0x000000000001c608                strncmp
+ .text.strncpy  0x000000000001c694       0x64 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strncpy.o)
+                0x000000000001c694                strncpy
+ .text.sprintf  0x000000000001c6f8       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sprintf.o)
+                0x000000000001c6f8                sprintf
  .text.__sfvwrite_r
-                0x000000000001c718      0x2f4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fvwrite.o)
-                0x000000000001c718                __sfvwrite_r
- .text.__errno  0x000000000001ca0c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-errno.o)
-                0x000000000001ca0c                __errno
+                0x000000000001c738      0x2f4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fvwrite.o)
+                0x000000000001c738                __sfvwrite_r
+ .text.__errno  0x000000000001ca2c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-errno.o)
+                0x000000000001ca2c                __errno
  .text._svfprintf_r
-                0x000000000001ca18     0x1b44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-svfprintf.o)
-                0x000000000001ca18                _svfprintf_r
- .text.malloc   0x000000000001e55c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-malloc.o)
-                0x000000000001e55c                malloc
- .text.free     0x000000000001e56c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-malloc.o)
-                0x000000000001e56c                free
+                0x000000000001ca38     0x1b44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-svfprintf.o)
+                0x000000000001ca38                _svfprintf_r
+ .text.malloc   0x000000000001e57c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-malloc.o)
+                0x000000000001e57c                malloc
+ .text.free     0x000000000001e58c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-malloc.o)
+                0x000000000001e58c                free
  .text._malloc_r
-                0x000000000001e57c      0x560 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x000000000001e57c                _malloc_r
- .text.memcmp   0x000000000001eadc       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memcmp.o)
-                0x000000000001eadc                memcmp
- .text.memmove  0x000000000001eb3c       0xf8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memmove.o)
-                0x000000000001eb3c                memmove
+                0x000000000001e59c      0x560 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x000000000001e59c                _malloc_r
+ .text.memcmp   0x000000000001eafc       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memcmp.o)
+                0x000000000001eafc                memcmp
+ .text.memmove  0x000000000001eb5c       0xf8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memmove.o)
+                0x000000000001eb5c                memmove
  .text.__assert_func
-                0x000000000001ec34       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-assert.o)
-                0x000000000001ec34                __assert_func
- .text.memset   0x000000000001ec74       0xa4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memset.o)
-                0x000000000001ec74                memset
+                0x000000000001ec54       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-assert.o)
+                0x000000000001ec54                __assert_func
+ .text.memset   0x000000000001ec94       0xa4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memset.o)
+                0x000000000001ec94                memset
  .text.strcasecmp
-                0x000000000001ed18       0x54 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcasecmp.o)
-                0x000000000001ed18                strcasecmp
+                0x000000000001ed38       0x54 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcasecmp.o)
+                0x000000000001ed38                strcasecmp
  .text.__cxa_atexit
-                0x000000000001ed6c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-cxa_atexit.o)
-                0x000000000001ed6c                __cxa_atexit
+                0x000000000001ed8c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-cxa_atexit.o)
+                0x000000000001ed8c                __cxa_atexit
  .text._wcrtomb_r
-                0x000000000001ed78       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcrtomb.o)
-                0x000000000001ed78                _wcrtomb_r
+                0x000000000001ed98       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcrtomb.o)
+                0x000000000001ed98                _wcrtomb_r
  .text.__libc_init_array
-                0x000000000001edc4       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-init.o)
-                0x000000000001edc4                __libc_init_array
+                0x000000000001ede4       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-init.o)
+                0x000000000001ede4                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x000000000001ee0c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000000001ee0c                __retarget_lock_init_recursive
+                0x000000000001ee2c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000000001ee2c                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x000000000001ee10        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000000001ee10                __retarget_lock_close_recursive
+                0x000000000001ee30        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000000001ee30                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x000000000001ee14        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000000001ee14                __retarget_lock_acquire_recursive
+                0x000000000001ee34        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000000001ee34                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000001ee18        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000000001ee18                __retarget_lock_release_recursive
+                0x000000000001ee38        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000000001ee38                __retarget_lock_release_recursive
  .text.__locale_mb_cur_max
-                0x000000000001ee1c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-locale.o)
-                0x000000000001ee1c                __locale_mb_cur_max
+                0x000000000001ee3c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-locale.o)
+                0x000000000001ee3c                __locale_mb_cur_max
  .text._localeconv_r
-                0x000000000001ee28        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-localeconv.o)
-                0x000000000001ee28                _localeconv_r
- *fill*         0x000000000001ee30       0x10 
- .text          0x000000000001ee40      0x2dc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcmp.o)
-                0x000000000001ee48                strcmp
+                0x000000000001ee48        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-localeconv.o)
+                0x000000000001ee48                _localeconv_r
+ *fill*         0x000000000001ee50       0x10 
+ .text          0x000000000001ee60      0x2dc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcmp.o)
+                0x000000000001ee68                strcmp
  .text.__swsetup_r
-                0x000000000001f11c       0xcc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wsetup.o)
-                0x000000000001f11c                __swsetup_r
+                0x000000000001f13c       0xcc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wsetup.o)
+                0x000000000001f13c                __swsetup_r
  .text.__smakebuf_r
-                0x000000000001f1e8       0xd8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-makebuf.o)
-                0x000000000001f1e8                __smakebuf_r
- .text.strcpy   0x000000000001f2c0       0xbc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcpy.o)
-                0x000000000001f2c0                strcpy
- .text.printf   0x000000000001f37c       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-printf.o)
-                0x000000000001f37c                printf
+                0x000000000001f208       0xd8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-makebuf.o)
+                0x000000000001f208                __smakebuf_r
+ .text.strcpy   0x000000000001f2e0       0xbc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strcpy.o)
+                0x000000000001f2e0                strcpy
+ .text.printf   0x000000000001f39c       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-printf.o)
+                0x000000000001f39c                printf
  .text.__malloc_lock
-                0x000000000001f3a4        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mlock.o)
-                0x000000000001f3a4                __malloc_lock
+                0x000000000001f3c4        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mlock.o)
+                0x000000000001f3c4                __malloc_lock
  .text.__malloc_unlock
-                0x000000000001f3b0        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mlock.o)
-                0x000000000001f3b0                __malloc_unlock
- .text._Balloc  0x000000000001f3bc       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f3bc                _Balloc
- .text._Bfree   0x000000000001f408       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f408                _Bfree
+                0x000000000001f3d0        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mlock.o)
+                0x000000000001f3d0                __malloc_unlock
+ .text._Balloc  0x000000000001f3dc       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f3dc                _Balloc
+ .text._Bfree   0x000000000001f428       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f428                _Bfree
  .text.__multadd
-                0x000000000001f41c       0xa4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f41c                __multadd
+                0x000000000001f43c       0xa4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f43c                __multadd
  .text.__hi0bits
-                0x000000000001f4c0       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f4c0                __hi0bits
+                0x000000000001f4e0       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f4e0                __hi0bits
  .text.__lo0bits
-                0x000000000001f500       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f500                __lo0bits
- .text.__i2b    0x000000000001f560       0x5c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f560                __i2b
+                0x000000000001f520       0x60 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f520                __lo0bits
+ .text.__i2b    0x000000000001f580       0x5c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f580                __i2b
  .text.__multiply
-                0x000000000001f5bc      0x15c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f5bc                __multiply
+                0x000000000001f5dc      0x15c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f5dc                __multiply
  .text.__pow5mult
-                0x000000000001f718       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f718                __pow5mult
+                0x000000000001f738       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f738                __pow5mult
  .text.__lshift
-                0x000000000001f7d8       0xf0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f7d8                __lshift
- .text.__mcmp   0x000000000001f8c8       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f8c8                __mcmp
- .text.__mdiff  0x000000000001f90c      0x154 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001f90c                __mdiff
- .text.__d2b    0x000000000001fa60       0xd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
-                0x000000000001fa60                __d2b
- .text.atoi     0x000000000001fb34        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-atoi.o)
-                0x000000000001fb34                atoi
+                0x000000000001f7f8       0xf0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f7f8                __lshift
+ .text.__mcmp   0x000000000001f8e8       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f8e8                __mcmp
+ .text.__mdiff  0x000000000001f92c      0x154 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001f92c                __mdiff
+ .text.__d2b    0x000000000001fa80       0xd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mprec.o)
+                0x000000000001fa80                __d2b
+ .text.atoi     0x000000000001fb54        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-atoi.o)
+                0x000000000001fb54                atoi
  .text._calloc_r
-                0x000000000001fb3c       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-callocr.o)
-                0x000000000001fb3c                _calloc_r
- .text.realloc  0x000000000001fbb4       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-realloc.o)
-                0x000000000001fbb4                realloc
+                0x000000000001fb5c       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-callocr.o)
+                0x000000000001fb5c                _calloc_r
+ .text.realloc  0x000000000001fbd4       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-realloc.o)
+                0x000000000001fbd4                realloc
  .text._wcsrtombs_r
-                0x000000000001fbcc       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsrtombs.o)
-                0x000000000001fbcc                _wcsrtombs_r
- .text.quorem   0x000000000001fbe4      0x128 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-dtoa.o)
- *fill*         0x000000000001fd0c        0x4 
- .text._dtoa_r  0x000000000001fd10      0xcec /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-dtoa.o)
-                0x000000000001fd10                _dtoa_r
+                0x000000000001fbec       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsrtombs.o)
+                0x000000000001fbec                _wcsrtombs_r
+ .text.quorem   0x000000000001fc04      0x128 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-dtoa.o)
+ *fill*         0x000000000001fd2c        0x4 
+ .text._dtoa_r  0x000000000001fd30      0xcec /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-dtoa.o)
+                0x000000000001fd30                _dtoa_r
  .text._close_r
-                0x00000000000209fc       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o)
-                0x00000000000209fc                _close_r
+                0x0000000000020a1c       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o)
+                0x0000000000020a1c                _close_r
  .text.__sflush_r
-                0x0000000000020a20      0x130 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
-                0x0000000000020a20                __sflush_r
+                0x0000000000020a40      0x130 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
+                0x0000000000020a40                __sflush_r
  .text._fflush_r
-                0x0000000000020b50       0x54 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
-                0x0000000000020b50                _fflush_r
- .text.fflush   0x0000000000020ba4       0x74 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
-                0x0000000000020ba4                fflush
+                0x0000000000020b70       0x54 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
+                0x0000000000020b70                _fflush_r
+ .text.fflush   0x0000000000020bc4       0x74 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fflush.o)
+                0x0000000000020bc4                fflush
  .text.stdio_exit_handler
-                0x0000000000020c18       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x0000000000020c38       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x0000000000020c30       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x0000000000020c50       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x0000000000020c70       0xd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
- .text.__sinit  0x0000000000020d44       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x0000000000020d44                __sinit
+                0x0000000000020c90       0xd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+ .text.__sinit  0x0000000000020d64       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x0000000000020d64                __sinit
  .text.__sfp_lock_acquire
-                0x0000000000020d80        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x0000000000020d80                __sfp_lock_acquire
+                0x0000000000020da0        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x0000000000020da0                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000000020d8c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x0000000000020d8c                __sfp_lock_release
- *fill*         0x0000000000020d98        0x8 
- .text          0x0000000000020da0       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memchr.o)
-                0x0000000000020da0                memchr
- .text          0x0000000000020e40      0x134 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memcpy.o)
-                0x0000000000020e40                memcpy
- *fill*         0x0000000000020f74        0xc 
- .text          0x0000000000020f80       0xdc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strlen.o)
-                0x0000000000020f80                strlen
+                0x0000000000020dac        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x0000000000020dac                __sfp_lock_release
+ *fill*         0x0000000000020db8        0x8 
+ .text          0x0000000000020dc0       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memchr.o)
+                0x0000000000020dc0                memchr
+ .text          0x0000000000020e60      0x134 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-memcpy.o)
+                0x0000000000020e60                memcpy
+ *fill*         0x0000000000020f94       0x2c 
+ .text          0x0000000000020fc0       0xdc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strlen.o)
+                0x0000000000020fc0                strlen
  .text.snprintf
-                0x000000000002105c       0x88 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-snprintf.o)
-                0x000000000002105c                snprintf
- *fill*         0x00000000000210e4        0x4 
- .text.frexp    0x00000000000210e8       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libm_a-s_frexp.o)
-                0x00000000000210e8                frexp
+                0x000000000002109c       0x88 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-snprintf.o)
+                0x000000000002109c                snprintf
+ *fill*         0x0000000000021124        0x4 
+ .text.frexp    0x0000000000021128       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libm_a-s_frexp.o)
+                0x0000000000021128                frexp
  .text._realloc_r
-                0x0000000000021160      0x3d8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-reallocr.o)
-                0x0000000000021160                _realloc_r
+                0x00000000000211a0      0x3d8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-reallocr.o)
+                0x00000000000211a0                _realloc_r
  .text._malloc_trim_r
-                0x0000000000021538       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-freer.o)
-                0x0000000000021538                _malloc_trim_r
- .text._free_r  0x00000000000215d8      0x20c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-freer.o)
-                0x00000000000215d8                _free_r
+                0x0000000000021578       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-freer.o)
+                0x0000000000021578                _malloc_trim_r
+ .text._free_r  0x0000000000021618      0x20c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-freer.o)
+                0x0000000000021618                _free_r
  .text._strtol_l.constprop.0
-                0x00000000000217e4      0x144 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strtol.o)
- .text.strtol   0x0000000000021928       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strtol.o)
-                0x0000000000021928                strtol
+                0x0000000000021824      0x144 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strtol.o)
+ .text.strtol   0x0000000000021968       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-strtol.o)
+                0x0000000000021968                strtol
  .text._fstat_r
-                0x0000000000021944       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fstatr.o)
-                0x0000000000021944                _fstat_r
+                0x0000000000021984       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fstatr.o)
+                0x0000000000021984                _fstat_r
  .text._isatty_r
-                0x0000000000021970       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-isattyr.o)
-                0x0000000000021970                _isatty_r
+                0x00000000000219b0       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-isattyr.o)
+                0x00000000000219b0                _isatty_r
  .text.fiprintf
-                0x0000000000021994       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fiprintf.o)
-                0x0000000000021994                fiprintf
- .text.__sread  0x00000000000219bc       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
-                0x00000000000219bc                __sread
+                0x00000000000219d4       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fiprintf.o)
+                0x00000000000219d4                fiprintf
+ .text.__sread  0x00000000000219fc       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
+                0x00000000000219fc                __sread
  .text.__swrite
-                0x00000000000219e0       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
-                0x00000000000219e0                __swrite
- .text.__sseek  0x0000000000021a20       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
-                0x0000000000021a20                __sseek
+                0x0000000000021a20       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
+                0x0000000000021a20                __swrite
+ .text.__sseek  0x0000000000021a60       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
+                0x0000000000021a60                __sseek
  .text.__sclose
-                0x0000000000021a40        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
-                0x0000000000021a40                __sclose
+                0x0000000000021a80        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-stdio.o)
+                0x0000000000021a80                __sclose
  .text.__ascii_wctomb
-                0x0000000000021a48       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wctomb_r.o)
-                0x0000000000021a48                __ascii_wctomb
- .text._sbrk_r  0x0000000000021a64       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sbrkr.o)
-                0x0000000000021a64                _sbrk_r
+                0x0000000000021a88       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wctomb_r.o)
+                0x0000000000021a88                __ascii_wctomb
+ .text._sbrk_r  0x0000000000021aa4       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sbrkr.o)
+                0x0000000000021aa4                _sbrk_r
  .text._fwalk_sglue
-                0x0000000000021a88       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fwalk.o)
-                0x0000000000021a88                _fwalk_sglue
+                0x0000000000021ac8       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fwalk.o)
+                0x0000000000021ac8                _fwalk_sglue
  .text._write_r
-                0x0000000000021ad0       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o)
-                0x0000000000021ad0                _write_r
+                0x0000000000021b10       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o)
+                0x0000000000021b10                _write_r
  .text.__ssprint_r
-                0x0000000000021afc      0x100 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-svfiprintf.o)
-                0x0000000000021afc                __ssprint_r
- *fill*         0x0000000000021bfc        0x4 
+                0x0000000000021b3c      0x100 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-svfiprintf.o)
+                0x0000000000021b3c                __ssprint_r
+ *fill*         0x0000000000021c3c        0x4 
  .text._vfprintf_r
-                0x0000000000021c00     0x1bd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfprintf.o)
-                0x0000000000021c00                _vfprintf_r
+                0x0000000000021c40     0x1bd4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfprintf.o)
+                0x0000000000021c40                _vfprintf_r
  .text.__sbprintf
-                0x00000000000237d4       0x80 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfprintf.o)
+                0x0000000000023814       0x80 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfprintf.o)
  .text.__sprint_r.part.0
-                0x0000000000023854       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
+                0x0000000000023894       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
  .text.__sprint_r
-                0x00000000000238cc       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
-                0x00000000000238cc                __sprint_r
+                0x000000000002390c       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
+                0x000000000002390c                __sprint_r
  .text._vfiprintf_r
-                0x00000000000238e4      0xf8c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
-                0x00000000000238e4                _vfiprintf_r
+                0x0000000000023924      0xf8c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
+                0x0000000000023924                _vfiprintf_r
  .text.__sbprintf
-                0x0000000000024870       0x80 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
+                0x00000000000248b0       0x80 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-vfiprintf.o)
  .text.__swbuf_r
-                0x00000000000248f0       0xb0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wbuf.o)
-                0x00000000000248f0                __swbuf_r
+                0x0000000000024930       0xb0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wbuf.o)
+                0x0000000000024930                __swbuf_r
  .text.__register_exitproc
-                0x00000000000249a0       0x88 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__atexit.o)
-                0x00000000000249a0                __register_exitproc
+                0x00000000000249e0       0x88 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__atexit.o)
+                0x00000000000249e0                __register_exitproc
  .text.__ascii_mbtowc
-                0x0000000000024a28       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mbtowc_r.o)
-                0x0000000000024a28                __ascii_mbtowc
+                0x0000000000024a68       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mbtowc_r.o)
+                0x0000000000024a68                __ascii_mbtowc
  .text._fclose_r
-                0x0000000000024a54       0xc8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fclose.o)
-                0x0000000000024a54                _fclose_r
+                0x0000000000024a94       0xc8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fclose.o)
+                0x0000000000024a94                _fclose_r
  .text._wcsnrtombs_l
-                0x0000000000024b1c      0x108 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsnrtombs.o)
-                0x0000000000024b1c                _wcsnrtombs_l
+                0x0000000000024b5c      0x108 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsnrtombs.o)
+                0x0000000000024b5c                _wcsnrtombs_l
  .text._wcsnrtombs_r
-                0x0000000000024c24       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsnrtombs.o)
-                0x0000000000024c24                _wcsnrtombs_r
+                0x0000000000024c64       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-wcsnrtombs.o)
+                0x0000000000024c64                _wcsnrtombs_r
  .text._lseek_r
-                0x0000000000024c48       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o)
-                0x0000000000024c48                _lseek_r
- .text._read_r  0x0000000000024c74       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-readr.o)
-                0x0000000000024c74                _read_r
+                0x0000000000024c88       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o)
+                0x0000000000024c88                _lseek_r
+ .text._read_r  0x0000000000024cb4       0x2c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-readr.o)
+                0x0000000000024cb4                _read_r
  .text.__fputwc
-                0x0000000000024ca0       0xac /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fputwc.o)
-                0x0000000000024ca0                __fputwc
+                0x0000000000024ce0       0xac /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fputwc.o)
+                0x0000000000024ce0                __fputwc
  .text._fputwc_r
-                0x0000000000024d4c       0x68 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fputwc.o)
-                0x0000000000024d4c                _fputwc_r
- *fill*         0x0000000000024db4        0x4 
+                0x0000000000024d8c       0x68 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-fputwc.o)
+                0x0000000000024d8c                _fputwc_r
+ *fill*         0x0000000000024df4        0x4 
  .text._fputwc_r.__stub
-                0x0000000000024db8       0x58 linker stubs
-                0x0000000000024e10                . = ALIGN (0x10)
- *fill*         0x0000000000024e10        0x0 
+                0x0000000000024df8       0x58 linker stubs
+                0x0000000000024e50                . = ALIGN (0x10)
+ *fill*         0x0000000000024e50        0x0 
 
-.glue_7         0x0000000000024e10        0x0 load address 0x0000000060028810
- .glue_7        0x0000000000024e10        0x0 linker stubs
+.glue_7         0x0000000000024e50        0x0 load address 0x0000000060028850
+ .glue_7        0x0000000000024e50        0x0 linker stubs
 
-.glue_7t        0x0000000000024e10        0x0 load address 0x0000000060028810
- .glue_7t       0x0000000000024e10        0x0 linker stubs
+.glue_7t        0x0000000000024e50        0x0 load address 0x0000000060028850
+ .glue_7t       0x0000000000024e50        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000024e10        0x0 load address 0x0000000060028810
- .vfp11_veneer  0x0000000000024e10        0x0 linker stubs
+.vfp11_veneer   0x0000000000024e50        0x0 load address 0x0000000060028850
+ .vfp11_veneer  0x0000000000024e50        0x0 linker stubs
 
-.v4_bx          0x0000000000024e10        0x0 load address 0x0000000060028810
- .v4_bx         0x0000000000024e10        0x0 linker stubs
+.v4_bx          0x0000000000024e50        0x0 load address 0x0000000060028850
+ .v4_bx         0x0000000000024e50        0x0 linker stubs
 
-.fini           0x0000000000024e10        0x4 load address 0x0000000060028810
- .fini          0x0000000000024e10        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x0000000000024e10                _fini
+.fini           0x0000000000024e50        0x4 load address 0x0000000060028850
+ .fini          0x0000000000024e50        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x0000000000024e50                _fini
 
-.iplt           0x0000000000024e14        0x0 load address 0x0000000060028814
- .iplt          0x0000000000024e14        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x0000000000024e54        0x0 load address 0x0000000060028854
+ .iplt          0x0000000000024e54        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ARM.exidx      0x0000000000024e14        0x8 load address 0x0000000060028814
-                0x0000000000024e14                __exidx_start = .
+.ARM.exidx      0x0000000000024e54        0x8 load address 0x0000000060028854
+                0x0000000000024e54                __exidx_start = .
  *(.ARM.exidx* .ARM.extab.text* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.__aeabi_atexit
-                0x0000000000024e14        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(atexit_arm.o)
+                0x0000000000024e54        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(atexit_arm.o)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0000000000024e1c        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(eh_alloc.o)
+                0x0000000000024e5c        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++.a(eh_alloc.o)
                                           0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x0000000000024e1c        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000000024e5c        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x0000000000024e1c                __exidx_end = .
+                0x0000000000024e5c                __exidx_end = .
 
-.data           0x0000000020000000     0x6ec0 load address 0x000000006002881c
+.data           0x0000000020000000     0x6ec0 load address 0x000000006002885c
  *(.endpoint_queue)
  .endpoint_queue
                 0x0000000020000000      0x380 ./build/./teensy4/usb.c.o
@@ -16135,89 +16135,91 @@ LOAD ./build/./src/main.cpp.o
                 0x0000000020006008                IntervalTimer::nvic_priorites
  .data._ZN9qindesign7networkL7ethLoopE
                 0x000000002000600c       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+ .data._ZZN16FlightController13fin_test_modeEvE8testStep
+                0x000000002000602c        0x4 ./build/./src/dart/FlightController.cpp.o
  .data.__atexit_recursive_mutex
-                0x000000002000602c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__call_atexit.o)
-                0x000000002000602c                __atexit_recursive_mutex
+                0x0000000020006030        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__call_atexit.o)
+                0x0000000020006030                __atexit_recursive_mutex
  .data.__brkval
-                0x0000000020006030        0x4 ./build/./teensy4/startup.c.o
-                0x0000000020006030                __brkval
+                0x0000000020006034        0x4 ./build/./teensy4/startup.c.o
+                0x0000000020006034                __brkval
  .data.__dso_handle
-                0x0000000020006034        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x0000000020006034                __dso_handle
+                0x0000000020006038        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x0000000020006038                __dso_handle
  .data.__global_locale
-                0x0000000020006038      0x16c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-locale.o)
-                0x0000000020006038                __global_locale
+                0x000000002000603c      0x16c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-locale.o)
+                0x000000002000603c                __global_locale
  .data.__malloc_av_
-                0x00000000200061a4      0x408 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x00000000200061a4                __malloc_av_
+                0x00000000200061a8      0x408 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x00000000200061a8                __malloc_av_
  .data.__malloc_sbrk_base
-                0x00000000200065ac        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x00000000200065ac                __malloc_sbrk_base
- .data.__malloc_trim_threshold
                 0x00000000200065b0        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x00000000200065b0                __malloc_trim_threshold
- .data.__sglue  0x00000000200065b4        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x00000000200065b4                __sglue
+                0x00000000200065b0                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x00000000200065b4        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x00000000200065b4                __malloc_trim_threshold
+ .data.__sglue  0x00000000200065b8        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x00000000200065b8                __sglue
  .data._impure_ptr
-                0x00000000200065c0        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-impure.o)
-                0x00000000200065c0                _impure_ptr
+                0x00000000200065c4        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-impure.o)
+                0x00000000200065c4                _impure_ptr
  .data.debug_active
-                0x00000000200065c4        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200065c4                debug_active
+                0x00000000200065c8        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200065c8                debug_active
  .data.device_descriptor
-                0x00000000200065c8       0x12 ./build/./teensy4/usb_desc.c.o
- *fill*         0x00000000200065da        0x2 
+                0x00000000200065cc       0x12 ./build/./teensy4/usb_desc.c.o
+ *fill*         0x00000000200065de        0x2 
  .data.gdb_timer
-                0x00000000200065dc        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200065dc                gdb_timer
- .data.int2hex  0x00000000200065e4       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200065e4                int2hex
+                0x00000000200065e0        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200065e0                gdb_timer
+ .data.int2hex  0x00000000200065e8       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200065e8                int2hex
  .data.isr_table_gpio1
-                0x00000000200065f4       0x80 ./build/./teensy4/interrupt.c.o
-                0x00000000200065f4                isr_table_gpio1
+                0x00000000200065f8       0x80 ./build/./teensy4/interrupt.c.o
+                0x00000000200065f8                isr_table_gpio1
  .data.isr_table_gpio2
-                0x0000000020006674       0x80 ./build/./teensy4/interrupt.c.o
-                0x0000000020006674                isr_table_gpio2
+                0x0000000020006678       0x80 ./build/./teensy4/interrupt.c.o
+                0x0000000020006678                isr_table_gpio2
  .data.isr_table_gpio3
-                0x00000000200066f4       0x80 ./build/./teensy4/interrupt.c.o
-                0x00000000200066f4                isr_table_gpio3
+                0x00000000200066f8       0x80 ./build/./teensy4/interrupt.c.o
+                0x00000000200066f8                isr_table_gpio3
  .data.isr_table_gpio4
-                0x0000000020006774       0x80 ./build/./teensy4/interrupt.c.o
-                0x0000000020006774                isr_table_gpio4
+                0x0000000020006778       0x80 ./build/./teensy4/interrupt.c.o
+                0x0000000020006778                isr_table_gpio4
  .data.rawhid_report_desc
-                0x00000000200067f4       0x1e ./build/./teensy4/usb_desc.c.o
- *fill*         0x0000000020006812        0x2 
+                0x00000000200067f8       0x1e ./build/./teensy4/usb_desc.c.o
+ *fill*         0x0000000020006816        0x2 
  .data.signal_text
-                0x0000000020006814       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020006814                signal_text
+                0x0000000020006818       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020006818                signal_text
  .data.usb_string_serial_number_default
-                0x0000000020006830       0x16 ./build/./teensy4/usb_desc.c.o
-                0x0000000020006830                usb_string_serial_number
-                0x0000000020006830                usb_string_serial_number_default
+                0x0000000020006834       0x16 ./build/./teensy4/usb_desc.c.o
+                0x0000000020006834                usb_string_serial_number
+                0x0000000020006834                usb_string_serial_number_default
  .data._ZL9readout_h
-                0x0000000020006846        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000684a        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
  .data._ZL9readout_w
-                0x0000000020006848        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000684c        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
  .data.udp_port
-                0x000000002000684a        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x000000002000684e        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
  .data._ZL11m_errorCode
-                0x000000002000684c        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020006850        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .data.analog_write_res
-                0x000000002000684d        0x1 ./build/./teensy4/pwm.c.o
-                0x000000002000684d                analog_write_res
+                0x0000000020006851        0x1 ./build/./teensy4/pwm.c.o
+                0x0000000020006851                analog_write_res
  *(.vectorsram)
- *fill*         0x000000002000684e      0x3b2 
+ *fill*         0x0000000020006852      0x3ae 
  .vectorsram    0x0000000020006c00      0x2c0 ./build/./teensy4/startup.c.o
                 0x0000000020006c00                _VectorsRam
 
 .tm_clone_table
-                0x0000000020006ec0        0x0 load address 0x000000006002f6dc
+                0x0000000020006ec0        0x0 load address 0x000000006002f71c
  .tm_clone_table
                 0x0000000020006ec0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
                 0x0000000020006ec0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x0000000020006ec0        0x0 load address 0x000000006002f6dc
+.igot.plt       0x0000000020006ec0        0x0 load address 0x000000006002f71c
  .igot.plt      0x0000000020006ec0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .bss            0x0000000020006ec0     0x57c0
@@ -16443,400 +16445,398 @@ LOAD ./build/./src/main.cpp.o
  .bss._ZN9qindesign8securityL16randomDeviceInitE
                 0x000000002000af6c        0x1 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  *fill*         0x000000002000af6d        0x3 
- .bss._ZZN16FlightController13fin_test_modeEvE8testStep
-                0x000000002000af70        0x4 ./build/./src/dart/FlightController.cpp.o
- .bss.__atexit  0x000000002000af74        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__call_atexit.o)
-                0x000000002000af74                __atexit
+ .bss.__atexit  0x000000002000af70        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__call_atexit.o)
+                0x000000002000af70                __atexit
  .bss.__atexit0
-                0x000000002000af78      0x190 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__atexit.o)
-                0x000000002000af78                __atexit0
+                0x000000002000af74      0x190 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-__atexit.o)
+                0x000000002000af74                __atexit0
  .bss.__lock___atexit_recursive_mutex
-                0x000000002000b108        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000002000b108                __lock___atexit_recursive_mutex
- *fill*         0x000000002000b109        0x3 
+                0x000000002000b104        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000002000b104                __lock___atexit_recursive_mutex
+ *fill*         0x000000002000b105        0x3 
  .bss.__lock___malloc_recursive_mutex
-                0x000000002000b10c        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000002000b10c                __lock___malloc_recursive_mutex
- *fill*         0x000000002000b10d        0x3 
+                0x000000002000b108        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000002000b108                __lock___malloc_recursive_mutex
+ *fill*         0x000000002000b109        0x3 
  .bss.__lock___sfp_recursive_mutex
-                0x000000002000b110        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
-                0x000000002000b110                __lock___sfp_recursive_mutex
- *fill*         0x000000002000b111        0x3 
+                0x000000002000b10c        0x1 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lock.o)
+                0x000000002000b10c                __lock___sfp_recursive_mutex
+ *fill*         0x000000002000b10d        0x3 
  .bss.__malloc_current_mallinfo
-                0x000000002000b114       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x000000002000b114                __malloc_current_mallinfo
+                0x000000002000b110       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x000000002000b110                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x000000002000b13c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x000000002000b13c                __malloc_max_sbrked_mem
+                0x000000002000b138        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x000000002000b138                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x000000002000b140        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x000000002000b140                __malloc_max_total_mem
+                0x000000002000b13c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x000000002000b13c                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x000000002000b144        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
-                0x000000002000b144                __malloc_top_pad
- .bss.__sf      0x000000002000b148      0x138 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x000000002000b148                __sf
+                0x000000002000b140        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-mallocr.o)
+                0x000000002000b140                __malloc_top_pad
+ .bss.__sf      0x000000002000b144      0x138 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x000000002000b144                __sf
  .bss.__stdio_exit_handler
-                0x000000002000b280        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
-                0x000000002000b280                __stdio_exit_handler
+                0x000000002000b27c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-findfp.o)
+                0x000000002000b27c                __stdio_exit_handler
  .bss.allrouters
-                0x000000002000b284        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+                0x000000002000b280        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
  .bss.allsystems
-                0x000000002000b288        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+                0x000000002000b284        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
  .bss.arp_table
-                0x000000002000b28c       0xf0 ./build/./libraries/QNEthernet/src/lwip/ipv4/etharp.c.o
- .bss.call0     0x000000002000b37c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b37c                call0
- .bss.call1     0x000000002000b380        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b380                call1
- .bss.call2     0x000000002000b384        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b384                call2
- .bss.call3     0x000000002000b388        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b388                call3
- .bss.callback  0x000000002000b38c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b38c                callback
+                0x000000002000b288       0xf0 ./build/./libraries/QNEthernet/src/lwip/ipv4/etharp.c.o
+ .bss.call0     0x000000002000b378        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b378                call0
+ .bss.call1     0x000000002000b37c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b37c                call1
+ .bss.call2     0x000000002000b380        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b380                call2
+ .bss.call3     0x000000002000b384        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b384                call3
+ .bss.callback  0x000000002000b388        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b388                callback
  .bss.cause_break
-                0x000000002000b390        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b390                cause_break
- .bss.dartcam   0x000000002000b394      0x168 ./build/./src/main.cpp.o
-                0x000000002000b394                dartcam
- .bss.debug     0x000000002000b4fc      0x108 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b4fc                debug
+                0x000000002000b38c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b38c                cause_break
+ .bss.dartcam   0x000000002000b390      0x168 ./build/./src/main.cpp.o
+                0x000000002000b390                dartcam
+ .bss.debug     0x000000002000b4f8      0x108 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b4f8                debug
  .bss.debug_crash
-                0x000000002000b604        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b604                debug_crash
- .bss.debug_id  0x000000002000b608        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b608                debug_id
+                0x000000002000b600        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b600                debug_crash
+ .bss.debug_id  0x000000002000b604        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b604                debug_id
  .bss.debug_trace
-                0x000000002000b60c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b60c                debug_trace
+                0x000000002000b608        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b608                debug_trace
  .bss.debugcount
-                0x000000002000b610        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b610                debugcount
+                0x000000002000b60c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b60c                debugcount
  .bss.debugenabled
-                0x000000002000b614        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b614                debugenabled
+                0x000000002000b610        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b610                debugenabled
  .bss.debugreset
-                0x000000002000b618        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b618                debugreset
+                0x000000002000b614        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b614                debugreset
  .bss.debugrestore
-                0x000000002000b61c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b61c                debugrestore
+                0x000000002000b618        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b618                debugrestore
  .bss.debugstep
-                0x000000002000b620        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000b620                debugstep
- .bss.dev       0x000000002000b624        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b624                dev
- .bss.dhcp_pcb  0x000000002000b628        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x000000002000b61c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000b61c                debugstep
+ .bss.dev       0x000000002000b620        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b620                dev
+ .bss.dhcp_pcb  0x000000002000b624        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .bss.dns_servers
-                0x000000002000b62c        0x8 ./build/./libraries/QNEthernet/src/lwip/dns.c.o
+                0x000000002000b628        0x8 ./build/./libraries/QNEthernet/src/lwip/dns.c.o
  .bss.endpoint0_buffer
-                0x000000002000b634        0x8 ./build/./teensy4/usb.c.o
+                0x000000002000b630        0x8 ./build/./teensy4/usb.c.o
  .bss.endpoint0_notify_mask
-                0x000000002000b63c        0x4 ./build/./teensy4/usb.c.o
+                0x000000002000b638        0x4 ./build/./teensy4/usb.c.o
  .bss.endpointN_notify_mask
-                0x000000002000b640        0x4 ./build/./teensy4/usb.c.o
- .bss.errno     0x000000002000b644        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-reent.o)
-                0x000000002000b644                errno
+                0x000000002000b63c        0x4 ./build/./teensy4/usb.c.o
+ .bss.errno     0x000000002000b640        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-reent.o)
+                0x000000002000b640                errno
  .bss.ext_callback
-                0x000000002000b648        0x4 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x000000002000b644        0x4 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .bss.extmem_smalloc_pool
-                0x000000002000b64c       0x10 ./build/./teensy4/startup.c.o
-                0x000000002000b64c                extmem_smalloc_pool
- .bss.fakesp    0x000000002000b65c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b65c                fakesp
+                0x000000002000b648       0x10 ./build/./teensy4/startup.c.o
+                0x000000002000b648                extmem_smalloc_pool
+ .bss.fakesp    0x000000002000b658        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b658                fakesp
  .bss.file_io_errno
-                0x000000002000b660        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b660                file_io_errno
+                0x000000002000b65c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b65c                file_io_errno
  .bss.file_io_pending
-                0x000000002000b664        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b664                file_io_pending
+                0x000000002000b660        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b660                file_io_pending
  .bss.file_io_result
-                0x000000002000b668        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000b668                file_io_result
- .bss.fin1      0x000000002000b66c        0x4 ./build/./src/dart/ServoController.cpp.o
-                0x000000002000b66c                fin1
- .bss.fin2      0x000000002000b670        0x4 ./build/./src/dart/ServoController.cpp.o
-                0x000000002000b670                fin2
- .bss.fin3      0x000000002000b674        0x4 ./build/./src/dart/ServoController.cpp.o
-                0x000000002000b674                fin3
- .bss.fin4      0x000000002000b678        0x4 ./build/./src/dart/ServoController.cpp.o
-                0x000000002000b678                fin4
+                0x000000002000b664        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000b664                file_io_result
+ .bss.fin1      0x000000002000b668        0x4 ./build/./src/dart/ServoController.cpp.o
+                0x000000002000b668                fin1
+ .bss.fin2      0x000000002000b66c        0x4 ./build/./src/dart/ServoController.cpp.o
+                0x000000002000b66c                fin2
+ .bss.fin3      0x000000002000b670        0x4 ./build/./src/dart/ServoController.cpp.o
+                0x000000002000b670                fin3
+ .bss.fin4      0x000000002000b674        0x4 ./build/./src/dart/ServoController.cpp.o
+                0x000000002000b674                fin4
  .bss.flex1_Handler_callbacks
-                0x000000002000b67c       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
-                0x000000002000b67c                flex1_Handler_callbacks
+                0x000000002000b678       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
+                0x000000002000b678                flex1_Handler_callbacks
  .bss.flex2_Handler_callbacks
-                0x000000002000b69c       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
-                0x000000002000b69c                flex2_Handler_callbacks
+                0x000000002000b698       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
+                0x000000002000b698                flex2_Handler_callbacks
  .bss.flex3_Handler_callbacks
-                0x000000002000b6bc       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
-                0x000000002000b6bc                flex3_Handler_callbacks
+                0x000000002000b6b8       0x20 ./build/./libraries/FlexIO_t4/FlexIO_t4.cpp.o
+                0x000000002000b6b8                flex3_Handler_callbacks
  .bss.flightController
-                0x000000002000b6dc       0x68 ./build/./src/main.cpp.o
-                0x000000002000b6dc                flightController
+                0x000000002000b6d8       0x68 ./build/./src/main.cpp.o
+                0x000000002000b6d8                flightController
  .bss.fstatOmni40
-                0x000000002000b744      0x848 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
-                0x000000002000b744                fstatOmni40
+                0x000000002000b740      0x848 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000b740                fstatOmni40
  .bss.gdb_active_flag
-                0x000000002000bf8c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000bf8c                gdb_active_flag
+                0x000000002000bf88        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000bf88                gdb_active_flag
  .bss.halt_state
-                0x000000002000bf90        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000bf90                halt_state
+                0x000000002000bf8c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000bf8c                halt_state
  .bss.hc_breakpoint_enabled
-                0x000000002000bf94       0x80 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000bf94                hc_breakpoint_enabled
- .bss.icm       0x000000002000c014       0x64 ./build/./src/dart/IMU.cpp.o
-                0x000000002000c014                icm
- .bss.imu       0x000000002000c078      0x130 ./build/./src/main.cpp.o
-                0x000000002000c078                imu
- .bss.imuData   0x000000002000c1a8       0x40 ./build/./src/main.cpp.o
-                0x000000002000c1a8                imuData
- .bss.imuF      0x000000002000c1e8       0xe4 ./build/./src/main.cpp.o
-                0x000000002000c1e8                imuF
- .bss.lastpc    0x000000002000c2cc        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c2cc                lastpc
+                0x000000002000bf90       0x80 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000bf90                hc_breakpoint_enabled
+ .bss.icm       0x000000002000c010       0x64 ./build/./src/dart/IMU.cpp.o
+                0x000000002000c010                icm
+ .bss.imu       0x000000002000c074      0x130 ./build/./src/main.cpp.o
+                0x000000002000c074                imu
+ .bss.imuData   0x000000002000c1a4       0x40 ./build/./src/main.cpp.o
+                0x000000002000c1a4                imuData
+ .bss.imuF      0x000000002000c1e4       0xe4 ./build/./src/main.cpp.o
+                0x000000002000c1e4                imuF
+ .bss.lastpc    0x000000002000c2c8        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c2c8                lastpc
  .bss.mdns_name_result_cb
-                0x000000002000c2d0        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- .bss.mdns_pcb  0x000000002000c2d4        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x000000002000c2cc        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ .bss.mdns_pcb  0x000000002000c2d0        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
  .bss.memp_tab_FRAG_PBUF
-                0x000000002000c2d8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2d4        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_IGMP_GROUP
-                0x000000002000c2dc        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2d8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_PBUF
-                0x000000002000c2e0        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2dc        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_PBUF_POOL
-                0x000000002000c2e4        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2e0        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_REASSDATA
-                0x000000002000c2e8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2e4        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_SYS_TIMEOUT
-                0x000000002000c2ec        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2e8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_TCP_PCB
-                0x000000002000c2f0        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2ec        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_TCP_PCB_LISTEN
-                0x000000002000c2f4        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2f0        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_TCP_SEG
-                0x000000002000c2f8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2f4        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.memp_tab_UDP_PCB
-                0x000000002000c2fc        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x000000002000c2f8        0x4 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .bss.netif_default
-                0x000000002000c300        0x4 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
-                0x000000002000c300                netif_default
+                0x000000002000c2fc        0x4 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x000000002000c2fc                netif_default
  .bss.next_timeout
-                0x000000002000c304        0x4 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- .bss.object.0  0x000000002000c308       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x000000002000c300        0x4 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ .bss.object.0  0x000000002000c304       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  .bss.original_software_isr
-                0x000000002000c320        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c320                original_software_isr
+                0x000000002000c31c        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c31c                original_software_isr
  .bss.original_svc_isr
-                0x000000002000c324        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c324                original_svc_isr
+                0x000000002000c320        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c320                original_svc_isr
  .bss.reply_buffer
-                0x000000002000c328        0x8 ./build/./teensy4/usb.c.o
+                0x000000002000c324        0x8 ./build/./teensy4/usb.c.o
  .bss.rx_available
-                0x000000002000c330        0x4 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c32c        0x4 ./build/./teensy4/usb_serial2.c.o
  .bss.rx_available
-                0x000000002000c334        0x4 ./build/./teensy4/usb_serial.c.o
- .bss.rx_count  0x000000002000c338       0x10 ./build/./teensy4/usb_serial2.c.o
- .bss.rx_count  0x000000002000c348       0x10 ./build/./teensy4/usb_serial.c.o
- .bss.rx_index  0x000000002000c358       0x10 ./build/./teensy4/usb_serial2.c.o
- .bss.rx_index  0x000000002000c368       0x10 ./build/./teensy4/usb_serial.c.o
- .bss.rx_list   0x000000002000c378        0x5 ./build/./teensy4/usb_rawhid.c.o
- *fill*         0x000000002000c37d        0x3 
- .bss.rx_list   0x000000002000c380        0x9 ./build/./teensy4/usb_serial2.c.o
- *fill*         0x000000002000c389        0x3 
- .bss.rx_list   0x000000002000c38c        0x9 ./build/./teensy4/usb_serial.c.o
- *fill*         0x000000002000c395        0x3 
+                0x000000002000c330        0x4 ./build/./teensy4/usb_serial.c.o
+ .bss.rx_count  0x000000002000c334       0x10 ./build/./teensy4/usb_serial2.c.o
+ .bss.rx_count  0x000000002000c344       0x10 ./build/./teensy4/usb_serial.c.o
+ .bss.rx_index  0x000000002000c354       0x10 ./build/./teensy4/usb_serial2.c.o
+ .bss.rx_index  0x000000002000c364       0x10 ./build/./teensy4/usb_serial.c.o
+ .bss.rx_list   0x000000002000c374        0x5 ./build/./teensy4/usb_rawhid.c.o
+ *fill*         0x000000002000c379        0x3 
+ .bss.rx_list   0x000000002000c37c        0x9 ./build/./teensy4/usb_serial2.c.o
+ *fill*         0x000000002000c385        0x3 
+ .bss.rx_list   0x000000002000c388        0x9 ./build/./teensy4/usb_serial.c.o
+ *fill*         0x000000002000c391        0x3 
  .bss.s_entropySizeBytes
-                0x000000002000c398        0x4 ./build/./libraries/QNEthernet/src/security/entropy.c.o
+                0x000000002000c394        0x4 ./build/./libraries/QNEthernet/src/security/entropy.c.o
  .bss.s_hotCount
-                0x000000002000c39c        0x4 ./build/./teensy4/tempmon.c.o
+                0x000000002000c398        0x4 ./build/./teensy4/tempmon.c.o
  .bss.s_hotTemp
-                0x000000002000c3a0        0x4 ./build/./teensy4/tempmon.c.o
+                0x000000002000c39c        0x4 ./build/./teensy4/tempmon.c.o
  .bss.s_hot_ROOM
-                0x000000002000c3a4        0x4 ./build/./teensy4/tempmon.c.o
- .bss.s_mac     0x000000002000c3a8        0x6 ./build/./libraries/QNEthernet/src/lwip_driver.c.o
- *fill*         0x000000002000c3ae        0x2 
+                0x000000002000c3a0        0x4 ./build/./teensy4/tempmon.c.o
+ .bss.s_mac     0x000000002000c3a4        0x6 ./build/./libraries/QNEthernet/src/lwip_driver.c.o
+ *fill*         0x000000002000c3aa        0x2 
  .bss.s_roomC_hotC
-                0x000000002000c3b0        0x4 ./build/./teensy4/tempmon.c.o
+                0x000000002000c3ac        0x4 ./build/./teensy4/tempmon.c.o
  .bss.save_registers
-                0x000000002000c3b4       0x44 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c3b4                save_registers
+                0x000000002000c3b0       0x44 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c3b0                save_registers
  .bss.scale_cpu_cycles_to_microseconds
-                0x000000002000c3f8        0x4 ./build/./teensy4/delay.c.o
-                0x000000002000c3f8                scale_cpu_cycles_to_microseconds
+                0x000000002000c3f4        0x4 ./build/./teensy4/delay.c.o
+                0x000000002000c3f4                scale_cpu_cycles_to_microseconds
  .bss.send_message
-                0x000000002000c3fc      0x100 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000c3fc                send_message
+                0x000000002000c3f8      0x100 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000c3f8                send_message
  .bss.servoCont
-                0x000000002000c4fc        0x1 ./build/./src/main.cpp.o
-                0x000000002000c4fc                servoCont
- *fill*         0x000000002000c4fd        0x3 
- .bss.stack     0x000000002000c500        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c500                stack
+                0x000000002000c4f8        0x1 ./build/./src/main.cpp.o
+                0x000000002000c4f8                servoCont
+ *fill*         0x000000002000c4f9        0x3 
+ .bss.stack     0x000000002000c4fc        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c4fc                stack
  .bss.sw_breakpoint_addr
-                0x000000002000c504       0x80 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c504                sw_breakpoint_addr
+                0x000000002000c500       0x80 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c500                sw_breakpoint_addr
  .bss.sw_breakpoint_code
-                0x000000002000c584       0x40 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c584                sw_breakpoint_code
+                0x000000002000c580       0x40 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c580                sw_breakpoint_code
  .bss.systick_cycle_count
-                0x000000002000c5c4        0x4 ./build/./teensy4/delay.c.o
-                0x000000002000c5c4                systick_cycle_count
+                0x000000002000c5c0        0x4 ./build/./teensy4/delay.c.o
+                0x000000002000c5c0                systick_cycle_count
  .bss.systick_millis_count
-                0x000000002000c5c8        0x4 ./build/./teensy4/delay.c.o
-                0x000000002000c5c8                systick_millis_count
+                0x000000002000c5c4        0x4 ./build/./teensy4/delay.c.o
+                0x000000002000c5c4                systick_millis_count
  .bss.systick_safe_read
-                0x000000002000c5cc        0x4 ./build/./teensy4/delay.c.o
-                0x000000002000c5cc                systick_safe_read
+                0x000000002000c5c8        0x4 ./build/./teensy4/delay.c.o
+                0x000000002000c5c8                systick_safe_read
  .bss.tcp_active_pcbs
-                0x000000002000c5d0        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c5d0                tcp_active_pcbs
+                0x000000002000c5cc        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c5cc                tcp_active_pcbs
  .bss.tcp_bound_pcbs
-                0x000000002000c5d4        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c5d4                tcp_bound_pcbs
+                0x000000002000c5d0        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c5d0                tcp_bound_pcbs
  .bss.tcp_input_pcb
-                0x000000002000c5d8        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp_in.c.o
-                0x000000002000c5d8                tcp_input_pcb
+                0x000000002000c5d4        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp_in.c.o
+                0x000000002000c5d4                tcp_input_pcb
  .bss.tcp_listen_pcbs
-                0x000000002000c5dc        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c5dc                tcp_listen_pcbs
+                0x000000002000c5d8        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c5d8                tcp_listen_pcbs
  .bss.tcp_ticks
-                0x000000002000c5e0        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c5e0                tcp_ticks
+                0x000000002000c5dc        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c5dc                tcp_ticks
  .bss.tcp_tw_pcbs
-                0x000000002000c5e4        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c5e4                tcp_tw_pcbs
+                0x000000002000c5e0        0x4 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c5e0                tcp_tw_pcbs
  .bss.temp_breakpoint
-                0x000000002000c5e8        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c5e8                temp_breakpoint
+                0x000000002000c5e4        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c5e4                temp_breakpoint
  .bss.temp_breakpoint2
-                0x000000002000c5ec        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x000000002000c5ec                temp_breakpoint2
- .bss.udp_pcbs  0x000000002000c5f0        0x4 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
-                0x000000002000c5f0                udp_pcbs
+                0x000000002000c5e8        0x4 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x000000002000c5e8                temp_breakpoint2
+ .bss.udp_pcbs  0x000000002000c5ec        0x4 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x000000002000c5ec                udp_pcbs
  .bss.usb_cdc2_line_coding
-                0x000000002000c5f4        0x8 ./build/./teensy4/usb_serial2.c.o
-                0x000000002000c5f4                usb_cdc2_line_coding
+                0x000000002000c5f0        0x8 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c5f0                usb_cdc2_line_coding
  .bss.usb_cdc2_line_rtsdtr_millis
-                0x000000002000c5fc        0x4 ./build/./teensy4/usb_serial2.c.o
-                0x000000002000c5fc                usb_cdc2_line_rtsdtr_millis
+                0x000000002000c5f8        0x4 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c5f8                usb_cdc2_line_rtsdtr_millis
  .bss.usb_cdc_line_coding
-                0x000000002000c600        0x8 ./build/./teensy4/usb_serial.c.o
-                0x000000002000c600                usb_cdc_line_coding
+                0x000000002000c5fc        0x8 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c5fc                usb_cdc_line_coding
  .bss.usb_cdc_line_rtsdtr_millis
-                0x000000002000c608        0x4 ./build/./teensy4/usb_serial.c.o
-                0x000000002000c608                usb_cdc_line_rtsdtr_millis
+                0x000000002000c604        0x4 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c604                usb_cdc_line_rtsdtr_millis
  .bss.usb_timer0_callback
-                0x000000002000c60c        0x4 ./build/./teensy4/usb.c.o
-                0x000000002000c60c                usb_timer0_callback
+                0x000000002000c608        0x4 ./build/./teensy4/usb.c.o
+                0x000000002000c608                usb_timer0_callback
  .bss.usb_timer1_callback
-                0x000000002000c610        0x4 ./build/./teensy4/usb.c.o
-                0x000000002000c610                usb_timer1_callback
- .bss.xid.6     0x000000002000c614        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x000000002000c60c        0x4 ./build/./teensy4/usb.c.o
+                0x000000002000c60c                usb_timer1_callback
+ .bss.xid.6     0x000000002000c610        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .bss._ZL10hts_target
-                0x000000002000c618        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000c614        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
  .bss._ZL9readout_x
-                0x000000002000c61a        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000c616        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
  .bss._ZL9readout_y
-                0x000000002000c61c        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
+                0x000000002000c618        0x2 ./build/./libraries/Teensy_Camera/OV5640.cpp.o
  .bss.dma_channel_allocated_mask
-                0x000000002000c61e        0x2 ./build/./teensy4/DMAChannel.cpp.o
-                0x000000002000c61e                dma_channel_allocated_mask
- .bss.ip_id     0x000000002000c620        0x2 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+                0x000000002000c61a        0x2 ./build/./teensy4/DMAChannel.cpp.o
+                0x000000002000c61a                dma_channel_allocated_mask
+ .bss.ip_id     0x000000002000c61c        0x2 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
  .bss.rx_packet_size
+                0x000000002000c61e        0x2 ./build/./teensy4/usb_serial2.c.o
+ .bss.rx_packet_size
+                0x000000002000c620        0x2 ./build/./teensy4/usb_serial.c.o
+ .bss.tx_available
                 0x000000002000c622        0x2 ./build/./teensy4/usb_serial2.c.o
- .bss.rx_packet_size
+ .bss.tx_available
                 0x000000002000c624        0x2 ./build/./teensy4/usb_serial.c.o
- .bss.tx_available
+ .bss.tx_packet_size
                 0x000000002000c626        0x2 ./build/./teensy4/usb_serial2.c.o
- .bss.tx_available
+ .bss.tx_packet_size
                 0x000000002000c628        0x2 ./build/./teensy4/usb_serial.c.o
- .bss.tx_packet_size
-                0x000000002000c62a        0x2 ./build/./teensy4/usb_serial2.c.o
- .bss.tx_packet_size
-                0x000000002000c62c        0x2 ./build/./teensy4/usb_serial.c.o
  .bss._ZL10m_initDone
-                0x000000002000c62e        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x000000002000c62a        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .bss._ZL10m_version2
-                0x000000002000c62f        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x000000002000c62b        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .bss._ZL14m_highCapacity
-                0x000000002000c630        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x000000002000c62c        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .bss._ZL16m_transferActive
-                0x000000002000c631        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x000000002000c62d        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .bss._ZL9m_dmaBusy
-                0x000000002000c632        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x000000002000c62e        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .bss._ZN14EventResponder16runningFromYieldE
-                0x000000002000c633        0x1 ./build/./teensy4/EventResponder.cpp.o
-                0x000000002000c633                EventResponder::runningFromYield
+                0x000000002000c62f        0x1 ./build/./teensy4/EventResponder.cpp.o
+                0x000000002000c62f                EventResponder::runningFromYield
  .bss._ZN19HardwareSerialIMXRT34s_count_serials_with_serial_eventsE
-                0x000000002000c634        0x1 ./build/./teensy4/HardwareSerial.cpp.o
-                0x000000002000c634                HardwareSerialIMXRT::s_count_serials_with_serial_events
+                0x000000002000c630        0x1 ./build/./teensy4/HardwareSerial.cpp.o
+                0x000000002000c630                HardwareSerialIMXRT::s_count_serials_with_serial_events
  .bss._ZN9qindesign7networkL10netifAddedE
-                0x000000002000c635        0x1 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
+                0x000000002000c631        0x1 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
  .bss._ZN9qindesign7networkL12loopAttachedE
-                0x000000002000c636        0x1 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x000000002000c632        0x1 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .bss._ZZ5yieldE7running
-                0x000000002000c637        0x1 ./build/./teensy4/yield.cpp.o
+                0x000000002000c633        0x1 ./build/./teensy4/yield.cpp.o
  .bss._ZZN11ImageSensor9call_backEP13FlexIOHandlerE19count_SHIFSIEN_ints
-                0x000000002000c638        0x1 ./build/./libraries/Teensy_Camera/ImageSensor.cpp.o
+                0x000000002000c634        0x1 ./build/./libraries/Teensy_Camera/ImageSensor.cpp.o
  .bss._ZZN6SDFile4nameEvE8zeroterm
-                0x000000002000c639        0x1 ./build/./libraries/SD/SD.cpp.o
-                0x000000002000c639                SDFile::name()::zeroterm
+                0x000000002000c635        0x1 ./build/./libraries/SD/SD.cpp.o
+                0x000000002000c635                SDFile::name()::zeroterm
  .bss.calibrating
-                0x000000002000c63a        0x1 ./build/./teensy4/analog.c.o
+                0x000000002000c636        0x1 ./build/./teensy4/analog.c.o
  .bss.dhcp_pcb_refcount
-                0x000000002000c63b        0x1 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x000000002000c637        0x1 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .bss.external_psram_size
-                0x000000002000c63c        0x1 ./build/./teensy4/startup.c.o
-                0x000000002000c63c                external_psram_size
+                0x000000002000c638        0x1 ./build/./teensy4/startup.c.o
+                0x000000002000c638                external_psram_size
  .bss.mdns_netif_client_id
-                0x000000002000c63d        0x1 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x000000002000c639        0x1 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
  .bss.pbuf_free_ooseq_pending
-                0x000000002000c63e        0x1 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
-                0x000000002000c63e                pbuf_free_ooseq_pending
- .bss.rx_head   0x000000002000c63f        0x1 ./build/./teensy4/usb_rawhid.c.o
- .bss.rx_head   0x000000002000c640        0x1 ./build/./teensy4/usb_serial2.c.o
- .bss.rx_head   0x000000002000c641        0x1 ./build/./teensy4/usb_serial.c.o
- .bss.rx_tail   0x000000002000c642        0x1 ./build/./teensy4/usb_rawhid.c.o
- .bss.rx_tail   0x000000002000c643        0x1 ./build/./teensy4/usb_serial2.c.o
- .bss.rx_tail   0x000000002000c644        0x1 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c63a        0x1 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+                0x000000002000c63a                pbuf_free_ooseq_pending
+ .bss.rx_head   0x000000002000c63b        0x1 ./build/./teensy4/usb_rawhid.c.o
+ .bss.rx_head   0x000000002000c63c        0x1 ./build/./teensy4/usb_serial2.c.o
+ .bss.rx_head   0x000000002000c63d        0x1 ./build/./teensy4/usb_serial.c.o
+ .bss.rx_tail   0x000000002000c63e        0x1 ./build/./teensy4/usb_rawhid.c.o
+ .bss.rx_tail   0x000000002000c63f        0x1 ./build/./teensy4/usb_serial2.c.o
+ .bss.rx_tail   0x000000002000c640        0x1 ./build/./teensy4/usb_serial.c.o
  .bss.sof_usage
-                0x000000002000c645        0x1 ./build/./teensy4/usb.c.o
+                0x000000002000c641        0x1 ./build/./teensy4/usb.c.o
  .bss.tcp_active_pcbs_changed
-                0x000000002000c646        0x1 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
-                0x000000002000c646                tcp_active_pcbs_changed
+                0x000000002000c642        0x1 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x000000002000c642                tcp_active_pcbs_changed
  .bss.transmit_previous_timeout
-                0x000000002000c647        0x1 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c643        0x1 ./build/./teensy4/usb_serial2.c.o
  .bss.transmit_previous_timeout
-                0x000000002000c648        0x1 ./build/./teensy4/usb_serial.c.o
- .bss.tx_head   0x000000002000c649        0x1 ./build/./teensy4/usb_rawhid.c.o
- .bss.tx_head   0x000000002000c64a        0x1 ./build/./teensy4/usb_serial2.c.o
- .bss.tx_head   0x000000002000c64b        0x1 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c644        0x1 ./build/./teensy4/usb_serial.c.o
+ .bss.tx_head   0x000000002000c645        0x1 ./build/./teensy4/usb_rawhid.c.o
+ .bss.tx_head   0x000000002000c646        0x1 ./build/./teensy4/usb_serial2.c.o
+ .bss.tx_head   0x000000002000c647        0x1 ./build/./teensy4/usb_serial.c.o
  .bss.tx_noautoflush
-                0x000000002000c64c        0x1 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c648        0x1 ./build/./teensy4/usb_serial2.c.o
  .bss.tx_noautoflush
-                0x000000002000c64d        0x1 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c649        0x1 ./build/./teensy4/usb_serial.c.o
  .bss.usb_cdc2_line_rtsdtr
-                0x000000002000c64e        0x1 ./build/./teensy4/usb_serial2.c.o
-                0x000000002000c64e                usb_cdc2_line_rtsdtr
+                0x000000002000c64a        0x1 ./build/./teensy4/usb_serial2.c.o
+                0x000000002000c64a                usb_cdc2_line_rtsdtr
  .bss.usb_cdc_line_rtsdtr
-                0x000000002000c64f        0x1 ./build/./teensy4/usb_serial.c.o
-                0x000000002000c64f                usb_cdc_line_rtsdtr
+                0x000000002000c64b        0x1 ./build/./teensy4/usb_serial.c.o
+                0x000000002000c64b                usb_cdc_line_rtsdtr
  .bss.usb_configuration
-                0x000000002000c650        0x1 ./build/./teensy4/usb.c.o
-                0x000000002000c650                usb_configuration
+                0x000000002000c64c        0x1 ./build/./teensy4/usb.c.o
+                0x000000002000c64c                usb_configuration
  .bss.usb_high_speed
-                0x000000002000c651        0x1 ./build/./teensy4/usb.c.o
-                0x000000002000c651                usb_high_speed
+                0x000000002000c64d        0x1 ./build/./teensy4/usb.c.o
+                0x000000002000c64d                usb_high_speed
  .bss.usb_reboot_timer
-                0x000000002000c652        0x1 ./build/./teensy4/usb.c.o
+                0x000000002000c64e        0x1 ./build/./teensy4/usb.c.o
  .bss.yield_active_check_flags
-                0x000000002000c653        0x1 ./build/./teensy4/yield.cpp.o
-                0x000000002000c653                yield_active_check_flags
+                0x000000002000c64f        0x1 ./build/./teensy4/yield.cpp.o
+                0x000000002000c64f                yield_active_check_flags
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(COMMON)))
                 0x000000002000c660                . = ALIGN (0x20)
- *fill*         0x000000002000c654        0xc 
+ *fill*         0x000000002000c650       0x10 
                 0x000000002000c680                . = (. + 0x20)
  *fill*         0x000000002000c660       0x20 
 
@@ -16869,20 +16869,20 @@ LOAD ./build/./src/main.cpp.o
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.externalram)))
                 0x0000000070000000                . = ALIGN (0x20)
 
-.text.csf       0x000000006002f6dc      0xd24
+.text.csf       0x000000006002f71c      0xce4
  FILL mask 0xff
                 0x000000006002f800                . = ALIGN (0x400)
- *fill*         0x000000006002f6dc      0x124 ff
+ *fill*         0x000000006002f71c       0xe4 ff
  *(.csf)
  .csf           0x000000006002f800      0xc00 ./build/./teensy4/bootdata.c.o
                 0x000000006002f800                hab_csf
                 0x0000000060030400                __text_csf_end = .
                 0x0000000000000000                _stext = ADDR (.text.itcm)
-                0x0000000000024e18                _etext = ((ADDR (.text.itcm) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx))
+                0x0000000000024e58                _etext = ((ADDR (.text.itcm) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx))
                 0x0000000060003a00                _stextload = LOADADDR (.text.itcm)
                 0x0000000020000000                _sdata = ADDR (.data)
                 0x0000000020006ec0                _edata = (ADDR (.data) + SIZEOF (.data))
-                0x000000006002881c                _sdataload = LOADADDR (.data)
+                0x000000006002885c                _sdataload = LOADADDR (.data)
                 0x0000000020006ec0                _sbss = ADDR (.bss)
                 0x000000002000c680                _ebss = (ADDR (.bss) + SIZEOF (.bss))
                 0x000000002020ed60                _heap_start = (ADDR (.bss.dma) + SIZEOF (.bss.dma))

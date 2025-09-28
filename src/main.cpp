@@ -32,6 +32,7 @@ FlightController flightController(servoCont, imu, imuF, dartcam);
 #define CHOOSE_TEST_MAIN
 
 #ifdef CHOOSE_TEST_MAIN
+/*
 int main() {
   // setup
   Serial.begin(115200);
@@ -99,7 +100,7 @@ int main() {
     // uint32_t start_time = micros();
     // Position obj_pos;
 
-    /*
+
     // update framebuffers
     dartcam.read();
 
@@ -113,9 +114,11 @@ int main() {
 
     // print fps using elapsed time
     Serial.printf("FPS: %f\n", 1000000.0 / (micros() - start_time));
-    */
-  }
+
 }
+}
+
+*/
 
 #else
 
@@ -162,20 +165,19 @@ int main() {
 
 #endif
 
-/* frame over serial for converting into image
+// frame over serial for converting into image
 int main() {
-    dartcam.init();
-    int frame_count = 0;
-    while (true) {
-        dartcam.read();
-        if (frame_count % 40 == 0) {
-            Serial.println("BEGIN\n");
-            dartcam.send_frame_serial();
-            Serial.println("\nEND");
-        }
-        delay(500);
-        frame_count++;
+  dartcam.init();
+  int frame_count = 0;
+  while (true) {
+    dartcam.read();
+    if (frame_count % 40 == 0) {
+      Serial.println("BEGIN\n");
+      dartcam.send_frame_serial();
+      Serial.println("\nEND");
     }
-    return 0;
+    delay(500);
+    frame_count++;
+  }
+  return 0;
 }
-*/

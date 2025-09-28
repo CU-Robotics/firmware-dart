@@ -1,0 +1,50 @@
+# Ignore doxygen output directory. Shared documentation is handled by github-actions in a separate branch, not individuals' compilations sent here.
+/docs/html
+/docs/latex
+# Don't commit doxygen warnings log
+/docs/doxygen_warnings.txt
+
+# Ignore the build directory
+build
+build/
+
+# Ignore the output binaries
+*.elf
+*.hex
+
+# Ignore the output debug files
+*.dump
+*.map
+
+# Ignore the libraries
+*.a
+*.tar.xz
+
+# Ignore clangd files
+compile_commands.json
+.cache/
+.clangd
+
+# Ignore any tools/ directory artifacts
+tools/*.txt
+tools/*.out
+tools/git_scraper
+tools/custom_monitor
+tools/compiler
+tools/tools
+
+# Ignore the output from the git scraper
+src/git_info.h
+
+# Ignore MacOS files
+*.DS_Store
+
+# Ignore IDE configs
+.vscode
+.zed
+
+# Ignore Rust tool's build directory
+/tools/waggle-interceptor/target
+
+#ignore bear files
+.bearwrap

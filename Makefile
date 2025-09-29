@@ -42,13 +42,14 @@ LIBRARY_INC_DIRS := $(shell find $(LIBRARY_SRC_DIRS) -maxdepth 2 -type d)
 SRC_INC_DIRS := $(shell find $(SRC_SRC_DIRS) -type d)
 
 # Generate compiler include flags from include directories
-TEENSY_INC_FLAGS := $(addprefix -I,$(TEENSY_INC_DIRS))
-LIBRARY_INC_FLAGS := $(addprefix -I,$(LIBRARY_INC_DIRS))
+# -isystem on Teensy and Library files to suppress warnings
+TEENSY_INC_FLAGS := $(addprefix -isystem,$(TEENSY_INC_DIRS))
+LIBRARY_INC_FLAGS := $(addprefix -isystem,$(LIBRARY_INC_DIRS))
 SRC_INC_FLAGS := $(addprefix -I,$(SRC_INC_DIRS))
 INCLUDE_FLAGS := $(TEENSY_INC_FLAGS) $(LIBRARY_INC_FLAGS) $(SRC_INC_FLAGS)
 
 # Compiler flags specific to Teensy 4.1
-TEENSY4_FLAGS = -DF_CPU=600000000 -DUSB_CUSTOM -DLAYOUT_US_ENGLISH -D__IMXRT1062__ -DTEENSYDUINO=159 -DARDUINO_TEENSY41 -DARDUINO=10813
+TEENSY4_FLAGS = -DF_CPU=600000000 -DUSB_CUSTOM -DLAYOUT_US_ENGLISH -D__IMXRT1062__ -DTEENSYDUINO=159 -DARDUINO_TEENSY41 -DARDUINO=10813 -DFIRMWARE
 
 # CPU flags to optimize code for the Teensy processor
 CPU_CFLAGS = -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb
@@ -56,15 +57,23 @@ CPU_CFLAGS = -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-d16 -mthumb
 DEFINES := $(TEENSY4_FLAGS)
 
 # Preprocessor flags for both C and C++ files
-CPPFLAGS := $(INCLUDE_FLAGS) $(DEFINES) -MMD -MP -ffunction-sections -fdata-sections -O2
+# -MMD: Generate dependency files for each source file
+# -MP: Add a phony target for each dependency to avoid errors if the dependency is missing
+# -ffunction-sections: Place each function in its own section to allow the linker to remove unused functions
+# -fdata-sections: Place each variable in its own section to allow the linker to remove unused variables
+# -O2: Optimize the code for speed
+# --specs=nano.specs: Use newlib nano instead of full newlib to reduce binary size
+# -g3: Generate debug information for GDB. Level 3 includes the most information possible
+CPPFLAGS := $(INCLUDE_FLAGS) $(DEFINES) -MMD -MP -ffunction-sections -fdata-sections -O2 --specs=nano.specs -g3
 
 # Compiler flags for C files
 CFLAGS := $(CPU_CFLAGS)
 
 # Compiler flags for C++ files
-CXXFLAGS := $(CPU_CFLAGS) -std=gnu++17 \
+CXXFLAGS := $(CPU_CFLAGS) -std=gnu++23 \
             -felide-constructors -fno-exceptions -fpermissive -fno-rtti \
-            -Wno-error=narrowing -Wno-trigraphs -Wno-comment -Wall -Werror
+            -Wno-error=narrowing -Wno-trigraphs -Wno-comment -Wall -Werror \
+			-Wno-volatile
 
 # Linker flags, including Teensy-specific linker script
 # --gc-sections: Remove unused sections to reduce binary size
@@ -85,22 +94,18 @@ ifeq ($(UNAME),Linux)
 endif
 
 # Base arm-none-eabi and Teensyduino tool paths
-COMPILER_TOOLS_PATH := $(ARDUINO_PATH)/packages/teensy/tools/teensy-compile/11.3.1/arm/bin
-TEENSYDUINO_TOOLS_PATH := $(ARDUINO_PATH)/packages/teensy/tools/teensy-tools/1.59.0
+COMPILER_TOOLS_PATH = $(TOOLS_DIR)/compiler/arm-gnu-toolchain/bin
 
 # arm-none-eabi tools
-COMPILER_CPP	:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-g++
-COMPILER_C		:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-gcc
-AR				:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-ar
-GDB				:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-gdb
-OBJCOPY			:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-objcopy
-OBJDUMP			:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-objdump
-READELF			:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-readelf
-ADDR2LINE		:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-addr2line
-SIZE			:= $(COMPILER_TOOLS_PATH)/arm-none-eabi-size
-
-# Teensyduino tools
-TEENSY_SIZE		:= $(TEENSYDUINO_TOOLS_PATH)/teensy_size
+COMPILER_CPP	= $(COMPILER_TOOLS_PATH)/arm-none-eabi-g++
+COMPILER_C		= $(COMPILER_TOOLS_PATH)/arm-none-eabi-gcc
+AR				= $(COMPILER_TOOLS_PATH)/arm-none-eabi-ar
+GDB				= $(COMPILER_TOOLS_PATH)/arm-none-eabi-gdb
+OBJCOPY			= $(COMPILER_TOOLS_PATH)/arm-none-eabi-objcopy
+OBJDUMP			= $(COMPILER_TOOLS_PATH)/arm-none-eabi-objdump
+READELF			= $(COMPILER_TOOLS_PATH)/arm-none-eabi-readelf
+ADDR2LINE		= $(COMPILER_TOOLS_PATH)/arm-none-eabi-addr2line
+SIZE			= $(COMPILER_TOOLS_PATH)/arm-none-eabi-size
 
 # Path to the Git scraper tool source file
 GIT_SCRAPER = $(TOOLS_DIR)/git_scraper.cpp
@@ -110,6 +115,7 @@ MAKEFLAGS += -j$(nproc)
 
 # Phony target to force a build every time
 .PHONY: build
+
 
 # Main build target; depends on the target executable and git scraper
 build: $(BUILD_DIR)/$(TARGET_EXEC)
@@ -210,8 +216,8 @@ upload: build
 
 # Install required tools for building and uploading firmware
 install:
-	@$(TOOLS_DIR)/install_tytools.sh
-	@$(TOOLS_DIR)/install_arduino.sh
+	@bash $(TOOLS_DIR)/install_tytools.sh
+	@bash $(TOOLS_DIR)/install_compiler.sh
 
 
 # starts GDB and attaches to the firmware running on a connected Teensy
@@ -251,3 +257,46 @@ help:
 	@echo "  monitor:      monitors any actively running firmware and displays serial output"
 	@echo "  kill:         stops any running firmware"
 	@echo "  restart:      restarts any running firmware"
+
+
+# --- Compile DB generation with Bear -----------------------------------------
+.PHONY: cdb
+
+# Directory to host wrapper symlinks
+BEAR_WRAPDIR ?= .bearwrap
+
+# Try to find Bear's wrapper path on common installs
+# 1) Homebrew (stable path via /opt, not versioned Cellar)
+BEAR_WRAPPER ?= $(shell brew --prefix bear 2>/dev/null)/lib/bear/wrapper
+# 2) Fallbacks for typical Linux layouts
+ifeq ($(wildcard $(BEAR_WRAPPER)),)
+  BEAR_WRAPPER := /usr/lib/bear/wrapper
+endif
+ifeq ($(wildcard $(BEAR_WRAPPER)),)
+  BEAR_WRAPPER := /usr/lib/x86_64-linux-gnu/bear/wrapper
+endif
+
+# Run this target to generate compile_commands.json for clangd.
+# To make clangd parse our project correctly, configure extra args:
+# * --query-driver=/path/to/compiler so it trusts the cross-compiler in firmware/tools/compiler/arm-gnu-toolchain/bin
+# * --compile-args=-isystem./teensy4 and --compile-args=-isystem./libraries to silence errors in external headers
+# Add these in your IDE's clangd settings (e.g. .vscode/settings.json, .zed/settings.json, etc.).
+cdb:
+	@command -v bear >/dev/null || { echo "Error: bear not found in PATH"; exit 1; }
+	@test -x "$(BEAR_WRAPPER)" || { echo "Error: bear wrapper not found at $(BEAR_WRAPPER)"; exit 1; }
+	@echo "[cdb] Preparing Bear wrapper links in $(BEAR_WRAPDIR)"
+	@rm -f compile_commands.json compile_commands.events.json
+	@mkdir -p $(BEAR_WRAPDIR)
+	# Create wrapper symlinks named like your cross-compilers:
+	@ln -sf "$(BEAR_WRAPPER)" "$(BEAR_WRAPDIR)/arm-none-eabi-g++"
+	@ln -sf "$(BEAR_WRAPPER)" "$(BEAR_WRAPDIR)/arm-none-eabi-gcc"
+	# Put toolchain bin in PATH so the wrapper can find the real compilers,
+	# and ask Bear to put $(BEAR_WRAPDIR) at the *front* of PATH for interception.
+	@echo "[cdb] Running build through Bear to capture commands"
+	@PATH="$(COMPILER_TOOLS_PATH):$$PATH" \
+	bear --wrapper-dir "$(BEAR_WRAPDIR)" -- \
+	  $(MAKE) -B build \
+	  COMPILER_CPP=arm-none-eabi-g++ \
+	  COMPILER_C=arm-none-eabi-gcc
+	@{ command -v jq >/dev/null && jq 'length' compile_commands.json; } >/dev/null 2>&1 || true
+	@echo "[cdb] Done: compile_commands.json generated"

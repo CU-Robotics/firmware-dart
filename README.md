@@ -1,15 +1,16 @@
-# Firmware 
-This repo contains the source code for the CU Boulder Robotics Teams' microcontroller firmware. It runs on a PJRC Teensy 4.1 and interfaces with any device running `hive`.
+# firmware-dart
+
+todo
 
 ## Documentation
-You can find up-to-date documentation at [cu-robotics.github.io/firmware](cu-robotics.github.io/firmware/), compiled on merges to `main`.
+You can find up-to-date documentation at [cu-robotics.github.io/firmware-dart](cu-robotics.github.io/firmware/), compiled on merges to `main`.
 
 You can find our documentation guidelines at [docs/README](docs/README.md), and how to access your documentation before being merged to main.
 
 ## Installation
 To begin, clone the repository:
 ```bash
-git clone git@github.com:CU-Robotics/firmware.git
+git clone git@github.com:CU-Robotics/firmware-dart.git
 ```
 
 Then, install dependencies:
@@ -46,13 +47,12 @@ make help
 
 
 ## Contributing
-This repo follows the CU Robotics code standard:
-- Branches are categorized into three groups: `production`, `feature`, and `patch`.
-- Only authorized members can merge to `production` branches, such as `main`. All merges must go through a review and merge request. Direct pushes to `production` branches are strictly forbidden.
-- `feature` branches are named `feature-[featurename]` and contain major new features that require unit and integration testing.
-- `patch` branches are named `patch-[patchname]` and contain bugfixes and/or minor adjustments. Unit and integration testing is a soft requirement.
-- All software is required to pass formatting and build tests before being merged into a `production` branch.
-- Other branch-based style questions are answered in the [style guide](docs/README.md).
+`main` is the production branch, which is required to be in an always working state.
+- Only authorized members can merge to `main`. All merges must go through a review and pull request. Direct pushes to `main` branches are strictly forbidden.
+- To contribute, create a new branch with a descriptive name for your change. Create a pull request when done, and provide a short explanation for the change.
+- Pull Requests (PRs) should be as small as possible, dedicated to a specific purpose. A feature does not have to be complete for a pull request to be made, but what *is* added must be functional and tested. Multiple small PRs is better than one large PR.
+    - Smaller PRs are significantly faster to review and test, so expect a slower review process for massive PRs.
+- All software is required to pass [documentation](docs/README.md), build, and unit tests, and have all warnings resolved, before being merged into the `main` branch.
 
 ## Licensing
 This repository uses the MIT License, which covers the code and tools written for our robot firmware. See separate copyright/licensing information for the external libraries used in the repo (in the libaries/ and teensy4/ directories).

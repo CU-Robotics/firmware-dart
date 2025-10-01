@@ -7,7 +7,6 @@
 #include "IMU_filter.hpp"
 #include "ServoController.hpp"
 #include "core_pins.h"
-#include "git_info.h"
 #include "sensors/ICM20649.hpp"
 #include "usb_serial.h"
 #include "wiring.h"
